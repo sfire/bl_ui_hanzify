@@ -1543,7 +1543,7 @@ msgstr "显示标题栏菜单"
 
 #. :src: bpy.types.Area.spaces
 msgid "Spaces"
-msgstr "空格"
+msgstr "空间"
 
 #. :src: bpy.types.Area.spaces
 msgid "Spaces contained in this area, the first being the active space (NOTE: Useful for example to restore a previously used 3D view space in a certain area to get the old view orientation)"
@@ -22226,9 +22226,8 @@ msgstr ""
 
 #. :src: bpy.types.GizmoGroup.bl_space_type
 #. :src: bpy.types.Panel.bl_space_type
-#, fuzzy
 msgid "Space type"
-msgstr "相同类型"
+msgstr "空间类型"
 
 #. :src: bpy.types.GizmoGroup.bl_space_type
 #. :src: bpy.types.Panel.bl_space_type
@@ -41973,7 +41972,7 @@ msgstr ""
 
 #. :src: bpy.types.MeshSkinVertex
 msgid "Skin Vertex"
-msgstr "表皮顶点"
+msgstr "蒙皮顶点"
 
 #. :src: bpy.types.MeshSkinVertex
 #. :src: bpy.types.MeshSkinVertexLayer
@@ -42402,7 +42401,7 @@ msgstr "螺旋"
 #. :src: bpy.types.OBJECT_OT_gpencil_modifier_add.type:'SKIN'
 #. :src: bpy.types.OBJECT_OT_modifier_add.type:'SKIN'
 msgid "Skin"
-msgstr "表皮"
+msgstr "蒙皮"
 
 #. :src: bpy.types.Modifier.type:'SOLIDIFY'
 #. :src: bpy.types.OBJECT_OT_gpencil_modifier_add.type:'SOLIDIFY'
@@ -60272,9 +60271,8 @@ msgid "Export vertex normals with meshes"
 msgstr ""
 
 #. :src: bpy.types.EXPORT_SCENE_OT_gltf.export_skins
-#, fuzzy
 msgid "Skinning"
-msgstr "钉固"
+msgstr "蒙皮"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_gltf.export_skins
 msgid "Export skinning (armature) data"
@@ -60294,9 +60292,8 @@ msgid "Export UVs (texture coordinates) with meshes"
 msgstr ""
 
 #. :src: bpy.types.EXPORT_SCENE_OT_gltf.export_yup
-#, fuzzy
 msgid "+Y Up"
-msgstr "Y 向上"
+msgstr "+Y 向上"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_gltf.export_yup
 msgid "Export using glTF convention, +Y up"
@@ -63891,9 +63888,8 @@ msgid "Offset Planes From Each Other"
 msgstr ""
 
 #. :src: bpy.types.IMPORT_IMAGE_OT_to_plane.offset_amount
-#, fuzzy
 msgid "Space between planes"
-msgstr "孤岛间距"
+msgstr "平面间距"
 
 #. :src: bpy.types.IMPORT_IMAGE_OT_to_plane.offset_axis
 msgid "How planes are oriented relative to each others' local axis"
@@ -71651,7 +71647,7 @@ msgstr "展平所选顶点的夹角"
 #. :src: bpy.types.OBJECT_OT_skin_root_mark
 msgctxt "Operator"
 msgid "Skin Root Mark"
-msgstr "皮肤根部标识"
+msgstr "蒙皮根部标识"
 
 #. :src: bpy.types.OBJECT_OT_skin_root_mark
 msgid "Mark selected vertices as roots"
@@ -96307,7 +96303,7 @@ msgstr "锁定时间到其它窗口"
 
 #. :src: bpy.types.Space.type
 msgid "Space data type"
-msgstr "相同数据类型"
+msgstr "空间数据类型"
 
 #. :src: bpy.types.SpaceClipEditor
 msgid "Space Clip Editor"
@@ -97235,7 +97231,7 @@ msgstr "仅显示并允许编辑已选者的关键帧"
 
 #. :src: bpy.types.SpaceImageEditor
 msgid "Space Image Editor"
-msgstr "图像编辑器"
+msgstr "空间图像编辑器"
 
 #. :src: bpy.types.SpaceImageEditor
 msgid "Image and UV editor space data"
@@ -97426,7 +97422,7 @@ msgstr "缩放参数"
 
 #. :src: bpy.types.SpaceInfo
 msgid "Space Info"
-msgstr "系统信息"
+msgstr "空间信息"
 
 #. :src: bpy.types.SpaceInfo
 msgid "Info space data"
