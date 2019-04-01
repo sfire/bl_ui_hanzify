@@ -5,7 +5,7 @@
 
 近期本人突然意识到可以尝试用GitHub协作的方式完成UI的汉化，使用issue讨论用词争议。所以，也就新建了这个项目。
 
-欢迎Blender用户提提交修改，提报issue。
+欢迎Blender用户提交修改，提报issue。
 
 ## 关于汉化UI的原理
 Blender 的UI是通过 安装目录下的 `\datafiles\locale\zh_CN\LC_MESSAGES` 对应遗言文件夹下的 `blender.mo` 二进制文件实现多语言本地化的。

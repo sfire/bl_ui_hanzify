@@ -40,7 +40,7 @@ msgstr ""
 "Language: zh_CN\n"
 "=====X-Generator: Poedit 1.6.9\n"
 "Language: zh_CN>>>>>> .r306\n"
-"X-Generator: Poedit 2.2.1"
+"X-Generator: Poedit 2.2.1\n"
 
 #. :src: bpy.types.ActionFCurves
 msgid "Action F-Curves"
@@ -2685,8 +2685,7 @@ msgstr "无"
 #. :src: bpy.types.SceneEEVEE.use_gtao
 #. :src: bpy.types.ViewLayer.use_ao
 #. :src: bpy.types.ViewLayer.use_pass_ambient_occlusion
-#: scripts/addons/cycles/ui.py:720
-#: scripts/addons/cycles/ui.py:859
+#: scripts/addons/cycles/ui.py:720 scripts/addons/cycles/ui.py:859
 #: source/blender/nodes/shader/nodes/node_shader_eevee_specular.c:33
 msgid "Ambient Occlusion"
 msgstr "环境光遮蔽 (AO)"
@@ -2705,14 +2704,10 @@ msgstr "自发光"
 #. :src: bpy.types.BakeSettings.pass_filter:'DIRECT'
 #. :src: bpy.types.BakeSettings.use_pass_direct
 #. :src: bpy.types.OBJECT_OT_bake.pass_filter:'DIRECT'
-#: scripts/addons/cycles/ui.py:820
-#: scripts/addons/cycles/ui.py:828
-#: scripts/addons/cycles/ui.py:836
-#: scripts/addons/cycles/ui.py:844
-#: scripts/addons/cycles/ui.py:852
-#: scripts/addons/cycles/ui.py:954
-#: scripts/addons/cycles/ui.py:966
-#: scripts/addons/cycles/ui.py:978
+#: scripts/addons/cycles/ui.py:820 scripts/addons/cycles/ui.py:828
+#: scripts/addons/cycles/ui.py:836 scripts/addons/cycles/ui.py:844
+#: scripts/addons/cycles/ui.py:852 scripts/addons/cycles/ui.py:954
+#: scripts/addons/cycles/ui.py:966 scripts/addons/cycles/ui.py:978
 #: scripts/addons/cycles/ui.py:990
 msgid "Direct"
 msgstr "直接光"
@@ -2720,14 +2715,10 @@ msgstr "直接光"
 #. :src: bpy.types.BakeSettings.pass_filter:'INDIRECT'
 #. :src: bpy.types.BakeSettings.use_pass_indirect
 #. :src: bpy.types.OBJECT_OT_bake.pass_filter:'INDIRECT'
-#: scripts/addons/cycles/ui.py:821
-#: scripts/addons/cycles/ui.py:829
-#: scripts/addons/cycles/ui.py:837
-#: scripts/addons/cycles/ui.py:845
-#: scripts/addons/cycles/ui.py:853
-#: scripts/addons/cycles/ui.py:955
-#: scripts/addons/cycles/ui.py:967
-#: scripts/addons/cycles/ui.py:979
+#: scripts/addons/cycles/ui.py:821 scripts/addons/cycles/ui.py:829
+#: scripts/addons/cycles/ui.py:837 scripts/addons/cycles/ui.py:845
+#: scripts/addons/cycles/ui.py:853 scripts/addons/cycles/ui.py:955
+#: scripts/addons/cycles/ui.py:967 scripts/addons/cycles/ui.py:979
 #: scripts/addons/cycles/ui.py:991
 msgid "Indirect"
 msgstr "间接光"
@@ -2806,10 +2797,8 @@ msgstr "间接光"
 #. :src: bpy.types.View3DShading.color_type
 #. :src: bpy.types.View3DShading.single_color
 #. :src: bpy.types.View3DShading.wireframe_color_type
-#: scripts/addons/cycles/ui.py:822
-#: scripts/addons/cycles/ui.py:830
-#: scripts/addons/cycles/ui.py:838
-#: scripts/addons/cycles/ui.py:846
+#: scripts/addons/cycles/ui.py:822 scripts/addons/cycles/ui.py:830
+#: scripts/addons/cycles/ui.py:838 scripts/addons/cycles/ui.py:846
 #: scripts/startup/bl_ui/properties_data_gpencil.py:429
 #: scripts/startup/bl_ui/properties_data_shaderfx.py:72
 #: scripts/startup/bl_ui/properties_grease_pencil_common.py:330
@@ -2928,10 +2917,8 @@ msgstr "颜色"
 #. :src: bpy.types.OBJECT_OT_bake.type:'DIFFUSE'
 #. :src: bpy.types.CyclesRenderSettings.bake_type:'DIFFUSE'
 #. :src: bpy.types.CyclesVisibilitySettings.diffuse
-#: scripts/addons/cycles/ui.py:202
-#: scripts/addons/cycles/ui.py:418
-#: scripts/addons/cycles/ui.py:818
-#: scripts/addons/cycles/ui.py:950
+#: scripts/addons/cycles/ui.py:202 scripts/addons/cycles/ui.py:418
+#: scripts/addons/cycles/ui.py:818 scripts/addons/cycles/ui.py:950
 #: scripts/startup/bl_ui/space_userpref.py:1968
 msgid "Diffuse"
 msgstr "漫射"
@@ -2943,10 +2930,8 @@ msgstr "漫射"
 #. :src: bpy.types.OBJECT_OT_bake.type:'GLOSSY'
 #. :src: bpy.types.CyclesRenderSettings.bake_type:'GLOSSY'
 #. :src: bpy.types.CyclesVisibilitySettings.glossy
-#: scripts/addons/cycles/ui.py:203
-#: scripts/addons/cycles/ui.py:419
-#: scripts/addons/cycles/ui.py:826
-#: scripts/addons/cycles/ui.py:962
+#: scripts/addons/cycles/ui.py:203 scripts/addons/cycles/ui.py:419
+#: scripts/addons/cycles/ui.py:826 scripts/addons/cycles/ui.py:962
 msgid "Glossy"
 msgstr "光泽"
 
@@ -2956,10 +2941,8 @@ msgstr "光泽"
 #. :src: bpy.types.OBJECT_OT_bake.type:'TRANSMISSION'
 #. :src: bpy.types.CyclesRenderSettings.bake_type:'TRANSMISSION'
 #. :src: bpy.types.CyclesVisibilitySettings.transmission
-#: scripts/addons/cycles/ui.py:204
-#: scripts/addons/cycles/ui.py:421
-#: scripts/addons/cycles/ui.py:834
-#: scripts/addons/cycles/ui.py:974
+#: scripts/addons/cycles/ui.py:204 scripts/addons/cycles/ui.py:421
+#: scripts/addons/cycles/ui.py:834 scripts/addons/cycles/ui.py:974
 #: source/blender/nodes/shader/nodes/node_shader_bsdf_principled.c:39
 msgid "Transmission"
 msgstr "透射"
@@ -2969,8 +2952,7 @@ msgstr "透射"
 #. :src: bpy.types.OBJECT_OT_bake.pass_filter:'SUBSURFACE'
 #. :src: bpy.types.OBJECT_OT_bake.type:'SUBSURFACE'
 #. :src: bpy.types.CyclesRenderSettings.bake_type:'SUBSURFACE'
-#: scripts/addons/cycles/ui.py:210
-#: scripts/addons/cycles/ui.py:842
+#: scripts/addons/cycles/ui.py:210 scripts/addons/cycles/ui.py:842
 #: scripts/addons/cycles/ui.py:986
 #: source/blender/nodes/shader/nodes/node_shader_bsdf_principled.c:25
 msgid "Subsurface"
@@ -4689,8 +4671,7 @@ msgstr "逸出到此距离"
 #. :src: bpy.types.SceneDisplay.matcap_ssao_distance
 #. :src: bpy.types.SceneEEVEE.gtao_distance
 #. :src: bpy.types.WorldLighting.distance
-#: scripts/addons/cycles/ui.py:1034
-#: scripts/addons/cycles/ui.py:1487
+#: scripts/addons/cycles/ui.py:1034 scripts/addons/cycles/ui.py:1487
 #: scripts/addons/cycles/ui.py:2042
 #: scripts/startup/bl_ui/properties_constraint.py:222
 #: scripts/startup/bl_ui/properties_data_light.py:145
@@ -5129,8 +5110,7 @@ msgstr "所有规则平均"
 #. :src: bpy.types.SmokeFlowSettings.volume_density
 #. :src: bpy.types.SpaceView3D.show_stereo_3d_volume
 #. :src: bpy.types.ToolSettings.snap_elements:'VOLUME'
-#: scripts/addons/cycles/ui.py:211
-#: scripts/addons/cycles/ui.py:422
+#: scripts/addons/cycles/ui.py:211 scripts/addons/cycles/ui.py:422
 #: scripts/addons/cycles/ui.py:850
 #: source/blender/nodes/shader/nodes/node_shader_output_material.c:27
 #: source/blender/nodes/shader/nodes/node_shader_output_world.c:25
@@ -5839,9 +5819,8 @@ msgid "Has Auto Smooth"
 msgstr "具有自动光滑特性"
 
 #. :src: bpy.types.BrushCapabilitiesSculpt.has_direction
-#, fuzzy
 msgid "Has Direction"
-msgstr "光线方向"
+msgstr "存在方向"
 
 #. :src: bpy.types.BrushCapabilitiesSculpt.has_gravity
 msgid "Has Gravity"
@@ -6288,9 +6267,8 @@ msgstr ""
 
 #. :src: bpy.types.BrushGpencilSettings.fill_draw_mode:'CONTROL'
 #: scripts/startup/bl_ui/space_view3d.py:5501
-#, fuzzy
 msgid "Edit Lines"
-msgstr "编辑骨骼"
+msgstr "编辑线条"
 
 #. :src: bpy.types.BrushGpencilSettings.fill_draw_mode:'CONTROL'
 msgid "Use edit lines as fill boundary limits"
@@ -6394,18 +6372,16 @@ msgid "Grease Pencil Icon"
 msgstr "蜡笔图标"
 
 #. :src: bpy.types.BrushGpencilSettings.gp_icon:'PENCIL'
-#, fuzzy
 msgid "Pencil"
-msgstr "蜡笔"
+msgstr "铅笔"
 
 #. :src: bpy.types.BrushGpencilSettings.gp_icon:'PEN'
 msgid "Pen"
-msgstr ""
+msgstr "钢笔"
 
 #. :src: bpy.types.BrushGpencilSettings.gp_icon:'INK'
-#, fuzzy
 msgid "Ink"
-msgstr "输入"
+msgstr ""
 
 #. :src: bpy.types.BrushGpencilSettings.gp_icon:'INKNOISE'
 msgid "Ink Noise"
@@ -6455,14 +6431,12 @@ msgid "Eraser Soft"
 msgstr ""
 
 #. :src: bpy.types.BrushGpencilSettings.gp_icon:'HARD'
-#, fuzzy
 msgid "Eraser Hard"
-msgstr "擦除半径"
+msgstr "橡皮擦硬度"
 
 #. :src: bpy.types.BrushGpencilSettings.gp_icon:'STROKE'
-#, fuzzy
 msgid "Eraser Stroke"
-msgstr "粘贴笔触"
+msgstr "擦除笔触"
 
 #. :src: bpy.types.BrushGpencilSettings.input_samples
 #. :src: bpy.types.Paint.input_samples
@@ -9346,8 +9320,7 @@ msgstr "逆时针"
 #. :src: bpy.types.TransformSequence.interpolation
 #. :src: bpy.types.ShapeKey.interpolation
 #. :src: bpy.types.SmokeDomainSettings.display_interpolation
-#: scripts/addons/cycles/ui.py:1612
-#: scripts/addons/cycles/ui.py:1743
+#: scripts/addons/cycles/ui.py:1612 scripts/addons/cycles/ui.py:1743
 #: scripts/startup/bl_ui/properties_mask_common.py:145
 #: source/blender/editors/space_node/drawnode.c:840
 #: source/blender/makesrna/intern/rna_curve.c:63
@@ -10791,8 +10764,7 @@ msgstr "X"
 #. :src: bpy.types.TEXT_OT_cursor_set.y
 #. :src: bpy.types.UV_OT_select_circle.y
 #. :src: bpy.types.VIEW3D_OT_select_circle.y
-#: scripts/addons/cycles/ui.py:623
-#: scripts/addons/cycles/ui.py:1357
+#: scripts/addons/cycles/ui.py:623 scripts/addons/cycles/ui.py:1357
 #: scripts/startup/bl_ui/properties_constraint.py:104
 #: scripts/startup/bl_ui/properties_constraint.py:110
 #: scripts/startup/bl_ui/properties_constraint.py:116
@@ -13268,8 +13240,7 @@ msgstr "估算时刻"
 #. :src: bpy.types.RENDER_PT_simplify_viewport
 #. :src: bpy.types.Preferences.active_section:'VIEWPORT'
 #. :src: bpy.types.View3DShading.background_type:'VIEWPORT'
-#: scripts/addons/cycles/ui.py:174
-#: scripts/addons/cycles/ui.py:180
+#: scripts/addons/cycles/ui.py:174 scripts/addons/cycles/ui.py:180
 #: scripts/startup/bl_ui/properties_physics_fluid.py:201
 #: scripts/startup/bl_ui/properties_render.py:414
 msgid "Viewport"
@@ -13294,8 +13265,7 @@ msgstr ""
 #. :src: bpy.types.ShaderFx.show_render
 #. :src: bpy.types.SpaceProperties.context:'RENDER'
 #. :src: Add-ons' categories
-#: scripts/addons/cycles/ui.py:173
-#: scripts/addons/cycles/ui.py:179
+#: scripts/addons/cycles/ui.py:173 scripts/addons/cycles/ui.py:179
 #: scripts/startup/bl_ui/properties_data_metaball.py:63
 #: scripts/startup/bl_ui/properties_data_modifier.py:649
 #: scripts/startup/bl_ui/properties_data_modifier.py:1027
@@ -13364,9 +13334,8 @@ msgstr ""
 #. :src: bpy.types.ViewLayer
 #: scripts/startup/bl_ui/properties_data_gpencil.py:198
 #: source/blender/blenkernel/intern/layer.c:160
-#, fuzzy
 msgid "View Layer"
-msgstr "新建层"
+msgstr "视图层"
 
 #. :src: bpy.types.Depsgraph.view_layer
 #. :src: bpy.types.Depsgraph.view_layer_eval
@@ -17133,12 +17102,10 @@ msgid "Field settings for an object in physics simulation"
 msgstr "物体仿真的物体力场设置"
 
 #. :src: bpy.types.FieldSettings.apply_to_location
-#, fuzzy
 msgid "Affect particle's location"
 msgstr "影响粒子的位置"
 
 #. :src: bpy.types.FieldSettings.apply_to_rotation
-#, fuzzy
 msgid "Affect particle's dynamic rotation"
 msgstr "粒子的动态转动效果"
 
@@ -17248,8 +17215,7 @@ msgstr "簇集的数量"
 #. :src: bpy.types.DATA_PT_shape_curve
 #. :src: bpy.types.PHYSICS_PT_cloth_shape
 #. :src: bpy.types.CyclesCurveRenderSettings.shape
-#: scripts/addons/cycles/ui.py:363
-#: scripts/addons/cycles/ui.py:1350
+#: scripts/addons/cycles/ui.py:363 scripts/addons/cycles/ui.py:1350
 #: scripts/startup/bl_ui/properties_object.py:287
 #: scripts/startup/bl_ui/properties_particle.py:1793
 #: scripts/startup/bl_ui/properties_physics_field.py:213
@@ -17531,8 +17497,7 @@ msgstr ""
 #. :src: bpy.types.SmokeFlowSettings.texture_size
 #. :src: bpy.types.TextureSlot.scale
 #. :src: bpy.types.ParticleSettingsTextureSlot.use_map_size
-#: scripts/addons/cycles/ui.py:1410
-#: scripts/addons/cycles/ui.py:1056
+#: scripts/addons/cycles/ui.py:1410 scripts/addons/cycles/ui.py:1056
 #: scripts/addons/cycles/ui.py:1348
 #: scripts/startup/bl_ui/properties_data_camera.py:374
 #: scripts/startup/bl_ui/properties_data_camera.py:201
@@ -20806,9 +20771,8 @@ msgid "Frame currently being displayed for this layer"
 msgstr "当前图层上显示的帧"
 
 #. :src: bpy.types.GPencilLayer.annotation_hide
-#, fuzzy
 msgid "Set annotation Visibility"
-msgstr "设置层的可见性"
+msgstr "设置标注可见性"
 
 #. :src: bpy.types.GPencilLayer.annotation_onion_after_color
 #. :src: bpy.types.GreasePencil.after_color
@@ -22388,7 +22352,7 @@ msgstr ""
 #: scripts/startup/bl_ui/space_view3d_toolbar.py:1187
 #: scripts/startup/bl_ui/space_view3d_toolbar.py:1424
 msgid "Mirror"
-msgstr "镜射"
+msgstr "镜像"
 
 #. :src: bpy.types.GpencilModifier.type:'GP_MIRROR'
 msgid "Duplicate strokes like a mirror"
@@ -25319,9 +25283,8 @@ msgid "Space daubs according to surface orientation instead of screen space"
 msgstr "间隔颜料参照表层的坐标空间, 而非屏幕坐标空间"
 
 #. :src: bpy.types.Brush.use_alpha
-#, fuzzy
 msgid "Affect Alpha"
-msgstr "设置 Alpha"
+msgstr "影响Alpha"
 
 #. :src: bpy.types.Brush.use_alpha
 msgid "When this is disabled, lock alpha while painting"
@@ -25407,9 +25370,8 @@ msgstr "压力越轻, 则越平滑"
 
 #. :src: bpy.types.Brush.use_locked_size
 #. :src: bpy.types.UnifiedPaintSettings.use_locked_size
-#, fuzzy
 msgid "Radius Unit"
-msgstr "半径最小值"
+msgstr "半径单位"
 
 #. :src: bpy.types.Brush.use_locked_size
 msgid "Measure brush size relative to the view or the scene"
@@ -25930,7 +25892,7 @@ msgstr ""
 
 #. :src: bpy.types.Camera.show_composition_golden
 msgid "Golden Ratio"
-msgstr ""
+msgstr "黄金比例"
 
 #. :src: bpy.types.Camera.show_composition_golden
 msgid "Display golden ratio composition guide inside the camera view"
@@ -27676,9 +27638,8 @@ msgstr ""
 
 #. :src: bpy.types.GreasePencil.stroke_thickness_space:'SCREENSPACE'
 #: scripts/startup/bl_ui/space_view3d.py:4695
-#, fuzzy
 msgid "Screen Space"
-msgstr "屏幕平衡"
+msgstr "屏幕空间"
 
 #. :src: bpy.types.GreasePencil.stroke_thickness_space:'SCREENSPACE'
 msgid "Set stroke thickness relative to the screen space"
@@ -28309,7 +28270,6 @@ msgstr "使用图像中的 Alpha 通道信息或使图像完全不透明"
 #. :src: bpy.types.MovieSequence.use_deinterlace
 #. :src: bpy.types.SceneSequence.use_deinterlace
 #: source/blender/editors/space_image/image_buttons.c:1000
-#, fuzzy
 msgid "Deinterlace"
 msgstr "反交错"
 
@@ -29599,9 +29559,8 @@ msgid "Shadow Mode"
 msgstr ""
 
 #. :src: bpy.types.Material.shadow_method
-#, fuzzy
 msgid "Shadow mapping method"
-msgstr "采样方法"
+msgstr "阴影映射方法"
 
 #. :src: bpy.types.Material.shadow_method:'NONE'
 msgid "Material will cast no shadow"
@@ -34567,8 +34526,7 @@ msgstr "大理石纹理"
 #. :src: bpy.types.MaterialGPencilStyle.use_stroke_pattern
 #. :src: bpy.types.NODE_MT_category_TEX_PATTERN
 #. :src: bpy.types.OBJECT_OT_select_pattern.pattern
-#: scripts/addons/cycles/ui.py:233
-#: scripts/startup/bl_ui/space_clip.py:72
+#: scripts/addons/cycles/ui.py:233 scripts/startup/bl_ui/space_clip.py:72
 msgid "Pattern"
 msgstr "图案"
 
@@ -39423,8 +39381,7 @@ msgstr "多边形化"
 #. :src: bpy.types.CYCLES_RENDER_PT_sampling
 #. :src: bpy.types.RENDER_PT_eevee_sampling
 #. :src: bpy.types.TEXTURE_PT_image_sampling
-#: scripts/addons/cycles/ui.py:1576
-#: scripts/addons/cycles/ui.py:1611
+#: scripts/addons/cycles/ui.py:1576 scripts/addons/cycles/ui.py:1611
 #: scripts/addons/cycles/ui.py:1742
 msgid "Sampling"
 msgstr "采样"
@@ -41316,9 +41273,8 @@ msgid "Interpolate"
 msgstr "插值"
 
 #. :src: bpy.types.VIEW3D_MT_edit_lattice_context_menu
-#, fuzzy
 msgid "Lattice Context Menu"
-msgstr "枚举菜单情境"
+msgstr "晶格上下文菜单"
 
 #. :src: bpy.types.VIEW3D_MT_edit_mesh
 #. :src: bpy.types.VIEW3D_MT_mesh_add
@@ -41430,9 +41386,8 @@ msgid "Special Characters"
 msgstr "特殊字符"
 
 #. :src: bpy.types.VIEW3D_MT_edit_text_context_menu
-#, fuzzy
 msgid "Text Context Menu"
-msgstr "枚举菜单情境"
+msgstr "文本上下文菜单"
 
 #. :src: bpy.types.VIEW3D_MT_gpencil_autoweights
 #, fuzzy
@@ -41584,9 +41539,8 @@ msgstr "视图切换"
 
 #. :src: bpy.types.VIEW3D_MT_view_regions
 #: scripts/startup/bl_ui/space_view3d.py:603
-#, fuzzy
 msgid "View Regions"
-msgstr "3D 视图区"
+msgstr "视图区"
 
 #. :src: bpy.types.VIEW3D_MT_view_viewpoint
 msgid "Viewpoint"
@@ -45920,9 +45874,8 @@ msgid "Try to preserve custom normals (WARNING: depending on chosen triangulatio
 msgstr ""
 
 #. :src: bpy.types.TriangulateModifier.min_vertices
-#, fuzzy
 msgid "Minimum Vertices"
-msgstr "最小厚度"
+msgstr "最少顶点"
 
 #. :src: bpy.types.TriangulateModifier.min_vertices
 msgid "Triangulate only polygons with vertex count greater than or equal to this number"
@@ -53999,15 +53952,13 @@ msgstr ""
 
 #. :src: bpy.types.ANIM_OT_driver_button_edit
 #: source/blender/editors/interface/interface_context_menu.c:516
-#, fuzzy
 msgctxt "Operator"
 msgid "Edit Driver"
 msgstr "编辑驱动器"
 
 #. :src: bpy.types.ANIM_OT_driver_button_edit
-#, fuzzy
 msgid "Edit the drivers for the property connected represented by the highlighted button"
-msgstr "为高亮按钮所链接的属性移除驱动器"
+msgstr "为高亮按钮所链接的属性编辑驱动器"
 
 #. :src: bpy.types.ANIM_OT_driver_button_remove
 msgctxt "Operator"
@@ -59160,9 +59111,8 @@ msgstr ""
 
 #. :src: bpy.types.CYCLES_OT_denoise_animation.output_filepath
 #. :src: bpy.types.CYCLES_OT_merge_images.output_filepath
-#, fuzzy
 msgid "Output Filepath"
-msgstr "输出文件槽"
+msgstr "输出文件路径"
 
 #. :src: bpy.types.CYCLES_OT_denoise_animation.output_filepath
 msgid "If not specified, renders will be denoised in-place"
@@ -61747,9 +61697,8 @@ msgid "Annotation Unlink"
 msgstr ""
 
 #. :src: bpy.types.GPENCIL_OT_data_unlink
-#, fuzzy
 msgid "Unlink active Annotation data-block"
-msgstr "断开激活文本数据块的链接"
+msgstr "断开活动标注数据块的关联"
 
 #. :src: bpy.types.GPENCIL_OT_delete
 msgid "Delete selected Grease Pencil strokes, vertices, or frames"
@@ -64954,10 +64903,9 @@ msgstr "根据属性类型选择相似的骨骼"
 
 #. :src: bpy.types.MESH_OT_average_normals
 #: scripts/startup/bl_ui/space_view3d.py:3396
-#, fuzzy
 msgctxt "Operator"
 msgid "Average Normals"
-msgstr "生成法线"
+msgstr "平均法线"
 
 #. :src: bpy.types.MESH_OT_average_normals
 msgid "Average custom normals of selected vertices"
@@ -69216,9 +69164,8 @@ msgid "Mouse Y"
 msgstr "鼠标 Y 向"
 
 #. :src: bpy.types.NODE_OT_select.socket_select
-#, fuzzy
 msgid "Socket Select"
-msgstr "设置选择"
+msgstr "端口选择"
 
 #. :src: bpy.types.NODE_OT_select_all
 msgid "(De)select all nodes"
@@ -71825,9 +71772,8 @@ msgstr "要传递的数据"
 
 #. :src: bpy.types.OBJECT_OT_transforms_to_deltas.mode:'ALL'
 #: scripts/startup/bl_ui/space_view3d.py:2036
-#, fuzzy
 msgid "All Transforms"
-msgstr "变换"
+msgstr "全部变换"
 
 #. :src: bpy.types.OBJECT_OT_transforms_to_deltas.mode:'ALL'
 msgid "Transfer location, rotation, and scale transforms"
@@ -72533,10 +72479,9 @@ msgstr ""
 
 #. :src: bpy.types.OUTLINER_OT_collection_objects_deselect
 #: scripts/startup/bl_ui/space_outliner.py:208
-#, fuzzy
 msgctxt "Operator"
 msgid "Deselect Objects"
-msgstr "选定的物体"
+msgstr "取消物体全选"
 
 #. :src: bpy.types.OUTLINER_OT_collection_objects_deselect
 msgid "Deselect objects in collection"
@@ -72544,10 +72489,9 @@ msgstr ""
 
 #. :src: bpy.types.OUTLINER_OT_collection_objects_select
 #: scripts/startup/bl_ui/space_outliner.py:207
-#, fuzzy
 msgctxt "Operator"
 msgid "Select Objects"
-msgstr "选定的物体"
+msgstr "选择物体"
 
 #. :src: bpy.types.OUTLINER_OT_collection_objects_select
 msgid "Select objects in collection"
@@ -72640,20 +72584,18 @@ msgid "Update the item highlight based on the current mouse position"
 msgstr ""
 
 #. :src: bpy.types.OUTLINER_OT_id_copy
-#, fuzzy
 msgctxt "Operator"
 msgid "Outliner ID Data Copy"
-msgstr "大纲 ID 数据操作"
+msgstr "大纲 ID 数据复制"
 
 #. :src: bpy.types.OUTLINER_OT_id_copy
 msgid "Selected data-blocks are copied to the clipboard"
 msgstr ""
 
 #. :src: bpy.types.OUTLINER_OT_id_delete
-#, fuzzy
 msgctxt "Operator"
 msgid "Delete Data-Block"
-msgstr "图案数据块"
+msgstr "删除数据块"
 
 #. :src: bpy.types.OUTLINER_OT_id_delete
 #, fuzzy
@@ -72688,14 +72630,13 @@ msgstr ""
 #. :src: bpy.types.OUTLINER_OT_id_operation.type:'REMAP'
 #. :src: bpy.types.OUTLINER_OT_object_operation.type:'REMAP'
 msgid "Remap Users"
-msgstr ""
+msgstr "重新映射用户"
 
 #. :src: bpy.types.OUTLINER_OT_id_operation.type:'REMAP'
 msgid "Make all users of selected data-blocks to use instead current (clicked) one"
 msgstr ""
 
 #. :src: bpy.types.OUTLINER_OT_id_operation.type:'PASTE'
-#, fuzzy
 msgid "Paste"
 msgstr "粘贴"
 
@@ -72704,7 +72645,6 @@ msgid "Add Fake User"
 msgstr "添加伪用户"
 
 #. :src: bpy.types.OUTLINER_OT_id_operation.type:'ADD_FAKE'
-#, fuzzy
 msgid "Ensure data-block gets saved even if it isn't in use (e.g. for motion and material libraries)"
 msgstr "确保数据块被保存, 即使未被使用 (例如, 对于运动库及材质库而言)"
 
@@ -72719,20 +72659,18 @@ msgid "Rename"
 msgstr "重命名"
 
 #. :src: bpy.types.OUTLINER_OT_id_paste
-#, fuzzy
 msgctxt "Operator"
 msgid "Outliner ID Data Paste"
-msgstr "大纲 ID 数据操作"
+msgstr "大纲 ID 数据粘贴"
 
 #. :src: bpy.types.OUTLINER_OT_id_paste
 msgid "Data-blocks from the clipboard are pasted"
 msgstr ""
 
 #. :src: bpy.types.OUTLINER_OT_id_remap
-#, fuzzy
 msgctxt "Operator"
 msgid "Outliner ID data Remap"
-msgstr "大纲 ID 数据操作"
+msgstr "大纲 ID 数据重映射"
 
 #. :src: bpy.types.OUTLINER_OT_id_remap.new_id
 msgid "New ID"
@@ -80552,20 +80490,17 @@ msgid "Objects from the clipboard are pasted"
 msgstr ""
 
 #. :src: bpy.types.VIEW3D_OT_pastebuffer.active_collection
-#, fuzzy
 msgid "Put pasted objects in the active collection"
-msgstr "放置链接对象到激活层上"
+msgstr "将被粘贴对象放置到活动集合上"
 
 #. :src: bpy.types.VIEW3D_OT_pastebuffer.autoselect
-#, fuzzy
 msgid "Select pasted objects"
-msgstr "选择新物体"
+msgstr "选择被粘贴物体"
 
 #. :src: bpy.types.VIEW3D_OT_render_border
-#, fuzzy
 msgctxt "Operator"
 msgid "Set Render Region"
-msgstr "设置渲染尺寸"
+msgstr "设置渲染区域"
 
 #. :src: bpy.types.VIEW3D_OT_render_border
 msgid "Set the boundaries of the border render and enable border render"
@@ -80583,12 +80518,12 @@ msgstr "旋转视图"
 #. :src: bpy.types.VIEW3D_OT_ruler_add
 msgctxt "Operator"
 msgid "Ruler Add"
-msgstr ""
+msgstr "添加量尺"
 
 #. :src: bpy.types.VIEW3D_OT_ruler_remove
 msgctxt "Operator"
 msgid "Ruler Remove"
-msgstr ""
+msgstr "删除量尺"
 
 #. :src: bpy.types.VIEW3D_OT_select
 msgid "Select and activate item(s)"
@@ -80599,9 +80534,8 @@ msgid "Use the object center when selecting, in editmode used to extend object s
 msgstr "选择时使用物体的中心(仅为选择挤出物体的编辑模式)"
 
 #. :src: bpy.types.VIEW3D_OT_select.deselect_all
-#, fuzzy
 msgid "Deselect all when nothing under the cursor"
-msgstr "选择光标下的节点"
+msgstr "当光标下方没有物体时全部取消选择"
 
 #. :src: bpy.types.VIEW3D_OT_select.enumerate
 msgid "Enumerate"
@@ -80825,15 +80759,13 @@ msgstr "从后面察看"
 
 #. :src: bpy.types.VIEW3D_OT_view_camera
 #: scripts/startup/bl_ui/space_view3d.py:4163
-#, fuzzy
 msgctxt "Operator"
 msgid "View Camera"
-msgstr "视图名称"
+msgstr "视图相机"
 
 #. :src: bpy.types.VIEW3D_OT_view_camera
-#, fuzzy
 msgid "Toggle the camera view"
-msgstr "居中显示摄像机视角"
+msgstr "切换摄像机视角"
 
 #. :src: bpy.types.VIEW3D_OT_view_center_camera
 msgctxt "Operator"
@@ -84078,21 +84010,18 @@ msgid "Fluid Presets"
 msgstr "流体预设"
 
 #. :src: bpy.types.IMAGE_PT_paint_clone
-#, fuzzy
 msgid "Clone from Image/UV Map"
 msgstr "从图像/ UV 贴图克隆"
 
 #. :src: bpy.types.IMAGE_PT_paint_color
 #. :src: bpy.types.VIEW3D_PT_tools_brush_color
-#, fuzzy
 msgid "Color Picker"
-msgstr "拾色器类型"
+msgstr "拾色器"
 
 #. :src: bpy.types.IMAGE_PT_paint_swatches
 #. :src: bpy.types.VIEW3D_PT_tools_brush_swatches
-#, fuzzy
 msgid "Color Palette"
-msgstr "色彩路径"
+msgstr "调色盘"
 
 #. :src: bpy.types.IMAGE_PT_sample_line
 #. :src: bpy.types.IMAGE_PT_scope_sample
@@ -84109,7 +84038,6 @@ msgid "Sample Line"
 msgstr "采样线"
 
 #. :src: bpy.types.IMAGE_PT_tools_active Tools: 'VIEW', 'builtin.sample'
-#, fuzzy
 msgctxt "Operator"
 msgid "Sample"
 msgstr "采样"
@@ -84130,7 +84058,6 @@ msgstr ""
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'EDIT_METABALL', 'builtin.annotate'
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'EDIT_LATTICE', 'builtin.annotate'
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'EDIT_TEXT', 'builtin.annotate'
-#, fuzzy
 msgctxt "Operator"
 msgid "Annotate"
 msgstr "标注"
@@ -84147,10 +84074,9 @@ msgstr "标注"
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'EDIT_METABALL', 'builtin.annotate_line'
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'EDIT_LATTICE', 'builtin.annotate_line'
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'EDIT_TEXT', 'builtin.annotate_line'
-#, fuzzy
 msgctxt "Operator"
 msgid "Annotate Line"
-msgstr "标注"
+msgstr "标注直线"
 
 #. :src: bpy.types.IMAGE_PT_tools_active Tools: 'VIEW', 'builtin.annotate_polygon'
 #. :src: bpy.types.IMAGE_PT_tools_active Tools: 'UV', 'builtin.annotate_polygon'
@@ -84166,7 +84092,7 @@ msgstr "标注"
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'EDIT_TEXT', 'builtin.annotate_polygon'
 msgctxt "Operator"
 msgid "Annotate Polygon"
-msgstr ""
+msgstr "标注多段线"
 
 #. :src: bpy.types.IMAGE_PT_tools_active Tools: 'VIEW', 'builtin.annotate_eraser'
 #. :src: bpy.types.IMAGE_PT_tools_active Tools: 'UV', 'builtin.annotate_eraser'
@@ -84182,7 +84108,7 @@ msgstr ""
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'EDIT_TEXT', 'builtin.annotate_eraser'
 msgctxt "Operator"
 msgid "Annotate Eraser"
-msgstr ""
+msgstr "标注橡皮擦"
 
 #. :src: bpy.types.IMAGE_PT_tools_active Tools: 'UV', 'builtin.select_box'
 #. :src: bpy.types.NODE_PT_tools_active Tools: 'None', 'builtin.select_box'
@@ -84197,10 +84123,9 @@ msgstr ""
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'PARTICLE', 'builtin.select_box'
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'EDIT_GPENCIL', 'builtin.select_box'
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'SCULPT_GPENCIL', 'builtin.select_box'
-#, fuzzy
 msgctxt "Operator"
 msgid "Select Box"
-msgstr "选取槽"
+msgstr "框选"
 
 #. :src: bpy.types.IMAGE_PT_tools_active Tools: 'UV', 'builtin.select_circle'
 #. :src: bpy.types.NODE_PT_tools_active Tools: 'None', 'builtin.select_circle'
@@ -84215,10 +84140,9 @@ msgstr "选取槽"
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'PARTICLE', 'builtin.select_circle'
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'EDIT_GPENCIL', 'builtin.select_circle'
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'SCULPT_GPENCIL', 'builtin.select_circle'
-#, fuzzy
 msgctxt "Operator"
 msgid "Select Circle"
-msgstr "选择子级"
+msgstr "刷选"
 
 #. :src: bpy.types.IMAGE_PT_tools_active Tools: 'UV', 'builtin.select_lasso'
 #. :src: bpy.types.NODE_PT_tools_active Tools: 'None', 'builtin.select_lasso'
@@ -84233,10 +84157,9 @@ msgstr "选择子级"
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'PARTICLE', 'builtin.select_lasso'
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'EDIT_GPENCIL', 'builtin.select_lasso'
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'SCULPT_GPENCIL', 'builtin.select_lasso'
-#, fuzzy
 msgctxt "Operator"
 msgid "Select Lasso"
-msgstr "选择通道"
+msgstr "套索选择"
 
 #. :src: bpy.types.IMAGE_PT_tools_active Tools: 'UV', 'builtin.cursor'
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'OBJECT', 'builtin.cursor'
@@ -84252,7 +84175,6 @@ msgstr "选择通道"
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'PAINT_WEIGHT', 'builtin.cursor'
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'PAINT_GPENCIL', 'builtin.cursor'
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'EDIT_GPENCIL', 'builtin.cursor'
-#, fuzzy
 msgctxt "Operator"
 msgid "Cursor"
 msgstr "游标"
@@ -84290,22 +84212,19 @@ msgstr ""
 #. :src: bpy.types.IMAGE_PT_tools_active Tools: 'UV', 'builtin_brush.Pinch'
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'SCULPT', 'builtin_brush.Pinch'
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'SCULPT_GPENCIL', 'builtin_brush.Pinch'
-#, fuzzy
 msgctxt "Operator"
 msgid "Pinch"
 msgstr "夹捏"
 
 #. :src: bpy.types.IMAGE_PT_tools_active Tools: 'UV', 'builtin_brush.Relax'
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'POSE', 'builtin.relax'
-#, fuzzy
 msgctxt "Operator"
 msgid "Relax"
-msgstr "放缓姿态"
+msgstr "松弛"
 
 #. :src: bpy.types.IMAGE_PT_tools_active Tools: 'UV', 'builtin_brush.Grab'
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'SCULPT', 'builtin_brush.Grab'
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'SCULPT_GPENCIL', 'builtin_brush.Grab'
-#, fuzzy
 msgctxt "Operator"
 msgid "Grab"
 msgstr "抓起"
@@ -84325,7 +84244,6 @@ msgstr "自由线"
 
 #. :src: bpy.types.IMAGE_PT_tools_active Tools: 'PAINT', 'builtin_brush.Soften'
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'PAINT_TEXTURE', 'builtin_brush.Soften'
-#, fuzzy
 msgctxt "Operator"
 msgid "Soften"
 msgstr "柔化"
@@ -84334,7 +84252,6 @@ msgstr "柔化"
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'PAINT_TEXTURE', 'builtin_brush.Smear'
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'PAINT_VERTEX', 'builtin_brush.Smear'
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'PAINT_WEIGHT', 'builtin_brush.Smear'
-#, fuzzy
 msgctxt "Operator"
 msgid "Smear"
 msgstr "涂抹"
@@ -84342,7 +84259,6 @@ msgstr "涂抹"
 #. :src: bpy.types.IMAGE_PT_tools_active Tools: 'PAINT', 'builtin_brush.Clone'
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'PAINT_TEXTURE', 'builtin_brush.Clone'
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'SCULPT_GPENCIL', 'builtin_brush.Clone'
-#, fuzzy
 msgctxt "Operator"
 msgid "Clone"
 msgstr "克隆"
@@ -84850,13 +84766,12 @@ msgstr ""
 
 #. :src: bpy.types.TOPBAR_PT_gpencil_primitive
 #: source/blender/editors/gpencil/gpencil_primitive.c:310
-#, fuzzy
 msgid "Primitives"
 msgstr "基本体:"
 
 #. :src: bpy.types.TOPBAR_PT_name
 msgid "Rename Active Item"
-msgstr ""
+msgstr "重命名活动项"
 
 #. :src: bpy.types.UI_PT_i18n_update_translations_settings
 msgid "I18n Update Translation"
@@ -84868,7 +84783,6 @@ msgid "Add-ons"
 msgstr "插件"
 
 #. :src: bpy.types.USERPREF_PT_animation_autokey
-#, fuzzy
 msgid "Auto-Keyframing"
 msgstr "自动插入关键帧"
 
@@ -85218,35 +85132,29 @@ msgstr ""
 
 #. :src: bpy.types.VIEW3D_PT_gpencil_origin
 #: scripts/startup/bl_ui/space_view3d.py:5382
-#, fuzzy
 msgid "Stroke Placement"
-msgstr "笔画放置:"
+msgstr "笔画放置"
 
 #. :src: bpy.types.VIEW3D_PT_gpencil_sculpt_context_menu
 #. :src: bpy.types.VIEW3D_PT_sculpt_context_menu
-#, fuzzy
 msgid "Sculpt Context Menu"
-msgstr "枚举菜单情境"
+msgstr "雕刻上下文菜单"
 
 #. :src: bpy.types.VIEW3D_PT_object_type_visibility
-#, fuzzy
 msgid "View Object Types"
-msgstr "物体类型"
+msgstr "查看物体类型"
 
 #. :src: bpy.types.VIEW3D_PT_overlay_edit_curve
-#, fuzzy
 msgid "Curve Edit Mode"
-msgstr "笔触编辑模式"
+msgstr "曲线编辑模式"
 
 #. :src: bpy.types.VIEW3D_PT_overlay_edit_mesh
-#, fuzzy
 msgid "Mesh Edit Mode"
-msgstr "编辑模式"
+msgstr "网格编辑模式"
 
 #. :src: bpy.types.VIEW3D_PT_overlay_edit_mesh_developer
-#, fuzzy
 msgid "Developer"
-msgstr "开发"
+msgstr ""
 
 #. :src: bpy.types.VIEW3D_PT_overlay_edit_mesh_measurement
 msgid "Measurement"
@@ -85273,7 +85181,7 @@ msgstr ""
 #. :src: bpy.types.VIEW3D_PT_paint_weight_context_menu
 #, fuzzy
 msgid "Weights Context Menu"
-msgstr "枚举菜单情境"
+msgstr "权重上下文菜单"
 
 #. :src: bpy.types.VIEW3D_PT_print3d_mesh
 #. :src: bpy.types.VIEW3D_PT_print3d_object
@@ -85287,7 +85195,7 @@ msgstr "3D 打印"
 
 #. :src: bpy.types.VIEW3D_PT_quad_view
 msgid "Quad View"
-msgstr ""
+msgstr "四格视图"
 
 #. :src: bpy.types.VIEW3D_PT_sculpt_dyntopo
 msgid "Dyntopo"
@@ -85301,9 +85209,8 @@ msgid "Unified Brush"
 msgstr ""
 
 #. :src: bpy.types.VIEW3D_PT_shading_options_shadow
-#, fuzzy
 msgid "Shadow Settings"
-msgstr "喷出设置"
+msgstr "阴影设置"
 
 #. :src: bpy.types.VIEW3D_PT_shading_options_ssao
 #, fuzzy
@@ -85312,9 +85219,8 @@ msgstr "天空设置"
 
 #. :src: bpy.types.VIEW3D_PT_snapping
 #: scripts/startup/bl_ui/space_view3d.py:5316
-#, fuzzy
 msgid "Snapping"
-msgstr "映射"
+msgstr "吸附"
 
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'OBJECT', 'builtin.scale'
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'POSE', 'builtin.scale'
@@ -85363,35 +85269,30 @@ msgstr ""
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'EDIT_TEXT', 'builtin.measure'
 msgctxt "Operator"
 msgid "Measure"
-msgstr ""
+msgstr "测量"
 
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'POSE', 'builtin.breakdowner'
-#, fuzzy
 msgctxt "Operator"
 msgid "Breakdowner"
 msgstr "间断"
 
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'POSE', 'builtin.push'
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'SCULPT_GPENCIL', 'builtin_brush.Push'
-#, fuzzy
 msgctxt "Operator"
 msgid "Push"
 msgstr "推"
 
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'EDIT_ARMATURE', 'builtin.roll'
-#, fuzzy
 msgctxt "Operator"
 msgid "Roll"
 msgstr "滚动"
 
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'EDIT_ARMATURE', 'builtin.bone_size'
-#, fuzzy
 msgctxt "Operator"
 msgid "Bone Size"
 msgstr "骨骼尺寸"
 
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'EDIT_ARMATURE', 'builtin.bone_envelope'
-#, fuzzy
 msgctxt "Operator"
 msgid "Bone Envelope"
 msgstr "骨骼封套"
@@ -85411,27 +85312,24 @@ msgid "Extrude freely or along an axis"
 msgstr ""
 
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'EDIT_MESH', 'builtin.extrude_along_normals'
-#, fuzzy
 msgctxt "Operator"
 msgid "Extrude Along Normals"
 msgstr "沿法向挤出面"
 
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'EDIT_MESH', 'builtin.extrude_individual'
-#, fuzzy
 msgctxt "Operator"
 msgid "Extrude Individual"
 msgstr "挤出各个面"
 
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'EDIT_MESH', 'builtin.offset_edge_loop_cut'
-#, fuzzy
 msgctxt "Operator"
 msgid "Offset Edge Loop Cut"
-msgstr "偏移循环边"
+msgstr "偏移环切边"
 
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'EDIT_MESH', 'builtin.knife'
 msgctxt "Operator"
 msgid "Knife"
-msgstr ""
+msgstr "切"
 
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'EDIT_MESH', 'builtin.poly_build'
 msgctxt "Operator"
@@ -85439,10 +85337,9 @@ msgid "Poly Build"
 msgstr ""
 
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'EDIT_MESH', 'builtin.spin_duplicates'
-#, fuzzy
 msgctxt "Operator"
 msgid "Spin Duplicates"
-msgstr "关联副本"
+msgstr "旋绕副本"
 
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'EDIT_MESH', 'builtin.rip_region'
 #, fuzzy
@@ -85465,7 +85362,6 @@ msgstr ""
 #: scripts/startup/bl_ui/space_view3d.py:3628
 #: scripts/startup/bl_ui/space_view3d.py:424
 #: scripts/startup/bl_ui/space_view3d.py:1953
-#, fuzzy
 msgctxt "Operator"
 msgid "Radius"
 msgstr "半径"
@@ -85475,7 +85371,6 @@ msgid "Expand or contract the radius of the selected curve points"
 msgstr ""
 
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'PARTICLE', 'builtin_brush.Comb'
-#, fuzzy
 msgctxt "Operator"
 msgid "Comb"
 msgstr "梳理"
@@ -85491,86 +85386,72 @@ msgid "Add"
 msgstr "添加"
 
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'PARTICLE', 'builtin_brush.Length'
-#, fuzzy
 msgctxt "Operator"
 msgid "Length"
 msgstr "长度"
 
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'PARTICLE', 'builtin_brush.Puff'
-#, fuzzy
 msgctxt "Operator"
 msgid "Puff"
 msgstr "蓬松"
 
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'PARTICLE', 'builtin_brush.Weight'
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'WEIGHT_GPENCIL', 'builtin_brush.Weight'
-#, fuzzy
 msgctxt "Operator"
 msgid "Weight"
 msgstr "权重"
 
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'SCULPT', 'builtin_brush.Clay'
-#, fuzzy
 msgctxt "Operator"
 msgid "Clay"
 msgstr "黏塑"
 
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'SCULPT', 'builtin_brush.Clay Strips'
-#, fuzzy
 msgctxt "Operator"
 msgid "Clay Strips"
 msgstr "黏条"
 
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'SCULPT', 'builtin_brush.Layer'
-#, fuzzy
 msgctxt "Operator"
 msgid "Layer"
 msgstr "层"
 
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'SCULPT', 'builtin_brush.Inflate'
-#, fuzzy
 msgctxt "Operator"
 msgid "Inflate"
 msgstr "膨胀"
 
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'SCULPT', 'builtin_brush.Blob'
-#, fuzzy
 msgctxt "Operator"
 msgid "Blob"
 msgstr "球体"
 
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'SCULPT', 'builtin_brush.Crease'
-#, fuzzy
 msgctxt "Operator"
 msgid "Crease"
 msgstr "折痕"
 
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'SCULPT', 'builtin_brush.Flatten'
-#, fuzzy
 msgctxt "Operator"
 msgid "Flatten"
 msgstr "平化"
 
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'SCULPT', 'builtin_brush.Scrape'
-#, fuzzy
 msgctxt "Operator"
 msgid "Scrape"
 msgstr "刮削"
 
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'SCULPT', 'builtin_brush.Snake Hook'
-#, fuzzy
 msgctxt "Operator"
 msgid "Snake Hook"
 msgstr "蛇形钩"
 
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'SCULPT', 'builtin_brush.Thumb'
-#, fuzzy
 msgctxt "Operator"
 msgid "Thumb"
 msgstr "显示缩略图"
 
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'SCULPT', 'builtin_brush.Nudge'
-#, fuzzy
 msgctxt "Operator"
 msgid "Nudge"
 msgstr "推移"
@@ -85578,16 +85459,14 @@ msgstr "推移"
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'SCULPT', 'builtin_brush.Simplify'
 #: scripts/startup/bl_ui/properties_grease_pencil_common.py:214
 #: scripts/startup/bl_ui/space_view3d.py:5715
-#, fuzzy
 msgctxt "Operator"
 msgid "Simplify"
 msgstr "简化"
 
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'SCULPT', 'builtin.box_hide'
-#, fuzzy
 msgctxt "Operator"
 msgid "Box Hide"
-msgstr "骨骼尺寸"
+msgstr "框选隐藏"
 
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'SCULPT', 'builtin.box_mask'
 #: scripts/startup/bl_ui/space_view3d.py:2477
@@ -85597,36 +85476,31 @@ msgstr "框选遮罩"
 
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'PAINT_VERTEX', 'builtin_brush.Blur'
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'PAINT_WEIGHT', 'builtin_brush.Blur'
-#, fuzzy
 msgctxt "Operator"
 msgid "Blur"
 msgstr "模糊"
 
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'PAINT_VERTEX', 'builtin_brush.Average'
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'PAINT_WEIGHT', 'builtin_brush.Average'
-#, fuzzy
 msgctxt "Operator"
 msgid "Average"
 msgstr "平均"
 
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'PAINT_WEIGHT', 'builtin.gradient'
-#, fuzzy
 msgctxt "Operator"
 msgid "Gradient"
 msgstr "梯度渐变"
 
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'PAINT_WEIGHT', 'builtin.sample_weight'
-#, fuzzy
 msgctxt "Operator"
 msgid "Sample Weight"
-msgstr "权重设定"
+msgstr "采样权重"
 
 # rblc
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'PAINT_WEIGHT', 'builtin.sample_vertex_group'
-#, fuzzy
 msgctxt "Operator"
 msgid "Sample Vertex Group"
-msgstr "选择顶点组"
+msgstr "采样顶点组"
 
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'PAINT_GPENCIL', 'builtin_brush.Erase'
 #: scripts/startup/bl_ui/properties_grease_pencil_common.py:103
@@ -85649,16 +85523,14 @@ msgstr "直线"
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'PAINT_GPENCIL', 'builtin.arc'
 msgctxt "Operator"
 msgid "Arc"
-msgstr ""
+msgstr "圆弧"
 
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'PAINT_GPENCIL', 'builtin.curve'
-#, fuzzy
 msgctxt "Operator"
 msgid "Curve"
 msgstr "曲线"
 
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'PAINT_GPENCIL', 'builtin.box'
-#, fuzzy
 msgctxt "Operator"
 msgid "Box"
 msgstr "方框"
@@ -85682,13 +85554,11 @@ msgid "Thickness"
 msgstr "厚度"
 
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'SCULPT_GPENCIL', 'builtin_brush.Strength'
-#, fuzzy
 msgctxt "Operator"
 msgid "Strength"
 msgstr "强度/力度"
 
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'SCULPT_GPENCIL', 'builtin_brush.Twist'
-#, fuzzy
 msgctxt "Operator"
 msgid "Twist"
 msgstr "扭曲"
@@ -85699,24 +85569,21 @@ msgstr "骨架选项"
 
 #. :src: bpy.types.VIEW3D_PT_tools_brush_clone
 msgid "Clone from Paint Slot"
-msgstr ""
+msgstr "从绘制槽克隆"
 
 #. :src: bpy.types.VIEW3D_PT_tools_brush_falloff_frontface
-#, fuzzy
 msgid "Frontface Falloff"
-msgstr "使用前面"
+msgstr "前面衰减"
 
 #. :src: bpy.types.VIEW3D_PT_tools_brush_falloff_normal
-#, fuzzy
 msgid "Normal Falloff"
-msgstr "无衰减"
+msgstr "法向衰减"
 
 #. :src: bpy.types.VIEW3D_PT_tools_curveedit_options_stroke
 msgid "Curve Stroke"
 msgstr "曲线笔画"
 
 #. :src: bpy.types.VIEW3D_PT_tools_grease_pencil_brush_settings
-#, fuzzy
 msgid "Post-Processing"
 msgstr "后期处理"
 
@@ -85730,9 +85597,8 @@ msgid "Sculpt Strokes"
 msgstr "雕刻笔画"
 
 #. :src: bpy.types.VIEW3D_PT_tools_particlemode
-#, fuzzy
 msgid "Particle tools"
-msgstr "粒子系统"
+msgstr "粒子工具"
 
 #. :src: bpy.types.VIEW3D_PT_tools_particlemode_options
 #. :src: bpy.types.VIEW3D_PT_tools_particlemode_options_display
@@ -85754,9 +85620,8 @@ msgid "Transform Orientations"
 msgstr "变换参照坐标系"
 
 #. :src: bpy.types.VIEW3D_PT_view3d_lock
-#, fuzzy
 msgid "View Lock"
-msgstr "清除视图锁定"
+msgstr "视图锁定"
 
 #. :src: bpy.types.WORKSPACE_PT_addons
 msgid "Filter Add-ons"
@@ -86118,8 +85983,7 @@ msgid "Active Particle Target Index"
 msgstr "激活粒子目标的目录"
 
 #. :src: bpy.types.ParticleSystem.child_particles
-#: scripts/addons/cycles/ui.py:1984
-#: scripts/addons/cycles/ui.py:2009
+#: scripts/addons/cycles/ui.py:1984 scripts/addons/cycles/ui.py:2009
 msgid "Child Particles"
 msgstr "子粒子"
 
@@ -89386,8 +89250,7 @@ msgstr ""
 
 #. :src: bpy.types.CyclesMaterialSettings.volume_sampling:'MULTIPLE_IMPORTANCE'
 #. :src: bpy.types.CyclesWorldSettings.volume_sampling:'MULTIPLE_IMPORTANCE'
-#: scripts/addons/cycles/ui.py:1370
-#: scripts/addons/cycles/ui.py:1718
+#: scripts/addons/cycles/ui.py:1370 scripts/addons/cycles/ui.py:1718
 msgid "Multiple Importance"
 msgstr "多重重要性采样"
 
@@ -89715,11 +89578,9 @@ msgid "Number of antialiasing samples to render for each pixel"
 msgstr "各像素的渲染采样次数"
 
 #. :src: bpy.types.CyclesRenderSettings.ao_bounces
-#: scripts/addons/cycles/ui.py:1986
-#: scripts/addons/cycles/ui.py:2011
-#, fuzzy
+#: scripts/addons/cycles/ui.py:1986 scripts/addons/cycles/ui.py:2011
 msgid "AO Bounces"
-msgstr "反弹次数"
+msgstr "AO反弹"
 
 #. :src: bpy.types.CyclesRenderSettings.ao_bounces
 #. :src: bpy.types.CyclesRenderSettings.ao_bounces_render
@@ -103160,34 +103021,29 @@ msgid "Cloth:"
 msgstr "布料"
 
 #. :src: Generated operator category
-#, fuzzy
 msgctxt "Operator"
 msgid "Collection:"
-msgstr "采集频率"
+msgstr "集合:"
 
 #. :src: Generated operator category
-#, fuzzy
 msgctxt "Operator"
 msgid "Console:"
-msgstr "控制台"
+msgstr "控制台:"
 
 #. :src: Generated operator category
-#, fuzzy
 msgctxt "Operator"
 msgid "Constraint:"
-msgstr "约束方式:"
+msgstr "约束:"
 
 #. :src: Generated operator category
-#, fuzzy
 msgctxt "Operator"
 msgid "Curve:"
 msgstr "曲线:"
 
 #. :src: Generated operator category
-#, fuzzy
 msgctxt "Operator"
 msgid "Cycles:"
-msgstr "循环"
+msgstr "循环:"
 
 #. :src: Generated operator category
 msgctxt "Operator"
@@ -103203,42 +103059,39 @@ msgstr "编辑"
 #. :src: Generated operator category
 msgctxt "Operator"
 msgid "Export_animation:"
-msgstr ""
+msgstr "导出动画:"
 
 #. :src: Generated operator category
 msgctxt "Operator"
 msgid "Export_anim:"
-msgstr ""
+msgstr "导出动画:"
 
 #. :src: Generated operator category
 msgctxt "Operator"
 msgid "Export_mesh:"
-msgstr ""
+msgstr "导出网格:"
 
 #. :src: Generated operator category
 msgctxt "Operator"
 msgid "Export_scene:"
-msgstr ""
+msgstr "导出场景:"
 
 #. :src: Generated operator category
 msgctxt "Operator"
 msgid "Export_shape:"
-msgstr ""
+msgstr "导出形状:"
 
 #. :src: Generated operator category
-#, fuzzy
 msgctxt "Operator"
 msgid "File:"
 msgstr "文件:"
 
 #. :src: Generated operator category
-#, fuzzy
 msgctxt "Operator"
 msgid "Fluid:"
-msgstr "流体"
+msgstr "流体:"
 
 #. :src: Generated operator category
-#, fuzzy
 msgctxt "Operator"
 msgid "Font:"
 msgstr "字体:"
@@ -103255,13 +103108,11 @@ msgid "Gpencil:"
 msgstr "蜡笔"
 
 #. :src: Generated operator category
-#, fuzzy
 msgctxt "Operator"
 msgid "Graph:"
-msgstr "曲线视图"
+msgstr "曲线:"
 
 #. :src: Generated operator category
-#, fuzzy
 msgctxt "Operator"
 msgid "Image:"
 msgstr "图像:"
@@ -103269,68 +103120,62 @@ msgstr "图像:"
 #. :src: Generated operator category
 msgctxt "Operator"
 msgid "Import_anim:"
-msgstr ""
+msgstr "导入动画:"
 
 #. :src: Generated operator category
 msgctxt "Operator"
 msgid "Import_curve:"
-msgstr ""
+msgstr "导入曲线:"
 
 #. :src: Generated operator category
 msgctxt "Operator"
 msgid "Import_image:"
-msgstr ""
+msgstr "导入图像:"
 
 #. :src: Generated operator category
 msgctxt "Operator"
 msgid "Import_mesh:"
-msgstr ""
+msgstr "导入网格:"
 
 #. :src: Generated operator category
 msgctxt "Operator"
 msgid "Import_scene:"
-msgstr ""
+msgstr "导入场景:"
 
 #. :src: Generated operator category
 msgctxt "Operator"
 msgid "Import_shape:"
-msgstr ""
+msgstr "导入形状:"
 
 #. :src: Generated operator category
-#, fuzzy
 msgctxt "Operator"
 msgid "Info:"
-msgstr "信息面板"
+msgstr "信息面板:"
 
 #. :src: Generated operator category
-#, fuzzy
 msgctxt "Operator"
 msgid "Lattice:"
-msgstr "晶格"
+msgstr "晶格:"
 
 #. :src: Generated operator category
-#, fuzzy
 msgctxt "Operator"
 msgid "Marker:"
-msgstr "标记"
+msgstr "标记:"
 
 #. :src: Generated operator category
-#, fuzzy
 msgctxt "Operator"
 msgid "Mask:"
-msgstr "遮罩"
+msgstr "遮罩:"
 
 #. :src: Generated operator category
-#, fuzzy
 msgctxt "Operator"
 msgid "Material:"
 msgstr "材质:"
 
 #. :src: Generated operator category
-#, fuzzy
 msgctxt "Operator"
 msgid "Mball:"
-msgstr "融球"
+msgstr "融球:"
 
 #. :src: Generated operator category
 msgctxt "Operator"
@@ -103340,64 +103185,54 @@ msgstr "网格:"
 #. :src: Generated operator category
 msgctxt "Operator"
 msgid "Nla:"
-msgstr ""
+msgstr "Nla:"
 
 #. :src: Generated operator category
-#, fuzzy
 msgctxt "Operator"
 msgid "Node:"
-msgstr "节点"
+msgstr "节点:"
 
 #. :src: Generated operator category
-#, fuzzy
 msgctxt "Operator"
 msgid "Object:"
 msgstr "物体:"
 
 #. :src: Generated operator category
-#, fuzzy
 msgctxt "Operator"
 msgid "Outliner:"
-msgstr "大纲视图"
+msgstr "大纲视图:"
 
 #. :src: Generated operator category
-#, fuzzy
 msgctxt "Operator"
 msgid "Paintcurve:"
-msgstr "绘画曲线"
+msgstr "绘画曲线:"
 
 #. :src: Generated operator category
-#, fuzzy
 msgctxt "Operator"
 msgid "Paint:"
-msgstr "图像绘制"
+msgstr "图像绘制:"
 
 #. :src: Generated operator category
-#, fuzzy
 msgctxt "Operator"
 msgid "Palette:"
-msgstr "调色板"
+msgstr "调色板:"
 
 #. :src: Generated operator category
-#, fuzzy
 msgctxt "Operator"
 msgid "Particle:"
 msgstr "粒子:"
 
 #. :src: Generated operator category
-#, fuzzy
 msgctxt "Operator"
 msgid "Poselib:"
-msgstr "姿态:"
+msgstr "姿态库:"
 
 #. :src: Generated operator category
-#, fuzzy
 msgctxt "Operator"
 msgid "Pose:"
 msgstr "姿态:"
 
 #. :src: Generated operator category
-#, fuzzy
 msgctxt "Operator"
 msgid "Preferences:"
 msgstr "偏好设置:"
@@ -103408,22 +103243,19 @@ msgid "Ptcache:"
 msgstr ""
 
 #. :src: Generated operator category
-#, fuzzy
 msgctxt "Operator"
 msgid "Render:"
 msgstr "渲染:"
 
 #. :src: Generated operator category
-#, fuzzy
 msgctxt "Operator"
 msgid "Rigidbody:"
-msgstr "刚体"
+msgstr "刚体:"
 
 #. :src: Generated operator category
-#, fuzzy
 msgctxt "Operator"
 msgid "Safe_areas:"
-msgstr "安全区"
+msgstr "安全区:"
 
 #. :src: Generated operator category
 msgctxt "Operator"
@@ -103431,55 +103263,46 @@ msgid "Scene:"
 msgstr "场景:"
 
 #. :src: Generated operator category
-#, fuzzy
 msgctxt "Operator"
 msgid "Screen:"
-msgstr "屏幕"
+msgstr "屏幕:"
 
 #. :src: Generated operator category
-#, fuzzy
 msgctxt "Operator"
 msgid "Script:"
 msgstr "脚本:"
 
 #. :src: Generated operator category
-#, fuzzy
 msgctxt "Operator"
 msgid "Sculpt:"
-msgstr "雕刻"
+msgstr "雕刻:"
 
 #. :src: Generated operator category
-#, fuzzy
 msgctxt "Operator"
 msgid "Sequencer:"
 msgstr "序列编辑器:"
 
 #. :src: Generated operator category
-#, fuzzy
 msgctxt "Operator"
 msgid "Sound:"
 msgstr "声音:"
 
 #. :src: Generated operator category
-#, fuzzy
 msgctxt "Operator"
 msgid "Surface:"
-msgstr "表面:"
+msgstr "曲面:"
 
 #. :src: Generated operator category
-#, fuzzy
 msgctxt "Operator"
 msgid "Texture:"
 msgstr "纹理:"
 
 #. :src: Generated operator category
-#, fuzzy
 msgctxt "Operator"
 msgid "Text:"
 msgstr "文本:"
 
 #. :src: Generated operator category
-#, fuzzy
 msgctxt "Operator"
 msgid "Transform:"
 msgstr "变换操作:"
@@ -103495,32 +103318,29 @@ msgid "Uv:"
 msgstr ""
 
 #. :src: Generated operator category
-#, fuzzy
 msgctxt "Operator"
 msgid "View2d:"
-msgstr "2D 视图"
+msgstr "2D 视图:"
 
 #. :src: Generated operator category
 msgctxt "Operator"
 msgid "View3d:"
-msgstr ""
+msgstr "3D 视图:"
 
 #. :src: Generated operator category
-#, fuzzy
 msgctxt "Operator"
 msgid "Wm:"
-msgstr "W:"
+msgstr ""
 
 #. :src: Generated operator category
 msgctxt "Operator"
 msgid "Workspace:"
-msgstr ""
+msgstr "工作空间:"
 
 #. :src: Generated operator category
-#, fuzzy
 msgctxt "Operator"
 msgid "World:"
-msgstr "世界环境"
+msgstr "世界环境:"
 
 #. :src: KM_HIERARCHY.EMPTY
 msgctxt "WindowManager"
@@ -104211,8 +104031,7 @@ msgstr ""
 msgid "No output node"
 msgstr "无输出节点"
 
-#: scripts/addons/cycles/ui.py:1613
-#: scripts/addons/cycles/ui.py:1744
+#: scripts/addons/cycles/ui.py:1613 scripts/addons/cycles/ui.py:1744
 msgid "Homogeneous"
 msgstr "均质"
 
@@ -104228,32 +104047,27 @@ msgstr ""
 msgid "OpenCL Flags:"
 msgstr ""
 
-#: scripts/addons/cycles/ui.py:1983
-#: scripts/addons/cycles/ui.py:2008
+#: scripts/addons/cycles/ui.py:1983 scripts/addons/cycles/ui.py:2008
 #: scripts/startup/bl_ui/properties_render.py:627
 #: scripts/startup/bl_ui/properties_render.py:652
 #, fuzzy
 msgid "Max Subdivision"
 msgstr "Y 向细分"
 
-#: scripts/addons/cycles/ui.py:1985
-#: scripts/addons/cycles/ui.py:2010
+#: scripts/addons/cycles/ui.py:1985 scripts/addons/cycles/ui.py:2010
 #, fuzzy
 msgid "Texture Limit"
 msgstr "GL 纹理限制"
 
-#: scripts/addons/cycles/ui.py:145
-#: scripts/addons/cycles/ui.py:301
+#: scripts/addons/cycles/ui.py:145 scripts/addons/cycles/ui.py:301
 msgid "%s AA"
 msgstr "%s AA"
 
-#: scripts/addons/cycles/ui.py:147
-#: scripts/addons/cycles/ui.py:303
+#: scripts/addons/cycles/ui.py:147 scripts/addons/cycles/ui.py:303
 msgid "%s AA, %s Diffuse, %s Glossy, %s Transmission"
 msgstr ""
 
-#: scripts/addons/cycles/ui.py:150
-#: scripts/addons/cycles/ui.py:306
+#: scripts/addons/cycles/ui.py:150 scripts/addons/cycles/ui.py:306
 msgid "%s AO, %s Mesh Light, %s Subsurface, %s Volume"
 msgstr ""
 
@@ -104288,8 +104102,7 @@ msgstr "挤出"
 msgid "Ray Distance"
 msgstr "光线距离"
 
-#: scripts/addons/cycles/ui.py:1892
-#: scripts/addons/cycles/ui.py:1899
+#: scripts/addons/cycles/ui.py:1892 scripts/addons/cycles/ui.py:1899
 #, fuzzy
 msgid "Clear Image"
 msgstr "克隆图像"
@@ -121221,23 +121034,23 @@ msgstr "越南语 (tiếng Việt)"
 
 #. :src: Languages’ labels from bl_i18n_utils/settings.py
 msgid "Basque (Euskara)"
-msgstr ""
+msgstr "巴斯克语 (Euskara)"
 
 #. :src: Languages’ labels from bl_i18n_utils/settings.py
 msgid "Hausa (Hausa)"
-msgstr ""
+msgstr "豪撒语 (Hausa)"
 
 #. :src: Languages’ labels from bl_i18n_utils/settings.py
 msgid "Kazakh (қазақша)"
-msgstr ""
+msgstr "哈萨克语 (қазақша)"
 
 #. :src: Languages’ labels from bl_i18n_utils/settings.py
 msgid "Abkhaz (Аԥсуа бызшәа)"
-msgstr ""
+msgstr "阿伯卡茨语 (Аԥсуа бызшәа)"
 
 #. :src: Languages’ labels from bl_i18n_utils/settings.py
 msgid "Thai (ภาษาไทย)"
-msgstr ""
+msgstr "泰语"
 
 #. :src: Language categories’ labels from bl_i18n_utils/settings.py
 msgid "Complete"
@@ -121250,4 +121063,3 @@ msgstr "完善中"
 #. :src: Language categories’ labels from bl_i18n_utils/settings.py
 msgid "Starting"
 msgstr "未完善"
-
