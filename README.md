@@ -10,7 +10,7 @@
 
 ## 关于汉化UI的原理
 
-Blender 的UI是通过 安装目录下的 `\datafiles\locale\zh_CN\LC_MESSAGES` 对应遗言文件夹下的 `blender.mo` 二进制文件实现多语言本地化的。
+Blender 的UI是通过安装目录下的 `\datafiles\locale\zh_CN\LC_MESSAGES` 对应语言文件夹下的 `blender.mo` 二进制文件实现多语言本地化的。
 
 而 `blender.mo` 文件则是由 `.po` 文件编译而成的。本项目中的 `/zh_CN/zh_CN.po` 文件同步自[官方UI翻译项目](https://svn.blender.org/svnroot/bf-translations/branches/zh_CN/)。
 

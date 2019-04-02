@@ -31,7 +31,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-31 18:50:25\n"
 "PO-Revision-Date: \n"
-"Last-Translator: congcong009 <congcong009@gmail.com>\n"
+"Last-Translator: nge\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -529,12 +529,11 @@ msgstr "动作块组"
 
 #. :src: bpy.types.ActionGroups
 msgid "Collection of action groups"
-msgstr ""
+msgstr "动作块组集合"
 
 #. :src: bpy.types.ActionPoseMarkers
-#, fuzzy
 msgid "Action Pose Markers"
-msgstr "显示姿态标记"
+msgstr "动作姿态标记"
 
 #. :src: bpy.types.ActionPoseMarkers
 #. :src: bpy.types.TimelineMarkers
@@ -542,9 +541,8 @@ msgid "Collection of timeline markers"
 msgstr ""
 
 #. :src: bpy.types.ActionPoseMarkers.active
-#, fuzzy
 msgid "Active Pose Marker"
-msgstr "激活??的标记"
+msgstr "活动姿态标记"
 
 #. :src: bpy.types.ActionPoseMarkers.active
 msgid "Active pose marker for this action"
@@ -552,11 +550,11 @@ msgstr ""
 
 #. :src: bpy.types.ActionPoseMarkers.active_index
 msgid "Active Pose Marker Index"
-msgstr "活动材质编号"
+msgstr "活动姿态标记编号"
 
 #. :src: bpy.types.ActionPoseMarkers.active_index
 msgid "Index of active pose marker"
-msgstr ""
+msgstr "活动姿态标记编号"
 
 #. :src: bpy.types.Addon
 #. :src: bpy.types.UI_OT_i18n_addon_translation_export.module_name
@@ -564,12 +562,10 @@ msgstr ""
 #. :src: bpy.types.UI_OT_i18n_addon_translation_invoke.module_name
 #. :src: bpy.types.UI_OT_i18n_addon_translation_update.module_name
 #. :src: bpy.types.Preferences.addons
-#, fuzzy
 msgid "Add-on"
 msgstr "插件"
 
 #. :src: bpy.types.Addon
-#, fuzzy
 msgid "Python add-ons to be loaded automatically"
 msgstr "自动加载的 Python 插件"
 
@@ -587,21 +583,20 @@ msgid "Module name"
 msgstr "模块名"
 
 #. :src: bpy.types.AddonPreferences
-#, fuzzy
 msgid "Add-on Preferences"
-msgstr "插件首选项"
+msgstr "插件设置"
 
 #. :src: bpy.types.BlenderIdPreferences.blender_id_password
 msgid "Password"
-msgstr ""
+msgstr "密码"
 
 #. :src: bpy.types.BlenderIdPreferences.blender_id_username
 msgid "E-mail address"
-msgstr ""
+msgstr "电子邮箱地址"
 
 #. :src: bpy.types.BlenderIdPreferences.error_message
 msgid "Error Message"
-msgstr ""
+msgstr "报错信息"
 
 #. :src: bpy.types.BlenderIdPreferences.ok_message
 msgid "Message"
@@ -633,7 +628,7 @@ msgstr "gettext msgfmt 的 '编译器', 如果是在 WIndows 系统下, 可能�
 
 #. :src: bpy.types.UI_AP_i18n_settings.I18N_DIR
 msgid "Translation Root"
-msgstr "移动"
+msgstr "翻译根目录"
 
 #. :src: bpy.types.UI_AP_i18n_settings.I18N_DIR
 msgid "The bf-translation repository"
@@ -641,7 +636,7 @@ msgstr "bf-translation 存储库"
 
 #. :src: bpy.types.UI_AP_i18n_settings.PY_SYS_PATHS
 msgid "Import Paths"
-msgstr "导入单位"
+msgstr "导入路径"
 
 #. :src: bpy.types.UI_AP_i18n_settings.PY_SYS_PATHS
 msgid "Additional paths to add to sys.path (';' separated)"
@@ -649,7 +644,7 @@ msgstr "添加 sys.path 的附加路径 (用 ';' 隔开)"
 
 #. :src: bpy.types.UI_AP_i18n_settings.SOURCE_DIR
 msgid "Source Root"
-msgstr "平方根"
+msgstr "源文件根目录"
 
 #. :src: bpy.types.UI_AP_i18n_settings.SOURCE_DIR
 msgid "The Blender source root path"
@@ -682,19 +677,17 @@ msgstr "存储这些设置的 JSon 文件的名称 (但 Blender 的系统对此�
 
 #. :src: bpy.types.Addons
 msgid "User Add-ons"
-msgstr ""
+msgstr "用户插件"
 
 #. :src: bpy.types.Addons
-#, fuzzy
 msgid "Collection of add-ons"
-msgstr "点集"
+msgstr "插件集合"
 
 #. :src: bpy.types.AlembicObjectPath
 #. :src: bpy.types.TransformCacheConstraint.object_path
 #. :src: bpy.types.MeshSequenceCacheModifier.object_path
-#, fuzzy
 msgid "Object Path"
-msgstr "物体数据"
+msgstr "物体路径"
 
 #. :src: bpy.types.AlembicObjectPath
 msgid "Path of an object inside of an Alembic archive"
@@ -736,20 +729,17 @@ msgid "Path"
 msgstr "路径"
 
 #. :src: bpy.types.AlembicObjectPath.path
-#, fuzzy
 msgid "Object path"
-msgstr "物体数据"
+msgstr "物体路径"
 
 #. :src: bpy.types.AlembicObjectPaths
 #. :src: bpy.types.CacheFile.object_paths
-#, fuzzy
 msgid "Object Paths"
-msgstr "清除物体路径"
+msgstr "物体路径"
 
 #. :src: bpy.types.AlembicObjectPaths
-#, fuzzy
 msgid "Collection of object paths"
-msgstr "相关草图的收集"
+msgstr "物体路径集合"
 
 #. :src: bpy.types.AnimData
 #. :src: bpy.types.Armature.animation_data
@@ -781,7 +771,6 @@ msgid "Animation Data"
 msgstr "动画数据"
 
 #. :src: bpy.types.AnimData
-#, fuzzy
 msgid "Animation data for data-block"
 msgstr "数据块的动画数据"
 
@@ -844,9 +833,8 @@ msgid "Action"
 msgstr "动作"
 
 #. :src: bpy.types.AnimData.action
-#, fuzzy
 msgid "Active Action for this data-block"
-msgstr "数据块的激活动作"
+msgstr "数据块的活动动作"
 
 #. :src: bpy.types.AnimData.action_blend_type
 msgid "Action Blending"
@@ -877,15 +865,13 @@ msgstr "替换"
 
 #. :src: bpy.types.AnimData.action_blend_type:'REPLACE'
 #. :src: bpy.types.NlaStrip.blend_type:'REPLACE'
-#, fuzzy
 msgid "The strip values replace the accumulated results by amount specified by influence"
-msgstr "根据影响力参数设置对累积结果进行替换的片段结果"
+msgstr "使用片段数值替换影响力指定的量累积结果"
 
 #. :src: bpy.types.AnimData.action_blend_type:'COMBINE'
 #. :src: bpy.types.NlaStrip.blend_type:'COMBINE'
-#, fuzzy
 msgid "Combine"
-msgstr "合成结果"
+msgstr "合成"
 
 #. :src: bpy.types.AnimData.action_blend_type:'COMBINE'
 #. :src: bpy.types.NlaStrip.blend_type:'COMBINE'
@@ -1221,7 +1207,6 @@ msgid "Drivers"
 msgstr "驱动器"
 
 #. :src: bpy.types.AnimData.drivers
-#, fuzzy
 msgid "The Drivers/Expressions for this data-block"
 msgstr "为数据块准备的驱动 / 表达式"
 
@@ -1244,9 +1229,8 @@ msgid "NLA stack is evaluated when evaluating this block"
 msgstr "解算此块的同时解算 NLA 堆栈"
 
 #. :src: bpy.types.AnimData.use_tweak_mode
-#, fuzzy
 msgid "Use NLA Tweak Mode"
-msgstr "NLA 调节模式"
+msgstr "使用NLA 调节模式"
 
 #. :src: bpy.types.AnimData.use_tweak_mode
 msgid "Whether to enable or disable tweak mode in NLA"
@@ -1423,9 +1407,8 @@ msgid "Number of frames between paths shown (not for 'On Keyframes' Onion-skinni
 msgstr "在路径中的可见帧数量 (仅当‘在当前帧’洋葱皮方法时)"
 
 #. :src: bpy.types.AnimVizMotionPaths.has_motion_paths
-#, fuzzy
 msgid "Has Motion Paths"
-msgstr "运动路径"
+msgstr "存在运动路径"
 
 #. :src: bpy.types.AnimVizMotionPaths.has_motion_paths
 msgid "Are there any bone paths that will need updating (read-only)"
@@ -1665,9 +1648,8 @@ msgstr "针对节点着色与合成工具的编辑器"
 #. :src: bpy.types.Panel.bl_space_type:'SEQUENCE_EDITOR'
 #. :src: bpy.types.Space.type:'SEQUENCE_EDITOR'
 #. :src: bpy.types.WorkSpaceTool.space_type:'SEQUENCE_EDITOR'
-#, fuzzy
 msgid "Video Sequencer"
-msgstr "序列编辑器"
+msgstr "视频序列编辑器"
 
 #. :src: bpy.types.Area.type:'SEQUENCE_EDITOR'
 #. :src: bpy.types.GizmoGroup.bl_space_type:'SEQUENCE_EDITOR'
@@ -1910,9 +1892,8 @@ msgstr ""
 #. :src: bpy.types.Theme.statusbar
 #. :src: bpy.types.Theme.theme_area:'STATUSBAR'
 #. :src: bpy.types.WorkSpaceTool.space_type:'STATUSBAR'
-#, fuzzy
 msgid "Status Bar"
-msgstr "状态"
+msgstr "状态栏"
 
 #. :src: bpy.types.Area.type:'STATUSBAR'
 #. :src: bpy.types.GizmoGroup.bl_space_type:'STATUSBAR'
@@ -1949,7 +1930,6 @@ msgstr "大纲视图"
 #. :src: bpy.types.Panel.bl_space_type:'OUTLINER'
 #. :src: bpy.types.Space.type:'OUTLINER'
 #. :src: bpy.types.WorkSpaceTool.space_type:'OUTLINER'
-#, fuzzy
 msgid "Overview of scene graph and all available data-blocks"
 msgstr "场景图形及所有可用数据块总概览"
 
@@ -1982,7 +1962,6 @@ msgstr "属性"
 #. :src: bpy.types.Panel.bl_space_type:'PROPERTIES'
 #. :src: bpy.types.Space.type:'PROPERTIES'
 #. :src: bpy.types.WorkSpaceTool.space_type:'PROPERTIES'
-#, fuzzy
 msgid "Edit properties of active object and related data-blocks"
 msgstr "编辑活动物体及相关数据块的属性"
 
@@ -2083,17 +2062,14 @@ msgid "The window relative horizontal location of the area"
 msgstr "区域窗口的相对水平位置"
 
 #. :src: bpy.types.AreaSpaces
-#, fuzzy
 msgid "Area Spaces"
-msgstr "面形状"
+msgstr "区域空间"
 
 #. :src: bpy.types.AreaSpaces
-#, fuzzy
 msgid "Collection of spaces"
-msgstr "点集"
+msgstr "空间集合"
 
 #. :src: bpy.types.AreaSpaces.active
-#, fuzzy
 msgid "Active Space"
 msgstr "活动空间"
 
@@ -2103,13 +2079,12 @@ msgid "Space currently being displayed in this area"
 msgstr "当前图层上显示的帧"
 
 #. :src: bpy.types.ArmatureBones
-#, fuzzy
 msgid "Armature Bones"
-msgstr "骨架选项"
+msgstr "骨架骨骼"
 
 #. :src: bpy.types.ArmatureBones
 msgid "Collection of armature bones"
-msgstr ""
+msgstr "骨架骨骼集合"
 
 #. :src: bpy.types.ArmatureBones.active
 #. :src: bpy.types.ARMATURE_OT_calculate_roll.type:'ACTIVE'
@@ -2118,9 +2093,8 @@ msgid "Active Bone"
 msgstr "活动骨骼"
 
 #. :src: bpy.types.ArmatureBones.active
-#, fuzzy
 msgid "Armature's active bone"
-msgstr "骨架未包含活动物体骨骼"
+msgstr "骨架的活动骨骼"
 
 #. :src: bpy.types.ArmatureConstraintTargets
 msgid "Armature Deform Constraint Targets"
@@ -2131,23 +2105,20 @@ msgid "Collection of target bones and weights"
 msgstr ""
 
 #. :src: bpy.types.ArmatureEditBones
-#, fuzzy
 msgid "Armature EditBones"
-msgstr "骨架选项"
+msgstr "骨架编辑骨骼"
 
 #. :src: bpy.types.ArmatureEditBones
 msgid "Collection of armature edit bones"
 msgstr ""
 
 #. :src: bpy.types.ArmatureEditBones.active
-#, fuzzy
 msgid "Active EditBone"
-msgstr "激活的骨骼"
+msgstr "活动编辑骨骼"
 
 #. :src: bpy.types.ArmatureEditBones.active
-#, fuzzy
 msgid "Armatures active edit bone"
-msgstr "骨架未包含活动物体骨骼"
+msgstr "骨架活动编辑骨骼"
 
 #. :src: bpy.types.BakePixel
 msgid "Bake Pixel"
@@ -2160,7 +2131,6 @@ msgid "Bake Data"
 msgstr "烘焙数据"
 
 #. :src: bpy.types.BakeSettings
-#, fuzzy
 msgid "Bake data for a Scene data-block"
 msgstr "场景数据块的烘焙数据"
 
@@ -2603,9 +2573,8 @@ msgstr "在切线空间上执行烘培"
 
 #. :src: bpy.types.BakeSettings.pass_filter
 #. :src: bpy.types.OBJECT_OT_bake.pass_filter
-#, fuzzy
 msgid "Pass Filter"
-msgstr "粘贴文件"
+msgstr "通道筛选"
 
 #. :src: bpy.types.BakeSettings.pass_filter
 msgid "Passes to include in the active baking pass"
@@ -3042,9 +3011,8 @@ msgid "Add ambient occlusion contribution"
 msgstr ""
 
 #. :src: bpy.types.BakeSettings.use_pass_color
-#, fuzzy
 msgid "Color the pass"
-msgstr "绘制的颜色"
+msgstr "为通道上色"
 
 #. :src: bpy.types.BakeSettings.use_pass_diffuse
 msgid "Add diffuse contribution"
@@ -3403,7 +3371,6 @@ msgid "Blendfile Data"
 msgstr "Blender 文件数据"
 
 #. :src: bpy.types.BlendData
-#, fuzzy
 msgid "Main data structure representing a .blend file and all its data-blocks"
 msgstr "呈现一个 .blend 文件及其所有数据块的主数据结构"
 
@@ -3413,7 +3380,6 @@ msgid "Actions"
 msgstr "动作"
 
 #. :src: bpy.types.BlendData.actions
-#, fuzzy
 msgid "Action data-blocks"
 msgstr "动作数据块"
 
@@ -3427,7 +3393,6 @@ msgid "Armatures"
 msgstr "骨架"
 
 #. :src: bpy.types.BlendData.armatures
-#, fuzzy
 msgid "Armature data-blocks"
 msgstr "骨架数据块"
 
@@ -3437,21 +3402,18 @@ msgid "Brushes"
 msgstr "笔刷"
 
 #. :src: bpy.types.BlendData.brushes
-#, fuzzy
 msgid "Brush data-blocks"
 msgstr "笔刷数据块"
 
 #. :src: bpy.types.BlendData.cache_files
 #. :src: bpy.types.FileSelectParams.filter_id:'CACHEFILE'
 #: scripts/startup/bl_ui/space_dopesheet.py:152
-#, fuzzy
 msgid "Cache Files"
-msgstr "打包文件"
+msgstr "缓存文件"
 
 #. :src: bpy.types.BlendData.cache_files
-#, fuzzy
 msgid "Cache Files data-blocks"
-msgstr "场景数据块"
+msgstr "缓存文件数据块"
 
 #. :src: bpy.types.BlendData.cameras
 #. :src: bpy.types.FileSelectParams.filter_id:'CAMERA'
@@ -3477,14 +3439,12 @@ msgstr "摄像机数据块"
 #. :src: bpy.types.PHYSICS_PT_rigid_body_collisions_collections
 #. :src: bpy.types.PHYSICS_PT_smoke_collections
 #: scripts/startup/bl_ui/space_outliner.py:319
-#, fuzzy
 msgid "Collections"
-msgstr "采集频率"
+msgstr "集合"
 
 #. :src: bpy.types.BlendData.collections
-#, fuzzy
 msgid "Collection data-blocks"
-msgstr "动作数据块"
+msgstr "集合数据块"
 
 #. :src: bpy.types.BlendData.curves
 #. :src: bpy.types.CurveMapping.curves
@@ -3498,7 +3458,6 @@ msgid "Curves"
 msgstr "曲线"
 
 #. :src: bpy.types.BlendData.curves
-#, fuzzy
 msgid "Curve data-blocks"
 msgstr "曲线数据块"
 
@@ -3518,7 +3477,6 @@ msgid "Vector Fonts"
 msgstr "矢量字体"
 
 #. :src: bpy.types.BlendData.fonts
-#, fuzzy
 msgid "Vector font data-blocks"
 msgstr "矢量字体数据块"
 
@@ -3550,7 +3508,6 @@ msgid "Images"
 msgstr "图像"
 
 #. :src: bpy.types.BlendData.images
-#, fuzzy
 msgid "Image data-blocks"
 msgstr "图像数据块"
 
@@ -3577,7 +3534,6 @@ msgid "Lattices"
 msgstr "晶格"
 
 #. :src: bpy.types.BlendData.lattices
-#, fuzzy
 msgid "Lattice data-blocks"
 msgstr "晶格数据块"
 
@@ -3586,17 +3542,16 @@ msgid "Libraries"
 msgstr "库"
 
 #. :src: bpy.types.BlendData.libraries
-#, fuzzy
 msgid "Library data-blocks"
 msgstr "库数据块"
 
 #. :src: bpy.types.BlendData.lightprobes
 msgid "LightProbes"
-msgstr ""
+msgstr "光照探头"
 
 #. :src: bpy.types.BlendData.lightprobes
 msgid "LightProbe data-blocks"
-msgstr ""
+msgstr "光照探头数据块"
 
 #. :src: bpy.types.BlendData.lights
 #. :src: bpy.types.FileSelectParams.filter_id:'LIGHT'
@@ -3608,9 +3563,8 @@ msgid "Lights"
 msgstr "灯光"
 
 #. :src: bpy.types.BlendData.lights
-#, fuzzy
 msgid "Light data-blocks"
-msgstr "文本数据块"
+msgstr "灯光数据块"
 
 #. :src: bpy.types.BlendData.linestyles
 #: scripts/startup/bl_ui/space_dopesheet.py:142
@@ -3618,7 +3572,6 @@ msgid "Line Styles"
 msgstr "线条样式"
 
 #. :src: bpy.types.BlendData.linestyles
-#, fuzzy
 msgid "Line Style data-blocks"
 msgstr "线条样式数据块"
 
@@ -3628,7 +3581,6 @@ msgid "Masks"
 msgstr "遮罩"
 
 #. :src: bpy.types.BlendData.masks
-#, fuzzy
 msgid "Masks data-blocks"
 msgstr "遮罩数据块"
 
@@ -3649,7 +3601,6 @@ msgid "Materials"
 msgstr "材质"
 
 #. :src: bpy.types.BlendData.materials
-#, fuzzy
 msgid "Material data-blocks"
 msgstr "材质数据块"
 
@@ -3662,7 +3613,6 @@ msgid "Meshes"
 msgstr "网格"
 
 #. :src: bpy.types.BlendData.meshes
-#, fuzzy
 msgid "Mesh data-blocks"
 msgstr "网格数据快"
 
@@ -3673,7 +3623,6 @@ msgid "Metaballs"
 msgstr "融球"
 
 #. :src: bpy.types.BlendData.metaballs
-#, fuzzy
 msgid "Metaball data-blocks"
 msgstr "融球数据块"
 
@@ -3683,7 +3632,6 @@ msgid "Movie Clips"
 msgstr "影片剪辑"
 
 #. :src: bpy.types.BlendData.movieclips
-#, fuzzy
 msgid "Movie Clip data-blocks"
 msgstr "影片剪辑数据块"
 
@@ -3692,7 +3640,6 @@ msgid "Node Groups"
 msgstr "节点组"
 
 #. :src: bpy.types.BlendData.node_groups
-#, fuzzy
 msgid "Node group data-blocks"
 msgstr "节点组数据块"
 
@@ -3717,30 +3664,26 @@ msgid "Objects"
 msgstr "物体"
 
 #. :src: bpy.types.BlendData.objects
-#, fuzzy
 msgid "Object data-blocks"
 msgstr "物体数据块"
 
 #. :src: bpy.types.BlendData.paint_curves
 #. :src: bpy.types.FileSelectParams.filter_id:'PAINT_CURVE'
-#, fuzzy
 msgid "Paint Curves"
-msgstr "绘画曲线"
+msgstr "绘制曲线"
 
 #. :src: bpy.types.BlendData.paint_curves
-#, fuzzy
 msgid "Paint Curves data-blocks"
-msgstr "曲线数据块"
+msgstr "绘制曲线数据块"
 
 #. :src: bpy.types.BlendData.palettes
 #. :src: bpy.types.FileSelectParams.filter_id:'PALETTE'
 msgid "Palettes"
-msgstr "图案"
+msgstr "调色盘"
 
 #. :src: bpy.types.BlendData.palettes
-#, fuzzy
 msgid "Palette data-blocks"
-msgstr "图案数据块"
+msgstr "调色盘数据块"
 
 #. :src: bpy.types.BlendData.particles
 #. :src: bpy.types.PHYSICS_PT_domain_particles
@@ -3755,7 +3698,6 @@ msgid "Particles"
 msgstr "粒子系统"
 
 #. :src: bpy.types.BlendData.particles
-#, fuzzy
 msgid "Particle data-blocks"
 msgstr "粒子数据块"
 
@@ -3780,7 +3722,6 @@ msgid "Screens"
 msgstr "屏幕"
 
 #. :src: bpy.types.BlendData.screens
-#, fuzzy
 msgid "Screen data-blocks"
 msgstr "屏幕数据块"
 
@@ -3795,7 +3736,6 @@ msgid "Shape Keys"
 msgstr "形态键"
 
 #. :src: bpy.types.BlendData.shape_keys
-#, fuzzy
 msgid "Shape Key data-blocks"
 msgstr "形态键数据块"
 
@@ -3806,7 +3746,6 @@ msgid "Sounds"
 msgstr "声音"
 
 #. :src: bpy.types.BlendData.sounds
-#, fuzzy
 msgid "Sound data-blocks"
 msgstr "声音数据块"
 
@@ -3817,7 +3756,6 @@ msgid "Speakers"
 msgstr "扬声器"
 
 #. :src: bpy.types.BlendData.speakers
-#, fuzzy
 msgid "Speaker data-blocks"
 msgstr "扬声器数据块"
 
@@ -3827,7 +3765,6 @@ msgid "Texts"
 msgstr "文本"
 
 #. :src: bpy.types.BlendData.texts
-#, fuzzy
 msgid "Text data-blocks"
 msgstr "文本数据块"
 
@@ -3864,28 +3801,25 @@ msgid "Version"
 msgstr "版本"
 
 #. :src: bpy.types.BlendData.version
-#, fuzzy
 msgid "Version of Blender the .blend was saved with"
-msgstr "该.blend文件保存于对应版本的Blender"
+msgstr "保存该.blend文件的Blender程序版本"
 
 #. :src: bpy.types.BlendData.window_managers
 msgid "Window Managers"
 msgstr "窗口管理器"
 
 #. :src: bpy.types.BlendData.window_managers
-#, fuzzy
 msgid "Window manager data-blocks"
 msgstr "窗口管理器数据块"
 
 #. :src: bpy.types.BlendData.workspaces
 #. :src: bpy.types.FileSelectParams.filter_id:'WORK_SPACE'
 msgid "Workspaces"
-msgstr ""
+msgstr "工作空间"
 
 #. :src: bpy.types.BlendData.workspaces
-#, fuzzy
 msgid "Workspace data-blocks"
-msgstr "世界环境数据块"
+msgstr "工作空间数据块"
 
 #. :src: bpy.types.BlendData.worlds
 #. :src: bpy.types.FileSelectParams.filter_id:'WORLD'
@@ -3895,83 +3829,72 @@ msgid "Worlds"
 msgstr "世界环境"
 
 #. :src: bpy.types.BlendData.worlds
-#, fuzzy
 msgid "World data-blocks"
 msgstr "世界环境数据块"
 
 #. :src: bpy.types.BlendDataActions
-#, fuzzy
 msgid "Main Actions"
-msgstr "主轴"
+msgstr "主动作"
 
 #. :src: bpy.types.BlendDataActions
-#, fuzzy
 msgid "Collection of actions"
-msgstr "点集"
+msgstr "动作集合"
 
 #. :src: bpy.types.BlendDataArmatures
-#, fuzzy
 msgid "Main Armatures"
-msgstr "骨架"
+msgstr "主骨架"
 
 #. :src: bpy.types.BlendDataArmatures
 msgid "Collection of armatures"
-msgstr ""
+msgstr "骨架集合"
 
 #. :src: bpy.types.BlendDataBrushes
 msgid "Main Brushes"
-msgstr ""
+msgstr "主笔刷"
 
 #. :src: bpy.types.BlendDataBrushes
 msgid "Collection of brushes"
-msgstr ""
+msgstr "笔刷集合"
 
 #. :src: bpy.types.BlendDataCacheFiles
-#, fuzzy
 msgid "Main Cache Files"
-msgstr "打包文件"
+msgstr "主缓存文件"
 
 #. :src: bpy.types.BlendDataCacheFiles
 msgid "Collection of cache files"
-msgstr ""
+msgstr "缓存文件集合"
 
 #. :src: bpy.types.BlendDataCameras
 msgid "Main Cameras"
-msgstr "主摄像机"
+msgstr "主相机"
 
 #. :src: bpy.types.BlendDataCameras
-#, fuzzy
 msgid "Collection of cameras"
-msgstr "已解算摄像机集合"
+msgstr "相机集合"
 
 #. :src: bpy.types.BlendDataCollections
-#, fuzzy
 msgid "Main Collections"
-msgstr "主轴"
+msgstr "主集合"
 
 #. :src: bpy.types.BlendDataCollections
-#, fuzzy
 msgid "Collection of collections"
-msgstr "点集"
+msgstr "集合的集合"
 
 #. :src: bpy.types.BlendDataCurves
-#, fuzzy
 msgid "Main Curves"
-msgstr "绘画曲线"
+msgstr "主曲线"
 
 #. :src: bpy.types.BlendDataCurves
-#, fuzzy
 msgid "Collection of curves"
-msgstr "点集"
+msgstr "曲线集合"
 
 #. :src: bpy.types.BlendDataFonts
 msgid "Main Fonts"
-msgstr ""
+msgstr "主字体"
 
 #. :src: bpy.types.BlendDataFonts
-#, fuzzy
 msgid "Collection of fonts"
-msgstr "点集"
+msgstr "字体集合"
 
 #. :src: bpy.types.BlendDataGreasePencils
 msgid "Main Grease Pencils"
@@ -3986,146 +3909,121 @@ msgid "Main Images"
 msgstr ""
 
 #. :src: bpy.types.BlendDataImages
-#, fuzzy
 msgid "Collection of images"
-msgstr "点集"
+msgstr "图像集合"
 
 #. :src: bpy.types.BlendDataLattices
-#, fuzzy
 msgid "Main Lattices"
-msgstr "晶格"
+msgstr "主晶格"
 
 #. :src: bpy.types.BlendDataLattices
-#, fuzzy
 msgid "Collection of lattices"
-msgstr "相关草图的收集"
+msgstr "晶格集合"
 
 #. :src: bpy.types.BlendDataLibraries
-#, fuzzy
 msgid "Main Libraries"
-msgstr "库"
+msgstr "主库"
 
 #. :src: bpy.types.BlendDataLibraries
 msgid "Collection of libraries"
-msgstr ""
+msgstr "库集合"
 
 #. :src: bpy.types.BlendDataLights
-#, fuzzy
 msgid "Main Lights"
-msgstr "点光"
+msgstr "主灯光"
 
 #. :src: bpy.types.BlendDataLights
-#, fuzzy
 msgid "Collection of lights"
-msgstr "点集"
+msgstr "灯光集合"
 
 #. :src: bpy.types.BlendDataLineStyles
-#, fuzzy
 msgid "Main Line Styles"
-msgstr "线条样式"
+msgstr "主线条样式"
 
 #. :src: bpy.types.BlendDataLineStyles
-#, fuzzy
 msgid "Collection of line styles"
-msgstr "点集"
+msgstr "线条样式集合"
 
 #. :src: bpy.types.BlendDataMasks
-#, fuzzy
 msgid "Main Masks"
-msgstr "绘制遮罩"
+msgstr "主遮罩"
 
 #. :src: bpy.types.BlendDataMasks
-#, fuzzy
 msgid "Collection of masks"
-msgstr "点集"
+msgstr "遮罩集合"
 
 #. :src: bpy.types.BlendDataMaterials
-#, fuzzy
 msgid "Main Materials"
-msgstr "材质"
+msgstr "主材质"
 
 #. :src: bpy.types.BlendDataMaterials
 #. :src: bpy.types.IDMaterials
-#, fuzzy
 msgid "Collection of materials"
-msgstr "相关草图的收集"
+msgstr "材质集合"
 
 #. :src: bpy.types.BlendDataMeshes
 msgid "Main Meshes"
-msgstr ""
+msgstr "主网格"
 
 #. :src: bpy.types.BlendDataMeshes
-#, fuzzy
 msgid "Collection of meshes"
-msgstr "相关草图的收集"
+msgstr "网格集合"
 
 #. :src: bpy.types.BlendDataMetaBalls
-#, fuzzy
 msgid "Main Metaballs"
-msgstr "融球"
+msgstr "主融球"
 
 #. :src: bpy.types.BlendDataMetaBalls
 msgid "Collection of metaballs"
-msgstr ""
+msgstr "融球集合"
 
 #. :src: bpy.types.BlendDataMovieClips
-#, fuzzy
 msgid "Main Movie Clips"
-msgstr "影片剪辑"
+msgstr "主影片剪辑"
 
 #. :src: bpy.types.BlendDataMovieClips
-#, fuzzy
 msgid "Collection of movie clips"
-msgstr "已解算摄像机集合"
+msgstr "影片剪辑集合"
 
 #. :src: bpy.types.BlendDataNodeTrees
-#, fuzzy
 msgid "Main Node Trees"
-msgstr "节点树"
+msgstr "主节点树"
 
 #. :src: bpy.types.BlendDataNodeTrees
-#, fuzzy
 msgid "Collection of node trees"
-msgstr "点集"
+msgstr "节点树集合"
 
 #. :src: bpy.types.BlendDataObjects
-#, fuzzy
 msgid "Main Objects"
-msgstr "链接物体"
+msgstr "主物体"
 
 #. :src: bpy.types.BlendDataObjects
-#, fuzzy
 msgid "Collection of objects"
-msgstr "点集"
+msgstr "物体集合"
 
 #. :src: bpy.types.BlendDataPaintCurves
-#, fuzzy
 msgid "Main Paint Curves"
-msgstr "绘画曲线"
+msgstr "主绘制曲线"
 
 #. :src: bpy.types.BlendDataPaintCurves
-#, fuzzy
 msgid "Collection of paint curves"
-msgstr "点集"
+msgstr "绘制曲线集合"
 
 #. :src: bpy.types.BlendDataPalettes
-#, fuzzy
 msgid "Main Palettes"
-msgstr "图案"
+msgstr "主调色盘"
 
 #. :src: bpy.types.BlendDataPalettes
-#, fuzzy
 msgid "Collection of palettes"
-msgstr "相关草图的收集"
+msgstr "调色盘集合"
 
 #. :src: bpy.types.BlendDataParticles
-#, fuzzy
 msgid "Main Particle Settings"
-msgstr "粒子设定"
+msgstr "主子设定"
 
 #. :src: bpy.types.BlendDataParticles
 msgid "Collection of particle settings"
-msgstr ""
+msgstr "粒子设定集合"
 
 #. :src: bpy.types.BlendDataProbes
 msgid "Main Light Probes"
@@ -4153,69 +4051,59 @@ msgstr "屏幕集合"
 
 #. :src: bpy.types.BlendDataSounds
 msgid "Main Sounds"
-msgstr ""
+msgstr "主声音"
 
 #. :src: bpy.types.BlendDataSounds
-#, fuzzy
 msgid "Collection of sounds"
-msgstr "点集"
+msgstr "声音集合"
 
 #. :src: bpy.types.BlendDataSpeakers
 msgid "Main Speakers"
 msgstr "主扬声器"
 
 #. :src: bpy.types.BlendDataSpeakers
-#, fuzzy
 msgid "Collection of speakers"
-msgstr "已解算摄像机集合"
+msgstr "扬声器集合"
 
 #. :src: bpy.types.BlendDataTexts
-#, fuzzy
 msgid "Main Texts"
-msgstr "遮罩纹理"
+msgstr "主文本"
 
 #. :src: bpy.types.BlendDataTexts
-#, fuzzy
 msgid "Collection of texts"
-msgstr "点集"
+msgstr "文本集合"
 
 #. :src: bpy.types.BlendDataTextures
-#, fuzzy
 msgid "Main Textures"
-msgstr "迷幻纹理"
+msgstr "主纹理"
 
 #. :src: bpy.types.BlendDataTextures
-#, fuzzy
 msgid "Collection of textures"
-msgstr "点集"
+msgstr "纹理集合"
 
 #. :src: bpy.types.BlendDataWindowManagers
-#, fuzzy
 msgid "Main Window Managers"
-msgstr "窗口管理器"
+msgstr "主窗口管理器"
 
 #. :src: bpy.types.BlendDataWindowManagers
 msgid "Collection of window managers"
-msgstr ""
+msgstr "窗口管理器集合"
 
 #. :src: bpy.types.BlendDataWorkSpaces
 msgid "Main Workspaces"
-msgstr ""
+msgstr "主工作空间"
 
 #. :src: bpy.types.BlendDataWorkSpaces
-#, fuzzy
 msgid "Collection of workspaces"
-msgstr "点集"
+msgstr "工作空间集合"
 
 #. :src: bpy.types.BlendDataWorlds
-#, fuzzy
 msgid "Main Worlds"
-msgstr "矩阵世界"
+msgstr "主世界环境"
 
 #. :src: bpy.types.BlendDataWorlds
-#, fuzzy
 msgid "Collection of worlds"
-msgstr "点集"
+msgstr "世界环境集合"
 
 #. :src: bpy.types.BlenderRNA
 msgid "Blender RNA"
@@ -5121,9 +5009,8 @@ msgid "Volume"
 msgstr "体积"
 
 #. :src: bpy.types.Bone
-#, fuzzy
 msgid "Bone in an Armature data-block"
-msgstr "骨骼数据块的骨骼"
+msgstr "骨架数据块中的骨骼"
 
 #. :src: bpy.types.Bone.bbone_curveinx
 #. :src: bpy.types.EditBone.bbone_curveinx
@@ -5556,9 +5443,8 @@ msgstr "选择尾"
 #. :src: bpy.types.Bone.show_wire
 #. :src: bpy.types.EditBone.show_wire
 #. :src: bpy.types.Object.show_wire
-#, fuzzy
 msgid "Display Wire"
-msgstr "显示尺寸"
+msgstr "显示线框"
 
 #. :src: bpy.types.Bone.show_wire
 #. :src: bpy.types.EditBone.show_wire
@@ -5729,21 +5615,19 @@ msgstr "骨骼组"
 
 #. :src: bpy.types.BoneGroups
 msgid "Collection of bone groups"
-msgstr ""
+msgstr "骨骼组集合"
 
 #. :src: bpy.types.BoneGroups.active
-#, fuzzy
 msgid "Active Bone Group"
-msgstr "动作块组"
+msgstr "活动骨骼组"
 
 #. :src: bpy.types.BoneGroups.active
 msgid "Active bone group for this pose"
 msgstr ""
 
 #. :src: bpy.types.BoneGroups.active_index
-#, fuzzy
 msgid "Active Bone Group Index"
-msgstr "骨骼组编号"
+msgstr "活动骨骼组编号"
 
 #. :src: bpy.types.BoneGroups.active_index
 msgid "Active index in bone groups array"
@@ -5792,9 +5676,8 @@ msgstr "具有堆积特性"
 
 #. :src: bpy.types.BrushCapabilitiesImagePaint.has_color
 #. :src: bpy.types.BrushCapabilitiesVertexPaint.has_color
-#, fuzzy
 msgid "Has Color"
-msgstr "标记颜色"
+msgstr "存在颜色"
 
 #. :src: bpy.types.BrushCapabilitiesImagePaint.has_radius
 msgid "Has Radius"
@@ -5863,9 +5746,8 @@ msgid "Has Secondary Color"
 msgstr "具有次级颜色特性"
 
 #. :src: bpy.types.BrushCapabilitiesSculpt.has_strength_pressure
-#, fuzzy
 msgid "Has Strength Pressure"
-msgstr "力度压感"
+msgstr "存在力度压感"
 
 #. :src: bpy.types.BrushCapabilitiesSculpt.has_topology_rake
 msgid "Has Topology Rake"
@@ -5873,20 +5755,17 @@ msgstr ""
 
 #. :src: bpy.types.BrushCapabilitiesVertexPaint
 #. :src: bpy.types.Brush.vertex_paint_capabilities
-#, fuzzy
 msgid "Vertex Paint Capabilities"
-msgstr "顶点绘制遮罩"
+msgstr "顶点绘制能力"
 
 #. :src: bpy.types.BrushCapabilitiesWeightPaint
 #. :src: bpy.types.Brush.weight_paint_capabilities
-#, fuzzy
 msgid "Weight Paint Capabilities"
-msgstr "权重绘制"
+msgstr "权重绘制能力"
 
 #. :src: bpy.types.BrushCapabilitiesWeightPaint.has_weight
-#, fuzzy
 msgid "Has Weight"
-msgstr "具有高度特性"
+msgstr "存在权重"
 
 #. :src: bpy.types.BrushGpencilSettings
 msgid "Grease Pencil Brush Settings"
@@ -5897,9 +5776,8 @@ msgid "Settings for grease pencil brush"
 msgstr ""
 
 #. :src: bpy.types.BrushGpencilSettings.active_smooth_factor
-#, fuzzy
 msgid "Active Smooth"
-msgstr "自动光滑"
+msgstr "活动光滑"
 
 #. :src: bpy.types.BrushGpencilSettings.active_smooth_factor
 msgid "Amount of smoothing while drawing "
@@ -5950,9 +5828,8 @@ msgid "Direction of the stroke at which brush gives maximal thickness (0° for h
 msgstr ""
 
 #. :src: bpy.types.BrushGpencilSettings.angle_factor
-#, fuzzy
 msgid "Angle Factor"
-msgstr "混合系数"
+msgstr "角度系数"
 
 #. :src: bpy.types.BrushGpencilSettings.angle_factor
 msgid "Reduce brush thickness by this factor when stroke is perpendicular to 'Angle' direction"
@@ -5967,23 +5844,20 @@ msgid "Curve used for the jitter effect"
 msgstr ""
 
 #. :src: bpy.types.BrushGpencilSettings.curve_sensitivity
-#, fuzzy
 msgid "Curve Sensitivity"
-msgstr "鼠标敏感度"
+msgstr "曲线敏感度"
 
 #. :src: bpy.types.BrushGpencilSettings.curve_sensitivity
 msgid "Curve used for the sensitivity"
 msgstr ""
 
 #. :src: bpy.types.BrushGpencilSettings.curve_strength
-#, fuzzy
 msgid "Curve Strength"
-msgstr "模糊强度"
+msgstr "曲线强度"
 
 #. :src: bpy.types.BrushGpencilSettings.curve_strength
-#, fuzzy
 msgid "Curve used for the strength"
-msgstr "用于曲线映射的曲线"
+msgstr "用于强度的曲线"
 
 #. :src: bpy.types.BrushGpencilSettings.eraser_mode
 #. :src: bpy.types.BrushGpencilSettings.fill_draw_mode
@@ -6100,7 +5974,7 @@ msgstr "模式"
 
 #. :src: bpy.types.BrushGpencilSettings.eraser_mode
 msgid "Eraser Mode"
-msgstr ""
+msgstr "橡皮擦模式"
 
 #. :src: bpy.types.BrushGpencilSettings.eraser_mode:'SOFT'
 #. :src: bpy.types.CloudsTexture.noise_type:'SOFT_NOISE'
@@ -6158,9 +6032,8 @@ msgid "Use stroke eraser"
 msgstr ""
 
 #. :src: bpy.types.BrushGpencilSettings.eraser_strength_factor
-#, fuzzy
 msgid "Affect Stroke Strength"
-msgstr "影响强度"
+msgstr "影响笔画强度"
 
 #. :src: bpy.types.BrushGpencilSettings.eraser_strength_factor
 msgid "Amount of erasing for strength "
@@ -6388,9 +6261,8 @@ msgid "Ink Noise"
 msgstr ""
 
 #. :src: bpy.types.BrushGpencilSettings.gp_icon:'BLOCK'
-#, fuzzy
 msgid "Block"
-msgstr "区块"
+msgstr "块"
 
 #. :src: bpy.types.BrushGpencilSettings.gp_icon:'MARKER'
 #. :src: bpy.types.DOPESHEET_MT_marker
@@ -6600,9 +6472,8 @@ msgid "Iterations"
 msgstr "迭代"
 
 #. :src: bpy.types.BrushGpencilSettings.pen_smooth_steps
-#, fuzzy
 msgid "Number of times to smooth newly created strokes"
-msgstr "网格光滑次数"
+msgstr "新创建的笔画的光滑次数"
 
 #. :src: bpy.types.BrushGpencilSettings.pen_strength
 msgid "Color strength for new strokes (affect alpha factor of color)"
@@ -6617,9 +6488,8 @@ msgid "Number of times to subdivide newly created strokes, for less jagged strok
 msgstr ""
 
 #. :src: bpy.types.BrushGpencilSettings.pen_thick_smooth_factor
-#, fuzzy
 msgid "Smooth Thickness"
-msgstr "平滑度"
+msgstr "平滑厚度"
 
 #. :src: bpy.types.BrushGpencilSettings.pen_thick_smooth_factor
 msgid "Amount of thickness smoothing to apply after finish newly created strokes, to reduce jitter/noise"
@@ -6630,9 +6500,8 @@ msgid "Iterations Thickness"
 msgstr ""
 
 #. :src: bpy.types.BrushGpencilSettings.pen_thick_smooth_steps
-#, fuzzy
 msgid "Number of times to smooth thickness for newly created strokes"
-msgstr "网格光滑次数"
+msgstr "新创建的笔画厚度的光滑次数"
 
 #. :src: bpy.types.BrushGpencilSettings.random_pressure
 msgid "Pressure Randomness"
@@ -6651,9 +6520,8 @@ msgid "Randomness factor strength in new strokes"
 msgstr ""
 
 #. :src: bpy.types.BrushGpencilSettings.random_subdiv
-#, fuzzy
 msgid "Random Subdivision"
-msgstr "Y 向细分"
+msgstr "随机细分"
 
 #. :src: bpy.types.BrushGpencilSettings.random_subdiv
 msgid "Randomness factor for new strokes after subdivision"
@@ -6661,16 +6529,14 @@ msgstr ""
 
 #. :src: bpy.types.BrushGpencilSettings.show_fill
 #. :src: bpy.types.MaterialGPencilStyle.show_fill
-#, fuzzy
 msgid "Show Fill"
-msgstr "显示全部"
+msgstr "显示填充"
 
 #. :src: bpy.types.BrushGpencilSettings.show_fill
 msgid "Show transparent lines to use as boundary for filling"
 msgstr ""
 
 #. :src: bpy.types.BrushGpencilSettings.show_fill_boundary
-#, fuzzy
 msgid "Show Lines"
 msgstr "显示线型"
 
@@ -6680,7 +6546,7 @@ msgstr ""
 
 #. :src: bpy.types.BrushGpencilSettings.show_lasso
 msgid "Show Lasso"
-msgstr ""
+msgstr "显示套索"
 
 #. :src: bpy.types.BrushGpencilSettings.show_lasso
 msgid "Do not draw fill color while drawing the stroke"
@@ -6697,9 +6563,8 @@ msgstr ""
 
 #. :src: bpy.types.BrushGpencilSettings.use_cursor
 #. :src: bpy.types.GPencilSculptBrush.use_cursor
-#, fuzzy
 msgid "Enable Cursor"
-msgstr "吸附光标"
+msgstr "启用光标"
 
 #. :src: bpy.types.BrushGpencilSettings.use_cursor
 #. :src: bpy.types.GPencilSculptBrush.use_cursor
@@ -6707,9 +6572,8 @@ msgid "Enable cursor on screen"
 msgstr ""
 
 #. :src: bpy.types.BrushGpencilSettings.use_default_eraser
-#, fuzzy
 msgid "Default Eraser"
-msgstr "默认过渡"
+msgstr "默认橡皮擦"
 
 #. :src: bpy.types.BrushGpencilSettings.use_default_eraser
 msgid "Use this brush when enable eraser with fast switch key"
@@ -6725,9 +6589,8 @@ msgid "Use tablet pressure for jitter"
 msgstr ""
 
 #. :src: bpy.types.BrushGpencilSettings.use_material_pin
-#, fuzzy
 msgid "Pin Material"
-msgstr "材质"
+msgstr "钉固材质"
 
 #. :src: bpy.types.BrushGpencilSettings.use_material_pin
 msgid "Keep material assigned to brush"
@@ -6747,9 +6610,8 @@ msgid "Use Pressure"
 msgstr "使用压感"
 
 #. :src: bpy.types.BrushGpencilSettings.use_pressure
-#, fuzzy
 msgid "Use tablet pressure"
-msgstr "数位板压力"
+msgstr "使用数位板压力"
 
 #. :src: bpy.types.BrushGpencilSettings.use_settings_postprocess
 msgid "Use Post-Process Settings"
@@ -6760,9 +6622,8 @@ msgid "Additional post processing options for new strokes"
 msgstr ""
 
 #. :src: bpy.types.BrushGpencilSettings.use_settings_random
-#, fuzzy
 msgid "Random Settings"
-msgstr "随机触发器"
+msgstr "随机设定"
 
 #. :src: bpy.types.BrushGpencilSettings.use_settings_random
 msgid "Random brush settings"
