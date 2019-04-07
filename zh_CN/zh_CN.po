@@ -9470,7 +9470,7 @@ msgstr "最终结果的约束影响数量"
 
 #. :src: bpy.types.Constraint.is_proxy_local
 msgid "Proxy Local"
-msgstr "自身代理"
+msgstr "本地代理"
 
 #. :src: bpy.types.Constraint.is_proxy_local
 msgid "Constraint was added in this proxy instance (i.e. did not belong to source Armature)"
@@ -33109,9 +33109,8 @@ msgid "Tool Settings"
 msgstr "工具设置"
 
 #. :src: bpy.types.Scene.transform_orientation_slots
-#, fuzzy
 msgid "Transform Orientation Slots"
-msgstr "变换参照坐标系"
+msgstr "变换坐标系槽"
 
 #. :src: bpy.types.Scene.unit_settings
 #. :src: bpy.types.UnitSettings
@@ -39643,7 +39642,7 @@ msgstr ""
 #: scripts/startup/bl_ui/properties_texture.py:365
 #: source/blender/editors/transform/transform_ops.c:183
 msgid "Orientation"
-msgstr "参照坐标系"
+msgstr "坐标系"
 
 #. :src: bpy.types.LineStyleThicknessModifier_Calligraphy.orientation
 msgid "Angle of the main direction"
@@ -41343,7 +41342,7 @@ msgstr "将视图对齐至激活项"
 #. :src: bpy.types.VIEW3D_MT_view_local
 #. :src: bpy.types.SpaceView3D.local_view
 msgid "Local View"
-msgstr "自身视图"
+msgstr "局部视图"
 
 #. :src: bpy.types.VIEW3D_MT_view_navigation
 #. :src: bpy.types.Preferences.active_section:'NAVIGATION'
@@ -68920,10 +68919,9 @@ msgid "Toggle preview display for selected nodes"
 msgstr "切换选择节点的预览"
 
 #. :src: bpy.types.NODE_OT_read_viewlayers
-#, fuzzy
 msgctxt "Operator"
 msgid "Read View Layers"
-msgstr "自身视图层"
+msgstr "读取视图层"
 
 #. :src: bpy.types.NODE_OT_read_viewlayers
 msgid "Read all render layers of all used scenes"
@@ -78066,11 +78064,11 @@ msgstr "吸附活动项到目标"
 #. :src: bpy.types.TRANSFORM_OT_create_orientation
 msgctxt "Operator"
 msgid "Create Orientation"
-msgstr "创建参照坐标系"
+msgstr "创建坐标系"
 
 #. :src: bpy.types.TRANSFORM_OT_create_orientation
 msgid "Create transformation orientation from selection"
-msgstr "根据所选元素创建变换参照坐标系"
+msgstr "根据所选元素创建变换坐标系"
 
 #. :src: bpy.types.TRANSFORM_OT_create_orientation.name
 #, fuzzy
@@ -78083,7 +78081,7 @@ msgstr "覆盖之前"
 
 #. :src: bpy.types.TRANSFORM_OT_create_orientation.overwrite
 msgid "Overwrite previously created orientation with same name"
-msgstr "覆盖先前创建的同名参照坐标系"
+msgstr "覆盖先前创建的同名坐标系"
 
 #. :src: bpy.types.TRANSFORM_OT_create_orientation.use
 msgid "Use after creation"
@@ -78104,11 +78102,11 @@ msgstr ""
 #. :src: bpy.types.TRANSFORM_OT_delete_orientation
 msgctxt "Operator"
 msgid "Delete Orientation"
-msgstr "删除参照坐标系"
+msgstr "删除坐标系"
 
 #. :src: bpy.types.TRANSFORM_OT_delete_orientation
 msgid "Delete transformation orientation"
-msgstr "删除变换参照坐标系"
+msgstr "删除变换坐标系"
 
 #. :src: bpy.types.TRANSFORM_OT_edge_bevelweight
 msgctxt "Operator"
@@ -78191,9 +78189,8 @@ msgstr "约束轴"
 #. :src: bpy.types.TRANSFORM_OT_skin_resize.orient_matrix_type
 #. :src: bpy.types.TRANSFORM_OT_transform.orient_matrix_type
 #. :src: bpy.types.TRANSFORM_OT_translate.orient_matrix_type
-#, fuzzy
 msgid "Matrix Orientation"
-msgstr "创建参照坐标系"
+msgstr "矩阵坐标系"
 
 #. :src: bpy.types.TRANSFORM_OT_mirror.orient_type
 #. :src: bpy.types.TRANSFORM_OT_resize.orient_type
@@ -78206,7 +78203,7 @@ msgstr "创建参照坐标系"
 #. :src: bpy.types.TRANSFORM_OT_translate.orient_type
 #. :src: bpy.types.TransformOrientationSlot.type
 msgid "Transformation orientation"
-msgstr "变换参照坐标系"
+msgstr "变换坐标系"
 
 #. :src: bpy.types.TRANSFORM_OT_push_pull
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'EDIT_MESH', 'builtin.push_pull'
@@ -80183,7 +80180,7 @@ msgstr "在场景中进行飞行漫游"
 #. :src: bpy.types.VIEW3D_OT_localview
 msgctxt "Operator"
 msgid "Local View"
-msgstr "自身视图"
+msgstr "局部视图"
 
 #. :src: bpy.types.VIEW3D_OT_localview
 msgid "Toggle display of selected object(s) separately and centered in view"
@@ -85407,7 +85404,7 @@ msgstr "姿态选项"
 #. :src: bpy.types.VIEW3D_PT_transform_orientations
 #: scripts/startup/bl_ui/space_view3d.py:5355
 msgid "Transform Orientations"
-msgstr "变换参照坐标系"
+msgstr "变换坐标系"
 
 #. :src: bpy.types.VIEW3D_PT_view3d_lock
 msgid "View Lock"
@@ -101394,13 +101391,12 @@ msgid "Name of the custom transform orientation"
 msgstr "自定义变换坐标系的名称"
 
 #. :src: bpy.types.TransformOrientationSlot
-#, fuzzy
 msgid "Orientation Slot"
-msgstr "参照坐标系"
+msgstr "坐标系槽"
 
 #. :src: bpy.types.TransformOrientationSlot.custom_orientation
 msgid "Current Transform Orientation"
-msgstr "当前的变换参照坐标系"
+msgstr "当前的变换坐标系"
 
 #. :src: bpy.types.TransformOrientationSlot.use
 msgid "Use scene orientation instead of a custom setting"
@@ -103954,9 +103950,8 @@ msgid "Plane dimensions:"
 msgstr ""
 
 #: scripts/addons/io_import_images_as_planes.py:835
-#, fuzzy
 msgid "Orientation:"
-msgstr "参照坐标系"
+msgstr "坐标系:"
 
 #: scripts/addons/io_import_images_as_planes.py:915
 msgid "Added {} Image Plane(s)"
@@ -109519,7 +109514,7 @@ msgstr "视口渲染图像"
 #: scripts/startup/bl_ui/space_view3d.py:625
 msgctxt "Operator"
 msgid "Toggle Local View"
-msgstr "切换自身视图"
+msgstr "切换局部视图"
 
 #: scripts/startup/bl_ui/space_view3d.py:636
 msgctxt "Operator"
@@ -110446,7 +110441,7 @@ msgstr "缩放纹理空间"
 #: scripts/startup/bl_ui/space_view3d.py:450
 msgctxt "Operator"
 msgid "Align to Transform Orientation"
-msgstr "对齐到变换参照坐标系"
+msgstr "对齐到变换坐标系"
 
 #: scripts/startup/bl_ui/space_view3d.py:556
 msgctxt "Operator"
@@ -117866,14 +117861,12 @@ msgid "No active camera"
 msgstr "没有激活的摄像机"
 
 #: source/blender/editors/space_view3d/view3d_view.c:1194
-#, fuzzy
 msgid "No more than 16 local views"
-msgstr "不得多于 8 个自身视图"
+msgstr "不得多于 16 个局部视图"
 
 #: source/blender/editors/space_view3d/view3d_view.c:1434
-#, fuzzy
 msgid "No object selected"
-msgstr "选择的物体"
+msgstr "没有选中的物体"
 
 #: source/blender/editors/space_view3d/view3d_walk.c:330
 msgid "%s: confirm, %s: cancel, %s: gravity (%s), %s|%s|%s|%s: move around, %s: fast, %s: slow, %s|%s: up and down, %s: teleport, %s: jump, %s: increase speed, %s: decrease speed"
@@ -118205,7 +118198,7 @@ msgstr "全局"
 #: source/blender/editors/transform/transform_constraints.c:670
 #: source/blender/editors/transform/transform_orientations.c:436
 msgid "local"
-msgstr "自身"
+msgstr "局部"
 
 #: source/blender/editors/transform/transform_constraints.c:674
 #: source/blender/editors/transform/transform_orientations.c:430
