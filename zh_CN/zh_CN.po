@@ -18213,7 +18213,7 @@ msgstr ""
 
 #. :src: bpy.types.FileSelectParams.filter_id_category:'IMAGE'
 msgid "Images & Sounds"
-msgstr ""
+msgstr "图像 & 声音"
 
 #. :src: bpy.types.FileSelectParams.filter_id_category:'IMAGE'
 msgid "Show/hide images, movie clips, sounds and masks"
@@ -18238,13 +18238,12 @@ msgid "Miscellaneous"
 msgstr ""
 
 #. :src: bpy.types.FileSelectParams.filter_id_category:'MISC'
-#, fuzzy
 msgid "Show/hide other data types"
-msgstr "显示其他数据贴图"
+msgstr "显示其他数据类型"
 
 #. :src: bpy.types.FileSelectParams.filter_search
 msgid "Filter by name, supports '*' wildcard"
-msgstr ""
+msgstr "按照名称筛选，支持通配符'*'"
 
 #. :src: bpy.types.FileSelectParams.recursion_level
 #, fuzzy
@@ -21210,7 +21209,7 @@ msgstr ""
 
 #. :src: bpy.types.GPencilSculptGuide.location
 msgid "Custom reference point for guides"
-msgstr ""
+msgstr "自定义参考点作为辅助"
 
 #. :src: bpy.types.GPencilSculptGuide.reference_object
 msgid "Object used for reference point"
@@ -21278,18 +21277,16 @@ msgid "Grid allows horizontal and vertical lines"
 msgstr ""
 
 #. :src: bpy.types.GPencilSculptGuide.use_guide
-#, fuzzy
 msgid "Use Guides"
-msgstr "UV 栅格图"
+msgstr "使用辅助"
 
 #. :src: bpy.types.GPencilSculptGuide.use_guide
 msgid "Enable speed guides"
 msgstr ""
 
 #. :src: bpy.types.GPencilSculptGuide.use_snapping
-#, fuzzy
 msgid "Use Snapping"
-msgstr "映射"
+msgstr "使用吸附"
 
 #. :src: bpy.types.GPencilSculptGuide.use_snapping
 msgid "Enable snapping to guides angle or spacing options"
@@ -21297,7 +21294,7 @@ msgstr ""
 
 #. :src: bpy.types.GPencilSculptSettings
 msgid "GPencil Sculpt Settings"
-msgstr ""
+msgstr "蜡笔雕刻设置"
 
 #. :src: bpy.types.GPencilSculptSettings
 msgid "Properties for Grease Pencil stroke sculpting tool"
@@ -52607,7 +52604,7 @@ msgstr "根据选择的关键帧设置预览区间"
 #. :src: bpy.types.VIEW3D_OT_properties
 msgctxt "Operator"
 msgid "Toggle Sidebar"
-msgstr ""
+msgstr "切换侧栏"
 
 #. :src: bpy.types.ACTION_OT_properties
 #. :src: bpy.types.CLIP_OT_properties
@@ -52619,7 +52616,7 @@ msgstr ""
 #. :src: bpy.types.TEXT_OT_properties
 #. :src: bpy.types.VIEW3D_OT_properties
 msgid "Toggle the properties region visibility"
-msgstr ""
+msgstr "切换属性栏可见性"
 
 # pblc
 #. :src: bpy.types.ACTION_OT_push_down
@@ -52944,7 +52941,6 @@ msgstr "反选已选定的对象"
 #. :src: bpy.types.UV_OT_select_box
 #. :src: bpy.types.VIEW3D_OT_select_box
 #: scripts/startup/bl_ui/properties_grease_pencil_common.py:405
-#, fuzzy
 msgctxt "Operator"
 msgid "Box Select"
 msgstr "框选"
@@ -56515,7 +56511,6 @@ msgstr "更改激活轨中的所有标记"
 
 #. :src: bpy.types.CLIP_OT_graph_select_box
 #. :src: bpy.types.MASK_OT_select_box
-#, fuzzy
 msgid "Select curve points using box selection"
 msgstr "使用框选方式选择曲线调节点"
 
@@ -56737,7 +56732,6 @@ msgid "Change selection of all tracking markers"
 msgstr "更改所有追踪标记的选择状态"
 
 #. :src: bpy.types.CLIP_OT_select_box
-#, fuzzy
 msgid "Select markers using box selection"
 msgstr "使用框选方式选择标记"
 
@@ -57062,7 +57056,7 @@ msgstr "选择用于稳像的轨迹"
 #. :src: bpy.types.VIEW3D_OT_toolshelf
 msgctxt "Operator"
 msgid "Toggle Toolbar"
-msgstr ""
+msgstr "切换工具栏"
 
 #. :src: bpy.types.CLIP_OT_tools
 msgid "Toggle clip tools panel"
@@ -63029,31 +63023,27 @@ msgid "Add Render Slot"
 msgstr "渲染槽"
 
 #. :src: bpy.types.IMAGE_OT_add_render_slot
-#, fuzzy
 msgid "Add a new render slot"
-msgstr "新增一个新材质"
+msgstr "新增一个渲染槽"
 
 #. :src: bpy.types.IMAGE_OT_clear_render_border
 #. :src: bpy.types.VIEW3D_OT_clear_render_border
-#, fuzzy
 msgctxt "Operator"
 msgid "Clear Render Region"
-msgstr "循环渲染列表"
+msgstr "清除渲染框"
 
 #. :src: bpy.types.IMAGE_OT_clear_render_border
-#, fuzzy
 msgid "Clear the boundaries of the render region and disable render region"
-msgstr "清除渲染框并禁用区块渲染"
+msgstr "清除渲染框并禁用框选渲染"
 
 #. :src: bpy.types.IMAGE_OT_clear_render_slot
-#, fuzzy
 msgctxt "Operator"
 msgid "Clear Render Slot"
-msgstr "循环渲染列表"
+msgstr "清除循环渲染槽"
 
 #. :src: bpy.types.IMAGE_OT_clear_render_slot
 msgid "Clear the currently selected render slot"
-msgstr ""
+msgstr "清除当前选中渲染槽"
 
 #. :src: bpy.types.IMAGE_OT_curves_point_set
 msgctxt "Operator"
@@ -63266,13 +63256,11 @@ msgid "Remove the current render slot"
 msgstr ""
 
 #. :src: bpy.types.IMAGE_OT_render_border
-#, fuzzy
 msgctxt "Operator"
 msgid "Render Region"
-msgstr "渲染引擎"
+msgstr "渲染框"
 
 #. :src: bpy.types.IMAGE_OT_render_border
-#, fuzzy
 msgid "Set the boundaries of the render region and enable render region"
 msgstr "开启框选渲染并设置边界框"
 
@@ -63297,9 +63285,8 @@ msgid "Use mouse to sample a color in current image"
 msgstr "在当前图像中使用鼠标来取样"
 
 #. :src: bpy.types.IMAGE_OT_sample.size
-#, fuzzy
 msgid "Sample Size"
-msgstr "采样线"
+msgstr "采样尺寸"
 
 #. :src: bpy.types.IMAGE_OT_sample_line
 msgctxt "Operator"
@@ -64132,7 +64119,6 @@ msgid "Change selection of all visible reports"
 msgstr "改变全部曲线点的选区"
 
 #. :src: bpy.types.INFO_OT_select_box
-#, fuzzy
 msgid "Toggle box selection"
 msgstr "开启框选模式"
 
@@ -64321,13 +64307,11 @@ msgid "Change selection of all time markers"
 msgstr "更改所有视角标记的选择"
 
 #. :src: bpy.types.MARKER_OT_select_box
-#, fuzzy
 msgctxt "Operator"
 msgid "Marker Box Select"
 msgstr "框选标记"
 
 #. :src: bpy.types.MARKER_OT_select_box
-#, fuzzy
 msgid "Select all time markers using box selection"
 msgstr "框选所有时间标记"
 
@@ -76948,7 +76932,6 @@ msgid "Select or deselect all strips"
 msgstr "选择或取消选择全部片段"
 
 #. :src: bpy.types.SEQUENCER_OT_select_box
-#, fuzzy
 msgid "Select strips using box selection"
 msgstr "用框选方式选择片段"
 
@@ -79639,7 +79622,6 @@ msgid "Change selection of all UV vertices"
 msgstr "修改全部 UV 顶点的呃选择"
 
 #. :src: bpy.types.UV_OT_select_box
-#, fuzzy
 msgid "Select UV vertices using box selection"
 msgstr "使用框选来选择 UV 顶点"
 
@@ -80313,7 +80295,7 @@ msgstr "选择被粘贴物体"
 #. :src: bpy.types.VIEW3D_OT_render_border
 msgctxt "Operator"
 msgid "Set Render Region"
-msgstr "设置渲染区域"
+msgstr "设置渲染框"
 
 #. :src: bpy.types.VIEW3D_OT_render_border
 msgid "Set the boundaries of the border render and enable border render"
@@ -80363,7 +80345,6 @@ msgid "Use object selection (editmode only)"
 msgstr "选择时使用物体的中心(仅编辑模式)"
 
 #. :src: bpy.types.VIEW3D_OT_select_box
-#, fuzzy
 msgid "Select items using box selection"
 msgstr "使用框选方式选择项目"
 
@@ -84917,21 +84898,19 @@ msgid "Collections Visibility"
 msgstr "集合可见性"
 
 #. :src: bpy.types.VIEW3D_PT_gpencil_brush_presets
-#, fuzzy
 msgid "Brush Presets"
-msgstr "笔刷序号"
+msgstr "笔刷预设"
 
 #. :src: bpy.types.VIEW3D_PT_gpencil_draw_context_menu
-#, fuzzy
 msgid "Draw Context Menu"
-msgstr "枚举菜单情境"
+msgstr "绘制上下文菜单"
 
 #. :src: bpy.types.VIEW3D_PT_gpencil_guide
 #. :src: bpy.types.VIEW3D_PT_overlay_guides
 #: scripts/startup/bl_ui/space_view3d.py:5424
 #: scripts/startup/bl_ui/space_view3d.py:255
 msgid "Guides"
-msgstr ""
+msgstr "辅助"
 
 #. :src: bpy.types.VIEW3D_PT_gpencil_lock
 #: scripts/startup/bl_ui/space_view3d.py:5408
@@ -84966,11 +84945,11 @@ msgstr "网格编辑模式"
 
 #. :src: bpy.types.VIEW3D_PT_overlay_edit_mesh_developer
 msgid "Developer"
-msgstr ""
+msgstr "开发人员"
 
 #. :src: bpy.types.VIEW3D_PT_overlay_edit_mesh_measurement
 msgid "Measurement"
-msgstr ""
+msgstr "测量"
 
 #. :src: bpy.types.VIEW3D_PT_overlay_gizmo
 msgid "Gizmo"
@@ -84984,14 +84963,13 @@ msgstr "运动追踪"
 
 #. :src: bpy.types.VIEW3D_PT_paint_texture_context_menu
 msgid "Texture Paint Context Menu"
-msgstr ""
+msgstr "纹理绘制上下文菜单"
 
 #. :src: bpy.types.VIEW3D_PT_paint_vertex_context_menu
 msgid "Vertex Paint Context Menu"
-msgstr ""
+msgstr "顶点绘制上下文菜单"
 
 #. :src: bpy.types.VIEW3D_PT_paint_weight_context_menu
-#, fuzzy
 msgid "Weights Context Menu"
 msgstr "权重上下文菜单"
 
@@ -90499,14 +90477,12 @@ msgid "Don't use any fixed alignment, fill available space"
 msgstr ""
 
 #. :src: bpy.types.Region.alignment:'HORIZONTAL_SPLIT'
-#, fuzzy
 msgid "Horizontal Split"
-msgstr "水平标度"
+msgstr "水平分割"
 
 #. :src: bpy.types.Region.alignment:'VERTICAL_SPLIT'
-#, fuzzy
 msgid "Vertical Split"
-msgstr "垂直缩放"
+msgstr "垂直分割"
 
 #. :src: bpy.types.Region.alignment:'FLOAT'
 #: source/blender/blenkernel/intern/customdata.c:1287
@@ -90951,49 +90927,41 @@ msgstr ""
 
 #. :src: bpy.types.RenderSettings.border_max_x
 #. :src: bpy.types.SpaceView3D.render_border_max_x
-#, fuzzy
 msgid "Region Maximum X"
-msgstr "至 X 的最大值"
+msgstr "渲染框X最大值"
 
 #. :src: bpy.types.RenderSettings.border_max_x
 #. :src: bpy.types.SpaceView3D.render_border_max_x
-#, fuzzy
 msgid "Maximum X value for the render region"
 msgstr "为框选渲染设置 X 轴的最大值"
 
 #. :src: bpy.types.RenderSettings.border_max_y
 #. :src: bpy.types.SpaceView3D.render_border_max_y
-#, fuzzy
 msgid "Region Maximum Y"
-msgstr "至 Y 的最大值"
+msgstr "渲染框Y最大值"
 
 #. :src: bpy.types.RenderSettings.border_max_y
 #. :src: bpy.types.SpaceView3D.render_border_max_y
-#, fuzzy
 msgid "Maximum Y value for the render region"
 msgstr "为框选渲染设置 Y 轴的最大值"
 
 #. :src: bpy.types.RenderSettings.border_min_x
 #. :src: bpy.types.SpaceView3D.render_border_min_x
-#, fuzzy
 msgid "Region Minimum X"
-msgstr "至 X 的最小值"
+msgstr "渲染框X最小值"
 
 #. :src: bpy.types.RenderSettings.border_min_x
 #. :src: bpy.types.SpaceView3D.render_border_min_x
-#, fuzzy
 msgid "Minimum X value for the render region"
 msgstr "为框选渲染设置 Y 轴的最小值"
 
 #. :src: bpy.types.RenderSettings.border_min_y
 #. :src: bpy.types.SpaceView3D.render_border_min_y
-#, fuzzy
 msgid "Region Minimum Y"
-msgstr "至 Y 的最小值"
+msgstr "渲染框Y最小值"
 
 #. :src: bpy.types.RenderSettings.border_min_y
 #. :src: bpy.types.SpaceView3D.render_border_min_y
-#, fuzzy
 msgid "Minimum Y value for the render region"
 msgstr "为框选渲染设置 Y 轴的最小值"
 
@@ -91434,9 +91402,8 @@ msgstr ""
 
 #. :src: bpy.types.RenderSettings.use_border
 #. :src: bpy.types.SpaceView3D.use_render_border
-#, fuzzy
 msgid "Render Region"
-msgstr "渲染引擎"
+msgstr "渲染框"
 
 #. :src: bpy.types.RenderSettings.use_border
 msgid "Render a user-defined render region, within the frame size"
@@ -91448,12 +91415,11 @@ msgstr "将渲染结果导入至节点编辑器, 需事先开启节点合成"
 
 #. :src: bpy.types.RenderSettings.use_crop_to_border
 msgid "Crop to Render Region"
-msgstr ""
+msgstr "裁切至渲染框"
 
 #. :src: bpy.types.RenderSettings.use_crop_to_border
-#, fuzzy
 msgid "Crop the rendered frame to the defined render region size"
-msgstr "使用框选来渲染部分画面"
+msgstr "裁切渲染帧至定义的渲染框尺寸"
 
 #. :src: bpy.types.RenderSettings.use_file_extension
 msgid "File Extensions"
@@ -98274,13 +98240,12 @@ msgid "Viewport display style for tracks"
 msgstr "追踪点在视图中的显示样式"
 
 #. :src: bpy.types.SpaceView3D.use_local_camera
-#, fuzzy
 msgid "Use Local Camera"
-msgstr "场景主摄像机:"
+msgstr "使用自身相机"
 
 #. :src: bpy.types.SpaceView3D.use_local_camera
 msgid "Use a local camera in this view, rather than scene's active camera camera"
-msgstr ""
+msgstr "在此视图中使用自身相机，而非场景活动相机"
 
 #. :src: bpy.types.SpaceView3D.use_render_border
 msgid "Use a region within the frame size for rendered viewport(when not viewing through the camera)"
@@ -98299,9 +98264,8 @@ msgid "UV editor data for the image editor space"
 msgstr "UV 编辑器应用图像编辑时的数据空间"
 
 #. :src: bpy.types.SpaceUVEditor.display_stretch_type
-#, fuzzy
 msgid "Display Stretch Type"
-msgstr "绘制线类型"
+msgstr "显示拉伸类型"
 
 #. :src: bpy.types.SpaceUVEditor.display_stretch_type
 msgid "Type of stretch to draw"
@@ -98316,9 +98280,8 @@ msgid "Area distortion between UV and 3D faces"
 msgstr "UV 和立体面的畸变区域"
 
 #. :src: bpy.types.SpaceUVEditor.edge_display_type
-#, fuzzy
 msgid "Display type for drawing UV edges"
-msgstr "UV 边的绘制类型"
+msgstr "显示UV 边的绘制类型"
 
 #. :src: bpy.types.SpaceUVEditor.lock_bounds
 msgid "Constrain to Image Bounds"
@@ -98333,13 +98296,12 @@ msgid "Snap to Pixels"
 msgstr "吸附至像素点"
 
 #. :src: bpy.types.SpaceUVEditor.pixel_snap_mode
-#, fuzzy
 msgid "Snap UVs to pixels while editing"
-msgstr "编辑时将 UV 吸附至象素点坐标上"
+msgstr "编辑时将 UV 吸附至像素点坐标上"
 
 #. :src: bpy.types.SpaceUVEditor.pixel_snap_mode:'DISABLED'
 msgid "Don't snap to pixels"
-msgstr ""
+msgstr "不吸附像素点"
 
 #. :src: bpy.types.SpaceUVEditor.pixel_snap_mode:'CORNER'
 #, fuzzy
@@ -98348,58 +98310,51 @@ msgstr "转角"
 
 #. :src: bpy.types.SpaceUVEditor.pixel_snap_mode:'CORNER'
 msgid "Snap to pixel corners"
-msgstr ""
+msgstr "吸附像素点拐角"
 
 #. :src: bpy.types.SpaceUVEditor.pixel_snap_mode:'CENTER'
 msgid "Snap to pixel centers"
-msgstr ""
+msgstr "吸附像素点中心"
 
 #. :src: bpy.types.SpaceUVEditor.show_edges
-#, fuzzy
 msgid "Display Edges"
-msgstr "显示模式"
+msgstr "显示边"
 
 #. :src: bpy.types.SpaceUVEditor.show_edges
 msgid "Display edges in vertex select mode"
 msgstr ""
 
 #. :src: bpy.types.SpaceUVEditor.show_faces
-#, fuzzy
 msgid "Display Faces"
-msgstr "显示晶格"
+msgstr "显示面"
 
 # rblc
 #. :src: bpy.types.SpaceUVEditor.show_faces
-#, fuzzy
 msgid "Display faces over the image"
-msgstr "在图像上显示网格面"
+msgstr "在图像上显示面"
 
 #. :src: bpy.types.SpaceUVEditor.show_metadata
 msgid "Display metadata properties of the image"
 msgstr ""
 
 #. :src: bpy.types.SpaceUVEditor.show_modified_edges
-#, fuzzy
 msgid "Display Modified Edges"
-msgstr "绘制修改器应用后的边"
+msgstr "显示修改器应用后的边"
 
 #. :src: bpy.types.SpaceUVEditor.show_modified_edges
-#, fuzzy
 msgid "Display edges after modifiers are applied"
-msgstr "绘制应用修改器后的边效果"
+msgstr "显示应用修改器后的边"
 
 #. :src: bpy.types.SpaceUVEditor.show_pixel_coords
 #: scripts/startup/bl_ui/space_image.py:739
-#, fuzzy
 msgid "Pixel Coordinates"
-msgstr "使用坐标轴"
+msgstr "像素点坐标轴"
 
 #. :src: bpy.types.SpaceUVEditor.show_pixel_coords
 msgid "Display UV coordinates in pixels rather than from 0.0 to 1.0"
 msgstr ""
 
 #. :src: bpy.types.SpaceUVEditor.show_smooth_edges
-#, fuzzy
 msgid "Display Smooth Edges"
 msgstr "绘制平滑边线"
 
@@ -98410,7 +98365,7 @@ msgstr "使用抗锯齿来绘制 UV 的边"
 
 #. :src: bpy.types.SpaceUVEditor.show_stretch
 msgid "Display Stretch"
-msgstr ""
+msgstr "显示拉伸"
 
 # rblc
 #. :src: bpy.types.SpaceUVEditor.show_stretch
@@ -101960,11 +101915,11 @@ msgstr "显示所选点线面的编号"
 #. :src: bpy.types.View3DOverlay.show_extras
 #: scripts/startup/bl_ui/space_view3d.py:4861
 msgid "Extras"
-msgstr ""
+msgstr "其他项"
 
 #. :src: bpy.types.View3DOverlay.show_extras
 msgid "Object details, including empty wire, cameras and other visual guides"
-msgstr ""
+msgstr "包括空物体线框，相机以及其他可见辅助物的物体细节"
 
 #. :src: bpy.types.View3DOverlay.show_face_center
 #, fuzzy
@@ -101976,18 +101931,16 @@ msgid "Display face center (when disabled, edges display wider in edge mode)"
 msgstr ""
 
 #. :src: bpy.types.View3DOverlay.show_face_normals
-#, fuzzy
 msgid "Display Normals"
-msgstr "显示世界"
+msgstr "显示法线"
 
 #. :src: bpy.types.View3DOverlay.show_face_normals
 msgid "Display face normals as lines"
 msgstr "用线显示面法线"
 
 #. :src: bpy.types.View3DOverlay.show_face_orientation
-#, fuzzy
 msgid "Face Orientation"
-msgstr "面朝向:"
+msgstr "面朝向"
 
 #. :src: bpy.types.View3DOverlay.show_face_orientation
 msgid "Show the Face Orientation Overlay"
@@ -107934,10 +107887,9 @@ msgid "Render Slot Cycle Next"
 msgstr "向后循环滚动渲染槽"
 
 #: scripts/startup/bl_ui/space_image.py:151
-#, fuzzy
 msgctxt "Operator"
 msgid "Box Select Pinned"
-msgstr "框选已钉项"
+msgstr "框选已钉固项"
 
 #: scripts/startup/bl_ui/space_image.py:210
 msgctxt "Operator"
@@ -109642,10 +109594,9 @@ msgid "Clipping Region..."
 msgstr ""
 
 #: scripts/startup/bl_ui/space_view3d.py:762
-#, fuzzy
 msgctxt "Operator"
 msgid "Render Region..."
-msgstr "渲染音频..."
+msgstr "渲染框..."
 
 #: scripts/startup/bl_ui/space_view3d.py:784
 #: scripts/startup/bl_ui/space_view3d.py:844
@@ -109681,16 +109632,15 @@ msgid "Select All by Type..."
 msgstr "按类型全选..."
 
 #: scripts/startup/bl_ui/space_view3d.py:821
-#, fuzzy
 msgctxt "Operator"
 msgid "Select Active Camera"
-msgstr "选择活动摄像机"
+msgstr "选择活动相机"
 
 #: scripts/startup/bl_ui/space_view3d.py:822
 #: scripts/startup/bl_ui/space_view3d.py:1053
 msgctxt "Operator"
 msgid "Mirror Selection"
-msgstr ""
+msgstr "镜像选择"
 
 #: scripts/startup/bl_ui/space_view3d.py:833
 #: scripts/startup/bl_ui/space_view3d.py:894
@@ -110250,7 +110200,7 @@ msgstr "移除重叠顶点"
 #: scripts/startup/bl_ui/space_view3d.py:3292
 msgctxt "Operator"
 msgid "Clear Sharp from Vertices"
-msgstr ""
+msgstr "为顶点清除锐边标记"
 
 #: scripts/startup/bl_ui/space_view3d.py:3348
 msgctxt "Operator"
@@ -110263,7 +110213,6 @@ msgid "Set From Faces"
 msgstr ""
 
 #: scripts/startup/bl_ui/space_view3d.py:3390
-#, fuzzy
 msgctxt "Operator"
 msgid "Rotate Normal"
 msgstr "自法线方向旋转"
@@ -110274,7 +110223,6 @@ msgid "Point normals to target"
 msgstr ""
 
 #: scripts/startup/bl_ui/space_view3d.py:3408
-#, fuzzy
 msgctxt "Operator"
 msgid "Smoothen"
 msgstr "光滑"
@@ -110313,10 +110261,9 @@ msgid "Bones"
 msgstr "骨骼"
 
 #: scripts/startup/bl_ui/space_view3d.py:3949
-#, fuzzy
 msgctxt "Operator"
 msgid "Dissolve Bones"
-msgstr "消散烟雾"
+msgstr "融并骨骼"
 
 #: scripts/startup/bl_ui/space_view3d.py:3967
 #, fuzzy
@@ -110336,10 +110283,9 @@ msgstr "移动到层"
 
 #: scripts/startup/bl_ui/space_view3d.py:4108
 #: scripts/startup/bl_ui/space_view3d.py:5694
-#, fuzzy
 msgctxt "Operator"
 msgid "Duplicate Active Frame"
-msgstr "删除活动帧"
+msgstr "复制活动帧"
 
 #: scripts/startup/bl_ui/space_view3d.py:4140
 #: scripts/startup/bl_ui/space_view3d_toolbar.py:1923
@@ -110358,13 +110304,12 @@ msgid "Toggle Overlays"
 msgstr ""
 
 #: scripts/startup/bl_ui/space_view3d.py:4311
-#, fuzzy
 msgid "Local Camera"
-msgstr "场景主摄像机:"
+msgstr "自身相机"
 
 #: scripts/startup/bl_ui/space_view3d.py:4451
 msgid "Object Types Visibility"
-msgstr ""
+msgstr "物体类型可见性"
 
 #: scripts/startup/bl_ui/space_view3d.py:4788
 #, fuzzy
@@ -110373,21 +110318,19 @@ msgstr "视图切换"
 
 #: scripts/startup/bl_ui/space_view3d.py:4790
 msgid "Active Tools"
-msgstr ""
+msgstr "活动工具"
 
 #: scripts/startup/bl_ui/space_view3d.py:4833
-#, fuzzy
 msgid "Text Info"
-msgstr "系统信息"
+msgstr "文本信息"
 
 #: scripts/startup/bl_ui/space_view3d.py:4868
-#, fuzzy
 msgid "Origins"
 msgstr "原点"
 
 #: scripts/startup/bl_ui/space_view3d.py:4871
 msgid "Origins (All)"
-msgstr ""
+msgstr "原点(全部)"
 
 #: scripts/startup/bl_ui/space_view3d.py:4971
 msgid "Creases"
@@ -110403,7 +110346,6 @@ msgid "Seams"
 msgstr "缝合边"
 
 #: scripts/startup/bl_ui/space_view3d.py:5001
-#, fuzzy
 msgid "Vertex Group Weights"
 msgstr "顶点组权重"
 
@@ -110430,9 +110372,8 @@ msgid "Affect"
 msgstr "特效"
 
 #: scripts/startup/bl_ui/space_view3d.py:5442
-#, fuzzy
 msgid "Reference Point"
-msgstr "参考"
+msgstr "参考点"
 
 #: scripts/startup/bl_ui/space_view3d.py:5466
 msgid "PAINT_GPENCILEDIT_GPENCILSCULPT_GPENCILWEIGHT_GPENCILOBJECTDraw Grease PencilEdit Grease PencilSculpt Grease PencilWeight Grease PencilGrease Pencil"
@@ -110447,13 +110388,11 @@ msgid "Display:"
 msgstr "显示:"
 
 #: scripts/startup/bl_ui/space_view3d.py:5683
-#, fuzzy
 msgctxt "Operator"
 msgid "Arrange Strokes"
-msgstr "沿笔触"
+msgstr "整理笔触"
 
 #: scripts/startup/bl_ui/space_view3d.py:5685
-#, fuzzy
 msgctxt "Operator"
 msgid "Toggle Caps"
 msgstr "切换大小写"
@@ -110465,30 +110404,26 @@ msgstr ""
 
 #: scripts/startup/bl_ui/space_view3d.py:5739
 #: scripts/startup/bl_ui/space_view3d.py:5772
-#, fuzzy
 msgid "Frames:"
 msgstr "帧:"
 
 #: scripts/startup/bl_ui/space_view3d.py:5743
 #: scripts/startup/bl_ui/space_view3d.py:5776
-#, fuzzy
 msgctxt "Operator"
 msgid "Insert Blank"
 msgstr "插入空白帧"
 
 #: scripts/startup/bl_ui/space_view3d.py:5744
 #: scripts/startup/bl_ui/space_view3d.py:5777
-#, fuzzy
 msgctxt "Operator"
 msgid "Duplicate Active"
-msgstr "重复的动作"
+msgstr "复制活动项"
 
 #: scripts/startup/bl_ui/space_view3d.py:5750
 #: scripts/startup/bl_ui/space_view3d.py:5783
-#, fuzzy
 msgctxt "Operator"
 msgid "Delete All Active Layers"
-msgstr "删除所有活动帧"
+msgstr "删除所有活动层"
 
 #: scripts/startup/bl_ui/space_view3d.py:422
 #: scripts/startup/bl_ui/space_view3d.py:4127
@@ -110519,21 +110454,19 @@ msgid "Project from View (Bounds)"
 msgstr "从视角投影 (限界)"
 
 #: scripts/startup/bl_ui/space_view3d.py:583
-#, fuzzy
 msgctxt "Operator"
 msgid "Frame Selected"
-msgstr "选择的面"
+msgstr "选中的帧"
 
 #: scripts/startup/bl_ui/space_view3d.py:587
 msgctxt "Operator"
 msgid "Frame All"
-msgstr ""
+msgstr "全部帧"
 
 #: scripts/startup/bl_ui/space_view3d.py:612
-#, fuzzy
 msgctxt "Operator"
 msgid "Viewport Render Animation"
-msgstr "渲染动画"
+msgstr "视口渲染动画"
 
 #: scripts/startup/bl_ui/space_view3d.py:677
 msgctxt "Operator"
@@ -110561,7 +110494,6 @@ msgid "Edge Rings"
 msgstr "并排边"
 
 #: scripts/startup/bl_ui/space_view3d.py:1588
-#, fuzzy
 msgctxt "Operator"
 msgid "Armature"
 msgstr "骨架"
@@ -110784,13 +110716,13 @@ msgstr "清除锐边"
 #: scripts/startup/bl_ui/space_view3d.py:3291
 msgctxt "Operator"
 msgid "Mark Sharp from Vertices"
-msgstr "从顶点标记锐边"
+msgstr "为顶点标记锐边"
 
 #: scripts/startup/bl_ui/space_view3d.py:3257
 #: scripts/startup/bl_ui/space_view3d.py:3012
 msgctxt "Operator"
 msgid "Bevel Edges"
-msgstr ""
+msgstr "边线倒角"
 
 #: scripts/startup/bl_ui/space_view3d.py:3268
 #: scripts/startup/bl_ui/space_view3d.py:3031
