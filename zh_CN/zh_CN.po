@@ -37713,7 +37713,7 @@ msgstr "插入关键帧"
 #. :src: bpy.types.KeyingSet.use_insertkey_visual
 #. :src: bpy.types.KeyingSetPath.use_insertkey_visual
 msgid "Insert keyframes based on 'visual transforms'"
-msgstr "基于 '目视变换' 插入关键帧"
+msgstr "基于 '可视变换' 插入关键帧"
 
 #. :src: bpy.types.KeyingSet.use_insertkey_xyz_to_rgb
 #. :src: bpy.types.KeyingSetPath.use_insertkey_xyz_to_rgb
@@ -41191,7 +41191,7 @@ msgstr "融球"
 
 #. :src: bpy.types.VIEW3D_MT_edit_metaball_context_menu
 msgid "Metaball Context Menu"
-msgstr ""
+msgstr "融球上下文菜单"
 
 #. :src: bpy.types.VIEW3D_MT_edit_text_chars
 msgid "Special Characters"
@@ -41202,18 +41202,16 @@ msgid "Text Context Menu"
 msgstr "文本上下文菜单"
 
 #. :src: bpy.types.VIEW3D_MT_gpencil_autoweights
-#, fuzzy
 msgid "Generate Weights"
-msgstr "生成高度"
+msgstr "生成权重"
 
 #. :src: bpy.types.VIEW3D_MT_gpencil_copy_layer
 msgid "Copy Layer to Object"
 msgstr ""
 
 #. :src: bpy.types.VIEW3D_MT_gpencil_edit_context_menu
-#, fuzzy
 msgid "Edit Context Menu"
-msgstr "枚举菜单情境"
+msgstr "编辑上下文菜单"
 
 #. :src: bpy.types.VIEW3D_MT_hide_mask
 msgid "Hide/Mask"
@@ -41224,7 +41222,6 @@ msgid "Hooks"
 msgstr "挂钩"
 
 #. :src: bpy.types.VIEW3D_MT_image_add
-#, fuzzy
 msgid "Add Image"
 msgstr "添加图像"
 
@@ -41269,7 +41266,7 @@ msgstr "应用"
 
 #. :src: bpy.types.VIEW3D_MT_object_context_menu
 msgid "Object Context Menu"
-msgstr ""
+msgstr "物体上下文菜单"
 
 #. :src: bpy.types.VIEW3D_MT_object_quick_effects
 msgid "Quick Effects"
@@ -41291,11 +41288,11 @@ msgstr "刚体"
 
 #. :src: bpy.types.VIEW3D_MT_particle_context_menu
 msgid "Particle Context Menu"
-msgstr ""
+msgstr "粒子上下文菜单"
 
 #. :src: bpy.types.VIEW3D_MT_pose_context_menu
 msgid "Pose Context Menu"
-msgstr ""
+msgstr "姿态上下文菜单"
 
 #. :src: bpy.types.VIEW3D_MT_pose_propagate
 msgid "Propagate"
@@ -69212,7 +69209,7 @@ msgstr ""
 #. :src: bpy.types.OBJECT_OT_anim_transforms_to_deltas
 msgctxt "Operator"
 msgid "Animated Transforms to Deltas"
-msgstr "形变动画为增量"
+msgstr "动画变换 -> 增量"
 
 #. :src: bpy.types.OBJECT_OT_anim_transforms_to_deltas
 msgid "Convert object animation for normal transforms to delta transforms"
@@ -70231,13 +70228,12 @@ msgstr "将物体的坐标值归零"
 #. :src: bpy.types.OBJECT_OT_location_clear.clear_delta
 #. :src: bpy.types.OBJECT_OT_rotation_clear.clear_delta
 #. :src: bpy.types.OBJECT_OT_scale_clear.clear_delta
-#, fuzzy
 msgid "Clear Delta"
-msgstr "清除缝合边"
+msgstr "清除增量"
 
 #. :src: bpy.types.OBJECT_OT_location_clear.clear_delta
 msgid "Clear delta location in addition to clearing the normal location transform"
-msgstr ""
+msgstr "在清除常规位置变换的同时清除增量位置变换"
 
 #. :src: bpy.types.OBJECT_OT_make_dupli_face
 msgctxt "Operator"
@@ -70986,7 +70982,7 @@ msgstr "将物体的旋转值归零"
 
 #. :src: bpy.types.OBJECT_OT_rotation_clear.clear_delta
 msgid "Clear delta rotation in addition to clearing the normal rotation transform"
-msgstr ""
+msgstr "在清除常规旋转变换的同时清除增量旋转变换"
 
 #. :src: bpy.types.OBJECT_OT_scale_clear
 msgid "Clear the object's scale"
@@ -70994,7 +70990,7 @@ msgstr "将物体的缩放值归零"
 
 #. :src: bpy.types.OBJECT_OT_scale_clear.clear_delta
 msgid "Clear delta scale in addition to clearing the normal scale transform"
-msgstr ""
+msgstr "在清除常规缩放变换的同时清除增量缩放变换"
 
 #. :src: bpy.types.OBJECT_OT_select_all
 msgid "Change selection of all visible objects in scene"
@@ -72031,11 +72027,11 @@ msgstr "设置为活动顶点组"
 #. :src: bpy.types.OBJECT_OT_visual_transform_apply
 msgctxt "Operator"
 msgid "Apply Visual Transform"
-msgstr "应用视觉变换"
+msgstr "应用可视变换"
 
 #. :src: bpy.types.OBJECT_OT_visual_transform_apply
 msgid "Apply the object's visual transformation to its data"
-msgstr "将物体的视觉变换结果应用为自身数据"
+msgstr "将物体的可视变换结果应用为自身数据"
 
 #. :src: bpy.types.OUTLINER_OT_action_set
 msgctxt "Operator"
@@ -100914,9 +100910,8 @@ msgid "Prevent marker editing"
 msgstr ""
 
 #. :src: bpy.types.ToolSettings.lock_object_mode
-#, fuzzy
 msgid "Lock Object Modes"
-msgstr "物体模式"
+msgstr "锁定物体模式"
 
 #. :src: bpy.types.ToolSettings.lock_object_mode
 msgid "Restrict select to the current mode"
@@ -100933,9 +100928,8 @@ msgstr "工作在哪一个网格元素上"
 #. :src: bpy.types.ToolSettings.normal_vector
 #: scripts/startup/bl_ui/space_view3d.py:3398
 #: scripts/startup/bl_ui/space_view3d_toolbar.py:1636
-#, fuzzy
 msgid "Normal Vector"
-msgstr "法线系数"
+msgstr "法向矢量"
 
 #. :src: bpy.types.ToolSettings.normal_vector
 msgid "Normal Vector used to copy, add or multiply"
@@ -101712,9 +101706,8 @@ msgid "Scroll and zoom for a 2D region"
 msgstr "滚动以缩放为 2D 区域"
 
 #. :src: bpy.types.View3DCursor.rotation_euler
-#, fuzzy
 msgid "3D rotation"
-msgstr "Z 位置"
+msgstr "三围旋转"
 
 #. :src: bpy.types.View3DOverlay
 msgid "3D View Overlay Settings"
@@ -104788,9 +104781,8 @@ msgid "Longitude Min"
 msgstr ""
 
 #: scripts/startup/bl_ui/properties_data_curve.py:100
-#, fuzzy
 msgid "Resolution Preview U"
-msgstr "分辨率 U"
+msgstr "U向预览分辨率"
 
 #: scripts/startup/bl_ui/properties_data_curve.py:105
 msgid "Render U"
@@ -104806,9 +104798,8 @@ msgid "Small Caps Scale"
 msgstr "小型大写"
 
 #: scripts/startup/bl_ui/properties_data_curve.py:423
-#, fuzzy
 msgid "Character Spacing"
-msgstr "更改字间"
+msgstr "字符间距"
 
 #: scripts/startup/bl_ui/properties_data_curve.py:424
 #, fuzzy
@@ -109929,7 +109920,7 @@ msgstr "旋转 & 缩放"
 
 #: scripts/startup/bl_ui/space_view3d.py:2071
 msgid "Visual Transform"
-msgstr "视觉结果转换"
+msgstr "可视变换"
 
 #: scripts/startup/bl_ui/space_view3d.py:2176
 msgctxt "Operator"
@@ -109942,13 +109933,11 @@ msgid "Object & Data"
 msgstr "物体 & 数据"
 
 #: scripts/startup/bl_ui/space_view3d.py:2184
-#, fuzzy
 msgctxt "Operator"
 msgid "Object & Data & Materials"
-msgstr "物体 & 数据 & 材质+贴图"
+msgstr "物体 & 数据 & 材质"
 
 #: scripts/startup/bl_ui/space_view3d.py:2188
-#, fuzzy
 msgctxt "Operator"
 msgid "Materials"
 msgstr "材质"
@@ -110530,24 +110519,23 @@ msgstr "添加被动项"
 
 #: scripts/startup/bl_ui/space_view3d.py:2046
 msgid "Location to Deltas"
-msgstr ""
+msgstr "位置 -> 增量"
 
 #: scripts/startup/bl_ui/space_view3d.py:2051
 msgid "Rotation to Deltas"
-msgstr ""
+msgstr "旋转 -> 增量"
 
 #: scripts/startup/bl_ui/space_view3d.py:2056
 msgid "Scale to Deltas"
-msgstr ""
+msgstr "缩放 -> 增量"
 
 #: scripts/startup/bl_ui/space_view3d.py:2062
-#, fuzzy
 msgid "All Transforms to Deltas"
-msgstr "形变动画为增量"
+msgstr "全部变换 -> 增量"
 
 #: scripts/startup/bl_ui/space_view3d.py:2076
 msgid "Visual Geometry to Mesh"
-msgstr ""
+msgstr "可视几何 -> 网格"
 
 #: scripts/startup/bl_ui/space_view3d.py:2206
 msgctxt "Operator"
