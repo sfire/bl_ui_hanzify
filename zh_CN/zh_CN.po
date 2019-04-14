@@ -20710,7 +20710,7 @@ msgstr ""
 #: scripts/startup/bl_ui/properties_particle.py:796
 #: scripts/startup/bl_ui/space_clip.py:586
 msgid "Frames"
-msgstr "帧数量"
+msgstr "帧"
 
 #. :src: bpy.types.GPencilLayer.frames
 msgid "Sketches for this layer on different frames"
@@ -30590,14 +30590,12 @@ msgid "Instance Faces Scale"
 msgstr ""
 
 #. :src: bpy.types.Object.instance_faces_scale
-#, fuzzy
 msgid "Scale the face instance objects"
-msgstr "缩放副本面"
+msgstr "缩放面副本实例"
 
 #. :src: bpy.types.Object.instance_type
-#, fuzzy
 msgid "Instance Type"
-msgstr "交错类型"
+msgstr "实例类型"
 
 #. :src: bpy.types.Object.instance_type
 #, fuzzy
@@ -61421,9 +61419,8 @@ msgid "Which type of curve to convert to"
 msgstr "要转换的目标物体类型"
 
 #. :src: bpy.types.GPENCIL_OT_convert.type:'PATH'
-#, fuzzy
 msgid "Animation path"
-msgstr "动画数据"
+msgstr "动画路径"
 
 #. :src: bpy.types.GPENCIL_OT_convert.type:'CURVE'
 msgid "Smooth Bezier curve"
@@ -70238,16 +70235,16 @@ msgstr "在清除常规位置变换的同时清除增量位置变换"
 #. :src: bpy.types.OBJECT_OT_make_dupli_face
 msgctxt "Operator"
 msgid "Make Dupli-Face"
-msgstr "生成副本面"
+msgstr "生成面副本"
 
 #. :src: bpy.types.OBJECT_OT_make_dupli_face
 msgid "Convert objects into dupli-face instanced"
-msgstr "将物体转换为实例化的副本面"
+msgstr "将物体转换为实例化的面副本"
 
 #. :src: bpy.types.OBJECT_OT_make_links_data
 msgctxt "Operator"
 msgid "Link Data"
-msgstr "链接数据"
+msgstr "关联数据"
 
 #. :src: bpy.types.OBJECT_OT_make_links_data
 #, fuzzy
@@ -79679,7 +79676,7 @@ msgstr "选择钉住的 UV 顶点"
 #. :src: bpy.types.UV_OT_select_split
 msgctxt "Operator"
 msgid "Select Split"
-msgstr "选取分离的"
+msgstr "拆分选中项"
 
 #. :src: bpy.types.UV_OT_select_split
 msgid "Select only entirely selected faces"
@@ -107494,10 +107491,9 @@ msgstr "缩放/旋转轨迹"
 
 #: scripts/startup/bl_ui/space_clip.py:1240
 #: scripts/startup/bl_ui/space_image.py:102
-#, fuzzy
 msgctxt "Operator"
 msgid "View Fit"
-msgstr "转动视图"
+msgstr "匹配视图"
 
 #: scripts/startup/bl_ui/space_clip.py:188
 msgid "Solve error: %.4f"
@@ -107513,19 +107509,17 @@ msgid "With Name:"
 msgstr ""
 
 #: scripts/startup/bl_ui/space_dopesheet.py:113
-#, fuzzy
 msgid "Filter by Type:"
-msgstr "过滤类型:"
+msgstr "按类型过滤:"
 
 #: scripts/startup/bl_ui/space_dopesheet.py:329
 msgid "Multi-word Match Search"
 msgstr ""
 
 #: scripts/startup/bl_ui/space_dopesheet.py:357
-#, fuzzy
 msgctxt "Operator"
 msgid "Toggle Graph Editor"
-msgstr "曲线编辑器主题"
+msgstr "切换曲线编辑器"
 
 #: scripts/startup/bl_ui/space_dopesheet.py:389
 #: scripts/startup/bl_ui/space_graph.py:190
@@ -108055,9 +108049,8 @@ msgid "Mirror Y"
 msgstr "镜像Y"
 
 #: scripts/startup/bl_ui/space_image.py:133
-#, fuzzy
 msgid "Zoom d:d"
-msgstr "缩放比 %d:%d"
+msgstr "缩放比 d:d"
 
 #: scripts/startup/bl_ui/space_image.py:240
 msgctxt "Operator"
@@ -108065,16 +108058,14 @@ msgid "Pack As PNG"
 msgstr "打包为 PNG 格式"
 
 #: scripts/startup/bl_ui/space_info.py:45
-#, fuzzy
 msgctxt "Operator"
 msgid "Horizontal Split"
-msgstr "水平标度"
+msgstr "水平分割"
 
 #: scripts/startup/bl_ui/space_info.py:46
-#, fuzzy
 msgctxt "Operator"
 msgid "Vertical Split"
-msgstr "垂直缩放"
+msgstr "垂直分割"
 
 #: scripts/startup/bl_ui/space_info.py:55
 msgctxt "Operator"
