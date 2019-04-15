@@ -83202,9 +83202,8 @@ msgid "Show diffuse color of object and overlay sculpt mask on top of it"
 msgstr "显示物体的漫射色并在其顶层覆盖雕刻遮罩"
 
 #. :src: bpy.types.Sculpt.show_mask
-#, fuzzy
 msgid "Show Mask"
-msgstr "显示迷雾"
+msgstr "显示遮罩"
 
 #. :src: bpy.types.Sculpt.show_mask
 msgid "Show mask as overlay on object"
@@ -96748,9 +96747,8 @@ msgstr ""
 #. :src: bpy.types.SpaceGraphEditor.show_marker_lines
 #. :src: bpy.types.SpaceNLA.show_marker_lines
 #. :src: bpy.types.SpaceSequenceEditor.show_marker_lines
-#, fuzzy
 msgid "Show Marker Lines"
-msgstr "显示 3D 标记名称"
+msgstr "显示标记线"
 
 #. :src: bpy.types.SpaceDopeSheetEditor.show_marker_lines
 #. :src: bpy.types.SpaceGraphEditor.show_marker_lines
@@ -107806,7 +107804,7 @@ msgstr "统一力度"
 #: scripts/startup/bl_ui/space_image.py:181
 #: scripts/startup/bl_ui/space_view3d.py:2234
 msgid "Unified Color"
-msgstr ""
+msgstr "统一颜色"
 
 #: scripts/startup/bl_ui/space_image.py:198
 #: scripts/startup/bl_ui/space_outliner.py:194
@@ -107977,7 +107975,6 @@ msgid "Island"
 msgstr "孤岛"
 
 #: scripts/startup/bl_ui/space_image.py:479
-#, fuzzy
 msgctxt "Operator"
 msgid "Remove Double UVs"
 msgstr "移除重叠 UV"
@@ -107991,9 +107988,8 @@ msgid "Aspect Ratio"
 msgstr "宽高比"
 
 #: scripts/startup/bl_ui/space_image.py:736
-#, fuzzy
 msgid "Repeat Image"
-msgstr "替换图像"
+msgstr "重复图像"
 
 #: scripts/startup/bl_ui/space_image.py:1160
 #: scripts/startup/bl_ui/space_view3d_toolbar.py:848
@@ -108012,10 +108008,9 @@ msgid "Zoom d:d"
 msgstr "缩放比 %d:%d"
 
 #: scripts/startup/bl_ui/space_image.py:207
-#, fuzzy
 msgctxt "Operator"
 msgid "Replace..."
-msgstr "替换"
+msgstr "替换..."
 
 #: scripts/startup/bl_ui/space_image.py:217
 msgctxt "Operator"
