@@ -538,7 +538,7 @@ msgstr "动作姿态标记"
 #. :src: bpy.types.ActionPoseMarkers
 #. :src: bpy.types.TimelineMarkers
 msgid "Collection of timeline markers"
-msgstr ""
+msgstr "时间轴标记的集合"
 
 #. :src: bpy.types.ActionPoseMarkers.active
 msgid "Active Pose Marker"
@@ -624,7 +624,7 @@ msgstr "可执行 Gettext 'msgfmt'"
 
 #. :src: bpy.types.UI_AP_i18n_settings.GETTEXT_MSGFMT_EXECUTABLE
 msgid "The gettext msgfmt 'compiler'. You’ll likely have to edit it if you’re under Windows"
-msgstr "gettext msgfmt 的 '编译器', 如果是在 WIndows 系统下, 可能会编辑此项"
+msgstr "gettext msgfmt 的 '编译器'。如果是在 WIndows 系统下, 可能会编辑此项"
 
 #. :src: bpy.types.UI_AP_i18n_settings.I18N_DIR
 msgid "Translation Root"
@@ -1600,7 +1600,7 @@ msgstr ""
 #. :src: bpy.types.Theme.theme_area:'IMAGE_EDITOR'
 #. :src: bpy.types.WorkSpaceTool.space_type:'IMAGE_EDITOR'
 msgid "UV/Image Editor"
-msgstr "UV/ 图像编辑器"
+msgstr "UV / 图像编辑器"
 
 #. :src: bpy.types.Area.type:'IMAGE_EDITOR'
 #. :src: bpy.types.GizmoGroup.bl_space_type:'IMAGE_EDITOR'
@@ -2142,7 +2142,7 @@ msgstr "罩体挤出"
 #. :src: bpy.types.BakeSettings.cage_extrusion
 #. :src: bpy.types.OBJECT_OT_bake.cage_extrusion
 msgid "Distance to use for the inward ray cast when using selected to active"
-msgstr "使用 '所选物体 -> 活动物体' 时的内侧光线投射距离"
+msgstr "使用 '选中的物体 -> 活动物体' 时的内侧光线投射距离"
 
 #. :src: bpy.types.BakeSettings.cage_object
 #. :src: bpy.types.OBJECT_OT_bake.cage_object
@@ -2657,7 +2657,7 @@ msgstr "无"
 #: scripts/addons/cycles/ui.py:720 scripts/addons/cycles/ui.py:859
 #: source/blender/nodes/shader/nodes/node_shader_eevee_specular.c:33
 msgid "Ambient Occlusion"
-msgstr "环境光遮蔽 (AO)"
+msgstr "环境光遮蔽"
 
 #. :src: bpy.types.BakeSettings.pass_filter:'EMIT'
 #. :src: bpy.types.BakeSettings.use_pass_emit
@@ -3048,7 +3048,7 @@ msgstr ""
 #. :src: bpy.types.CYCLES_RENDER_PT_bake_selected_to_active
 #. :src: bpy.types.RenderSettings.use_bake_selected_to_active
 msgid "Selected to Active"
-msgstr "所选物体 -> 活动物体"
+msgstr "选中的物体 -> 活动物体"
 
 #. :src: bpy.types.BakeSettings.use_selected_to_active
 #. :src: bpy.types.OBJECT_OT_bake.use_selected_to_active
@@ -3815,11 +3815,11 @@ msgstr "窗口管理器数据块"
 #. :src: bpy.types.BlendData.workspaces
 #. :src: bpy.types.FileSelectParams.filter_id:'WORK_SPACE'
 msgid "Workspaces"
-msgstr "工作空间"
+msgstr "工作区"
 
 #. :src: bpy.types.BlendData.workspaces
 msgid "Workspace data-blocks"
-msgstr "工作空间数据块"
+msgstr "工作区数据块"
 
 #. :src: bpy.types.BlendData.worlds
 #. :src: bpy.types.FileSelectParams.filter_id:'WORLD'
@@ -4091,11 +4091,11 @@ msgstr "窗口管理器集合"
 
 #. :src: bpy.types.BlendDataWorkSpaces
 msgid "Main Workspaces"
-msgstr "主工作空间"
+msgstr "主工作区"
 
 #. :src: bpy.types.BlendDataWorkSpaces
 msgid "Collection of workspaces"
-msgstr "工作空间集合"
+msgstr "工作区集合"
 
 #. :src: bpy.types.BlendDataWorlds
 msgid "Main Worlds"
@@ -8571,7 +8571,7 @@ msgstr "使用曲线"
 
 #. :src: bpy.types.ColorManagedViewSettings.use_curve_mapping
 msgid "Use RGB curved for pre-display transformation"
-msgstr "使用RGB曲线预显示转换"
+msgstr "使用 RGB 曲线预显示转换"
 
 #. :src: bpy.types.ColorManagedViewSettings.view_transform
 msgid "View Transform"
@@ -9242,7 +9242,7 @@ msgstr "在颜色渐变中定义的颜色位置的元素"
 
 #. :src: bpy.types.ColorRampElement.alpha
 msgid "Set alpha of selected color stop"
-msgstr "设置所选颜色截点的 Alpha"
+msgstr "设置选中的颜色截点的 Alpha"
 
 #. :src: bpy.types.ColorRampElement.color
 msgid "Set color of selected color stop"
@@ -9269,7 +9269,7 @@ msgstr "位置"
 
 #. :src: bpy.types.ColorRampElement.position
 msgid "Set position of selected color stop"
-msgstr "设置所选色柄的位置"
+msgstr "设置选中的色柄的位置"
 
 #. :src: bpy.types.ColorRampElements
 #, fuzzy
@@ -14001,10 +14001,9 @@ msgstr "蜡笔"
 #. :src: bpy.types.KeyingSetPath.id_type:'COLLECTION'
 #. :src: bpy.types.OUTLINER_OT_id_remap.id_type:'COLLECTION'
 #. :src: bpy.types.SpaceOutliner.filter_id_type:'COLLECTION'
-#, fuzzy
 msgctxt "ID"
 msgid "Collection"
-msgstr "采集频率"
+msgstr "集合"
 
 #. :src: bpy.types.DriverTarget.id_type:'IMAGE'
 #. :src: bpy.types.Action.id_root:'IMAGE'
@@ -18160,7 +18159,7 @@ msgstr "显示/隐藏世界环境数据块"
 
 #. :src: bpy.types.FileSelectParams.filter_id:'WORK_SPACE'
 msgid "Show/hide workspace data-blocks"
-msgstr "显示/隐藏工作空间数据块"
+msgstr "显示/隐藏工作区数据块"
 
 #. :src: bpy.types.FileSelectParams.filter_id_category
 msgid "Filter ID categories"
@@ -18235,7 +18234,7 @@ msgstr ""
 #. :src: bpy.types.FileSelectParams.filter_id_category:'MISC'
 #. :src: bpy.types.USERPREF_PT_edit_misc
 msgid "Miscellaneous"
-msgstr ""
+msgstr "杂项"
 
 #. :src: bpy.types.FileSelectParams.filter_id_category:'MISC'
 msgid "Show/hide other data types"
@@ -19396,7 +19395,7 @@ msgstr "仿真流体网格的顶点"
 #. :src: bpy.types.FreestyleLineSet
 #. :src: bpy.types.VIEWLAYER_PT_freestyle_lineset
 msgid "Freestyle Line Set"
-msgstr "Freestyle 线条集"
+msgstr "描边风格线条集"
 
 #. :src: bpy.types.FreestyleLineSet
 msgid "Line set for associating lines and style parameters"
@@ -19425,9 +19424,8 @@ msgstr "用于关联线条与样式参数的线条集"
 #: scripts/startup/bl_ui/properties_freestyle.py:219
 #: scripts/startup/bl_ui/properties_object.py:310
 #: source/blender/editors/space_view3d/view3d_buttons.c:1263
-#, fuzzy
 msgid "Collection"
-msgstr "采集频率"
+msgstr "集合"
 
 #. :src: bpy.types.FreestyleLineSet.collection
 msgid "A collection of objects based on which feature edges are selected"
@@ -19441,7 +19439,7 @@ msgstr "点集"
 #. :src: bpy.types.FreestyleLineSet.collection_negation
 #, fuzzy
 msgid "Specify either inclusion or exclusion of feature edges belonging to a collection of objects"
-msgstr "指定包含或排除所选的特征边类型"
+msgstr "指定包含或排除选中的的特征边类型"
 
 #. :src: bpy.types.FreestyleLineSet.collection_negation:'INCLUSIVE'
 #. :src: bpy.types.FreestyleLineSet.edge_type_negation:'INCLUSIVE'
@@ -19494,7 +19492,7 @@ msgstr "边线类型排除"
 
 #. :src: bpy.types.FreestyleLineSet.edge_type_negation
 msgid "Specify either inclusion or exclusion of feature edges selected by edge types"
-msgstr "指定包含或排除所选的特征边类型"
+msgstr "指定包含或排除选中的的特征边类型"
 
 #. :src: bpy.types.FreestyleLineSet.edge_type_negation:'INCLUSIVE'
 msgid "Select feature edges satisfying the given edge type conditions"
@@ -19856,7 +19854,7 @@ msgstr ""
 
 #. :src: bpy.types.FreestyleModuleSettings
 msgid "Freestyle Module"
-msgstr "Freestyle 模块"
+msgstr "描边风格模块"
 
 #. :src: bpy.types.FreestyleModuleSettings
 msgid "Style module configuration for specifying a style module"
@@ -19934,7 +19932,7 @@ msgstr "样式模块列表 (从上至下应用)"
 #. :src: bpy.types.FreestyleSettings
 #. :src: bpy.types.ViewLayer.freestyle_settings
 msgid "Freestyle Settings"
-msgstr "Freestyle 设置"
+msgstr "描边风格设置"
 
 #. :src: bpy.types.FreestyleSettings
 #, fuzzy
@@ -20869,9 +20867,8 @@ msgstr "已为动画摄影表选择目标编辑层"
 #. :src: bpy.types.Object.show_in_front
 #: scripts/startup/bl_ui/properties_data_armature.py:97
 #: scripts/startup/bl_ui/properties_object.py:252
-#, fuzzy
 msgid "In Front"
-msgstr "前"
+msgstr "在最前"
 
 #. :src: bpy.types.GPencilLayer.show_in_front
 msgid "Make the layer draw in front of objects"
@@ -26617,11 +26614,11 @@ msgstr "编辑时不填充多边形"
 #. :src: bpy.types.FreestyleLineStyle
 #. :src: bpy.types.VIEWLAYER_PT_freestyle_linestyle
 msgid "Freestyle Line Style"
-msgstr "Freestyle 线条样式"
+msgstr "描边风格线条样式"
 
 #. :src: bpy.types.FreestyleLineStyle
 msgid "Freestyle line style, reusable by multiple line sets"
-msgstr "Freestyle 线条样式, 可供多个样式集重复使用"
+msgstr "描边风格线条样式, 可供多个样式集重复使用"
 
 #. :src: bpy.types.FreestyleLineStyle.active_texture
 #. :src: bpy.types.ParticleSettings.active_texture
@@ -28402,20 +28399,17 @@ msgstr ""
 
 #. :src: bpy.types.Light.type
 #. :src: bpy.types.OBJECT_OT_light_add.type
-#, fuzzy
 msgctxt "Light"
 msgid "Type"
 msgstr "类型"
 
 #. :src: bpy.types.Light.type
-#, fuzzy
 msgid "Type of Light"
-msgstr "修正类型"
+msgstr "光照类型"
 
 #. :src: bpy.types.Light.type:'POINT'
 #. :src: bpy.types.OBJECT_OT_light_add.type:'POINT'
 #: source/blender/editors/object/object_add.c:1104
-#, fuzzy
 msgctxt "Light"
 msgid "Point"
 msgstr "点光"
@@ -28428,7 +28422,6 @@ msgstr "全向点光源 (泛光灯)"
 #. :src: bpy.types.Light.type:'SUN'
 #. :src: bpy.types.OBJECT_OT_light_add.type:'SUN'
 #: source/blender/editors/object/object_add.c:1105
-#, fuzzy
 msgctxt "Light"
 msgid "Sun"
 msgstr "日光"
@@ -28441,7 +28434,6 @@ msgstr "定向平行光源"
 #. :src: bpy.types.Light.type:'SPOT'
 #. :src: bpy.types.OBJECT_OT_light_add.type:'SPOT'
 #: source/blender/editors/object/object_add.c:1106
-#, fuzzy
 msgctxt "Light"
 msgid "Spot"
 msgstr "聚光"
@@ -28454,7 +28446,6 @@ msgstr "定向锥形光源"
 #. :src: bpy.types.Light.type:'AREA'
 #. :src: bpy.types.OBJECT_OT_light_add.type:'AREA'
 #: source/blender/editors/object/object_add.c:1107
-#, fuzzy
 msgctxt "Light"
 msgid "Area"
 msgstr "区域"
@@ -29622,27 +29613,27 @@ msgstr "将另一个网格用于纹理编号 (需与顶点编号保持一致)"
 
 #. :src: bpy.types.Mesh.total_edge_sel
 msgid "Selected Edge Total"
-msgstr "所选边总数"
+msgstr "选中的边总数"
 
 #. :src: bpy.types.Mesh.total_edge_sel
 msgid "Selected edge count in editmode"
-msgstr "编辑模式下所选边线的计数"
+msgstr "编辑模式下选中的边线的计数"
 
 #. :src: bpy.types.Mesh.total_face_sel
 msgid "Selected Face Total"
-msgstr "所选面总数"
+msgstr "选中的面总数"
 
 #. :src: bpy.types.Mesh.total_face_sel
 msgid "Selected face count in editmode"
-msgstr "编辑模式下所选面的计数值"
+msgstr "编辑模式下选中的面的计数值"
 
 #. :src: bpy.types.Mesh.total_vert_sel
 msgid "Selected Vert Total"
-msgstr "所选顶点总数"
+msgstr "选中的顶点总数"
 
 #. :src: bpy.types.Mesh.total_vert_sel
 msgid "Selected vertex count in editmode"
-msgstr "编辑模式下所选顶点的计数值"
+msgstr "编辑模式下选中的顶点的计数值"
 
 #. :src: bpy.types.Mesh.use_auto_smooth
 #. :src: bpy.types.DATA_PT_normals_auto_smooth
@@ -30578,7 +30569,7 @@ msgstr ""
 #. :src: bpy.types.OBJECT_OT_make_links_data.type:'DUPLICOLLECTION'
 #: scripts/startup/bl_ui/properties_particle.py:1421
 msgid "Instance Collection"
-msgstr ""
+msgstr "实例集合"
 
 #. :src: bpy.types.Object.instance_collection
 #, fuzzy
@@ -31155,7 +31146,7 @@ msgstr "显示物体边界"
 
 #. :src: bpy.types.Object.show_empty_image_orthographic
 msgid "Display in Orthographic Mode"
-msgstr ""
+msgstr "以正交模式显示"
 
 #. :src: bpy.types.Object.show_empty_image_orthographic
 msgid "Display image in orthographic mode"
@@ -31163,7 +31154,7 @@ msgstr ""
 
 #. :src: bpy.types.Object.show_empty_image_perspective
 msgid "Display in Perspective Mode"
-msgstr ""
+msgstr "以透视模式显示"
 
 #. :src: bpy.types.Object.show_empty_image_perspective
 msgid "Display image in perspective mode"
@@ -31706,7 +31697,7 @@ msgstr "分布"
 
 #. :src: bpy.types.ParticleSettings.distribution
 msgid "How to distribute particles on selected element"
-msgstr "粒子在所选元素上的分布方式"
+msgstr "粒子在选中的元素上的分布方式"
 
 #. :src: bpy.types.ParticleSettings.distribution:'JIT'
 msgid "Jittered"
@@ -32124,7 +32115,7 @@ msgstr "显示路径的起始帧"
 
 #. :src: bpy.types.ParticleSettings.phase_factor
 msgid "Rotation around the chosen orientation axis"
-msgstr "所选坐标系轴向上的转角"
+msgstr "选中的坐标系轴向上的转角"
 
 #. :src: bpy.types.ParticleSettings.phase_factor_random
 msgid "Random Phase"
@@ -32132,7 +32123,7 @@ msgstr "旋转相位"
 
 #. :src: bpy.types.ParticleSettings.phase_factor_random
 msgid "Randomize rotation around the chosen orientation axis"
-msgstr "对所选坐标系轴向上的转角进行随机化设定"
+msgstr "对选中的坐标系轴向上的转角进行随机化设定"
 
 #. :src: bpy.types.ParticleSettings.physics_type
 msgid "Physics Type"
@@ -33234,7 +33225,7 @@ msgstr "区域已被最大化, 覆盖整个屏幕范围"
 
 #. :src: bpy.types.Screen.show_statusbar
 msgid "Show Status Bar"
-msgstr ""
+msgstr "显示状态栏"
 
 #. :src: bpy.types.Screen.show_statusbar
 msgid "Show status bar"
@@ -33491,7 +33482,7 @@ msgstr "选区末尾行"
 
 #. :src: bpy.types.Text.select_end_line
 msgid "End line of selection"
-msgstr "所选内容末尾行"
+msgstr "选中的内容末尾行"
 
 #. :src: bpy.types.Text.use_module
 msgid "Register"
@@ -34243,7 +34234,7 @@ msgstr "用于图像采样的纹理滤镜"
 #. :src: bpy.types.PAINT_OT_hide_show.area
 #. :src: bpy.types.SpaceUVEditor.display_stretch_type:'AREA'
 msgid "Area"
-msgstr "*Area"
+msgstr "区域"
 
 #. :src: bpy.types.ImageTexture.invert_alpha
 msgid "Invert Alpha"
@@ -34310,7 +34301,7 @@ msgstr "将滤镜尺寸用作最小过滤值, 以像素为单位"
 
 #. :src: bpy.types.ImageTexture.use_interpolation
 msgid "Interpolate pixels using selected filter"
-msgstr "使用所选的过滤器进行像素插补"
+msgstr "使用选中的的过滤器进行像素插补"
 
 #. :src: bpy.types.ImageTexture.use_mipmap
 msgid "MIP Map"
@@ -34827,7 +34818,7 @@ msgstr "搜索"
 
 #. :src: bpy.types.WindowManager.addon_search
 msgid "Search within the selected filter"
-msgstr "在所选过滤器中搜索"
+msgstr "在选中的过滤器中搜索"
 
 #. :src: bpy.types.WindowManager.addon_support
 msgid "Support"
@@ -34902,7 +34893,7 @@ msgstr "打开窗口"
 #. :src: bpy.types.TOPBAR_MT_workspace_menu
 #. :src: bpy.types.WORKSPACE_PT_main
 msgid "Workspace"
-msgstr ""
+msgstr "工作区"
 
 #. :src: bpy.types.WorkSpace
 msgid "Workspace data-block, defining the working environment for the user"
@@ -35921,7 +35912,6 @@ msgstr "按键作用为修改器"
 
 #. :src: bpy.types.KeyMapItem.key_modifier:'LEFTMOUSE'
 #. :src: bpy.types.KeyMapItem.type:'LEFTMOUSE'
-#, fuzzy
 msgctxt "UI_Events_KeyMaps"
 msgid "Left Mouse"
 msgstr "鼠标左键"
@@ -35945,7 +35935,6 @@ msgstr ""
 
 #. :src: bpy.types.KeyMapItem.key_modifier:'RIGHTMOUSE'
 #. :src: bpy.types.KeyMapItem.type:'RIGHTMOUSE'
-#, fuzzy
 msgctxt "UI_Events_KeyMaps"
 msgid "Right Mouse"
 msgstr "鼠标右键"
@@ -36134,7 +36123,7 @@ msgstr "输出"
 #, fuzzy
 msgctxt "UI_Events_KeyMaps"
 msgid "Tweak Left"
-msgstr "拖拽左键"
+msgstr "向左调整"
 
 #. :src: bpy.types.KeyMapItem.key_modifier:'EVT_TWEAK_L'
 #. :src: bpy.types.KeyMapItem.type:'EVT_TWEAK_L'
@@ -36280,12 +36269,12 @@ msgstr "Tab"
 #. :src: bpy.types.KeyMapItem.type:'RET'
 msgctxt "UI_Events_KeyMaps"
 msgid "Return"
-msgstr "回车"
+msgstr "返回"
 
 #. :src: bpy.types.KeyMapItem.key_modifier:'RET'
 #. :src: bpy.types.KeyMapItem.type:'RET'
 msgid "Enter"
-msgstr "回车"
+msgstr "Enter"
 
 #. :src: bpy.types.KeyMapItem.key_modifier:'SPACE'
 #. :src: bpy.types.KeyMapItem.type:'SPACE'
@@ -41008,7 +40997,7 @@ msgstr "导入"
 #. :src: bpy.types.TOPBAR_MT_file_new
 #: source/blender/windowmanager/intern/wm_files.c:1777
 msgid "New File"
-msgstr ""
+msgstr "新建文件"
 
 #. :src: bpy.types.TOPBAR_MT_file_previews
 msgid "Data Previews"
@@ -41412,7 +41401,7 @@ msgstr "用于拆边修改器的锐边"
 #. :src: bpy.types.MeshEdge.use_freestyle_mark
 #. :src: bpy.types.ThemeView3D.freestyle_edge_mark
 msgid "Freestyle Edge Mark"
-msgstr "Freestyle 标记边"
+msgstr "描边风格标记边"
 
 #. :src: bpy.types.MeshEdge.use_freestyle_mark
 msgid "Edge mark for Freestyle line rendering"
@@ -41700,7 +41689,7 @@ msgstr "多边形的自身空间单位长度的法线矢量"
 #. :src: bpy.types.ThemeImageEditor.freestyle_face_mark
 #. :src: bpy.types.ThemeView3D.freestyle_face_mark
 msgid "Freestyle Face Mark"
-msgstr "Freestyle 面标记"
+msgstr "描边风格面标记"
 
 #. :src: bpy.types.MeshPolygon.use_freestyle_mark
 msgid "Face mark for Freestyle line rendering"
@@ -43197,7 +43186,7 @@ msgstr "传递权重"
 #. :src: bpy.types.OBJECT_OT_datalayout_transfer.data_type:'FREESTYLE_EDGE'
 #. :src: bpy.types.OBJECT_OT_datalayout_transfer.data_type:'FREESTYLE_FACE'
 msgid "Freestyle Mark"
-msgstr "Freestyle标记"
+msgstr "描边风格标记"
 
 #. :src: bpy.types.DataTransferModifier.data_types_edges:'FREESTYLE_EDGE'
 #. :src: bpy.types.OBJECT_OT_data_transfer.data_type:'FREESTYLE_EDGE'
@@ -43489,7 +43478,7 @@ msgstr "选择姿势骨骼"
 #. :src: bpy.types.OBJECT_OT_data_transfer.layers_select_src:'BONE_SELECT'
 #. :src: bpy.types.OBJECT_OT_datalayout_transfer.layers_select_src:'BONE_SELECT'
 msgid "Transfer all vertex groups used by selected pose bones"
-msgstr "传递被所选的姿态骨骼所使用的所有的顶点组"
+msgstr "传递被选中的的姿态骨骼所使用的所有的顶点组"
 
 #. :src: bpy.types.DataTransferModifier.layers_uv_select_src:'BONE_DEFORM'
 #. :src: bpy.types.DataTransferModifier.layers_vcol_select_src:'BONE_DEFORM'
@@ -44691,7 +44680,7 @@ msgstr ""
 #. :src: bpy.types.MultiresModifier.uv_smooth:'PRESERVE_CORNERS'
 #. :src: bpy.types.SubsurfModifier.uv_smooth:'PRESERVE_CORNERS'
 msgid "Smooth, keep corners"
-msgstr ""
+msgstr "平滑，保持边角"
 
 #. :src: bpy.types.MultiresModifier.uv_smooth:'PRESERVE_CORNERS'
 #. :src: bpy.types.SubsurfModifier.uv_smooth:'PRESERVE_CORNERS'
@@ -49052,7 +49041,7 @@ msgstr ""
 
 #. :src: bpy.types.CompositorNodeCryptomatte.add
 msgid "Add object or material to matte, by picking a color from the Pick output"
-msgstr ""
+msgstr "通过从采集输出中选择颜色，将对象或材质添加到遮罩"
 
 #. :src: bpy.types.CompositorNodeCryptomatte.matte_id
 #, fuzzy
@@ -50842,7 +50831,7 @@ msgstr "分离 XYZ"
 
 #. :src: bpy.types.ShaderNodeShaderToRGB
 msgid "Shader to RGB"
-msgstr "Shader --> RGB"
+msgstr "Shader -> RGB"
 
 #. :src: bpy.types.ShaderNodeSqueeze
 msgid "Squeeze Value"
@@ -52339,7 +52328,7 @@ msgstr "跳转到关键帧"
 
 #. :src: bpy.types.ACTION_OT_frame_jump
 msgid "Set the current frame to the average frame value of selected keyframes"
-msgstr "将当前帧设为所选关键帧的平均帧值"
+msgstr "将当前帧设为选中的关键帧的平均帧值"
 
 #. :src: bpy.types.ACTION_OT_handle_type
 #. :src: bpy.types.GRAPH_OT_handle_type
@@ -52350,7 +52339,7 @@ msgstr "设置关键帧控制柄类型"
 #. :src: bpy.types.ACTION_OT_handle_type
 #. :src: bpy.types.GRAPH_OT_handle_type
 msgid "Set type of handle for selected keyframes"
-msgstr "设置所选关键帧的控制柄类型"
+msgstr "设置选中的关键帧的控制柄类型"
 
 #. :src: bpy.types.ACTION_OT_interpolation_type
 #. :src: bpy.types.GRAPH_OT_interpolation_type
@@ -52443,7 +52432,7 @@ msgstr "至超过当前帧时"
 #. :src: bpy.types.ACTION_OT_mirror.type:'CFRA'
 #. :src: bpy.types.GRAPH_OT_mirror.type:'CFRA'
 msgid "Flip times of selected keyframes using the current frame as the mirror line"
-msgstr "将当前帧作为镜像轴线, 翻转所选关键帧的时间"
+msgstr "将当前帧作为镜像轴线, 翻转选中的关键帧的时间"
 
 #. :src: bpy.types.ACTION_OT_mirror.type:'XAXIS'
 #. :src: bpy.types.GRAPH_OT_mirror.type:'XAXIS'
@@ -52453,7 +52442,7 @@ msgstr "至值大于 0 时"
 #. :src: bpy.types.ACTION_OT_mirror.type:'XAXIS'
 #. :src: bpy.types.GRAPH_OT_mirror.type:'XAXIS'
 msgid "Flip values of selected keyframes (i.e. negative values become positive, and vice versa)"
-msgstr "翻转所选关键帧的值 (例如负值变正值等)"
+msgstr "翻转选中的关键帧的值 (例如负值变正值等)"
 
 #. :src: bpy.types.ACTION_OT_mirror.type:'MARKER'
 #. :src: bpy.types.GRAPH_OT_mirror.type:'MARKER'
@@ -52463,7 +52452,7 @@ msgstr "至第一个选择的标记"
 #. :src: bpy.types.ACTION_OT_mirror.type:'MARKER'
 #. :src: bpy.types.GRAPH_OT_mirror.type:'MARKER'
 msgid "Flip times of selected keyframes using the first selected marker as the reference point"
-msgstr "将首个选中的标记参照点, 翻转所选关键帧的时间"
+msgstr "将首个选中的标记参照点, 翻转选中的关键帧的时间"
 
 #. :src: bpy.types.ACTION_OT_new
 msgctxt "Operator"
@@ -52632,7 +52621,7 @@ msgstr "取样关键帧"
 #. :src: bpy.types.ACTION_OT_sample
 #. :src: bpy.types.GRAPH_OT_sample
 msgid "Add keyframes on every frame between the selected keyframes"
-msgstr "为所选关键帧之间的每一帧插入关键帧"
+msgstr "为选中的关键帧之间的每一帧插入关键帧"
 
 #. :src: bpy.types.ACTION_OT_select_all
 #. :src: bpy.types.ACTION_OT_select_column
@@ -53153,7 +53142,7 @@ msgstr "在当前帧"
 #. :src: bpy.types.GRAPH_OT_select_column.mode:'MARKERS_COLUMN'
 #. :src: bpy.types.POSE_OT_propagate.mode:'SELECTED_MARKERS'
 msgid "On Selected Markers"
-msgstr "到所选标记"
+msgstr "到选中的标记"
 
 #. :src: bpy.types.ACTION_OT_select_column.mode:'MARKERS_BETWEEN'
 #. :src: bpy.types.GRAPH_OT_select_column.mode:'MARKERS_BETWEEN'
@@ -53292,7 +53281,7 @@ msgstr "当前帧"
 #. :src: bpy.types.ACTION_OT_snap.type:'CFRA'
 #. :src: bpy.types.GRAPH_OT_snap.type:'CFRA'
 msgid "Snap selected keyframes to the current frame"
-msgstr "将所选关键帧吸附到当前帧位置"
+msgstr "将选中的关键帧吸附到当前帧位置"
 
 # rblc
 #. :src: bpy.types.ACTION_OT_snap.type:'NEAREST_FRAME'
@@ -53307,7 +53296,7 @@ msgstr "最近帧"
 #. :src: bpy.types.ACTION_OT_snap.type:'NEAREST_FRAME'
 #. :src: bpy.types.GRAPH_OT_snap.type:'NEAREST_FRAME'
 msgid "Snap selected keyframes to the nearest (whole) frame (use to fix accidental sub-frame offsets)"
-msgstr "将所选关键帧吸附到最近 (完整) 的帧 (用于修正意外产生的子帧偏移)"
+msgstr "将选中的关键帧吸附到最近 (完整) 的帧 (用于修正意外产生的子帧偏移)"
 
 # rblc
 #. :src: bpy.types.ACTION_OT_snap.type:'NEAREST_SECOND'
@@ -53322,7 +53311,7 @@ msgstr "最近整秒"
 #. :src: bpy.types.ACTION_OT_snap.type:'NEAREST_SECOND'
 #. :src: bpy.types.GRAPH_OT_snap.type:'NEAREST_SECOND'
 msgid "Snap selected keyframes to the nearest second"
-msgstr "将所选关键帧吸附到最近的秒点处"
+msgstr "将选中的关键帧吸附到最近的秒点处"
 
 # rblc
 #. :src: bpy.types.ACTION_OT_snap.type:'NEAREST_MARKER'
@@ -53337,7 +53326,7 @@ msgstr "最近标记"
 #. :src: bpy.types.ACTION_OT_snap.type:'NEAREST_MARKER'
 #. :src: bpy.types.GRAPH_OT_snap.type:'NEAREST_MARKER'
 msgid "Snap selected keyframes to the nearest marker"
-msgstr "将所选关键帧吸附到最近的标记"
+msgstr "将选中的关键帧吸附到最近的标记"
 
 #. :src: bpy.types.ACTION_OT_stash
 #. :src: bpy.types.ACTION_OT_stash_and_create
@@ -53429,7 +53418,7 @@ msgstr ""
 #: scripts/startup/bl_ui/space_view3d.py:4164
 msgctxt "Operator"
 msgid "View Selected"
-msgstr "查看所选"
+msgstr "查看选中的"
 
 #. :src: bpy.types.ACTION_OT_view_selected
 msgid "Reset viewable area to show selected keyframes range"
@@ -53492,11 +53481,11 @@ msgstr "收起通道"
 
 #. :src: bpy.types.ANIM_OT_channels_collapse
 msgid "Collapse (i.e. close) all selected expandable animation channels"
-msgstr "收起(即关闭)全部所选可展开的动画通道"
+msgstr "收起(即关闭)全部选中的可展开的动画通道"
 
 #. :src: bpy.types.ANIM_OT_channels_collapse.all
 msgid "Collapse all channels (not just selected ones)"
-msgstr "收起所有通道(不只是所选)"
+msgstr "收起所有通道(不只是选中的)"
 
 #. :src: bpy.types.ANIM_OT_channels_delete
 msgctxt "Operator"
@@ -53514,7 +53503,7 @@ msgstr "切换通道的可编辑性"
 
 #. :src: bpy.types.ANIM_OT_channels_editable_toggle
 msgid "Toggle editability of selected channels"
-msgstr "切换所选通道的可编辑性"
+msgstr "切换选中的通道的可编辑性"
 
 #. :src: bpy.types.ANIM_OT_channels_editable_toggle.mode:'ENABLE'
 #. :src: bpy.types.ANIM_OT_channels_setting_disable.mode:'ENABLE'
@@ -53553,11 +53542,11 @@ msgstr "展开通道"
 
 #. :src: bpy.types.ANIM_OT_channels_expand
 msgid "Expand (i.e. open) all selected expandable animation channels"
-msgstr "展开(即打开)全部所选可展开的动画通道"
+msgstr "展开(即打开)全部选中的可展开的动画通道"
 
 #. :src: bpy.types.ANIM_OT_channels_expand.all
 msgid "Expand all channels (not just selected ones)"
-msgstr "展开所有通道(不只是所选)"
+msgstr "展开所有通道(不只是选中的)"
 
 # rblc
 #. :src: bpy.types.ANIM_OT_channels_fcurves_enable
@@ -53808,7 +53797,7 @@ msgstr "移除动画"
 
 #. :src: bpy.types.ANIM_OT_keyframe_clear_v3d
 msgid "Remove all keyframe animation for selected objects"
-msgstr "移除所选物体的所有关键帧动画"
+msgstr "移除选中的物体的所有关键帧动画"
 
 #. :src: bpy.types.ANIM_OT_keyframe_delete
 msgctxt "Operator"
@@ -54105,7 +54094,7 @@ msgstr "对齐骨骼"
 
 #. :src: bpy.types.ARMATURE_OT_align
 msgid "Align selected bones to the active bone (or to their parent)"
-msgstr "对齐所选骨骼到激活骨骼(或其父级)"
+msgstr "对齐选中的骨骼到激活骨骼(或其父级)"
 
 #. :src: bpy.types.ARMATURE_OT_armature_layers
 msgctxt "Operator"
@@ -54129,7 +54118,7 @@ msgstr "根据轴向自动命名"
 #. :src: bpy.types.ARMATURE_OT_autoside_names
 #. :src: bpy.types.POSE_OT_autoside_names
 msgid "Automatically renames the selected bones according to which side of the target axis they fall on"
-msgstr "根据其倾向的目标轴向自动重命名所选骨骼"
+msgstr "根据其倾向的目标轴向自动重命名选中的骨骼"
 
 #. :src: bpy.types.ARMATURE_OT_autoside_names.type
 #. :src: bpy.types.POSE_OT_autoside_names.axis
@@ -54173,7 +54162,7 @@ msgstr "更改骨骼层"
 #. :src: bpy.types.ARMATURE_OT_bone_layers
 #. :src: bpy.types.POSE_OT_bone_layers
 msgid "Change the layers that the selected bones belong to"
-msgstr "更改所选骨骼所在的层"
+msgstr "更改选中的骨骼所在的层"
 
 #. :src: bpy.types.ARMATURE_OT_bone_layers.layers
 #. :src: bpy.types.POSE_OT_bone_layers.layers
@@ -54200,7 +54189,7 @@ msgstr "重算扭转"
 
 #. :src: bpy.types.ARMATURE_OT_calculate_roll
 msgid "Automatically fix alignment of select bones' axes"
-msgstr "自动修正所选呢骨骼的轴向对齐"
+msgstr "自动修正选中的呢骨骼的轴向对齐"
 
 #. :src: bpy.types.ARMATURE_OT_calculate_roll.axis_flip
 msgid "Negate the alignment axis"
@@ -54265,37 +54254,37 @@ msgstr "点击 - 挤出"
 
 #. :src: bpy.types.ARMATURE_OT_click_extrude
 msgid "Create a new bone going from the last selected joint to the mouse position"
-msgstr "在上一所选关节与鼠标坐标之间创建一段新骨骼"
+msgstr "在上一选中的关节与鼠标坐标之间创建一段新骨骼"
 
 #. :src: bpy.types.ARMATURE_OT_delete
 msgctxt "Operator"
 msgid "Delete Selected Bone(s)"
-msgstr "删除所选骨骼"
+msgstr "删除选中的骨骼"
 
 #. :src: bpy.types.ARMATURE_OT_delete
 msgid "Remove selected bones from the armature"
-msgstr "从骨架中移除所选骨骼"
+msgstr "从骨架中移除选中的骨骼"
 
 #. :src: bpy.types.ARMATURE_OT_dissolve
 #, fuzzy
 msgctxt "Operator"
 msgid "Dissolve Selected Bone(s)"
-msgstr "删除所选骨骼"
+msgstr "删除选中的骨骼"
 
 #. :src: bpy.types.ARMATURE_OT_dissolve
 #, fuzzy
 msgid "Dissolve selected bones from the armature"
-msgstr "从骨架中移除所选骨骼"
+msgstr "从骨架中移除选中的骨骼"
 
 #. :src: bpy.types.ARMATURE_OT_duplicate
 msgctxt "Operator"
 msgid "Duplicate Selected Bone(s)"
-msgstr "复制所选骨骼"
+msgstr "复制选中的骨骼"
 
 #. :src: bpy.types.ARMATURE_OT_duplicate
 #. :src: bpy.types.ARMATURE_OT_duplicate_move.ARMATURE_OT_duplicate
 msgid "Make copies of the selected bones within the same armature"
-msgstr "在同一骨架中复制所选骨骼"
+msgstr "在同一骨架中复制选中的骨骼"
 
 #. :src: bpy.types.ARMATURE_OT_duplicate.do_flip_names
 #, fuzzy
@@ -54308,11 +54297,11 @@ msgstr ""
 
 #. :src: bpy.types.ARMATURE_OT_duplicate_move
 msgid "Make copies of the selected bones within the same armature and move them"
-msgstr "在同一骨架中复制所选骨骼并移动"
+msgstr "在同一骨架中复制选中的骨骼并移动"
 
 #. :src: bpy.types.ARMATURE_OT_duplicate_move.ARMATURE_OT_duplicate
 msgid "Duplicate Selected Bone(s)"
-msgstr "复制所选骨骼"
+msgstr "复制选中的骨骼"
 
 #. :src: bpy.types.ARMATURE_OT_duplicate_move.TRANSFORM_OT_translate
 #. :src: bpy.types.ARMATURE_OT_extrude_forked.TRANSFORM_OT_translate
@@ -54376,7 +54365,7 @@ msgstr "移动"
 #. :src: bpy.types.TRANSFORM_OT_translate
 #, fuzzy
 msgid "Move selected items"
-msgstr "旋转选中的对象"
+msgstr "移动选中的项目"
 
 #. :src: bpy.types.ARMATURE_OT_extrude
 #. :src: bpy.types.ARMATURE_OT_extrude_move
@@ -54392,7 +54381,7 @@ msgstr "挤出"
 #. :src: bpy.types.ARMATURE_OT_extrude_forked.ARMATURE_OT_extrude
 #. :src: bpy.types.ARMATURE_OT_extrude_move.ARMATURE_OT_extrude
 msgid "Create new bones from the selected joints"
-msgstr "从所选关节处创建新骨骼"
+msgstr "从选中的关节处创建新骨骼"
 
 #. :src: bpy.types.ARMATURE_OT_extrude.forked
 msgid "Forked"
@@ -54415,7 +54404,7 @@ msgstr "在关节间填充骨骼"
 
 #. :src: bpy.types.ARMATURE_OT_fill
 msgid "Add bone between selected joint(s) and/or 3D-Cursor"
-msgstr "在所选关节与 3D 游标之间添加骨骼"
+msgstr "在选中的关节与 3D 游标之间添加骨骼"
 
 #. :src: bpy.types.ARMATURE_OT_flip_names
 #. :src: bpy.types.POSE_OT_flip_names
@@ -54427,7 +54416,7 @@ msgstr "翻转名称"
 #. :src: bpy.types.ARMATURE_OT_flip_names
 #. :src: bpy.types.POSE_OT_flip_names
 msgid "Flips (and corrects) the axis suffixes of the names of selected bones"
-msgstr "翻转(并纠正)所选骨骼名称的轴向后缀"
+msgstr "翻转(并纠正)选中的骨骼名称的轴向后缀"
 
 #. :src: bpy.types.ARMATURE_OT_flip_names.do_strip_numbers
 #. :src: bpy.types.POSE_OT_flip_names.do_strip_numbers
@@ -54459,7 +54448,7 @@ msgstr "隐藏选中项"
 
 #. :src: bpy.types.ARMATURE_OT_hide
 msgid "Tag selected bones to not be visible in Edit Mode"
-msgstr "标记所选骨骼为编辑模式下不可见"
+msgstr "标记选中的骨骼为编辑模式下不可见"
 
 #. :src: bpy.types.ARMATURE_OT_hide.unselected
 #. :src: bpy.types.CLIP_OT_hide_tracks.unselected
@@ -54512,7 +54501,7 @@ msgstr "合并骨骼"
 
 #. :src: bpy.types.ARMATURE_OT_merge
 msgid "Merge continuous chains of selected bones"
-msgstr "合并所选骨骼的连续链"
+msgstr "合并选中的骨骼的连续链"
 
 #. :src: bpy.types.ARMATURE_OT_merge.type:'WITHIN_CHAIN'
 msgid "Within Chains"
@@ -54527,7 +54516,7 @@ msgstr "清空父级"
 
 #. :src: bpy.types.ARMATURE_OT_parent_clear
 msgid "Remove the parent-child relationship between selected bones and their parents"
-msgstr "移除所选骨骼及其父级间的父子关系"
+msgstr "移除选中的骨骼及其父级间的父子关系"
 
 #. :src: bpy.types.ARMATURE_OT_parent_clear.type
 msgid "ClearType"
@@ -54557,7 +54546,7 @@ msgstr "创建父级"
 
 #. :src: bpy.types.ARMATURE_OT_parent_set
 msgid "Set the active bone as the parent of the selected bones"
-msgstr "将激活骨骼设定为所选骨骼的父级"
+msgstr "将激活骨骼设定为选中的骨骼的父级"
 
 #. :src: bpy.types.ARMATURE_OT_parent_set.type
 msgid "ParentType"
@@ -54593,7 +54582,7 @@ msgstr "清除全部"
 #. :src: bpy.types.ARMATURE_OT_roll_clear
 #, fuzzy
 msgid "Clear roll for selected bones"
-msgstr "清空所选骨骼的路径缓存"
+msgstr "清空选中的骨骼的路径缓存"
 
 #. :src: bpy.types.ARMATURE_OT_select_all
 #. :src: bpy.types.CLIP_OT_select_all
@@ -54677,7 +54666,7 @@ msgstr "选择已连接项"
 #. :src: bpy.types.ARMATURE_OT_select_linked
 #. :src: bpy.types.POSE_OT_select_linked
 msgid "Select bones related to selected ones by parent/child relationships"
-msgstr "选择与所选骨骼关联的父 / 子关系骨骼"
+msgstr "选择与选中的骨骼关联的父 / 子关系骨骼"
 
 #. :src: bpy.types.ARMATURE_OT_select_mirror
 #. :src: bpy.types.POSE_OT_select_mirror
@@ -54750,7 +54739,7 @@ msgstr "分离骨骼"
 
 #. :src: bpy.types.ARMATURE_OT_separate
 msgid "Isolate selected bones into a separate armature"
-msgstr "将所选骨骼分离为单独骨架"
+msgstr "将选中的骨骼分离为单独骨架"
 
 #. :src: bpy.types.ARMATURE_OT_shortest_path_pick
 #. :src: bpy.types.CURVE_OT_shortest_path_pick
@@ -54785,7 +54774,7 @@ msgstr "多段细分"
 
 #. :src: bpy.types.ARMATURE_OT_subdivide
 msgid "Break selected bones into chains of smaller bones"
-msgstr "将所选骨骼打散为小骨骼链"
+msgstr "将选中的骨骼打散为小骨骼链"
 
 #. :src: bpy.types.ARMATURE_OT_subdivide.number_cuts
 #. :src: bpy.types.GPENCIL_OT_stroke_subdivide.number_cuts
@@ -56095,7 +56084,7 @@ msgstr "在解算上应用缩放，使选定轨迹之间的距离等于期望值
 #. :src: bpy.types.CLIP_OT_set_scale.distance
 #. :src: bpy.types.CLIP_OT_set_solution_scale.distance
 msgid "Distance between selected tracks"
-msgstr "所选轨道的间距"
+msgstr "选中的轨道的间距"
 
 #. :src: bpy.types.CLIP_OT_bundles_to_mesh
 msgctxt "Operator"
@@ -56199,7 +56188,7 @@ msgstr "复制轨迹"
 
 #. :src: bpy.types.CLIP_OT_copy_tracks
 msgid "Copy selected tracks to clipboard"
-msgstr "将所选轨迹复制到剪贴板"
+msgstr "将选中的轨迹复制到剪贴板"
 
 #. :src: bpy.types.CLIP_OT_create_plane_track
 msgctxt "Operator"
@@ -56233,7 +56222,7 @@ msgstr "删除标记"
 
 #. :src: bpy.types.CLIP_OT_delete_marker
 msgid "Delete marker for current frame from selected tracks"
-msgstr "删除当前帧内所选轨迹的标记"
+msgstr "删除当前帧内选中的轨迹的标记"
 
 #. :src: bpy.types.CLIP_OT_delete_proxy
 msgctxt "Operator"
@@ -56321,7 +56310,7 @@ msgstr "禁用标记"
 #. :src: bpy.types.CLIP_OT_disable_markers
 #. :src: bpy.types.CLIP_OT_graph_disable_markers
 msgid "Disable/enable selected markers"
-msgstr "禁用 / 启用所选标记"
+msgstr "禁用 / 启用选中的标记"
 
 #. :src: bpy.types.CLIP_OT_disable_markers.action
 #. :src: bpy.types.CLIP_OT_graph_disable_markers.action
@@ -56344,7 +56333,7 @@ msgstr "启用选中的标记"
 #. :src: bpy.types.CLIP_OT_graph_disable_markers.action:'TOGGLE'
 #. :src: bpy.types.MESH_OT_select_mode.action:'TOGGLE'
 msgid "Toggle disabled flag for selected markers"
-msgstr "为所选标记切换已禁用标志"
+msgstr "为选中的标记切换已禁用标志"
 
 #. :src: bpy.types.CLIP_OT_dopesheet_select_channel
 msgctxt "Operator"
@@ -56591,7 +56580,7 @@ msgstr "解锁选中的轨道"
 
 #. :src: bpy.types.CLIP_OT_lock_tracks.action:'TOGGLE'
 msgid "Toggle locked flag for selected tracks"
-msgstr "切换显示所选轨迹的锁定标记"
+msgstr "切换显示选中的轨迹的锁定标记"
 
 #. :src: bpy.types.CLIP_OT_mode_set
 msgctxt "Operator"
@@ -56820,7 +56809,7 @@ msgstr "设定轴"
 
 #. :src: bpy.types.CLIP_OT_set_axis
 msgid "Set direction of scene axis rotating camera (or its parent if present) and assume selected track lies on real axis, joining it with the origin"
-msgstr "设定场景轴, 旋转摄像机(或其父级, 如果存在), 并假定所选的轨迹位于原心的真实轴上"
+msgstr "设定场景轴, 旋转摄像机(或其父级, 如果存在), 并假定选中的的轨迹位于原心的真实轴上"
 
 #. :src: bpy.types.CLIP_OT_set_axis.axis
 msgid "Axis to use to align bundle along"
@@ -56863,7 +56852,7 @@ msgstr "使用质心"
 
 #. :src: bpy.types.CLIP_OT_set_origin.use_median
 msgid "Set origin to median point of selected bundles"
-msgstr "将原点设定到所选绑定项的质心点处"
+msgstr "将原点设定到选中的绑定项的质心点处"
 
 #. :src: bpy.types.CLIP_OT_set_plane
 msgctxt "Operator"
@@ -56873,7 +56862,7 @@ msgstr "设定平面"
 #. :src: bpy.types.CLIP_OT_set_plane
 #, fuzzy
 msgid "Set plane based on 3 selected bundles by moving camera (or its parent if present) in 3D space"
-msgstr "根据所选的3个点束, 设定运动摄像机(或其父级, 如果存在)在3D空间中的参照平面"
+msgstr "根据选中的的3个点束, 设定运动摄像机(或其父级, 如果存在)在3D空间中的参照平面"
 
 #. :src: bpy.types.CLIP_OT_set_plane.plane
 msgid "Plane to be used for orientation"
@@ -56917,7 +56906,7 @@ msgstr "设置解算比例"
 
 #. :src: bpy.types.CLIP_OT_set_solution_scale
 msgid "Set object solution scale using distance between two selected tracks"
-msgstr "使用两个所选轨迹的间距, 对物体解算进行缩放设定"
+msgstr "使用两个选中的轨迹的间距, 对物体解算进行缩放设定"
 
 #. :src: bpy.types.CLIP_OT_set_solver_keyframe
 msgctxt "Operator"
@@ -56991,7 +56980,7 @@ msgstr "添加稳像轨迹"
 #. :src: bpy.types.CLIP_OT_stabilize_2d_add
 #, fuzzy
 msgid "Add selected tracks to 2D translation stabilization"
-msgstr "将所选的轨迹添加到 2D 稳像工具中"
+msgstr "将选中的的轨迹添加到 2D 稳像工具中"
 
 #. :src: bpy.types.CLIP_OT_stabilize_2d_remove
 msgctxt "Operator"
@@ -57012,7 +57001,7 @@ msgstr "添加稳像轨迹"
 #. :src: bpy.types.CLIP_OT_stabilize_2d_rotation_add
 #, fuzzy
 msgid "Add selected tracks to 2D rotation stabilization"
-msgstr "将所选的轨迹添加到 2D 稳像工具中"
+msgstr "将选中的的轨迹添加到 2D 稳像工具中"
 
 #. :src: bpy.types.CLIP_OT_stabilize_2d_rotation_remove
 #, fuzzy
@@ -57267,31 +57256,27 @@ msgid "Add or remove a Cloth Preset"
 msgstr "新增或移除布料预设"
 
 #. :src: bpy.types.COLLECTION_OT_create
-#, fuzzy
 msgctxt "Operator"
 msgid "Create New Collection"
-msgstr "创建新的动作"
+msgstr "创建新的集合"
 
 #. :src: bpy.types.COLLECTION_OT_create
-#, fuzzy
 msgid "Create an object collection from selected objects"
-msgstr "为选中的物体创建一个物体组"
+msgstr "从所选对象创建对象集合"
 
 #. :src: bpy.types.COLLECTION_OT_create.name
-#, fuzzy
 msgid "Name of the new collection"
-msgstr "自定义变换坐标系的名称"
+msgstr "新集合的名称"
 
 #. :src: bpy.types.COLLECTION_OT_objects_add_active
-#, fuzzy
 msgctxt "Operator"
 msgid "Add Selected To Active Collection"
-msgstr "将所选物体添加到激活组中"
+msgstr "将所选项添加到活动集合"
 
 #. :src: bpy.types.COLLECTION_OT_objects_add_active
 #, fuzzy
 msgid "Add the object to an object collection that contains the active object"
-msgstr "将物体添加到活动物体所在的组中"
+msgstr "将对象添加到包含活动对象的对象集合中"
 
 #. :src: bpy.types.COLLECTION_OT_objects_add_active.collection
 #, fuzzy
@@ -57299,15 +57284,13 @@ msgid "The collection to add other selected objects to"
 msgstr "添加其他选中物体的组"
 
 #. :src: bpy.types.COLLECTION_OT_objects_remove
-#, fuzzy
 msgctxt "Operator"
 msgid "Remove From Collection"
-msgstr "从选定中移除"
+msgstr "从集合中删除"
 
 #. :src: bpy.types.COLLECTION_OT_objects_remove
-#, fuzzy
 msgid "Remove selected objects from a collection"
-msgstr "从组中移除所选物体"
+msgstr "从集合中删除所选对象"
 
 #. :src: bpy.types.COLLECTION_OT_objects_remove.collection
 #, fuzzy
@@ -57315,10 +57298,9 @@ msgid "The collection to remove this object from"
 msgstr "从当前物体上移除的组"
 
 #. :src: bpy.types.COLLECTION_OT_objects_remove_active
-#, fuzzy
 msgctxt "Operator"
 msgid "Remove Selected From Active Collection"
-msgstr "从活动组中移除所选物体"
+msgstr "从活动集合中删除所选项"
 
 #. :src: bpy.types.COLLECTION_OT_objects_remove_active
 #, fuzzy
@@ -57333,11 +57315,11 @@ msgstr "添加其他选中物体的组"
 #. :src: bpy.types.COLLECTION_OT_objects_remove_all
 msgctxt "Operator"
 msgid "Remove From All Unlinked Collections"
-msgstr ""
+msgstr "从所有未链接的集合中删除"
 
 #. :src: bpy.types.COLLECTION_OT_objects_remove_all
 msgid "Remove selected objects from all collections not used in a scene"
-msgstr ""
+msgstr "从场景中未使用的所有集合中删除所选对象"
 
 #. :src: bpy.types.CONSOLE_OT_autocomplete
 msgctxt "Operator"
@@ -57406,7 +57388,7 @@ msgstr "复制至剪贴板"
 #. :src: bpy.types.FONT_OT_text_copy
 #. :src: bpy.types.TEXT_OT_copy
 msgid "Copy selected text to clipboard"
-msgstr "将所选文本复制到剪贴板"
+msgstr "将选中的文本复制到剪贴板"
 
 #. :src: bpy.types.CONSOLE_OT_copy_as_script
 msgctxt "Operator"
@@ -57912,7 +57894,7 @@ msgstr "简化选中曲线"
 
 #. :src: bpy.types.CURVE_OT_delete
 msgid "Delete selected control points or segments"
-msgstr "删除所选控制点或片段"
+msgstr "删除选中的控制点或片段"
 
 #. :src: bpy.types.CURVE_OT_delete.type
 msgid "Which elements to delete"
@@ -57927,7 +57909,7 @@ msgstr "融并顶点"
 #. :src: bpy.types.CURVE_OT_dissolve_verts
 #, fuzzy
 msgid "Delete selected control points, correcting surrounding handles"
-msgstr "删除所选控制点或样条"
+msgstr "删除选中的控制点或样条"
 
 #. :src: bpy.types.CURVE_OT_draw
 #. :src: bpy.types.PAINTCURVE_OT_draw
@@ -58214,7 +58196,7 @@ msgstr "设置控制柄类型"
 #. :src: bpy.types.CURVE_OT_handle_type_set
 #. :src: bpy.types.MASK_OT_handle_type_set
 msgid "Set type of handles for selected control points"
-msgstr "设置所选控制点的控制柄类型"
+msgstr "设置选中的控制点的控制柄类型"
 
 #. :src: bpy.types.CURVE_OT_handle_type_set.type
 #. :src: bpy.types.CURVE_OT_spline_type_set.type
@@ -58256,7 +58238,7 @@ msgstr "重计算法线"
 
 #. :src: bpy.types.CURVE_OT_normals_make_consistent
 msgid "Recalculate the direction of selected handles"
-msgstr "重新计算所选控制柄的方向"
+msgstr "重新计算选中的控制柄的方向"
 
 #. :src: bpy.types.CURVE_OT_normals_make_consistent.calc_length
 msgid "Recalculate handle length"
@@ -58540,7 +58522,7 @@ msgstr "(不)全选全部控制点"
 
 #. :src: bpy.types.CURVE_OT_select_less
 msgid "Reduce current selection by deselecting boundary elements"
-msgstr "通过取消选择边界约束的方式减少当前所选元素的数量"
+msgstr "通过取消选择边界约束的方式减少当前选中的元素的数量"
 
 #. :src: bpy.types.CURVE_OT_select_linked
 #. :src: bpy.types.MASK_OT_select_linked
@@ -58757,7 +58739,7 @@ msgstr "光滑"
 
 #. :src: bpy.types.CURVE_OT_smooth
 msgid "Flatten angles of selected points"
-msgstr "展平所选点的角度"
+msgstr "展平选中的点的角度"
 
 #. :src: bpy.types.CURVE_OT_smooth_radius
 msgctxt "Operator"
@@ -58766,7 +58748,7 @@ msgstr "平滑曲率半径"
 
 #. :src: bpy.types.CURVE_OT_smooth_radius
 msgid "Interpolate radii of selected points"
-msgstr "为所选点的半径执行插补运算"
+msgstr "为选中的点的半径执行插补运算"
 
 #. :src: bpy.types.CURVE_OT_smooth_tilt
 msgctxt "Operator"
@@ -58795,7 +58777,7 @@ msgstr "旋绕"
 
 #. :src: bpy.types.CURVE_OT_spin
 msgid "Extrude selected boundary row around pivot point and current view axis"
-msgstr "挤出所选控制点并移动"
+msgstr "挤出选中的控制点并移动"
 
 #. :src: bpy.types.CURVE_OT_spin.axis
 #. :src: bpy.types.MESH_OT_screw.axis
@@ -58834,7 +58816,7 @@ msgstr "设置目标权重"
 
 #. :src: bpy.types.CURVE_OT_spline_weight_set
 msgid "Set softbody goal weight for selected points"
-msgstr "为所选的点设置柔性目标权重"
+msgstr "为选中的的点设置柔性目标权重"
 
 #. :src: bpy.types.CURVE_OT_split
 #, fuzzy
@@ -58859,7 +58841,7 @@ msgstr "细分"
 
 #. :src: bpy.types.CURVE_OT_subdivide
 msgid "Subdivide selected segments"
-msgstr "细分所选段"
+msgstr "细分选中的段"
 
 #. :src: bpy.types.CURVE_OT_subdivide.number_cuts
 msgid "Number of cuts"
@@ -58868,7 +58850,7 @@ msgstr "切割次数"
 #. :src: bpy.types.CURVE_OT_switch_direction
 #. :src: bpy.types.MASK_OT_switch_direction
 msgid "Switch direction of selected splines"
-msgstr "切换所选样条的方向"
+msgstr "切换选中的样条的方向"
 
 #. :src: bpy.types.CURVE_OT_tilt_clear
 msgctxt "Operator"
@@ -58877,7 +58859,7 @@ msgstr "清空倾斜量"
 
 #. :src: bpy.types.CURVE_OT_tilt_clear
 msgid "Clear the tilt of selected control points"
-msgstr "清除所选控制点的控制柄角度"
+msgstr "清除选中的控制点的控制柄角度"
 
 #. :src: bpy.types.CURVE_OT_vertex_add
 #. :src: bpy.types.MASK_OT_add_vertex
@@ -60950,7 +60932,7 @@ msgstr "下一页"
 #. :src: bpy.types.TEXT_OT_move_select
 msgctxt "Operator"
 msgid "Move Select"
-msgstr "移动所选"
+msgstr "移动选中的"
 
 #. :src: bpy.types.FONT_OT_move_select
 #. :src: bpy.types.TEXT_OT_move_select
@@ -61044,7 +61026,7 @@ msgstr "剪切文本"
 #. :src: bpy.types.FONT_OT_text_cut
 #. :src: bpy.types.TEXT_OT_cut
 msgid "Cut selected text to clipboard"
-msgstr "将所选文本剪切到剪贴板"
+msgstr "将选中的文本剪切到剪贴板"
 
 #. :src: bpy.types.FONT_OT_text_insert
 msgctxt "Operator"
@@ -61540,7 +61522,7 @@ msgstr ""
 #. :src: bpy.types.GPENCIL_OT_dissolve.type:'POINTS'
 #, fuzzy
 msgid "Dissolve selected points"
-msgstr "删除所选骨骼"
+msgstr "删除选中的骨骼"
 
 #. :src: bpy.types.GPENCIL_OT_dissolve.type:'BETWEEN'
 msgid "Dissolve Between"
@@ -61954,7 +61936,7 @@ msgstr "移动到层"
 #. :src: bpy.types.GPENCIL_OT_move_to_layer
 #, fuzzy
 msgid "Move selected strokes to another layer"
-msgstr "将所选物体转换为其他类型"
+msgstr "将选中的物体转换为其他类型"
 
 #. :src: bpy.types.GPENCIL_OT_paintmode_toggle
 #, fuzzy
@@ -62229,21 +62211,21 @@ msgstr "选择模式"
 #. :src: bpy.types.GPENCIL_OT_snap_cursor_to_selected
 msgctxt "Operator"
 msgid "Snap Cursor to Selected Points"
-msgstr "将游标吸附到所选项"
+msgstr "将游标吸附到选中的项"
 
 #. :src: bpy.types.GPENCIL_OT_snap_cursor_to_selected
 msgid "Snap cursor to center of selected points"
-msgstr "将游标吸附到所选项的中心点"
+msgstr "将游标吸附到选中的项的中心点"
 
 #. :src: bpy.types.GPENCIL_OT_snap_to_cursor
 #. :src: bpy.types.VIEW3D_OT_snap_selected_to_cursor
 msgctxt "Operator"
 msgid "Snap Selection to Cursor"
-msgstr "将所选项吸附到游标"
+msgstr "将选中的项吸附到游标"
 
 #. :src: bpy.types.GPENCIL_OT_snap_to_cursor
 msgid "Snap selected points/strokes to the cursor"
-msgstr "将所选项吸附到游标"
+msgstr "将选中的项吸附到游标"
 
 #. :src: bpy.types.GPENCIL_OT_snap_to_cursor.use_offset
 #, fuzzy
@@ -62258,12 +62240,12 @@ msgstr ""
 #. :src: bpy.types.VIEW3D_OT_snap_selected_to_grid
 msgctxt "Operator"
 msgid "Snap Selection to Grid"
-msgstr "将所选项吸附到栅格点"
+msgstr "将选中的项吸附到栅格点"
 
 #. :src: bpy.types.GPENCIL_OT_snap_to_grid
 #, fuzzy
 msgid "Snap selected points to the nearest grid points"
-msgstr "将所选项吸附到最近的栅格点"
+msgstr "将选中的项吸附到最近的栅格点"
 
 #. :src: bpy.types.GPENCIL_OT_stroke_apply_thickness
 msgctxt "Operator"
@@ -62322,7 +62304,7 @@ msgstr ""
 #. :src: bpy.types.GPENCIL_OT_stroke_change_color
 #, fuzzy
 msgid "Move selected strokes to active material"
-msgstr "将所选物体转换为其他类型"
+msgstr "将选中的物体转换为其他类型"
 
 #. :src: bpy.types.GPENCIL_OT_stroke_change_color.material
 #, fuzzy
@@ -62436,7 +62418,7 @@ msgstr "消散烟雾"
 #. :src: bpy.types.GPENCIL_OT_stroke_merge.clear_point
 #, fuzzy
 msgid "Dissolve old selected points"
-msgstr "删除所选骨骼"
+msgstr "删除选中的骨骼"
 
 #. :src: bpy.types.GPENCIL_OT_stroke_merge.clear_stroke
 #, fuzzy
@@ -62610,7 +62592,7 @@ msgstr "从顶点组中移除"
 #. :src: bpy.types.GPENCIL_OT_vertex_group_remove_from
 #. :src: bpy.types.OBJECT_OT_vertex_group_remove_from
 msgid "Remove the selected vertices from active or all vertex group(s)"
-msgstr "从活动的或所有的顶点组中移除所选点"
+msgstr "从活动的或所有的顶点组中移除选中的点"
 
 # rblc
 #. :src: bpy.types.GPENCIL_OT_vertex_group_select
@@ -62802,7 +62784,7 @@ msgstr ""
 
 #. :src: bpy.types.GRAPH_OT_frame_jump
 msgid "Place the cursor on the midpoint of selected keyframes"
-msgstr "将游标置于所选多个关键帧的中点处"
+msgstr "将游标置于选中的多个关键帧的中点处"
 
 #. :src: bpy.types.GRAPH_OT_ghost_curves_clear
 msgctxt "Operator"
@@ -63450,7 +63432,6 @@ msgstr "将视图放大至框选区域内最近的匹配项"
 #. :src: bpy.types.IMAGE_OT_view_zoom_border.zoom_out
 #. :src: bpy.types.VIEW2D_OT_zoom_border.zoom_out
 #. :src: bpy.types.VIEW3D_OT_zoom_border.zoom_out
-#, fuzzy
 msgid "Zoom Out"
 msgstr "缩小"
 
@@ -64234,7 +64215,7 @@ msgstr "删除标记"
 
 #. :src: bpy.types.MARKER_OT_delete
 msgid "Delete selected time marker(s)"
-msgstr "删除所选时间标记"
+msgstr "删除选中的时间标记"
 
 #. :src: bpy.types.MARKER_OT_duplicate
 msgctxt "Operator"
@@ -64243,7 +64224,7 @@ msgstr "复制时间标记"
 
 #. :src: bpy.types.MARKER_OT_duplicate
 msgid "Duplicate selected time marker(s)"
-msgstr "复制所选的时间标记"
+msgstr "复制选中的的时间标记"
 
 #. :src: bpy.types.MARKER_OT_make_links_scene
 msgctxt "Operator"
@@ -64252,7 +64233,7 @@ msgstr "创建场景关联项"
 
 #. :src: bpy.types.MARKER_OT_make_links_scene
 msgid "Copy selected markers to another scene"
-msgstr "将所选标记复制到另一场景"
+msgstr "将选中的标记复制到另一场景"
 
 #. :src: bpy.types.MARKER_OT_move
 msgctxt "Operator"
@@ -64261,7 +64242,7 @@ msgstr "移动时间标记"
 
 #. :src: bpy.types.MARKER_OT_move
 msgid "Move selected time marker(s)"
-msgstr "移动所选时间标记"
+msgstr "移动选中的时间标记"
 
 #. :src: bpy.types.MARKER_OT_rename
 #: scripts/startup/bl_ui/space_time.py:195
@@ -64381,7 +64362,7 @@ msgstr "循环切换已选的曲线"
 
 #. :src: bpy.types.MASK_OT_delete
 msgid "Delete selected control points or splines"
-msgstr "删除所选控制点或样条"
+msgstr "删除选中的控制点或样条"
 
 #. :src: bpy.types.MASK_OT_duplicate
 msgctxt "Operator"
@@ -64391,7 +64372,7 @@ msgstr "复制遮罩"
 #. :src: bpy.types.MASK_OT_duplicate
 #. :src: bpy.types.MASK_OT_duplicate_move.MASK_OT_duplicate
 msgid "Duplicate selected control points and segments between them"
-msgstr "复制所选控制点及所含片段"
+msgstr "复制选中的控制点及所含片段"
 
 #. :src: bpy.types.MASK_OT_duplicate_move
 msgid "Duplicate mask and move"
@@ -64478,7 +64459,7 @@ msgstr "新遮罩的名称"
 
 #. :src: bpy.types.MASK_OT_normals_make_consistent
 msgid "Re-calculate the direction of selected handles"
-msgstr "重新计算所选控制柄的方向"
+msgstr "重新计算选中的控制柄的方向"
 
 #. :src: bpy.types.MASK_OT_parent_clear
 msgid "Clear the mask's parenting"
@@ -65045,7 +65026,7 @@ msgstr "删除未使用项"
 
 #. :src: bpy.types.MESH_OT_convex_hull.delete_unused
 msgid "Delete selected elements that are not used by the hull"
-msgstr "删除所选部分中未用于外壳部分的元素"
+msgstr "删除选中的部分中未用于外壳部分的元素"
 
 #. :src: bpy.types.MESH_OT_convex_hull.face_threshold
 #. :src: bpy.types.MESH_OT_tris_convert_to_quads.face_threshold
@@ -65358,7 +65339,7 @@ msgstr "边线塌陷"
 
 #. :src: bpy.types.MESH_OT_edge_collapse
 msgid "Collapse selected edges"
-msgstr "塌陷所选边"
+msgstr "塌陷选中的边"
 
 #. :src: bpy.types.MESH_OT_edge_face_add
 msgctxt "Operator"
@@ -65367,7 +65348,7 @@ msgstr "创建边 / 面"
 
 #. :src: bpy.types.MESH_OT_edge_face_add
 msgid "Add an edge or face to selected"
-msgstr "根据所选对象创建一条边或一个面"
+msgstr "根据选中的对象创建一条边或一个面"
 
 #. :src: bpy.types.MESH_OT_edge_rotate
 msgctxt "Operator"
@@ -65584,7 +65565,7 @@ msgstr "重复挤出网格"
 
 #. :src: bpy.types.MESH_OT_extrude_repeat
 msgid "Extrude selected vertices, edges or faces repeatedly"
-msgstr "多次挤出所选顶点、边或面"
+msgstr "多次挤出选中的顶点、边或面"
 
 #. :src: bpy.types.MESH_OT_extrude_vertices_move
 msgctxt "Operator"
@@ -65674,7 +65655,7 @@ msgstr "填充"
 
 #. :src: bpy.types.MESH_OT_fill
 msgid "Fill a selected edge loop with faces"
-msgstr "用面填充所选循环边"
+msgstr "用面填充选中的循环边"
 
 #. :src: bpy.types.MESH_OT_fill.use_beauty
 msgid "Use best triangulation division"
@@ -65733,7 +65714,7 @@ msgstr "翻转法线"
 
 #. :src: bpy.types.MESH_OT_flip_normals
 msgid "Flip the direction of selected faces' normals (and of their vertices)"
-msgstr "翻转所选面的法线方向 (以及顶点的法线方向)"
+msgstr "翻转选中的面的法线方向 (以及顶点的法线方向)"
 
 #. :src: bpy.types.MESH_OT_hide
 msgid "Hide (un)selected vertices, edges or faces"
@@ -65883,7 +65864,7 @@ msgstr "切割新的拓扑结构"
 
 #. :src: bpy.types.MESH_OT_knife_tool.only_selected
 msgid "Only cut selected geometry"
-msgstr "仅切割所选的几何体部分"
+msgstr "仅切割选中的的几何体部分"
 
 #. :src: bpy.types.MESH_OT_knife_tool.use_occlude_geometry
 msgid "Occlude Geometry"
@@ -65923,7 +65904,7 @@ msgstr "选择循环线内侧区域"
 
 #. :src: bpy.types.MESH_OT_loop_to_region
 msgid "Select region of faces inside of a selected loop of edges"
-msgstr "选择所选循环边线所包围的面区"
+msgstr "选择选中的循环边线所包围的面区"
 
 #. :src: bpy.types.MESH_OT_loop_to_region.select_bigger
 msgid "Select Bigger"
@@ -66002,7 +65983,7 @@ msgstr "标记缝合边"
 
 #. :src: bpy.types.MESH_OT_mark_seam
 msgid "(Un)mark selected edges as a seam"
-msgstr "将所选边标记 / 取消标记为缝合边"
+msgstr "将选中的边标记 / 取消标记为缝合边"
 
 #. :src: bpy.types.MESH_OT_mark_sharp
 msgctxt "Operator"
@@ -66011,7 +65992,7 @@ msgstr "标记锐边"
 
 #. :src: bpy.types.MESH_OT_mark_sharp
 msgid "(Un)mark selected edges as sharp"
-msgstr "将所选边标记 / 取消标记为锐边"
+msgstr "将选中的边标记 / 取消标记为锐边"
 
 #. :src: bpy.types.MESH_OT_mark_sharp.use_verts
 msgid "Consider vertices instead of edges to select which edges to (un)tag as sharp"
@@ -66028,7 +66009,7 @@ msgstr "合并"
 
 #. :src: bpy.types.MESH_OT_merge
 msgid "Merge selected vertices"
-msgstr "合并所选顶点"
+msgstr "合并选中的顶点"
 
 #. :src: bpy.types.MESH_OT_merge.type
 #. :src: bpy.types.PAINT_OT_add_texture_paint_slot.type
@@ -66219,9 +66200,8 @@ msgid "Follow mouse cursor"
 msgstr ""
 
 #. :src: bpy.types.MESH_OT_point_normals.spherize
-#, fuzzy
 msgid "Spherize"
-msgstr "球形"
+msgstr "球面化"
 
 #. :src: bpy.types.MESH_OT_point_normals.spherize
 msgid "Interpolate between original and new normals"
@@ -67052,7 +67032,7 @@ msgstr "选择区域轮廓线"
 
 #. :src: bpy.types.MESH_OT_region_to_loop
 msgid "Select boundary edges around the selected faces"
-msgstr "选择所选面区的边界线"
+msgstr "选择选中的面区的边界线"
 
 #. :src: bpy.types.MESH_OT_remove_doubles
 #. :src: bpy.types.PARTICLE_OT_remove_doubles
@@ -67428,7 +67408,7 @@ msgstr "面的顶角"
 
 #. :src: bpy.types.MESH_OT_select_similar.type:'FREESTYLE_EDGE'
 msgid "Freestyle Edge Marks"
-msgstr "Freestyle 边标记"
+msgstr "描边风格边标记"
 
 #. :src: bpy.types.MESH_OT_select_similar.type:'SIDES'
 msgid "Polygon Sides"
@@ -67452,7 +67432,7 @@ msgstr ""
 
 #. :src: bpy.types.MESH_OT_select_similar.type:'FREESTYLE_FACE'
 msgid "Freestyle Face Marks"
-msgstr "Freestyle 面标记"
+msgstr "描边风格面标记"
 
 #. :src: bpy.types.MESH_OT_select_similar_region
 #, fuzzy
@@ -67501,7 +67481,7 @@ msgstr "形变传导"
 
 #. :src: bpy.types.MESH_OT_shape_propagate_to_all
 msgid "Apply selected vertex locations to all other shape keys"
-msgstr "将所选点的坐标应用到其他所有形态键"
+msgstr "将选中的点的坐标应用到其他所有形态键"
 
 #. :src: bpy.types.MESH_OT_shortest_path_pick.use_face_step
 #. :src: bpy.types.MESH_OT_shortest_path_select.use_face_step
@@ -67569,7 +67549,7 @@ msgstr "排列网格元素"
 
 #. :src: bpy.types.MESH_OT_sort_elements
 msgid "The order of selected vertices/edges/faces is modified, based on a given method"
-msgstr "所选的点/边/面的修改次序, 基于指定的方法"
+msgstr "选中的的点/边/面的修改次序, 基于指定的方法"
 
 #. :src: bpy.types.MESH_OT_sort_elements.elements
 msgid "Which elements to affect (vertices, edges and/or faces)"
@@ -67626,7 +67606,7 @@ msgstr "随机选择元素的顺序"
 
 #. :src: bpy.types.MESH_OT_sort_elements.type:'REVERSE'
 msgid "Reverse current order of selected elements"
-msgstr "反转所选元素的当前次序"
+msgstr "反转选中的元素的当前次序"
 
 #. :src: bpy.types.MESH_OT_spin
 msgid "Extrude selected vertices in a circle around the cursor in indicated viewport"
@@ -67668,7 +67648,7 @@ msgstr ""
 
 #. :src: bpy.types.MESH_OT_subdivide
 msgid "Subdivide selected edges"
-msgstr "细分所选边线"
+msgstr "细分选中的边线"
 
 #. :src: bpy.types.MESH_OT_subdivide.fractal
 msgid "Fractal"
@@ -67796,7 +67776,7 @@ msgstr "反细分"
 
 #. :src: bpy.types.MESH_OT_unsubdivide
 msgid "UnSubdivide selected edges & faces"
-msgstr "反细分所选边线和面"
+msgstr "反细分选中的边线和面"
 
 #. :src: bpy.types.MESH_OT_unsubdivide.iterations
 msgid "Number of times to unsubdivide"
@@ -67902,7 +67882,7 @@ msgstr "平滑顶点"
 
 #. :src: bpy.types.MESH_OT_vertices_smooth
 msgid "Flatten angles of selected vertices"
-msgstr "展平所选顶点的夹角"
+msgstr "展平选中的顶点的夹角"
 
 #. :src: bpy.types.MESH_OT_vertices_smooth.factor
 msgid "Smoothing factor"
@@ -67932,7 +67912,7 @@ msgstr "拉普拉斯光滑顶点"
 
 #. :src: bpy.types.MESH_OT_vertices_smooth_laplacian
 msgid "Laplacian smooth of selected vertices"
-msgstr "所选顶点的拉普拉斯光滑"
+msgstr "选中的顶点的拉普拉斯光滑"
 
 #. :src: bpy.types.MESH_OT_vertices_smooth_laplacian.lambda_factor
 msgid "Lambda factor"
@@ -68051,7 +68031,7 @@ msgstr "清除约束"
 
 #. :src: bpy.types.NLA_OT_bake.clear_constraints
 msgid "Remove all constraints from keyed object/bones, and do 'visual' keying"
-msgstr "移除所选骨骼的所有 IK 约束"
+msgstr "移除选中的骨骼的所有 IK 约束"
 
 #. :src: bpy.types.NLA_OT_bake.clear_parents
 msgid "Clear Parents"
@@ -68129,7 +68109,7 @@ msgstr "复制片段"
 
 #. :src: bpy.types.NLA_OT_duplicate
 msgid "Duplicate selected NLA-Strips, adding the new strips in new tracks above the originals"
-msgstr "复制所选的非线性动画片段, 并将新片段置于原片段上方的新轨中"
+msgstr "复制选中的的非线性动画片段, 并将新片段置于原片段上方的新轨中"
 
 #. :src: bpy.types.NLA_OT_duplicate.linked
 msgid "When duplicating strips, assign new copies of the actions they use"
@@ -68197,7 +68177,7 @@ msgstr "下移片段"
 
 #. :src: bpy.types.NLA_OT_move_down
 msgid "Move selected strips down a track if there's room"
-msgstr "若空间允许, 则将所选片段下移"
+msgstr "若空间允许, 则将选中的片段下移"
 
 #. :src: bpy.types.NLA_OT_move_up
 msgctxt "Operator"
@@ -68206,7 +68186,7 @@ msgstr "上移片段"
 
 #. :src: bpy.types.NLA_OT_move_up
 msgid "Move selected strips up a track if there's room"
-msgstr "若空间允许, 则将所选片段上移"
+msgstr "若空间允许, 则将选中的片段上移"
 
 #. :src: bpy.types.NLA_OT_mute_toggle
 msgctxt "Operator"
@@ -68215,7 +68195,7 @@ msgstr "切换静默"
 
 #. :src: bpy.types.NLA_OT_mute_toggle
 msgid "Mute or un-mute selected strips"
-msgstr "禁用或启用所选的片段"
+msgstr "禁用或启用选中的的片段"
 
 #. :src: bpy.types.NLA_OT_select_all
 msgid "Select or deselect all NLA-Strips"
@@ -68298,7 +68278,7 @@ msgstr "删除轨道"
 
 #. :src: bpy.types.NLA_OT_tracks_delete
 msgid "Delete selected NLA-Tracks and the strips they contain"
-msgstr "删除所选非线性动画轨道及其中的片段"
+msgstr "删除选中的非线性动画轨道及其中的片段"
 
 #. :src: bpy.types.NLA_OT_transition_add
 msgctxt "Operator"
@@ -68505,7 +68485,7 @@ msgstr "清除视角操作边界"
 
 #. :src: bpy.types.NODE_OT_clipboard_copy
 msgid "Copies selected nodes to the clipboard"
-msgstr "将所选文本复制到剪贴板"
+msgstr "将选中的文本复制到剪贴板"
 
 #. :src: bpy.types.NODE_OT_clipboard_paste
 msgid "Pastes nodes from the clipboard to the active node tree"
@@ -68589,7 +68569,7 @@ msgstr "复制节点"
 #. :src: bpy.types.NODE_OT_duplicate_move.NODE_OT_duplicate
 #. :src: bpy.types.NODE_OT_duplicate_move_keep_inputs.NODE_OT_duplicate
 msgid "Duplicate selected nodes"
-msgstr "复制所选节点"
+msgstr "复制选中的节点"
 
 #. :src: bpy.types.NODE_OT_duplicate.keep_inputs
 msgid "Keep Inputs"
@@ -68601,7 +68581,7 @@ msgstr "保留输入点与已复制节点间的连线"
 
 #. :src: bpy.types.NODE_OT_duplicate_move
 msgid "Duplicate selected nodes and move them"
-msgstr "复制所选节点并移动"
+msgstr "复制选中的节点并移动"
 
 #. :src: bpy.types.NODE_OT_duplicate_move.NODE_OT_duplicate
 #. :src: bpy.types.NODE_OT_duplicate_move_keep_inputs.NODE_OT_duplicate
@@ -68624,7 +68604,7 @@ msgstr "移动节点至一个框架中"
 
 #. :src: bpy.types.NODE_OT_duplicate_move_keep_inputs
 msgid "Duplicate selected nodes keeping input links and move them"
-msgstr "复制所选控制点及所含片段"
+msgstr "复制选中的控制点及所含片段"
 
 #. :src: bpy.types.NODE_OT_find_node
 msgctxt "Operator"
@@ -68677,7 +68657,7 @@ msgstr "群组已选择的节点"
 
 #. :src: bpy.types.NODE_OT_group_separate
 msgid "Separate selected nodes from the node group"
-msgstr "从节点组分离所选节点"
+msgstr "从节点组分离选中的节点"
 
 #. :src: bpy.types.NODE_OT_group_separate.type:'COPY'
 msgid "Copy to parent node tree, keep group intact"
@@ -68798,7 +68778,7 @@ msgstr "切断关联"
 #. :src: bpy.types.NODE_OT_move_detach_links.NODE_OT_links_detach
 #. :src: bpy.types.NODE_OT_move_detach_links_release.NODE_OT_links_detach
 msgid "Remove all links to selected nodes, and try to connect neighbor nodes together"
-msgstr "移除所选节点的所有连接线, 并尝试将相邻节点连到一起"
+msgstr "移除选中的节点的所有连接线, 并尝试将相邻节点连到一起"
 
 #. :src: bpy.types.NODE_OT_move_detach_links
 #. :src: bpy.types.NODE_OT_move_detach_links_release
@@ -68866,7 +68846,7 @@ msgstr "切换节点选项"
 
 #. :src: bpy.types.NODE_OT_options_toggle
 msgid "Toggle option buttons display for selected nodes"
-msgstr "切换显示所选节点的选项按钮"
+msgstr "切换显示选中的节点的选项按钮"
 
 #. :src: bpy.types.NODE_OT_output_file_add_socket
 msgctxt "Operator"
@@ -69248,7 +69228,7 @@ msgstr "烘培"
 #. :src: bpy.types.OBJECT_OT_bake
 #. :src: bpy.types.OBJECT_OT_bake_image
 msgid "Bake image textures of selected objects"
-msgstr "烘焙所选物体的图像贴图"
+msgstr "烘焙选中的物体的图像贴图"
 
 #. :src: bpy.types.OBJECT_OT_bake.cage_object
 msgid "Object to use as cage, instead of calculating the cage from the active object with cage extrusion"
@@ -69333,7 +69313,7 @@ msgstr "要添加的集合名称"
 #. :src: bpy.types.OBJECT_OT_link_to_collection
 msgctxt "Operator"
 msgid "Link to Collection"
-msgstr ""
+msgstr "链接到集合"
 
 #. :src: bpy.types.OBJECT_OT_collection_link
 #, fuzzy
@@ -69359,7 +69339,7 @@ msgstr "从选定中移除"
 #. :src: bpy.types.OBJECT_OT_collection_remove
 #, fuzzy
 msgid "Remove the active object from this collection"
-msgstr "从该组中移除所选物体"
+msgstr "从该组中移除选中的物体"
 
 #. :src: bpy.types.OBJECT_OT_collection_unlink
 #, fuzzy
@@ -69404,11 +69384,11 @@ msgstr "仅清除活动物体的所有约束"
 #. :src: bpy.types.OBJECT_OT_constraints_copy
 msgctxt "Operator"
 msgid "Copy Constraints to Selected Objects"
-msgstr "将约束复制到当前所选"
+msgstr "将约束复制到当前选中的"
 
 #. :src: bpy.types.OBJECT_OT_constraints_copy
 msgid "Copy constraints to other selected objects"
-msgstr "复制所选物体的约束"
+msgstr "复制选中的物体的约束"
 
 #. :src: bpy.types.OBJECT_OT_convert
 #: scripts/startup/bl_ui/space_view3d.py:1721
@@ -69418,7 +69398,7 @@ msgstr "转换为"
 
 #. :src: bpy.types.OBJECT_OT_convert
 msgid "Convert selected objects to another type"
-msgstr "将所选物体转换为其他类型"
+msgstr "将选中的物体转换为其他类型"
 
 #. :src: bpy.types.OBJECT_OT_convert.keep_original
 msgid "Keep Original"
@@ -69517,7 +69497,7 @@ msgstr "传递网格数据"
 
 #. :src: bpy.types.OBJECT_OT_data_transfer
 msgid "Transfer data layer(s) (weights, edge sharp, ...) from active to selected meshes"
-msgstr "将主控物体的网格数据层（权重、锐边等）传递给所选物体"
+msgstr "将主控物体的网格数据层（权重、锐边等）传递给选中的物体"
 
 #. :src: bpy.types.OBJECT_OT_data_transfer.data_type
 #. :src: bpy.types.OBJECT_OT_datalayout_transfer.data_type
@@ -69563,7 +69543,7 @@ msgstr "重置变换"
 
 #. :src: bpy.types.OBJECT_OT_data_transfer.use_reverse_transfer
 msgid "Transfer from selected objects to active one"
-msgstr "从所选物体向主控物体传递"
+msgstr "从选中的物体向主控物体传递"
 
 #. :src: bpy.types.OBJECT_OT_datalayout_transfer
 msgctxt "Operator"
@@ -69587,7 +69567,6 @@ msgid "Delete selected objects"
 msgstr "删除选中的物体"
 
 #. :src: bpy.types.OBJECT_OT_delete.confirm
-#, fuzzy
 msgid "Confirm"
 msgstr "确认"
 
@@ -69647,7 +69626,7 @@ msgstr "复制物体"
 #. :src: bpy.types.OBJECT_OT_duplicate_move.OBJECT_OT_duplicate
 #. :src: bpy.types.OBJECT_OT_duplicate_move_linked.OBJECT_OT_duplicate
 msgid "Duplicate selected objects"
-msgstr "复制所选物体"
+msgstr "复制选中的物体"
 
 #. :src: bpy.types.OBJECT_OT_duplicate_move
 #. :src: bpy.types.OBJECT_OT_duplicate_move_linked
@@ -70114,7 +70093,7 @@ msgstr "合并为形变"
 
 #. :src: bpy.types.OBJECT_OT_join_shapes
 msgid "Merge selected objects to shapes of active object"
-msgstr "将所选物体合并为活动物体的形变"
+msgstr "将选中的物体合并为活动物体的形变"
 
 #. :src: bpy.types.OBJECT_OT_join_uvs
 msgctxt "Operator"
@@ -70249,7 +70228,7 @@ msgstr "关联数据"
 #. :src: bpy.types.OBJECT_OT_make_links_data
 #, fuzzy
 msgid "Apply active object links to other selected objects"
-msgstr "复制所选物体的约束"
+msgstr "复制选中的物体的约束"
 
 #. :src: bpy.types.OBJECT_OT_make_links_scene
 msgctxt "Operator"
@@ -70258,7 +70237,7 @@ msgstr "将物体链接到场景"
 
 #. :src: bpy.types.OBJECT_OT_make_links_scene
 msgid "Link selection to another scene"
-msgstr "将所选标记复制到另一场景"
+msgstr "将选中的标记复制到另一场景"
 
 #. :src: bpy.types.OBJECT_OT_make_local
 msgctxt "Operator"
@@ -70467,10 +70446,9 @@ msgstr "从活动物体上移除修改器"
 
 #. :src: bpy.types.OBJECT_OT_move_to_collection
 #. :src: bpy.types.OUTLINER_OT_collection_drop
-#, fuzzy
 msgctxt "Operator"
 msgid "Move to Collection"
-msgstr "修改为活动颜色"
+msgstr "移动到集合"
 
 #. :src: bpy.types.OBJECT_OT_move_to_collection
 msgid "Move objects to a scene collection"
@@ -70772,7 +70750,7 @@ msgstr "更新物体路径"
 
 #. :src: bpy.types.OBJECT_OT_paths_update
 msgid "Recalculate paths for selected objects"
-msgstr "计算所选骨骼的路径"
+msgstr "计算选中的骨骼的路径"
 
 #. :src: bpy.types.OBJECT_OT_posemode_toggle
 msgctxt "Operator"
@@ -71045,9 +71023,8 @@ msgid "Objects included in active Keying Set"
 msgstr "在活动插帧集中的物体"
 
 #. :src: bpy.types.OBJECT_OT_select_grouped.type:'LIGHT_TYPE'
-#, fuzzy
 msgid "Light Type"
-msgstr "适配类型"
+msgstr "光照类型"
 
 #. :src: bpy.types.OBJECT_OT_select_grouped.type:'LIGHT_TYPE'
 #, fuzzy
@@ -71086,7 +71063,7 @@ msgstr "库 (物体数据)"
 
 #. :src: bpy.types.OBJECT_OT_select_mirror
 msgid "Select the Mirror objects of the selected object eg. L.sword -> R.sword"
-msgstr "选取所选物体的镜像物体, 例如 L.sword -> R.sword"
+msgstr "选取选中的物体的镜像物体, 例如 L.sword -> R.sword"
 
 #. :src: bpy.types.OBJECT_OT_select_more
 msgid "Select connected parent/child objects"
@@ -71413,7 +71390,7 @@ msgstr "虚形标记"
 
 #. :src: bpy.types.OBJECT_OT_skin_loose_mark_clear
 msgid "Mark/clear selected vertices as loose"
-msgstr "合并所选顶点"
+msgstr "合并选中的顶点"
 
 #. :src: bpy.types.OBJECT_OT_skin_loose_mark_clear.action:'MARK'
 msgid "Mark"
@@ -71434,7 +71411,7 @@ msgstr "蒙皮半径均化"
 
 #. :src: bpy.types.OBJECT_OT_skin_radii_equalize
 msgid "Make skin radii of selected vertices equal on each axis"
-msgstr "展平所选顶点的夹角"
+msgstr "展平选中的顶点的夹角"
 
 #. :src: bpy.types.OBJECT_OT_skin_root_mark
 msgctxt "Operator"
@@ -71688,7 +71665,7 @@ msgstr "修复顶点组形变"
 
 #. :src: bpy.types.OBJECT_OT_vertex_group_fix
 msgid "Modify the position of selected vertices by changing only their respective groups' weights (this tool may be slow for many vertices)"
-msgstr "通过仅改变所选顶点各自所属顶点组权重, 来修改所选顶点的位置 (点数较多时, 此工具的执行速度可能会慢)"
+msgstr "通过仅改变选中的顶点各自所属顶点组权重, 来修改选中的顶点的位置 (点数较多时, 此工具的执行速度可能会慢)"
 
 #. :src: bpy.types.OBJECT_OT_vertex_group_fix.accuracy
 msgid "Change Sensitivity"
@@ -71960,7 +71937,7 @@ msgstr "创建父级顶点"
 
 #. :src: bpy.types.OBJECT_OT_vertex_parent_set
 msgid "Parent selected objects to the selected vertices"
-msgstr "将所选顶点设置为所选物体的父级"
+msgstr "将选中的顶点设置为选中的物体的父级"
 
 #. :src: bpy.types.OBJECT_OT_vertex_weight_copy
 msgctxt "Operator"
@@ -72222,7 +72199,7 @@ msgstr "实例集合"
 
 #. :src: bpy.types.OUTLINER_OT_collection_instance
 msgid "Instance selected collections to active scene"
-msgstr ""
+msgstr "实例选择集合到活动场景"
 
 #. :src: bpy.types.OUTLINER_OT_collection_isolate
 msgctxt "Operator"
@@ -72245,7 +72222,7 @@ msgstr "关联集合"
 #. :src: bpy.types.OUTLINER_OT_collection_link
 #, fuzzy
 msgid "Link selected collections to active scene"
-msgstr "将所选标记复制到另一场景"
+msgstr "将选中的标记复制到另一场景"
 
 #. :src: bpy.types.OUTLINER_OT_collection_new
 #, fuzzy
@@ -72332,21 +72309,21 @@ msgstr "取消隐藏"
 #. :src: bpy.types.OUTLINER_OT_drivers_add_selected
 msgctxt "Operator"
 msgid "Add Drivers for Selected"
-msgstr "为所选添加驱动"
+msgstr "为选中的添加驱动"
 
 #. :src: bpy.types.OUTLINER_OT_drivers_add_selected
 msgid "Add drivers to selected items"
-msgstr "为所选项目添加驱动器"
+msgstr "为选中的项目添加驱动器"
 
 #. :src: bpy.types.OUTLINER_OT_drivers_delete_selected
 msgctxt "Operator"
 msgid "Delete Drivers for Selected"
-msgstr "删除所选的驱动"
+msgstr "删除选中的的驱动"
 
 # rblc
 #. :src: bpy.types.OUTLINER_OT_drivers_delete_selected
 msgid "Delete drivers assigned to selected items"
-msgstr "删除指定到所选项目上的驱动器"
+msgstr "删除指定到选中的项目上的驱动器"
 
 #. :src: bpy.types.OUTLINER_OT_expanded_toggle
 msgctxt "Operator"
@@ -72360,7 +72337,7 @@ msgstr "展开 / 折叠所有项目"
 #. :src: bpy.types.OUTLINER_OT_hide
 #, fuzzy
 msgid "Hide selected objects and collections"
-msgstr "从组中移除所选物体"
+msgstr "从组中移除选中的物体"
 
 #. :src: bpy.types.OUTLINER_OT_highlight_update
 msgctxt "Operator"
@@ -72529,7 +72506,7 @@ msgstr "在光标下重命名项目"
 #. :src: bpy.types.OUTLINER_OT_keyingset_add_selected
 msgctxt "Operator"
 msgid "Keying Set Add Selected"
-msgstr "插帧集选项中添加所选"
+msgstr "插帧集选项中添加选中的"
 
 #. :src: bpy.types.OUTLINER_OT_keyingset_add_selected
 msgid "Add selected items (blue-gray rows) to active Keying Set"
@@ -72538,7 +72515,7 @@ msgstr "从活动插帧集设置中添加已选项目(蓝-灰行)"
 #. :src: bpy.types.OUTLINER_OT_keyingset_remove_selected
 msgctxt "Operator"
 msgid "Keying Set Remove Selected"
-msgstr "插帧集选项中移除所选"
+msgstr "插帧集选项中移除选中的"
 
 #. :src: bpy.types.OUTLINER_OT_keyingset_remove_selected
 msgid "Remove selected items (blue-gray rows) from active Keying Set"
@@ -72938,7 +72915,7 @@ msgstr "选取面并隐藏"
 
 #. :src: bpy.types.PAINT_OT_face_select_hide
 msgid "Hide selected faces"
-msgstr "隐藏所选面"
+msgstr "隐藏选中的面"
 
 #. :src: bpy.types.PAINT_OT_face_select_linked
 msgid "Select linked faces"
@@ -73007,11 +72984,11 @@ msgstr "隐藏或显示的顶点对象"
 
 #. :src: bpy.types.PAINT_OT_hide_show.area:'OUTSIDE'
 msgid "Hide or show vertices outside the selection"
-msgstr "隐藏或显示未包含在所选项中的顶点"
+msgstr "隐藏或显示未包含在选中的项中的顶点"
 
 #. :src: bpy.types.PAINT_OT_hide_show.area:'INSIDE'
 msgid "Hide or show vertices inside the selection"
-msgstr "隐藏或显示包含在所选项中的顶点"
+msgstr "隐藏或显示包含在选中的项中的顶点"
 
 #. :src: bpy.types.PAINT_OT_hide_show.area:'ALL'
 msgid "Hide or show all vertices"
@@ -73319,7 +73296,7 @@ msgstr "自定义权重漆范围"
 
 #. :src: bpy.types.PAINT_OT_weight_from_bones
 msgid "Set the weights of the groups matching the attached armature's selected bones, using the distance between the vertices and the bones"
-msgstr "使用顶点与骨骼间的间距对各组的权重进行设定, 以匹配至附在骨架上的所选骨骼,"
+msgstr "使用顶点与骨骼间的间距对各组的权重进行设定, 以匹配至附在骨架上的选中的骨骼,"
 
 # rblc
 #. :src: bpy.types.PAINT_OT_weight_from_bones.type
@@ -73592,7 +73569,7 @@ msgstr "添加或删除一个摄像机预设"
 
 #. :src: bpy.types.PARTICLE_OT_hide
 msgid "Hide selected particles"
-msgstr "隐藏所选的粒子"
+msgstr "隐藏选中的的粒子"
 
 #. :src: bpy.types.PARTICLE_OT_mirror
 #. :src: bpy.types.TRANSFORM_OT_mirror
@@ -73645,7 +73622,7 @@ msgstr "重设关键帧"
 
 #. :src: bpy.types.PARTICLE_OT_rekey
 msgid "Change the number of keys of selected particles (root and tip keys included)"
-msgstr "更改所选粒子的键数 (包括根端和末端)"
+msgstr "更改选中的粒子的键数 (包括根端和末端)"
 
 #. :src: bpy.types.PARTICLE_OT_rekey.keys_number
 msgid "Number of Keys"
@@ -73726,7 +73703,7 @@ msgstr "剪切头发以符合设置的形状对象"
 
 #. :src: bpy.types.PARTICLE_OT_subdivide
 msgid "Subdivide selected particles segments (adds keys)"
-msgstr "细分所选的粒子片段(添加关键帧)"
+msgstr "细分选中的的粒子片段(添加关键帧)"
 
 #. :src: bpy.types.PARTICLE_OT_target_move_down
 msgctxt "Operator"
@@ -74073,7 +74050,7 @@ msgstr "清除选定骨骼的所有约束"
 #. :src: bpy.types.POSE_OT_constraints_copy
 msgctxt "Operator"
 msgid "Copy Constraints to Selected Bones"
-msgstr "将约束复制到当前所选骨骼"
+msgstr "将约束复制到当前选中的骨骼"
 
 #. :src: bpy.types.POSE_OT_constraints_copy
 msgid "Copy constraints to other selected bones"
@@ -74086,7 +74063,7 @@ msgstr "复制姿态"
 
 #. :src: bpy.types.POSE_OT_copy
 msgid "Copies the current pose of the selected bones to copy/paste buffer"
-msgstr "将所选骨骼的当前姿态复制到复制 / 粘贴缓存中"
+msgstr "将选中的骨骼的当前姿态复制到复制 / 粘贴缓存中"
 
 #. :src: bpy.types.POSE_OT_group_add
 msgctxt "Operator"
@@ -74100,7 +74077,7 @@ msgstr "增加一个新的骨骼组"
 #. :src: bpy.types.POSE_OT_group_assign
 msgctxt "Operator"
 msgid "Add Selected to Bone Group"
-msgstr "将所选项添加到骨骼组"
+msgstr "将选中的项添加到骨骼组"
 
 #. :src: bpy.types.POSE_OT_group_assign
 msgid "Add selected bones to the chosen bone group"
@@ -74164,11 +74141,11 @@ msgstr "按名称对骨骼组进行升序排列"
 #. :src: bpy.types.POSE_OT_group_unassign
 msgctxt "Operator"
 msgid "Remove Selected from Bone Groups"
-msgstr "从骨骼组中删除所选"
+msgstr "从骨骼组中删除选中的"
 
 #. :src: bpy.types.POSE_OT_group_unassign
 msgid "Remove selected bones from all bone groups"
-msgstr "从所有骨骼组中移除所选骨骼"
+msgstr "从所有骨骼组中移除选中的骨骼"
 
 #. :src: bpy.types.POSE_OT_hide
 msgid "Tag selected bones to not be visible in Pose Mode"
@@ -74193,7 +74170,7 @@ msgstr "用对象"
 # rblc
 #. :src: bpy.types.POSE_OT_ik_add.with_targets
 msgid "Assign IK Constraint with targets derived from the select bones/objects"
-msgstr "用基于所选骨骼 / 物体的对象指定 IK 约束"
+msgstr "用基于选中的骨骼 / 物体的对象指定 IK 约束"
 
 #. :src: bpy.types.POSE_OT_ik_clear
 msgctxt "Operator"
@@ -74202,7 +74179,7 @@ msgstr "移除 IK"
 
 #. :src: bpy.types.POSE_OT_ik_clear
 msgid "Remove all IK Constraints from selected bones"
-msgstr "移除所选骨骼的所有 IK 约束"
+msgstr "移除选中的骨骼的所有 IK 约束"
 
 #. :src: bpy.types.POSE_OT_loc_clear
 msgctxt "Operator"
@@ -74211,7 +74188,7 @@ msgstr "清空姿态位置"
 
 #. :src: bpy.types.POSE_OT_loc_clear
 msgid "Reset locations of selected bones to their default values"
-msgstr "恢复所选骨骼的位置为默认值"
+msgstr "恢复选中的骨骼的位置为默认值"
 
 #. :src: bpy.types.POSE_OT_paste
 msgctxt "Operator"
@@ -74232,11 +74209,11 @@ msgstr "将存储的翻转姿态粘贴到当前姿态"
 
 #. :src: bpy.types.POSE_OT_paste.selected_mask
 msgid "On Selected Only"
-msgstr "只考虑所选部分"
+msgstr "只考虑选中的部分"
 
 #. :src: bpy.types.POSE_OT_paste.selected_mask
 msgid "Only paste the stored pose on to selected bones in the current pose"
-msgstr "只将存储的姿态粘贴到当前姿态中的所选骨骼上"
+msgstr "只将存储的姿态粘贴到当前姿态中的选中的骨骼上"
 
 #. :src: bpy.types.POSE_OT_paths_calculate
 msgctxt "Operator"
@@ -74245,7 +74222,7 @@ msgstr "计算骨骼路径"
 
 #. :src: bpy.types.POSE_OT_paths_calculate
 msgid "Calculate paths for the selected bones"
-msgstr "计算所选骨骼的路径"
+msgstr "计算选中的骨骼的路径"
 
 #. :src: bpy.types.POSE_OT_paths_calculate.bake_location
 msgid "Which point on the bones is used when calculating paths"
@@ -74271,7 +74248,7 @@ msgstr ""
 #. :src: bpy.types.POSE_OT_paths_clear.only_selected
 #, fuzzy
 msgid "Only clear paths from selected bones"
-msgstr "清空所选骨骼的路径缓存"
+msgstr "清空选中的骨骼的路径缓存"
 
 #. :src: bpy.types.POSE_OT_paths_update
 msgctxt "Operator"
@@ -74280,7 +74257,7 @@ msgstr "更新骨骼路径"
 
 #. :src: bpy.types.POSE_OT_paths_update
 msgid "Recalculate paths for bones that already have them"
-msgstr "重计算所选骨骼的路径"
+msgstr "重计算选中的骨骼的路径"
 
 #. :src: bpy.types.POSE_OT_propagate
 msgctxt "Operator"
@@ -74382,7 +74359,7 @@ msgstr "使当前姿态与毗邻帧更接近"
 #. :src: bpy.types.POSE_OT_reveal
 msgctxt "Operator"
 msgid "Reveal Selected"
-msgstr "取消隐藏所选项"
+msgstr "取消隐藏选中的项"
 
 #. :src: bpy.types.POSE_OT_reveal
 msgid "Reveal all bones hidden in Pose Mode"
@@ -74395,7 +74372,7 @@ msgstr "清空姿态旋转"
 
 #. :src: bpy.types.POSE_OT_rot_clear
 msgid "Reset rotations of selected bones to their default values"
-msgstr "充值所选骨骼的旋转为默认值"
+msgstr "充值选中的骨骼的旋转为默认值"
 
 #. :src: bpy.types.POSE_OT_rotation_mode_set
 msgctxt "Operator"
@@ -74413,7 +74390,7 @@ msgstr "清空姿态缩放"
 
 #. :src: bpy.types.POSE_OT_scale_clear
 msgid "Reset scaling of selected bones to their default values"
-msgstr "重置所选骨骼的缩放为默认值"
+msgstr "重置选中的骨骼的缩放为默认值"
 
 #. :src: bpy.types.POSE_OT_select_constraint_target
 msgctxt "Operator"
@@ -74422,7 +74399,7 @@ msgstr "选择约束目标"
 
 #. :src: bpy.types.POSE_OT_select_constraint_target
 msgid "Select bones used as targets for the currently selected bones"
-msgstr "选择要作为当前所选骨骼目标的骨骼"
+msgstr "选择要作为当前选中的骨骼目标的骨骼"
 
 #. :src: bpy.types.POSE_OT_select_grouped
 msgid "Select all visible bones grouped by similar properties"
@@ -74443,7 +74420,7 @@ msgstr "选择父级骨骼"
 
 #. :src: bpy.types.POSE_OT_select_parent
 msgid "Select bones that are parents of the currently selected bones"
-msgstr "选择当前所选骨架的父级"
+msgstr "选择当前选中的骨架的父级"
 
 #. :src: bpy.types.POSE_OT_transforms_clear
 msgctxt "Operator"
@@ -74452,7 +74429,7 @@ msgstr "清空姿态变换"
 
 #. :src: bpy.types.POSE_OT_transforms_clear
 msgid "Reset location, rotation, and scaling of selected bones to their default values"
-msgstr "将所选骨骼的位置、旋转与缩放重置为默认值"
+msgstr "将选中的骨骼的位置、旋转与缩放重置为默认值"
 
 #. :src: bpy.types.POSE_OT_user_transforms_clear
 msgctxt "Operator"
@@ -74461,7 +74438,7 @@ msgstr "清空姿态变换"
 
 #. :src: bpy.types.POSE_OT_user_transforms_clear
 msgid "Reset pose on selected bones to keyframed state"
-msgstr "重置所选骨骼的旋转至关键帧状态"
+msgstr "重置选中的骨骼的旋转至关键帧状态"
 
 #. :src: bpy.types.POSE_OT_user_transforms_clear.only_selected
 msgid "Only visible/selected bones"
@@ -74999,7 +74976,7 @@ msgstr "烘焙到关键帧"
 
 #. :src: bpy.types.RIGIDBODY_OT_bake_to_keyframes
 msgid "Bake rigid body transformations of selected objects to keyframes"
-msgstr "将所选物体的刚体变换烘焙到关键帧"
+msgstr "将选中的物体的刚体变换烘焙到关键帧"
 
 #. :src: bpy.types.RIGIDBODY_OT_connect
 msgctxt "Operator"
@@ -75692,7 +75669,7 @@ msgstr "移除渲染层"
 #. :src: bpy.types.SCENE_OT_render_view_remove
 #, fuzzy
 msgid "Remove the selected render view"
-msgstr "移除所选渲染层"
+msgstr "移除选中的渲染层"
 
 #. :src: bpy.types.SCENE_OT_view_layer_add
 #, fuzzy
@@ -75714,7 +75691,7 @@ msgstr "移除层"
 #. :src: bpy.types.SCENE_OT_view_layer_remove
 #, fuzzy
 msgid "Remove the selected view layer"
-msgstr "移除所选渲染层"
+msgstr "移除选中的渲染层"
 
 #. :src: bpy.types.SCREEN_OT_actionzone
 msgctxt "Operator"
@@ -75788,7 +75765,7 @@ msgstr "将区域复制到新窗口"
 
 #. :src: bpy.types.SCREEN_OT_area_dupli
 msgid "Duplicate selected area into new window"
-msgstr "将所选区域复制到新窗口"
+msgstr "将选中的区域复制到新窗口"
 
 #. :src: bpy.types.SCREEN_OT_area_join
 msgctxt "Operator"
@@ -75822,7 +75799,7 @@ msgstr "移动区域边界"
 
 #. :src: bpy.types.SCREEN_OT_area_move
 msgid "Move selected area edges"
-msgstr "移动所选区域的边界线"
+msgstr "移动选中的区域的边界线"
 
 #. :src: bpy.types.SCREEN_OT_area_options
 msgctxt "Operator"
@@ -75849,7 +75826,7 @@ msgstr "区域互换"
 
 #. :src: bpy.types.SCREEN_OT_area_swap
 msgid "Swap selected areas screen positions"
-msgstr "调换所选区域的屏幕位置"
+msgstr "调换选中的区域的屏幕位置"
 
 #. :src: bpy.types.SCREEN_OT_back_to_previous
 msgctxt "Operator"
@@ -76009,7 +75986,7 @@ msgstr "缩放区域尺寸"
 
 #. :src: bpy.types.SCREEN_OT_region_scale
 msgid "Scale selected area"
-msgstr "缩放所选区域"
+msgstr "缩放选中的区域"
 
 #. :src: bpy.types.SCREEN_OT_repeat_history
 msgctxt "Operator"
@@ -76453,7 +76430,7 @@ msgstr "声音过渡"
 
 #. :src: bpy.types.SEQUENCER_OT_crossfade_sounds
 msgid "Do cross-fading volume animation of two selected sound strips"
-msgstr "在两个所选声音片段间应用淡入淡出音量动画"
+msgstr "在两个选中的声音片段间应用淡入淡出音量动画"
 
 #. :src: bpy.types.SEQUENCER_OT_cut
 msgctxt "Operator"
@@ -76462,11 +76439,11 @@ msgstr "剪切片段"
 
 #. :src: bpy.types.SEQUENCER_OT_cut
 msgid "Cut the selected strips"
-msgstr "剪切所选择的片段"
+msgstr "剪切选中的择的片段"
 
 #. :src: bpy.types.SEQUENCER_OT_cut.frame
 msgid "Frame where selected strips will be cut"
-msgstr "所选片段上将被剪辑的帧位置"
+msgstr "选中的片段上将被剪辑的帧位置"
 
 #. :src: bpy.types.SEQUENCER_OT_cut.side
 msgid "The side that remains selected after cutting"
@@ -76604,7 +76581,7 @@ msgstr "替换选择"
 #. :src: bpy.types.SEQUENCER_OT_scene_strip_add.replace_sel
 #. :src: bpy.types.SEQUENCER_OT_sound_strip_add.replace_sel
 msgid "Replace the current selection"
-msgstr "替换当前所选"
+msgstr "替换当前选中的"
 
 #. :src: bpy.types.SEQUENCER_OT_enable_proxies
 msgctxt "Operator"
@@ -76759,11 +76736,11 @@ msgstr "禁用片段"
 
 #. :src: bpy.types.SEQUENCER_OT_mute
 msgid "Mute (un)selected strips"
-msgstr "禁用所选片段"
+msgstr "禁用选中的片段"
 
 #. :src: bpy.types.SEQUENCER_OT_mute.unselected
 msgid "Mute unselected rather than selected strips"
-msgstr "禁用未选片段, 而不是所选片段"
+msgstr "禁用未选片段, 而不是选中的片段"
 
 #. :src: bpy.types.SEQUENCER_OT_offset_clear
 msgctxt "Operator"
@@ -76993,7 +76970,7 @@ msgstr "选择控制柄"
 #. :src: bpy.types.SEQUENCER_OT_select_handles
 #, fuzzy
 msgid "Select gizmo handles on the sides of the selected strip"
-msgstr "选择所选片段两侧的控制柄"
+msgstr "选择选中的片段两侧的控制柄"
 
 #. :src: bpy.types.SEQUENCER_OT_select_less
 msgid "Shrink the current selection of adjacent selected strips"
@@ -77193,12 +77170,12 @@ msgstr "启用片段"
 #. :src: bpy.types.SEQUENCER_OT_unmute
 #, fuzzy
 msgid "Unmute (un)selected strips"
-msgstr "禁用所选片段"
+msgstr "禁用选中的片段"
 
 #. :src: bpy.types.SEQUENCER_OT_unmute.unselected
 #, fuzzy
 msgid "Unmute unselected rather than selected strips"
-msgstr "启用未选片段, 而不是所选片段"
+msgstr "启用未选片段, 而不是选中的片段"
 
 #. :src: bpy.types.SEQUENCER_OT_view_all
 msgid "View all the strips in the sequencer"
@@ -77653,7 +77630,7 @@ msgstr "移动对象"
 
 #. :src: bpy.types.TEXT_OT_move_lines
 msgid "Move the currently selected line(s) up/down"
-msgstr "上下移动当前所选的对象"
+msgstr "上下移动当前选中的的对象"
 
 #. :src: bpy.types.TEXT_OT_new
 #, fuzzy
@@ -78061,7 +78038,7 @@ msgstr "创建坐标系"
 
 #. :src: bpy.types.TRANSFORM_OT_create_orientation
 msgid "Create transformation orientation from selection"
-msgstr "根据所选元素创建变换坐标系"
+msgstr "根据选中的元素创建变换坐标系"
 
 #. :src: bpy.types.TRANSFORM_OT_create_orientation.name
 #, fuzzy
@@ -78217,7 +78194,7 @@ msgstr "缩放"
 
 #. :src: bpy.types.TRANSFORM_OT_resize
 msgid "Scale (resize) selected items"
-msgstr "缩放或调整所选对象的尺寸"
+msgstr "缩放或调整选中的对象的尺寸"
 
 #. :src: bpy.types.TRANSFORM_OT_resize.remove_on_cancel
 #. :src: bpy.types.TRANSFORM_OT_translate.remove_on_cancel
@@ -78352,7 +78329,7 @@ msgstr "轨迹球"
 
 #. :src: bpy.types.TRANSFORM_OT_trackball
 msgid "Trackball style rotation of selected items"
-msgstr "所选物体的轨迹球式的旋转方式"
+msgstr "选中的物体的轨迹球式的旋转方式"
 
 #. :src: bpy.types.TRANSFORM_OT_transform
 #. :src: bpy.types.IMAGE_PT_tools_active Tools: 'UV', 'builtin.transform'
@@ -79680,7 +79657,7 @@ msgstr "拆分选中项"
 
 #. :src: bpy.types.UV_OT_select_split
 msgid "Select only entirely selected faces"
-msgstr "仅选择所选区的面"
+msgstr "仅选择选中的区的面"
 
 #. :src: bpy.types.UV_OT_smart_project
 msgctxt "Operator"
@@ -80017,7 +79994,7 @@ msgstr "将摄像机视图设置为激活视图"
 #. :src: bpy.types.VIEW3D_OT_camera_to_view_selected
 msgctxt "Operator"
 msgid "Camera Fit Frame to Selected"
-msgstr "摄像机匹配帧 -> 所选"
+msgstr "摄像机匹配帧 -> 选中的"
 
 #. :src: bpy.types.VIEW3D_OT_camera_to_view_selected
 msgid "Move the camera so selected objects are framed"
@@ -80192,7 +80169,7 @@ msgstr "将视图移动到选中元素的中心"
 #. :src: bpy.types.VIEW3D_OT_localview_remove_from
 msgctxt "Operator"
 msgid "Remove from Local View"
-msgstr ""
+msgstr "从局部视图中移除"
 
 #. :src: bpy.types.VIEW3D_OT_localview_remove_from
 msgid "Move selected objects out of local view"
@@ -80401,17 +80378,17 @@ msgstr "将光标吸附到最近的栅格点"
 #. :src: bpy.types.VIEW3D_OT_snap_cursor_to_selected
 msgctxt "Operator"
 msgid "Snap Cursor to Selected"
-msgstr "将光标吸附到所选项"
+msgstr "将光标吸附到选中的项"
 
 #. :src: bpy.types.VIEW3D_OT_snap_cursor_to_selected
 #, fuzzy
 msgid "Snap 3D cursor to the middle of the selected item(s)"
-msgstr "将光标吸附到所选项的中心点"
+msgstr "将光标吸附到选中的项的中心点"
 
 #. :src: bpy.types.VIEW3D_OT_snap_selected_to_active
 msgctxt "Operator"
 msgid "Snap Selection to Active"
-msgstr "将所选项吸附到活动项"
+msgstr "将选中的项吸附到活动项"
 
 #. :src: bpy.types.VIEW3D_OT_snap_selected_to_active
 msgid "Snap selected item(s) to the active item"
@@ -80420,7 +80397,7 @@ msgstr ""
 #. :src: bpy.types.VIEW3D_OT_snap_selected_to_cursor
 #, fuzzy
 msgid "Snap selected item(s) to the 3D cursor"
-msgstr "将所选项吸附到光标"
+msgstr "将选中的项吸附到光标"
 
 #. :src: bpy.types.VIEW3D_OT_snap_selected_to_cursor.use_offset
 msgid "If the selection should be snapped as a whole or by each object center"
@@ -80429,7 +80406,7 @@ msgstr ""
 #. :src: bpy.types.VIEW3D_OT_snap_selected_to_grid
 #, fuzzy
 msgid "Snap selected item(s) to their nearest grid division"
-msgstr "将所选项吸附到最近的栅格点"
+msgstr "将选中的项吸附到最近的栅格点"
 
 #. :src: bpy.types.VIEW3D_OT_toggle_matcap_flip
 msgctxt "Operator"
@@ -80465,11 +80442,11 @@ msgstr ""
 #. :src: bpy.types.RenderSettings.sequencer_gl_preview:'MATERIAL'
 #. :src: bpy.types.View3DShading.type:'MATERIAL'
 msgid "LookDev"
-msgstr ""
+msgstr "外观显影"
 
 #. :src: bpy.types.VIEW3D_OT_toggle_shading.type:'MATERIAL'
 msgid "Toggle lookdev shading"
-msgstr ""
+msgstr "切换外观显影着色"
 
 #. :src: bpy.types.VIEW3D_OT_toggle_shading.type:'RENDERED'
 #, fuzzy
@@ -81028,7 +81005,7 @@ msgstr "选择新物体"
 #. :src: bpy.types.WM_OT_append.instance_collections
 #. :src: bpy.types.WM_OT_link.instance_collections
 msgid "Instance Collections"
-msgstr ""
+msgstr "实例集合"
 
 #. :src: bpy.types.WM_OT_append.instance_collections
 #. :src: bpy.types.WM_OT_link.instance_collections
@@ -82705,16 +82682,16 @@ msgstr "新建主窗口"
 
 #. :src: bpy.types.WM_OT_window_new_main
 msgid "Create a new main window with its own workspace and scene selection"
-msgstr "创建一个包含自身工作空间与场景选择的新主窗口"
+msgstr "创建一个包含自身工作区与场景选择的新主窗口"
 
 #. :src: bpy.types.WORKSPACE_OT_add
 msgctxt "Operator"
 msgid "Add Workspace"
-msgstr "添加工作空间"
+msgstr "添加工作区"
 
 #. :src: bpy.types.WORKSPACE_OT_add
 msgid "Add a new workspace by duplicating the current one or appending one from the user configuration"
-msgstr "通过复制当前场景或者从用户预设添加新的工作空间"
+msgstr "通过复制当前场景或者从用户预设添加新的工作区"
 
 #. :src: bpy.types.WORKSPACE_OT_append_activate
 msgctxt "Operator"
@@ -83603,7 +83580,6 @@ msgid "Shutter Curve"
 msgstr "快门曲线"
 
 #. :src: bpy.types.CYCLES_RENDER_PT_override
-#, fuzzy
 msgid "Override"
 msgstr "覆盖"
 
@@ -83613,9 +83589,8 @@ msgid "Passes"
 msgstr "通道"
 
 #. :src: bpy.types.CYCLES_RENDER_PT_performance_acceleration_structure
-#, fuzzy
 msgid "Acceleration Structure"
-msgstr "加速架构:"
+msgstr "加速结构"
 
 #. :src: bpy.types.CYCLES_RENDER_PT_performance_final_render
 msgid "Final Render"
@@ -83686,7 +83661,7 @@ msgstr "中间裁切安全区"
 #. :src: bpy.types.RENDER_PT_stereoscopy
 #. :src: bpy.types.VIEW3D_PT_view3d_stereo
 msgid "Stereoscopy"
-msgstr ""
+msgstr "立体感"
 
 #. :src: bpy.types.DATA_PT_curve_texture_space
 #. :src: bpy.types.DATA_PT_mball_texture_space
@@ -83977,7 +83952,7 @@ msgstr "游标"
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'PAINT_GPENCIL', 'builtin.cursor'
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'EDIT_GPENCIL', 'builtin.cursor'
 msgid "Set the cursor location, drag to transform"
-msgstr ""
+msgstr "设置游标位置，拖动进行变换"
 
 #. :src: bpy.types.IMAGE_PT_tools_active Tools: 'UV', 'builtin.transform'
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'OBJECT', 'builtin.transform'
@@ -84101,7 +84076,7 @@ msgstr "波形图"
 
 #. :src: bpy.types.MATERIAL_PT_freestyle_line
 msgid "Freestyle Line"
-msgstr "Freestyle 线条集"
+msgstr "描边风格线条集"
 
 #. :src: bpy.types.MATERIAL_PT_gpencil_material_presets
 #, fuzzy
@@ -84143,7 +84118,7 @@ msgstr "变换增量"
 
 #. :src: bpy.types.OBJECT_PT_instancing
 msgid "Instancing"
-msgstr ""
+msgstr "实例化"
 
 #. :src: bpy.types.OBJECT_PT_instancing_size
 msgid "Scale by Face Size"
@@ -84404,9 +84379,8 @@ msgstr ""
 
 #. :src: bpy.types.RENDER_PT_eevee_film_overscan
 #. :src: bpy.types.SceneEEVEE.use_overscan
-#, fuzzy
 msgid "Overscan"
-msgstr "悬垂"
+msgstr "边缘修正"
 
 #. :src: bpy.types.RENDER_PT_eevee_indirect_lighting
 msgid "Indirect Lighting"
@@ -84423,20 +84397,18 @@ msgid "Shadows"
 msgstr "阴影"
 
 #. :src: bpy.types.RENDER_PT_eevee_volumetric
-#, fuzzy
 msgid "Volumetric"
 msgstr "体积"
 
 #. :src: bpy.types.RENDER_PT_eevee_volumetric_lighting
 #. :src: bpy.types.SceneEEVEE.use_volumetric_lights
 msgid "Volumetric Lighting"
-msgstr ""
+msgstr "体积光照"
 
 #. :src: bpy.types.RENDER_PT_eevee_volumetric_shadows
 #. :src: bpy.types.SceneEEVEE.use_volumetric_shadows
-#, fuzzy
 msgid "Volumetric Shadows"
-msgstr "体积笔触"
+msgstr "体积阴影"
 
 #. :src: bpy.types.RENDER_PT_encoding
 msgid "Encoding"
@@ -84457,9 +84429,8 @@ msgid "FFMPEG Presets"
 msgstr "FFMPEG 编码预设"
 
 #. :src: bpy.types.RENDER_PT_frame_remapping
-#, fuzzy
 msgid "Time Remapping"
-msgstr "时间映射转换:"
+msgstr "时间重映射"
 
 #. :src: bpy.types.RENDER_PT_freestyle
 #. :src: bpy.types.VIEW3D_PT_overlay_edit_mesh_freestyle
@@ -84467,7 +84438,7 @@ msgstr "时间映射转换:"
 #. :src: bpy.types.ViewLayer.use_freestyle
 #: scripts/addons/cycles/ui.py:727
 msgid "Freestyle"
-msgstr "Freestyle"
+msgstr "描边风格"
 
 #. :src: bpy.types.RENDER_PT_output_views
 msgid "Views"
@@ -84677,7 +84648,7 @@ msgstr "快照材质"
 
 #. :src: bpy.types.USERPREF_PT_studiolight_world
 msgid "LookDev HDRIs"
-msgstr ""
+msgstr "外观显影高动态范围成像"
 
 #. :src: bpy.types.USERPREF_PT_system_cycles_devices
 msgid "Cycles Render Devices"
@@ -84942,7 +84913,7 @@ msgstr "测量"
 
 #. :src: bpy.types.VIEW3D_PT_overlay_gizmo
 msgid "Gizmo"
-msgstr ""
+msgstr "小部件"
 
 #. :src: bpy.types.VIEW3D_PT_overlay_motion_tracking
 #. :src: Add-ons' categories
@@ -87021,11 +86992,11 @@ msgstr "仅在需要关键帧的位置插入关键帧"
 
 #. :src: bpy.types.PreferencesEdit.use_mouse_depth_cursor
 msgid "Cursor Surface Project"
-msgstr ""
+msgstr "游标表面项目"
 
 #. :src: bpy.types.PreferencesEdit.use_mouse_depth_cursor
 msgid "Use the surface depth for cursor placement"
-msgstr ""
+msgstr "使用表面深度进行游标放置"
 
 #. :src: bpy.types.PreferencesEdit.use_negative_frames
 msgid "Allow Negative Frames"
@@ -87310,13 +87281,12 @@ msgid "Time/delay (in ms) for a double click"
 msgstr "双击的间隔时间(毫秒)"
 
 #. :src: bpy.types.PreferencesInput.move_threshold
-#, fuzzy
 msgid "Motion Threshold"
-msgstr "阈值"
+msgstr "运动阈值"
 
 #. :src: bpy.types.PreferencesInput.move_threshold
 msgid "Number of pixels you have to before the cursor is considered to have moved (used for cycling selected items on successive clicks)"
-msgstr ""
+msgstr "在认为光标移动之前您必须使用的像素数（用于在连续点击时循环选定的项目）"
 
 #. :src: bpy.types.PreferencesInput.navigation_mode
 msgid "View Navigation"
@@ -87419,7 +87389,7 @@ msgstr "在旋转过程中显示中心和坐标轴"
 
 #. :src: bpy.types.PreferencesInput.ndof_view_navigate_method
 msgid "NDOF View Navigate"
-msgstr "NDOF视图浏览"
+msgstr "NDOF 视图浏览"
 
 #. :src: bpy.types.PreferencesInput.ndof_view_navigate_method
 msgid "Navigation style in the viewport"
@@ -87578,7 +87548,7 @@ msgstr "围绕选择物体旋转"
 
 #. :src: bpy.types.PreferencesInput.use_rotate_around_active
 msgid "Use selection as the pivot point"
-msgstr "使用所选物体作为轴心点"
+msgstr "使用选中的物体作为轴心点"
 
 #. :src: bpy.types.PreferencesInput.use_trackpad_natural
 msgid "Trackpad Natural"
@@ -88204,7 +88174,7 @@ msgstr "界面等宽字体路径"
 #. :src: bpy.types.PreferencesView.gizmo_size
 #: scripts/startup/bl_ui/space_userpref.py:581
 msgid "Gizmo Size"
-msgstr ""
+msgstr "小部件尺寸"
 
 #. :src: bpy.types.PreferencesView.gizmo_size
 #, fuzzy
@@ -88274,7 +88244,7 @@ msgstr "单一轴向"
 
 #. :src: bpy.types.PreferencesView.mini_axis_type:'GIZMO'
 msgid "Interactive Navigation"
-msgstr ""
+msgstr "互动导航"
 
 #. :src: bpy.types.PreferencesView.object_origin_size
 msgid "Object Origin Size"
@@ -88379,7 +88349,7 @@ msgstr ""
 
 #. :src: bpy.types.PreferencesView.show_layout_ui
 msgid "Split and join editors by dragging from corners"
-msgstr ""
+msgstr "通过从角落拖动来拆分和连接编辑器"
 
 #. :src: bpy.types.PreferencesView.show_object_info
 msgid "Display Object Info"
@@ -88447,9 +88417,8 @@ msgid "Method for making user interface text render sharp"
 msgstr ""
 
 #. :src: bpy.types.PreferencesView.text_hinting:'SLIGHT'
-#, fuzzy
 msgid "Slight"
-msgstr "柔光"
+msgstr "轻微"
 
 #. :src: bpy.types.PreferencesView.timecode_style
 msgid "TimeCode Style"
@@ -88555,7 +88524,7 @@ msgstr "鼠标经过即开启菜单或下拉菜单"
 
 #. :src: bpy.types.PreferencesView.use_save_prompt
 msgid "Save Prompt"
-msgstr ""
+msgstr "保存提示"
 
 #. :src: bpy.types.PreferencesView.use_save_prompt
 msgid "Ask for confirmation when quitting with unsaved changes"
@@ -88870,11 +88839,11 @@ msgstr "为粒子系统激活 Cycles 毛发渲染"
 
 #. :src: bpy.types.CyclesDeviceSettings.type:'CPU'
 msgid "CPU"
-msgstr ""
+msgstr "中央处理器"
 
 #. :src: bpy.types.CyclesDeviceSettings.type:'CUDA'
 msgid "CUDA"
-msgstr ""
+msgstr "统一计算架构"
 
 #. :src: bpy.types.CyclesLightSettings.cast_shadow
 msgid "Cast Shadow"
@@ -89364,7 +89333,7 @@ msgstr ""
 
 #. :src: bpy.types.CyclesRenderSettings.ao_samples
 msgid "Ambient Occlusion Samples"
-msgstr "AO 采样"
+msgstr "环境光遮蔽采样"
 
 #. :src: bpy.types.CyclesRenderSettings.ao_samples
 msgid "Number of ambient occlusion samples to render for each AA sample"
@@ -89647,9 +89616,8 @@ msgstr ""
 
 #. :src: bpy.types.CyclesRenderSettings.film_transparent_glass
 #: scripts/addons/cycles/ui.py:554
-#, fuzzy
 msgid "Transparent Glass"
-msgstr "透明"
+msgstr "透明玻璃"
 
 #. :src: bpy.types.CyclesRenderSettings.film_transparent_glass
 msgid "Render transmissive surfaces as transparent, for compositing glass over another background"
@@ -89817,7 +89785,7 @@ msgstr "起始精度"
 #. :src: bpy.types.CyclesRenderSettings.preview_start_resolution
 #. :src: bpy.types.RenderSettings.preview_start_resolution
 msgid "Resolution to start rendering preview at, progressively increasing it to the full viewport size"
-msgstr ""
+msgstr "用于开始渲染预览的分辨率，逐渐将其增加到完整视口大小"
 
 #. :src: bpy.types.CyclesRenderSettings.progressive
 msgid "Integrator"
@@ -90978,13 +90946,12 @@ msgid "Images are rendered in a new window"
 msgstr "在新窗口中开始渲染"
 
 #. :src: bpy.types.RenderSettings.display_mode:'NONE'
-#, fuzzy
 msgid "Keep User Interface"
-msgstr "用户界面主题"
+msgstr "保持用户界面"
 
 #. :src: bpy.types.RenderSettings.display_mode:'NONE'
 msgid "Images are rendered without changing the user interface"
-msgstr ""
+msgstr "在不改变用户界面的情况下渲染图像"
 
 #. :src: bpy.types.RenderSettings.dither_intensity
 msgid "Dither Intensity"
@@ -91191,12 +91158,12 @@ msgstr "显示物体的网格边"
 #. :src: bpy.types.RenderSettings.sequencer_gl_preview:'SOLID'
 #. :src: bpy.types.View3DShading.type:'SOLID'
 msgid "Display in solid mode"
-msgstr ""
+msgstr "以实体模式显示"
 
 #. :src: bpy.types.RenderSettings.sequencer_gl_preview:'MATERIAL'
 #. :src: bpy.types.View3DShading.type:'MATERIAL'
 msgid "Display in LookDev mode"
-msgstr ""
+msgstr "以外观显影模式显示"
 
 #. :src: bpy.types.RenderSettings.sequencer_gl_preview:'RENDERED'
 #. :src: bpy.types.View3DShading.type:'RENDERED'
@@ -91522,9 +91489,8 @@ msgstr ""
 
 #. :src: bpy.types.RenderSettings.use_single_layer
 #: scripts/startup/bl_ui/properties_view_layer.py:54
-#, fuzzy
 msgid "Render Single Layer"
-msgstr "渲染修改的层"
+msgstr "渲染单层"
 
 #. :src: bpy.types.RenderSettings.use_single_layer
 msgid "Only render the active layer. Only affects rendering from the interface, ignored for rendering from command line"
@@ -92597,7 +92563,7 @@ msgstr ""
 
 #. :src: bpy.types.SceneEEVEE.bloom_knee
 msgid "Makes transition between under/over-threshold gradual"
-msgstr ""
+msgstr "在阈值以上 / 以下之间渐弱的进行转换"
 
 #. :src: bpy.types.SceneEEVEE.bloom_radius
 msgid "Bloom spread distance"
@@ -92608,9 +92574,8 @@ msgid "Filters out pixels under this level of brightness"
 msgstr ""
 
 #. :src: bpy.types.SceneEEVEE.bokeh_max_size
-#, fuzzy
 msgid "Max Size"
-msgstr "最大步长"
+msgstr "最大尺寸"
 
 #. :src: bpy.types.SceneEEVEE.bokeh_max_size
 msgid "Max size of the bokeh shape for the depth of field (lower is faster)"
@@ -92918,21 +92883,20 @@ msgid "Enable ambient occlusion to simulate medium scale indirect shadowing"
 msgstr ""
 
 #. :src: bpy.types.SceneEEVEE.use_gtao_bent_normals
-#, fuzzy
 msgid "Bent Normals"
-msgstr "面元法向"
+msgstr "弯曲法线"
 
 #. :src: bpy.types.SceneEEVEE.use_gtao_bent_normals
 msgid "Compute main non occluded direction to sample the environment"
-msgstr ""
+msgstr "计算主要非遮挡方向以对环境进行采样"
 
 #. :src: bpy.types.SceneEEVEE.use_gtao_bounce
 msgid "Bounces Approximation"
-msgstr ""
+msgstr "弹跳近似值"
 
 #. :src: bpy.types.SceneEEVEE.use_gtao_bounce
 msgid "An approximation to simulate light bounces giving less occlusion on brighter objects"
-msgstr ""
+msgstr "近似模拟光反弹，在较亮的物体上产生较少的遮挡"
 
 #. :src: bpy.types.SceneEEVEE.use_motion_blur
 msgid "Enable motion blur effect (only in camera view)"
@@ -93000,9 +92964,8 @@ msgid "Denoise image using temporal reprojection (can leave some ghosting)"
 msgstr ""
 
 #. :src: bpy.types.SceneEEVEE.use_volumetric
-#, fuzzy
 msgid "Volumetrics"
-msgstr "体积笔触"
+msgstr "体积"
 
 #. :src: bpy.types.SceneEEVEE.use_volumetric
 msgid "Enable scattering and absorbance of volumetric material"
@@ -96246,7 +96209,7 @@ msgstr "边界框中心"
 #. :src: bpy.types.SpaceImageEditor.pivot_point:'BOUNDING_BOX_CENTER'
 #. :src: bpy.types.ToolSettings.transform_pivot_point:'BOUNDING_BOX_CENTER'
 msgid "Pivot around bounding box center of selected object(s)"
-msgstr "以所选物体边界盒中心处为轴心"
+msgstr "以选中的物体边界盒中心处为轴心"
 
 #. :src: bpy.types.SpaceClipEditor.pivot_point:'CURSOR'
 msgid "Pivot around the 2D cursor"
@@ -96274,7 +96237,7 @@ msgstr "质心点"
 #. :src: bpy.types.SpaceImageEditor.pivot_point:'MEDIAN_POINT'
 #. :src: bpy.types.ToolSettings.transform_pivot_point:'MEDIAN_POINT'
 msgid "Pivot around the median point of selected objects"
-msgstr "以所选物体的质心点为轴心"
+msgstr "以选中的物体的质心点为轴心"
 
 #. :src: bpy.types.SpaceClipEditor.scopes
 msgid "Scopes to visualize movie clip statistics"
@@ -96351,7 +96314,7 @@ msgstr "显示追踪运动"
 
 #. :src: bpy.types.SpaceClipEditor.show_graph_tracks_motion
 msgid "Display the speed curves (in \"x\" direction red, in \"y\" direction green) for the selected tracks"
-msgstr "显示所选轨迹的速度曲线 ( \"x\"向显示为红色, \"y\"向显示为绿色)"
+msgstr "显示选中的轨迹的速度曲线 ( \"x\"向显示为红色, \"y\"向显示为绿色)"
 
 #. :src: bpy.types.SpaceClipEditor.show_green_channel
 msgid "Show Green Channel"
@@ -97066,7 +97029,7 @@ msgstr "查看完整图像"
 #. :src: bpy.types.SpaceImageEditor.mode:'UV'
 #. :src: bpy.types.SpaceImageEditor.uv_editor
 msgid "UV Editor"
-msgstr "UV/ 图像编辑器"
+msgstr "UV 编辑器"
 
 #. :src: bpy.types.SpaceImageEditor.mode:'UV'
 msgid "UV edit in mesh editmode"
@@ -97446,11 +97409,11 @@ msgstr ""
 
 #. :src: bpy.types.SpaceOutliner.display_mode:'ORPHAN_DATA'
 msgid "Orphan Data"
-msgstr ""
+msgstr "孤立数据"
 
 #. :src: bpy.types.SpaceOutliner.display_mode:'ORPHAN_DATA'
 msgid "Display data-blocks which are unused and/or will be lost when the file is reloaded"
-msgstr ""
+msgstr "显示重新加载文件时未使用和 / 或将丢失的数据块"
 
 #. :src: bpy.types.SpaceOutliner.filter_id_type
 #, fuzzy
@@ -97583,9 +97546,8 @@ msgid "Show what is inside the objects elements"
 msgstr ""
 
 #. :src: bpy.types.SpaceOutliner.use_filter_object_empty
-#, fuzzy
 msgid "Show Empties"
-msgstr "显示选项"
+msgstr "显示空物体"
 
 #. :src: bpy.types.SpaceOutliner.use_filter_object_empty
 msgid "Show empty objects"
@@ -98125,7 +98087,7 @@ msgstr ""
 
 #. :src: bpy.types.SpaceView3D.show_gizmo
 msgid "Show gizmos of all types"
-msgstr ""
+msgstr "显示所有类型的小部件"
 
 #. :src: bpy.types.SpaceView3D.show_gizmo_context
 msgid "Context Gizmo"
@@ -98406,7 +98368,7 @@ msgstr "实时展开"
 
 #. :src: bpy.types.SpaceUVEditor.use_live_unwrap
 msgid "Continuously unwrap the selected UV island while transforming pinned vertices"
-msgstr "移动钉固点时, 持续展开所选 UV 孤岛"
+msgstr "移动钉固点时, 持续展开选中的 UV 孤岛"
 
 #. :src: bpy.types.Spline
 msgid "Element of a curve, either NURBS, Bezier or Polyline or a character with text objects"
@@ -99235,7 +99197,7 @@ msgstr "自动控制选择的颜色"
 #. :src: bpy.types.ThemeGraphEditor.handle_sel_auto_clamped
 #. :src: bpy.types.ThemeImageEditor.handle_sel_auto_clamped
 msgid "Auto-Clamped handle selected color"
-msgstr "自动钳制的所选控制柄颜色"
+msgstr "自动钳制的选中的控制柄颜色"
 
 #. :src: bpy.types.ThemeClipEditor.handle_sel_free
 #. :src: bpy.types.ThemeGraphEditor.handle_sel_free
@@ -99316,11 +99278,11 @@ msgstr "当前帧之前的路径颜色"
 
 #. :src: bpy.types.ThemeClipEditor.selected_marker
 msgid "Selected Marker"
-msgstr "所选标记"
+msgstr "选中的标记"
 
 #. :src: bpy.types.ThemeClipEditor.selected_marker
 msgid "Color of selected marker"
-msgstr "所选标记的颜色"
+msgstr "选中的标记的颜色"
 
 #. :src: bpy.types.ThemeClipEditor.space
 #. :src: bpy.types.ThemeConsole.space
@@ -99495,7 +99457,7 @@ msgstr "选择的抖动关键帧"
 
 #. :src: bpy.types.ThemeDopeSheet.keyframe_jitter_selected
 msgid "Color of selected jitter keyframe"
-msgstr "用于所选抖动关键帧的色彩"
+msgstr "用于选中的抖动关键帧的色彩"
 
 #. :src: bpy.types.ThemeDopeSheet.keyframe_movehold
 msgid "Moving Hold Keyframe"
@@ -101547,21 +101509,20 @@ msgid "Instead of per-brush weight, the weight is shared across brushes"
 msgstr "不同于单独笔刷权重, 此权重值可供各笔刷共用"
 
 #. :src: bpy.types.UnitSettings.length_unit
-#, fuzzy
 msgid "Length Unit"
-msgstr "镜头尺寸"
+msgstr "长度单位"
 
 #. :src: bpy.types.UnitSettings.length_unit
 msgid "Unit that will be used to display length values"
-msgstr ""
+msgstr "将用于显示长度值的单位"
 
 #. :src: bpy.types.UnitSettings.mass_unit
 msgid "Mass Unit"
-msgstr ""
+msgstr "质量单位"
 
 #. :src: bpy.types.UnitSettings.mass_unit
 msgid "Unit that will be used to display mass values"
-msgstr ""
+msgstr "将用于显示质量值的单位"
 
 #. :src: bpy.types.UnitSettings.scale_length
 msgid "Unit Scale"
@@ -101569,7 +101530,7 @@ msgstr "缩放单位"
 
 #. :src: bpy.types.UnitSettings.scale_length
 msgid "Scale to use when converting between blender units and dimensions. When working at microscopic or astronomical scale, a small or large unit scale respectively can be used to avoid numerical precision problems"
-msgstr ""
+msgstr "在 Blender 单元和尺寸之间进行转换时使用缩放。 当在微观或天文尺度下工作时，可以分别使用小的或大的单位尺度来避免数值精度问题"
 
 #. :src: bpy.types.UnitSettings.system
 msgid "Unit System"
@@ -101605,11 +101566,11 @@ msgstr "弧度"
 
 #. :src: bpy.types.UnitSettings.time_unit
 msgid "Time Unit"
-msgstr ""
+msgstr "时间单位"
 
 #. :src: bpy.types.UnitSettings.time_unit
 msgid "Unit that will be used to display time values"
-msgstr ""
+msgstr "用于显示时间值的单位"
 
 #. :src: bpy.types.UnitSettings.use_separate
 msgid "Separate Units"
@@ -101617,7 +101578,7 @@ msgstr "分离单位"
 
 #. :src: bpy.types.UnitSettings.use_separate
 msgid "Display units in pairs (e.g. 1m 0cm)"
-msgstr "显示双位单位"
+msgstr "显示双位单位（例如 1m 0cm）"
 
 #. :src: bpy.types.UserSolidLight
 msgid "Solid Light"
@@ -101640,7 +101601,7 @@ msgstr "OpenGL 灯光照明的方向"
 
 #. :src: bpy.types.UserSolidLight.smooth
 msgid "Smooth the lighting from this light"
-msgstr ""
+msgstr "从这个光照平滑照明"
 
 #. :src: bpy.types.UserSolidLight.specular_color
 msgid "Color of the light's specular highlight"
@@ -101858,7 +101819,7 @@ msgstr "显示边线"
 
 #. :src: bpy.types.View3DOverlay.show_edges
 msgid "Display selected edges using highlights in the 3D view and UV editor"
-msgstr "在 3D 视图和 UV 编辑器中高亮显示所选边"
+msgstr "在 3D 视图和 UV 编辑器中高亮显示选中的边"
 
 #. :src: bpy.types.View3DOverlay.show_extra_edge_angle
 #: scripts/startup/bl_ui/properties_data_modifier.py:396
@@ -101868,7 +101829,7 @@ msgstr "边角度"
 
 #. :src: bpy.types.View3DOverlay.show_extra_edge_angle
 msgid "Display selected edge angle, using global values when set in the transform panel"
-msgstr "显示所选边线的夹角, 当在变换面板中设定时, 使用全局值"
+msgstr "显示选中的边线的夹角, 当在变换面板中设定时, 使用全局值"
 
 #. :src: bpy.types.View3DOverlay.show_extra_edge_length
 #: scripts/startup/bl_ui/space_view3d.py:5063
@@ -101877,15 +101838,15 @@ msgstr "边长"
 
 #. :src: bpy.types.View3DOverlay.show_extra_edge_length
 msgid "Display selected edge lengths, using global values when set in the transform panel"
-msgstr "显示所选边线的长度, 当在变换面板中设定时, 使用全局值"
+msgstr "显示选中的边线的长度, 当在变换面板中设定时, 使用全局值"
 
 #. :src: bpy.types.View3DOverlay.show_extra_face_angle
 msgid "Display the angles in the selected edges, using global values when set in the transform panel"
-msgstr "显示所选边的夹角值, 当在变换面板中设定时, 使用全局值"
+msgstr "显示选中的边的夹角值, 当在变换面板中设定时, 使用全局值"
 
 #. :src: bpy.types.View3DOverlay.show_extra_face_area
 msgid "Display the area of selected faces, using global values when set in the transform panel"
-msgstr "显示所选面的面积值, 当在变换面板中设定时, 使用全局值"
+msgstr "显示选中的面的面积值, 当在变换面板中设定时, 使用全局值"
 
 #. :src: bpy.types.View3DOverlay.show_extra_indices
 #: scripts/startup/bl_ui/space_view3d.py:5146
@@ -101894,7 +101855,7 @@ msgstr "编号"
 
 #. :src: bpy.types.View3DOverlay.show_extra_indices
 msgid "Display the index numbers of selected vertices, edges, and faces"
-msgstr "显示所选点线面的编号"
+msgstr "显示选中的点线面的编号"
 
 #. :src: bpy.types.View3DOverlay.show_extras
 #: scripts/startup/bl_ui/space_view3d.py:4861
@@ -101963,11 +101924,11 @@ msgid "Display Freestyle face marks, used with the Freestyle renderer"
 msgstr "显示 Freestyle 的标记面, 用于 Freestyle 渲染器"
 
 #. :src: bpy.types.View3DOverlay.show_look_dev
-msgid "Look Dev Preview"
+msgid "外观显影预览"
 msgstr ""
 
 #. :src: bpy.types.View3DOverlay.show_look_dev
-msgid "Show look development balls and palette"
+msgid "显示外观显影球和调色板"
 msgstr ""
 
 #. :src: bpy.types.View3DOverlay.show_motion_paths
@@ -102005,11 +101966,11 @@ msgstr ""
 
 #. :src: bpy.types.View3DOverlay.show_outline_selected
 msgid "Outline Selected"
-msgstr "所选物体的轮廓线"
+msgstr "选中的物体的轮廓线"
 
 #. :src: bpy.types.View3DOverlay.show_outline_selected
 msgid "Show an outline highlight around selected objects in non-wireframe views"
-msgstr "在非线框模式下, 显示所选物体的轮廓线"
+msgstr "在非线框模式下, 显示选中的物体的轮廓线"
 
 #. :src: bpy.types.View3DOverlay.show_overlays
 msgid "Show Overlays"
@@ -102017,7 +101978,7 @@ msgstr ""
 
 #. :src: bpy.types.View3DOverlay.show_overlays
 msgid "Display overlays like gizmos and outlines"
-msgstr ""
+msgstr "显示叠加层，如小部件和轮廓"
 
 #. :src: bpy.types.View3DOverlay.show_paint_wire
 #, fuzzy
@@ -102026,7 +101987,7 @@ msgstr "警告"
 
 #. :src: bpy.types.View3DOverlay.show_paint_wire
 msgid "Use wireframe display in painting modes"
-msgstr ""
+msgstr "在绘画模式中使用线框显示"
 
 #. :src: bpy.types.View3DOverlay.show_relationship_lines
 msgid "Relationship Lines"
@@ -102395,7 +102356,7 @@ msgstr ""
 #. :src: bpy.types.View3DShading.show_xray
 #. :src: bpy.types.View3DShading.show_xray_wireframe
 msgid "Show whole scene transparent"
-msgstr ""
+msgstr "显示整个场景透明"
 
 #. :src: bpy.types.View3DShading.single_color
 msgid "Color for single color mode"
@@ -102435,7 +102396,7 @@ msgstr ""
 
 #. :src: bpy.types.View3DShading.use_scene_lights
 msgid "Scene Lights"
-msgstr ""
+msgstr "场景光照"
 
 #. :src: bpy.types.View3DShading.use_scene_lights
 msgid "Render lights and light probes of the scene"
@@ -102443,7 +102404,7 @@ msgstr ""
 
 #. :src: bpy.types.View3DShading.use_scene_world
 msgid "Scene World"
-msgstr ""
+msgstr "场景世界"
 
 #. :src: bpy.types.View3DShading.use_scene_world
 msgid "Use scene world for lighting"
@@ -102465,9 +102426,8 @@ msgstr ""
 
 #. :src: bpy.types.View3DShading.xray_alpha
 #. :src: bpy.types.View3DShading.xray_alpha_wireframe
-#, fuzzy
 msgid "Amount of alpha to use"
-msgstr "光线的发射量"
+msgstr "Alpha 的用量"
 
 #. :src: bpy.types.ViewLayer
 msgid "View layer"
@@ -102475,11 +102435,11 @@ msgstr "视图层"
 
 #. :src: bpy.types.ViewLayer.active_layer_collection
 msgid "Active Layer Collection"
-msgstr ""
+msgstr "活动层集合"
 
 #. :src: bpy.types.ViewLayer.active_layer_collection
 msgid "Active layer collection in this view layer's hierarchy"
-msgstr ""
+msgstr "此视图图层的层次结构中的活动图层集合"
 
 #. :src: bpy.types.ViewLayer.cycles
 #, fuzzy
@@ -102495,9 +102455,8 @@ msgid "Root of collections hierarchy of this view layer,its 'collection' pointer
 msgstr ""
 
 #. :src: bpy.types.ViewLayer.material_override
-#, fuzzy
 msgid "Material Override"
-msgstr "替换摄像机"
+msgstr "材质覆盖"
 
 #. :src: bpy.types.ViewLayer.material_override
 msgid "Material to override all other materials in this view layer"
@@ -102549,15 +102508,15 @@ msgstr ""
 
 #. :src: bpy.types.WalkNavigation.teleport_time
 msgid "Teleport Duration"
-msgstr ""
+msgstr "传送持续时间"
 
 #. :src: bpy.types.WalkNavigation.teleport_time
 msgid "Interval of time warp when teleporting in navigation mode"
-msgstr ""
+msgstr "在导航模式下传送时 时间扭曲的间隔"
 
 #. :src: bpy.types.WalkNavigation.use_gravity
 msgid "Walk with gravity, or free navigate"
-msgstr ""
+msgstr "随着重力行走，或自由导航"
 
 #. :src: bpy.types.WalkNavigation.use_mouse_reverse
 msgid "Reverse Mouse"
@@ -102565,7 +102524,7 @@ msgstr "反转鼠标"
 
 #. :src: bpy.types.WalkNavigation.use_mouse_reverse
 msgid "Reverse the vertical movement of the mouse"
-msgstr ""
+msgstr "反转鼠标的垂直移动"
 
 #. :src: bpy.types.WalkNavigation.view_height
 msgid "View Height"
@@ -102573,7 +102532,7 @@ msgstr "视图高度"
 
 #. :src: bpy.types.WalkNavigation.view_height
 msgid "View distance from the floor when walking"
-msgstr ""
+msgstr "行走时距离地板的查看距离"
 
 #. :src: bpy.types.WalkNavigation.walk_speed
 msgid "Walk Speed"
@@ -103069,7 +103028,7 @@ msgstr ""
 #. :src: Generated operator category
 msgctxt "Operator"
 msgid "Workspace:"
-msgstr "工作空间:"
+msgstr "工作区:"
 
 #. :src: Generated operator category
 msgctxt "Operator"
@@ -103270,7 +103229,7 @@ msgstr "切刀工具模态映射"
 #. :src: KM_HIERARCHY.VIEW_3D.EMPTY
 msgctxt "WindowManager"
 msgid "Custom Normals Modal Map"
-msgstr ""
+msgstr "自定义法线模态图"
 
 #. :src: KM_HIERARCHY.VIEW_3D.EMPTY
 msgctxt "WindowManager"
@@ -103283,7 +103242,6 @@ msgid "Paint Stroke Modal"
 msgstr "绘画笔触模态"
 
 #. :src: KM_HIERARCHY.VIEW_3D.EMPTY
-#, fuzzy
 msgctxt "WindowManager"
 msgid "Paint Curve"
 msgstr "绘画曲线"
@@ -103704,27 +103662,24 @@ msgid "Rolling Shutter"
 msgstr "卷帘快门持续时间"
 
 #: scripts/addons/cycles/ui.py:558
-#, fuzzy
 msgid "Roughness Threshold"
-msgstr "光泽阈值"
+msgstr "粗糙度阈值"
 
 #: scripts/addons/cycles/ui.py:622
 msgid "Tiles X"
 msgstr "X 向拼贴"
 
 #: scripts/addons/cycles/ui.py:624
-#, fuzzy
 msgid "Order"
-msgstr "阶数:"
+msgstr "顺序"
 
 #: scripts/addons/cycles/ui.py:678
 msgid "Persistent Images"
 msgstr "保持图像不变"
 
 #: scripts/addons/cycles/ui.py:696
-#, fuzzy
 msgid "Start Pixels"
-msgstr "吸附至像素点"
+msgstr "开始像素"
 
 #: scripts/addons/cycles/ui.py:722
 #, fuzzy
@@ -103732,24 +103687,21 @@ msgid "Surfaces"
 msgstr "面"
 
 #: scripts/addons/cycles/ui.py:794
-#, fuzzy
 msgid "Denoising Data"
-msgstr "降噪"
+msgstr "降噪数据"
 
 #: scripts/addons/cycles/ui.py:796
 #: scripts/startup/bl_ui/properties_output.py:201
-#, fuzzy
 msgid "Render Time"
-msgstr "渲染用时"
+msgstr "渲染时间"
 
 #: scripts/addons/cycles/ui.py:880
 msgid "Asset"
-msgstr ""
+msgstr "资源"
 
 #: scripts/addons/cycles/ui.py:886
-#, fuzzy
 msgid "Accurate Mode"
-msgstr "累积"
+msgstr "精确模式"
 
 #: scripts/addons/cycles/ui.py:940
 msgid "Feature Strength"
@@ -104744,9 +104696,8 @@ msgid "Focus on Object"
 msgstr "锁定到物体"
 
 #: scripts/startup/bl_ui/properties_data_camera.py:227
-#, fuzzy
 msgid "Focus Distance"
-msgstr "焦点距离"
+msgstr "焦距"
 
 #: scripts/startup/bl_ui/properties_data_camera.py:272
 msgctxt "Operator"
@@ -105811,9 +105762,8 @@ msgid "Face Marks:"
 msgstr "面标记:"
 
 #: scripts/startup/bl_ui/properties_freestyle.py:259
-#, fuzzy
 msgid "Collection:"
-msgstr "采集频率"
+msgstr "集合:"
 
 #: scripts/startup/bl_ui/properties_freestyle.py:741
 msgid "Base Color:"
@@ -105936,7 +105886,7 @@ msgstr "游标 -> 选中项"
 #: scripts/startup/bl_ui/space_view3d.py:4259
 msgctxt "Operator"
 msgid "Cursor to World Origin"
-msgstr "游标 --> 世界原点"
+msgstr "游标 -> 世界原点"
 
 #: scripts/startup/bl_ui/properties_grease_pencil_common.py:600
 #: scripts/startup/bl_ui/space_view3d.py:528
@@ -105965,7 +105915,7 @@ msgstr "启用编辑"
 #: scripts/startup/bl_ui/properties_grease_pencil_common.py:813
 #: scripts/startup/bl_ui/properties_grease_pencil_common.py:392
 msgid "Proportional Edit:"
-msgstr "衰减编辑"
+msgstr "衰减编辑:"
 
 #: scripts/startup/bl_ui/properties_grease_pencil_common.py:107
 #: scripts/startup/bl_ui/properties_grease_pencil_common.py:367
@@ -105975,11 +105925,11 @@ msgstr "多段线"
 
 #: scripts/startup/bl_ui/properties_grease_pencil_common.py:125
 msgid "Data Source:"
-msgstr "绘制源"
+msgstr "数据源:"
 
 #: scripts/startup/bl_ui/properties_grease_pencil_common.py:168
 msgid "Select:"
-msgstr "选择"
+msgstr "选择:"
 
 #: scripts/startup/bl_ui/properties_grease_pencil_common.py:186
 #: scripts/startup/bl_ui/space_view3d.py:4044
@@ -105996,10 +105946,9 @@ msgid "Toggle Caps..."
 msgstr "切换大小写"
 
 #: scripts/startup/bl_ui/properties_grease_pencil_common.py:223
-#, fuzzy
 msgctxt "Operator"
 msgid "& Copy"
-msgstr "复制"
+msgstr "& 复制"
 
 #: scripts/startup/bl_ui/properties_grease_pencil_common.py:231
 #: scripts/startup/bl_ui/space_view3d.py:4055
@@ -106102,7 +106051,7 @@ msgstr ""
 #: scripts/startup/bl_ui/properties_grease_pencil_common.py:377
 msgctxt "Operator"
 msgid "Settings..."
-msgstr "设置"
+msgstr "设置..."
 
 #: scripts/startup/bl_ui/properties_grease_pencil_common.py:383
 msgctxt "Operator"
@@ -106255,10 +106204,9 @@ msgstr "全部"
 #: scripts/startup/bl_ui/space_view3d.py:1327
 #: scripts/startup/bl_ui/space_view3d.py:1347
 #: scripts/startup/bl_ui/space_view3d.py:2545
-#, fuzzy
 msgctxt "Operator"
 msgid "None"
-msgstr "无"
+msgstr "全不"
 
 #: scripts/startup/bl_ui/properties_mask_common.py:342
 #: scripts/startup/bl_ui/space_dopesheet.py:373
@@ -106323,9 +106271,8 @@ msgid "Tracking Axis"
 msgstr "跟踪坐标轴:"
 
 #: scripts/startup/bl_ui/properties_object.py:243
-#, fuzzy
 msgid "All Edges"
-msgstr "绘制所有的边"
+msgstr "所有边缘"
 
 #: scripts/startup/bl_ui/properties_object.py:306
 msgid "Align to Vertex Normal"
@@ -106348,9 +106295,8 @@ msgid "Hostname"
 msgstr ""
 
 #: scripts/startup/bl_ui/properties_output.py:225
-#, fuzzy
 msgid "Strip Name"
-msgstr "无片段"
+msgstr "片段名称"
 
 #: scripts/startup/bl_ui/properties_output.py:275
 #, fuzzy
@@ -106399,7 +106345,7 @@ msgstr "遮罩值"
 #, fuzzy
 msgctxt "Operator"
 msgid "Copy Active to Selected Objects"
-msgstr "将约束复制到当前所选"
+msgstr "将约束复制到当前选中的"
 
 #: scripts/startup/bl_ui/properties_particle.py:85
 #, fuzzy
@@ -107066,7 +107012,7 @@ msgstr "解算类型"
 
 #: scripts/startup/bl_ui/properties_physics_softbody.py:318
 msgid "Dampening"
-msgstr "阻尼:"
+msgstr "阻尼"
 
 #: scripts/startup/bl_ui/properties_physics_softbody.py:338
 #, fuzzy
@@ -107078,8 +107024,9 @@ msgid "Auto-Step"
 msgstr "自动步长"
 
 #: scripts/startup/bl_ui/properties_render.py:286
+#, fuzzy
 msgid "Light Clamping"
-msgstr ""
+msgstr "光源投射"
 
 #: scripts/startup/bl_ui/properties_render.py:307
 msgid "Shadow Samples"
@@ -107158,7 +107105,7 @@ msgstr "采样率"
 
 #: scripts/startup/bl_ui/properties_scene.py:313
 msgid "Doppler Speed"
-msgstr ""
+msgstr "多普勒速度"
 
 #: scripts/startup/bl_ui/properties_scene.py:216
 msgid "Active Set Override"
@@ -107258,9 +107205,8 @@ msgid "Map"
 msgstr "贴图:"
 
 #: scripts/startup/bl_ui/properties_view_layer.py:52
-#, fuzzy
 msgid "Use for Rendering"
-msgstr "使用 CPU 进行渲染"
+msgstr "用于渲染"
 
 #: scripts/startup/bl_ui/properties_workspace.py:81
 #: scripts/startup/bl_ui/space_userpref.py:1769
@@ -107618,7 +107564,7 @@ msgstr "轴向框选"
 #: scripts/startup/bl_ui/space_graph.py:183
 msgctxt "Operator"
 msgid "Columns on Selected Keys"
-msgstr "所选关键帧所在列"
+msgstr "选中的关键帧所在列"
 
 #: scripts/startup/bl_ui/space_dopesheet.py:383
 #: scripts/startup/bl_ui/space_graph.py:184
@@ -107630,13 +107576,13 @@ msgstr "当前帧所在列"
 #: scripts/startup/bl_ui/space_graph.py:186
 msgctxt "Operator"
 msgid "Columns on Selected Markers"
-msgstr "所选标记所在列"
+msgstr "选中的标记所在列"
 
 #: scripts/startup/bl_ui/space_dopesheet.py:386
 #: scripts/startup/bl_ui/space_graph.py:187
 msgctxt "Operator"
 msgid "Between Selected Markers"
-msgstr "所选标记区间内"
+msgstr "选中的标记区间内"
 
 #: scripts/startup/bl_ui/space_dopesheet.py:484
 #: scripts/startup/bl_ui/space_dopesheet.py:585
@@ -108036,12 +107982,12 @@ msgstr "打包"
 #: scripts/startup/bl_ui/space_image.py:469
 msgctxt "Operator"
 msgid "Mirror X"
-msgstr "镜像X"
+msgstr "镜像 X"
 
 #: scripts/startup/bl_ui/space_image.py:470
 msgctxt "Operator"
 msgid "Mirror Y"
-msgstr "镜像Y"
+msgstr "镜像 Y"
 
 #: scripts/startup/bl_ui/space_image.py:133
 msgid "Zoom d:d"
@@ -108241,16 +108187,15 @@ msgstr "区分大小写查找"
 
 #: scripts/startup/bl_ui/space_outliner.py:334
 msgid "Empties"
-msgstr ""
+msgstr "空物体"
 
 #: scripts/startup/bl_ui/space_outliner.py:348
 msgid "Object Contents"
 msgstr "物体内容"
 
 #: scripts/startup/bl_ui/space_outliner.py:349
-#, fuzzy
 msgid "Object Children"
-msgstr "子物体:"
+msgstr "子物体"
 
 #: scripts/startup/bl_ui/space_outliner.py:125
 msgctxt "Operator"
@@ -108348,12 +108293,12 @@ msgstr "跳转到下一片段"
 #: scripts/startup/bl_ui/space_sequencer.py:330
 msgctxt "Operator"
 msgid "Jump to Previous Strip (Center)"
-msgstr "跳转到上一片段(中心)"
+msgstr "跳转到上一片段（中心）"
 
 #: scripts/startup/bl_ui/space_sequencer.py:333
 msgctxt "Operator"
 msgid "Jump to Next Strip (Center)"
-msgstr "跳转到下一片段(中心)"
+msgstr "跳转到下一片段（中心）"
 
 #: scripts/startup/bl_ui/space_sequencer.py:378
 msgctxt "Operator"
@@ -108426,12 +108371,12 @@ msgstr "图像裁切"
 #: scripts/startup/bl_ui/space_sequencer.py:941
 #: scripts/startup/bl_ui/space_sequencer.py:1011
 msgid "Trim Duration (soft):"
-msgstr "剪切范围(平滑):"
+msgstr "剪切范围（平滑）:"
 
 #: scripts/startup/bl_ui/space_sequencer.py:1005
 #: scripts/startup/bl_ui/space_sequencer.py:936
 msgid "Trim Duration (hard):"
-msgstr "剪切范围(硬性):"
+msgstr "剪切范围（硬性）:"
 
 #: scripts/startup/bl_ui/space_sequencer.py:1121
 msgid "Video:"
@@ -108439,11 +108384,11 @@ msgstr "视频:"
 
 #: scripts/startup/bl_ui/space_sequencer.py:1139
 msgid "X Flip"
-msgstr "X向翻转"
+msgstr "X 向翻转"
 
 #: scripts/startup/bl_ui/space_sequencer.py:1140
 msgid "Y Flip"
-msgstr "Y向翻转"
+msgstr "Y 向翻转"
 
 #: scripts/startup/bl_ui/space_sequencer.py:1146
 msgid "Convert to Float"
@@ -108889,8 +108834,8 @@ msgstr ""
 
 #. :src: scripts/startup/bl_ui/space_toolsystem_toolbar.py:126
 msgid ""
-"Measure distance and angles.\n"
-"• {} anywhere for new measurement.\n"
+"测量距离和角度。\n"
+"• {} 随时随地进行新的测量\n"
 "• Drag ruler segment to measure an angle.\n"
 "• {} to remove the active ruler.\n"
 "• Ctrl while dragging to snap.\n"
@@ -108967,7 +108912,7 @@ msgstr "操作搜索..."
 #. :src: scripts/startup/bl_ui/space_topbar.py:824
 msgctxt "Operator"
 msgid "Rename Active Item..."
-msgstr ""
+msgstr "重命名活动项..."
 
 #: scripts/startup/bl_ui/space_topbar.py:836
 #: scripts/startup/bl_ui/space_topbar.py:968
@@ -108978,24 +108923,24 @@ msgstr "设置..."
 #: scripts/startup/bl_ui/space_topbar.py:983
 msgctxt "Operator"
 msgid "Reorder to Front"
-msgstr ""
+msgstr "重新排序到前面"
 
 #: scripts/startup/bl_ui/space_topbar.py:984
 msgctxt "Operator"
 msgid "Reorder to Back"
-msgstr ""
+msgstr "重新排序到后面"
 
 #: scripts/startup/bl_ui/space_topbar.py:989
 #: scripts/startup/bl_ui/space_topbar.py:857
 msgctxt "Operator"
 msgid "Previous Workspace"
-msgstr "前一个工作空间"
+msgstr "前一个工作区"
 
 #: scripts/startup/bl_ui/space_topbar.py:991
 #: scripts/startup/bl_ui/space_topbar.py:856
 msgctxt "Operator"
 msgid "Next Workspace"
-msgstr "后一个工作空间"
+msgstr "后一个工作区"
 
 #: scripts/startup/bl_ui/space_topbar.py:57
 msgctxt "Operator"
@@ -109131,7 +109076,7 @@ msgstr "新建数据"
 
 #: scripts/startup/bl_ui/space_userpref.py:215
 msgid "Corner Splitting"
-msgstr ""
+msgstr "角落拆分"
 
 #: scripts/startup/bl_ui/space_userpref.py:254
 msgid "Top Level"
@@ -109170,9 +109115,8 @@ msgid "Simplify Stroke"
 msgstr "简化笔触"
 
 #: scripts/startup/bl_ui/space_userpref.py:401
-#, fuzzy
 msgid "Use Custom Colors"
-msgstr "自定义颜色"
+msgstr "使用自定义颜色"
 
 #: scripts/startup/bl_ui/space_userpref.py:423
 msgid "Sculpt Overlay Color"
@@ -109257,7 +109201,7 @@ msgstr "取消内存限额"
 
 #: scripts/startup/bl_ui/space_userpref.py:678
 msgid "Sequencer Cache Limit"
-msgstr ""
+msgstr "序列器缓存限制"
 
 #: scripts/startup/bl_ui/space_userpref.py:679
 msgid "Console Scrollback Lines"
@@ -109266,7 +109210,7 @@ msgstr "控制台回查行数"
 #: scripts/startup/bl_ui/space_userpref.py:686
 #, fuzzy
 msgid "Garbage Collection Rate"
-msgstr "采集频率"
+msgstr "垃圾回收率"
 
 #: scripts/startup/bl_ui/space_userpref.py:726
 #: scripts/startup/bl_ui/space_userpref.py:1680
@@ -109287,14 +109231,12 @@ msgid "Shadow Offset X"
 msgstr "阴影偏移:"
 
 #: scripts/startup/bl_ui/space_userpref.py:923
-#, fuzzy
 msgid "Panel Title"
-msgstr "面板标题:"
+msgstr "面板标题"
 
 #: scripts/startup/bl_ui/space_userpref.py:933
-#, fuzzy
 msgid "Widget Label"
-msgstr "窗体部件标签:"
+msgstr "部件标签"
 
 #: scripts/startup/bl_ui/space_userpref.py:1166
 msgid "Scripts"
@@ -109817,13 +109759,11 @@ msgid "Speaker"
 msgstr "扬声器"
 
 #: scripts/startup/bl_ui/space_view3d.py:1644
-#, fuzzy
 msgctxt "Operator"
 msgid "Reference"
 msgstr "参考"
 
 #: scripts/startup/bl_ui/space_view3d.py:1645
-#, fuzzy
 msgctxt "Operator"
 msgid "Background"
 msgstr "背景"
@@ -109893,7 +109833,7 @@ msgstr "原点"
 #. :src: scripts/startup/bl_ui/space_view3d.py:1985
 msgctxt "Operator"
 msgid "Rename Active Object..."
-msgstr ""
+msgstr "重命名活动对象..."
 
 #: scripts/startup/bl_ui/space_view3d.py:2018
 msgctxt "Operator"
@@ -110092,7 +110032,7 @@ msgstr "添加 (带目标)..."
 #. :src: scripts/startup/bl_ui/space_view3d.py:2791
 msgctxt "Operator"
 msgid "Rename Active Bone..."
-msgstr ""
+msgstr "重命名活动骨骼..."
 
 #: scripts/startup/bl_ui/space_view3d.py:2808
 #, fuzzy
@@ -110337,9 +110277,8 @@ msgid "PAINT_TEXTUREPAINT_VERTEXPAINT_WEIGHTTexture PaintVertex PaintWeight Pain
 msgstr ""
 
 #: scripts/startup/bl_ui/space_view3d.py:5340
-#, fuzzy
 msgid "Affect"
-msgstr "特效"
+msgstr "影响"
 
 #: scripts/startup/bl_ui/space_view3d.py:5442
 msgid "Reference Point"
@@ -110594,7 +110533,7 @@ msgstr "在选定的关键帧"
 #: scripts/startup/bl_ui/space_view3d.py:2683
 msgctxt "Operator"
 msgid "On Selected Markers"
-msgstr "在所选标记处"
+msgstr "在选中的标记处"
 
 #: scripts/startup/bl_ui/space_view3d.py:2787
 msgctxt "Operator"
@@ -110882,7 +110821,7 @@ msgstr ""
 
 #: scripts/startup/bl_ui/space_view3d.py:4348
 msgid "Lock to 3D Cursor"
-msgstr "锁定到3D游标"
+msgstr "锁定到 3D 游标"
 
 #: scripts/startup/bl_ui/space_view3d.py:4655
 #: scripts/startup/bl_ui/space_view3d.py:4660
@@ -111006,12 +110945,12 @@ msgstr "删除面"
 #: scripts/startup/bl_ui/space_view3d.py:3055
 msgctxt "Operator"
 msgid "Clear Freestyle Edge"
-msgstr "清除 Freestyle 边"
+msgstr "清除描边风格边"
 
 #: scripts/startup/bl_ui/space_view3d.py:3325
 msgctxt "Operator"
 msgid "Clear Freestyle Face"
-msgstr "清除 Freestyle 面"
+msgstr "清除描边风格面"
 
 #: scripts/startup/bl_ui/space_view3d.py:4017
 msgid "No destination object"
@@ -111392,7 +111331,7 @@ msgstr "配置 clmd->clothObject->looptri 时内存不足"
 #: source/blender/editors/space_outliner/outliner_tree.c:300
 #: source/blender/editors/space_outliner/outliner_tree.c:2167
 msgid "Scene Collection"
-msgstr ""
+msgstr "场景集合"
 
 #: source/blender/blenkernel/intern/constraint.c:115
 #: source/blender/blenkernel/intern/constraint.c:4840
@@ -111786,7 +111725,7 @@ msgstr "脚本无法兼容"
 
 #: source/blender/blenkernel/intern/sequencer.c:4821
 msgid "Strips must have the same number of inputs"
-msgstr "在两点之间所选中的顶点路径"
+msgstr "在两点之间选中的中的顶点路径"
 
 #: source/blender/blenkernel/intern/tracking.c:1428
 msgctxt "MovieClip"
@@ -111973,7 +111912,7 @@ msgstr "蜡笔调色板"
 
 #: source/blender/blenloader/intern/versioning_280.c:421
 msgid "Collection %d"
-msgstr ""
+msgstr "集合 %d"
 
 #: source/blender/blenloader/intern/versioning_280.c:601
 msgid "Hidden %d"
@@ -114304,7 +114243,7 @@ msgstr "路径选择功能需要先选中两个匹配元素"
 
 #: source/blender/editors/mesh/editmesh_rip.c:1089
 msgid "Cannot rip selected faces"
-msgstr "无法断离所选面"
+msgstr "无法断离选中的面"
 
 #: source/blender/editors/mesh/editmesh_rip.c:1093
 msgid "Cannot rip multiple disconnected vertices"
@@ -114461,11 +114400,11 @@ msgstr "语法错误位于 %s"
 
 #: source/blender/editors/mesh/mesh_data.c:1092
 msgid "Cannot add geometry in edit mode"
-msgstr "编辑模式下所选边线的计数"
+msgstr "编辑模式下选中的边线的计数"
 
 #: source/blender/editors/mesh/mesh_data.c:1108
 msgid "Cannot add tessfaces in edit mode"
-msgstr "编辑模式下所选面的计数值"
+msgstr "编辑模式下选中的面的计数值"
 
 #: source/blender/editors/mesh/mesh_data.c:1113
 msgid "Cannot add tessfaces to a mesh that already has polygons"
@@ -114473,11 +114412,11 @@ msgstr "无法向已包含多边形的网格中添加细分曲面"
 
 #: source/blender/editors/mesh/mesh_data.c:1123
 msgid "Cannot add edges in edit mode"
-msgstr "编辑模式下所选边线的计数"
+msgstr "编辑模式下选中的边线的计数"
 
 #: source/blender/editors/mesh/mesh_data.c:1133
 msgid "Cannot add vertices in edit mode"
-msgstr "编辑模式下所选顶点的计数值"
+msgstr "编辑模式下选中的顶点的计数值"
 
 #: source/blender/editors/mesh/mesh_data.c:1143
 msgid "Cannot remove faces in edit mode"
@@ -114537,7 +114476,7 @@ msgstr "没有可供接合的网格数据"
 
 #: source/blender/editors/mesh/meshtools.c:638
 msgid "Selected meshes must have equal numbers of vertices"
-msgstr "在两点之间所选中的顶点路径"
+msgstr "在两点之间选中的中的顶点路径"
 
 #: source/blender/editors/mesh/meshtools.c:640
 msgid "No additional selected meshes with equal vertex count to join"
@@ -115272,7 +115211,7 @@ msgstr "%d 顶点权重受限"
 
 #: source/blender/editors/object/object_vgroup.c:3409
 msgid "Copy vertex groups to selected: %d done, %d failed (object data must have matching indices)"
-msgstr "将顶点组复制到所选的警告, 完成 %d, 失败 %d (物体数据编号需匹配)"
+msgstr "将顶点组复制到选中的的警告, 完成 %d, 失败 %d (物体数据编号需匹配)"
 
 #: source/blender/editors/object/object_vgroup.c:2536
 msgid "Vertex select needs to be enabled in weight paint mode"
@@ -116317,7 +116256,7 @@ msgstr "无法写入图像 %s"
 
 #: source/blender/editors/space_graph/graph_buttons.c:126
 msgid "Cursor from Selection"
-msgstr "所选项的游标"
+msgstr "选中的项的游标"
 
 #: source/blender/editors/space_graph/graph_buttons.c:132
 #: source/blender/editors/space_graph/graph_buttons.c:134
@@ -116693,7 +116632,7 @@ msgstr "添加一个图像或一套图像序列到序列编辑器中"
 
 #: source/blender/editors/space_image/image_ops.c:3900
 msgid "Can not set border from a cropped render"
-msgstr ""
+msgstr "无法从裁剪的渲染设置边框"
 
 #: source/blender/editors/space_image/image_ops.c:1901
 #: source/blender/editors/space_image/image_ops.c:1910
@@ -116726,7 +116665,7 @@ msgstr "无法向图像路径中写入数据"
 
 #: source/blender/editors/space_image/image_ops.c:234
 msgid "image format is read-only"
-msgstr ""
+msgstr "图像格式是只读的"
 
 #: source/blender/editors/space_image/image_ops.c:2201
 msgid "can't save image while rendering"
@@ -116762,11 +116701,11 @@ msgstr "无法为尚未保存的 blend 文件设置绝对路径"
 
 #: source/blender/editors/space_info/info_stats.c:439
 msgid " | Mem: %s"
-msgstr ""
+msgstr " | 内存: %s"
 
 #: source/blender/editors/space_info/info_stats.c:452
 msgid " | Free GPU Mem: %s"
-msgstr ""
+msgstr " | 剩余 GPU 内存: %s"
 
 #: source/blender/editors/space_info/info_stats.c:473
 msgid "(Key) "
@@ -116790,7 +116729,7 @@ msgstr "骨骼:%s/%s %s%s"
 
 #: source/blender/editors/space_info/info_stats.c:500
 msgid "Layers:%s | Frames:%s | Strokes:%s | Points:%s | Objects:%s/%s"
-msgstr ""
+msgstr "图层:%s | Frames:%s | Strokes:%s | Points:%s | 物体:%s/%s"
 
 #: source/blender/editors/space_info/info_stats.c:508
 msgid "Verts:%s | Tris:%s%s"
@@ -116798,7 +116737,7 @@ msgstr "顶点:%s | 三角面:%s%s"
 
 #: source/blender/editors/space_info/info_stats.c:513
 msgid "Verts:%s | Faces:%s | Tris:%s | Objects:%s/%s%s%s"
-msgstr ""
+msgstr "点:%s | 面:%s | 三角:%s | 物体:%s/%s%s%s"
 
 #: source/blender/editors/space_nla/nla_buttons.c:342
 msgid "Strip Extents:"
@@ -117297,7 +117236,7 @@ msgstr ""
 #: source/blender/editors/space_outliner/outliner_tools.c:2010
 #: source/blender/editors/space_outliner/outliner_tools.c:2030
 msgid "Mixed selection"
-msgstr "混合所选项"
+msgstr "混合选中的项"
 
 #: source/blender/editors/space_outliner/outliner_tree.c:941
 msgid "Strip None"
@@ -118397,15 +118336,15 @@ msgstr "细分修改器使用前需要首先展开"
 
 #: source/blender/freestyle/intern/blender_interface/FRS_freestyle.cpp:286
 msgid "Freestyle: Mesh loading"
-msgstr ""
+msgstr "描边风格: 网格加载"
 
 #: source/blender/freestyle/intern/blender_interface/FRS_freestyle.cpp:467
 msgid "Freestyle: View map creation"
-msgstr ""
+msgstr "描边风格: 查看贴图创建"
 
 #: source/blender/freestyle/intern/blender_interface/FRS_freestyle.cpp:629
 msgid "Freestyle: Stroke rendering"
-msgstr ""
+msgstr "描边风格: 描边渲染"
 
 #: source/blender/freestyle/intern/system/PythonInterpreter.h:83
 msgid "Cannot open file: %s"
@@ -119094,7 +119033,7 @@ msgstr ""
 
 #: source/blender/makesrna/intern/rna_scene.c:1716
 msgid "Keying set could not be added"
-msgstr "插帧集选项中添加所选"
+msgstr "插帧集选项中添加选中的"
 
 #: source/blender/makesrna/intern/rna_scene.c:1920
 msgid "Style module could not be removed"
@@ -119518,9 +119457,8 @@ msgid "Convertor"
 msgstr "转换器"
 
 #: source/blender/nodes/composite/node_composite_tree.c:197
-#, fuzzy
 msgid "Compositor"
-msgstr "合成"
+msgstr "合成器节点"
 
 #: source/blender/nodes/composite/nodes/node_composite_alphaOver.c:27
 #: source/blender/nodes/composite/nodes/node_composite_colorSpill.c:28
@@ -119671,9 +119609,8 @@ msgid "Missing Data-Block"
 msgstr "缺失数据块"
 
 #: source/blender/nodes/shader/node_shader_tree.c:180
-#, fuzzy
 msgid "Shader Editor"
-msgstr "形变帧编辑器"
+msgstr "着色器编辑器"
 
 #: source/blender/nodes/shader/nodes/node_shader_blackbody.c:23
 #: source/blender/nodes/shader/nodes/node_shader_volume_principled.c:34
@@ -120026,9 +119963,8 @@ msgid "Patterns"
 msgstr "图案"
 
 #: source/blender/nodes/texture/node_texture_tree.c:158
-#, fuzzy
 msgid "Texture Node Editor"
-msgstr "节点编辑器主题"
+msgstr "纹理节点编辑器"
 
 #: source/blender/nodes/texture/nodes/node_texture_bricks.c:30
 msgid "Bricks 1"
