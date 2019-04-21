@@ -30187,9 +30187,8 @@ msgid "Shader Node Tree"
 msgstr "着色器节点树"
 
 #. :src: bpy.types.ShaderNodeTree
-#, fuzzy
 msgid "Node tree consisting of linked nodes used for materials (and other shading data-blocks)"
-msgstr "节点树, 包含用于材质 (及其他着色数据块) 的所链接节点"
+msgstr "节点树, 包含用于材质(及其他着色数据块)的相连节点"
 
 #. :src: bpy.types.TextureNodeTree
 msgid "Texture Node Tree"
@@ -30200,7 +30199,6 @@ msgid "Node tree consisting of linked nodes used for textures"
 msgstr "节点树, 包含用于纹理的所链接节点"
 
 #. :src: bpy.types.Object
-#, fuzzy
 msgid "Object data-block defining an object in a scene"
 msgstr "定义场景中物体的物体数据块"
 
@@ -32070,7 +32068,7 @@ msgstr "伪"
 #: source/blender/nodes/texture/nodes/node_texture_proc.c:36
 #: source/blender/nodes/texture/nodes/node_texture_valToNor.c:34
 msgid "Normal"
-msgstr "法线"
+msgstr "法线(正常)"
 
 #. :src: bpy.types.ParticleSettings.normal_factor
 #, fuzzy
@@ -32352,7 +32350,7 @@ msgstr "显示粒子大小"
 #. :src: bpy.types.Particle.alive_state:'UNBORN'
 #: scripts/startup/bl_ui/properties_particle.py:1286
 msgid "Unborn"
-msgstr "未出生"
+msgstr "未诞生"
 
 #. :src: bpy.types.ParticleSettings.show_unborn
 msgid "Show particles before they are emitted"
@@ -57267,77 +57265,65 @@ msgid "Add or remove a Cloth Preset"
 msgstr "新增或移除布料预设"
 
 #. :src: bpy.types.COLLECTION_OT_create
-#, fuzzy
 msgctxt "Operator"
 msgid "Create New Collection"
-msgstr "创建新的动作"
+msgstr "创建新集合"
 
 #. :src: bpy.types.COLLECTION_OT_create
-#, fuzzy
 msgid "Create an object collection from selected objects"
-msgstr "为选中的物体创建一个物体组"
+msgstr "为选中的物体创建一个物体集合"
 
 #. :src: bpy.types.COLLECTION_OT_create.name
-#, fuzzy
 msgid "Name of the new collection"
-msgstr "自定义变换坐标系的名称"
+msgstr "新集合名称"
 
 #. :src: bpy.types.COLLECTION_OT_objects_add_active
-#, fuzzy
 msgctxt "Operator"
 msgid "Add Selected To Active Collection"
-msgstr "将所选物体添加到激活组中"
+msgstr "将所选物体添加到活动集合中"
 
 #. :src: bpy.types.COLLECTION_OT_objects_add_active
-#, fuzzy
 msgid "Add the object to an object collection that contains the active object"
-msgstr "将物体添加到活动物体所在的组中"
+msgstr "将物体添加到活动物体所在的集合中"
 
 #. :src: bpy.types.COLLECTION_OT_objects_add_active.collection
-#, fuzzy
 msgid "The collection to add other selected objects to"
-msgstr "添加其他选中物体的组"
+msgstr "添加其他选中物体的集合"
 
 #. :src: bpy.types.COLLECTION_OT_objects_remove
-#, fuzzy
 msgctxt "Operator"
 msgid "Remove From Collection"
-msgstr "从选定中移除"
+msgstr "从集合中移除"
 
 #. :src: bpy.types.COLLECTION_OT_objects_remove
-#, fuzzy
 msgid "Remove selected objects from a collection"
-msgstr "从组中移除所选物体"
+msgstr "从集合中移除所选物体"
 
 #. :src: bpy.types.COLLECTION_OT_objects_remove.collection
-#, fuzzy
 msgid "The collection to remove this object from"
-msgstr "从当前物体上移除的组"
+msgstr "从当前物体上移除的集合"
 
 #. :src: bpy.types.COLLECTION_OT_objects_remove_active
-#, fuzzy
 msgctxt "Operator"
 msgid "Remove Selected From Active Collection"
-msgstr "从活动组中移除所选物体"
+msgstr "从活动集合中移除所选物体"
 
 #. :src: bpy.types.COLLECTION_OT_objects_remove_active
-#, fuzzy
 msgid "Remove the object from an object collection that contains the active object"
-msgstr "将该物体从活动物体所在的组中移除"
+msgstr "将该物体从活动物体所在的集合中移除"
 
 #. :src: bpy.types.COLLECTION_OT_objects_remove_active.collection
-#, fuzzy
 msgid "The collection to remove other selected objects from"
-msgstr "添加其他选中物体的组"
+msgstr "移除其他选中物体的集合"
 
 #. :src: bpy.types.COLLECTION_OT_objects_remove_all
 msgctxt "Operator"
 msgid "Remove From All Unlinked Collections"
-msgstr ""
+msgstr "从所有关联集合中移除"
 
 #. :src: bpy.types.COLLECTION_OT_objects_remove_all
 msgid "Remove selected objects from all collections not used in a scene"
-msgstr ""
+msgstr "将选中物体从所有场景中未使用的集合中移除"
 
 #. :src: bpy.types.CONSOLE_OT_autocomplete
 msgctxt "Operator"
@@ -69333,44 +69319,38 @@ msgstr "要添加的集合名称"
 #. :src: bpy.types.OBJECT_OT_link_to_collection
 msgctxt "Operator"
 msgid "Link to Collection"
-msgstr ""
+msgstr "关联至集合"
 
 #. :src: bpy.types.OBJECT_OT_collection_link
-#, fuzzy
 msgid "Add an object to an existing collection"
-msgstr "将物体添加到已有组中"
+msgstr "将物体添加到已有集合中"
 
 #. :src: bpy.types.OBJECT_OT_collection_objects_select
 msgctxt "Operator"
 msgid "Select Objects in Collection"
-msgstr ""
+msgstr "选择集合中的物体"
 
 #. :src: bpy.types.OBJECT_OT_collection_objects_select
-#, fuzzy
 msgid "Select all objects in collection"
-msgstr "选择相同组中的所有物体"
+msgstr "选择相同集合中的所有物体"
 
 #. :src: bpy.types.OBJECT_OT_collection_remove
-#, fuzzy
 msgctxt "Operator"
 msgid "Remove Collection"
-msgstr "从选定中移除"
+msgstr "从集合中移除"
 
 #. :src: bpy.types.OBJECT_OT_collection_remove
-#, fuzzy
 msgid "Remove the active object from this collection"
-msgstr "从该组中移除所选物体"
+msgstr "从该集合中移除所选物体"
 
 #. :src: bpy.types.OBJECT_OT_collection_unlink
-#, fuzzy
 msgctxt "Operator"
 msgid "Unlink Collection"
-msgstr "断开动作关联"
+msgstr "断开集合关联"
 
 #. :src: bpy.types.OBJECT_OT_collection_unlink
-#, fuzzy
 msgid "Unlink the collection from all objects"
-msgstr "为所有的物体解散该组"
+msgstr "为所有的物体解散该集合"
 
 #. :src: bpy.types.OBJECT_OT_constraint_add
 #. :src: bpy.types.POSE_OT_constraint_add
@@ -70467,10 +70447,9 @@ msgstr "从活动物体上移除修改器"
 
 #. :src: bpy.types.OBJECT_OT_move_to_collection
 #. :src: bpy.types.OUTLINER_OT_collection_drop
-#, fuzzy
 msgctxt "Operator"
 msgid "Move to Collection"
-msgstr "修改为活动颜色"
+msgstr "移动到集合"
 
 #. :src: bpy.types.OBJECT_OT_move_to_collection
 msgid "Move objects to a scene collection"
@@ -102749,10 +102728,9 @@ msgid "Clip:"
 msgstr "可视范围:"
 
 #. :src: Generated operator category
-#, fuzzy
 msgctxt "Operator"
 msgid "Cloth:"
-msgstr "布料"
+msgstr "布料:"
 
 #. :src: Generated operator category
 msgctxt "Operator"
@@ -105811,9 +105789,8 @@ msgid "Face Marks:"
 msgstr "面标记:"
 
 #: scripts/startup/bl_ui/properties_freestyle.py:259
-#, fuzzy
 msgid "Collection:"
-msgstr "采集频率"
+msgstr "集合"
 
 #: scripts/startup/bl_ui/properties_freestyle.py:741
 msgid "Base Color:"
@@ -119518,9 +119495,8 @@ msgid "Convertor"
 msgstr "转换器"
 
 #: source/blender/nodes/composite/node_composite_tree.c:197
-#, fuzzy
 msgid "Compositor"
-msgstr "合成"
+msgstr "合成器"
 
 #: source/blender/nodes/composite/nodes/node_composite_alphaOver.c:27
 #: source/blender/nodes/composite/nodes/node_composite_colorSpill.c:28
@@ -119671,9 +119647,8 @@ msgid "Missing Data-Block"
 msgstr "缺失数据块"
 
 #: source/blender/nodes/shader/node_shader_tree.c:180
-#, fuzzy
 msgid "Shader Editor"
-msgstr "形变帧编辑器"
+msgstr "着色器编辑器"
 
 #: source/blender/nodes/shader/nodes/node_shader_blackbody.c:23
 #: source/blender/nodes/shader/nodes/node_shader_volume_principled.c:34
@@ -120026,9 +120001,8 @@ msgid "Patterns"
 msgstr "图案"
 
 #: source/blender/nodes/texture/node_texture_tree.c:158
-#, fuzzy
 msgid "Texture Node Editor"
-msgstr "节点编辑器主题"
+msgstr "纹理节点编辑器"
 
 #: source/blender/nodes/texture/nodes/node_texture_bricks.c:30
 msgid "Bricks 1"
