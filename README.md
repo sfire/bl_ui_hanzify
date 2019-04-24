@@ -27,7 +27,12 @@ Blender 的UI是通过安装目录下的 `\datafiles\locale\zh_CN\LC_MESSAGES` �
 
    ![注释](./poedit_comments.png)
 
-3. 提交修改前，建议同时提报issue。
+3. 统一用词问题
+   为确保界面词汇一致性，请新用户参考[对照表](./dict.md)统一用词。
+
+   如对用词有争议，或新的见解，可开issue单独讨论。
+   
+4. 提交修改前，建议同时提报issue。
 
 ## 关于issue的提报
 
