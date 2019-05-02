@@ -24486,7 +24486,7 @@ msgstr "绘画时添加 Alpha"
 
 #. :src: bpy.types.Brush.blur_kernel_radius
 msgid "Kernel Radius"
-msgstr "核心范围"
+msgstr "核心半径"
 
 #. :src: bpy.types.Brush.blur_kernel_radius
 msgid "Radius of kernel used for soften and sharpen in pixels"
@@ -24652,7 +24652,7 @@ msgstr ""
 
 #. :src: bpy.types.Brush.gradient_fill_mode
 msgid "Gradient Fill Mode"
-msgstr ""
+msgstr "渐变填充模式"
 
 #. :src: bpy.types.Brush.gradient_stroke_mode
 msgid "Gradient Stroke Mode"
@@ -28350,13 +28350,11 @@ msgstr "该.blend文件保存于对应版本的Blender"
 #: source/blender/blenkernel/intern/object.c:770
 #: source/blender/editors/interface/interface_templates.c:2318
 #: source/blender/editors/object/object_add.c:1109
-#, fuzzy
 msgctxt "Light"
 msgid "Light"
 msgstr "灯光"
 
 #. :src: bpy.types.Light
-#, fuzzy
 msgid "Light data-block for lighting a scene"
 msgstr "用于场景照明的灯光数据块"
 
@@ -28374,21 +28372,18 @@ msgid "Distance at which the light influence will be set to 0"
 msgstr ""
 
 #. :src: bpy.types.Light.cycles
-#, fuzzy
 msgid "Cycles Light Settings"
-msgstr "Cycles 设定"
+msgstr "Cycles 灯光设定"
 
 #. :src: bpy.types.Light.cycles
-#, fuzzy
 msgid "Cycles light settings"
-msgstr "Cycles 毛发设定"
+msgstr "Cycles 灯光设定"
 
 #. :src: bpy.types.Light.distance
 msgid "Falloff distance - the light is at half the original intensity at this point"
 msgstr "衰减距离 - 此点的光线强度较初始值减半"
 
 #. :src: bpy.types.Light.node_tree
-#, fuzzy
 msgid "Node tree for node based lights"
 msgstr "基于节点灯光的节点树"
 
@@ -28402,20 +28397,17 @@ msgstr ""
 
 #. :src: bpy.types.Light.type
 #. :src: bpy.types.OBJECT_OT_light_add.type
-#, fuzzy
 msgctxt "Light"
 msgid "Type"
 msgstr "类型"
 
 #. :src: bpy.types.Light.type
-#, fuzzy
 msgid "Type of Light"
-msgstr "修正类型"
+msgstr "灯光类型"
 
 #. :src: bpy.types.Light.type:'POINT'
 #. :src: bpy.types.OBJECT_OT_light_add.type:'POINT'
 #: source/blender/editors/object/object_add.c:1104
-#, fuzzy
 msgctxt "Light"
 msgid "Point"
 msgstr "点光"
@@ -28428,7 +28420,6 @@ msgstr "全向点光源 (泛光灯)"
 #. :src: bpy.types.Light.type:'SUN'
 #. :src: bpy.types.OBJECT_OT_light_add.type:'SUN'
 #: source/blender/editors/object/object_add.c:1105
-#, fuzzy
 msgctxt "Light"
 msgid "Sun"
 msgstr "日光"
@@ -28441,7 +28432,6 @@ msgstr "定向平行光源"
 #. :src: bpy.types.Light.type:'SPOT'
 #. :src: bpy.types.OBJECT_OT_light_add.type:'SPOT'
 #: source/blender/editors/object/object_add.c:1106
-#, fuzzy
 msgctxt "Light"
 msgid "Spot"
 msgstr "聚光"
@@ -28454,10 +28444,9 @@ msgstr "定向锥形光源"
 #. :src: bpy.types.Light.type:'AREA'
 #. :src: bpy.types.OBJECT_OT_light_add.type:'AREA'
 #: source/blender/editors/object/object_add.c:1107
-#, fuzzy
 msgctxt "Light"
 msgid "Area"
-msgstr "区域"
+msgstr "面光"
 
 #. :src: bpy.types.Light.type:'AREA'
 #. :src: bpy.types.OBJECT_OT_light_add.type:'AREA'
@@ -28465,26 +28454,22 @@ msgid "Directional area light source"
 msgstr "定向面光源"
 
 #. :src: bpy.types.Light.use_custom_distance
-#, fuzzy
 msgid "Custom Attenuation"
-msgstr "衰减量"
+msgstr "自定义衰减量"
 
 #. :src: bpy.types.Light.use_custom_distance
 msgid "Use custom attenuation distance instead of global light threshold"
 msgstr ""
 
 #. :src: bpy.types.Light.use_nodes
-#, fuzzy
 msgid "Use shader nodes to render the light"
 msgstr "使用着色器节点渲染灯光"
 
 #. :src: bpy.types.AreaLight
-#, fuzzy
 msgid "Area Light"
-msgstr "区域权重"
+msgstr "面光"
 
 #. :src: bpy.types.AreaLight
-#, fuzzy
 msgid "Directional area Light"
 msgstr "定向面光源"
 
@@ -43033,7 +43018,7 @@ msgstr "设置"
 
 #. :src: bpy.types.CorrectiveSmoothModifier
 msgid "Corrective Smooth Modifier"
-msgstr "校正平滑修改器"
+msgstr "矫正平滑修改器"
 
 #. :src: bpy.types.CorrectiveSmoothModifier
 msgid "Correct distortion caused by deformation"
@@ -44265,7 +44250,7 @@ msgstr "定义锚点的顶点组名称"
 
 #. :src: bpy.types.LaplacianSmoothModifier
 msgid "Laplacian Smooth Modifier"
-msgstr "拉普拉斯光滑修改器"
+msgstr "拉普拉斯平滑修改器"
 
 #. :src: bpy.types.LaplacianSmoothModifier
 #. :src: bpy.types.SmoothModifier
@@ -67909,14 +67894,13 @@ msgid "Smooth along the Z axis"
 msgstr "沿 Z 轴平滑物体"
 
 #. :src: bpy.types.MESH_OT_vertices_smooth_laplacian
-#, fuzzy
 msgctxt "Operator"
 msgid "Laplacian Smooth Vertices"
-msgstr "拉普拉斯光滑顶点"
+msgstr "拉普拉斯平滑顶点"
 
 #. :src: bpy.types.MESH_OT_vertices_smooth_laplacian
 msgid "Laplacian smooth of selected vertices"
-msgstr "所选顶点的拉普拉斯光滑"
+msgstr "所选顶点的拉普拉斯平滑"
 
 #. :src: bpy.types.MESH_OT_vertices_smooth_laplacian.lambda_factor
 msgid "Lambda factor"
@@ -80442,16 +80426,15 @@ msgstr ""
 #. :src: bpy.types.RenderSettings.sequencer_gl_preview:'MATERIAL'
 #. :src: bpy.types.View3DShading.type:'MATERIAL'
 msgid "LookDev"
-msgstr ""
+msgstr "视觉预览"
 
 #. :src: bpy.types.VIEW3D_OT_toggle_shading.type:'MATERIAL'
 msgid "Toggle lookdev shading"
-msgstr ""
+msgstr "切换视觉预览着色"
 
 #. :src: bpy.types.VIEW3D_OT_toggle_shading.type:'RENDERED'
-#, fuzzy
 msgid "Toggle rendered shading"
-msgstr "切换可渲染性"
+msgstr "切换渲染着色"
 
 #. :src: bpy.types.VIEW3D_OT_toggle_xray
 msgctxt "Operator"
@@ -80473,7 +80456,6 @@ msgid "View selected for all regions"
 msgstr "在所有区域中查看选中的对象"
 
 #. :src: bpy.types.VIEW3D_OT_view_axis
-#, fuzzy
 msgctxt "Operator"
 msgid "View Axis"
 msgstr "查看轴向"
@@ -84654,7 +84636,7 @@ msgstr "快照材质"
 
 #. :src: bpy.types.USERPREF_PT_studiolight_world
 msgid "LookDev HDRIs"
-msgstr ""
+msgstr "视觉预览HDRI"
 
 #. :src: bpy.types.USERPREF_PT_system_cycles_devices
 msgid "Cycles Render Devices"
@@ -91173,7 +91155,7 @@ msgstr ""
 #. :src: bpy.types.RenderSettings.sequencer_gl_preview:'MATERIAL'
 #. :src: bpy.types.View3DShading.type:'MATERIAL'
 msgid "Display in LookDev mode"
-msgstr ""
+msgstr "在视觉预览模式下显示"
 
 #. :src: bpy.types.RenderSettings.sequencer_gl_preview:'RENDERED'
 #. :src: bpy.types.View3DShading.type:'RENDERED'
