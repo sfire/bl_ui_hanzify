@@ -9129,7 +9129,7 @@ msgstr "饱和度"
 #: source/blender/nodes/texture/nodes/node_texture_math.c:29
 #: source/blender/nodes/texture/nodes/node_texture_math.c:34
 msgid "Value"
-msgstr "值"
+msgstr "值(明度)"
 
 #. :src: bpy.types.ColorMapping.brightness
 #. :src: bpy.types.Texture.intensity
@@ -25087,7 +25087,7 @@ msgstr "蛇形钩"
 #. :src: bpy.types.Brush.sculpt_tool:'THUMB'
 #. :src: bpy.types.PAINT_OT_brush_select.sculpt_tool:'THUMB'
 msgid "Thumb"
-msgstr "显示缩略图"
+msgstr "拇指"
 
 #. :src: bpy.types.Brush.sculpt_tool:'NUDGE'
 #. :src: bpy.types.PAINT_OT_brush_select.sculpt_tool:'NUDGE'
@@ -25514,7 +25514,7 @@ msgstr "间隔压感"
 
 #. :src: bpy.types.Brush.use_pressure_spacing
 msgid "Enable tablet pressure sensitivity for spacing"
-msgstr "为间距启用数位板压感"
+msgstr "���间距启用数位板压感"
 
 #. :src: bpy.types.Brush.use_primary_overlay
 #. :src: bpy.types.Brush.use_secondary_overlay
@@ -27474,7 +27474,7 @@ msgstr "使用最短平面长度"
 
 #. :src: bpy.types.FreestyleLineStyle.use_length_min
 msgid "Enable the selection of chains by a minimum 2D length"
-msgstr "启用按某个最小平面长度值执行链形选择"
+msgstr "启用按某个最小平面长度��执行链形选择"
 
 #. :src: bpy.types.FreestyleLineStyle.use_nodes
 #. :src: bpy.types.Light.use_nodes
@@ -42440,7 +42440,7 @@ msgstr "球"
 #. :src: bpy.types.MetaElement.type:'ELLIPSOID'
 #. :src: bpy.types.OBJECT_OT_metaball_add.type:'ELLIPSOID'
 msgid "Ellipsoid"
-msgstr "椭圆体"
+msgstr "椭球体"
 
 #. :src: bpy.types.MetaElement.use_negative
 #. :src: bpy.types.ShrinkwrapModifier.use_negative_direction
@@ -43015,9 +43015,8 @@ msgstr "标记锐边"
 
 #. :src: bpy.types.BevelModifier.mark_sharp
 #. :src: bpy.types.MESH_OT_bevel.mark_sharp
-#, fuzzy
 msgid "Mark beveled edges as sharp"
-msgstr "以边界线为锐边"
+msgstr "标记倒角边为锐边"
 
 #. :src: bpy.types.BevelModifier.material
 msgid "Material index of generated faces, -1 for automatic"
@@ -47136,7 +47135,6 @@ msgid "Draw preview using full resolution or different proxy resolutions"
 msgstr "使用完整分辨率或不同的代理分辨率显示预览"
 
 #. :src: bpy.types.MovieClipUser.proxy_render_size:'FULL'
-#, fuzzy
 msgid "None, full render"
 msgstr "无代理, 完全渲染"
 
@@ -57513,7 +57511,7 @@ msgstr "移除稳像轨"
 #. :src: bpy.types.CLIP_OT_stabilize_2d_rotation_remove
 #, fuzzy
 msgid "Remove selected track from rotation stabilization"
-msgstr "从稳像轨中移除选中轨"
+msgstr "从稳像轨中���除选中轨"
 
 #. :src: bpy.types.CLIP_OT_stabilize_2d_rotation_select
 msgctxt "Operator"
@@ -73876,11 +73874,11 @@ msgstr "将色调范围角限定在 90 度以下"
 
 #. :src: bpy.types.PAINT_OT_vertex_color_dirt.dirt_angle
 msgid "Dirt Angle"
-msgstr "点角度"
+msgstr "脏旧角度"
 
 #. :src: bpy.types.PAINT_OT_vertex_color_dirt.dirt_only
 msgid "Dirt Only"
-msgstr "仅生成点"
+msgstr "仅脏旧"
 
 #. :src: bpy.types.PAINT_OT_vertex_color_dirt.dirt_only
 msgid "Don't calculate cleans for convex areas"
@@ -73984,7 +73982,7 @@ msgstr "使用顶点与骨骼间的间距对各组的权重进行设定, 以匹�
 # rblc
 #. :src: bpy.types.PAINT_OT_weight_from_bones.type
 msgid "Method to use for assigning weights"
-msgstr "用于指定权重值的方法"
+msgstr "用于���定权重值的方法"
 
 #. :src: bpy.types.PAINT_OT_weight_from_bones.type:'AUTOMATIC'
 msgid "Automatic weights from bones"
@@ -78851,7 +78849,7 @@ msgstr "在变换时校正 UV 坐标"
 #. :src: bpy.types.TRANSFORM_OT_edge_slide.flipped
 #. :src: bpy.types.TRANSFORM_OT_vert_slide.flipped
 msgid "When Even mode is active, flips between the two adjacent edge loops"
-msgstr ""
+msgstr "当启用均匀时，翻转至匹配另一侧循环边"
 
 #. :src: bpy.types.TRANSFORM_OT_edge_slide.single_side
 msgid "Single Side"
@@ -78860,17 +78858,16 @@ msgstr ""
 #. :src: bpy.types.TRANSFORM_OT_edge_slide.use_clamp
 #. :src: bpy.types.TRANSFORM_OT_vert_slide.use_clamp
 msgid "Clamp within the edge extents"
-msgstr ""
+msgstr "钳制环切边于两循环边之间"
 
 #. :src: bpy.types.TRANSFORM_OT_edge_slide.use_even
 #. :src: bpy.types.TRANSFORM_OT_vert_slide.use_even
 msgid "Make the edge loop match the shape of the adjacent edge loop"
-msgstr ""
+msgstr "使环切边形状匹配相邻循环边"
 
 #. :src: bpy.types.TRANSFORM_OT_mirror
-#, fuzzy
 msgid "Mirror selected items around one or more axes"
-msgstr "根据一个或多个坐标轴镜像选择顶点"
+msgstr "沿一个或多个坐标轴镜像选中元素"
 
 #. :src: bpy.types.TRANSFORM_OT_mirror.constraint_axis
 #. :src: bpy.types.TRANSFORM_OT_resize.constraint_axis
@@ -83801,7 +83798,7 @@ msgstr "动态拓扑模式下，如何添加或移除网格细节"
 
 #. :src: bpy.types.Sculpt.detail_refine_method:'SUBDIVIDE'
 msgid "Subdivide Edges"
-msgstr "细分边"
+msgstr "细分边线"
 
 #. :src: bpy.types.Sculpt.detail_refine_method:'SUBDIVIDE'
 msgid "Subdivide long edges to add mesh detail where needed"
@@ -85928,7 +85925,7 @@ msgstr "黏条"
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'SCULPT', 'builtin_brush.Layer'
 msgctxt "Operator"
 msgid "Layer"
-msgstr "层"
+msgstr "层次"
 
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'SCULPT', 'builtin_brush.Inflate'
 msgctxt "Operator"
@@ -85963,7 +85960,7 @@ msgstr "蛇形钩"
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'SCULPT', 'builtin_brush.Thumb'
 msgctxt "Operator"
 msgid "Thumb"
-msgstr "显示缩略图"
+msgstr "拇指"
 
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'SCULPT', 'builtin_brush.Nudge'
 msgctxt "Operator"
@@ -88642,7 +88639,7 @@ msgstr "设置音频采样率为每秒 192000"
 
 #. :src: bpy.types.PreferencesSystem.gl_clip_alpha
 msgid "Clip Alpha"
-msgstr "限制 Alpha"
+msgstr "���制 Alpha"
 
 #. :src: bpy.types.PreferencesSystem.gl_clip_alpha
 msgid "Clip alpha below this threshold in the 3D textured view"
@@ -107256,7 +107253,6 @@ msgstr "全部"
 #: scripts/startup/bl_ui/space_view3d.py:1707
 #: scripts/startup/bl_ui/space_view3d.py:1727
 #: scripts/startup/bl_ui/space_view3d.py:2916
-#, fuzzy
 msgctxt "Operator"
 msgid "None"
 msgstr "无"
@@ -111820,19 +111816,16 @@ msgid "Rotate Edge CCW"
 msgstr "逆时针旋转边"
 
 #: scripts/startup/bl_ui/space_view3d.py:3795
-#, fuzzy
 msgctxt "Operator"
 msgid "Custom Normal"
 msgstr "自定义法向"
 
 #: scripts/startup/bl_ui/space_view3d.py:3796
-#, fuzzy
 msgctxt "Operator"
 msgid "Face Area"
 msgstr "面的面积"
 
 #: scripts/startup/bl_ui/space_view3d.py:3797
-#, fuzzy
 msgctxt "Operator"
 msgid "Corner Angle"
 msgstr "拐角角度"
@@ -111848,28 +111841,24 @@ msgid "Recalculate Inside"
 msgstr "向内重算法线方向"
 
 #: scripts/startup/bl_ui/space_view3d.py:3820
-#, fuzzy
 msgctxt "Operator"
 msgid "Copy Vectors"
-msgstr "复制物体"
+msgstr "复制矢量"
 
 #: scripts/startup/bl_ui/space_view3d.py:3821
-#, fuzzy
 msgctxt "Operator"
 msgid "Paste Vectors"
-msgstr "粘贴物体"
+msgstr "粘贴矢量"
 
 #: scripts/startup/bl_ui/space_view3d.py:3822
-#, fuzzy
 msgctxt "Operator"
 msgid "Add Vectors"
-msgstr "添加效果器"
+msgstr "添加矢量"
 
 #: scripts/startup/bl_ui/space_view3d.py:3823
-#, fuzzy
 msgctxt "Operator"
 msgid "Multiply Vectors"
-msgstr "叠加颜色"
+msgstr ""
 
 #: scripts/startup/bl_ui/space_view3d.py:3826
 msgctxt "Operator"
@@ -111877,25 +111866,21 @@ msgid "Reset Vectors"
 msgstr ""
 
 #: scripts/startup/bl_ui/space_view3d.py:3845
-#, fuzzy
 msgctxt "Operator"
 msgid "Smooth Edges"
-msgstr "绘制平滑边线"
+msgstr "平滑边线"
 
 #: scripts/startup/bl_ui/space_view3d.py:3854
-#, fuzzy
 msgctxt "Operator"
 msgid "Sharp Vertices"
-msgstr "父级顶点"
+msgstr "锐化顶点"
 
 #: scripts/startup/bl_ui/space_view3d.py:4092
-#, fuzzy
 msgctxt "Operator"
 msgid "Delete Segment"
 msgstr "删除片段"
 
 #: scripts/startup/bl_ui/space_view3d.py:4093
-#, fuzzy
 msgctxt "Operator"
 msgid "Delete Point"
 msgstr "删除点"
@@ -117818,7 +117803,7 @@ msgstr ""
 
 #: source/blender/editors/space_image/image_buttons.c:1222
 msgid "%d float channel(s)"
-msgstr "%d 浮动型通道"
+msgstr "%d 浮动型��道"
 
 #: source/blender/editors/space_image/image_buttons.c:1225
 msgid " RGBA float"
