@@ -83806,7 +83806,7 @@ msgstr "必要时细分长边以增加网格细节"
 
 #. :src: bpy.types.Sculpt.detail_refine_method:'COLLAPSE'
 msgid "Collapse Edges"
-msgstr "塌陷边"
+msgstr "塌陷边线"
 
 #. :src: bpy.types.Sculpt.detail_refine_method:'COLLAPSE'
 msgid "Collapse short edges to remove mesh detail where possible"
