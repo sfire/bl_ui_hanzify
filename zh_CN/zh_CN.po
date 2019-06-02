@@ -1815,7 +1815,7 @@ msgstr "操作日志，警告和错误信息"
 #. :src: bpy.types.Theme.topbar
 #. :src: bpy.types.WorkSpaceTool.space_type:'TOPBAR'
 msgid "Top Bar"
-msgstr "顶部菜单"
+msgstr "顶栏"
 
 #. :src: bpy.types.Area.type:'TOPBAR'
 #. :src: bpy.types.GizmoGroup.bl_space_type:'TOPBAR'
@@ -3761,11 +3761,11 @@ msgstr "窗口管理器数据块"
 #. :src: bpy.types.BlendData.workspaces
 #. :src: bpy.types.FileSelectParams.filter_id:'WORK_SPACE'
 msgid "Workspaces"
-msgstr "工作空间"
+msgstr "工作区"
 
 #. :src: bpy.types.BlendData.workspaces
 msgid "Workspace data-blocks"
-msgstr "工作空间数据块"
+msgstr "工作区数据块"
 
 #. :src: bpy.types.BlendData.worlds
 #. :src: bpy.types.FileSelectParams.filter_id:'WORLD'
@@ -4037,11 +4037,11 @@ msgstr "窗口管理器集合"
 
 #. :src: bpy.types.BlendDataWorkSpaces
 msgid "Main Workspaces"
-msgstr "主工作空间"
+msgstr "主工作区"
 
 #. :src: bpy.types.BlendDataWorkSpaces
 msgid "Collection of workspaces"
-msgstr "工作空间集合"
+msgstr "工作区集合"
 
 #. :src: bpy.types.BlendDataWorlds
 msgid "Main Worlds"
@@ -14350,7 +14350,7 @@ msgstr "世界环境"
 #. :src: bpy.types.SpaceOutliner.filter_id_type:'WORKSPACE'
 msgctxt "ID"
 msgid "Workspace"
-msgstr ""
+msgstr "工作区"
 
 #. :src: bpy.types.DriverTarget.transform_space
 #. :src: bpy.types.DriverTarget.transform_space:'TRANSFORM_SPACE'
@@ -18246,7 +18246,7 @@ msgstr "显示/隐藏世界环境数据块"
 
 #. :src: bpy.types.FileSelectParams.filter_id:'WORK_SPACE'
 msgid "Show/hide workspace data-blocks"
-msgstr "显示/隐藏工作空间数据块"
+msgstr "显示/隐藏工作区数据块"
 
 #. :src: bpy.types.FileSelectParams.filter_id_category
 msgid "Filter ID categories"
@@ -35222,7 +35222,7 @@ msgstr "打开窗口"
 #. :src: bpy.types.TOPBAR_MT_workspace_menu
 #. :src: bpy.types.WORKSPACE_PT_main
 msgid "Workspace"
-msgstr ""
+msgstr "工作区"
 
 #. :src: bpy.types.WorkSpace
 msgid "Workspace data-block, defining the working environment for the user"
@@ -35233,28 +35233,24 @@ msgid "Switch to this object mode when activating the workspace"
 msgstr ""
 
 #. :src: bpy.types.WorkSpace.object_mode:'EDIT_GPENCIL'
-#, fuzzy
 msgid "Grease Pencil Edit Mode"
-msgstr "蜡笔笔画雕刻模式"
+msgstr "蜡笔编辑模式"
 
 #. :src: bpy.types.WorkSpace.object_mode:'SCULPT_GPENCIL'
-#, fuzzy
 msgid "Grease Pencil Sculpt Mode"
-msgstr "蜡笔散布"
+msgstr "蜡笔雕刻模式"
 
 #. :src: bpy.types.WorkSpace.object_mode:'PAINT_GPENCIL'
-#, fuzzy
 msgid "Grease Pencil Draw"
 msgstr "蜡笔绘制"
 
 #. :src: bpy.types.WorkSpace.object_mode:'WEIGHT_GPENCIL'
-#, fuzzy
 msgid "Grease Pencil Weight Paint"
-msgstr "蜡笔的笔触控制点"
+msgstr "蜡笔权重绘制"
 
 #. :src: bpy.types.WorkSpace.owner_ids
 msgid "UI Tags"
-msgstr ""
+msgstr "UI 标记"
 
 #. :src: bpy.types.WorkSpace.screens
 msgid "Screen layouts of a workspace"
@@ -35262,7 +35258,7 @@ msgstr ""
 
 #. :src: bpy.types.WorkSpace.use_filter_by_owner
 msgid "Use UI Tags"
-msgstr ""
+msgstr "使用UI 标记"
 
 #. :src: bpy.types.WorkSpace.use_filter_by_owner
 msgid "Filter the UI by tags"
@@ -35275,7 +35271,7 @@ msgstr "描述场景的环境信息以及环境光照的世界数据块"
 
 #. :src: bpy.types.World.color
 msgid "Color of the background"
-msgstr ""
+msgstr "背景颜色"
 
 #. :src: bpy.types.World.cycles
 msgid "Cycles World Settings"
@@ -60229,7 +60225,7 @@ msgstr ""
 
 #. :src: bpy.types.EXPORT_SCENE_OT_fbx.batch_mode:'SCENE_COLLECTION'
 msgid "Scene Collections"
-msgstr ""
+msgstr "场景集合"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_fbx.batch_mode:'SCENE_COLLECTION'
 msgid "Each collection (including master, non-data-block ones) of each scene as a file, including content from children collections"
@@ -60237,7 +60233,7 @@ msgstr ""
 
 #. :src: bpy.types.EXPORT_SCENE_OT_fbx.batch_mode:'ACTIVE_SCENE_COLLECTION'
 msgid "Active Scene Collections"
-msgstr ""
+msgstr "活动场景集合"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_fbx.batch_mode:'ACTIVE_SCENE_COLLECTION'
 msgid "Each collection (including master, non-data-block one) of the active scene as a file, including content from children collections"
@@ -83424,16 +83420,16 @@ msgstr "新建主窗口"
 
 #. :src: bpy.types.WM_OT_window_new_main
 msgid "Create a new main window with its own workspace and scene selection"
-msgstr "创建一个包含自身工作空间与场景选择的新主窗口"
+msgstr "创建一个包含自身工作区与场景选择的新主窗口"
 
 #. :src: bpy.types.WORKSPACE_OT_add
 msgctxt "Operator"
 msgid "Add Workspace"
-msgstr "添加工作空间"
+msgstr "添加工作区"
 
 #. :src: bpy.types.WORKSPACE_OT_add
 msgid "Add a new workspace by duplicating the current one or appending one from the user configuration"
-msgstr "通过复制当前场景或者从用户预设添加新的工作空间"
+msgstr "通过复制当前场景或者从用户预设添加新的工作区"
 
 #. :src: bpy.types.WORKSPACE_OT_append_activate
 msgctxt "Operator"
@@ -83456,20 +83452,20 @@ msgstr ""
 #. :src: bpy.types.WORKSPACE_OT_delete
 msgctxt "Operator"
 msgid "Delete Workspace"
-msgstr ""
+msgstr "删除工作区"
 
 #. :src: bpy.types.WORKSPACE_OT_delete
 msgid "Delete the active workspace"
-msgstr ""
+msgstr "删除活动工作区"
 
 #. :src: bpy.types.WORKSPACE_OT_duplicate
 msgctxt "Operator"
 msgid "New Workspace"
-msgstr ""
+msgstr "新建工作区"
 
 #. :src: bpy.types.WORKSPACE_OT_duplicate
 msgid "Add a new workspace"
-msgstr ""
+msgstr "添加一个新的工作区"
 
 #. :src: bpy.types.WORKSPACE_OT_reorder_to_back
 msgctxt "Operator"
@@ -84509,7 +84505,7 @@ msgstr "流体预设"
 #. :src: bpy.types.VIEW3D_PT_active_tool
 #. :src: bpy.types.VIEW3D_PT_active_tool_duplicate
 msgid "Active Tool"
-msgstr ""
+msgstr "活动工具"
 
 #. :src: bpy.types.IMAGE_PT_paint_clone
 msgid "Clone from Image/UV Map"
@@ -97175,7 +97171,7 @@ msgstr "显示标注"
 #. :src: bpy.types.SpaceSequenceEditor.show_annotation
 #. :src: bpy.types.View3DOverlay.show_annotation
 msgid "Show annotations for this view"
-msgstr ""
+msgstr "在该视图下显示标注"
 
 #. :src: bpy.types.SpaceClipEditor.show_blue_channel
 msgid "Show Blue Channel"
@@ -97305,16 +97301,15 @@ msgstr "显示帧的红色通道"
 #. :src: bpy.types.SpaceClipEditor.show_region_hud
 #. :src: bpy.types.SpaceImageEditor.show_region_hud
 #. :src: bpy.types.SpaceView3D.show_region_hud
-#, fuzzy
 msgid "Adjust Last Operation"
-msgstr "调整上一步操作..."
+msgstr "调整上一步操作"
 
 #. :src: bpy.types.SpaceClipEditor.show_region_toolbar
 #. :src: bpy.types.SpaceImageEditor.show_region_toolbar
 #. :src: bpy.types.SpaceNodeEditor.show_region_toolbar
 #. :src: bpy.types.SpaceView3D.show_region_toolbar
 msgid "Toolbar"
-msgstr ""
+msgstr "工具栏"
 
 #. :src: bpy.types.SpaceClipEditor.show_region_ui
 #. :src: bpy.types.SpaceDopeSheetEditor.show_region_ui
@@ -97325,9 +97320,8 @@ msgstr ""
 #. :src: bpy.types.SpaceSequenceEditor.show_region_ui
 #. :src: bpy.types.SpaceTextEditor.show_region_ui
 #. :src: bpy.types.SpaceView3D.show_region_ui
-#, fuzzy
 msgid "Sidebar"
-msgstr "滑块"
+msgstr "侧栏"
 
 #. :src: bpy.types.SpaceClipEditor.show_seconds
 #. :src: bpy.types.SpaceDopeSheetEditor.show_seconds
@@ -104118,7 +104112,7 @@ msgstr ""
 #. :src: Generated operator category
 msgctxt "Operator"
 msgid "Workspace:"
-msgstr "工作空间:"
+msgstr "工作区:"
 
 #. :src: Generated operator category
 msgctxt "Operator"
@@ -110027,13 +110021,13 @@ msgstr ""
 #: scripts/startup/bl_ui/space_topbar.py:542
 msgctxt "Operator"
 msgid "Previous Workspace"
-msgstr "前一个工作空间"
+msgstr "前一个工作区"
 
 #: scripts/startup/bl_ui/space_topbar.py:661
 #: scripts/startup/bl_ui/space_topbar.py:541
 msgctxt "Operator"
 msgid "Next Workspace"
-msgstr "后一个工作空间"
+msgstr "后一个工作区"
 
 #: scripts/startup/bl_ui/space_topbar.py:55
 msgctxt "Operator"
@@ -112531,7 +112525,7 @@ msgstr "配置 clmd->clothObject->looptri 时内存不足"
 #: source/blender/editors/space_outliner/outliner_tree.c:309
 #: source/blender/editors/space_outliner/outliner_tree.c:2359
 msgid "Scene Collection"
-msgstr ""
+msgstr "场景集合"
 
 #: source/blender/blenkernel/intern/constraint.c:116
 #: source/blender/blenkernel/intern/constraint.c:5121
@@ -115301,13 +115295,11 @@ msgid "New"
 msgstr "新建"
 
 #: source/blender/editors/interface/interface_templates.c:691
-#, fuzzy
 msgctxt "WorkSpace"
 msgid "New"
 msgstr "新建"
 
 #: source/blender/editors/interface/interface_templates.c:691
-#, fuzzy
 msgctxt "LightProbe"
 msgid "New"
 msgstr "新建"
