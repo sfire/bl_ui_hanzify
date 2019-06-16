@@ -22161,23 +22161,23 @@ msgstr "基础矩阵"
 
 #. :src: bpy.types.Gizmo.matrix_offset
 msgid "Offset Matrix"
-msgstr "矩阵"
+msgstr "偏移矩阵"
 
 #. :src: bpy.types.Gizmo.matrix_space
 msgid "Space Matrix"
-msgstr "矩阵"
+msgstr ""
 
 #. :src: bpy.types.Gizmo.matrix_world
 msgid "Final World Matrix"
-msgstr "矩阵世界"
+msgstr ""
 
 #. :src: bpy.types.Gizmo.scale_basis
 msgid "Scale Basis"
-msgstr "基型"
+msgstr ""
 
 #. :src: bpy.types.Gizmo.select_bias
 msgid "Select Bias"
-msgstr "偏移"
+msgstr ""
 
 #. :src: bpy.types.Gizmo.select_bias
 msgid "Depth bias used for selection"
@@ -22185,19 +22185,19 @@ msgstr ""
 
 #. :src: bpy.types.Gizmo.use_draw_hover
 msgid "Draw Hover"
-msgstr "视图显示"
+msgstr ""
 
 #. :src: bpy.types.Gizmo.use_draw_modal
 msgid "Draw Active"
-msgstr "视图显示"
+msgstr ""
 
 #. :src: bpy.types.Gizmo.use_draw_modal
 msgid "Draw while dragging"
-msgstr "视图显示"
+msgstr ""
 
 #. :src: bpy.types.Gizmo.use_draw_offset_scale
 msgid "Scale Offset"
-msgstr "缩放偏移量, 以获得更均匀的厚度"
+msgstr ""
 
 #. :src: bpy.types.Gizmo.use_draw_offset_scale
 msgid "Scale the offset matrix (use to apply screen-space offset)"
@@ -22205,11 +22205,11 @@ msgstr ""
 
 #. :src: bpy.types.Gizmo.use_draw_scale
 msgid "Use scale when calculating the matrix"
-msgstr "当计算骨骼路径时, 使用头或尾"
+msgstr ""
 
 #. :src: bpy.types.Gizmo.use_draw_value
 msgid "Draw Value"
-msgstr "视图显示"
+msgstr ""
 
 #. :src: bpy.types.Gizmo.use_draw_value
 msgid "Show an indicator for the current value while dragging"
@@ -22217,7 +22217,7 @@ msgstr ""
 
 #. :src: bpy.types.Gizmo.use_event_handle_all
 msgid "Handle All Events"
-msgstr "体积散射事件的最大值"
+msgstr ""
 
 #. :src: bpy.types.Gizmo.use_event_handle_all
 msgid ""
@@ -22231,7 +22231,7 @@ msgstr "拖拽光标"
 
 #. :src: bpy.types.Gizmo.use_operator_tool_properties
 msgid "Tool Property Init"
-msgstr "工具"
+msgstr ""
 
 #. :src: bpy.types.Gizmo.use_operator_tool_properties
 msgid ""
@@ -22240,7 +22240,7 @@ msgstr ""
 
 #. :src: bpy.types.Gizmo.use_select_background
 msgid "Select Background"
-msgstr "背景"
+msgstr "选择背景"
 
 #. :src: bpy.types.Gizmo.use_select_background
 msgid "Don't write into the depth buffer"
@@ -22290,11 +22290,11 @@ msgstr "选项"
 
 #. :src: bpy.types.GizmoGroup.bl_options
 msgid "Options for this operator type"
-msgstr "操作项选项"
+msgstr "操作类型选项"
 
 #. :src: bpy.types.GizmoGroup.bl_options:'3D'
 msgid "Use in 3D viewport"
-msgstr "使用3D视图"
+msgstr "在3D视图中使用"
 
 #. :src: bpy.types.GizmoGroup.bl_options:'SCALE'
 msgid "Scale to respect zoom (otherwise zoom independent draw size)"
@@ -22302,7 +22302,7 @@ msgstr ""
 
 #. :src: bpy.types.GizmoGroup.bl_options:'DEPTH_3D'
 msgid "Depth 3D"
-msgstr "深度"
+msgstr ""
 
 #. :src: bpy.types.GizmoGroup.bl_options:'DEPTH_3D'
 msgid "Supports culled depth by other objects in the view"
@@ -22310,7 +22310,7 @@ msgstr ""
 
 #. :src: bpy.types.GizmoGroup.bl_options:'SELECT'
 msgid "Supports selection"
-msgstr "按照名称筛选，支持通配符'*'"
+msgstr ""
 
 #. :src: bpy.types.GizmoGroup.bl_options:'PERSISTENT'
 #. :src: bpy.types.Brush.use_persistent
@@ -22319,15 +22319,15 @@ msgstr "持续"
 
 #. :src: bpy.types.GizmoGroup.bl_options:'SHOW_MODAL_ALL'
 msgid "Show Modal All"
-msgstr "隐藏或显示全部顶点"
+msgstr ""
 
 #. :src: bpy.types.GizmoGroup.bl_options:'SHOW_MODAL_ALL'
 msgid "Show all while interacting"
-msgstr "隐藏或显示全部顶点"
+msgstr ""
 
 #. :src: bpy.types.GizmoGroup.bl_options:'TOOL_INIT'
 msgid "Tool Init"
-msgstr "整数"
+msgstr ""
 
 #. :src: bpy.types.GizmoGroup.bl_options:'TOOL_INIT'
 msgid "Postpone running until tool operator run (when used with a tool)"
@@ -22403,7 +22403,7 @@ msgstr "工具属性"
 #. :src: bpy.types.Panel.bl_region_type:'HUD'
 #. :src: bpy.types.Region.type:'HUD'
 msgid "Floating Region"
-msgstr "32 位浮点数"
+msgstr ""
 
 #. :src: bpy.types.GizmoGroup.bl_region_type:'NAVIGATION_BAR'
 #. :src: bpy.types.KeyMap.region_type:'NAVIGATION_BAR'
@@ -22413,14 +22413,14 @@ msgstr "32 位浮点数"
 #: source/blender/editors/interface/interface_context_menu.c:1157
 #: source/blender/editors/screen/screen_ops.c:4054
 msgid "Navigation Bar"
-msgstr "视图切换"
+msgstr ""
 
 #. :src: bpy.types.GizmoGroup.bl_region_type:'EXECUTE'
 #. :src: bpy.types.KeyMap.region_type:'EXECUTE'
 #. :src: bpy.types.Panel.bl_region_type:'EXECUTE'
 #. :src: bpy.types.Region.type:'EXECUTE'
 msgid "Execute Buttons"
-msgstr "单选按钮"
+msgstr "执行按钮"
 
 #. :src: bpy.types.GizmoGroup.bl_region_type:'FOOTER'
 #. :src: bpy.types.KeyMap.region_type:'FOOTER'
@@ -22437,7 +22437,7 @@ msgstr "页脚"
 #. :src: bpy.types.Panel.bl_region_type:'TOOL_HEADER'
 #. :src: bpy.types.Region.type:'TOOL_HEADER'
 msgid "Tool Header"
-msgstr "标题栏"
+msgstr "工具标题栏"
 
 #. :src: bpy.types.GizmoGroup.bl_space_type
 #. :src: bpy.types.Panel.bl_space_type
@@ -22460,7 +22460,7 @@ msgstr ""
 
 #. :src: bpy.types.GizmoGroup.has_reports
 msgid "Has Reports"
-msgstr "删除报告"
+msgstr ""
 
 #. :src: bpy.types.GizmoGroup.has_reports
 msgid ""
@@ -22469,7 +22469,7 @@ msgstr ""
 
 #. :src: bpy.types.GizmoGroupProperties
 msgid "Gizmo Group Properties"
-msgstr "Gizmo组的属性"
+msgstr "Gizmo组属性"
 
 #. :src: bpy.types.GizmoGroupProperties
 msgid "Input properties of a Gizmo Group"
@@ -22485,7 +22485,7 @@ msgstr "Gizmo输入属性"
 
 #. :src: bpy.types.GpencilModifier
 msgid "Modifier affecting the grease pencil object"
-msgstr "修改器影响物体的几何体网格数据"
+msgstr "修改器影响蜡笔物体"
 
 #. :src: bpy.types.GpencilModifier.name
 #. :src: bpy.types.Modifier.name
@@ -22514,7 +22514,7 @@ msgstr "编辑模式"
 #. :src: bpy.types.GpencilModifier.show_in_editmode
 #. :src: bpy.types.Modifier.show_in_editmode
 msgid "Display modifier in Edit mode"
-msgstr "显示模式"
+msgstr "在编辑模式显示修改器结果"
 
 #. :src: bpy.types.GpencilModifier.show_render
 #. :src: bpy.types.Modifier.show_render
@@ -22535,7 +22535,7 @@ msgstr "阵列"
 
 #. :src: bpy.types.GpencilModifier.type:'GP_ARRAY'
 msgid "Create array of duplicate instances"
-msgstr "从子粒子创建实例项"
+msgstr ""
 
 #. :src: bpy.types.GpencilModifier.type:'GP_BUILD'
 #. :src: bpy.types.Modifier.type:'BUILD'
@@ -22546,7 +22546,7 @@ msgstr "建形"
 
 #. :src: bpy.types.GpencilModifier.type:'GP_BUILD'
 msgid "Create duplication of strokes"
-msgstr "将物体的缩放用于副本"
+msgstr "创建笔画副本"
 
 #. :src: bpy.types.GpencilModifier.type:'GP_MIRROR'
 #. :src: bpy.types.IMAGE_MT_uvs_mirror
@@ -22568,7 +22568,7 @@ msgstr "镜像"
 
 #. :src: bpy.types.GpencilModifier.type:'GP_MIRROR'
 msgid "Duplicate strokes like a mirror"
-msgstr "复制笔触"
+msgstr ""
 
 #. :src: bpy.types.GpencilModifier.type:'GP_SIMPLIFY'
 msgid "Simplify stroke reducing number of points"
@@ -22613,7 +22613,7 @@ msgstr "晶格"
 
 #. :src: bpy.types.GpencilModifier.type:'GP_LATTICE'
 msgid "Deform strokes using lattice"
-msgstr "用以形变的晶格物体"
+msgstr ""
 
 #. :src: bpy.types.GpencilModifier.type:'GP_NOISE'
 msgid "Add noise to strokes"
@@ -22621,7 +22621,7 @@ msgstr "为环纹添加噪波"
 
 #. :src: bpy.types.GpencilModifier.type:'GP_OFFSET'
 msgid "Change stroke location, rotation or scale"
-msgstr "在各个位置, 旋转及缩放通道上插入关键帧"
+msgstr ""
 
 #. :src: bpy.types.GpencilModifier.type:'GP_SMOOTH'
 msgid "Smooth stroke"
@@ -22629,7 +22629,7 @@ msgstr "平滑笔画"
 
 #. :src: bpy.types.GpencilModifier.type:'GP_THICK'
 msgid "Change stroke thickness"
-msgstr "线条粗细沿笔触变化"
+msgstr "改变线条宽度"
 
 #. :src: bpy.types.GpencilModifier.type:'GP_TIME'
 #. :src: bpy.types.WaveModifier.time_offset
@@ -22638,7 +22638,7 @@ msgstr "时间偏移"
 
 #. :src: bpy.types.GpencilModifier.type:'GP_TIME'
 msgid "Offset keyframes"
-msgstr "关键帧"
+msgstr "偏移关键帧"
 
 #. :src: bpy.types.GpencilModifier.type:'GP_COLOR'
 #. :src: bpy.types.ShaderNodeHueSaturation
@@ -22648,11 +22648,11 @@ msgstr "色相 / 饱和度"
 
 #. :src: bpy.types.GpencilModifier.type:'GP_COLOR'
 msgid "Apply changes to stroke colors"
-msgstr "将更改应用于画笔颜色"
+msgstr "对画笔颜色应用修改"
 
 #. :src: bpy.types.GpencilModifier.type:'GP_OPACITY'
 msgid "Opacity of the strokes"
-msgstr "笔触"
+msgstr "笔画不透明度"
 
 #. :src: bpy.types.GpencilModifier.type:'GP_TINT'
 #: source/blender/nodes/shader/nodes/node_shader_bsdf_hair_principled.c:28
@@ -22661,7 +22661,7 @@ msgstr "染色"
 
 #. :src: bpy.types.GpencilModifier.type:'GP_TINT'
 msgid "Tint strokes with new color"
-msgstr "新建标注图层的颜色"
+msgstr "使用新颜色对笔画染色"
 
 #. :src: bpy.types.ArmatureGpencilModifier
 #. :src: bpy.types.ArmatureModifier
@@ -22865,11 +22865,11 @@ msgstr "顶点组的名称, 用于确定各点的修改器影响量"
 
 #. :src: bpy.types.ArrayGpencilModifier
 msgid "Instance Modifier"
-msgstr "是否实例"
+msgstr "实例修改器"
 
 #. :src: bpy.types.ArrayGpencilModifier
 msgid "Create grid of duplicate instances"
-msgstr "从子粒子创建实例项"
+msgstr ""
 
 #. :src: bpy.types.ArrayGpencilModifier.count
 #. :src: bpy.types.ArrayModifier.count
@@ -22881,7 +22881,7 @@ msgstr "数量"
 
 #. :src: bpy.types.ArrayGpencilModifier.count
 msgid "Number of items"
-msgstr "对象"
+msgstr "条目数量"
 
 #. :src: bpy.types.ArrayGpencilModifier.invert_layer_pass
 #. :src: bpy.types.ArrayGpencilModifier.invert_material_pass
@@ -22912,7 +22912,7 @@ msgstr "对象"
 #. :src: bpy.types.TintGpencilModifier.invert_layer_pass
 #. :src: bpy.types.TintGpencilModifier.invert_material_pass
 msgid "Inverse Pass"
-msgstr "通递层"
+msgstr ""
 
 #. :src: bpy.types.ArrayGpencilModifier.invert_layer_pass
 #. :src: bpy.types.ArrayGpencilModifier.invert_layers
@@ -22965,7 +22965,7 @@ msgstr "通递层"
 #. :src: bpy.types.TintGpencilModifier.invert_layers
 #. :src: bpy.types.TintGpencilModifier.invert_material_pass
 msgid "Inverse filter"
-msgstr "反选"
+msgstr "反向过滤"
 
 #. :src: bpy.types.ArrayGpencilModifier.invert_layers
 #. :src: bpy.types.BuildGpencilModifier.invert_layers
@@ -22983,7 +22983,7 @@ msgstr "反选"
 #. :src: bpy.types.TimeGpencilModifier.invert_layers
 #. :src: bpy.types.TintGpencilModifier.invert_layers
 msgid "Inverse Layers"
-msgstr "层"
+msgstr ""
 
 #. :src: bpy.types.ArrayGpencilModifier.keep_on_top
 msgid "Keep On Top"
@@ -23104,7 +23104,7 @@ msgstr "通递层"
 #. :src: bpy.types.TimeGpencilModifier.layer_pass
 #. :src: bpy.types.TintGpencilModifier.layer_pass
 msgid "Layer pass index"
-msgstr "渲染通道编号"
+msgstr "层通道编号"
 
 #. :src: bpy.types.ArrayGpencilModifier.offset
 msgid "Value for the distance between items"
@@ -23137,7 +23137,7 @@ msgstr "使用另一物体的位置及旋转信息, 确定阵列项之间的距�
 #. :src: bpy.types.ThickGpencilModifier.pass_index
 #. :src: bpy.types.TintGpencilModifier.pass_index
 msgid "Pass index"
-msgstr "通过索引"
+msgstr "通道索引"
 
 #. :src: bpy.types.ArrayGpencilModifier.random_rot
 #. :src: bpy.types.ParticleInstanceModifier.random_rotation
@@ -23146,15 +23146,15 @@ msgstr "随机旋转"
 
 #. :src: bpy.types.ArrayGpencilModifier.random_rot
 msgid "Use random factors for rotation"
-msgstr "使用随机因素进行旋转"
+msgstr "对旋转使用随机系数"
 
 #. :src: bpy.types.ArrayGpencilModifier.random_scale
 msgid "Random Scale"
-msgstr "随机比例"
+msgstr "随机缩放"
 
 #. :src: bpy.types.ArrayGpencilModifier.random_scale
 msgid "Use random factors for scale"
-msgstr "使用缩放值"
+msgstr "对缩放使用随机系数"
 
 #. :src: bpy.types.ArrayGpencilModifier.replace_material
 msgid ""
@@ -23163,37 +23163,37 @@ msgstr ""
 
 #. :src: bpy.types.ArrayGpencilModifier.rot_factor
 msgid "Rotation Factor"
-msgstr "旋转"
+msgstr "旋转系数"
 
 #. :src: bpy.types.ArrayGpencilModifier.rot_factor
 msgid "Random factor for rotation"
-msgstr "系数"
+msgstr "对旋转使用的随机系数"
 
 #. :src: bpy.types.ArrayGpencilModifier.rotation
 msgid "Value for changes in rotation"
-msgstr "值"
+msgstr "旋转的变化量"
 
 #. :src: bpy.types.ArrayGpencilModifier.scale
 msgid "Value for changes in scale"
-msgstr "缩放正文的整型值"
+msgstr "缩放的变化量"
 
 #. :src: bpy.types.ArrayGpencilModifier.scale_factor
 msgid "Scale Factor"
-msgstr "决定函数'速率'的缩放系数"
+msgstr "缩放系数"
 
 #. :src: bpy.types.ArrayGpencilModifier.scale_factor
 msgid "Random factor for scale"
-msgstr "关键帧缩放系数"
+msgstr "对缩放使用的随机系数"
 
 #. :src: bpy.types.ArrayGpencilModifier.shift
 #. :src: bpy.types.MaterialGPencilStyle.pattern_shift
 #. :src: bpy.types.GPENCIL_OT_interpolate.shift
 msgid "Shift"
-msgstr "Shift"
+msgstr ""
 
 #. :src: bpy.types.ArrayGpencilModifier.shift
 msgid "Shiftiness value"
-msgstr "值"
+msgstr ""
 
 #. :src: bpy.types.BuildGpencilModifier
 #. :src: bpy.types.BuildModifier
@@ -23206,7 +23206,7 @@ msgstr ""
 
 #. :src: bpy.types.BuildGpencilModifier.concurrent_time_alignment
 msgid "Time Alignment"
-msgstr "对齐"
+msgstr "时间对齐"
 
 #. :src: bpy.types.BuildGpencilModifier.concurrent_time_alignment
 msgid "When should strokes start to appear/disappear"
@@ -23214,7 +23214,7 @@ msgstr ""
 
 #. :src: bpy.types.BuildGpencilModifier.concurrent_time_alignment:'START'
 msgid "Align Start"
-msgstr "起始"
+msgstr "对齐起点"
 
 #. :src: bpy.types.BuildGpencilModifier.concurrent_time_alignment:'START'
 msgid "All strokes start at same time (i.e. short strokes finish earlier)"
@@ -23222,7 +23222,7 @@ msgstr ""
 
 #. :src: bpy.types.BuildGpencilModifier.concurrent_time_alignment:'END'
 msgid "Align End"
-msgstr "对齐到"
+msgstr "对齐终点"
 
 #. :src: bpy.types.BuildGpencilModifier.concurrent_time_alignment:'END'
 msgid "All strokes end at same time (i.e. short strokes start later)"
@@ -23282,7 +23282,7 @@ msgstr ""
 
 #. :src: bpy.types.BuildGpencilModifier.mode:'CONCURRENT'
 msgid "Concurrent"
-msgstr "当前"
+msgstr "同时"
 
 #. :src: bpy.types.BuildGpencilModifier.mode:'CONCURRENT'
 msgid "Multiple strokes appear/disappear at once"
@@ -23290,7 +23290,7 @@ msgstr ""
 
 #. :src: bpy.types.BuildGpencilModifier.start_delay
 msgid "Start Delay"
-msgstr "延迟"
+msgstr "起点延迟"
 
 #. :src: bpy.types.BuildGpencilModifier.start_delay
 msgid ""
@@ -23345,17 +23345,17 @@ msgstr ""
 
 #. :src: bpy.types.ColorGpencilModifier
 msgid "Hue/Saturation Modifier"
-msgstr "色相/饱和度/明度"
+msgstr "色相/饱和度修改器"
 
 #. :src: bpy.types.ColorGpencilModifier
 msgid "Change Hue/Saturation modifier"
-msgstr "色相/饱和度/明度"
+msgstr "改变色相/饱和度修改器"
 
 #. :src: bpy.types.ColorGpencilModifier.create_materials
 #. :src: bpy.types.OpacityGpencilModifier.create_materials
 #. :src: bpy.types.TintGpencilModifier.create_materials
 msgid "Create Materials"
-msgstr "材质"
+msgstr "创建材质"
 
 #. :src: bpy.types.ColorGpencilModifier.create_materials
 #. :src: bpy.types.OpacityGpencilModifier.create_materials
@@ -23377,27 +23377,27 @@ msgstr ""
 #. :src: bpy.types.OpacityGpencilModifier.modify_color:'BOTH'
 #. :src: bpy.types.TintGpencilModifier.modify_color:'BOTH'
 msgid "Modify fill and stroke colors"
-msgstr "蜡笔的笔触绘制(填充)"
+msgstr "修改填充及笔画颜色"
 
 #. :src: bpy.types.ColorGpencilModifier.modify_color:'STROKE'
 #. :src: bpy.types.OpacityGpencilModifier.modify_color:'STROKE'
 #. :src: bpy.types.TintGpencilModifier.modify_color:'STROKE'
 msgid "Modify stroke color only"
-msgstr "仅雕刻选中的笔画端点"
+msgstr "仅修改笔画颜色"
 
 #. :src: bpy.types.ColorGpencilModifier.modify_color:'FILL'
 #. :src: bpy.types.OpacityGpencilModifier.modify_color:'FILL'
 #. :src: bpy.types.TintGpencilModifier.modify_color:'FILL'
 msgid "Modify fill color only"
-msgstr "默认填充色彩"
+msgstr "仅修改填充颜色"
 
 #. :src: bpy.types.ColorGpencilModifier.saturation
 msgid "Color Saturation"
-msgstr "颜色饱和度容差值"
+msgstr "颜色饱和度"
 
 #. :src: bpy.types.ColorGpencilModifier.value
 msgid "Color Value"
-msgstr "使用灰值的阴影颜色"
+msgstr ""
 
 #. :src: bpy.types.HookGpencilModifier
 #. :src: bpy.types.HookModifier
@@ -23425,7 +23425,7 @@ msgstr "衰减曲线"
 
 #. :src: bpy.types.HookGpencilModifier.falloff_curve
 msgid "Custom Light Falloff Curve"
-msgstr "衰减曲线"
+msgstr "自定义灯光衰减曲线"
 
 #. :src: bpy.types.HookGpencilModifier.falloff_radius
 #. :src: bpy.types.HookModifier.falloff_radius
@@ -23692,7 +23692,7 @@ msgstr "常值"
 #. :src: bpy.types.SmoothGpencilModifier.invert_vertex
 #. :src: bpy.types.ThickGpencilModifier.invert_vertex
 msgid "Inverse VertexGroup"
-msgstr "反选"
+msgstr "反向顶点组"
 
 #. :src: bpy.types.HookGpencilModifier.matrix_inverse
 #. :src: bpy.types.Object.matrix_parent_inverse
@@ -23738,7 +23738,7 @@ msgstr "用于钩挂的父级骨骼名称 (如果可用), 同时重算并清除�
 #. :src: bpy.types.HookGpencilModifier.use_falloff_uniform
 #. :src: bpy.types.HookModifier.use_falloff_uniform
 msgid "Uniform Falloff"
-msgstr "均衡"
+msgstr "均匀衰减"
 
 #. :src: bpy.types.HookGpencilModifier.use_falloff_uniform
 #. :src: bpy.types.HookModifier.use_falloff_uniform
@@ -23784,33 +23784,33 @@ msgstr "镜像修改器"
 
 #. :src: bpy.types.MirrorGpencilModifier.object
 msgid "Object used as center"
-msgstr "物体中心"
+msgstr "物体作为中心"
 
 #. :src: bpy.types.MirrorGpencilModifier.use_clip
 msgid "Clip points"
-msgstr "剪辑点"
+msgstr ""
 
 #. :src: bpy.types.MirrorGpencilModifier.x_axis
 #. :src: bpy.types.MirrorGpencilModifier.y_axis
 #. :src: bpy.types.MirrorGpencilModifier.z_axis
 msgid "Mirror this axis"
-msgstr "选择一个镜像轴 (X, Y, Z)"
+msgstr ""
 
 #. :src: bpy.types.NoiseGpencilModifier
 msgid "Noise Modifier"
-msgstr "噪音函数修改器"
+msgstr "噪波修改器"
 
 #. :src: bpy.types.NoiseGpencilModifier
 msgid "Noise effect modifier"
-msgstr "噪音函数修改器"
+msgstr "噪波效果修改器"
 
 #. :src: bpy.types.NoiseGpencilModifier.factor
 msgid "Amount of noise to apply"
-msgstr "外力的噪量数量"
+msgstr "应用的噪波量"
 
 #. :src: bpy.types.NoiseGpencilModifier.full_stroke
 msgid "Full Stroke"
-msgstr "全部"
+msgstr ""
 
 #. :src: bpy.types.NoiseGpencilModifier.full_stroke
 msgid "The noise moves the stroke as a whole, not point by point"
@@ -23818,7 +23818,7 @@ msgstr ""
 
 #. :src: bpy.types.NoiseGpencilModifier.move_extreme
 msgid "Move Extremes"
-msgstr "移动极端"
+msgstr ""
 
 #. :src: bpy.types.NoiseGpencilModifier.move_extreme
 msgid "The noise moves the stroke extreme points"
@@ -23826,7 +23826,7 @@ msgstr ""
 
 #. :src: bpy.types.NoiseGpencilModifier.random
 msgid "Use random values"
-msgstr "使用重复映射值"
+msgstr "使用随机值"
 
 #. :src: bpy.types.NoiseGpencilModifier.step
 #. :src: bpy.types.SmoothGpencilModifier.step
@@ -23845,7 +23845,7 @@ msgstr ""
 #. :src: bpy.types.NoiseGpencilModifier.use_edit_position
 #. :src: bpy.types.SmoothGpencilModifier.use_edit_position
 msgid "The modifier affects the position of the point"
-msgstr "函数修改器封套的控制点"
+msgstr ""
 
 #. :src: bpy.types.NoiseGpencilModifier.use_edit_strength
 #. :src: bpy.types.SmoothGpencilModifier.use_edit_strength
@@ -23855,7 +23855,7 @@ msgstr ""
 #. :src: bpy.types.NoiseGpencilModifier.use_edit_thickness
 #. :src: bpy.types.SmoothGpencilModifier.use_edit_thickness
 msgid "The modifier affects the thickness of the point"
-msgstr "添加厚度修改器失败"
+msgstr ""
 
 #. :src: bpy.types.NoiseGpencilModifier.use_edit_uv
 #. :src: bpy.types.SmoothGpencilModifier.use_edit_uv
@@ -23868,47 +23868,47 @@ msgstr "偏移修改器"
 
 #. :src: bpy.types.OffsetGpencilModifier
 msgid "Offset Stroke modifier"
-msgstr "偏移"
+msgstr "偏移笔画修改器"
 
 #. :src: bpy.types.OffsetGpencilModifier.location
 msgid "Values for change location"
-msgstr "坐标值随机化"
+msgstr ""
 
 #. :src: bpy.types.OffsetGpencilModifier.rotation
 msgid "Values for changes in rotation"
-msgstr "旋转值随机化"
+msgstr ""
 
 #. :src: bpy.types.OffsetGpencilModifier.scale
 msgid "Values for changes in scale"
-msgstr "缩放值随机化"
+msgstr ""
 
 #. :src: bpy.types.OpacityGpencilModifier
 msgid "Opacity Modifier"
-msgstr "不透明度"
+msgstr "不透明度修改器"
 
 #. :src: bpy.types.OpacityGpencilModifier
 msgid "Opacity of Strokes modifier"
-msgstr "笔触"
+msgstr "笔画不透明度修改器"
 
 #. :src: bpy.types.OpacityGpencilModifier.factor
 msgid "Factor of Opacity"
-msgstr "不透明度"
+msgstr "不透明度系数"
 
 #. :src: bpy.types.SimplifyGpencilModifier
 msgid "Simplify Modifier"
-msgstr "简化"
+msgstr "简化修改器"
 
 #. :src: bpy.types.SimplifyGpencilModifier
 msgid "Simplify Stroke modifier"
-msgstr "简化笔触"
+msgstr "简化笔画修改器"
 
 #. :src: bpy.types.SimplifyGpencilModifier.factor
 msgid "Factor of Simplify"
-msgstr "简化"
+msgstr "简化系数"
 
 #. :src: bpy.types.SimplifyGpencilModifier.mode
 msgid "How simplify the stroke"
-msgstr "简化笔触"
+msgstr "如何简化笔画"
 
 #. :src: bpy.types.SimplifyGpencilModifier.mode:'FIXED'
 #. :src: bpy.types.MaterialGPencilStyle.alignment_mode:'FIXED'
@@ -23935,11 +23935,11 @@ msgstr "自适应"
 
 #. :src: bpy.types.SimplifyGpencilModifier.mode:'ADAPTIVE'
 msgid "Use a RDP algorithm to simplify"
-msgstr "用于限定通道的算法"
+msgstr "用于简化的RDP算法"
 
 #. :src: bpy.types.SimplifyGpencilModifier.step
 msgid "Number of times to apply simplify"
-msgstr "螺旋操作的应用次数"
+msgstr "简化操作的应用次数"
 
 #. :src: bpy.types.SmoothGpencilModifier
 #. :src: bpy.types.SmoothModifier
@@ -23948,11 +23948,11 @@ msgstr "平滑修改器"
 
 #. :src: bpy.types.SmoothGpencilModifier
 msgid "Smooth effect modifier"
-msgstr "光滑系数影响量"
+msgstr "平滑效果影响量"
 
 #. :src: bpy.types.SmoothGpencilModifier.factor
 msgid "Amount of smooth to apply"
-msgstr "平滑后应用体积值"
+msgstr "应用的平滑量"
 
 #. :src: bpy.types.SmoothGpencilModifier.step
 msgid "Number of times to apply smooth (high numbers can reduce fps)"
@@ -23960,15 +23960,15 @@ msgstr ""
 
 #. :src: bpy.types.SubdivGpencilModifier
 msgid "Subdivision Modifier"
-msgstr "用于表面细分修改器的权重值"
+msgstr "细分修改器"
 
 #. :src: bpy.types.SubdivGpencilModifier
 msgid "Subdivide Stroke modifier"
-msgstr "细分笔画"
+msgstr "细分笔画修改器"
 
 #. :src: bpy.types.SubdivGpencilModifier.level
 msgid "Number of subdivisions"
-msgstr "栅格细分等级"
+msgstr "细分次数"
 
 #. :src: bpy.types.SubdivGpencilModifier.simple
 #. :src: bpy.types.ParticleSettings.child_type:'SIMPLE'
@@ -23986,15 +23986,15 @@ msgstr "仅向活动函数曲线添加函数曲线"
 
 #. :src: bpy.types.ThickGpencilModifier
 msgid "Thick Modifier"
-msgstr "加厚"
+msgstr ""
 
 #. :src: bpy.types.ThickGpencilModifier
 msgid "Subdivide and Smooth Stroke modifier"
-msgstr "平滑笔画"
+msgstr ""
 
 #. :src: bpy.types.ThickGpencilModifier.curve
 msgid "Custom Thickness Curve"
-msgstr "自定义映射曲线"
+msgstr "自定义宽度曲线"
 
 #. :src: bpy.types.ThickGpencilModifier.normalize_thickness
 #. :src: bpy.types.MovieTrackingSettings.use_default_normalization
@@ -24011,7 +24011,7 @@ msgstr ""
 
 #. :src: bpy.types.ThickGpencilModifier.thickness
 msgid "Factor of thickness change"
-msgstr "厚度系数"
+msgstr "宽度变化系数"
 
 #. :src: bpy.types.ThickGpencilModifier.use_custom_curve
 #. :src: bpy.types.AreaLight.falloff_type:'CUSTOM_CURVE'
@@ -24026,15 +24026,15 @@ msgstr ""
 
 #. :src: bpy.types.TimeGpencilModifier
 msgid "Time Offset Modifier"
-msgstr "噪波效果的时间偏移"
+msgstr "时间偏移修改器"
 
 #. :src: bpy.types.TimeGpencilModifier
 msgid "Time offset modifier"
-msgstr "噪波效果的时间偏移"
+msgstr "时间偏移修改器"
 
 #. :src: bpy.types.TimeGpencilModifier.frame_end
 msgid "Final frame of the range"
-msgstr "回放 / 渲染区间的结束帧"
+msgstr "区间内的尾帧"
 
 #. :src: bpy.types.TimeGpencilModifier.frame_scale
 #. :src: bpy.types.MeshCacheModifier.frame_scale
@@ -24050,7 +24050,7 @@ msgstr "估算时间, 单位为秒"
 
 #. :src: bpy.types.TimeGpencilModifier.frame_start
 msgid "First frame of the range"
-msgstr "跳转到帧区间的首帧 / 末帧位置"
+msgstr "区间内的首帧"
 
 #. :src: bpy.types.TimeGpencilModifier.mode:'NORMAL'
 msgid "Apply offset in usual animation direction"
@@ -27348,7 +27348,7 @@ msgstr "最小 2D 边长"
 
 #. :src: bpy.types.FreestyleLineStyle.length_min
 msgid "Minimum curvilinear 2D length for the selection of chains"
-msgstr "启用按某个最小平面长度  执行链形选择"
+msgstr "启用按某个最小平面长度值执行链形选择"
 
 #. :src: bpy.types.FreestyleLineStyle.material_boundary
 msgid "If true, chains of feature edges are split at material boundaries"
@@ -27684,7 +27684,7 @@ msgstr "使用最短平面长度"
 
 #. :src: bpy.types.FreestyleLineStyle.use_length_min
 msgid "Enable the selection of chains by a minimum 2D length"
-msgstr "启用按某个最小平面长度��执行链形选择"
+msgstr "启用按某个最小平面长度值执行链形选择"
 
 #. :src: bpy.types.FreestyleLineStyle.use_nodes
 #. :src: bpy.types.Light.use_nodes
@@ -57874,7 +57874,7 @@ msgstr "移除稳像轨"
 
 #. :src: bpy.types.CLIP_OT_stabilize_2d_remove
 msgid "Remove selected track from translation stabilization"
-msgstr "从稳像轨中移除选中轨"
+msgstr "从平移稳像轨中移除选中轨"
 
 #. :src: bpy.types.CLIP_OT_stabilize_2d_rotation_add
 msgctxt "Operator"
@@ -57892,7 +57892,7 @@ msgstr "移除稳像轨"
 
 #. :src: bpy.types.CLIP_OT_stabilize_2d_rotation_remove
 msgid "Remove selected track from rotation stabilization"
-msgstr "从稳像轨中   除选中轨"
+msgstr "从旋转稳像轨中移除选中轨"
 
 #. :src: bpy.types.CLIP_OT_stabilize_2d_rotation_select
 msgctxt "Operator"
@@ -74436,7 +74436,7 @@ msgstr ""
 # rblc
 #. :src: bpy.types.PAINT_OT_weight_from_bones.type
 msgid "Method to use for assigning weights"
-msgstr "用于���定权重值的方法"
+msgstr "用于指定权重值的方法"
 
 #. :src: bpy.types.PAINT_OT_weight_from_bones.type:'AUTOMATIC'
 msgid "Automatic weights from bones"
@@ -89181,11 +89181,11 @@ msgstr "设置音频采样率为每秒 192000"
 
 #. :src: bpy.types.PreferencesSystem.gl_clip_alpha
 msgid "Clip Alpha"
-msgstr "剪辑Alpha"
+msgstr "钳制Alpha(下限)"
 
 #. :src: bpy.types.PreferencesSystem.gl_clip_alpha
 msgid "Clip alpha below this threshold in the 3D textured view"
-msgstr "在 3D 纹理视图使用低于此阈值的 Alpha"
+msgstr "在 3D 纹理视图钳制低于此阈值的 Alpha"
 
 #. :src: bpy.types.PreferencesSystem.gl_texture_limit
 msgid "GL Texture Limit"
@@ -118102,7 +118102,7 @@ msgstr "%d x %d, "
 
 #: source/blender/editors/space_image/image_buttons.c:1222
 msgid "%d float channel(s)"
-msgstr "%d 浮动型��道"
+msgstr "%d 浮动型通道"
 
 #: source/blender/editors/space_image/image_buttons.c:1225
 msgid " RGBA float"
