@@ -43028,7 +43028,7 @@ msgstr "限制合并点的范围在此阈值以下"
 #. :src: bpy.types.ArrayModifier.offset_u
 #. :src: bpy.types.MirrorModifier.offset_u
 msgid "U Offset"
-msgstr "次序 U"
+msgstr "U向偏移"
 
 #. :src: bpy.types.ArrayModifier.offset_u
 msgid "Amount to offset array UVs on the U axis"
@@ -43037,7 +43037,7 @@ msgstr ""
 #. :src: bpy.types.ArrayModifier.offset_v
 #. :src: bpy.types.MirrorModifier.offset_v
 msgid "V Offset"
-msgstr "V偏移"
+msgstr "V向偏移"
 
 #. :src: bpy.types.ArrayModifier.offset_v
 msgid "Amount to offset array UVs on the V axis"
@@ -43108,7 +43108,7 @@ msgstr "边线倒角的起始角度值"
 #. :src: bpy.types.BevelModifier.face_strength_mode
 #: scripts/startup/bl_ui/space_view3d.py:3888
 msgid "Set Face Strength"
-msgstr "强度/力度"
+msgstr "设置面强度"
 
 #. :src: bpy.types.BevelModifier.face_strength_mode
 msgid "Whether to set face strength, and which faces to set it on"
@@ -43117,7 +43117,7 @@ msgstr ""
 #. :src: bpy.types.BevelModifier.face_strength_mode:'FSTR_NONE'
 #. :src: bpy.types.MESH_OT_bevel.face_strength_mode:'NONE'
 msgid "Do not set face strength"
-msgstr "向帧配置中添加面标识"
+msgstr "不设置面强度"
 
 #. :src: bpy.types.BevelModifier.face_strength_mode:'FSTR_NEW'
 #. :src: bpy.types.MESH_OT_bevel.face_strength_mode:'NEW'
@@ -43139,7 +43139,7 @@ msgstr ""
 #. :src: bpy.types.BevelModifier.face_strength_mode:'FSTR_AFFECTED'
 #. :src: bpy.types.MESH_OT_bevel.face_strength_mode:'AFFECTED'
 msgid "Affected"
-msgstr "受插帧集影响的全部骨骼"
+msgstr ""
 
 #. :src: bpy.types.BevelModifier.face_strength_mode:'FSTR_AFFECTED'
 msgid "Set face strength on new and affected faces only"
@@ -43153,7 +43153,7 @@ msgstr ""
 #. :src: bpy.types.BevelModifier.harden_normals
 #. :src: bpy.types.MESH_OT_bevel.harden_normals
 msgid "Harden Normals"
-msgstr "法线"
+msgstr ""
 
 #. :src: bpy.types.BevelModifier.harden_normals
 #. :src: bpy.types.MESH_OT_bevel.harden_normals
@@ -43198,7 +43198,7 @@ msgstr "标记为缝合边"
 #. :src: bpy.types.BevelModifier.mark_seam
 #. :src: bpy.types.MESH_OT_bevel.mark_seam
 msgid "Mark Seams along beveled edges"
-msgstr "以边界线为缝合边"
+msgstr "沿倒角边标记缝合边"
 
 #. :src: bpy.types.BevelModifier.mark_sharp
 #. :src: bpy.types.MESH_OT_bevel.mark_sharp
@@ -43213,33 +43213,33 @@ msgstr "标记倒角边为锐边"
 
 #. :src: bpy.types.BevelModifier.material
 msgid "Material index of generated faces, -1 for automatic"
-msgstr "所生成面的偏移材质编号"
+msgstr "所生成面的材质编号，-1为自动"
 
 #. :src: bpy.types.BevelModifier.miter_inner
 #. :src: bpy.types.MESH_OT_bevel.miter_inner
 msgid "Inner Miter"
-msgstr "内部"
+msgstr ""
 
 #. :src: bpy.types.BevelModifier.miter_inner
 #. :src: bpy.types.MESH_OT_bevel.miter_inner
 msgid "Pattern to use for inside of miters"
-msgstr "使用 Sobol 随机采样模式"
+msgstr ""
 
 #. :src: bpy.types.BevelModifier.miter_inner:'MITER_SHARP'
 #. :src: bpy.types.BevelModifier.miter_outer:'MITER_SHARP'
 msgid "Default sharp miter"
-msgstr "默认"
+msgstr ""
 
 #. :src: bpy.types.BevelModifier.miter_inner:'MITER_PATCH'
 #. :src: bpy.types.BevelModifier.miter_outer:'MITER_PATCH'
 #. :src: bpy.types.MESH_OT_bevel.miter_outer:'PATCH'
 msgid "Patch"
-msgstr "添加 NURBS 曲面片"
+msgstr ""
 
 #. :src: bpy.types.BevelModifier.miter_inner:'MITER_PATCH'
 #. :src: bpy.types.BevelModifier.miter_outer:'MITER_PATCH'
 msgid "Miter with extra corner"
-msgstr "四边面角类型"
+msgstr ""
 
 #. :src: bpy.types.BevelModifier.miter_inner:'MITER_ARC'
 #. :src: bpy.types.BevelModifier.miter_outer:'MITER_ARC'
@@ -43252,17 +43252,17 @@ msgstr "圆弧"
 #. :src: bpy.types.BevelModifier.miter_inner:'MITER_ARC'
 #. :src: bpy.types.BevelModifier.miter_outer:'MITER_ARC'
 msgid "Miter with curved arc"
-msgstr "曲线化"
+msgstr ""
 
 #. :src: bpy.types.BevelModifier.miter_outer
 #. :src: bpy.types.MESH_OT_bevel.miter_outer
 msgid "Outer Miter"
-msgstr "外表面"
+msgstr ""
 
 #. :src: bpy.types.BevelModifier.miter_outer
 #. :src: bpy.types.MESH_OT_bevel.miter_outer
 msgid "Pattern to use for outside of miters"
-msgstr "使用 Sobol 随机采样模式"
+msgstr ""
 
 #. :src: bpy.types.BevelModifier.offset_type
 msgid "Amount Type"
@@ -43356,17 +43356,17 @@ msgstr "顶点组名称"
 #. :src: bpy.types.BevelModifier.width
 #. :src: bpy.types.MESH_OT_bevel.offset
 msgid "Bevel amount"
-msgstr "倒角"
+msgstr "倒角量"
 
 #. :src: bpy.types.BevelModifier.width_pct
 #. :src: bpy.types.MESH_OT_bevel.offset_pct
 msgid "Width Percent"
-msgstr "百分比"
+msgstr "宽度百分比"
 
 #. :src: bpy.types.BevelModifier.width_pct
 #. :src: bpy.types.MESH_OT_bevel.offset_pct
 msgid "Bevel amount for percentage method"
-msgstr "以恒定量对整体网格进行倒角"
+msgstr "百分比方式下的倒角量"
 
 #. :src: bpy.types.BooleanModifier
 msgid "Boolean Modifier"
@@ -43390,15 +43390,15 @@ msgstr ""
 
 #. :src: bpy.types.BooleanModifier.debug_options:'NO_DISSOLVE'
 msgid "No Dissolve"
-msgstr "消融"
+msgstr "无融并"
 
 #. :src: bpy.types.BooleanModifier.debug_options:'NO_CONNECT_REGIONS'
 msgid "No Connect Regions"
-msgstr "连接"
+msgstr "无连接区域"
 
 #. :src: bpy.types.BooleanModifier.double_threshold
 msgid "Overlap Threshold"
-msgstr "重叠"
+msgstr "重叠阈值"
 
 #. :src: bpy.types.BooleanModifier.double_threshold
 msgid "Threshold for checking overlapping geometry"
@@ -43517,11 +43517,11 @@ msgstr "布料模拟修改器"
 
 #. :src: bpy.types.ClothModifier.hair_grid_max
 msgid "Hair Grid Maximum"
-msgstr "毛发栅格解析度"
+msgstr "毛发栅格最大值"
 
 #. :src: bpy.types.ClothModifier.hair_grid_min
 msgid "Hair Grid Minimum"
-msgstr "最小栅格间距"
+msgstr "毛发栅格最小值"
 
 #. :src: bpy.types.ClothModifier.hair_grid_resolution
 msgid "Hair Grid Resolution"
@@ -43579,15 +43579,15 @@ msgstr "光滑系数影响量"
 
 #. :src: bpy.types.CorrectiveSmoothModifier.is_bind
 msgid "Bind current shape"
-msgstr "当前形态键"
+msgstr "绑定当前形状"
 
 #. :src: bpy.types.CorrectiveSmoothModifier.rest_source
 msgid "Rest Source"
-msgstr "重置源"
+msgstr "静置源"
 
 #. :src: bpy.types.CorrectiveSmoothModifier.rest_source
 msgid "Select the source of rest positions"
-msgstr "重置源"
+msgstr ""
 
 #. :src: bpy.types.CorrectiveSmoothModifier.rest_source:'ORCO'
 msgid "Original Coords"
@@ -43611,7 +43611,7 @@ msgstr "平滑类型"
 
 #. :src: bpy.types.CorrectiveSmoothModifier.smooth_type
 msgid "Method used for smoothing"
-msgstr "平滑"
+msgstr "用于平滑的方法"
 
 #. :src: bpy.types.CorrectiveSmoothModifier.smooth_type:'SIMPLE'
 msgid "Use the average of adjacent edge-vertices"
@@ -43681,19 +43681,19 @@ msgstr "传递的边数据类型"
 #. :src: bpy.types.OBJECT_OT_data_transfer.data_type:'SHARP_EDGE'
 #. :src: bpy.types.OBJECT_OT_datalayout_transfer.data_type:'SHARP_EDGE'
 msgid "Transfer sharp mark"
-msgstr "传递 Freestyle 标记边"
+msgstr "传递锐边标记"
 
 #. :src: bpy.types.DataTransferModifier.data_types_edges:'SEAM'
 #. :src: bpy.types.OBJECT_OT_data_transfer.data_type:'SEAM'
 #. :src: bpy.types.OBJECT_OT_datalayout_transfer.data_type:'SEAM'
 msgid "UV Seam"
-msgstr "UV接缝"
+msgstr "UV缝合边"
 
 #. :src: bpy.types.DataTransferModifier.data_types_edges:'SEAM'
 #. :src: bpy.types.OBJECT_OT_data_transfer.data_type:'SEAM'
 #. :src: bpy.types.OBJECT_OT_datalayout_transfer.data_type:'SEAM'
 msgid "Transfer UV seam mark"
-msgstr "UV接缝"
+msgstr "传递UV缝合边"
 
 #. :src: bpy.types.DataTransferModifier.data_types_edges:'CREASE'
 #. :src: bpy.types.OBJECT_OT_data_transfer.data_type:'CREASE'
@@ -43705,7 +43705,7 @@ msgstr "次表面折痕"
 #. :src: bpy.types.OBJECT_OT_data_transfer.data_type:'CREASE'
 #. :src: bpy.types.OBJECT_OT_datalayout_transfer.data_type:'CREASE'
 msgid "Transfer crease values"
-msgstr "值"
+msgstr "传递抓痕值"
 
 #. :src: bpy.types.DataTransferModifier.data_types_edges:'BEVEL_WEIGHT_EDGE'
 #. :src: bpy.types.DataTransferModifier.data_types_verts:'BEVEL_WEIGHT_VERT'
@@ -43714,7 +43714,7 @@ msgstr "值"
 #. :src: bpy.types.OBJECT_OT_datalayout_transfer.data_type:'BEVEL_WEIGHT_VERT'
 #. :src: bpy.types.OBJECT_OT_datalayout_transfer.data_type:'BEVEL_WEIGHT_EDGE'
 msgid "Transfer bevel weights"
-msgstr "传递权重"
+msgstr "传递倒角权重"
 
 #. :src: bpy.types.DataTransferModifier.data_types_edges:'FREESTYLE_EDGE'
 #. :src: bpy.types.DataTransferModifier.data_types_polys:'FREESTYLE_FACE'
@@ -43743,13 +43743,13 @@ msgstr "传递的面拐数据层"
 #. :src: bpy.types.OBJECT_OT_data_transfer.data_type:'CUSTOM_NORMAL'
 #. :src: bpy.types.OBJECT_OT_datalayout_transfer.data_type:'CUSTOM_NORMAL'
 msgid "Custom Normals"
-msgstr "自定义法线"
+msgstr "自定义法向"
 
 #. :src: bpy.types.DataTransferModifier.data_types_loops:'CUSTOM_NORMAL'
 #. :src: bpy.types.OBJECT_OT_data_transfer.data_type:'CUSTOM_NORMAL'
 #. :src: bpy.types.OBJECT_OT_datalayout_transfer.data_type:'CUSTOM_NORMAL'
 msgid "Transfer custom normals"
-msgstr "传递自定义法线"
+msgstr "传递自定义法向"
 
 #. :src: bpy.types.DataTransferModifier.data_types_loops:'VCOL'
 #. :src: bpy.types.OBJECT_OT_data_transfer.data_type:'VCOL'
@@ -43785,11 +43785,11 @@ msgstr "传递 UV 层"
 
 #. :src: bpy.types.DataTransferModifier.data_types_polys
 msgid "Poly Data Types"
-msgstr "网格数据类型"
+msgstr "多边形数据类型"
 
 #. :src: bpy.types.DataTransferModifier.data_types_polys
 msgid "Which poly data layers to transfer"
-msgstr "传递的边数据类型"
+msgstr "传递的多边形数据类型"
 
 #. :src: bpy.types.DataTransferModifier.data_types_polys:'SMOOTH'
 #. :src: bpy.types.OBJECT_OT_data_transfer.data_type:'SMOOTH'
@@ -43821,7 +43821,7 @@ msgstr "顶点组"
 #. :src: bpy.types.OBJECT_OT_data_transfer.data_type:'VGROUP_WEIGHTS'
 #. :src: bpy.types.OBJECT_OT_datalayout_transfer.data_type:'VGROUP_WEIGHTS'
 msgid "Transfer active or all vertex groups"
-msgstr "全部顶点组"
+msgstr "传递活动或全部顶点组"
 
 #. :src: bpy.types.DataTransferModifier.edge_mapping
 #. :src: bpy.types.OBJECT_OT_data_transfer.edge_mapping
@@ -43831,7 +43831,7 @@ msgstr "边映射"
 #. :src: bpy.types.DataTransferModifier.edge_mapping
 #. :src: bpy.types.OBJECT_OT_data_transfer.edge_mapping
 msgid "Method used to map source edges to destination ones"
-msgstr "映射源面拐至目标的方法"
+msgstr "映射源连线至目标的方法"
 
 #. :src: bpy.types.DataTransferModifier.edge_mapping:'TOPOLOGY'
 #. :src: bpy.types.DataTransferModifier.loop_mapping:'TOPOLOGY'
@@ -43901,7 +43901,7 @@ msgstr ""
 
 #. :src: bpy.types.DataTransferModifier.islands_precision
 msgid "Islands Handling Refinement"
-msgstr "选中物体处理出错"
+msgstr "孤岛处理方式改进"
 
 #. :src: bpy.types.DataTransferModifier.islands_precision
 msgid ""
@@ -44005,7 +44005,7 @@ msgstr "全部层"
 #. :src: bpy.types.OBJECT_OT_data_transfer.layers_select_src:'ALL'
 #. :src: bpy.types.OBJECT_OT_datalayout_transfer.layers_select_src:'ALL'
 msgid "Transfer all data layers"
-msgstr "传递的面拐数据层"
+msgstr "传递全部数据层"
 
 #. :src: bpy.types.DataTransferModifier.layers_uv_select_src:'BONE_SELECT'
 #. :src: bpy.types.DataTransferModifier.layers_vcol_select_src:'BONE_SELECT'
@@ -44021,7 +44021,7 @@ msgstr "选择姿势骨骼"
 #. :src: bpy.types.OBJECT_OT_data_transfer.layers_select_src:'BONE_SELECT'
 #. :src: bpy.types.OBJECT_OT_datalayout_transfer.layers_select_src:'BONE_SELECT'
 msgid "Transfer all vertex groups used by selected pose bones"
-msgstr "传递被所选的姿态骨骼所使用的所有的顶点组"
+msgstr "传递被所选的姿态骨骼使用的全部顶点组"
 
 #. :src: bpy.types.DataTransferModifier.layers_uv_select_src:'BONE_DEFORM'
 #. :src: bpy.types.DataTransferModifier.layers_vcol_select_src:'BONE_DEFORM'
@@ -44029,7 +44029,7 @@ msgstr "传递被所选的姿态骨骼所使用的所有的顶点组"
 #. :src: bpy.types.OBJECT_OT_data_transfer.layers_select_src:'BONE_DEFORM'
 #. :src: bpy.types.OBJECT_OT_datalayout_transfer.layers_select_src:'BONE_DEFORM'
 msgid "Deform Pose Bones"
-msgstr "姿态骨骼"
+msgstr "形变姿态骨骼"
 
 #. :src: bpy.types.DataTransferModifier.layers_uv_select_src:'BONE_DEFORM'
 #. :src: bpy.types.DataTransferModifier.layers_vcol_select_src:'BONE_DEFORM'
@@ -44062,7 +44062,7 @@ msgstr ""
 #. :src: bpy.types.DataTransferModifier.loop_mapping:'NEAREST_POLYNOR'
 #. :src: bpy.types.OBJECT_OT_data_transfer.loop_mapping:'NEAREST_POLYNOR'
 msgid "Nearest Corner And Best Matching Face Normal"
-msgstr "最近的拐角和最匹配的面法线"
+msgstr "最近的拐角和最匹配的面法向"
 
 #. :src: bpy.types.DataTransferModifier.loop_mapping:'NEAREST_POLYNOR'
 #. :src: bpy.types.OBJECT_OT_data_transfer.loop_mapping:'NEAREST_POLYNOR'
@@ -44220,7 +44220,7 @@ msgstr "面映射"
 #. :src: bpy.types.DataTransferModifier.poly_mapping
 #. :src: bpy.types.OBJECT_OT_data_transfer.poly_mapping
 msgid "Method used to map source faces to destination ones"
-msgstr "映射源面拐至目标的方法"
+msgstr "映射源面至目标的方法"
 
 #. :src: bpy.types.DataTransferModifier.poly_mapping:'NEAREST'
 #. :src: bpy.types.OBJECT_OT_data_transfer.poly_mapping:'NEAREST'
@@ -44235,7 +44235,7 @@ msgstr ""
 #. :src: bpy.types.DataTransferModifier.poly_mapping:'NORMAL'
 #. :src: bpy.types.OBJECT_OT_data_transfer.poly_mapping:'NORMAL'
 msgid "Best Normal-Matching"
-msgstr "最匹配法线"
+msgstr "最匹配法向"
 
 #. :src: bpy.types.DataTransferModifier.poly_mapping:'NORMAL'
 #. :src: bpy.types.OBJECT_OT_data_transfer.poly_mapping:'NORMAL'
