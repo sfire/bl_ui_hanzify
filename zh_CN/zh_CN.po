@@ -44262,7 +44262,7 @@ msgstr ""
 
 #. :src: bpy.types.DataTransferModifier.use_edge_data
 msgid "Enable edge data transfer"
-msgstr "传递的边数据类型"
+msgstr "启用边数据传递"
 
 #. :src: bpy.types.DataTransferModifier.use_loop_data
 msgid "Face Corner Data"
@@ -44294,7 +44294,7 @@ msgstr "在全局空间计算源网格与目标网格"
 
 #. :src: bpy.types.DataTransferModifier.use_poly_data
 msgid "Enable face data transfer"
-msgstr "启用面拐数据传递"
+msgstr "启用面数据传递"
 
 #. :src: bpy.types.DataTransferModifier.use_vert_data
 msgid "Vertex Data"
@@ -44302,7 +44302,7 @@ msgstr "顶点数据"
 
 #. :src: bpy.types.DataTransferModifier.use_vert_data
 msgid "Enable vertex data transfer"
-msgstr "启用面拐数据传递"
+msgstr "启用顶点数据传递"
 
 #. :src: bpy.types.DataTransferModifier.vert_mapping
 #. :src: bpy.types.OBJECT_OT_data_transfer.vert_mapping
@@ -44312,7 +44312,7 @@ msgstr "点映射"
 #. :src: bpy.types.DataTransferModifier.vert_mapping
 #. :src: bpy.types.OBJECT_OT_data_transfer.vert_mapping
 msgid "Method used to map source vertices to destination ones"
-msgstr "映射源面拐至目标的方法"
+msgstr "映射源顶点至目标的方法"
 
 #. :src: bpy.types.DataTransferModifier.vert_mapping:'NEAREST'
 #. :src: bpy.types.OBJECT_OT_data_transfer.vert_mapping:'NEAREST'
@@ -44332,7 +44332,7 @@ msgstr "最近的边顶点"
 #. :src: bpy.types.DataTransferModifier.vert_mapping:'EDGE_NEAREST'
 #. :src: bpy.types.OBJECT_OT_data_transfer.vert_mapping:'EDGE_NEAREST'
 msgid "Copy from closest vertex of closest edge"
-msgstr "从最近面上的最近顶点复制"
+msgstr "从最近边上的最近顶点复制"
 
 #. :src: bpy.types.DataTransferModifier.vert_mapping:'EDGEINTERP_NEAREST'
 #. :src: bpy.types.OBJECT_OT_data_transfer.vert_mapping:'EDGEINTERP_NEAREST'
@@ -44452,14 +44452,14 @@ msgstr "按标记边划界"
 #. :src: bpy.types.MESH_OT_select_linked.delimit:'SHARP'
 #. :src: bpy.types.MESH_OT_select_linked_pick.delimit:'SHARP'
 msgid "Delimit by sharp edges"
-msgstr "选择锐边"
+msgstr "按照锐边界定"
 
 #. :src: bpy.types.DecimateModifier.delimit:'UV'
 #. :src: bpy.types.MESH_OT_dissolve_limited.delimit:'UV'
 #. :src: bpy.types.MESH_OT_select_linked.delimit:'UV'
 #. :src: bpy.types.MESH_OT_select_linked_pick.delimit:'UV'
 msgid "Delimit by UV coordinates"
-msgstr "划界"
+msgstr "按照UV坐标界定"
 
 #. :src: bpy.types.DecimateModifier.face_count
 msgid "Face Count"
@@ -44484,7 +44484,7 @@ msgstr "三角面的目标降低比率 (仅塌陷)"
 #. :src: bpy.types.DecimateModifier.symmetry_axis
 #. :src: bpy.types.MESH_OT_decimate.symmetry_axis
 msgid "Axis of symmetry"
-msgstr "维持轴向对称"
+msgstr "对称轴"
 
 #. :src: bpy.types.DecimateModifier.use_collapse_triangulate
 msgid "Keep triangulated faces resulting from decimation (collapse only)"
@@ -44527,7 +44527,7 @@ msgstr "顶点组强度"
 
 #. :src: bpy.types.DisplaceModifier
 msgid "Displace Modifier"
-msgstr "位移修改器"
+msgstr "置换修改器"
 
 #. :src: bpy.types.DisplaceModifier
 msgid "Displacement modifier"
@@ -44547,12 +44547,12 @@ msgstr "使用纹理强度值进行 Z 向的置换"
 
 #. :src: bpy.types.DisplaceModifier.direction:'NORMAL'
 msgid "Use the texture's intensity value to displace along the vertex normal"
-msgstr "在发现方向上使用纹理强度值进行置换"
+msgstr "在顶点法向方向上使用纹理强度值进行置换"
 
 #. :src: bpy.types.DisplaceModifier.direction:'CUSTOM_NORMAL'
 #. :src: bpy.types.MESH_OT_average_normals.average_type:'CUSTOM_NORMAL'
 msgid "Custom Normal"
-msgstr "自定义法线"
+msgstr "自定义法向"
 
 #. :src: bpy.types.DisplaceModifier.direction:'CUSTOM_NORMAL'
 msgid ""
@@ -44598,11 +44598,11 @@ msgstr "自身"
 
 #. :src: bpy.types.DisplaceModifier.space:'LOCAL'
 msgid "Direction is defined in local coordinates"
-msgstr "使用自身生成的坐标系"
+msgstr "在自身坐标系中定义方向"
 
 #. :src: bpy.types.DisplaceModifier.space:'GLOBAL'
 msgid "Direction is defined in global coordinates"
-msgstr "使用全局坐标系"
+msgstr "在全局坐标系中定义方向"
 
 #. :src: bpy.types.DisplaceModifier.strength
 msgid "Amount to displace geometry"
@@ -44796,7 +44796,7 @@ msgstr ""
 #. :src: bpy.types.HookModifier.falloff_curve
 #. :src: bpy.types.WarpModifier.falloff_curve
 msgid "Custom falloff curve"
-msgstr "自定义曲线"
+msgstr "自定义衰减曲线"
 
 #. :src: bpy.types.HookModifier.vertex_indices
 msgid "Vertex Indices"
@@ -44905,7 +44905,7 @@ msgstr "使用指定区域之外的顶点"
 
 #. :src: bpy.types.MaskModifier.threshold
 msgid "Weights over this threshold remain"
-msgstr "向顶点组中添加权重值高于阈值的顶点"
+msgstr "保留高于此阈值的权重值"
 
 #. :src: bpy.types.MeshCacheModifier
 #. :src: bpy.types.MeshSequenceCacheModifier
@@ -45084,7 +45084,7 @@ msgstr "镜像参照物体"
 
 #. :src: bpy.types.MirrorModifier.mirror_offset_u
 msgid "Flip U Offset"
-msgstr "翻转"
+msgstr "翻转U向依稀"
 
 #. :src: bpy.types.MirrorModifier.mirror_offset_u
 msgid "Amount to offset mirrored UVs flipping point from the 0.5 on the U axis"
@@ -45092,7 +45092,7 @@ msgstr ""
 
 #. :src: bpy.types.MirrorModifier.mirror_offset_v
 msgid "Flip V Offset"
-msgstr "翻转"
+msgstr "翻转V向依稀"
 
 #. :src: bpy.types.MirrorModifier.mirror_offset_v
 msgid ""
@@ -45101,19 +45101,19 @@ msgstr ""
 
 #. :src: bpy.types.MirrorModifier.offset_u
 msgid "Mirrored UV offset on the U axis"
-msgstr "U轴上的镜像UV偏移"
+msgstr "U轴向上的镜像UV偏移"
 
 #. :src: bpy.types.MirrorModifier.offset_v
 msgid "Mirrored UV offset on the V axis"
-msgstr "V轴上的镜像UV偏移"
+msgstr "V轴向上的镜像UV偏移"
 
 #. :src: bpy.types.MirrorModifier.use_axis
 msgid "Mirror Axis"
-msgstr "选择一个镜像轴 (X, Y, Z)"
+msgstr "镜像轴"
 
 #. :src: bpy.types.MirrorModifier.use_axis
 msgid "Enable axis mirror"
-msgstr "在 X 走上开启弹性"
+msgstr "开启轴向镜像"
 
 #. :src: bpy.types.MirrorModifier.use_bisect_axis
 msgid "Bisect Axis"
@@ -45145,7 +45145,7 @@ msgstr "镜像 U"
 
 #. :src: bpy.types.MirrorModifier.use_mirror_u
 msgid "Mirror the U texture coordinate around the flip offset point"
-msgstr "在 0.5 点处镜射 U 向的纹理坐标"
+msgstr "在翻转偏移点处镜射 U 向的纹理坐标"
 
 #. :src: bpy.types.MirrorModifier.use_mirror_v
 msgid "Mirror V"
@@ -45233,7 +45233,7 @@ msgstr "选择类型细分算法类型"
 #. :src: bpy.types.MultiresModifier.subdivision_type:'CATMULL_CLARK'
 #. :src: bpy.types.SubsurfModifier.subdivision_type:'CATMULL_CLARK'
 msgid "Catmull-Clark"
-msgstr "细分算法"
+msgstr "Catmull-Clark"
 
 #. :src: bpy.types.MultiresModifier.total_levels
 msgid "Total Levels"
@@ -45246,7 +45246,7 @@ msgstr "用于存储置换信息的细分级数"
 #. :src: bpy.types.MultiresModifier.use_creases
 #. :src: bpy.types.SubsurfModifier.use_creases
 msgid "Use Creases"
-msgstr "折痕"
+msgstr "使用折痕"
 
 #. :src: bpy.types.MultiresModifier.use_creases
 #. :src: bpy.types.SubsurfModifier.use_creases
@@ -45256,7 +45256,7 @@ msgstr ""
 #. :src: bpy.types.MultiresModifier.uv_smooth
 #. :src: bpy.types.SubsurfModifier.uv_smooth
 msgid "UV Smooth"
-msgstr "(平滑)"
+msgstr "UV平滑"
 
 #. :src: bpy.types.MultiresModifier.uv_smooth
 #. :src: bpy.types.SubsurfModifier.uv_smooth
@@ -45271,7 +45271,7 @@ msgstr ""
 #. :src: bpy.types.MultiresModifier.uv_smooth:'PRESERVE_CORNERS'
 #. :src: bpy.types.SubsurfModifier.uv_smooth:'PRESERVE_CORNERS'
 msgid "Smooth, keep corners"
-msgstr "抑制"
+msgstr "平滑，保留拐角"
 
 #. :src: bpy.types.MultiresModifier.uv_smooth:'PRESERVE_CORNERS'
 #. :src: bpy.types.SubsurfModifier.uv_smooth:'PRESERVE_CORNERS'
@@ -45280,7 +45280,7 @@ msgstr ""
 
 #. :src: bpy.types.NormalEditModifier
 msgid "Normal Edit Modifier"
-msgstr "法线编辑"
+msgstr "法向编辑修改器"
 
 #. :src: bpy.types.NormalEditModifier
 msgid "Modifier affecting/generating custom normals"
@@ -45327,7 +45327,7 @@ msgstr ""
 
 #. :src: bpy.types.NormalEditModifier.mode
 msgid "How to affect (generate) normals"
-msgstr "生成法线"
+msgstr "如何影响(生成)生成法线"
 
 #. :src: bpy.types.NormalEditModifier.mode:'RADIAL'
 msgid ""
@@ -45345,7 +45345,7 @@ msgstr "法线‘追踪’（指向）目标物体"
 
 #. :src: bpy.types.NormalEditModifier.no_polynors_fix
 msgid "Lock Polygon Normals"
-msgstr "锁定多边形法线"
+msgstr "锁定多边形法向"
 
 #. :src: bpy.types.NormalEditModifier.no_polynors_fix
 msgid ""
@@ -45355,15 +45355,15 @@ msgstr ""
 
 #. :src: bpy.types.NormalEditModifier.offset
 msgid "Offset from object's center"
-msgstr "从中心位置开始偏移厚度"
+msgstr "从物体中心开始偏移"
 
 #. :src: bpy.types.NormalEditModifier.target
 msgid "Target object used to affect normals"
-msgstr "法线‘追踪’（指向）目标物体"
+msgstr "用于影响法向的目标物体"
 
 #. :src: bpy.types.NormalEditModifier.use_direction_parallel
 msgid "Parallel Normals"
-msgstr "平行法线"
+msgstr "平行法向"
 
 #. :src: bpy.types.NormalEditModifier.use_direction_parallel
 msgid ""
@@ -45377,7 +45377,7 @@ msgstr ""
 
 #. :src: bpy.types.OceanModifier
 msgid "Ocean Modifier"
-msgstr "海洋面修改器"
+msgstr "洋面面修改器"
 
 #. :src: bpy.types.OceanModifier
 msgid "Simulate an ocean surface"
@@ -45389,7 +45389,7 @@ msgstr "水沫消退"
 
 #. :src: bpy.types.OceanModifier.bake_foam_fade
 msgid "How much foam accumulates over time (baked ocean only)"
-msgstr "水沫随时间的积聚量 (仅用于经过烘焙的海洋面)"
+msgstr "水沫随时间的积聚量 (仅用于经过烘焙的洋面)"
 
 #. :src: bpy.types.OceanModifier.choppiness
 msgid "Choppiness"
@@ -45441,7 +45441,7 @@ msgstr "烘培结束帧"
 
 #. :src: bpy.types.OceanModifier.frame_end
 msgid "End frame of the ocean baking"
-msgstr "海洋面烘焙的结束帧"
+msgstr "洋面烘焙的结束帧"
 
 #. :src: bpy.types.OceanModifier.frame_start
 msgid "Bake Start"
@@ -45464,7 +45464,7 @@ msgstr "生成"
 
 #. :src: bpy.types.OceanModifier.geometry_mode:'GENERATE'
 msgid "Generate ocean surface geometry at the specified resolution"
-msgstr "以指定的精度生成海洋面几何体"
+msgstr "以指定的精度生成洋面几何体"
 
 #. :src: bpy.types.OceanModifier.geometry_mode:'DISPLACE'
 msgid "Displace existing geometry according to simulation"
@@ -45476,7 +45476,7 @@ msgstr "海洋面已缓存"
 
 #. :src: bpy.types.OceanModifier.is_cached
 msgid "Whether the ocean is using cached data or simulating"
-msgstr "海洋面是否正在使用缓存数据, 或者执行模拟"
+msgstr "洋面是否正在使用缓存数据, 或者执行模拟"
 
 #. :src: bpy.types.OceanModifier.random_seed
 #. :src: bpy.types.CURVE_OT_select_random.seed
@@ -45510,7 +45510,7 @@ msgstr "所生成表面的精度"
 
 #. :src: bpy.types.OceanModifier.size
 msgid "Surface scale factor (does not affect the height of the waves)"
-msgstr "海洋面缩放系数 (不影响波浪高度)"
+msgstr "洋面缩放系数 (不影响波浪高度)"
 
 #. :src: bpy.types.OceanModifier.spatial_size
 msgid "Spatial Size"
@@ -45600,11 +45600,11 @@ msgstr "旋转极向轴"
 
 #. :src: bpy.types.ParticleInstanceModifier.index_layer_name
 msgid "Index Layer Name"
-msgstr "活动层编号"
+msgstr "编号层名称"
 
 #. :src: bpy.types.ParticleInstanceModifier.index_layer_name
 msgid "Custom data layer name for the index"
-msgstr "索引的自定义数据层名称"
+msgstr "编号的自定义数据层名称"
 
 #. :src: bpy.types.ParticleInstanceModifier.object
 msgid "Object that has the particle system"
@@ -45616,7 +45616,7 @@ msgstr "粒子数量"
 
 #. :src: bpy.types.ParticleInstanceModifier.particle_amount
 msgid "Amount of particles to use for instancing"
-msgstr "未受随机坯面影响的粒子数量"
+msgstr "用于实体化的粒子数量"
 
 #. :src: bpy.types.ParticleInstanceModifier.particle_offset
 msgid "Particle Offset"
@@ -45646,11 +45646,11 @@ msgstr "沿路径的随机位置"
 
 #. :src: bpy.types.ParticleInstanceModifier.random_rotation
 msgid "Randomize rotation around path"
-msgstr "对所选坐标系轴向上的转角进行随机化设置"
+msgstr "沿路径的随机旋转"
 
 #. :src: bpy.types.ParticleInstanceModifier.rotation
 msgid "Rotation around path"
-msgstr "如何确定杆的极向轴"
+msgstr "沿路径的旋转"
 
 #. :src: bpy.types.ParticleInstanceModifier.show_alive
 msgid "Show instances when particles are alive"
@@ -45708,7 +45708,7 @@ msgstr "使用粒子尺寸缩放实例项"
 
 #. :src: bpy.types.ParticleInstanceModifier.value_layer_name
 msgid "Value Layer Name"
-msgstr "新遮罩层的名称"
+msgstr "数值层名称"
 
 #. :src: bpy.types.ParticleInstanceModifier.value_layer_name
 msgid "Custom data layer name for the randomized value"
@@ -45975,7 +45975,7 @@ msgstr "形变角度"
 
 #. :src: bpy.types.SimpleDeformModifier.deform_axis
 msgid "Deform around local axis"
-msgstr "形变轴"
+msgstr "沿自身轴向形变"
 
 #. :src: bpy.types.SimpleDeformModifier.deform_method:'TWIST'
 msgid "Rotate around the Z axis of the modifier space"
@@ -46032,7 +46032,7 @@ msgstr "不允许沿 Y 轴形变"
 
 #. :src: bpy.types.SimpleDeformModifier.lock_z
 msgid "Do not allow deformation along the Z axis"
-msgstr "不允许沿 X 轴锥化"
+msgstr "不允许沿 Z 轴形变"
 
 #. :src: bpy.types.SimpleDeformModifier.origin
 #. :src: bpy.types.ToolSettings.gpencil_stroke_placement_view3d:'ORIGIN'
@@ -46041,7 +46041,7 @@ msgstr "原点"
 
 #. :src: bpy.types.SimpleDeformModifier.origin
 msgid "Offset the origin and orientation of the deformation"
-msgstr "原心点偏移距离"
+msgstr "原心点与形变坐标系偏移距离"
 
 #. :src: bpy.types.SkinModifier
 msgid "Skin Modifier"
@@ -46236,7 +46236,7 @@ msgstr "在面边线的内、外表面之间创建循环边 (较慢, 不需要�
 
 #. :src: bpy.types.SolidifyModifier.use_rim_only
 msgid "Only Rim"
-msgstr "框"
+msgstr "仅边沿"
 
 #. :src: bpy.types.SolidifyModifier.use_rim_only
 msgid "Only add the rim to the original data"
@@ -46260,7 +46260,7 @@ msgstr "渲染时所使用的细分级"
 
 #. :src: bpy.types.SurfaceDeformModifier
 msgid "SurfaceDeform Modifier"
-msgstr "修改器"
+msgstr "表面形变修改器"
 
 #. :src: bpy.types.SurfaceDeformModifier.falloff
 msgid "Interpolation falloff"
@@ -46272,7 +46272,7 @@ msgstr ""
 
 #. :src: bpy.types.SurfaceDeformModifier.is_bound
 msgid "Whether geometry has been bound to target mesh"
-msgstr "几何体是否已被绑定到控制罩体"
+msgstr "无论几何体是否已被绑定到目标网格上"
 
 #. :src: bpy.types.SurfaceModifier
 msgid "Surface Modifier"
@@ -46293,7 +46293,7 @@ msgstr "将网格三角化"
 
 #. :src: bpy.types.TriangulateModifier.keep_custom_normals
 msgid "Keep Normals"
-msgstr "抑制"
+msgstr "保持法向"
 
 #. :src: bpy.types.TriangulateModifier.keep_custom_normals
 msgid ""
@@ -46322,7 +46322,7 @@ msgstr "多边形划分方法"
 #. :src: bpy.types.MESH_OT_quads_convert_to_tris.ngon_method
 #. :src: bpy.types.WM_OT_alembic_export.ngon_method
 msgid "Method for splitting the polygons into triangles"
-msgstr "矩形面拆分三角面的方式"
+msgstr "拆分多边形为三角面的方式"
 
 #. :src: bpy.types.TriangulateModifier.ngon_method:'BEAUTY'
 #. :src: bpy.types.MESH_OT_fill.use_beauty
@@ -46357,7 +46357,7 @@ msgstr "矩形面拆分三角面的方式"
 #. :src: bpy.types.WM_OT_alembic_export.ngon_method:'BEAUTY'
 #. :src: bpy.types.WM_OT_alembic_export.quad_method:'BEAUTY'
 msgid "Beauty "
-msgstr "布线优化 "
+msgstr "布线优化"
 
 #. :src: bpy.types.TriangulateModifier.quad_method:'BEAUTY'
 #. :src: bpy.types.MESH_OT_quads_convert_to_tris.quad_method:'BEAUTY'
@@ -46988,7 +46988,7 @@ msgstr "周期性的波浪效果"
 
 #. :src: bpy.types.WaveModifier.use_normal
 msgid "Displace along normals"
-msgstr "沿发线位移"
+msgstr "沿法向置换"
 
 #. :src: bpy.types.WaveModifier.use_normal_x
 msgid "X Normal"
@@ -47032,19 +47032,19 @@ msgstr "波浪间距"
 
 #. :src: bpy.types.WeightedNormalModifier
 msgid "WeightedNormal Modifier"
-msgstr "修改器"
+msgstr "权重法向修改器"
 
 #. :src: bpy.types.WeightedNormalModifier.face_influence
 msgid "Face Influence"
-msgstr "面"
+msgstr "面影响"
 
 #. :src: bpy.types.WeightedNormalModifier.face_influence
 msgid "Use influence of face for weighting"
-msgstr "使用顶点组影响精减结果"
+msgstr "对权重使用面影响"
 
 #. :src: bpy.types.WeightedNormalModifier.keep_sharp
 msgid "Keep Sharp"
-msgstr "抑制"
+msgstr "保持锐边"
 
 #. :src: bpy.types.WeightedNormalModifier.keep_sharp
 msgid ""
@@ -47058,7 +47058,7 @@ msgstr "权重模式"
 
 #. :src: bpy.types.WeightedNormalModifier.mode
 msgid "Weighted vertex normal mode to use"
-msgstr "权重顶点绘制下使用正常模式"
+msgstr "使用的加权顶点法向模式"
 
 #. :src: bpy.types.WeightedNormalModifier.mode:'FACE_AREA'
 #. :src: bpy.types.MESH_OT_average_normals.average_type:'FACE_AREA'
@@ -47077,7 +47077,7 @@ msgstr ""
 
 #. :src: bpy.types.WeightedNormalModifier.mode:'FACE_AREA_WITH_ANGLE'
 msgid "Face Area And Angle"
-msgstr "面夹角最大值"
+msgstr "面积与角度"
 
 #. :src: bpy.types.WeightedNormalModifier.mode:'FACE_AREA_WITH_ANGLE'
 msgid "Generated normals weighted by both face area and angle"
@@ -47090,7 +47090,7 @@ msgstr ""
 
 #. :src: bpy.types.WeightedNormalModifier.vertex_group
 msgid "Vertex group name for modifying the selected areas"
-msgstr "应用波动效果的顶点组名称"
+msgstr "用于修改选中区域的顶点组名称"
 
 #. :src: bpy.types.WeightedNormalModifier.weight
 msgid ""
@@ -47171,7 +47171,7 @@ msgstr "在一个帧区间内, 一个元素的世界空间位置缓存"
 
 #. :src: bpy.types.MotionPath.color
 msgid "Custom color for motion path"
-msgstr "自定义颜色"
+msgstr 用于运动路径的自定义颜色"
 
 #. :src: bpy.types.MotionPath.frame_end
 msgid "End frame of the stored range"
@@ -47195,11 +47195,11 @@ msgstr "缓存的帧数量"
 
 #. :src: bpy.types.MotionPath.line_thickness
 msgid "Line thickness"
-msgstr "线条厚度"
+msgstr "线条宽度"
 
 #. :src: bpy.types.MotionPath.line_thickness
 msgid "Line thickness for drawing path"
-msgstr "针对 Freestyle 的线条宽度模式"
+msgstr "用于绘制路径的线条宽度"
 
 #. :src: bpy.types.MotionPath.lines
 msgid "Draw straight lines between keyframe points"
@@ -47220,15 +47220,15 @@ msgstr "使用骨骼头"
 #. :src: bpy.types.MotionPath.use_bone_head
 msgid ""
 "For PoseBone paths, use the bone head location when calculating this path"
-msgstr "对于姿态骨骼的路径, 当计算此路径时, 使用骨骼的头位置"
+msgstr "对于姿态骨骼的路径, 当计算此路径时, 使用骨骼的首端位置"
 
 #. :src: bpy.types.MotionPath.use_custom_color
 msgid "Custom colors"
-msgstr "使用自定义颜色"
+msgstr "自定义颜色"
 
 #. :src: bpy.types.MotionPath.use_custom_color
 msgid "Use custom color for this motion path"
-msgstr "可供使用的自定义配色"
+msgstr "用于该运动路径的自定义配色"
 
 #. :src: bpy.types.MotionPathVert
 msgid "Motion Path Cache Point"
@@ -47392,7 +47392,7 @@ msgstr "影片或图像序列中的当前帧号"
 #. :src: bpy.types.MovieClipUser.proxy_render_size
 #. :src: bpy.types.SpaceSequenceEditor.proxy_render_size
 msgid "Proxy Render Size"
-msgstr "代理渲染大小"
+msgstr "代理渲染尺寸"
 
 #. :src: bpy.types.MovieClipUser.proxy_render_size
 msgid "Draw preview using full resolution or different proxy resolutions"
@@ -47511,7 +47511,7 @@ msgstr "K1"
 #. :src: bpy.types.MovieTrackingCamera.division_k1
 #. :src: bpy.types.MovieTrackingCamera.division_k2
 msgid "First coefficient of second order division distortion"
-msgstr "三阶多项式径向畸变的第一项系数"
+msgstr "二阶细分畸变的第一项系数"
 
 #. :src: bpy.types.MovieTrackingCamera.division_k2
 #. :src: bpy.types.MovieTrackingCamera.k2
@@ -47709,11 +47709,11 @@ msgstr "相对于标记的规格化坐标中的搜索区块左下角"
 
 #. :src: bpy.types.MovieTrackingMarkers
 msgid "Movie Tracking Markers"
-msgstr "用于跟随影片追踪轨"
+msgstr "影片追踪标记"
 
 #. :src: bpy.types.MovieTrackingMarkers
 msgid "Collection of markers for movie tracking track"
-msgstr "轨迹中的标记集"
+msgstr "用于影片跟踪路径的标记集合"
 
 #. :src: bpy.types.MovieTrackingObject
 msgid "Movie tracking object data"
@@ -47768,21 +47768,21 @@ msgstr "活动的轨"
 #. :src: bpy.types.MovieTrackingObjectTracks.active
 #. :src: bpy.types.MovieTrackingTracks.active
 msgid "Active track in this tracking data object"
-msgstr "影片追踪平面轨迹数据"
+msgstr "该跟踪数据物体中的活动轨迹"
 
 #. :src: bpy.types.MovieTrackingObjectTracks
 #. :src: bpy.types.MovieTrackingTracks
 msgid "Movie Tracks"
-msgstr "轨迹"
+msgstr "影片轨迹"
 
 #. :src: bpy.types.MovieTrackingObjectTracks
 #. :src: bpy.types.MovieTrackingTracks
 msgid "Collection of movie tracking tracks"
-msgstr "当前追踪数据物体的平面追踪集合"
+msgstr "影片跟踪轨迹集合"
 
 #. :src: bpy.types.MovieTrackingObjects
 msgid "Movie Objects"
-msgstr "物体"
+msgstr "影片物体"
 
 #. :src: bpy.types.MovieTrackingObjects
 msgid "Collection of movie tracking objects"
@@ -47812,15 +47812,15 @@ msgstr ""
 
 #. :src: bpy.types.MovieTrackingPlaneMarkers
 msgid "Movie Tracking Plane Markers"
-msgstr "影片追踪平面轨迹数据"
+msgstr "影片跟踪平面标记"
 
 #. :src: bpy.types.MovieTrackingPlaneMarkers
 msgid "Collection of markers for movie tracking plane track"
-msgstr "影片追踪平面轨迹数据"
+msgstr "用于影片跟踪平面轨迹的标记集合"
 
 #. :src: bpy.types.MovieTrackingPlaneTrack
 msgid "Movie tracking plane track data"
-msgstr "影片追踪平面轨迹数据"
+msgstr "影片跟踪平面轨迹数据"
 
 #. :src: bpy.types.MovieTrackingPlaneTrack
 msgid "Match-moving plane track data for tracking"
@@ -47867,23 +47867,23 @@ msgstr "自动在可用的函数曲线中插入关键帧"
 
 #. :src: bpy.types.MovieTrackingPlaneTracks
 msgid "Movie Plane Tracks"
-msgstr "平面追踪轨迹"
+msgstr "影片平面轨迹"
 
 #. :src: bpy.types.MovieTrackingPlaneTracks
 msgid "Collection of movie tracking plane tracks"
-msgstr "当前追踪数据物体的平面追踪集合"
+msgstr "影片跟踪平面轨迹的集合"
 
 #. :src: bpy.types.MovieTrackingPlaneTracks.active
 msgid "Active Plane Track"
-msgstr "无激活的平面追踪"
+msgstr "活动平面跟踪"
 
 #. :src: bpy.types.MovieTrackingPlaneTracks.active
 msgid "Active plane track in this tracking data object"
-msgstr "用于追踪的镜头追踪轨迹数据"
+msgstr "该跟踪数据物体的活动平面轨迹"
 
 #. :src: bpy.types.MovieTrackingReconstructedCameras
 msgid "Reconstructed Cameras"
-msgstr "已重建"
+msgstr "已重建相机"
 
 #. :src: bpy.types.MovieTrackingReconstructedCameras
 #. :src: bpy.types.MovieTrackingReconstruction.cameras
@@ -47892,7 +47892,7 @@ msgstr "已解算相机集合"
 
 #. :src: bpy.types.MovieTrackingReconstruction
 msgid "Movie tracking reconstruction data"
-msgstr "影片追踪重建数据"
+msgstr "影片跟踪重建数据"
 
 #. :src: bpy.types.MovieTrackingReconstruction
 msgid "Match-moving reconstruction data from tracker"
@@ -47908,7 +47908,7 @@ msgstr "追踪数据包含有效的重建信息"
 
 #. :src: bpy.types.MovieTrackingSettings
 msgid "Movie tracking settings"
-msgstr "影片追踪设置"
+msgstr "影片跟踪设置"
 
 #. :src: bpy.types.MovieTrackingSettings
 msgid "Match moving settings"
@@ -48274,7 +48274,7 @@ msgstr "活动旋转轨迹编号"
 
 #. :src: bpy.types.MovieTrackingStabilization.active_rotation_track_index
 msgid "Index of active track in rotation stabilization tracks list"
-msgstr "稳像轨迹列表中的激活轨迹编号"
+msgstr "旋转稳像轨迹列表中的活动轨迹编号"
 
 #. :src: bpy.types.MovieTrackingStabilization.active_track_index
 msgid "Active Track Index"
@@ -48282,7 +48282,7 @@ msgstr "激活轨迹编号"
 
 #. :src: bpy.types.MovieTrackingStabilization.active_track_index
 msgid "Index of active track in translation stabilization tracks list"
-msgstr "稳像轨迹列表中的激活轨迹编号"
+msgstr "平移稳像轨迹列表中的活动轨迹编号"
 
 #. :src: bpy.types.MovieTrackingStabilization.anchor_frame
 msgid "Anchor Frame"
@@ -48333,7 +48333,7 @@ msgstr "双立方"
 
 #. :src: bpy.types.MovieTrackingStabilization.filter_type:'BICUBIC'
 msgid "High quality pixel interpolation"
-msgstr "平滑的高质量插值,但是更慢"
+msgstr "高质量像素插值"
 
 #. :src: bpy.types.MovieTrackingStabilization.influence_location
 msgid "Location Influence"
@@ -48362,12 +48362,12 @@ msgstr "针对镜头缩放的稳像算法影响量"
 
 #. :src: bpy.types.MovieTrackingStabilization.rotation_tracks
 msgid "Rotation Tracks"
-msgstr "选择稳像旋转轨"
+msgstr "旋转轨迹"
 
 #. :src: bpy.types.MovieTrackingStabilization.rotation_tracks
 #. :src: bpy.types.MovieTrackingStabilization.tracks
 msgid "Collection of tracks used for 2D stabilization (translation)"
-msgstr "用于稳像的轨迹集合"
+msgstr "用于二维稳像(平移)的轨迹集合"
 
 #. :src: bpy.types.MovieTrackingStabilization.scale_max
 msgid "Maximal Scale"
@@ -48387,7 +48387,7 @@ msgstr ""
 
 #. :src: bpy.types.MovieTrackingStabilization.target_position
 msgid "Expected Position"
-msgstr "预期旋转"
+msgstr "预期位置"
 
 #. :src: bpy.types.MovieTrackingStabilization.target_position
 msgid ""
@@ -48506,11 +48506,11 @@ msgstr "与标记停止追踪时所处的图像边界之间的距离"
 
 #. :src: bpy.types.MovieTrackingTrack.offset
 msgid "Offset of track from the parenting point"
-msgstr "父级关联点的 X 向偏移"
+msgstr "来自父级关联点的轨迹偏移"
 
 #. :src: bpy.types.MovieTrackingTrack.select
 msgid "Track is selected"
-msgstr "轨迹已选中"
+msgstr "已选中轨迹"
 
 #. :src: bpy.types.MovieTrackingTrack.select_anchor
 msgid "Select Anchor"
@@ -48518,7 +48518,7 @@ msgstr "设置锚点"
 
 #. :src: bpy.types.MovieTrackingTrack.select_anchor
 msgid "Track's anchor point is selected"
-msgstr "轨迹锚点已选中"
+msgstr "已选中轨迹锚点"
 
 #. :src: bpy.types.MovieTrackingTrack.select_pattern
 msgid "Select Pattern"
@@ -48636,7 +48636,7 @@ msgstr "修改器在参考动作中影响函数曲线"
 
 #. :src: bpy.types.NlaStrip.mute
 msgid "Disable NLA Strip evaluation"
-msgstr "NLA 片段"
+msgstr "禁用NLA 片段解算"
 
 #. :src: bpy.types.NlaStrip.repeat
 msgid "Number of times to repeat the action range"
@@ -48759,7 +48759,7 @@ msgstr ""
 
 #. :src: bpy.types.NlaStripFCurves
 msgid "NLA-Strip F-Curves"
-msgstr "用于操控片段的影响与时序的函数曲线"
+msgstr "NLA片段函数曲线"
 
 #. :src: bpy.types.NlaStripFCurves
 msgid "Collection of NLA strip F-Curves"
@@ -106790,11 +106790,11 @@ msgstr "沿路径创建"
 
 #: scripts/startup/bl_ui/properties_data_modifier.py:809
 msgid "Index Layer"
-msgstr "活动层编号"
+msgstr ""
 
 #: scripts/startup/bl_ui/properties_data_modifier.py:810
 msgid "Value Layer"
-msgstr "层次"
+msgstr ""
 
 #: scripts/startup/bl_ui/properties_data_modifier.py:813
 msgid "Settings can be found inside the Particle context"
