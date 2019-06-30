@@ -41,7 +41,7 @@ msgstr ""
 "Language: zh_CN\n"
 "=====X-Generator: Poedit 1.6.9\n"
 "Language: zh_CN>>>>>> .r306\n"
-"X-Generator: Poedit 2.2.3\n"
+"X-Generator: Poedit 2.2.1\n"
 
 #. :src: bpy.types.ActionFCurves
 msgid "Action F-Curves"
@@ -62268,7 +62268,7 @@ msgstr "Gizmo调整"
 
 #. :src: bpy.types.GIZMOGROUP_OT_gizmo_tweak
 msgid "Tweak the active gizmo"
-msgstr "调整激活的Gizmo"
+msgstr "调整活动的Gizmo"
 
 #. :src: bpy.types.GPENCIL_OT_active_frame_delete
 msgctxt "Operator"
@@ -62277,7 +62277,7 @@ msgstr "删除活动帧"
 
 #. :src: bpy.types.GPENCIL_OT_active_frame_delete
 msgid "Delete the active frame for the active Grease Pencil Layer"
-msgstr "删除所有活动帧的可编辑蜡笔图层"
+msgstr "为活动的蜡笔层删除活动帧"
 
 #. :src: bpy.types.GPENCIL_OT_active_frames_delete_all
 msgctxt "Operator"
@@ -62364,7 +62364,7 @@ msgstr "在全部层创建关键帧，而非仅活动层"
 #. :src: bpy.types.GPENCIL_OT_brush_presets_create
 msgctxt "Operator"
 msgid "Create Preset Brushes"
-msgstr "预设"
+msgstr "创建预设笔刷"
 
 #. :src: bpy.types.GPENCIL_OT_brush_presets_create
 msgid "Create a set of predefined Grease Pencil drawing brushes"
@@ -62373,7 +62373,7 @@ msgstr ""
 #. :src: bpy.types.GPENCIL_OT_color_hide
 msgctxt "Operator"
 msgid "Hide Color(s)"
-msgstr "未找到顶点色 '%s'"
+msgstr "隐藏颜色'"
 
 #. :src: bpy.types.GPENCIL_OT_color_hide
 msgid "Hide selected/unselected Grease Pencil colors"
@@ -62381,7 +62381,7 @@ msgstr "隐藏选中/未选中的蜡笔颜色"
 
 #. :src: bpy.types.GPENCIL_OT_color_hide.unselected
 msgid "Hide unselected rather than selected colors"
-msgstr "隐藏未选中项而不是选择项"
+msgstr "隐藏未选中颜色而非选中"
 
 #. :src: bpy.types.GPENCIL_OT_color_isolate
 msgctxt "Operator"
@@ -62397,7 +62397,7 @@ msgstr ""
 #. :src: bpy.types.GPENCIL_OT_color_isolate.affect_visibility
 #. :src: bpy.types.GPENCIL_OT_layer_isolate.affect_visibility
 msgid "Affect Visibility"
-msgstr "Affect可见性"
+msgstr "影响可见性"
 
 #. :src: bpy.types.GPENCIL_OT_color_isolate.affect_visibility
 #. :src: bpy.types.GPENCIL_OT_layer_isolate.affect_visibility
@@ -62407,7 +62407,7 @@ msgstr ""
 #. :src: bpy.types.GPENCIL_OT_color_lock_all
 msgctxt "Operator"
 msgid "Lock All Colors"
-msgstr "全部锁定"
+msgstr "锁定全部颜色"
 
 #. :src: bpy.types.GPENCIL_OT_color_lock_all
 msgid ""
@@ -62418,7 +62418,7 @@ msgstr "锁定所有蜡笔颜色，避免意外修改"
 #. :src: bpy.types.GPENCIL_OT_color_reveal
 msgctxt "Operator"
 msgid "Show All Colors"
-msgstr "所有顶点色"
+msgstr "显示全部颜色"
 
 #. :src: bpy.types.GPENCIL_OT_color_reveal
 msgid "Unhide all hidden Grease Pencil colors"
@@ -62436,12 +62436,12 @@ msgstr ""
 
 #. :src: bpy.types.GPENCIL_OT_color_select.deselect
 msgid "Unselect strokes"
-msgstr "笔触"
+msgstr "取消选中笔画"
 
 #. :src: bpy.types.GPENCIL_OT_color_unlock_all
 msgctxt "Operator"
 msgid "Unlock All Colors"
-msgstr "解锁全部层"
+msgstr "解锁全部颜色"
 
 #. :src: bpy.types.GPENCIL_OT_color_unlock_all
 msgid "Unlock all Grease Pencil colors so that they can be edited"
@@ -62548,7 +62548,7 @@ msgstr "动画路径"
 
 #. :src: bpy.types.GPENCIL_OT_convert.type:'CURVE'
 msgid "Smooth Bezier curve"
-msgstr "贝塞尔曲线"
+msgstr "平滑贝塞尔曲线"
 
 #. :src: bpy.types.GPENCIL_OT_convert.type:'POLY'
 msgid "Polygon Curve"
@@ -62592,20 +62592,20 @@ msgstr "设置经转换的蜡笔层是否含有有效的时序数据 (内部使�
 
 #. :src: bpy.types.GPENCIL_OT_convert_old_files
 msgid "Convert 2.7x grease pencil files to 2.80"
-msgstr "转换蜡笔"
+msgstr "转换2.7x版本蜡笔为2.80版"
 
 #. :src: bpy.types.GPENCIL_OT_convert_old_files.annotation
 msgid "Convert to Annotations"
-msgstr "标注"
+msgstr "转换为标注"
 
 #. :src: bpy.types.GPENCIL_OT_copy
 msgctxt "Operator"
 msgid "Copy Strokes"
-msgstr "复制画笔"
+msgstr "复制笔画"
 
 #. :src: bpy.types.GPENCIL_OT_copy
 msgid "Copy selected Grease Pencil points and strokes"
-msgstr "擦除蜡笔线段"
+msgstr "复制选中蜡笔控制点与笔画"
 
 #. :src: bpy.types.GPENCIL_OT_data_add
 msgctxt "Operator"
@@ -62614,7 +62614,7 @@ msgstr "新增蜡笔"
 
 #. :src: bpy.types.GPENCIL_OT_data_add
 msgid "Add new Grease Pencil data-block"
-msgstr "新增蜡笔"
+msgstr "新增蜡笔数据块"
 
 #. :src: bpy.types.GPENCIL_OT_data_unlink
 msgctxt "Operator"
@@ -62631,15 +62631,15 @@ msgstr ""
 
 #. :src: bpy.types.GPENCIL_OT_delete.type
 msgid "Method used for deleting Grease Pencil data"
-msgstr "删除网格数据的方法"
+msgstr "删除蜡笔数据的方法"
 
 #. :src: bpy.types.GPENCIL_OT_delete.type:'POINTS'
 msgid "Delete selected points and split strokes into segments"
-msgstr "删除所选控制点或片段"
+msgstr "删除所选控制点并分割笔画为线段"
 
 #. :src: bpy.types.GPENCIL_OT_delete.type:'STROKES'
 msgid "Delete selected strokes"
-msgstr "将所选项吸附到光标"
+msgstr "删除选中笔画"
 
 #. :src: bpy.types.GPENCIL_OT_delete.type:'FRAME'
 msgid "Delete active frame"
@@ -62648,7 +62648,7 @@ msgstr "删除活动帧"
 #. :src: bpy.types.GPENCIL_OT_dissolve
 msgctxt "Operator"
 msgid "Dissolve"
-msgstr "消融"
+msgstr "融并"
 
 #. :src: bpy.types.GPENCIL_OT_dissolve
 msgid "Delete selected points without splitting strokes"
@@ -62660,23 +62660,23 @@ msgstr ""
 
 #. :src: bpy.types.GPENCIL_OT_dissolve.type:'POINTS'
 msgid "Dissolve selected points"
-msgstr "消融"
+msgstr "融并所选控制点"
 
 #. :src: bpy.types.GPENCIL_OT_dissolve.type:'BETWEEN'
 msgid "Dissolve Between"
-msgstr "消融"
+msgstr "融并其间"
 
 #. :src: bpy.types.GPENCIL_OT_dissolve.type:'BETWEEN'
 msgid "Dissolve points between selected points"
-msgstr "复制所选控制点及所含片段"
+msgstr "融并所选控制点之间的控制点"
 
 #. :src: bpy.types.GPENCIL_OT_dissolve.type:'UNSELECT'
 msgid "Dissolve Unselect"
-msgstr "消融"
+msgstr "融并未选中"
 
 #. :src: bpy.types.GPENCIL_OT_dissolve.type:'UNSELECT'
 msgid "Dissolve all unselected points"
-msgstr "改变全部曲线点的选区"
+msgstr "融并全部未选中控制点"
 
 #. :src: bpy.types.GPENCIL_OT_draw
 msgctxt "Operator"
@@ -62685,11 +62685,11 @@ msgstr "蜡笔绘制"
 
 #. :src: bpy.types.GPENCIL_OT_draw
 msgid "Draw a new stroke in the active Grease Pencil Object"
-msgstr "将活动的蜡笔层转换为一个新的曲线物体"
+msgstr "在活动的蜡笔物体上绘制新的笔画"
 
 #. :src: bpy.types.GPENCIL_OT_draw.disable_fill
 msgid "No Fill Areas"
-msgstr "填充"
+msgstr "无填充区域"
 
 #. :src: bpy.types.GPENCIL_OT_draw.disable_fill
 msgid "Disable fill to use stroke as fill boundary"
@@ -62697,19 +62697,19 @@ msgstr ""
 
 #. :src: bpy.types.GPENCIL_OT_draw.disable_straight
 msgid "No Straight lines"
-msgstr "绘制直线"
+msgstr "无直线"
 
 #. :src: bpy.types.GPENCIL_OT_draw.disable_straight
 msgid "Disable key for straight lines"
-msgstr "绘制直线"
+msgstr "禁用绘制直线"
 
 #. :src: bpy.types.GPENCIL_OT_draw.guide_last_angle
 msgid "Speed guide angle"
-msgstr "速率"
+msgstr "速度引导角度"
 
 #. :src: bpy.types.GPENCIL_OT_draw.mode:'ERASER'
 msgid "Erase Grease Pencil strokes"
-msgstr "擦除蜡笔线段"
+msgstr "擦除蜡笔笔画"
 
 #. :src: bpy.types.GPENCIL_OT_duplicate
 #. :src: bpy.types.GPENCIL_OT_duplicate_move
@@ -62744,38 +62744,38 @@ msgstr ""
 #. :src: bpy.types.GPENCIL_OT_sculptmode_toggle.back
 #. :src: bpy.types.GPENCIL_OT_weightmode_toggle.back
 msgid "Return to Previous Mode"
-msgstr "回车"
+msgstr "返回前一模式"
 
 #. :src: bpy.types.GPENCIL_OT_editmode_toggle.back
 #. :src: bpy.types.GPENCIL_OT_paintmode_toggle.back
 #. :src: bpy.types.GPENCIL_OT_sculptmode_toggle.back
 #. :src: bpy.types.GPENCIL_OT_weightmode_toggle.back
 msgid "Return to previous mode"
-msgstr "回车"
+msgstr "返回前一模式"
 
 #. :src: bpy.types.GPENCIL_OT_extrude
 #. :src: bpy.types.GPENCIL_OT_extrude_move
 msgctxt "Operator"
 msgid "Extrude Stroke Points"
-msgstr "笔触数据点"
+msgstr "挤出笔画控制点"
 
 #. :src: bpy.types.GPENCIL_OT_extrude
 #. :src: bpy.types.GPENCIL_OT_extrude_move.GPENCIL_OT_extrude
 msgid "Extrude the selected Grease Pencil points"
-msgstr "活动的物体不是一个被选中的蜡笔"
+msgstr "挤出选中的蜡笔控制点"
 
 #. :src: bpy.types.GPENCIL_OT_extrude_move
 msgid "Extrude selected points and move them"
-msgstr "复制所选节点并移动"
+msgstr "复制所选控制点并移动"
 
 #. :src: bpy.types.GPENCIL_OT_extrude_move.GPENCIL_OT_extrude
 msgid "Extrude Stroke Points"
-msgstr "笔触数据点"
+msgstr "挤出笔画控制点"
 
 #. :src: bpy.types.GPENCIL_OT_fill
 msgctxt "Operator"
 msgid "Grease Pencil Fill"
-msgstr "蜡笔的笔触绘制(填充)"
+msgstr "蜡笔填充"
 
 #. :src: bpy.types.GPENCIL_OT_fill
 msgid "Fill with color the shape formed by strokes"
@@ -62783,46 +62783,46 @@ msgstr ""
 
 #. :src: bpy.types.GPENCIL_OT_fill.on_back
 msgid "Draw On Back"
-msgstr "自由线"
+msgstr "在后方绘制"
 
 #. :src: bpy.types.GPENCIL_OT_fill.on_back
 msgid "Send new stroke to Back"
-msgstr "移到最后"
+msgstr "将新建笔画送至下方"
 
 #. :src: bpy.types.GPENCIL_OT_frame_clean_fill
 msgctxt "Operator"
 msgid "Clean Fill Boundaries"
-msgstr "边界"
+msgstr "清除填充边界"
 
 #. :src: bpy.types.GPENCIL_OT_frame_clean_fill
 msgid "Remove 'no fill' boundary strokes"
-msgstr "填充洞面（有界循环边）"
+msgstr "删除‘非填充’边界笔画"
 
 #. :src: bpy.types.GPENCIL_OT_frame_clean_fill.mode:'ACTIVE'
 msgid "Active Frame Only"
-msgstr "仅活动的"
+msgstr "仅活动帧"
 
 #. :src: bpy.types.GPENCIL_OT_frame_clean_fill.mode:'ACTIVE'
 msgid "Clean active frame only"
-msgstr "仅活动的"
+msgstr "仅清除活动帧"
 
 #. :src: bpy.types.GPENCIL_OT_frame_clean_fill.mode:'ALL'
 #. :src: bpy.types.GPENCIL_OT_layer_duplicate_object.mode:'ALL'
 msgid "All Frames"
-msgstr "解算器重叠(覆盖)至所有帧"
+msgstr "全部帧"
 
 #. :src: bpy.types.GPENCIL_OT_frame_clean_fill.mode:'ALL'
 msgid "Clean all frames in all layers"
-msgstr "锁定全部层"
+msgstr "清除全部层上的全部帧"
 
 #. :src: bpy.types.GPENCIL_OT_frame_clean_loose
 msgctxt "Operator"
 msgid "Clean Loose points"
-msgstr "松散"
+msgstr "清除松散点"
 
 #. :src: bpy.types.GPENCIL_OT_frame_clean_loose
 msgid "Remove loose points"
-msgstr "移除松散边"
+msgstr "删除松散点"
 
 #. :src: bpy.types.GPENCIL_OT_frame_clean_loose.limit
 #. :src: bpy.types.OBJECT_OT_vertex_group_clean.limit
@@ -62839,7 +62839,7 @@ msgstr ""
 #. :src: bpy.types.GPENCIL_OT_frame_duplicate
 msgctxt "Operator"
 msgid "Duplicate Frame"
-msgstr "复制活动帧"
+msgstr "复制帧"
 
 #. :src: bpy.types.GPENCIL_OT_frame_duplicate
 msgid "Make a copy of the active Grease Pencil Frame"
@@ -62847,16 +62847,16 @@ msgstr ""
 
 #. :src: bpy.types.GPENCIL_OT_frame_duplicate.mode:'ACTIVE'
 msgid "Duplicate frame in active layer only"
-msgstr "复制活动帧"
+msgstr "仅复制活动层上的帧"
 
 #. :src: bpy.types.GPENCIL_OT_frame_duplicate.mode:'ALL'
 msgid "Duplicate active frames in all layers"
-msgstr "删除所有活动层"
+msgstr "复制所有活动上的活动帧"
 
 #. :src: bpy.types.GPENCIL_OT_generate_weights
 msgctxt "Operator"
 msgid "Generate Automatic Weights"
-msgstr "生成权重"
+msgstr "生成自动权重"
 
 #. :src: bpy.types.GPENCIL_OT_generate_weights
 msgid "Generate automatic weights for armatures (requires armature modifier)"
@@ -62864,7 +62864,7 @@ msgstr ""
 
 #. :src: bpy.types.GPENCIL_OT_generate_weights.armature
 msgid "Armature to use"
-msgstr "用作骨骼遮罩源的骨架"
+msgstr "使用的骨架"
 
 #. :src: bpy.types.GPENCIL_OT_generate_weights.decay
 msgid "Decay"
@@ -62876,11 +62876,11 @@ msgstr ""
 
 #. :src: bpy.types.GPENCIL_OT_generate_weights.mode:'NAME'
 msgid "Empty Groups"
-msgstr "附带空顶点组"
+msgstr "空组"
 
 #. :src: bpy.types.GPENCIL_OT_generate_weights.mode:'AUTO'
 msgid "Automatic Weights"
-msgstr "附带自动权重"
+msgstr "自动权重"
 
 #. :src: bpy.types.GPENCIL_OT_generate_weights.ratio
 msgid "Ratio between bone length and influence radius"
@@ -62889,24 +62889,24 @@ msgstr ""
 #. :src: bpy.types.GPENCIL_OT_guide_rotate
 msgctxt "Operator"
 msgid "Rotate Guide Angle"
-msgstr "曲线引导"
+msgstr "旋转引导角度"
 
 #. :src: bpy.types.GPENCIL_OT_guide_rotate
 msgid "Rotate guide angle"
-msgstr "曲线引导"
+msgstr "旋转引导角度"
 
 #. :src: bpy.types.GPENCIL_OT_guide_rotate.angle
 msgid "Guide angle"
-msgstr "曲线引导"
+msgstr "引导角度"
 
 #. :src: bpy.types.GPENCIL_OT_guide_rotate.increment
 msgid "Increment angle"
-msgstr "增量"
+msgstr "增量角度"
 
 #. :src: bpy.types.GPENCIL_OT_hide
 msgctxt "Operator"
 msgid "Hide Layer(s)"
-msgstr "在活动视图层中隐藏该集合"
+msgstr "隐藏层"
 
 #. :src: bpy.types.GPENCIL_OT_hide
 msgid "Hide selected/unselected Grease Pencil layers"
@@ -62915,7 +62915,7 @@ msgstr "隐藏选中/未选中的蜡笔图层"
 #. :src: bpy.types.GPENCIL_OT_hide.unselected
 #. :src: bpy.types.MASK_OT_hide_view_set.unselected
 msgid "Hide unselected rather than selected layers"
-msgstr "隐藏未选中项而不是选择的层"
+msgstr "隐藏未选中项而非已选中的层"
 
 #. :src: bpy.types.GPENCIL_OT_interpolate
 msgctxt "Operator"
@@ -62946,7 +62946,7 @@ msgstr ""
 #. :src: bpy.types.GPENCIL_OT_interpolate_sequence
 msgctxt "Operator"
 msgid "Interpolate Sequence"
-msgstr "插值"
+msgstr "插值顺序"
 
 #. :src: bpy.types.GPENCIL_OT_interpolate_sequence
 msgid ""
@@ -62965,11 +62965,11 @@ msgstr ""
 #. :src: bpy.types.GPENCIL_OT_layer_change
 msgctxt "Operator"
 msgid "Change Layer"
-msgstr "更改字符"
+msgstr "更改层"
 
 #. :src: bpy.types.GPENCIL_OT_layer_change
 msgid "Change active Grease Pencil layer"
-msgstr "蜡笔图层在视图中可见"
+msgstr "更改活动蜡笔图层"
 
 #. :src: bpy.types.GPENCIL_OT_layer_duplicate
 msgctxt "Operator"
@@ -62978,25 +62978,25 @@ msgstr "复制层"
 
 #. :src: bpy.types.GPENCIL_OT_layer_duplicate
 msgid "Make a copy of the active Grease Pencil layer"
-msgstr "在列表中向下移动活动蜡笔层"
+msgstr "创建活动蜡笔层副本"
 
 #. :src: bpy.types.GPENCIL_OT_layer_duplicate_object
 msgctxt "Operator"
 msgid "Duplicate Layer to new Object"
-msgstr "新建层"
+msgstr "复制图层到新物体"
 
 #. :src: bpy.types.GPENCIL_OT_layer_duplicate_object
 msgid "Make a copy of the active Grease Pencil layer to new object"
-msgstr "将活动的蜡笔层转换为一个新的曲线物体"
+msgstr "复制活动蜡笔图层到新物体"
 
 #. :src: bpy.types.GPENCIL_OT_layer_duplicate_object.object
 msgid "Name of the destination object"
-msgstr "无目标物体"
+msgstr "目标物体名称"
 
 #. :src: bpy.types.GPENCIL_OT_layer_isolate
 msgctxt "Operator"
 msgid "Isolate Layer"
-msgstr "隔离集合"
+msgstr "隔离层"
 
 #. :src: bpy.types.GPENCIL_OT_layer_isolate
 msgid ""
@@ -63008,11 +63008,11 @@ msgstr ""
 #: scripts/startup/bl_ui/properties_data_gpencil.py:101
 msgctxt "Operator"
 msgid "Merge Down"
-msgstr "向下"
+msgstr "向下合并"
 
 #. :src: bpy.types.GPENCIL_OT_layer_merge
 msgid "Merge the current layer with the layer below"
-msgstr "锁定当前层的显示帧"
+msgstr "将当前层与下方层合并"
 
 #. :src: bpy.types.GPENCIL_OT_layer_move
 msgctxt "Operator"
@@ -63030,7 +63030,7 @@ msgstr "移除层"
 
 #. :src: bpy.types.GPENCIL_OT_layer_remove
 msgid "Remove active Grease Pencil layer"
-msgstr "蜡笔图层在视图中可见"
+msgstr "删除活动蜡笔图层"
 
 #. :src: bpy.types.GPENCIL_OT_lock_all
 msgctxt "Operator"
@@ -63055,16 +63055,16 @@ msgstr ""
 #. :src: bpy.types.GPENCIL_OT_move_to_layer
 msgctxt "Operator"
 msgid "Move Strokes to Layer"
-msgstr "移动层"
+msgstr "移动笔画到层"
 
 #. :src: bpy.types.GPENCIL_OT_move_to_layer
 msgid "Move selected strokes to another layer"
-msgstr "将所选物体转换为其他类型"
+msgstr "将所选笔画移动其他层"
 
 #. :src: bpy.types.GPENCIL_OT_paintmode_toggle
 msgctxt "Operator"
 msgid "Strokes Paint Mode Toggle"
-msgstr "笔画雕刻模式切换"
+msgstr "笔画绘制模式切换"
 
 #. :src: bpy.types.GPENCIL_OT_paintmode_toggle
 msgid "Enter/Exit paint mode for Grease Pencil strokes"
@@ -63090,11 +63090,11 @@ msgstr ""
 
 #. :src: bpy.types.GPENCIL_OT_primitive.edges
 msgid "Number of polygon edges"
-msgstr "圆滑边 / 顶点的分段数"
+msgstr "多边形边数"
 
 #. :src: bpy.types.GPENCIL_OT_primitive.type
 msgid "Type of shape"
-msgstr "绝对形态键之间的插值计算类型"
+msgstr "形状类型"
 
 #. :src: bpy.types.GPENCIL_OT_reproject
 msgctxt "Operator"
@@ -63110,7 +63110,7 @@ msgstr ""
 
 #. :src: bpy.types.GPENCIL_OT_reproject.type
 msgid "Projection Type"
-msgstr "投影"
+msgstr "投影类型"
 
 #. :src: bpy.types.GPENCIL_OT_reproject.type:'FRONT'
 msgid "Reproject the strokes using the X-Z plane"
@@ -63147,7 +63147,7 @@ msgstr ""
 
 #. :src: bpy.types.GPENCIL_OT_reproject.type:'CURSOR'
 msgid "Reproject the strokes using the orienation of 3D cursor"
-msgstr "使用3D光标的方向重新投影画笔"
+msgstr "使用3D游标的方向重新投影画笔"
 
 #. :src: bpy.types.GPENCIL_OT_reveal
 msgid "Show all Grease Pencil layers"
@@ -63156,7 +63156,7 @@ msgstr "显示所有的蜡笔层"
 #. :src: bpy.types.GPENCIL_OT_sculpt_paint
 msgctxt "Operator"
 msgid "Stroke Sculpt"
-msgstr "蜡笔笔画雕刻模式"
+msgstr "笔画雕刻"
 
 #. :src: bpy.types.GPENCIL_OT_sculpt_paint
 msgid "Apply tweaks to strokes by painting over the strokes"
@@ -63179,11 +63179,11 @@ msgstr ""
 
 #. :src: bpy.types.GPENCIL_OT_select
 msgid "Select Grease Pencil strokes and/or stroke points"
-msgstr "用套索选择蜡笔笔触"
+msgstr "选择蜡笔笔画与/或控制点"
 
 #. :src: bpy.types.GPENCIL_OT_select.entire_strokes
 msgid "Entire Strokes"
-msgstr "全部笔画"
+msgstr "整个笔画"
 
 #. :src: bpy.types.GPENCIL_OT_select.entire_strokes
 msgid "Select entire strokes instead of just the nearest stroke vertex"
@@ -63215,7 +63215,7 @@ msgstr "选择所有与连接到已选中项的控制点"
 
 #. :src: bpy.types.GPENCIL_OT_select_alternate.unselect_ends
 msgid "Unselect Ends"
-msgstr "修建笔触末端"
+msgstr "不选中末端"
 
 #. :src: bpy.types.GPENCIL_OT_select_alternate.unselect_ends
 msgid "Do not select the first and last point of the stroke"
@@ -63230,23 +63230,23 @@ msgstr ""
 #. :src: bpy.types.VIEW3D_OT_select_box.mode:'XOR'
 #. :src: bpy.types.VIEW3D_OT_select_lasso.mode:'XOR'
 msgid "Inverts existing selection"
-msgstr "并入当前的选择集合"
+msgstr "反转现有选中项"
 
 #. :src: bpy.types.GPENCIL_OT_select_box.mode:'AND'
 #. :src: bpy.types.GPENCIL_OT_select_lasso.mode:'AND'
 #. :src: bpy.types.VIEW3D_OT_select_box.mode:'AND'
 #. :src: bpy.types.VIEW3D_OT_select_lasso.mode:'AND'
 msgid "Intersect existing selection"
-msgstr "交集"
+msgstr "与现有选中项相交"
 
 #. :src: bpy.types.GPENCIL_OT_select_circle
 msgid "Select Grease Pencil strokes using brush selection"
-msgstr "用套索选择蜡笔笔触"
+msgstr "用笔刷选择蜡笔笔画"
 
 #. :src: bpy.types.GPENCIL_OT_select_first
 msgctxt "Operator"
 msgid "Select First"
-msgstr "选中 / 弃选首点"
+msgstr "选中首点"
 
 #. :src: bpy.types.GPENCIL_OT_select_first
 msgid "Select first point in Grease Pencil strokes"
@@ -63255,12 +63255,12 @@ msgstr "用套索选择蜡笔笔触"
 #. :src: bpy.types.GPENCIL_OT_select_first.extend
 #. :src: bpy.types.GPENCIL_OT_select_last.extend
 msgid "Extend selection instead of deselecting all other selected points"
-msgstr "扩展选择, 而不是先取消选择"
+msgstr "扩展选择, 而不是取消选择"
 
 #. :src: bpy.types.GPENCIL_OT_select_first.only_selected_strokes
 #. :src: bpy.types.GPENCIL_OT_select_last.only_selected_strokes
 msgid "Selected Strokes Only"
-msgstr "插值选中笔画"
+msgstr "仅选中笔画"
 
 #. :src: bpy.types.GPENCIL_OT_select_first.only_selected_strokes
 msgid ""
@@ -63269,7 +63269,7 @@ msgstr ""
 
 #. :src: bpy.types.GPENCIL_OT_select_grouped
 msgid "Select all strokes with similar characteristics"
-msgstr "选择所有属性相似的可见骨骼"
+msgstr "选择所有属性相似的可见笔画"
 
 #. :src: bpy.types.GPENCIL_OT_select_grouped.type:'LAYER'
 #. :src: bpy.types.POSE_OT_select_grouped.type:'LAYER'
@@ -63278,12 +63278,12 @@ msgstr "共享层"
 
 #. :src: bpy.types.GPENCIL_OT_select_grouped.type:'MATERIAL'
 msgid "Shared materials"
-msgstr "材质"
+msgstr "共享材质"
 
 #. :src: bpy.types.GPENCIL_OT_select_lasso
 msgctxt "Operator"
 msgid "Lasso Select Strokes"
-msgstr "用套索选择笔画"
+msgstr "套索选择笔画"
 
 #. :src: bpy.types.GPENCIL_OT_select_lasso
 msgid "Select Grease Pencil strokes using lasso selection"
@@ -63292,7 +63292,7 @@ msgstr "用套索选择蜡笔笔画"
 #. :src: bpy.types.GPENCIL_OT_select_last
 msgctxt "Operator"
 msgid "Select Last"
-msgstr "选中 / 弃选末点"
+msgstr "选中末点"
 
 #. :src: bpy.types.GPENCIL_OT_select_last
 msgid "Select last point in Grease Pencil strokes"
@@ -63308,7 +63308,7 @@ msgstr ""
 
 #. :src: bpy.types.GPENCIL_OT_select_linked
 msgid "Select all points in same strokes as already selected points"
-msgstr "选择所有与连接到已选中项的控制点"
+msgstr "选择已选中控制点所在笔画的全部控制点"
 
 #. :src: bpy.types.GPENCIL_OT_select_more
 msgid "Grow sets of selected Grease Pencil points"
@@ -63322,11 +63322,11 @@ msgstr ""
 #. :src: bpy.types.GPENCIL_OT_selectmode_toggle
 msgctxt "Operator"
 msgid "Select Mode Toggle"
-msgstr "笔画雕刻模式切换"
+msgstr "选择模式切换"
 
 #. :src: bpy.types.GPENCIL_OT_selectmode_toggle
 msgid "Set selection mode for Grease Pencil strokes"
-msgstr "用套索选择蜡笔笔触"
+msgstr "为蜡笔笔画设置选择模式"
 
 #. :src: bpy.types.GPENCIL_OT_selectmode_toggle.mode
 msgid "Select mode"
@@ -63339,21 +63339,21 @@ msgstr "将光标吸附到所选项"
 
 #. :src: bpy.types.GPENCIL_OT_snap_cursor_to_selected
 msgid "Snap cursor to center of selected points"
-msgstr "将光标吸附到所选项的中心点"
+msgstr "将游标吸附到所选项的中心点"
 
 #. :src: bpy.types.GPENCIL_OT_snap_to_cursor
 #. :src: bpy.types.VIEW3D_OT_snap_selected_to_cursor
 msgctxt "Operator"
 msgid "Snap Selection to Cursor"
-msgstr "将所选项吸附到光标"
+msgstr "将所选项吸附到游标"
 
 #. :src: bpy.types.GPENCIL_OT_snap_to_cursor
 msgid "Snap selected points/strokes to the cursor"
-msgstr "将所选项吸附到光标"
+msgstr "将所选项吸附到游标"
 
 #. :src: bpy.types.GPENCIL_OT_snap_to_cursor.use_offset
 msgid "With Offset"
-msgstr "无偏移"
+msgstr "附带偏移"
 
 #. :src: bpy.types.GPENCIL_OT_snap_to_cursor.use_offset
 msgid "Offset the entire stroke instead of selected points only"
@@ -63367,12 +63367,12 @@ msgstr "将所选项吸附到栅格点"
 
 #. :src: bpy.types.GPENCIL_OT_snap_to_grid
 msgid "Snap selected points to the nearest grid points"
-msgstr "将光标吸附到所选项的中心点"
+msgstr "将所选项吸附到最近的栅格点"
 
 #. :src: bpy.types.GPENCIL_OT_stroke_apply_thickness
 msgctxt "Operator"
 msgid "Apply Stroke Thickness"
-msgstr "线条粗细沿笔触变化"
+msgstr "应用笔画宽度"
 
 #. :src: bpy.types.GPENCIL_OT_stroke_apply_thickness
 msgid "Apply the thickness change of the layer to its strokes"
@@ -63381,7 +63381,7 @@ msgstr ""
 #. :src: bpy.types.GPENCIL_OT_stroke_arrange
 msgctxt "Operator"
 msgid "Arrange Stroke"
-msgstr "整理笔触"
+msgstr "整理笔画"
 
 #. :src: bpy.types.GPENCIL_OT_stroke_arrange
 msgid ""
@@ -63390,11 +63390,11 @@ msgstr ""
 
 #. :src: bpy.types.GPENCIL_OT_stroke_arrange.direction:'UP'
 msgid "Bring Forward"
-msgstr "向前移动"
+msgstr "前移"
 
 #. :src: bpy.types.GPENCIL_OT_stroke_arrange.direction:'DOWN'
 msgid "Send Backward"
-msgstr "向后移动"
+msgstr "后送"
 
 #. :src: bpy.types.GPENCIL_OT_stroke_arrange.direction:'TOP'
 msgid "Bring to Front"
@@ -63407,7 +63407,7 @@ msgstr "移到最后"
 #. :src: bpy.types.GPENCIL_OT_stroke_caps_set
 msgctxt "Operator"
 msgid "Set Caps Mode"
-msgstr "设置上限模式"
+msgstr "设置端点模式"
 
 #. :src: bpy.types.GPENCIL_OT_stroke_caps_set
 msgid "Change Stroke caps mode (rounded or flat)"
@@ -63415,34 +63415,34 @@ msgstr ""
 
 #. :src: bpy.types.GPENCIL_OT_stroke_caps_set.type:'TOGGLE'
 msgid "Set as default rounded"
-msgstr "默认"
+msgstr "设置为默认圆形"
 
 #. :src: bpy.types.GPENCIL_OT_stroke_change_color
 msgctxt "Operator"
 msgid "Change Stroke Color"
-msgstr "沿笔触改变线条颜色"
+msgstr "更改笔画颜色"
 
 #. :src: bpy.types.GPENCIL_OT_stroke_change_color
 msgid "Move selected strokes to active material"
-msgstr "在列表中向下移动活动材质"
+msgstr "移动所选笔画至活动材质"
 
 #. :src: bpy.types.GPENCIL_OT_stroke_change_color.material
 msgid "Name of the material"
-msgstr "材质槽名称"
+msgstr "材质名称"
 
 #. :src: bpy.types.GPENCIL_OT_stroke_cutter
 msgctxt "Operator"
 msgid "Stroke Cutter"
-msgstr "笔触"
+msgstr "笔画剪刀"
 
 #. :src: bpy.types.GPENCIL_OT_stroke_cutter
 msgid "Select section and cut"
-msgstr "剪切"
+msgstr "选中线段并切除"
 
 #. :src: bpy.types.GPENCIL_OT_stroke_cyclical_set
 msgctxt "Operator"
 msgid "Set Cyclical State"
-msgstr "修改器状态"
+msgstr "设置闭合状态"
 
 #. :src: bpy.types.GPENCIL_OT_stroke_cyclical_set
 msgid ""
@@ -63451,25 +63451,25 @@ msgstr ""
 
 #. :src: bpy.types.GPENCIL_OT_stroke_cyclical_set.type:'CLOSE'
 msgid "Close all"
-msgstr "收起(即关闭)全部所选可展开的动画通道"
+msgstr "闭合全部"
 
 #. :src: bpy.types.GPENCIL_OT_stroke_cyclical_set.type:'OPEN'
 msgid "Open all"
-msgstr "展开所有物体层级, 并收起其他项"
+msgstr "敞开全部"
 
 #. :src: bpy.types.GPENCIL_OT_stroke_flip
 msgctxt "Operator"
 msgid "Flip Stroke"
-msgstr "笔触"
+msgstr "翻转笔画"
 
 #. :src: bpy.types.GPENCIL_OT_stroke_flip
 msgid "Change direction of the points of the selected strokes"
-msgstr "将所选项吸附到光标"
+msgstr "改变选中笔画上控制点的方向"
 
 #. :src: bpy.types.GPENCIL_OT_stroke_join
 msgctxt "Operator"
 msgid "Join Strokes"
-msgstr "笔触"
+msgstr "合并笔画"
 
 #. :src: bpy.types.GPENCIL_OT_stroke_join
 msgid "Join selected strokes (optionally as new stroke)"
@@ -63503,23 +63503,23 @@ msgstr ""
 #. :src: bpy.types.GPENCIL_OT_stroke_merge
 msgctxt "Operator"
 msgid "Merge Strokes"
-msgstr "笔触"
+msgstr "合并笔画"
 
 #. :src: bpy.types.GPENCIL_OT_stroke_merge
 msgid "Create a new stroke with the selected stroke points"
-msgstr "仅雕刻选中的笔画端点"
+msgstr "使用选中的笔画控制点创建新的笔画"
 
 #. :src: bpy.types.GPENCIL_OT_stroke_merge.additive
 msgid "Additive Drawing"
-msgstr "添加"
+msgstr "累加绘制"
 
 #. :src: bpy.types.GPENCIL_OT_stroke_merge.additive
 msgid "Add to previous drawing"
-msgstr "上一节点"
+msgstr "在上一次绘制上添加"
 
 #. :src: bpy.types.GPENCIL_OT_stroke_merge.back
 msgid "Draw on Back"
-msgstr "自由线"
+msgstr "在后方绘制"
 
 #. :src: bpy.types.GPENCIL_OT_stroke_merge.back
 msgid "Draw new stroke below all previous strokes"
@@ -63527,28 +63527,28 @@ msgstr ""
 
 #. :src: bpy.types.GPENCIL_OT_stroke_merge.clear_point
 msgid "Dissolve Points"
-msgstr "消融"
+msgstr "融并控制点"
 
 #. :src: bpy.types.GPENCIL_OT_stroke_merge.clear_point
 msgid "Dissolve old selected points"
-msgstr "将光标吸附到所选项"
+msgstr "融并先前选中的控制点"
 
 #. :src: bpy.types.GPENCIL_OT_stroke_merge.clear_stroke
 msgid "Delete Strokes"
-msgstr "笔触"
+msgstr "删除笔画"
 
 #. :src: bpy.types.GPENCIL_OT_stroke_merge.clear_stroke
 msgid "Delete old selected strokes"
-msgstr "插值选中笔画"
+msgstr "删除先前选中的笔画"
 
 #. :src: bpy.types.GPENCIL_OT_stroke_merge.cyclic
 msgid "Close new stroke"
-msgstr "快门关闭"
+msgstr "闭合新笔画"
 
 #. :src: bpy.types.GPENCIL_OT_stroke_separate
 msgctxt "Operator"
 msgid "Separate Strokes"
-msgstr "分离画笔"
+msgstr "分离笔画"
 
 #. :src: bpy.types.GPENCIL_OT_stroke_separate
 msgid "Separate the selected strokes or layer in a new grease pencil object"
@@ -63558,28 +63558,28 @@ msgstr ""
 #. :src: bpy.types.GPENCIL_OT_stroke_smooth.only_selected
 #. :src: bpy.types.GPENCIL_OT_stroke_subdivide.only_selected
 msgid "Selected Points"
-msgstr "将光标吸附到所选项的中心点"
+msgstr "选中控制点"
 
 #. :src: bpy.types.GPENCIL_OT_stroke_separate.mode:'POINT'
 msgid "Separate the selected points"
-msgstr "将光标吸附到所选项"
+msgstr "分离选中控制点"
 
 #. :src: bpy.types.GPENCIL_OT_stroke_separate.mode:'STROKE'
 msgid "Selected Strokes"
-msgstr "插值选中笔画"
+msgstr "选中笔画"
 
 #. :src: bpy.types.GPENCIL_OT_stroke_separate.mode:'STROKE'
 msgid "Separate the selected strokes"
-msgstr "将选中的几何部分分离为新的网格"
+msgstr "分离选中笔画"
 
 #. :src: bpy.types.GPENCIL_OT_stroke_separate.mode:'LAYER'
 msgid "Separate the strokes of the current layer"
-msgstr "在当前层中渲染样式笔触"
+msgstr "分离当前层中的笔画"
 
 #. :src: bpy.types.GPENCIL_OT_stroke_simplify
 msgctxt "Operator"
 msgid "Simplify Stroke"
-msgstr "简化笔触"
+msgstr "简化笔画"
 
 #. :src: bpy.types.GPENCIL_OT_stroke_simplify
 msgid "Simplify selected stroked reducing number of points"
@@ -63588,7 +63588,7 @@ msgstr ""
 #. :src: bpy.types.GPENCIL_OT_stroke_simplify_fixed
 msgctxt "Operator"
 msgid "Simplify Fixed Stroke"
-msgstr "简化笔触"
+msgstr "简化固定笔画"
 
 #. :src: bpy.types.GPENCIL_OT_stroke_simplify_fixed
 msgid ""
@@ -63597,7 +63597,7 @@ msgstr ""
 
 #. :src: bpy.types.GPENCIL_OT_stroke_simplify_fixed.step
 msgid "Number of simplify steps"
-msgstr "将权重值设为固定级数"
+msgstr "简化步数"
 
 #. :src: bpy.types.GPENCIL_OT_stroke_smooth
 msgctxt "Operator"
@@ -63606,17 +63606,17 @@ msgstr "平滑笔画"
 
 #. :src: bpy.types.GPENCIL_OT_stroke_smooth
 msgid "Smooth selected strokes"
-msgstr "将所选项吸附到光标"
+msgstr "平滑选中笔画"
 
 #. :src: bpy.types.GPENCIL_OT_stroke_smooth.only_selected
 #. :src: bpy.types.GPENCIL_OT_stroke_subdivide.only_selected
 msgid "Smooth only selected points in the stroke"
-msgstr "仅雕刻选中的笔画端点"
+msgstr "仅平滑笔画上选中的控制点"
 
 #. :src: bpy.types.GPENCIL_OT_stroke_split
 msgctxt "Operator"
 msgid "Split Strokes"
-msgstr "拆分"
+msgstr "拆分笔画"
 
 #. :src: bpy.types.GPENCIL_OT_stroke_split
 msgid "Split selected points as new stroke on same frame"
@@ -63636,7 +63636,7 @@ msgstr ""
 #. :src: bpy.types.GPENCIL_OT_stroke_trim
 msgctxt "Operator"
 msgid "Trim Stroke"
-msgstr "修建笔触末端"
+msgstr "修剪笔画"
 
 #. :src: bpy.types.GPENCIL_OT_stroke_trim
 msgid "Trim selected stroke to first loop or intersection"
@@ -107338,7 +107338,7 @@ msgstr "自适应"
 #: scripts/startup/bl_ui/space_view3d.py:6290
 msgctxt "Operator"
 msgid "Trim"
-msgstr "修建笔触末端"
+msgstr "修剪"
 
 #: scripts/startup/bl_ui/properties_grease_pencil_common.py:212
 #: scripts/startup/bl_ui/properties_grease_pencil_common.py:489
