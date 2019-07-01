@@ -63680,17 +63680,17 @@ msgstr "取消选择所有指定到活动顶点组中的顶点"
 #. :src: bpy.types.OBJECT_OT_vertex_group_invert
 msgctxt "Operator"
 msgid "Invert Vertex Group"
-msgstr "反向顶点组"
+msgstr "反转顶点组"
 
 #. :src: bpy.types.GPENCIL_OT_vertex_group_invert
 msgid "Invert weights to the active vertex group"
-msgstr "镜像所有顶点组的权重"
+msgstr "反转活动顶点组权重"
 
 #. :src: bpy.types.GPENCIL_OT_vertex_group_normalize
 #. :src: bpy.types.OBJECT_OT_vertex_group_normalize
 msgctxt "Operator"
 msgid "Normalize Vertex Group"
-msgstr "将顶点组规格化"
+msgstr "规格化顶点组"
 
 #. :src: bpy.types.GPENCIL_OT_vertex_group_normalize
 msgid "Normalize weights to the active vertex group"
@@ -63699,7 +63699,7 @@ msgstr "对活动的顶点组权重执行规格化, 让最大值对应至 1.0"
 #. :src: bpy.types.GPENCIL_OT_vertex_group_normalize_all
 msgctxt "Operator"
 msgid "Normalize All Vertex Group"
-msgstr "将全部顶点组规格化"
+msgstr "规格化全部顶点组"
 
 #. :src: bpy.types.GPENCIL_OT_vertex_group_normalize_all
 #. :src: bpy.types.OBJECT_OT_vertex_group_normalize_all
@@ -63749,12 +63749,12 @@ msgstr "平滑顶点组"
 
 #. :src: bpy.types.GPENCIL_OT_vertex_group_smooth
 msgid "Smooth weights to the active vertex group"
-msgstr "镜像所有顶点组的权重"
+msgstr "平滑活动顶点组的权重"
 
 #. :src: bpy.types.GPENCIL_OT_weightmode_toggle
 msgctxt "Operator"
 msgid "Strokes Weight Mode Toggle"
-msgstr "笔画雕刻模式切换"
+msgstr "笔画权重模式切换"
 
 #. :src: bpy.types.GPENCIL_OT_weightmode_toggle
 msgid "Enter/Exit weight paint mode for Grease Pencil strokes"
@@ -63808,7 +63808,7 @@ msgstr "交互式设置当前帧数和值光标"
 #. :src: bpy.types.GRAPH_OT_driver_delete_invalid
 msgctxt "Operator"
 msgid "Delete Invalid Drivers"
-msgstr "删除驱动"
+msgstr "删除无效驱动器"
 
 #. :src: bpy.types.GRAPH_OT_driver_delete_invalid
 msgid "Delete all visible drivers considered invalid"
@@ -63817,16 +63817,16 @@ msgstr ""
 #. :src: bpy.types.GRAPH_OT_driver_variables_copy
 msgctxt "Operator"
 msgid "Copy Driver Variables"
-msgstr "复制驱动器"
+msgstr "复制驱动器变量"
 
 #. :src: bpy.types.GRAPH_OT_driver_variables_copy
 msgid "Copy the driver variables of the active F-Curve"
-msgstr "复制激活函数曲线中的函数修改器"
+msgstr "复制活动函数曲线的驱动器变量"
 
 #. :src: bpy.types.GRAPH_OT_driver_variables_paste
 msgctxt "Operator"
 msgid "Paste Driver Variables"
-msgstr "粘贴驱动器"
+msgstr "粘贴驱动器变量"
 
 #. :src: bpy.types.GRAPH_OT_driver_variables_paste
 msgid "Add copied driver variables to the active driver"
@@ -63836,7 +63836,7 @@ msgstr ""
 #. :src: bpy.types.GRAPH_OT_fmodifier_paste.replace
 #. :src: bpy.types.NLA_OT_fmodifier_paste.replace
 msgid "Replace Existing"
-msgstr "替换已有的"
+msgstr "替换已有项"
 
 #. :src: bpy.types.GRAPH_OT_driver_variables_paste.replace
 msgid ""
@@ -63852,7 +63852,7 @@ msgstr "设置关键帧缓动类型"
 #. :src: bpy.types.GRAPH_OT_easing_type
 msgid ""
 "Set easing type for the F-Curve segments starting from the selected keyframes"
-msgstr "从选择的关键帧上设置函数曲线段的插值模式"
+msgstr "从选择的关键帧上设置函数曲线段的缓动模式"
 
 #. :src: bpy.types.GRAPH_OT_euler_filter
 msgctxt "Operator"
@@ -63872,7 +63872,7 @@ msgstr "添加函数曲线修改器"
 
 #. :src: bpy.types.GRAPH_OT_fmodifier_add
 msgid "Add F-Modifier to the active/selected F-Curves"
-msgstr "仅向活动函数曲线添加函数曲线"
+msgstr "向活动/选中函数曲线添加函数曲线修改器"
 
 #. :src: bpy.types.GRAPH_OT_fmodifier_add.only_active
 #. :src: bpy.types.GRAPH_OT_fmodifier_paste.only_active
@@ -63883,31 +63883,31 @@ msgstr "仅活动的"
 
 #. :src: bpy.types.GRAPH_OT_fmodifier_add.only_active
 msgid "Only add F-Modifier to active F-Curve"
-msgstr "仅向活动函数曲线添加函数曲线"
+msgstr "仅向活动函数曲线添加函数曲线修改器"
 
 #. :src: bpy.types.GRAPH_OT_fmodifier_copy
 #. :src: bpy.types.NLA_OT_fmodifier_copy
 msgctxt "Operator"
 msgid "Copy F-Modifiers"
-msgstr "复制函数修改器"
+msgstr "复制函数曲线修改器"
 
 #. :src: bpy.types.GRAPH_OT_fmodifier_copy
 msgid "Copy the F-Modifier(s) of the active F-Curve"
-msgstr "复制激活函数曲线中的函数修改器"
+msgstr "复制激活函数曲线中的函数曲线修改器"
 
 #. :src: bpy.types.GRAPH_OT_fmodifier_paste
 #. :src: bpy.types.NLA_OT_fmodifier_paste
 msgctxt "Operator"
 msgid "Paste F-Modifiers"
-msgstr "粘贴函数修改器"
+msgstr "粘贴函数曲线修改器"
 
 #. :src: bpy.types.GRAPH_OT_fmodifier_paste
 msgid "Add copied F-Modifiers to the selected F-Curves"
-msgstr "添加复制的函数修改器至选定的函数曲线"
+msgstr "添加复制的函数曲线修改器至选定的函数曲线"
 
 #. :src: bpy.types.GRAPH_OT_fmodifier_paste.only_active
 msgid "Only paste F-Modifiers on active F-Curve"
-msgstr "仅向活动函数曲线添加函数曲线"
+msgstr "仅在活动函数曲线上粘贴函数曲线修改器"
 
 #. :src: bpy.types.GRAPH_OT_fmodifier_paste.replace
 #. :src: bpy.types.NLA_OT_fmodifier_paste.replace
@@ -63943,7 +63943,7 @@ msgstr "在背景上添加 F 残影曲线用于辅助活动曲线编辑"
 #. :src: bpy.types.GRAPH_OT_hide
 msgctxt "Operator"
 msgid "Hide Curves"
-msgstr "隐藏选中的曲线"
+msgstr "隐藏曲线"
 
 #. :src: bpy.types.GRAPH_OT_hide
 msgid "Hide selected curves from Graph Editor view"
@@ -63973,7 +63973,7 @@ msgstr "为活动函数曲线在光标位置插入新的关键帧"
 
 #. :src: bpy.types.GRAPH_OT_keyframe_insert.type:'CURSOR_SEL'
 msgid "Selected Channels At Cursor"
-msgstr "选择的通道"
+msgstr "光标位置选中的通道"
 
 #. :src: bpy.types.GRAPH_OT_keyframe_insert.type:'CURSOR_SEL'
 msgid "Insert a keyframe for selected F-Curves at the cursor point"
@@ -64142,16 +64142,16 @@ msgstr "计算范围时包括关键帧控制柄"
 
 #. :src: bpy.types.GRAPH_OT_view_selected
 msgid "Reset viewable area to show selected keyframe range"
-msgstr "重置可视图域并显示选定关键帧的范围"
+msgstr "重置可视区域并显示选定关键帧的范围"
 
 #. :src: bpy.types.IMAGE_OT_add_render_slot
 msgctxt "Operator"
 msgid "Add Render Slot"
-msgstr "新增一个渲染槽"
+msgstr "添加渲染槽"
 
 #. :src: bpy.types.IMAGE_OT_add_render_slot
 msgid "Add a new render slot"
-msgstr "新增一个渲染槽"
+msgstr "添加一个新的渲染槽"
 
 #. :src: bpy.types.IMAGE_OT_clear_render_border
 #. :src: bpy.types.VIEW3D_OT_clear_render_border
@@ -64294,7 +64294,7 @@ msgstr "图像高度"
 #. :src: bpy.types.IMAGE_OT_new.name
 #. :src: bpy.types.PAINT_OT_add_texture_paint_slot.name
 msgid "Image data-block name"
-msgstr "要解包的 ID 块名称"
+msgstr "图像数据块名称"
 
 #. :src: bpy.types.IMAGE_OT_new.use_stereo_3d
 msgid "Create an image with left and right views"
@@ -64316,7 +64316,7 @@ msgstr "打开图像"
 
 #. :src: bpy.types.IMAGE_OT_open.use_sequence_detection
 msgid "Detect Sequences"
-msgstr "序列"
+msgstr "侦测序列"
 
 #. :src: bpy.types.IMAGE_OT_open.use_sequence_detection
 msgid ""
