@@ -66438,7 +66438,7 @@ msgstr "在当前视图中, 以指针为中心挤出选中的循环点"
 
 #. :src: bpy.types.MESH_OT_spin.angle
 msgid "Rotation for each step"
-msgstr "各轴向上的最大旋转角度"
+msgstr "每一步的旋转"
 
 #. :src: bpy.types.MESH_OT_spin.dupli
 msgid "Make Duplicates"
@@ -66489,7 +66489,7 @@ msgstr "仅沿法线方向应用分形置换"
 
 #. :src: bpy.types.MESH_OT_subdivide.ngon
 msgid "Create N-Gons"
-msgstr "将 'n' 个骨骼对齐到曲线"
+msgstr "创建多边形"
 
 #. :src: bpy.types.MESH_OT_subdivide.ngon
 msgid "When disabled, newly created faces are limited to 3-4 sided faces"
@@ -66572,7 +66572,7 @@ msgstr "将成对的顶点吸附至它们的镜像位置"
 
 #. :src: bpy.types.MESH_OT_symmetry_snap.factor
 msgid "Mix factor of the locations of the vertices"
-msgstr "混合系数"
+msgstr "顶点位置的混合系数"
 
 #. :src: bpy.types.MESH_OT_symmetry_snap.threshold
 msgid "Distance within which matching vertices are searched"
@@ -66829,11 +66829,11 @@ msgstr "烘焙动作"
 
 #. :src: bpy.types.NLA_OT_bake
 msgid "Bake all selected objects loc/scale/rotation animation to an action"
-msgstr "将物体/姿态的位置/缩放/旋转动画数据烘焙到一个新的动作"
+msgstr "将所有选中物体的位置/缩放/旋转动画数据烘焙到一个动作"
 
 #. :src: bpy.types.NLA_OT_bake.bake_types
 msgid "Which data's transformations to bake"
-msgstr "将变形坐标轴对齐至世界空间上"
+msgstr "需要烘焙变换的数据"
 
 #. :src: bpy.types.NLA_OT_bake.bake_types:'POSE'
 msgid "Bake bones transformations"
@@ -66861,15 +66861,15 @@ msgstr ""
 
 #. :src: bpy.types.NLA_OT_bake.only_selected
 msgid "Only Selected Bones"
-msgstr "仅可见 / 选择的骨骼"
+msgstr "仅选中的骨骼"
 
 #. :src: bpy.types.NLA_OT_bake.only_selected
 msgid "Only key selected bones (Pose baking only)"
-msgstr "只将存储的姿态粘贴到当前姿态中的所选骨骼上"
+msgstr "只对选中骨骼插帧(仅烘焙姿态)"
 
 #. :src: bpy.types.NLA_OT_bake.use_current_action
 msgid "Overwrite Current Action"
-msgstr "覆盖"
+msgstr "覆盖当前动作"
 
 #. :src: bpy.types.NLA_OT_bake.use_current_action
 msgid "Bake animation into current action, instead of creating a new one (useful for baking only part of bones in an armature)"
@@ -66939,7 +66939,7 @@ msgstr "添加函数修改器"
 
 #. :src: bpy.types.NLA_OT_fmodifier_add
 msgid "Add F-Modifier to the active/selected NLA-Strips"
-msgstr "为选择的非线性动画片段添加复制的函数修改器"
+msgstr "对活动/选中的非线性动画片段添加函数曲线修改器"
 
 #. :src: bpy.types.NLA_OT_fmodifier_add.only_active
 msgid "Only add a F-Modifier of the specified type to the active strip"
@@ -66951,11 +66951,11 @@ msgstr "复制选择的非线性动画片段函数修改器"
 
 #. :src: bpy.types.NLA_OT_fmodifier_paste
 msgid "Add copied F-Modifiers to the selected NLA-Strips"
-msgstr "为选择的非线性动画片段添加复制的函数修改器"
+msgstr "为选择的非线性动画片段添加复制的函数曲线修改器"
 
 #. :src: bpy.types.NLA_OT_fmodifier_paste.only_active
 msgid "Only paste F-Modifiers on active strip"
-msgstr "仅向活动函数曲线添加函数曲线"
+msgstr "仅向活动片断添加函数曲线修改器"
 
 # rblc
 #. :src: bpy.types.NLA_OT_make_single_user
@@ -66971,7 +66971,7 @@ msgstr ""
 #. :src: bpy.types.NLA_OT_meta_add
 msgctxt "Operator"
 msgid "Add Meta-Strips"
-msgstr "新增片段组"
+msgstr "新增复合片段"
 
 #. :src: bpy.types.NLA_OT_meta_add
 msgid "Add new meta-strips incorporating the selected strips"
@@ -67117,7 +67117,7 @@ msgstr "进入当前活动片段的动作块调节模式, 以编辑其自身的�
 #. :src: bpy.types.NLA_OT_tweakmode_enter.isolate_action
 #. :src: bpy.types.NLA_OT_tweakmode_exit.isolate_action
 msgid "Isolate Action"
-msgstr "隔离集合"
+msgstr "隔离动作"
 
 #. :src: bpy.types.NLA_OT_tweakmode_enter.isolate_action
 msgid "Enable 'solo' on the NLA Track containing the active strip, to edit it without seeing the effects of the NLA stack"
@@ -67155,11 +67155,11 @@ msgstr ""
 
 #. :src: bpy.types.NODE_OT_add_and_link_node.link_socket_index
 msgid "Link Socket Index"
-msgstr "联接接口目录"
+msgstr "联接接口编号"
 
 #. :src: bpy.types.NODE_OT_add_and_link_node.link_socket_index
 msgid "Index of the socket to link"
-msgstr "联接接口目录"
+msgstr "联接接口编号"
 
 #. :src: bpy.types.NODE_OT_add_and_link_node.settings
 #. :src: bpy.types.NODE_OT_add_node.settings
@@ -67191,7 +67191,7 @@ msgstr "使用变换"
 #. :src: bpy.types.NODE_OT_add_node.use_transform
 #. :src: bpy.types.NODE_OT_add_search.use_transform
 msgid "Start transform operator after inserting the node"
-msgstr "插入节点后启动变换操作符"
+msgstr "节点插入后的起始变换操作"
 
 #. :src: bpy.types.NODE_OT_add_file
 msgctxt "Operator"
@@ -67206,7 +67206,7 @@ msgstr "在当前节点编辑器中添加一个节点"
 #. :src: bpy.types.NODE_OT_add_file.name
 #. :src: bpy.types.NODE_OT_add_mask.name
 msgid "Data-block name to assign"
-msgstr "要指定的材质名称"
+msgstr "要指定的数据块名称"
 
 #. :src: bpy.types.NODE_OT_add_mask
 msgctxt "Operator"
@@ -67318,20 +67318,20 @@ msgstr "切换已收起节点, 并隐藏闲置接口"
 #. :src: bpy.types.NODE_OT_cryptomatte_layer_add
 msgctxt "Operator"
 msgid "Add Cryptomatte Socket"
-msgstr "添加文件节点接口"
+msgstr "添加Cryptomatte接口"
 
 #. :src: bpy.types.NODE_OT_cryptomatte_layer_add
 msgid "Add a new input layer to a Cryptomatte node"
-msgstr "为文件输出节点新增输入源"
+msgstr "为Cryptomatte节点新增输入层"
 
 #. :src: bpy.types.NODE_OT_cryptomatte_layer_remove
 msgctxt "Operator"
 msgid "Remove Cryptomatte Socket"
-msgstr "移除文件节点接口"
+msgstr "移除Cryptomatte接口"
 
 #. :src: bpy.types.NODE_OT_cryptomatte_layer_remove
 msgid "Remove layer from a Cryptomatte node"
-msgstr "移动到父级节点树, 从组中移除"
+msgstr "从Cryptomatte节点中移除层"
 
 #. :src: bpy.types.NODE_OT_delete
 msgid "Delete selected nodes"
@@ -67340,7 +67340,7 @@ msgstr "删除选定的节点"
 #. :src: bpy.types.NODE_OT_delete_reconnect
 msgctxt "Operator"
 msgid "Delete with Reconnect"
-msgstr "删除未连接的"
+msgstr "删除并重连"
 
 #. :src: bpy.types.NODE_OT_delete_reconnect
 msgid "Delete nodes; will reconnect nodes as if deletion was muted"
@@ -67515,7 +67515,7 @@ msgstr "切换隐藏的已选节点"
 #. :src: bpy.types.NODE_OT_insert_offset
 msgctxt "Operator"
 msgid "Insert Offset"
-msgstr "Insert"
+msgstr "插入偏移"
 
 #. :src: bpy.types.NODE_OT_insert_offset
 #. :src: bpy.types.NODE_OT_move_detach_links.NODE_OT_insert_offset
