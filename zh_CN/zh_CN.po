@@ -79741,31 +79741,31 @@ msgstr "全局向上轴向"
 
 #. :src: bpy.types.WM_OT_collada_export.export_global_up_selection
 msgid "Global Up axis for export"
-msgstr "全局+X坐标"
+msgstr "导出使用的全局向上坐标轴向"
 
 #. :src: bpy.types.WM_OT_collada_export.export_global_up_selection:'X'
 msgid "Global UP is positive X Axis"
-msgstr "全局+X坐标"
+msgstr "全局向上为+X轴向"
 
 #. :src: bpy.types.WM_OT_collada_export.export_global_up_selection:'Y'
 msgid "Global UP is positive Y Axis"
-msgstr "全局+Y坐标"
+msgstr "全局向上为+Y坐标"
 
 #. :src: bpy.types.WM_OT_collada_export.export_global_up_selection:'Z'
 msgid "Global UP is positive Z Axis"
-msgstr "全局+Z坐标"
+msgstr "全局向上为+Z坐标"
 
 #. :src: bpy.types.WM_OT_collada_export.export_global_up_selection:'-X'
 msgid "Global UP is negative X Axis"
-msgstr "全局+X坐标"
+msgstr "全局向上为-X坐标"
 
 #. :src: bpy.types.WM_OT_collada_export.export_global_up_selection:'-Y'
 msgid "Global UP is negative Y Axis"
-msgstr "全局+Y坐标"
+msgstr "全局向上为-Y坐标"
 
 #. :src: bpy.types.WM_OT_collada_export.export_global_up_selection:'-Z'
 msgid "Global UP is negative Z Axis"
-msgstr "全局+Z坐标"
+msgstr "全局向上为-Z坐标"
 
 #. :src: bpy.types.WM_OT_collada_export.export_mesh_type
 #. :src: bpy.types.WM_OT_collada_export.export_mesh_type_selection
@@ -79783,11 +79783,11 @@ msgstr "应用修改器的渲染设置"
 #. :src: bpy.types.WM_OT_collada_export.export_object_transformation_type
 #. :src: bpy.types.WM_OT_collada_export.export_object_transformation_type_selection
 msgid "Object Transformation type for translation, scale and rotation"
-msgstr "用于移动, 缩放及旋转的变换操作类型"
+msgstr "用于移动, 缩放及旋转的物体变换类型"
 
 #. :src: bpy.types.WM_OT_collada_export.include_all_actions
 msgid "Include all Actions"
-msgstr "全部动作"
+msgstr "包含全部动作"
 
 #. :src: bpy.types.WM_OT_collada_export.include_all_actions
 msgid "Export also unassigned actions (this allows you to export entire animation libraries for your character(s))"
@@ -79795,7 +79795,7 @@ msgstr ""
 
 #. :src: bpy.types.WM_OT_collada_export.include_animations
 msgid "Include Animations"
-msgstr "动画"
+msgstr "包含动画"
 
 #. :src: bpy.types.WM_OT_collada_export.include_animations
 msgid "Export animations if available (exporting animations will enforce the decomposition of node transforms into  <translation> <rotation> and <scale> components)"
@@ -79803,19 +79803,19 @@ msgstr ""
 
 #. :src: bpy.types.WM_OT_collada_export.include_armatures
 msgid "Include Armatures"
-msgstr "包括骨骼"
+msgstr "包含骨骼"
 
 #. :src: bpy.types.WM_OT_collada_export.include_armatures
 msgid "Export related armatures (even if not selected)"
-msgstr "导出相邻骨架(即使没有选取)"
+msgstr "导出相关骨架(即使未选中)"
 
 #. :src: bpy.types.WM_OT_collada_export.include_children
 msgid "Include Children"
-msgstr "包括子物体"
+msgstr "包含子物体"
 
 #. :src: bpy.types.WM_OT_collada_export.include_children
 msgid "Export all children of selected objects (even if not selected)"
-msgstr "导出选定物体的全部子物体(即使没有选择)"
+msgstr "导出选定物体的全部子物体(即使未选中)"
 
 #. :src: bpy.types.WM_OT_collada_export.include_shapekeys
 msgid "Include Shape Keys"
@@ -79837,7 +79837,7 @@ msgstr ""
 
 #. :src: bpy.types.WM_OT_collada_export.keep_flat_curves
 msgid "All keyed curves"
-msgstr "在编辑器中查看所有曲线"
+msgstr "所有插帧曲线"
 
 #. :src: bpy.types.WM_OT_collada_export.keep_flat_curves
 msgid "Export also curves which have only one key or are totally flat"
@@ -79845,7 +79845,7 @@ msgstr ""
 
 #. :src: bpy.types.WM_OT_collada_export.keep_keyframes
 msgid "Keep Keyframes"
-msgstr "关键帧"
+msgstr "保持关键帧"
 
 #. :src: bpy.types.WM_OT_collada_export.keep_keyframes
 msgid "Use existing keyframes as additional sample points (this helps when you want to keep manual tweaks)"
@@ -79853,7 +79853,7 @@ msgstr ""
 
 #. :src: bpy.types.WM_OT_collada_export.keep_smooth_curves
 msgid "Keep Smooth curves"
-msgstr "(平滑)"
+msgstr "保持平滑曲线"
 
 #. :src: bpy.types.WM_OT_collada_export.keep_smooth_curves
 msgid "Export also the curve handles (if available) (this does only work when the inverse parent matrix is the unity matrix, otherwise you may end up with odd results)"
@@ -79861,7 +79861,7 @@ msgstr ""
 
 #. :src: bpy.types.WM_OT_collada_export.limit_precision
 msgid "Limit Precision"
-msgstr "精度"
+msgstr "限制精度"
 
 #. :src: bpy.types.WM_OT_collada_export.limit_precision
 msgid "Reduce the precision of the exported data to 6 digits"
@@ -79869,7 +79869,7 @@ msgstr ""
 
 #. :src: bpy.types.WM_OT_collada_export.open_sim
 msgid "Export to SL/OpenSim"
-msgstr "导出"
+msgstr "导出至 SL/OpenSim"
 
 #. :src: bpy.types.WM_OT_collada_export.open_sim
 msgid "Compatibility mode for SL, OpenSim and other compatible online worlds"
@@ -79877,31 +79877,31 @@ msgstr ""
 
 #. :src: bpy.types.WM_OT_collada_export.prop_bc_export_ui_section
 msgid "Export Section"
-msgstr "激活的动作"
+msgstr ""
 
 #. :src: bpy.types.WM_OT_collada_export.prop_bc_export_ui_section
 msgid "Only for User Interface organization"
-msgstr "保持用户界面"
+msgstr "仅用于用户界面组织"
 
 #. :src: bpy.types.WM_OT_collada_export.prop_bc_export_ui_section:'main'
 msgid "Data Export Section"
-msgstr "数据导出选项"
+msgstr ""
 
 #. :src: bpy.types.WM_OT_collada_export.prop_bc_export_ui_section:'geometry'
 msgid "Geom"
-msgstr ""
+msgstr "几何"
 
 #. :src: bpy.types.WM_OT_collada_export.prop_bc_export_ui_section:'geometry'
 msgid "Geometry Export Section"
-msgstr "圆环体的横截面半径"
-
-#. :src: bpy.types.WM_OT_collada_export.prop_bc_export_ui_section:'armature'
-msgid "Arm"
 msgstr ""
 
 #. :src: bpy.types.WM_OT_collada_export.prop_bc_export_ui_section:'armature'
+msgid "Arm"
+msgstr "骨架"
+
+#. :src: bpy.types.WM_OT_collada_export.prop_bc_export_ui_section:'armature'
 msgid "Armature Export Section"
-msgstr "圆环体的横截面半径"
+msgstr ""
 
 #. :src: bpy.types.WM_OT_collada_export.prop_bc_export_ui_section:'animation'
 msgid "Anim"
@@ -79909,16 +79909,16 @@ msgstr "动画"
 
 #. :src: bpy.types.WM_OT_collada_export.prop_bc_export_ui_section:'animation'
 msgid "Animation Export Section"
-msgstr "导出动画"
+msgstr ""
 
 #. :src: bpy.types.WM_OT_collada_export.prop_bc_export_ui_section:'collada'
 #. :src: bpy.types.PARTICLE_PT_render_extra
 msgid "Extra"
-msgstr "在用户界面内扩展显示额外选项"
+msgstr ""
 
 #. :src: bpy.types.WM_OT_collada_export.prop_bc_export_ui_section:'collada'
 msgid "Collada Export Section"
-msgstr "导出 COLLADA"
+msgstr ""
 
 #. :src: bpy.types.WM_OT_collada_export.sampling_rate
 msgid "The distance between 2 keyframes (1 to key every frame)"
@@ -79967,7 +79967,7 @@ msgstr "加载 Collada 文件"
 
 #. :src: bpy.types.WM_OT_collada_import.auto_connect
 msgid "Auto Connect"
-msgstr "连接"
+msgstr "自动连接"
 
 #. :src: bpy.types.WM_OT_collada_import.auto_connect
 msgid "Set use_connect for parent bones which have exactly one child bone"
@@ -79975,7 +79975,7 @@ msgstr ""
 
 #. :src: bpy.types.WM_OT_collada_import.find_chains
 msgid "Find Bone Chains"
-msgstr "在骨骼链内"
+msgstr "查找骨骼链"
 
 #. :src: bpy.types.WM_OT_collada_import.find_chains
 msgid "Find best matching Bone Chains and ensure bones in chain are connected"
@@ -79983,7 +79983,7 @@ msgstr ""
 
 #. :src: bpy.types.WM_OT_collada_import.fix_orientation
 msgid "Fix Leaf Bones"
-msgstr "修正形变"
+msgstr ""
 
 #. :src: bpy.types.WM_OT_collada_import.fix_orientation
 msgid "Fix Orientation of Leaf Bones (Collada does only support Joints)"
@@ -79999,7 +79999,7 @@ msgstr "如果禁用匹配导入到Blender的当前单位设置，否则使用�
 
 #. :src: bpy.types.WM_OT_collada_import.min_chain_length
 msgid "Minimum Chain Length"
-msgstr "链长"
+msgstr "最小链长"
 
 #. :src: bpy.types.WM_OT_collada_import.min_chain_length
 msgid "When searching Bone Chains disregard chains of length below this value"
@@ -80137,7 +80137,7 @@ msgstr "反转鼠标输入"
 #. :src: bpy.types.WM_OT_context_pie_enum
 msgctxt "Operator"
 msgid "Context Enum Pie"
-msgstr "情境"
+msgstr "上下文枚举饼菜单"
 
 #. :src: bpy.types.WM_OT_context_scale_float
 msgctxt "Operator"
@@ -80397,12 +80397,12 @@ msgstr "查看指南"
 
 #. :src: bpy.types.WM_OT_doc_view_manual
 msgid "Load online manual"
-msgstr "加载在线指南"
+msgstr "加载在线手册"
 
 #. :src: bpy.types.WM_OT_doc_view_manual_ui_context
 msgctxt "Operator"
 msgid "View Online Manual"
-msgstr "在线指南"
+msgstr "查看在线手册"
 
 #. :src: bpy.types.WM_OT_doc_view_manual_ui_context
 msgid "View a context based online manual in a web browser"
@@ -80411,38 +80411,38 @@ msgstr ""
 #. :src: bpy.types.WM_OT_drop_blend_file
 msgctxt "Operator"
 msgid "Handle dropped .blend file"
-msgstr "打包在 .blend 文件中的外部文件"
+msgstr "处理拖放的 .blend 文件"
 
 #. :src: bpy.types.WM_OT_interface_theme_preset_add
 msgctxt "Operator"
 msgid "Add Theme Preset"
-msgstr "新增主题预设"
+msgstr "添加主题预设"
 
 #. :src: bpy.types.WM_OT_interface_theme_preset_add
 msgid "Add or remove a theme preset"
-msgstr "新增或删除一个主题预设"
+msgstr "添加或删除一个主题预设"
 
 #. :src: bpy.types.WM_OT_keyconfig_preset_add
 msgctxt "Operator"
 msgid "Add Keyconfig Preset"
-msgstr "新增键配置预设"
+msgstr "添加键配置预设"
 
 #. :src: bpy.types.WM_OT_keyconfig_preset_add
 msgid "Add or remove a Key-config Preset"
-msgstr "新增或删除一个键配置预设"
+msgstr "添加或删除一个键配置预设"
 
 #. :src: bpy.types.WM_OT_lib_reload
 msgctxt "Operator"
 msgid "Reload Library"
-msgstr "重载"
+msgstr "重载库"
 
 #. :src: bpy.types.WM_OT_lib_reload
 msgid "Reload the given library"
-msgstr "重载"
+msgstr "重载给定库"
 
 #. :src: bpy.types.WM_OT_lib_reload.library
 msgid "Library to reload"
-msgstr "重载"
+msgstr "要重载的库"
 
 #. :src: bpy.types.WM_OT_lib_relocate
 msgid "Relocate the given library to one or several others"
@@ -80450,7 +80450,7 @@ msgstr ""
 
 #. :src: bpy.types.WM_OT_lib_relocate.library
 msgid "Library to relocate"
-msgstr "不是一个库"
+msgstr "要重定位的库"
 
 #. :src: bpy.types.WM_OT_link
 msgctxt "Operator"
@@ -80481,7 +80481,7 @@ msgstr "打开一个 Blender 文件"
 
 #. :src: bpy.types.WM_OT_open_mainfile.display_file_selector
 msgid "Display File Selector"
-msgstr "在文件管理器中隐藏最近查看的路径"
+msgstr "显示文件选择器"
 
 #. :src: bpy.types.WM_OT_open_mainfile.load_ui
 #. :src: bpy.types.WM_OT_read_homefile.load_ui
@@ -80496,7 +80496,7 @@ msgstr "从工程中加载用户界面设置"
 #. :src: bpy.types.WM_OT_open_mainfile.state
 #. :src: bpy.types.USERPREF_PT_theme_interface_state
 msgid "State"
-msgstr "激活帧的群簇状态目录"
+msgstr "状态"
 
 #. :src: bpy.types.WM_OT_open_mainfile.use_scripts
 #. :src: bpy.types.WM_OT_revert_mainfile.use_scripts
@@ -80530,7 +80530,7 @@ msgstr "将当前属性值恢复到默认值"
 #. :src: bpy.types.WM_OT_operator_pie_enum
 msgctxt "Operator"
 msgid "Operator Enum Pie"
-msgstr "饼菜单"
+msgstr "枚举饼菜单操作"
 
 #. :src: bpy.types.WM_OT_operator_pie_enum.data_path
 #. :src: bpy.types.WM_OT_operator_preset_add.operator
@@ -80540,7 +80540,7 @@ msgstr "操作项"
 
 #. :src: bpy.types.WM_OT_operator_pie_enum.data_path
 msgid "Operator name (in python as string)"
-msgstr "基于操作项名称过滤"
+msgstr "操作项名称(在Python中作为字符串)"
 
 #. :src: bpy.types.WM_OT_operator_pie_enum.prop_string
 #: source/blender/blenkernel/intern/report.c:49
@@ -80549,7 +80549,7 @@ msgstr "属性"
 
 #. :src: bpy.types.WM_OT_operator_pie_enum.prop_string
 msgid "Property name (as a string)"
-msgstr "网格多边形字符串型属性"
+msgstr "属性名称(字符串)"
 
 #. :src: bpy.types.WM_OT_operator_preset_add
 msgctxt "Operator"
@@ -80558,17 +80558,17 @@ msgstr "操作项预设"
 
 #. :src: bpy.types.WM_OT_operator_preset_add
 msgid "Add or remove an Operator Preset"
-msgstr "新增或删除一个一个操作项预设"
+msgstr "添加或删除一个一个操作项预设"
 
 #. :src: bpy.types.WM_OT_owner_disable
 msgctxt "Operator"
 msgid "Disable UI Tag"
-msgstr "禁用"
+msgstr "禁用UI标签"
 
 #. :src: bpy.types.WM_OT_owner_disable
 #. :src: bpy.types.WM_OT_owner_enable
 msgid "Enable workspace owner ID"
-msgstr ""
+msgstr "启用工作区所有者ID"
 
 #. :src: bpy.types.WM_OT_owner_disable.owner_id
 #. :src: bpy.types.WM_OT_owner_enable.owner_id
@@ -80599,7 +80599,7 @@ msgstr "清除预览后保存时为文件保存备份 (.blend1)"
 
 #. :src: bpy.types.WM_OT_previews_batch_clear.use_collections
 msgid "Clear collections' previews"
-msgstr "清除数据块预览"
+msgstr "清除集合预览"
 
 #. :src: bpy.types.WM_OT_previews_batch_clear.use_intern_data
 #. :src: bpy.types.WM_OT_previews_batch_generate.use_intern_data
@@ -80643,7 +80643,7 @@ msgstr "生成预览后保存时为文件保存备份 (.blend1)"
 
 #. :src: bpy.types.WM_OT_previews_batch_generate.use_collections
 msgid "Generate collections' previews"
-msgstr "生成物体预览"
+msgstr "生成集合预览"
 
 #. :src: bpy.types.WM_OT_previews_batch_generate.use_intern_data
 msgid "Generate 'internal' previews (materials, textures, images, etc.)"
@@ -80816,11 +80816,11 @@ msgstr "由径向控制的属性的次级路径"
 
 #. :src: bpy.types.WM_OT_radial_control.fill_color_override_path
 msgid "Fill Color Override Path"
-msgstr "填充色路径"
+msgstr "填充色覆盖路径"
 
 #. :src: bpy.types.WM_OT_radial_control.fill_color_override_test_path
 msgid "Fill Color Override Test"
-msgstr "默认填充色彩"
+msgstr "填充色覆盖设置"
 
 #. :src: bpy.types.WM_OT_radial_control.fill_color_path
 msgid "Fill Color Path"
@@ -80902,11 +80902,11 @@ msgstr "重新加载历史和书签"
 #. :src: bpy.types.WM_OT_read_homefile
 msgctxt "Operator"
 msgid "Reload Start-Up File"
-msgstr "重新加载初始工程"
+msgstr "重新加载启动文件"
 
 #. :src: bpy.types.WM_OT_read_homefile
 msgid "Open the default file (doesn't save the current file)"
-msgstr "创建一个新工程(不保存当前工程)"
+msgstr "打开默认文件(不保存当前文件)"
 
 #. :src: bpy.types.WM_OT_read_homefile.filepath
 msgid "Path to an alternative start-up file"
@@ -80923,30 +80923,30 @@ msgstr "加载设置"
 
 #. :src: bpy.types.WM_OT_read_userpref
 msgid "Load last saved preferences"
-msgstr "加载上次保存设置"
+msgstr "加载上次保存的设置"
 
 #. :src: bpy.types.WM_OT_recover_auto_save
 msgctxt "Operator"
 msgid "Recover Auto Save"
-msgstr "恢复自动保存的工程"
+msgstr "恢复自动保存的文件"
 
 #. :src: bpy.types.WM_OT_recover_auto_save
 msgid "Open an automatically saved file to recover it"
-msgstr "打开自动保存的工程"
+msgstr "打开自动保存的文件"
 
 #. :src: bpy.types.WM_OT_recover_last_session
 msgctxt "Operator"
 msgid "Recover Last Session"
-msgstr "恢复最近的一次工程"
+msgstr "恢复最近的一次对话"
 
 #. :src: bpy.types.WM_OT_recover_last_session
 msgid "Open the last closed file (\"quit.blend\")"
-msgstr "打开最后关闭的工程(\"quit.blend\")"
+msgstr "打开最后关闭的文件(\"quit.blend\")"
 
 #. :src: bpy.types.WM_OT_redraw_timer
 msgctxt "Operator"
 msgid "Redraw Timer"
-msgstr "渲染计时器"
+msgstr "重绘计时器"
 
 #. :src: bpy.types.WM_OT_redraw_timer
 msgid "Simple redraw timer to test the speed of updating the interface"
@@ -80958,7 +80958,7 @@ msgstr "重绘次数"
 
 #. :src: bpy.types.WM_OT_redraw_timer.time_limit
 msgid "Time Limit"
-msgstr "限制"
+msgstr "时间限制"
 
 #. :src: bpy.types.WM_OT_redraw_timer.time_limit
 msgid "Seconds to run the test for (override iterations)"
@@ -80970,11 +80970,11 @@ msgstr "绘制区域"
 
 #. :src: bpy.types.WM_OT_redraw_timer.type:'DRAW_SWAP'
 msgid "Draw Region + Swap"
-msgstr "绘制面板并更新"
+msgstr "绘制区域并更新"
 
 #. :src: bpy.types.WM_OT_redraw_timer.type:'DRAW_SWAP'
 msgid "Draw Region and Swap"
-msgstr "绘制面板并更新"
+msgstr "绘制区域并更新"
 
 #. :src: bpy.types.WM_OT_redraw_timer.type:'DRAW_WIN'
 msgid "Draw Window"
@@ -81057,7 +81057,7 @@ msgstr "保存启动文件"
 
 #. :src: bpy.types.WM_OT_save_homefile
 msgid "Make the current file the default .blend file"
-msgstr "创建一个新工程(不保存当前工程)"
+msgstr "保存当前文件为默认.blend文件"
 
 #. :src: bpy.types.WM_OT_save_mainfile
 msgctxt "Operator"
@@ -81093,7 +81093,7 @@ msgstr "在当前环境下, 在所有的有效操作项上弹出搜索菜单"
 #. :src: bpy.types.WM_OT_set_stereo_3d
 msgctxt "Operator"
 msgid "Set Stereo 3D"
-msgstr "立体3D"
+msgstr "设置立体3D"
 
 #. :src: bpy.types.WM_OT_set_stereo_3d
 msgid "Toggle 3D stereo support for current window (or change the display mode)"
@@ -81109,19 +81109,19 @@ msgstr "立体影片类型"
 #. :src: bpy.types.Stereo3dDisplay.anaglyph_type:'RED_CYAN'
 #. :src: bpy.types.Stereo3dFormat.anaglyph_type:'RED_CYAN'
 msgid "Red-Cyan"
-msgstr "红"
+msgstr "红-青"
 
 #. :src: bpy.types.WM_OT_set_stereo_3d.anaglyph_type:'GREEN_MAGENTA'
 #. :src: bpy.types.Stereo3dDisplay.anaglyph_type:'GREEN_MAGENTA'
 #. :src: bpy.types.Stereo3dFormat.anaglyph_type:'GREEN_MAGENTA'
 msgid "Green-Magenta"
-msgstr "绿"
+msgstr "绿-红"
 
 #. :src: bpy.types.WM_OT_set_stereo_3d.anaglyph_type:'YELLOW_BLUE'
 #. :src: bpy.types.Stereo3dDisplay.anaglyph_type:'YELLOW_BLUE'
 #. :src: bpy.types.Stereo3dFormat.anaglyph_type:'YELLOW_BLUE'
 msgid "Yellow-Blue"
-msgstr "蓝"
+msgstr "黄-绿"
 
 #. :src: bpy.types.WM_OT_set_stereo_3d.display_mode:'ANAGLYPH'
 #. :src: bpy.types.Stereo3dDisplay.display_mode:'ANAGLYPH'
@@ -81192,19 +81192,19 @@ msgstr "交错类型"
 #. :src: bpy.types.Stereo3dDisplay.interlace_type:'ROW_INTERLEAVED'
 #. :src: bpy.types.Stereo3dFormat.interlace_type:'ROW_INTERLEAVED'
 msgid "Row Interleaved"
-msgstr "行高度"
+msgstr "行交错"
 
 #. :src: bpy.types.WM_OT_set_stereo_3d.interlace_type:'COLUMN_INTERLEAVED'
 #. :src: bpy.types.Stereo3dDisplay.interlace_type:'COLUMN_INTERLEAVED'
 #. :src: bpy.types.Stereo3dFormat.interlace_type:'COLUMN_INTERLEAVED'
 msgid "Column Interleaved"
-msgstr "边距列"
+msgstr "列交错"
 
 #. :src: bpy.types.WM_OT_set_stereo_3d.interlace_type:'CHECKERBOARD_INTERLEAVED'
 #. :src: bpy.types.Stereo3dDisplay.interlace_type:'CHECKERBOARD_INTERLEAVED'
 #. :src: bpy.types.Stereo3dFormat.interlace_type:'CHECKERBOARD_INTERLEAVED'
 msgid "Checkerboard Interleaved"
-msgstr ""
+msgstr "棋盘格交错"
 
 #. :src: bpy.types.WM_OT_set_stereo_3d.use_interlace_swap
 #. :src: bpy.types.Stereo3dDisplay.use_interlace_swap
@@ -81216,13 +81216,13 @@ msgstr "左右交换"
 #. :src: bpy.types.Stereo3dDisplay.use_interlace_swap
 #. :src: bpy.types.Stereo3dFormat.use_interlace_swap
 msgid "Swap left and right stereo channels"
-msgstr "与左或右侧的激活片段实现交换"
+msgstr "交换左侧与右侧的立体通道"
 
 #. :src: bpy.types.WM_OT_set_stereo_3d.use_sidebyside_crosseyed
 #. :src: bpy.types.Stereo3dDisplay.use_sidebyside_crosseyed
 #. :src: bpy.types.Stereo3dFormat.use_sidebyside_crosseyed
 msgid "Cross-Eyed"
-msgstr "过渡"
+msgstr "交叉视角"
 
 #. :src: bpy.types.WM_OT_set_stereo_3d.use_sidebyside_crosseyed
 #. :src: bpy.types.Stereo3dDisplay.use_sidebyside_crosseyed
@@ -81251,11 +81251,11 @@ msgstr "生成系统信息并保存为文本文件"
 #. :src: bpy.types.WM_OT_tool_set_by_id
 msgctxt "Operator"
 msgid "Set Tool By Name"
-msgstr "工具"
+msgstr "按名称设置工具"
 
 #. :src: bpy.types.WM_OT_tool_set_by_id
 msgid "Set the tool by name (for keymaps)"
-msgstr "插帧集名称"
+msgstr "按名称设置工具(用于键位映射)"
 
 #. :src: bpy.types.WM_OT_tool_set_by_id.cycle
 #. :src: bpy.types.WM_OT_tool_set_by_index.cycle
@@ -81265,17 +81265,16 @@ msgstr "循环"
 #. :src: bpy.types.WM_OT_tool_set_by_id.cycle
 #. :src: bpy.types.WM_OT_tool_set_by_index.cycle
 msgid "Cycle through tools in this group"
-msgstr "循环通过可用屏幕"
+msgstr "循环通过该组工具"
 
 #. :src: bpy.types.WM_OT_tool_set_by_id.name
 msgid "Identifier of the tool"
-msgstr "工具"
+msgstr "工具标识符"
 
 #. :src: bpy.types.WM_OT_tool_set_by_index
-#, fuzzy
 msgctxt "Operator"
 msgid "Set Tool By Index"
-msgstr "按名称排序"
+msgstr "按编号设置工具"
 
 #. :src: bpy.types.WM_OT_tool_set_by_index
 msgid "Set the tool by index (for keymaps)"
@@ -81283,11 +81282,11 @@ msgstr ""
 
 #. :src: bpy.types.WM_OT_tool_set_by_index.expand
 msgid "Include tool sub-groups"
-msgstr ""
+msgstr "包含工具子群组"
 
 #. :src: bpy.types.WM_OT_tool_set_by_index.index
 msgid "Index in toolbar"
-msgstr ""
+msgstr "工具栏上的编号"
 
 #. :src: bpy.types.WM_OT_toolbar
 msgctxt "Operator"
@@ -81309,7 +81308,7 @@ msgstr "要打开的URL"
 #. :src: bpy.types.WM_OT_userpref_autoexec_path_add
 msgctxt "Operator"
 msgid "Add Autoexec Path"
-msgstr "自动执行路径"
+msgstr "添加自动执行路径"
 
 #. :src: bpy.types.WM_OT_userpref_autoexec_path_add
 msgid "Add path to exclude from autoexecution"
@@ -81318,11 +81317,11 @@ msgstr ""
 #. :src: bpy.types.WM_OT_userpref_autoexec_path_remove
 msgctxt "Operator"
 msgid "Remove Autoexec Path"
-msgstr "自动执行路径"
+msgstr "删除自动执行路径"
 
 #. :src: bpy.types.WM_OT_userpref_autoexec_path_remove
 msgid "Remove path to exclude from autoexecution"
-msgstr "从活动插帧集中移除激活的路径"
+msgstr "从自动执行中移除路径"
 
 #. :src: bpy.types.WM_OT_window_close
 msgctxt "Operator"
@@ -81372,7 +81371,7 @@ msgstr "通过复制当前场景或者从用户预设添加新的工作区"
 #. :src: bpy.types.WORKSPACE_OT_append_activate
 msgctxt "Operator"
 msgid "Append and Activate Workspace"
-msgstr "附加并激活工作区"
+msgstr "追加并激活工作区"
 
 #. :src: bpy.types.WORKSPACE_OT_append_activate
 msgid "Append a workspace and make it the active one in the current window"
@@ -81380,7 +81379,7 @@ msgstr ""
 
 #. :src: bpy.types.WORKSPACE_OT_append_activate.filepath
 msgid "Path to the library"
-msgstr ". blend 库文件路径"
+msgstr "指向库文件的路径"
 
 #. :src: bpy.types.WORKSPACE_OT_append_activate.idname
 msgid "Name of the workspace to append and activate"
@@ -81407,7 +81406,7 @@ msgstr "添加一个新的工作区"
 #. :src: bpy.types.WORKSPACE_OT_reorder_to_back
 msgctxt "Operator"
 msgid "Workspace Reorder to Back"
-msgstr "后视图"
+msgstr ""
 
 #. :src: bpy.types.WORKSPACE_OT_reorder_to_back
 #. :src: bpy.types.WORKSPACE_OT_reorder_to_front
@@ -81417,7 +81416,7 @@ msgstr ""
 #. :src: bpy.types.WORKSPACE_OT_reorder_to_front
 msgctxt "Operator"
 msgid "Workspace Reorder to Front"
-msgstr "前视图"
+msgstr ""
 
 #. :src: bpy.types.WORLD_OT_new
 msgctxt "Operator"
@@ -81446,11 +81445,11 @@ msgstr "活动笔刷"
 
 #. :src: bpy.types.Paint.cavity_curve
 msgid "Editable cavity curve"
-msgstr "可编辑衰减曲线"
+msgstr "可编辑空腔曲线"
 
 #. :src: bpy.types.Paint.input_samples
 msgid "Average multiple input samples together to smooth the brush stroke"
-msgstr "同时均化多重输入采样, 以平滑笔刷的画笔"
+msgstr "同时均化多重输入采样, 以平滑笔刷的笔画"
 
 #. :src: bpy.types.Paint.palette
 msgid "Palette"
@@ -81458,7 +81457,7 @@ msgstr "调色板"
 
 #. :src: bpy.types.Paint.palette
 msgid "Active Palette"
-msgstr "激活调色板"
+msgstr "活动调色板"
 
 #. :src: bpy.types.Paint.show_brush
 #. :src: bpy.types.IMAGE_PT_tools_brush_display_show_brush
@@ -81481,7 +81480,7 @@ msgstr "对于多级精度, 在操纵视图时显示低精度"
 
 #. :src: bpy.types.Paint.tile_offset
 msgid "Tiling offset for the X Axis"
-msgstr "-X 轴"
+msgstr "为X轴拼贴偏移"
 
 #. :src: bpy.types.Paint.tile_offset
 msgid "Stride at which tiled strokes are copied"
@@ -81515,12 +81514,12 @@ msgstr "沿 Z 轴平铺"
 
 #. :src: bpy.types.Paint.tool_slots
 msgid "Paint Tool Slots"
-msgstr "图像绘制工具"
+msgstr "绘制工具槽"
 
 #. :src: bpy.types.Paint.use_cavity
 #. :src: bpy.types.VIEW3D_PT_tools_imagepaint_options_cavity
 msgid "Cavity Mask"
-msgstr "Cavity遮罩"
+msgstr "空腔遮罩"
 
 #. :src: bpy.types.Paint.use_cavity
 msgid "Mask painting according to mesh geometry cavity"
@@ -81574,7 +81573,7 @@ msgstr "图像及纹理绘制模式的属性"
 
 #. :src: bpy.types.ImagePaint.canvas
 msgid "Image used as canvas"
-msgstr "用作克隆源的图像"
+msgstr "用作画布的图像"
 
 #. :src: bpy.types.ImagePaint.clone_image
 msgid "Image used as clone source"
@@ -81603,15 +81602,15 @@ msgstr "缺失材质"
 
 #. :src: bpy.types.ImagePaint.missing_materials
 msgid "The mesh is missing materials"
-msgstr "缺失材质"
+msgstr "该网格材质缺失"
 
 #. :src: bpy.types.ImagePaint.missing_stencil
 msgid "Missing Stencil"
-msgstr "镂版"
+msgstr "缺失的镂版"
 
 #. :src: bpy.types.ImagePaint.missing_stencil
 msgid "Image Painting does not have a stencil"
-msgstr "图像 '%s' 未包含任何图像数据"
+msgstr "图像绘制无镂版\""
 
 #. :src: bpy.types.ImagePaint.missing_texture
 msgid "Missing Texture"
@@ -81619,7 +81618,7 @@ msgstr "缺失纹理"
 
 #. :src: bpy.types.ImagePaint.missing_texture
 msgid "Image Painting does not have a texture to paint on"
-msgstr ""
+msgstr "图像绘制无可供绘制的贴图"
 
 #. :src: bpy.types.ImagePaint.missing_uvs
 msgid "Missing UVs"
@@ -81627,11 +81626,11 @@ msgstr "缺失UV"
 
 #. :src: bpy.types.ImagePaint.missing_uvs
 msgid "A UV layer is missing on the mesh"
-msgstr "克隆 UV 环线层"
+msgstr "网格的某个UV层缺失"
 
 #. :src: bpy.types.ImagePaint.mode
 msgid "Mode of operation for projection painting"
-msgstr "已存储的操作模式"
+msgstr "用于投影绘制的操作模式"
 
 #. :src: bpy.types.ImagePaint.mode:'MATERIAL'
 msgid "Detect image slots from the material"
@@ -81639,7 +81638,7 @@ msgstr ""
 
 #. :src: bpy.types.ImagePaint.mode:'IMAGE'
 msgid "Set image for texture painting directly"
-msgstr "图像及纹理绘制模式的属性"
+msgstr "设置用于直接纹理绘制的图像"
 
 #. :src: bpy.types.ImagePaint.screen_grab_size
 msgid "Size to capture the image for re-projecting"
@@ -81655,11 +81654,11 @@ msgstr "越过面UV的外延颜料部分, 用于降低接缝效果 (作用于像
 
 #. :src: bpy.types.ImagePaint.stencil_color
 msgid "Stencil Color"
-msgstr "镂版"
+msgstr "镂版颜色"
 
 #. :src: bpy.types.ImagePaint.stencil_color
 msgid "Stencil color in the viewport"
-msgstr "镂板在视图中的位置"
+msgstr "视图中的镂板"
 
 #. :src: bpy.types.ImagePaint.stencil_image
 #: scripts/startup/bl_ui/space_view3d_toolbar.py:714
@@ -81668,7 +81667,7 @@ msgstr "镂版图"
 
 #. :src: bpy.types.ImagePaint.stencil_image
 msgid "Image used as stencil"
-msgstr "镂版图"
+msgstr "用作镂版的图像"
 
 #. :src: bpy.types.ImagePaint.use_backface_culling
 msgid "Cull"
@@ -81780,7 +81779,7 @@ msgstr "恒定细节"
 
 #. :src: bpy.types.Sculpt.detail_type_method:'CONSTANT'
 msgid "Mesh detail is constant in world space according to detail size"
-msgstr "网格细节会按照细节尺寸在物体空间中保持恒定不变"
+msgstr "网格细节会按照细节尺寸在世界空间中保持恒定不变"
 
 #. :src: bpy.types.Sculpt.detail_type_method:'BRUSH'
 msgid "Brush Detail"
@@ -81894,11 +81893,11 @@ msgstr "限定"
 
 #. :src: bpy.types.VertexPaint.use_group_restrict
 msgid "Restrict painting to vertices in the group"
-msgstr "没有用于绘画的激活顶点组, 操作终止"
+msgstr "限制绘制操作仅作用于组中的顶点"
 
 #. :src: bpy.types.PaintToolSlot
 msgid "Paint Tool Slot"
-msgstr "图像绘制工具"
+msgstr "绘制工具槽"
 
 #. :src: bpy.types.PaletteColor
 msgid "Palette Color"
@@ -81906,7 +81905,7 @@ msgstr "调色板颜色"
 
 #. :src: bpy.types.PaletteColors
 msgid "Palette Splines"
-msgstr "样条线"
+msgstr "调色板样条线"
 
 #. :src: bpy.types.PaletteColors
 msgid "Collection of palette colors"
@@ -81914,11 +81913,11 @@ msgstr "调色板颜色集合"
 
 #. :src: bpy.types.PaletteColors.active
 msgid "Active Palette Color"
-msgstr "调色板颜色"
+msgstr "活动调色板颜色"
 
 #. :src: bpy.types.Panel
 msgid "Panel containing UI elements"
-msgstr "包含一系列元素的用户界面列表"
+msgstr "面板包含用户界面元素"
 
 #. :src: bpy.types.Panel.bl_context
 msgid "The context in which the panel belongs to. (TODO: explain the possible combinations bl_context/bl_region_type/bl_space_type)"
@@ -81936,11 +81935,11 @@ msgstr ""
 
 #. :src: bpy.types.Panel.bl_options
 msgid "Options for this panel type"
-msgstr "显示线条颜色选项面板"
+msgstr "用于该面板类型的选项"
 
 #. :src: bpy.types.Panel.bl_options:'DEFAULT_CLOSED'
 msgid "Default Closed"
-msgstr "默认"
+msgstr "默认关闭"
 
 #. :src: bpy.types.Panel.bl_options:'DEFAULT_CLOSED'
 msgid "Defines if the panel has to be open or collapsed at the time of its creation"
@@ -81948,7 +81947,7 @@ msgstr ""
 
 #. :src: bpy.types.Panel.bl_options:'HIDE_HEADER'
 msgid "Hide Header"
-msgstr "标题栏"
+msgstr "隐藏标题栏"
 
 #. :src: bpy.types.Panel.bl_options:'HIDE_HEADER'
 msgid "If set to False, the panel shows a header, which contains a clickable arrow to collapse the panel and the label (see bl_label)"
@@ -81957,7 +81956,7 @@ msgstr ""
 #. :src: bpy.types.Panel.bl_order
 #: scripts/addons/cycles/ui.py:625
 msgid "Order"
-msgstr "按排序"
+msgstr "排序"
 
 #. :src: bpy.types.Panel.bl_order
 msgid "Panels with lower numbers are default ordered before panels with higher numbers"
@@ -81965,7 +81964,7 @@ msgstr ""
 
 #. :src: bpy.types.Panel.bl_parent_id
 msgid "Parent ID Name"
-msgstr "要解包的 ID 块名称"
+msgstr "父级 ID 名称"
 
 #. :src: bpy.types.Panel.bl_parent_id
 msgid "If this is set, the panel becomes a sub-panel"
@@ -81973,7 +81972,7 @@ msgstr ""
 
 #. :src: bpy.types.Panel.bl_ui_units_x
 msgid "Units X"
-msgstr "单位"
+msgstr "单位 X"
 
 #. :src: bpy.types.Panel.bl_ui_units_x
 msgid "When set, defines popup panel width"
@@ -81985,7 +81984,7 @@ msgstr ""
 
 #. :src: bpy.types.Panel.layout
 msgid "Defines the structure of the panel in the UI"
-msgstr "界面中的约束面板"
+msgstr "定义用户界面中的面板结构"
 
 #. :src: bpy.types.Panel.text
 msgid "XXX todo"
@@ -82039,12 +82038,12 @@ msgstr "预定义的轨迹相机内部参数"
 #. :src: bpy.types.CLIP_PT_clip_display
 #. :src: bpy.types.CLIP_PT_display
 msgid "Clip Display"
-msgstr "剪辑显示"
+msgstr "钳制显示"
 
 #. :src: bpy.types.CLIP_PT_footage
 #. :src: bpy.types.CLIP_PT_proxy
 msgid "Footage"
-msgstr "为镜头使用平面稳像"
+msgstr "镜头"
 
 #. :src: bpy.types.CLIP_PT_footage
 msgid "Footage Settings"
@@ -82095,7 +82094,6 @@ msgid "CLIP_PT_tools_clip"
 msgstr "CLIP_PT_tools_clip"
 
 #. :src: bpy.types.CLIP_PT_tools_mask_tools
-#, fuzzy
 msgid "Mask Tools"
 msgstr "遮罩工具"
 
@@ -82126,11 +82124,11 @@ msgstr "颜色预设"
 #. :src: bpy.types.CLIP_PT_track_settings
 #. :src: bpy.types.CLIP_PT_tracking_settings
 msgid "Tracking Settings"
-msgstr "追踪设置"
+msgstr "跟踪设置"
 
 #. :src: bpy.types.CLIP_PT_track_settings_extras
 msgid "Tracking Settings Extras"
-msgstr "追踪设置"
+msgstr ""
 
 #. :src: bpy.types.CLIP_PT_tracking_lens
 #. :src: bpy.types.DATA_PT_lens
@@ -82141,15 +82139,15 @@ msgstr "镜头"
 
 #. :src: bpy.types.CLIP_PT_tracking_settings_extras
 msgid "Tracking Settings Extra"
-msgstr "追踪设置"
+msgstr ""
 
 #. :src: bpy.types.CLIP_PT_tracking_settings_presets
 msgid "Predefined tracking settings"
-msgstr "预定义的追踪设置"
+msgstr "预定义的跟踪设置"
 
 #. :src: bpy.types.CLIP_PT_tracking_settings_presets
 msgid "Tracking Presets"
-msgstr "追踪预设"
+msgstr "跟踪预设"
 
 #. :src: bpy.types.CLOTH_PT_presets
 msgid "Cloth Presets"
@@ -82213,11 +82211,11 @@ msgstr "光程"
 
 #. :src: bpy.types.CYCLES_RENDER_PT_light_paths_caustics
 msgid "Caustics"
-msgstr "反射焦散"
+msgstr "焦散"
 
 #. :src: bpy.types.CYCLES_RENDER_PT_light_paths_clamping
 msgid "Clamping"
-msgstr "带钳制的线性间距样式"
+msgstr "钳制"
 
 #. :src: bpy.types.CYCLES_RENDER_PT_light_paths_max_bounces
 #. :src: bpy.types.CyclesLightSettings.max_bounces
@@ -82233,7 +82231,7 @@ msgstr "快门曲线"
 
 #. :src: bpy.types.CYCLES_RENDER_PT_override
 msgid "Override"
-msgstr "覆写解算器迭代次数"
+msgstr "覆盖"
 
 #. :src: bpy.types.CYCLES_RENDER_PT_passes
 #. :src: bpy.types.VIEWLAYER_PT_eevee_layer_passes
@@ -82247,7 +82245,7 @@ msgstr "性能"
 
 #. :src: bpy.types.CYCLES_RENDER_PT_performance_acceleration_structure
 msgid "Acceleration Structure"
-msgstr "加速度"
+msgstr "加速架构"
 
 #. :src: bpy.types.CYCLES_RENDER_PT_performance_final_render
 msgid "Final Render"
@@ -82264,7 +82262,7 @@ msgstr "拼贴"
 
 #. :src: bpy.types.CYCLES_RENDER_PT_sampling_sub_samples
 msgid "Sub Samples"
-msgstr "采样"
+msgstr "次级采样"
 
 #. :src: bpy.types.CYCLES_RENDER_PT_subdivision
 msgid "Subdivision"
@@ -82287,11 +82285,11 @@ msgstr "自定义距离"
 
 #. :src: bpy.types.DATA_PT_EEVEE_shadow_cascaded_shadow_map
 msgid "Cascaded Shadow Map"
-msgstr "阴影"
+msgstr "级联阴影图"
 
 #. :src: bpy.types.DATA_PT_EEVEE_shadow_contact
 msgid "Contact Shadows"
-msgstr "阴影"
+msgstr "接触阴影"
 
 #. :src: bpy.types.DATA_PT_area
 msgid "Area Shape"
@@ -82316,7 +82314,7 @@ msgstr "中间裁切安全区"
 #. :src: bpy.types.RENDER_PT_stereoscopy
 #. :src: bpy.types.VIEW3D_PT_view3d_stereo
 msgid "Stereoscopy"
-msgstr "立体声复制"
+msgstr "立体视法"
 
 #. :src: bpy.types.DATA_PT_curve_texture_space
 #. :src: bpy.types.DATA_PT_mball_texture_space
@@ -82331,15 +82329,15 @@ msgstr "几何数据"
 
 #. :src: bpy.types.DATA_PT_gpencil_layer_adjustments
 msgid "Adjustments"
-msgstr "用于对下方层执行滤镜调节的序列片段"
+msgstr "调整"
 
 #. :src: bpy.types.DATA_PT_gpencil_onion_skinning_custom_colors
 msgid "Custom Colors"
-msgstr "使用自定义颜色"
+msgstr "自定义颜色"
 
 #. :src: bpy.types.DATA_PT_lightprobe
 msgid "Probe"
-msgstr "添加光照探头"
+msgstr "光照探头"
 
 #. :src: bpy.types.DATA_PT_lightprobe_parallax
 msgid "Custom Parallax"
@@ -82622,7 +82620,7 @@ msgstr "游标"
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'PAINT_GPENCIL', 'builtin.cursor'
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'EDIT_GPENCIL', 'builtin.cursor'
 msgid "Set the cursor location, drag to transform"
-msgstr "设置 3D 游标的坐标"
+msgstr "设置 3D 游标的位置，拖拽进行变换"
 
 #. :src: bpy.types.IMAGE_PT_tools_active Tools: 'UV', 'builtin.scale'
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'OBJECT', 'builtin.scale'
@@ -82738,7 +82736,7 @@ msgstr "覆盖内容"
 
 #. :src: bpy.types.IMAGE_PT_view_display_uv_edit_overlays_stretch
 msgid "Stretching"
-msgstr "根据松弛限角减少 UV 的拉伸量"
+msgstr "拉伸"
 
 #. :src: bpy.types.IMAGE_PT_view_histogram
 #. :src: bpy.types.Scopes.histogram
@@ -82760,15 +82758,15 @@ msgstr "Freestyle 线条集"
 
 #. :src: bpy.types.MATERIAL_PT_gpencil_material_presets
 msgid "Material settings"
-msgstr "Cycles 材质设置"
+msgstr "材质设置"
 
 #. :src: bpy.types.MATERIAL_PT_gpencil_material_presets
 msgid "Material Presets"
-msgstr "预设"
+msgstr "材质预设"
 
 #. :src: bpy.types.MATERIAL_PT_gpencil_slots
 msgid "Grease Pencil Material Slots"
-msgstr "蜡笔材质槽"
+msgstr "蜡笔材质预设"
 
 #. :src: bpy.types.NODE_PT_backdrop
 #. :src: bpy.types.SpaceNodeEditor.show_backdrop
@@ -82799,7 +82797,7 @@ msgstr "实例化"
 
 #. :src: bpy.types.OBJECT_PT_instancing_size
 msgid "Scale by Face Size"
-msgstr "面的点尺寸"
+msgstr "按面尺寸缩放"
 
 #. :src: bpy.types.PARTICLE_PT_boidbrain
 msgid "Boid Brain"
@@ -82808,15 +82806,15 @@ msgstr "群集行为逻辑"
 #. :src: bpy.types.PARTICLE_PT_children
 msgctxt "ParticleSettings"
 msgid "PARTICLE_PT_children"
-msgstr "CLIP_PT_tools_clip"
+msgstr "PARTICLE_PT_children"
 
 #. :src: bpy.types.PARTICLE_PT_children_clumping
 msgid "Clumping"
-msgstr "影响子粒子簇集度"
+msgstr "簇集"
 
 #. :src: bpy.types.PARTICLE_PT_children_clumping_noise
 msgid "Clump Noise"
-msgstr "簇"
+msgstr "簇噪波"
 
 #. :src: bpy.types.PARTICLE_PT_children_parting
 #: scripts/startup/bl_ui/properties_particle.py:1565
@@ -82829,7 +82827,7 @@ msgstr "分界"
 #. :src: bpy.types.PHYSICS_PT_softbody_field_weights
 #. :src: bpy.types.SCENE_PT_rigid_body_field_weights
 msgid "Field Weights"
-msgstr "力场权重设置"
+msgstr "力场权重"
 
 #. :src: bpy.types.PARTICLE_PT_force_fields
 msgid "Force Field Settings"
@@ -82860,7 +82858,7 @@ msgstr "结构"
 
 #. :src: bpy.types.PARTICLE_PT_hair_shape
 msgid "Hair Shape"
-msgstr "毛发"
+msgstr "毛发形状"
 
 #. :src: bpy.types.PARTICLE_PT_physics
 #. :src: bpy.types.SpaceProperties.context:'PHYSICS'
@@ -82869,7 +82867,7 @@ msgstr "物理"
 
 #. :src: bpy.types.PARTICLE_PT_physics_boids_battle
 msgid "Battle"
-msgstr "战场:"
+msgstr "战场"
 
 #. :src: bpy.types.PARTICLE_PT_physics_boids_misc
 msgid "Misc"
@@ -82881,11 +82879,11 @@ msgstr "移动"
 
 #. :src: bpy.types.PARTICLE_PT_physics_deflection
 msgid "Deflection"
-msgstr "在偏转时使用粒子的尺寸"
+msgstr "偏转"
 
 #. :src: bpy.types.PARTICLE_PT_physics_fluid_interaction
 msgid "Fluid Interaction"
-msgstr "流体的互动半径"
+msgstr "流体互动"
 
 #. :src: bpy.types.PARTICLE_PT_physics_fluid_springs
 #. :src: bpy.types.PHYSICS_PT_rigid_body_constraint_springs
@@ -82904,7 +82902,7 @@ msgstr "力场"
 
 #. :src: bpy.types.PARTICLE_PT_render_path_timing
 msgid "Timing"
-msgstr "无时序"
+msgstr "时序"
 
 #. :src: bpy.types.PHYSICS_PT_cloth_collision
 #. :src: bpy.types.PHYSICS_PT_rigid_body_collisions
@@ -82913,24 +82911,23 @@ msgstr "碰撞"
 
 #. :src: bpy.types.PHYSICS_PT_cloth_object_collision
 msgid "Object Collisions"
-msgstr "碰撞"
+msgstr "物体碰撞"
 
 #. :src: bpy.types.PHYSICS_PT_cloth_physical_properties
 msgid "Physical Properties"
-msgstr "无属性"
+msgstr "物理属性"
 
 #. :src: bpy.types.PHYSICS_PT_cloth_property_weights
 msgid "Property Weights"
 msgstr "属性权重"
 
 #. :src: bpy.types.PHYSICS_PT_cloth_self_collision
-#, fuzzy
 msgid "Self Collisions"
 msgstr "自碰撞"
 
 #. :src: bpy.types.PHYSICS_PT_collision_softbody
 msgid "Softbody And Cloth"
-msgstr "软体"
+msgstr "软体与布料"
 
 #. :src: bpy.types.PHYSICS_PT_domain_viscosity
 #. :src: bpy.types.SPHFluidSettings.linear_viscosity
@@ -82940,11 +82937,11 @@ msgstr "粘度"
 
 #. :src: bpy.types.PHYSICS_PT_dp_brush_source_color_ramp
 msgid "Falloff Ramp"
-msgstr "渐变"
+msgstr "衰减渐变"
 
 #. :src: bpy.types.PHYSICS_PT_dp_brush_velocity_smudge
 msgid "Smudge"
-msgstr "进行涂抹"
+msgstr "涂抹"
 
 #. :src: bpy.types.PHYSICS_PT_dp_brush_wave
 msgid "Waves"
@@ -82965,7 +82962,7 @@ msgstr "力场"
 #. :src: bpy.types.PHYSICS_PT_rigid_body_collisions_surface
 #. :src: bpy.types.PHYSICS_PT_rigid_body_collisions_surface
 msgid "Surface Response"
-msgstr "曲面上"
+msgstr "表面响应"
 
 #. :src: bpy.types.PHYSICS_PT_rigid_body_constraint_override_iterations
 msgid "Override Iterations"
@@ -82977,7 +82974,7 @@ msgstr "动力"
 
 #. :src: bpy.types.PHYSICS_PT_rigid_body_dynamics_deactivation
 msgid "Deactivation"
-msgstr "启用失活性"
+msgstr "失活性"
 
 #. :src: bpy.types.PHYSICS_PT_smoke_adaptive_domain
 #. :src: bpy.types.SmokeDomainSettings.use_adaptive_domain
@@ -82990,19 +82987,19 @@ msgstr "行为"
 
 #. :src: bpy.types.PHYSICS_PT_smoke_fire
 msgid "Flames"
-msgstr "帧"
+msgstr "火焰"
 
 #. :src: bpy.types.PHYSICS_PT_smoke_highres
 msgid "High Resolution"
-msgstr "显示高精度 (使用放大机制)"
+msgstr "高精度"
 
 #. :src: bpy.types.PHYSICS_PT_smoke_settings_particle_size
 msgid "Particle Size"
-msgstr "根据粒子大小定高"
+msgstr "粒子大小"
 
 #. :src: bpy.types.PHYSICS_PT_smoke_viewport_display_debug
 msgid "Debug Velocity"
-msgstr "调试"
+msgstr "调试速率"
 
 #. :src: bpy.types.PHYSICS_PT_softbody_collision
 #. :src: bpy.types.SoftBodySettings.use_self_collision
@@ -83011,11 +83008,11 @@ msgstr "自碰撞"
 
 #. :src: bpy.types.PHYSICS_PT_softbody_edge_aerodynamics
 msgid "Aerodynamics"
-msgstr "空气动力学类型"
+msgstr "空气动力学"
 
 #. :src: bpy.types.PHYSICS_PT_softbody_goal_strengths
 msgid "Strengths"
-msgstr "强度/力度"
+msgstr "强度"
 
 #. :src: bpy.types.PHYSICS_PT_softbody_solver_diagnostics
 msgid "Diagnostics"
@@ -83023,7 +83020,7 @@ msgstr "诊断"
 
 #. :src: bpy.types.PHYSICS_PT_softbody_solver_helpers
 msgid "Helpers"
-msgstr "使用手动校正辅助器"
+msgstr "辅助器"
 
 #. :src: bpy.types.RENDER_PT_color_management
 #: source/blender/editors/space_image/image_buttons.c:1080
@@ -83038,7 +83035,7 @@ msgstr ""
 #. :src: bpy.types.RENDER_PT_eevee_film_overscan
 #. :src: bpy.types.SceneEEVEE.use_overscan
 msgid "Overscan"
-msgstr "悬垂"
+msgstr "过扫描"
 
 #. :src: bpy.types.RENDER_PT_eevee_indirect_lighting
 msgid "Indirect Lighting"
@@ -83056,17 +83053,17 @@ msgstr "阴影"
 
 #. :src: bpy.types.RENDER_PT_eevee_volumetric
 msgid "Volumetrics"
-msgstr "体积散射事件的最大值"
+msgstr "体积"
 
 #. :src: bpy.types.RENDER_PT_eevee_volumetric_lighting
 #. :src: bpy.types.SceneEEVEE.use_volumetric_lights
 msgid "Volumetric Lighting"
-msgstr "光照"
+msgstr "体积光照明"
 
 #. :src: bpy.types.RENDER_PT_eevee_volumetric_shadows
 #. :src: bpy.types.SceneEEVEE.use_volumetric_shadows
 msgid "Volumetric Shadows"
-msgstr "阴影"
+msgstr "体积阴影"
 
 #. :src: bpy.types.RENDER_PT_encoding
 msgid "Encoding"
@@ -83088,7 +83085,7 @@ msgstr "FFMPEG 编码预设"
 
 #. :src: bpy.types.RENDER_PT_frame_remapping
 msgid "Time Remapping"
-msgstr "圆形松型"
+msgstr "时间重映射"
 
 #. :src: bpy.types.RENDER_PT_freestyle
 #. :src: bpy.types.VIEW3D_PT_overlay_edit_mesh_freestyle
@@ -83113,7 +83110,7 @@ msgstr "元数据"
 
 #. :src: bpy.types.RENDER_PT_stamp_burn
 msgid "Burn Into Image"
-msgstr "加深"
+msgstr "刻录至图像"
 
 #. :src: bpy.types.RENDER_PT_stamp_note
 #: source/blender/blenkernel/intern/gpencil.c:388 source/blender/editors/gpencil/annotate_paint.c:1318 source/blender/editors/gpencil/gpencil_data.c:137
@@ -83124,31 +83121,31 @@ msgstr "说明"
 #. :src: bpy.types.SCENE_PT_keyframing_settings
 #. :src: bpy.types.TIME_PT_keyframing_settings
 msgid "Keyframing Settings"
-msgstr "自动插入关键帧"
+msgstr "插入关键帧设置"
 
 #. :src: bpy.types.SEQUENCER_PT_adjust
 msgid "Adjust"
-msgstr "光标锁定调整"
+msgstr "调整"
 
 #. :src: bpy.types.SEQUENCER_PT_cache_settings
 #. :src: bpy.types.SEQUENCER_PT_proxy_settings
 #. :src: bpy.types.SEQUENCER_PT_strip_cache
 #. :src: bpy.types.SEQUENCER_PT_strip_proxy
 msgid "Proxy & Cache"
-msgstr "缓存"
+msgstr "代理 & 缓存"
 
 #. :src: bpy.types.SEQUENCER_PT_cache_settings
 msgid "Cache Settings"
-msgstr "缓存"
+msgstr "缓存设置"
 
 #. :src: bpy.types.SEQUENCER_PT_frame_overlay
 msgid "Frame Overlay"
-msgstr "叠加"
+msgstr "帧叠加"
 
 #. :src: bpy.types.SEQUENCER_PT_preview
 #. :src: bpy.types.SEQUENCER_PT_preview
 msgid "Scene Preview/Render"
-msgstr "要渲染的场景, 如果未指定, 则为当前场景"
+msgstr "场景预览/渲染"
 
 #. :src: bpy.types.SEQUENCER_PT_proxy_settings
 msgid "Proxy Settings"
@@ -83156,15 +83153,15 @@ msgstr "代理设置"
 
 #. :src: bpy.types.SEQUENCER_PT_strip_cache
 msgid "Strip Cache"
-msgstr "片段"
+msgstr "片段缓存"
 
 #. :src: bpy.types.SEQUENCER_PT_strip_proxy
 msgid "Strip Proxy & Timecode"
-msgstr "代理/时间码"
+msgstr "片段代理/时间码"
 
 #. :src: bpy.types.TEXTURE_PT_voronoi_feature_weights
 msgid "Feature Weights"
-msgstr "特性设置"
+msgstr "特性权重"
 
 #. :src: bpy.types.TEXT_PT_find
 msgid "Find"
@@ -83186,7 +83183,7 @@ msgstr "重命名活动项"
 
 #. :src: bpy.types.UI_PT_i18n_update_translations_settings
 msgid "I18n Update Translation"
-msgstr "更新i18n翻译设置项"
+msgstr "i18n更新翻译"
 
 #. :src: bpy.types.USERPREF_PT_addons
 #. :src: bpy.types.Preferences.active_section:'ADDONS'
@@ -83221,7 +83218,7 @@ msgstr "开发"
 
 #. :src: bpy.types.USERPREF_PT_input_ndof
 msgid "NDOF"
-msgstr "NDOF 轨迹视图"
+msgstr "NDOF"
 
 #. :src: bpy.types.USERPREF_PT_input_tablet
 msgid "Tablet"
@@ -83415,7 +83412,7 @@ msgstr "轴 & Gizmo颜色"
 
 #. :src: bpy.types.USERPREF_PT_theme_interface_icons
 msgid "Icon Colors"
-msgstr "图标"
+msgstr "图标颜色"
 
 #. :src: bpy.types.USERPREF_PT_theme_interface_styles
 #. :src: bpy.types.Preferences.ui_styles
@@ -83424,7 +83421,7 @@ msgstr "样式"
 
 #. :src: bpy.types.USERPREF_PT_theme_interface_wcol_list_item
 msgid "List Item"
-msgstr "列表项目的颜色"
+msgstr "列表条目"
 
 #. :src: bpy.types.USERPREF_PT_theme_interface_wcol_menu
 msgid "Menu"
@@ -83432,11 +83429,11 @@ msgstr "菜单"
 
 #. :src: bpy.types.USERPREF_PT_theme_interface_wcol_menu_back
 msgid "Menu Back"
-msgstr "菜单"
+msgstr "菜单背景"
 
 #. :src: bpy.types.USERPREF_PT_theme_interface_wcol_menu_item
 msgid "Menu Item"
-msgstr "菜单栏目的颜色"
+msgstr "菜单条目"
 
 #. :src: bpy.types.USERPREF_PT_theme_interface_wcol_num
 msgid "Number Field"
@@ -83444,7 +83441,7 @@ msgstr "力场"
 
 #. :src: bpy.types.USERPREF_PT_theme_interface_wcol_numslider
 msgid "Value Slider"
-msgstr "使用明暗值滑块来显示色相 / 饱和度"
+msgstr "数值滑块"
 
 #. :src: bpy.types.USERPREF_PT_theme_interface_wcol_option
 msgid "Option"
@@ -83478,12 +83475,12 @@ msgstr "Tab"
 
 #. :src: bpy.types.USERPREF_PT_theme_interface_wcol_toolbar_item
 msgid "Toolbar Item"
-msgstr "物体名称"
+msgstr "工具栏条目"
 
 #. :src: bpy.types.USERPREF_PT_theme_sequence_editor
 #. :src: bpy.types.Theme.theme_area:'SEQUENCE_EDITOR'
 msgid "Video Sequence Editor"
-msgstr "序列编辑器"
+msgstr "视频序列编辑器"
 
 #. :src: bpy.types.USERPREF_PT_theme_text_style
 #. :src: bpy.types.Theme.theme_area:'STYLE'
@@ -83535,7 +83532,7 @@ msgstr "辅助"
 #. :src: bpy.types.VIEW3D_PT_gpencil_lock
 #: scripts/startup/bl_ui/space_view3d.py:6005
 msgid "Drawing Plane"
-msgstr "粒子显示"
+msgstr "绘制平面"
 
 #. :src: bpy.types.VIEW3D_PT_gpencil_multi_frame
 msgid "Multi Frame"
@@ -83608,7 +83605,7 @@ msgstr "动态拓扑"
 #. :src: bpy.types.VIEW3D_PT_tools_weightpaint_options_unified
 #: scripts/startup/bl_ui/space_view3d_toolbar.py:1399
 msgid "Unified Brush"
-msgstr "统一颜色"
+msgstr "统一笔刷"
 
 #. :src: bpy.types.VIEW3D_PT_shading_options_shadow
 msgid "Shadow Settings"
@@ -83616,7 +83613,7 @@ msgstr "阴影设置"
 
 #. :src: bpy.types.VIEW3D_PT_shading_options_ssao
 msgid "SSAO Settings"
-msgstr "SSAO"
+msgstr "SSAO设置"
 
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'OBJECT', 'builtin.scale_cage'
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'POSE', 'builtin.scale_cage'
@@ -83629,7 +83626,7 @@ msgstr "SSAO"
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'EDIT_GPENCIL', 'builtin.scale_cage'
 msgctxt "Operator"
 msgid "Scale Cage"
-msgstr "显示罩体"
+msgstr "缩放罩体"
 
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'OBJECT', 'builtin.measure'
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'POSE', 'builtin.measure'
@@ -83674,16 +83671,16 @@ msgstr "骨骼封套"
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'EDIT_MESH', 'builtin.extrude_to_cursor'
 msgctxt "Operator"
 msgid "Extrude to Cursor"
-msgstr "挤出光标"
+msgstr "挤出至游标"
 
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'EDIT_MESH', 'builtin.extrude_region'
 msgid "Extrude freely or along an axis"
-msgstr "自由挤压或沿轴线挤压"
+msgstr "自由挤出或沿轴线挤出"
 
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'EDIT_MESH', 'builtin.extrude_along_normals'
 msgctxt "Operator"
 msgid "Extrude Along Normals"
-msgstr "沿法线挤出面"
+msgstr "沿法向挤出面"
 
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'EDIT_MESH', 'builtin.extrude_individual'
 msgctxt "Operator"
@@ -83698,12 +83695,12 @@ msgstr "偏移环切边"
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'EDIT_MESH', 'builtin.knife'
 msgctxt "Operator"
 msgid "Knife"
-msgstr "切刀"
+msgstr "切"
 
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'EDIT_MESH', 'builtin.poly_build'
 msgctxt "Operator"
 msgid "Poly Build"
-msgstr "建形"
+msgstr "多国形建形"
 
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'EDIT_MESH', 'builtin.spin_duplicates'
 msgctxt "Operator"
@@ -83713,17 +83710,17 @@ msgstr "旋绕副本"
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'EDIT_MESH', 'builtin.rip_region'
 msgctxt "Operator"
 msgid "Rip Region"
-msgstr "撕裂区域"
+msgstr "断离区域"
 
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'EDIT_MESH', 'builtin.rip_edge'
 msgctxt "Operator"
 msgid "Rip Edge"
-msgstr "撕裂边缘"
+msgstr "断离边线"
 
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'EDIT_CURVE', 'builtin.extrude_cursor'
 msgctxt "Operator"
 msgid "Extrude Cursor"
-msgstr "挤出到光标"
+msgstr "挤出光标"
 
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'EDIT_CURVE', 'builtin.radius'
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'EDIT_GPENCIL', 'builtin.radius'
@@ -83872,7 +83869,7 @@ msgstr "擦除"
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'PAINT_GPENCIL', 'builtin.cutter'
 msgctxt "Operator"
 msgid "Cutter"
-msgstr "快门"
+msgstr "裁剪"
 
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'PAINT_GPENCIL', 'builtin.line'
 #: scripts/startup/bl_ui/properties_grease_pencil_common.py:102
@@ -83931,7 +83928,7 @@ msgstr "前面衰减"
 
 #. :src: bpy.types.VIEW3D_PT_tools_brush_falloff_normal
 msgid "Normal Falloff"
-msgstr "法线衰减"
+msgstr "法向衰减"
 
 #. :src: bpy.types.VIEW3D_PT_tools_curveedit_options_stroke
 msgid "Curve Stroke"
@@ -83943,7 +83940,7 @@ msgstr "后期处理"
 
 #. :src: bpy.types.VIEW3D_PT_tools_grease_pencil_brush_stabilizer
 msgid "Stabilize"
-msgstr "二维稳像"
+msgstr "稳定"
 
 #. :src: bpy.types.VIEW3D_PT_tools_grease_pencil_sculpt_options
 msgid "Sculpt Strokes"
@@ -83961,7 +83958,7 @@ msgstr "用于粒子模式的默认工具"
 
 #. :src: bpy.types.VIEW3D_PT_tools_particlemode_options_shapecut
 msgid "Cut Particles to Shape"
-msgstr "形状切割"
+msgstr "切割粒子至形状"
 
 #. :src: bpy.types.VIEW3D_PT_tools_posemode_options
 msgid "Pose Options"
@@ -84086,7 +84083,7 @@ msgstr "粒子的镜像体权重"
 
 #. :src: bpy.types.ParticleDupliWeight
 msgid "Weight of a particle dupliobject in a collection"
-msgstr "粒子的镜像体权重"
+msgstr "集合中镜像体的粒子权重"
 
 #. :src: bpy.types.ParticleDupliWeight.count
 msgid "The number of times this object is repeated with respect to other objects"
@@ -84110,7 +84107,7 @@ msgstr "制造新粒子所需的键数量"
 
 #. :src: bpy.types.ParticleEdit.display_step
 msgid "How many steps to display the path with"
-msgstr "路径的显示步数 (2的幂次值)"
+msgstr "显示路径步进值"
 
 #. :src: bpy.types.ParticleEdit.emitter_distance
 msgid "Emitter Distance"
@@ -84167,15 +84164,15 @@ msgstr "外型物体"
 
 #. :src: bpy.types.ParticleEdit.shape_object
 msgid "Outer shape to use for tools"
-msgstr "仅适用外层网格"
+msgstr "用于工具的外层形状"
 
 #. :src: bpy.types.ParticleEdit.show_particles
 msgid "Display Particles"
-msgstr "由粒子系统组成的物体将用于显示由流体域物体生成的粒子"
+msgstr "显示粒子"
 
 #. :src: bpy.types.ParticleEdit.show_particles
 msgid "Display actual particles"
-msgstr "实际间隔"
+msgstr "显示实际粒子"
 
 #. :src: bpy.types.ParticleEdit.tool:'COMB'
 msgid "Comb"
@@ -84437,35 +84434,35 @@ msgstr "反转粗糙末端效果顶点组"
 
 #. :src: bpy.types.ParticleSystem.invert_vertex_group_size
 msgid "Vertex Group Size Negate"
-msgstr "反向顶点组尺寸"
+msgstr "顶点组尺寸抵消"
 
 #. :src: bpy.types.ParticleSystem.invert_vertex_group_size
 msgid "Negate the effect of the size vertex group"
-msgstr "反向控制点尺寸的顶点组效果"
+msgstr "抵消尺寸顶点组的效果"
 
 #. :src: bpy.types.ParticleSystem.invert_vertex_group_tangent
 msgid "Vertex Group Tangent Negate"
-msgstr "反向顶点组切向"
+msgstr "顶点组切向抵消"
 
 #. :src: bpy.types.ParticleSystem.invert_vertex_group_tangent
 msgid "Negate the effect of the tangent vertex group"
-msgstr "反向顶点组控制切向的效果"
+msgstr "抵消切向顶点组的效果"
 
 #. :src: bpy.types.ParticleSystem.invert_vertex_group_twist
 msgid "Vertex Group Twist Negate"
-msgstr "反向顶点组力场"
+msgstr "顶点组扭曲抵消"
 
 #. :src: bpy.types.ParticleSystem.invert_vertex_group_twist
 msgid "Negate the effect of the twist vertex group"
-msgstr "反向顶点组的作用效果"
+msgstr "抵消扭曲顶点组的效果"
 
 #. :src: bpy.types.ParticleSystem.invert_vertex_group_velocity
 msgid "Vertex Group Velocity Negate"
-msgstr "反向顶点组速度"
+msgstr "顶点组速度抵消"
 
 #. :src: bpy.types.ParticleSystem.invert_vertex_group_velocity
 msgid "Negate the effect of the velocity vertex group"
-msgstr "反向控制顶点组速度的效果"
+msgstr "抵消速度顶点组的效果"
 
 #. :src: bpy.types.ParticleSystem.is_editable
 msgid "Particle system can be edited in particle mode"
@@ -84633,7 +84630,7 @@ msgstr "顶点组扭曲"
 
 #. :src: bpy.types.ParticleSystem.vertex_group_twist
 msgid "Vertex group to control twist"
-msgstr "控制簇的顶点组"
+msgstr "控制扭曲的顶点组"
 
 #. :src: bpy.types.ParticleSystem.vertex_group_velocity
 msgid "Vertex Group Velocity"
@@ -84645,23 +84642,23 @@ msgstr "控制速度的顶点组"
 
 #. :src: bpy.types.ParticleSystems
 msgid "Collection of particle systems"
-msgstr "目标粒子系统"
+msgstr "粒子系统集合"
 
 #. :src: bpy.types.ParticleSystems.active
 msgid "Active Particle System"
-msgstr "粒子系统中的粒子"
+msgstr "活动粒子系统中"
 
 #. :src: bpy.types.ParticleSystems.active
 msgid "Active particle system being displayed"
-msgstr "显示的已激活材质"
+msgstr "显示的活动粒子系统"
 
 #. :src: bpy.types.ParticleSystems.active_index
 msgid "Active Particle System Index"
-msgstr "激活粒子目标的目录"
+msgstr "活动粒子系统编号"
 
 #. :src: bpy.types.ParticleSystems.active_index
 msgid "Index of active particle system slot"
-msgstr "活动纹理槽的编号"
+msgstr "活动粒子系统的编号"
 
 #. :src: bpy.types.ParticleTarget
 msgid "Particle Target"
@@ -84669,7 +84666,7 @@ msgstr "粒子目标"
 
 #. :src: bpy.types.ParticleTarget
 msgid "Target particle system"
-msgstr "粒子目标系统"
+msgstr "目标粒子系统"
 
 #. :src: bpy.types.ParticleTarget.alliance:'FRIEND'
 msgid "Friend"
@@ -84713,19 +84710,19 @@ msgstr ""
 
 #. :src: bpy.types.PathCompare.use_glob
 msgid "Use Wildcard"
-msgstr "按照名称筛选，支持通配符'*'"
+msgstr "使用通配符"
 
 #. :src: bpy.types.PathCompare.use_glob
 msgid "Enable wildcard globbing"
-msgstr "按照名称筛选，支持通配符'*'"
+msgstr "启用全局通配符"
 
 #. :src: bpy.types.PathCompareCollection
 msgid "Paths Compare"
-msgstr "比较"
+msgstr "路径比较"
 
 #. :src: bpy.types.PathCompareCollection
 msgid "Collection of paths"
-msgstr "物体路径集合"
+msgstr "路径集合"
 
 #. :src: bpy.types.PointCache
 msgid "Active Point Cache"
@@ -84859,42 +84856,42 @@ msgstr ""
 
 #. :src: bpy.types.PointCacheItem
 msgid "Point cache for physics simulations"
-msgstr "用于物理模拟的点缓存"
+msgstr "用于物理模拟的活动点缓存"
 
 #. :src: bpy.types.PointCaches
 msgid "Point Caches"
-msgstr "粒子系统拥有多点缓存"
+msgstr "点缓存"
 
 #. :src: bpy.types.PointCaches
 msgid "Collection of point caches"
-msgstr "多缓存"
+msgstr "点缓存集合"
 
 #. :src: bpy.types.PolygonFloatProperties
 msgid "Polygon Float Properties"
-msgstr "网格当变形浮点型属性"
+msgstr "多边形浮点属性"
 
 #. :src: bpy.types.PolygonFloatProperties
 #. :src: bpy.types.VertexFloatProperties
 msgid "Collection of float properties"
-msgstr "浮点型"
+msgstr "浮点属性集合"
 
 #. :src: bpy.types.PolygonIntProperties
 msgid "Polygon Int Properties"
-msgstr "网格多边形整型属性"
+msgstr "多边形整型属性"
 
 #. :src: bpy.types.PolygonIntProperties
 #. :src: bpy.types.VertexIntProperties
 msgid "Collection of int properties"
-msgstr "整型"
+msgstr "整型属性集合"
 
 #. :src: bpy.types.PolygonStringProperties
 msgid "Polygon String Properties"
-msgstr "网格多边形字符串型属性"
+msgstr "多边形字符串型属性"
 
 #. :src: bpy.types.PolygonStringProperties
 #. :src: bpy.types.VertexStringProperties
 msgid "Collection of string properties"
-msgstr "字符串型"
+msgstr "字符串型属性集合"
 
 #. :src: bpy.types.Pose
 msgid "A collection of pose channels, including settings for animating bones"
@@ -85150,11 +85147,11 @@ msgstr "通道骨骼的尾位置"
 
 #. :src: bpy.types.PoseBone.use_custom_shape_bone_size
 msgid "Use Bone Size"
-msgstr "骨骼尺寸"
+msgstr "使用骨骼尺寸"
 
 #. :src: bpy.types.PoseBone.use_custom_shape_bone_size
 msgid "Scale the custom object by the bone length"
-msgstr "用于定义此骨骼的自定义显示类型的物体"
+msgstr "按骨骼长度缩放自定义物体"
 
 #. :src: bpy.types.PoseBone.use_ik_limit_x
 msgid "IK X Limit"
@@ -85195,15 +85192,15 @@ msgstr "将通道的旋转应用为 IK 约束"
 
 #. :src: bpy.types.PoseBoneConstraints
 msgid "PoseBone Constraints"
-msgstr "与此成姿骨骼相关的骨骼"
+msgstr "姿态骨骼约束"
 
 #. :src: bpy.types.PoseBoneConstraints
 msgid "Collection of pose bone constraints"
-msgstr "清除姿态约束"
+msgstr "姿态骨骼约束集合"
 
 #. :src: bpy.types.PoseBoneConstraints.active
 msgid "Active PoseChannel constraint"
-msgstr "作用于此姿态通道约束"
+msgstr "活动姿态通道约束"
 
 #. :src: bpy.types.Preferences
 msgid "Global preferences"
@@ -85211,11 +85208,11 @@ msgstr "全局设置"
 
 #. :src: bpy.types.Preferences.active_section
 msgid "Active Section"
-msgstr "激活的动作"
+msgstr ""
 
 #. :src: bpy.types.Preferences.active_section
 msgid "Active section of the preferences shown in the user interface"
-msgstr "在用户界面中扩展显示激活的选择"
+msgstr ""
 
 #. :src: bpy.types.Preferences.active_section:'EDITING'
 msgid "Editing"
@@ -85257,7 +85254,7 @@ msgstr "输入设备设置"
 
 #. :src: bpy.types.Preferences.is_dirty
 msgid "Preferences have changed"
-msgstr "没有图像被更改"
+msgstr "未修改设置"
 
 #. :src: bpy.types.Preferences.keymap
 #. :src: bpy.types.PreferencesKeymap
@@ -85276,15 +85273,15 @@ msgstr "显卡驱动和操作系统设置"
 
 #. :src: bpy.types.Preferences.use_preferences_save
 msgid "Save on Exit"
-msgstr "退出"
+msgstr "退出时保存"
 
 #. :src: bpy.types.Preferences.use_preferences_save
 msgid "Save modified preferences on exit"
-msgstr "自动保存用户设置"
+msgstr "退出时自动保存用户设置"
 
 #. :src: bpy.types.Preferences.version
 msgid "Version of Blender the userpref.blend was saved with"
-msgstr "保存该.blend文件的Blender程序版本"
+msgstr "保存该userpref.blend文件的Blender程序版本"
 
 #. :src: bpy.types.Preferences.view
 #. :src: bpy.types.PreferencesView
@@ -85338,7 +85335,7 @@ msgstr "蜡笔的几何间距"
 
 #. :src: bpy.types.PreferencesEdit.grease_pencil_euclidean_distance
 msgid "Distance moved by mouse when drawing stroke to include"
-msgstr "使用鼠标绘制时笔触在各轴向上的移动像素"
+msgstr "使用鼠标绘制时笔画所含像素的移动间距"
 
 #. :src: bpy.types.PreferencesEdit.grease_pencil_manhattan_distance
 msgid "Grease Pencil Manhattan Distance"
@@ -85396,7 +85393,7 @@ msgstr "将新建物体对齐至世界坐标系中"
 
 #. :src: bpy.types.PreferencesEdit.object_align:'VIEW'
 msgid "Align newly added objects to the active 3D View direction"
-msgstr "将新建物体对齐至激活的 3D 视图方向上"
+msgstr "将新建物体对齐至活动3D 视图方向"
 
 #. :src: bpy.types.PreferencesEdit.object_align:'CURSOR'
 msgid "Align newly added objects to the 3D Cursor's rotation"
@@ -85445,7 +85442,7 @@ msgstr "若启用自动插帧, 则在变换物体及骨骼时显示警告提示"
 
 #. :src: bpy.types.PreferencesEdit.use_cursor_lock_adjust
 msgid "Cursor Lock Adjust"
-msgstr "光标锁定调整"
+msgstr "游标锁定调整"
 
 #. :src: bpy.types.PreferencesEdit.use_cursor_lock_adjust
 msgid "Place the cursor without 'jumping' to the new location (when lock-to-cursor is used)"
