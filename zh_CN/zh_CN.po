@@ -41537,7 +41537,7 @@ msgstr "所生成面的材质编号，-1为自动"
 #. :src: bpy.types.BevelModifier.miter_inner
 #. :src: bpy.types.MESH_OT_bevel.miter_inner
 msgid "Inner Miter"
-msgstr ""
+msgstr "内角平分线"
 
 #. :src: bpy.types.BevelModifier.miter_inner
 #. :src: bpy.types.MESH_OT_bevel.miter_inner
@@ -41576,7 +41576,7 @@ msgstr ""
 #. :src: bpy.types.BevelModifier.miter_outer
 #. :src: bpy.types.MESH_OT_bevel.miter_outer
 msgid "Outer Miter"
-msgstr ""
+msgstr "内角平分线"
 
 #. :src: bpy.types.BevelModifier.miter_outer
 #. :src: bpy.types.MESH_OT_bevel.miter_outer
@@ -85478,31 +85478,31 @@ msgstr "使函数曲线数据可随物体一同被复制"
 
 #. :src: bpy.types.PreferencesEdit.use_duplicate_grease_pencil
 msgid "Duplicate GPencil"
-msgstr "蜡笔"
+msgstr "复制蜡笔"
 
 #. :src: bpy.types.PreferencesEdit.use_duplicate_grease_pencil
 msgid "Causes grease pencil data to be duplicated with the object"
-msgstr "使融球数据可随物体一同被复制"
+msgstr "使蜡笔数据可随物体一同被复制"
 
 #. :src: bpy.types.PreferencesEdit.use_duplicate_light
 msgid "Duplicate Light"
-msgstr "复制"
+msgstr "复制灯光"
 
 #. :src: bpy.types.PreferencesEdit.use_duplicate_light
 msgid "Causes light data to be duplicated with the object"
-msgstr "使曲线数据可随物体一同被复制"
+msgstr "使灯光数据可随物体一同被复制"
 
 #. :src: bpy.types.PreferencesEdit.use_duplicate_lightprobe
 msgid "Duplicate Light Probe"
-msgstr "添加光照探头"
+msgstr "复制光照探头"
 
 #. :src: bpy.types.PreferencesEdit.use_duplicate_lightprobe
 msgid "Causes light probe data to be duplicated with the object"
-msgstr "使骨架数据可随物体一同被复制"
+msgstr "使光照探头数据可随物体一同被复制"
 
 #. :src: bpy.types.PreferencesEdit.use_duplicate_material
 msgid "Duplicate Material"
-msgstr "重复的材质"
+msgstr "复制材质"
 
 #. :src: bpy.types.PreferencesEdit.use_duplicate_material
 msgid "Causes material data to be duplicated with the object"
@@ -85518,7 +85518,7 @@ msgstr "使网格数据可随物体一同被复制"
 
 #. :src: bpy.types.PreferencesEdit.use_duplicate_metaball
 msgid "Duplicate Metaball"
-msgstr "重复的融球"
+msgstr "复制融球"
 
 #. :src: bpy.types.PreferencesEdit.use_duplicate_metaball
 msgid "Causes metaball data to be duplicated with the object"
@@ -85534,7 +85534,7 @@ msgstr "使粒子系统可随物体一同被复制"
 
 #. :src: bpy.types.PreferencesEdit.use_duplicate_surface
 msgid "Duplicate Surface"
-msgstr "重复的表面"
+msgstr "复制曲面"
 
 #. :src: bpy.types.PreferencesEdit.use_duplicate_surface
 msgid "Causes surface data to be duplicated with the object"
@@ -85542,7 +85542,7 @@ msgstr "使表面数据可随物体一同被复制"
 
 #. :src: bpy.types.PreferencesEdit.use_duplicate_text
 msgid "Duplicate Text"
-msgstr "重复的文本"
+msgstr "复制文本"
 
 #. :src: bpy.types.PreferencesEdit.use_duplicate_text
 msgid "Causes text data to be duplicated with the object"
@@ -85550,7 +85550,7 @@ msgstr "使文本数据可随物体一同被复制"
 
 #. :src: bpy.types.PreferencesEdit.use_duplicate_texture
 msgid "Duplicate Texture"
-msgstr "重复纹理"
+msgstr "复制纹理"
 
 #. :src: bpy.types.PreferencesEdit.use_duplicate_texture
 msgid "Causes texture data to be duplicated with the object"
@@ -85607,7 +85607,7 @@ msgstr "仅在需要关键帧的位置插入关键帧"
 
 #. :src: bpy.types.PreferencesEdit.use_mouse_depth_cursor
 msgid "Cursor Surface Project"
-msgstr "投影"
+msgstr "游标表面投影"
 
 #. :src: bpy.types.PreferencesEdit.use_mouse_depth_cursor
 msgid "Use the surface depth for cursor placement"
@@ -85771,11 +85771,11 @@ msgstr "Python 脚本路经"
 
 #. :src: bpy.types.PreferencesFilePaths.script_directory
 msgid "Alternate script path, matching the default layout with subdirs: startup, add-ons & modules (requires restart)"
-msgstr "备用脚本路径, 默认的子目录匹配结构:包括初始文件, 插件以及启动模型"
+msgstr "备用脚本路径, 默认的子目录匹配结构:包括初始文件, 插件以及模块(需重启)"
 
 #. :src: bpy.types.PreferencesFilePaths.show_hidden_files_datablocks
 msgid "Hide Dot Files/Data-blocks"
-msgstr ""
+msgstr "隐藏点文件/数据块"
 
 #. :src: bpy.types.PreferencesFilePaths.show_hidden_files_datablocks
 msgid "Hide files and data-blocks if their name start with a dot (.*)"
@@ -85811,14 +85811,13 @@ msgstr "纹理目录"
 
 #. :src: bpy.types.PreferencesFilePaths.texture_directory
 msgid "The default directory to search for textures"
-msgstr "搜索纹理默认目录"
+msgstr "默认纹理查找目录"
 
 #. :src: bpy.types.PreferencesFilePaths.use_auto_save_temporary_files
 msgid "Auto Save Temporary Files"
 msgstr "自动保存临时文件"
 
 #. :src: bpy.types.PreferencesFilePaths.use_auto_save_temporary_files
-#, fuzzy
 msgid "Automatic saving of temporary files in temp directory, uses process ID (sculpt & edit-mode data won't be saved!)"
 msgstr "使用序列编号自动保存临时文件至临时目录(不保存雕刻编辑模式下的数据)"
 
@@ -85872,7 +85871,7 @@ msgstr ""
 
 #. :src: bpy.types.PreferencesInput.drag_threshold_mouse
 msgid "Mouse Drag Threshold"
-msgstr "拖动阈值"
+msgstr "鼠标拖动阈值"
 
 #. :src: bpy.types.PreferencesInput.drag_threshold_mouse
 msgid "Number of pixels to drag before a tweak/drag event is triggered for mouse/track-pad input (otherwise click events are detected)"
@@ -85880,7 +85879,7 @@ msgstr ""
 
 #. :src: bpy.types.PreferencesInput.drag_threshold_tablet
 msgid "Tablet Drag Threshold"
-msgstr "拖动阈值"
+msgstr "数位板拖动阈值"
 
 #. :src: bpy.types.PreferencesInput.drag_threshold_tablet
 msgid "Number of pixels to drag before a tweak/drag event is triggered for tablet input (otherwise click events are detected)"
@@ -85978,7 +85977,7 @@ msgstr "Y/Z 交换轴向"
 
 #. :src: bpy.types.PreferencesInput.ndof_pan_yz_swap_axis
 msgid "Pan using up/down on the device (otherwise forward/backward)"
-msgstr "使用设备的上 / 下 (或前 / 后) 来控制缩放"
+msgstr "使用设备的上 / 下 (或前 / 后) 来控制平移"
 
 #. :src: bpy.types.PreferencesInput.ndof_panx_invert_axis
 msgid "Invert X Axis"
@@ -85994,15 +85993,15 @@ msgstr "反转 Z 轴"
 
 #. :src: bpy.types.PreferencesInput.ndof_rotx_invert_axis
 msgid "Invert Pitch (X) Axis"
-msgstr "反转 X 轴"
+msgstr ""
 
 #. :src: bpy.types.PreferencesInput.ndof_roty_invert_axis
 msgid "Invert Yaw (Y) Axis"
-msgstr "反转 Y 轴"
+msgstr ""
 
 #. :src: bpy.types.PreferencesInput.ndof_rotz_invert_axis
 msgid "Invert Roll (Z) Axis"
-msgstr "反转 Z 轴"
+msgstr ""
 
 #. :src: bpy.types.PreferencesInput.ndof_sensitivity
 msgid "Overall sensitivity of the 3D Mouse for panning"
@@ -86278,7 +86277,7 @@ msgstr "激活按键设置的名称"
 
 #. :src: bpy.types.PreferencesKeymap.show_ui_keyconfig
 msgid "Show UI Key-Config"
-msgstr "移除键配置"
+msgstr "显示用户界面键配置"
 
 #. :src: bpy.types.PreferencesSystem.anisotropic_filter
 msgid "Anisotropic Filter"
@@ -86473,7 +86472,7 @@ msgstr "通过限制纹理尺寸来节约显存"
 
 #. :src: bpy.types.PreferencesSystem.gpencil_multi_sample
 msgid "Gpencil MultiSample"
-msgstr "无多重采样"
+msgstr "蜡笔多重采样"
 
 #. :src: bpy.types.PreferencesSystem.gpencil_multi_sample
 msgid "Enable Grease Pencil OpenGL multi-sampling, only for systems that support it"
@@ -86497,7 +86496,7 @@ msgstr "多重采样: 2"
 #. :src: bpy.types.PreferencesSystem.gpencil_multi_sample:'2'
 #. :src: bpy.types.PreferencesSystem.multi_sample:'2'
 msgid "Use 2x OpenGL MultiSample"
-msgstr "不使用 OpenGL 多重采样"
+msgstr "使用2倍 OpenGL 多重采样"
 
 #. :src: bpy.types.PreferencesSystem.gpencil_multi_sample:'4'
 #. :src: bpy.types.PreferencesSystem.multi_sample:'4'
@@ -86507,7 +86506,7 @@ msgstr "多重采样: 4"
 #. :src: bpy.types.PreferencesSystem.gpencil_multi_sample:'4'
 #. :src: bpy.types.PreferencesSystem.multi_sample:'4'
 msgid "Use 4x OpenGL MultiSample"
-msgstr "不使用 OpenGL 多重采样"
+msgstr "使用4倍 OpenGL 多重采样"
 
 #. :src: bpy.types.PreferencesSystem.gpencil_multi_sample:'8'
 #. :src: bpy.types.PreferencesSystem.multi_sample:'8'
@@ -86517,7 +86516,7 @@ msgstr "多重采样: 8"
 #. :src: bpy.types.PreferencesSystem.gpencil_multi_sample:'8'
 #. :src: bpy.types.PreferencesSystem.multi_sample:'8'
 msgid "Use 8x OpenGL MultiSample"
-msgstr "不使用 OpenGL 多重采样"
+msgstr "使用8倍 OpenGL 多重采样"
 
 #. :src: bpy.types.PreferencesSystem.gpencil_multi_sample:'16'
 #. :src: bpy.types.PreferencesSystem.multi_sample:'16'
@@ -86527,7 +86526,7 @@ msgstr "多重采样: 16"
 #. :src: bpy.types.PreferencesSystem.gpencil_multi_sample:'16'
 #. :src: bpy.types.PreferencesSystem.multi_sample:'16'
 msgid "Use 16x OpenGL MultiSample"
-msgstr "不使用 OpenGL 多重采样"
+msgstr "使用16倍 OpenGL 多重采样"
 
 #. :src: bpy.types.PreferencesSystem.image_draw_method
 #: scripts/startup/bl_ui/space_userpref.py:684
@@ -86536,7 +86535,7 @@ msgstr "图像显示方式"
 
 #. :src: bpy.types.PreferencesSystem.image_draw_method
 msgid "Method used for displaying images on the screen"
-msgstr "用于显示图像的色彩映射曲线"
+msgstr "用于在屏幕上显示图像的方法"
 
 #. :src: bpy.types.PreferencesSystem.image_draw_method:'AUTO'
 msgid "Automatically choose method based on GPU and image"
@@ -86556,11 +86555,11 @@ msgstr "使用GLSL着色器显示变换并使用2D纹理绘制图像"
 
 #. :src: bpy.types.PreferencesSystem.legacy_compute_device_type
 msgid "Legacy Compute Device Type"
-msgstr "计算设备类型"
+msgstr "传统计算设备类型"
 
 #. :src: bpy.types.PreferencesSystem.legacy_compute_device_type
 msgid "For backwards compatibility only"
-msgstr "逆序"
+msgstr "仅向后兼容"
 
 #. :src: bpy.types.PreferencesSystem.light_ambient
 #. :src: bpy.types.StudioLight.light_ambient
@@ -86588,11 +86587,11 @@ msgstr "多重采样"
 
 #. :src: bpy.types.PreferencesSystem.multi_sample
 msgid "Enable OpenGL multi-sampling, only for systems that support it"
-msgstr "启用OpenGL多次采样，仅适用于支持它的系统"
+msgstr "启用OpenGL多重采样，仅适用于支持它的系统"
 
 #. :src: bpy.types.PreferencesSystem.opensubdiv_compute_type
 msgid "OpenSubdiv Compute Type"
-msgstr "OpenSudiv运算类型"
+msgstr "OpenSudiv计算类型"
 
 #. :src: bpy.types.PreferencesSystem.opensubdiv_compute_type
 msgid "Type of computer back-end used with OpenSubdiv"
@@ -86683,7 +86682,7 @@ msgstr "区域重叠"
 
 #. :src: bpy.types.PreferencesSystem.use_region_overlap
 msgid "Draw tool/property regions over the main region"
-msgstr "使用三重缓冲时, 在主区域上方绘制工具栏 / 属性栏"
+msgstr "在主区域上方绘制工具栏/属性栏"
 
 #. :src: bpy.types.PreferencesSystem.use_select_pick_depth
 msgid "OpenGL Depth Picking"
@@ -86695,7 +86694,7 @@ msgstr ""
 
 #. :src: bpy.types.PreferencesSystem.use_studio_light_edit
 msgid "Edit Studio Light"
-msgstr "保存为棚灯"
+msgstr "编辑棚灯"
 
 #. :src: bpy.types.PreferencesSystem.use_studio_light_edit
 msgid "View the result of the studio light editor in the viewport"
@@ -86703,11 +86702,11 @@ msgstr ""
 
 #. :src: bpy.types.PreferencesSystem.vbo_collection_rate
 msgid "VBO Collection Rate"
-msgstr "纹理回收率"
+msgstr "VBO回收率"
 
 #. :src: bpy.types.PreferencesSystem.vbo_collection_rate
 msgid "Number of seconds between each run of the GL Vertex buffer object garbage collector"
-msgstr "GL 纹理收回计算的间隔秒数"
+msgstr "GL顶点缓冲物体垃圾回收器运行的间隔秒数"
 
 #. :src: bpy.types.PreferencesSystem.vbo_time_out
 msgid "VBO Time Out"
@@ -86715,12 +86714,12 @@ msgstr "Vbo超时"
 
 #. :src: bpy.types.PreferencesSystem.vbo_time_out
 msgid "Time since last access of a GL Vertex buffer object in seconds after which it is freed (set to 0 to keep vbo allocated)"
-msgstr "设置 GL 纹理在调用后被释放的时间 (设置为 0 将始终保留纹理)"
+msgstr "释放后自上一次访问GL顶点缓冲物体的间隔秒数 (设置为 0 将始终保留分配的VBO)"
 
 #. :src: bpy.types.PreferencesSystem.viewport_aa
 #. :src: bpy.types.SceneDisplay.viewport_aa
 msgid "Viewport Anti-Aliasing"
-msgstr "文本抗锯齿"
+msgstr "视图抗锯齿"
 
 #. :src: bpy.types.PreferencesSystem.viewport_aa
 msgid "Method of anti-aliasing in 3d viewport"
@@ -86730,7 +86729,7 @@ msgstr ""
 #. :src: bpy.types.SceneDisplay.render_aa:'OFF'
 #. :src: bpy.types.SceneDisplay.viewport_aa:'OFF'
 msgid "No Anti-Aliasing"
-msgstr "抗锯齿"
+msgstr "无抗锯齿"
 
 #. :src: bpy.types.PreferencesSystem.viewport_aa:'OFF'
 #. :src: bpy.types.SceneDisplay.render_aa:'OFF'
@@ -86742,7 +86741,7 @@ msgstr ""
 #. :src: bpy.types.SceneDisplay.render_aa:'FXAA'
 #. :src: bpy.types.SceneDisplay.viewport_aa:'FXAA'
 msgid "Single Pass Anti-Aliasing"
-msgstr "文本抗锯齿"
+msgstr "单通道抗锯齿"
 
 #. :src: bpy.types.PreferencesSystem.viewport_aa:'FXAA'
 #. :src: bpy.types.SceneDisplay.render_aa:'FXAA'
@@ -86754,61 +86753,61 @@ msgstr "场景将使用单通道抗锯齿方法（FXAA）渲染"
 #. :src: bpy.types.SceneDisplay.render_aa:'5'
 #. :src: bpy.types.SceneDisplay.viewport_aa:'5'
 msgid "5 Samples"
-msgstr "数字键盘5"
+msgstr "5次采样"
 
 #. :src: bpy.types.PreferencesSystem.viewport_aa:'5'
 #. :src: bpy.types.SceneDisplay.render_aa:'5'
 #. :src: bpy.types.SceneDisplay.viewport_aa:'5'
 msgid "Scene will be rendered using 5 anti-aliasing samples"
-msgstr "将使用5个抗锯齿样本渲染场景"
+msgstr "将使用5次抗锯齿采样渲染场景"
 
 #. :src: bpy.types.PreferencesSystem.viewport_aa:'8'
 #. :src: bpy.types.SceneDisplay.render_aa:'8'
 #. :src: bpy.types.SceneDisplay.viewport_aa:'8'
 msgid "8 Samples"
-msgstr "采样"
+msgstr "8次采样"
 
 #. :src: bpy.types.PreferencesSystem.viewport_aa:'8'
 #. :src: bpy.types.SceneDisplay.render_aa:'8'
 #. :src: bpy.types.SceneDisplay.viewport_aa:'8'
 msgid "Scene will be rendered using 8 anti-aliasing samples"
-msgstr "将使用8个抗锯齿样本渲染场景"
+msgstr "将使用8次抗锯齿采样渲染场景"
 
 #. :src: bpy.types.PreferencesSystem.viewport_aa:'11'
 #. :src: bpy.types.SceneDisplay.render_aa:'11'
 #. :src: bpy.types.SceneDisplay.viewport_aa:'11'
 msgid "11 Samples"
-msgstr "采样"
+msgstr "11次采样"
 
 #. :src: bpy.types.PreferencesSystem.viewport_aa:'11'
 #. :src: bpy.types.SceneDisplay.render_aa:'11'
 #. :src: bpy.types.SceneDisplay.viewport_aa:'11'
 msgid "Scene will be rendered using 11 anti-aliasing samples"
-msgstr "将使用11个抗锯齿样本渲染场景"
+msgstr "将使用11次抗锯齿采样渲染场景"
 
 #. :src: bpy.types.PreferencesSystem.viewport_aa:'16'
 #. :src: bpy.types.SceneDisplay.render_aa:'16'
 #. :src: bpy.types.SceneDisplay.viewport_aa:'16'
 msgid "16 Samples"
-msgstr "采样"
+msgstr "16次采样"
 
 #. :src: bpy.types.PreferencesSystem.viewport_aa:'16'
 #. :src: bpy.types.SceneDisplay.render_aa:'16'
 #. :src: bpy.types.SceneDisplay.viewport_aa:'16'
 msgid "Scene will be rendered using 16 anti-aliasing samples"
-msgstr "将使用16个抗锯齿样本渲染场景"
+msgstr "将使用16次抗锯齿采样渲染场景"
 
 #. :src: bpy.types.PreferencesSystem.viewport_aa:'32'
 #. :src: bpy.types.SceneDisplay.render_aa:'32'
 #. :src: bpy.types.SceneDisplay.viewport_aa:'32'
 msgid "32 Samples"
-msgstr "32 位浮点数"
+msgstr "32次采样"
 
 #. :src: bpy.types.PreferencesSystem.viewport_aa:'32'
 #. :src: bpy.types.SceneDisplay.render_aa:'32'
 #. :src: bpy.types.SceneDisplay.viewport_aa:'32'
 msgid "Scene will be rendered using 32 anti-aliasing samples"
-msgstr "将使用32个抗锯齿样本渲染场景"
+msgstr "将使用32次抗锯齿采样渲染场景"
 
 #. :src: bpy.types.PreferencesView.color_picker_type
 msgid "Color Picker Type"
@@ -86824,7 +86823,7 @@ msgstr "色盘 (HSV)"
 
 #. :src: bpy.types.PreferencesView.color_picker_type:'CIRCLE_HSV'
 msgid "A circular Hue/Saturation color wheel, with Value slider"
-msgstr "使用明暗值来调节色相 / 饱和度的色盘"
+msgstr "环形色相/饱和度，另加亮度滑块的色盘"
 
 #. :src: bpy.types.PreferencesView.color_picker_type:'CIRCLE_HSL'
 msgid "Circle (HSL)"
@@ -86832,7 +86831,7 @@ msgstr "色盘 (HSL)"
 
 #. :src: bpy.types.PreferencesView.color_picker_type:'CIRCLE_HSL'
 msgid "A circular Hue/Saturation color wheel, with Lightness slider"
-msgstr "使用明暗值来调节色相 / 饱和度的色盘"
+msgstr "环形色相/饱和度，另加亮度滑块的色盘"
 
 #. :src: bpy.types.PreferencesView.color_picker_type:'SQUARE_SV'
 msgid "Square (SV + H)"
@@ -86840,7 +86839,7 @@ msgstr "方形(SV + H)"
 
 #. :src: bpy.types.PreferencesView.color_picker_type:'SQUARE_SV'
 msgid "A square showing Saturation/Value, with Hue slider"
-msgstr "使用色相值滑块来显示饱和度 / 明暗"
+msgstr "方形饱和度/明暗值，另加色相滑块的色盘"
 
 #. :src: bpy.types.PreferencesView.color_picker_type:'SQUARE_HS'
 msgid "Square (HS + V)"
@@ -86848,7 +86847,7 @@ msgstr "方形(HS + V)"
 
 #. :src: bpy.types.PreferencesView.color_picker_type:'SQUARE_HS'
 msgid "A square showing Hue/Saturation, with Value slider"
-msgstr "使用明暗值滑块来显示色相 / 饱和度"
+msgstr "方形色相/饱和度，另加亮度滑块的色盘"
 
 #. :src: bpy.types.PreferencesView.color_picker_type:'SQUARE_HV'
 msgid "Square (HV + S)"
@@ -86856,7 +86855,7 @@ msgstr "方形(HV + S)"
 
 #. :src: bpy.types.PreferencesView.color_picker_type:'SQUARE_HV'
 msgid "A square showing Hue/Value, with Saturation slider"
-msgstr "使用饱和度值滑块来显示色相 / 明暗值"
+msgstr "环形色相/明暗值，另加饱和度滑块的色盘"
 
 #. :src: bpy.types.PreferencesView.factor_display_type
 msgid "Factor Display Type"
@@ -86933,7 +86932,7 @@ msgstr "如可用，选择系统定义的语言，否则回归英语"
 
 #. :src: bpy.types.PreferencesView.lookdev_sphere_size
 msgid "Look Dev Spheres Size"
-msgstr "查看Dev球体大小"
+msgstr "视觉预览球体大小"
 
 #. :src: bpy.types.PreferencesView.lookdev_sphere_size
 msgid "Maximum diameter of the look development sphere size"
@@ -86969,7 +86968,7 @@ msgstr "单一轴向"
 
 #. :src: bpy.types.PreferencesView.mini_axis_type:'GIZMO'
 msgid "Interactive Navigation"
-msgstr "交互镜像"
+msgstr "交互漫游"
 
 #. :src: bpy.types.PreferencesView.open_sublevel_delay
 msgid "Sub Level Menu Open Delay"
@@ -87049,19 +87048,19 @@ msgstr ""
 
 #. :src: bpy.types.PreferencesView.show_gizmo
 msgid "Use transform gizmos by default"
-msgstr "默认情况下使用变换Gizmo"
+msgstr "默认使用变换Gizmo"
 
 #. :src: bpy.types.PreferencesView.show_large_cursors
 msgid "Large Cursors"
-msgstr "大号光标"
+msgstr "大号游标"
 
 #. :src: bpy.types.PreferencesView.show_large_cursors
 msgid "Use large mouse cursors when available"
-msgstr "为鼠标开启大光标显示"
+msgstr "为鼠标开启大游标显示"
 
 #. :src: bpy.types.PreferencesView.show_layout_ui
 msgid "Editor Corner Splitting"
-msgstr "编辑拆分"
+msgstr "编辑器拐角拆分"
 
 #. :src: bpy.types.PreferencesView.show_layout_ui
 msgid "Split and join editors by dragging from corners"
@@ -87134,7 +87133,7 @@ msgstr "切换视图时的动画时间 (毫秒), 0为关闭"
 
 #. :src: bpy.types.PreferencesView.text_hinting
 msgid "Text Hinting"
-msgstr "提示"
+msgstr "文字提示"
 
 #. :src: bpy.types.PreferencesView.text_hinting
 msgid "Method for making user interface text render sharp"
@@ -87142,7 +87141,7 @@ msgstr ""
 
 #. :src: bpy.types.PreferencesView.text_hinting:'SLIGHT'
 msgid "Slight"
-msgstr "正弦型缓动"
+msgstr ""
 
 #. :src: bpy.types.PreferencesView.timecode_style
 msgid "TimeCode Style"
@@ -87247,7 +87246,7 @@ msgstr "鼠标经过即开启菜单或下拉菜单"
 
 #. :src: bpy.types.PreferencesView.use_save_prompt
 msgid "Save Prompt"
-msgstr "提示"
+msgstr "保存提示"
 
 #. :src: bpy.types.PreferencesView.use_save_prompt
 msgid "Ask for confirmation when quitting with unsaved changes"
@@ -87303,7 +87302,7 @@ msgstr "2D 视图中栅格线之间的最小像素值"
 
 #. :src: bpy.types.PreferencesView.view_frame_keyframes
 msgid "Zoom Keyframes"
-msgstr "关键帧"
+msgstr "缩放关键帧"
 
 #. :src: bpy.types.PreferencesView.view_frame_keyframes
 msgid "Keyframes around cursor that we zoom around"
@@ -87311,11 +87310,11 @@ msgstr "放大视图(以2D光标为中心)"
 
 #. :src: bpy.types.PreferencesView.view_frame_seconds
 msgid "Zoom Seconds"
-msgstr "显示为秒"
+msgstr "缩放秒数"
 
 #. :src: bpy.types.PreferencesView.view_frame_seconds
 msgid "Seconds around cursor that we zoom around"
-msgstr "放大视图(以2D光标为中心)"
+msgstr "以光标为中心缩放秒数"
 
 #. :src: bpy.types.PreferencesView.view_frame_type
 msgid "Zoom To Frame Type"
@@ -87363,7 +87362,7 @@ msgstr "镜头的焦距(mm)"
 
 #. :src: bpy.types.CyclesCameraSettings.latitude_max
 msgid "Max Latitude"
-msgstr "最大值"
+msgstr "最大纬度"
 
 #. :src: bpy.types.CyclesCameraSettings.latitude_max
 msgid "Maximum latitude (vertical angle) for the equirectangular lens"
@@ -87371,7 +87370,7 @@ msgstr ""
 
 #. :src: bpy.types.CyclesCameraSettings.latitude_min
 msgid "Min Latitude"
-msgstr "最小值"
+msgstr "最小纬度"
 
 #. :src: bpy.types.CyclesCameraSettings.latitude_min
 msgid "Minimum latitude (vertical angle) for the equirectangular lens"
@@ -87379,7 +87378,7 @@ msgstr ""
 
 #. :src: bpy.types.CyclesCameraSettings.longitude_max
 msgid "Max Longitude"
-msgstr "最大值"
+msgstr "最大经度"
 
 #. :src: bpy.types.CyclesCameraSettings.longitude_max
 msgid "Maximum longitude (horizontal angle) for the equirectangular lens"
@@ -87387,7 +87386,7 @@ msgstr ""
 
 #. :src: bpy.types.CyclesCameraSettings.longitude_min
 msgid "Min Longitude"
-msgstr "最小值"
+msgstr "最小经度"
 
 #. :src: bpy.types.CyclesCameraSettings.longitude_min
 msgid "Minimum longitude (horizontal angle) for the equirectangular lens"
@@ -87423,7 +87422,7 @@ msgstr "与现代多数的鱼眼镜头相仿, 将触发器的规格考虑在内"
 
 #. :src: bpy.types.CyclesCameraSettings.panorama_type:'MIRRORBALL'
 msgid "Uses the mirror ball mapping"
-msgstr "镜像球"
+msgstr "使用镜像球贴图"
 
 #. :src: bpy.types.CyclesCurveRenderSettings.cull_backfacing
 msgid "Cull Back-faces"
@@ -87463,7 +87462,7 @@ msgstr "所生成网格的解析度"
 
 #. :src: bpy.types.CyclesCurveRenderSettings.shape
 msgid "Form of hair"
-msgstr "毛发"
+msgstr "毛发外形"
 
 #. :src: bpy.types.CyclesCurveRenderSettings.shape:'RIBBONS'
 msgid "Ribbons"
@@ -87475,7 +87474,7 @@ msgstr ""
 
 #. :src: bpy.types.CyclesCurveRenderSettings.shape:'THICK'
 msgid "Use thickness of strand when rendering"
-msgstr "使用发股模版进行渲染"
+msgstr "渲染时使用发股粗细"
 
 #. :src: bpy.types.CyclesCurveRenderSettings.subdivisions
 msgid "Number of subdivisions used in Cardinal curve intersection (power of 2)"
@@ -87491,7 +87490,7 @@ msgstr "为粒子系统激活 Cycles 毛发渲染"
 
 #. :src: bpy.types.CyclesDeviceSettings.type:'CPU'
 msgid "CPU"
-msgstr "使用开放式着色语言 (OSL, 仅用于CPU渲染)"
+msgstr "CPU"
 
 #. :src: bpy.types.CyclesDeviceSettings.type:'CUDA'
 msgid "CUDA"
@@ -87503,7 +87502,7 @@ msgstr "投射阴影"
 
 #. :src: bpy.types.CyclesLightSettings.cast_shadow
 msgid "Light casts shadows"
-msgstr "阴影"
+msgstr "灯光投射阴影"
 
 #. :src: bpy.types.CyclesLightSettings.is_portal
 msgid "Is Portal"
@@ -87541,7 +87540,7 @@ msgstr "置换方式"
 
 #. :src: bpy.types.CyclesMaterialSettings.displacement_method:'BUMP'
 msgid "Bump Only"
-msgstr "凹凸"
+msgstr "仅凹凸"
 
 #. :src: bpy.types.CyclesMaterialSettings.displacement_method:'BUMP'
 msgid "Bump mapping to simulate the appearance of displacement"
@@ -87549,19 +87548,19 @@ msgstr "用于模拟置换效果的凹凸映射"
 
 #. :src: bpy.types.CyclesMaterialSettings.displacement_method:'DISPLACEMENT'
 msgid "Displacement Only"
-msgstr "置换"
+msgstr "仅置换"
 
 #. :src: bpy.types.CyclesMaterialSettings.displacement_method:'DISPLACEMENT'
 msgid "Use true displacement of surface only, requires fine subdivision"
-msgstr "仅适用准确型置换, 需要良好的细分"
+msgstr "仅真实表面置换, 需要良好的细分"
 
 #. :src: bpy.types.CyclesMaterialSettings.displacement_method:'BOTH'
 msgid "Displacement and Bump"
-msgstr "凹凸"
+msgstr "置换与凹凸"
 
 #. :src: bpy.types.CyclesMaterialSettings.displacement_method:'BOTH'
 msgid "Combination of true displacement and bump mapping for finer detail"
-msgstr "置换与凹凸映射相结合"
+msgstr "置换与凹凸映射相结合以获得更好的细节"
 
 #. :src: bpy.types.CyclesMaterialSettings.homogeneous_volume
 #. :src: bpy.types.CyclesWorldSettings.homogeneous_volume
@@ -87591,7 +87590,7 @@ msgstr "体积插值"
 
 #. :src: bpy.types.CyclesMaterialSettings.volume_interpolation
 msgid "Interpolation method to use for smoke/fire volumes"
-msgstr "采样方法, 用于质地均匀的体积"
+msgstr "用于烟/火的插值方法"
 
 #. :src: bpy.types.CyclesMaterialSettings.volume_interpolation:'LINEAR'
 #. :src: bpy.types.CyclesWorldSettings.volume_interpolation:'LINEAR'
@@ -87613,7 +87612,7 @@ msgstr "体积采样"
 #. :src: bpy.types.CyclesMaterialSettings.volume_sampling
 #. :src: bpy.types.CyclesWorldSettings.volume_sampling
 msgid "Sampling method to use for volumes"
-msgstr "使用 Sobol 随机采样模式"
+msgstr "使用体积的采样方法"
 
 #. :src: bpy.types.CyclesMaterialSettings.volume_sampling:'DISTANCE'
 #. :src: bpy.types.CyclesWorldSettings.volume_sampling:'DISTANCE'
@@ -87643,7 +87642,7 @@ msgstr ""
 
 #. :src: bpy.types.CyclesObjectSettings.dicing_rate
 msgid "Dicing Scale"
-msgstr "分块率"
+msgstr ""
 
 #. :src: bpy.types.CyclesObjectSettings.dicing_rate
 msgid "Multiplier for scene dicing rate (located in the Subdivision panel)"
@@ -87671,11 +87670,11 @@ msgstr ""
 
 #. :src: bpy.types.CyclesObjectSettings.use_adaptive_subdivision
 msgid "Use Adaptive Subdivision"
-msgstr "使用细分模式"
+msgstr "使用自适应细分"
 
 #. :src: bpy.types.CyclesObjectSettings.use_adaptive_subdivision
 msgid "Use adaptive render time subdivision"
-msgstr "渲染时可见的细分级数"
+msgstr "使用自适应渲染时间细分"
 
 #. :src: bpy.types.CyclesObjectSettings.use_camera_cull
 #. :src: bpy.types.CyclesRenderSettings.use_camera_cull
@@ -87688,11 +87687,11 @@ msgstr ""
 
 #. :src: bpy.types.CyclesObjectSettings.use_deform_motion
 msgid "Use Deformation Motion"
-msgstr "使用运动模糊"
+msgstr "使用变形模糊"
 
 #. :src: bpy.types.CyclesObjectSettings.use_deform_motion
 msgid "Use deformation motion blur for this object"
-msgstr "使用 3D 多重采样运动模糊"
+msgstr "对物体使用变形运动模糊"
 
 #. :src: bpy.types.CyclesObjectSettings.use_distance_cull
 #. :src: bpy.types.CyclesRenderSettings.use_distance_cull
@@ -87709,7 +87708,7 @@ msgstr "使用运动模糊"
 
 #. :src: bpy.types.CyclesObjectSettings.use_motion_blur
 msgid "Use motion blur for this object"
-msgstr "使用运动模糊"
+msgstr "对物体使用运动模糊"
 
 #. :src: bpy.types.CyclesRenderLayerSettings.denoising_diffuse_direct
 #. :src: bpy.types.RenderLayer.use_pass_diffuse_direct
@@ -87719,7 +87718,7 @@ msgstr "直接漫射光"
 
 #. :src: bpy.types.CyclesRenderLayerSettings.denoising_diffuse_direct
 msgid "Denoise the direct diffuse lighting"
-msgstr "传递直接漫射通道"
+msgstr "直接漫射光降噪"
 
 #. :src: bpy.types.CyclesRenderLayerSettings.denoising_diffuse_indirect
 #. :src: bpy.types.RenderLayer.use_pass_diffuse_indirect
@@ -87729,7 +87728,7 @@ msgstr "间接漫射光"
 
 #. :src: bpy.types.CyclesRenderLayerSettings.denoising_diffuse_indirect
 msgid "Denoise the indirect diffuse lighting"
-msgstr "间接漫射光"
+msgstr "间接漫射光降噪"
 
 #. :src: bpy.types.CyclesRenderLayerSettings.denoising_feature_strength
 msgid "Denoising Feature Strength"
@@ -87747,7 +87746,7 @@ msgstr "直接光泽"
 
 #. :src: bpy.types.CyclesRenderLayerSettings.denoising_glossy_direct
 msgid "Denoise the direct glossy lighting"
-msgstr "传递直接光泽通道"
+msgstr "直接光泽降噪"
 
 #. :src: bpy.types.CyclesRenderLayerSettings.denoising_glossy_indirect
 #. :src: bpy.types.RenderLayer.use_pass_glossy_indirect
@@ -87757,11 +87756,11 @@ msgstr "间接光泽"
 
 #. :src: bpy.types.CyclesRenderLayerSettings.denoising_glossy_indirect
 msgid "Denoise the indirect glossy lighting"
-msgstr "间接光泽"
+msgstr "间接光泽降噪"
 
 #. :src: bpy.types.CyclesRenderLayerSettings.denoising_neighbor_frames
 msgid "Neighbor Frames"
-msgstr "邻近项"
+msgstr "邻近帧"
 
 #. :src: bpy.types.CyclesRenderLayerSettings.denoising_neighbor_frames
 msgid "Number of neighboring frames to use for denoising animations (more frames produce smoother results at the cost of performance)"
@@ -87769,7 +87768,7 @@ msgstr ""
 
 #. :src: bpy.types.CyclesRenderLayerSettings.denoising_radius
 msgid "Denoising Radius"
-msgstr "降噪"
+msgstr "降噪半径"
 
 #. :src: bpy.types.CyclesRenderLayerSettings.denoising_radius
 msgid "Size of the image area that's used to denoise a pixel (higher values are smoother, but might lose detail and are slower)"
@@ -87785,7 +87784,7 @@ msgstr ""
 
 #. :src: bpy.types.CyclesRenderLayerSettings.denoising_store_passes
 msgid "Store denoising passes"
-msgstr "降噪"
+msgstr "存储降噪通道"
 
 #. :src: bpy.types.CyclesRenderLayerSettings.denoising_store_passes
 msgid "Store the denoising feature passes and the noisy image"
@@ -87793,7 +87792,7 @@ msgstr ""
 
 #. :src: bpy.types.CyclesRenderLayerSettings.denoising_strength
 msgid "Denoising Strength"
-msgstr "降噪特性强度"
+msgstr "降噪强度"
 
 #. :src: bpy.types.CyclesRenderLayerSettings.denoising_strength
 msgid "Controls neighbor pixel weighting for the denoising filter (lower values preserve more detail, but aren't as smooth)"
@@ -87808,41 +87807,41 @@ msgstr "直接 SSS"
 
 #. :src: bpy.types.CyclesRenderLayerSettings.denoising_subsurface_direct
 msgid "Denoise the direct subsurface lighting"
-msgstr "传递直接光泽通道"
+msgstr "直接次表面光照降噪"
 
 #. :src: bpy.types.CyclesRenderLayerSettings.denoising_subsurface_indirect
 #. :src: bpy.types.RenderLayer.use_pass_subsurface_indirect
 #. :src: bpy.types.ViewLayer.use_pass_subsurface_indirect
 msgid "Subsurface Indirect"
-msgstr "间接 SSS"
+msgstr "间接次表面"
 
 #. :src: bpy.types.CyclesRenderLayerSettings.denoising_subsurface_indirect
 msgid "Denoise the indirect subsurface lighting"
-msgstr "间接 SSS"
+msgstr "间接次表面光降噪"
 
 #. :src: bpy.types.CyclesRenderLayerSettings.denoising_transmission_direct
 #. :src: bpy.types.RenderLayer.use_pass_transmission_direct
 #. :src: bpy.types.ViewLayer.use_pass_transmission_direct
 msgid "Transmission Direct"
-msgstr "直接传递"
+msgstr "直接透射"
 
 #. :src: bpy.types.CyclesRenderLayerSettings.denoising_transmission_direct
 msgid "Denoise the direct transmission lighting"
-msgstr "传递直接透射光通道"
+msgstr "直接透射光通降噪"
 
 #. :src: bpy.types.CyclesRenderLayerSettings.denoising_transmission_indirect
 #. :src: bpy.types.RenderLayer.use_pass_transmission_indirect
 #. :src: bpy.types.ViewLayer.use_pass_transmission_indirect
 msgid "Transmission Indirect"
-msgstr "间接传递"
+msgstr "间接透射"
 
 #. :src: bpy.types.CyclesRenderLayerSettings.denoising_transmission_indirect
 msgid "Denoise the indirect transmission lighting"
-msgstr "间接传递"
+msgstr "间接透射光降噪"
 
 #. :src: bpy.types.CyclesRenderLayerSettings.pass_crypto_accurate
 msgid "Cryptomatte Accurate"
-msgstr "一个物理效果更为精确的解算器"
+msgstr "精确Cryptomatte"
 
 #. :src: bpy.types.CyclesRenderLayerSettings.pass_crypto_accurate
 msgid "Generate a more accurate Cryptomatte pass. CPU only, may render slower and use more memory"
@@ -87850,7 +87849,7 @@ msgstr ""
 
 #. :src: bpy.types.CyclesRenderLayerSettings.pass_crypto_depth
 msgid "Cryptomatte Levels"
-msgstr "层级"
+msgstr "Cryptomatte层级"
 
 #. :src: bpy.types.CyclesRenderLayerSettings.pass_crypto_depth
 msgid "Sets how many unique objects can be distinguished per pixel"
@@ -87858,31 +87857,31 @@ msgstr ""
 
 #. :src: bpy.types.CyclesRenderLayerSettings.pass_debug_bvh_intersections
 msgid "Debug BVH Intersections"
-msgstr "调试"
+msgstr "调试BVH交错"
 
 #. :src: bpy.types.CyclesRenderLayerSettings.pass_debug_bvh_intersections
 msgid "Store Debug BVH Intersections"
-msgstr ""
+msgstr "存储调试BVH交错"
 
 #. :src: bpy.types.CyclesRenderLayerSettings.pass_debug_bvh_traversed_instances
 msgid "Debug BVH Traversed Instances"
-msgstr ""
+msgstr "调试BVH遍历实例"
 
 #. :src: bpy.types.CyclesRenderLayerSettings.pass_debug_bvh_traversed_instances
 msgid "Store Debug BVH Traversed Instances pass"
-msgstr ""
+msgstr "存储调试BVH遍历实例"
 
 #. :src: bpy.types.CyclesRenderLayerSettings.pass_debug_bvh_traversed_nodes
 msgid "Debug BVH Traversed Nodes"
-msgstr ""
+msgstr "调试BVH遍历切点"
 
 #. :src: bpy.types.CyclesRenderLayerSettings.pass_debug_bvh_traversed_nodes
 msgid "Store Debug BVH Traversed Nodes pass"
-msgstr ""
+msgstr "存储调试BVH遍历切点"
 
 #. :src: bpy.types.CyclesRenderLayerSettings.pass_debug_ray_bounces
 msgid "Debug Ray Bounces"
-msgstr "调试"
+msgstr ""
 
 #. :src: bpy.types.CyclesRenderLayerSettings.pass_debug_ray_bounces
 msgid "Store Debug Ray Bounces pass"
@@ -87890,7 +87889,7 @@ msgstr ""
 
 #. :src: bpy.types.CyclesRenderLayerSettings.pass_debug_render_time
 msgid "Debug Render Time"
-msgstr "标记渲染用时"
+msgstr "调试渲染用时"
 
 #. :src: bpy.types.CyclesRenderLayerSettings.pass_debug_render_time
 msgid "Render time in milliseconds per sample and pixel"
@@ -87898,15 +87897,15 @@ msgstr ""
 
 #. :src: bpy.types.CyclesRenderLayerSettings.use_denoising
 msgid "Use Denoising"
-msgstr "降噪"
+msgstr "使用降噪"
 
 #. :src: bpy.types.CyclesRenderLayerSettings.use_denoising
 msgid "Denoise the rendered image"
-msgstr "在最大化的图像编辑器中渲染图像"
+msgstr "对渲染图像降噪"
 
 #. :src: bpy.types.CyclesRenderLayerSettings.use_pass_crypto_asset
 msgid "Cryptomatte Asset"
-msgstr ""
+msgstr "Cryptomatte资产"
 
 #. :src: bpy.types.CyclesRenderLayerSettings.use_pass_crypto_asset
 msgid "Render cryptomatte asset pass, for isolating groups of objects with the same parent"
@@ -87914,7 +87913,7 @@ msgstr ""
 
 #. :src: bpy.types.CyclesRenderLayerSettings.use_pass_crypto_material
 msgid "Cryptomatte Material"
-msgstr "按材质"
+msgstr "Cryptomatte材质"
 
 #. :src: bpy.types.CyclesRenderLayerSettings.use_pass_crypto_material
 msgid "Render cryptomatte material pass, for isolating materials in compositing"
@@ -87922,7 +87921,7 @@ msgstr ""
 
 #. :src: bpy.types.CyclesRenderLayerSettings.use_pass_crypto_object
 msgid "Cryptomatte Object"
-msgstr "目标物体"
+msgstr "Cryptomatte物体"
 
 #. :src: bpy.types.CyclesRenderLayerSettings.use_pass_crypto_object
 msgid "Render cryptomatte object pass, for isolating objects in compositing"
@@ -87930,19 +87929,19 @@ msgstr ""
 
 #. :src: bpy.types.CyclesRenderLayerSettings.use_pass_volume_direct
 msgid "Volume Direct"
-msgstr "直接光"
+msgstr "直接体积"
 
 #. :src: bpy.types.CyclesRenderLayerSettings.use_pass_volume_direct
 msgid "Deliver direct volumetric scattering pass"
-msgstr "传递直接透射光通道"
+msgstr "传递直接体积散射通道"
 
 #. :src: bpy.types.CyclesRenderLayerSettings.use_pass_volume_indirect
 msgid "Volume Indirect"
-msgstr "是间接光"
+msgstr "间接体积"
 
 #. :src: bpy.types.CyclesRenderLayerSettings.use_pass_volume_indirect
 msgid "Deliver indirect volumetric scattering pass"
-msgstr "传递间接透射光通道"
+msgstr "传递间接体积散射通道"
 
 #. :src: bpy.types.CyclesRenderSettings.aa_samples
 #. :src: bpy.types.CyclesRenderSettings.preview_aa_samples
@@ -87965,7 +87964,7 @@ msgstr ""
 
 #. :src: bpy.types.CyclesRenderSettings.ao_bounces_render
 msgid "AO Bounces Render"
-msgstr "AO反弹"
+msgstr "AO反弹渲染"
 
 #. :src: bpy.types.CyclesRenderSettings.ao_samples
 msgid "Ambient Occlusion Samples"
@@ -87994,11 +87993,11 @@ msgstr "在模糊反弹结束后, 为光泽着色器使用自适型模糊, 通�
 
 #. :src: bpy.types.CyclesRenderSettings.camera_cull_margin
 msgid "Camera Cull Margin"
-msgstr "使用相机剔除"
+msgstr "相机剔除留白"
 
 #. :src: bpy.types.CyclesRenderSettings.camera_cull_margin
 msgid "Margin for the camera space culling"
-msgstr "相机空间中的物体解算缩放"
+msgstr "相机空间剔除的留白"
 
 #. :src: bpy.types.CyclesRenderSettings.caustics_reflective
 msgid "Reflective Caustics"
@@ -88058,7 +88057,7 @@ msgstr "取消超时"
 
 #. :src: bpy.types.CyclesRenderSettings.debug_opencl_device_type
 msgid "OpenCL Device Type"
-msgstr "计算设备类型"
+msgstr "OpenCL设备类型"
 
 #. :src: bpy.types.CyclesRenderSettings.debug_opencl_device_type:'ACCELERATOR'
 msgid "Accelerator"
@@ -88070,11 +88069,11 @@ msgstr "OpenCL 内核类型"
 
 #. :src: bpy.types.CyclesRenderSettings.debug_opencl_kernel_type:'MEGA'
 msgid "Mega"
-msgstr "平均值"
+msgstr ""
 
 #. :src: bpy.types.CyclesRenderSettings.debug_opencl_mem_limit
 msgid "Memory limit"
-msgstr "取消内存限额"
+msgstr "内存限额"
 
 #. :src: bpy.types.CyclesRenderSettings.debug_opencl_mem_limit
 msgid "Artificial limit on OpenCL memory usage in MB (0 to disable limit)"
@@ -88104,7 +88103,7 @@ msgstr "AVX2"
 #. :src: bpy.types.CyclesRenderSettings.debug_use_cpu_split_kernel
 #. :src: bpy.types.CyclesRenderSettings.debug_use_cuda_split_kernel
 msgid "Split Kernel"
-msgstr "核心半径"
+msgstr "分割内核"
 
 #. :src: bpy.types.CyclesRenderSettings.debug_use_cpu_sse2
 msgid "SSE2"
@@ -88120,7 +88119,7 @@ msgstr "SSE41"
 
 #. :src: bpy.types.CyclesRenderSettings.debug_use_cuda_adaptive_compile
 msgid "Adaptive Compile"
-msgstr "自适应"
+msgstr "自适应编译"
 
 #. :src: bpy.types.CyclesRenderSettings.debug_use_hair_bvh
 msgid "Use Hair BVH"
@@ -88165,7 +88164,7 @@ msgstr "使用 GPU 计算设备进行渲染, 在用户设置面板中进行配�
 
 #. :src: bpy.types.CyclesRenderSettings.dicing_camera
 msgid "Dicing Camera"
-msgstr "分块率"
+msgstr ""
 
 #. :src: bpy.types.CyclesRenderSettings.dicing_camera
 msgid "Camera to use as reference point when subdividing geometry, useful to avoid crawling artifacts in animations when the scene camera is moving"
@@ -88177,7 +88176,7 @@ msgstr "分块率"
 
 #. :src: bpy.types.CyclesRenderSettings.dicing_rate
 msgid "Size of a micropolygon in pixels"
-msgstr "限制贴图尺寸为128像素"
+msgstr "微多边形尺寸，单位像素"
 
 #. :src: bpy.types.CyclesRenderSettings.diffuse_bounces
 #. :src: bpy.types.SceneEEVEE.gi_diffuse_bounces
@@ -88198,7 +88197,7 @@ msgstr "各像素的渲染采样次数"
 
 #. :src: bpy.types.CyclesRenderSettings.distance_cull_margin
 msgid "Cull Distance"
-msgstr "使用距离剔除"
+msgstr "剔除距离"
 
 #. :src: bpy.types.CyclesRenderSettings.distance_cull_margin
 msgid "Cull objects which are further away from camera than this distance"
@@ -88206,11 +88205,11 @@ msgstr ""
 
 #. :src: bpy.types.CyclesRenderSettings.feature_set
 msgid "Feature Set"
-msgstr "特性设置"
+msgstr "特性集"
 
 #. :src: bpy.types.CyclesRenderSettings.feature_set
 msgid "Feature set to use for rendering"
-msgstr "用于渲染的特性设置"
+msgstr "用于渲染的特性集"
 
 #. :src: bpy.types.CyclesRenderSettings.feature_set:'SUPPORTED'
 msgid "Supported"
@@ -88235,7 +88234,7 @@ msgstr "图像亮度比"
 #. :src: bpy.types.CyclesRenderSettings.film_transparent_glass
 #: scripts/addons/cycles/ui.py:555
 msgid "Transparent Glass"
-msgstr "玻璃 (碎裂的)"
+msgstr "透明玻璃"
 
 #. :src: bpy.types.CyclesRenderSettings.film_transparent_glass
 msgid "Render transmissive surfaces as transparent, for compositing glass over another background"
@@ -88243,7 +88242,7 @@ msgstr ""
 
 #. :src: bpy.types.CyclesRenderSettings.film_transparent_roughness
 msgid "Transparent Roughness Threshold"
-msgstr "糙度"
+msgstr "透明糙度阈值"
 
 #. :src: bpy.types.CyclesRenderSettings.film_transparent_roughness
 msgid "For transparent transmission, keep surfaces with roughness above the threshold opaque"
@@ -88312,7 +88311,7 @@ msgstr "总反弹最大值"
 
 #. :src: bpy.types.CyclesRenderSettings.max_subdivisions
 msgid "Max Subdivisions"
-msgstr "细分"
+msgstr "最大细分"
 
 #. :src: bpy.types.CyclesRenderSettings.max_subdivisions
 msgid "Stop subdividing when this level is reached even if the dice rate would produce finer tessellation"
@@ -88327,18 +88326,16 @@ msgid "Number of mesh emission light samples to render for each AA sample"
 msgstr "各像素的渲染采样次数"
 
 #. :src: bpy.types.CyclesRenderSettings.min_light_bounces
-#, fuzzy
 msgid "Min Light Bounces"
-msgstr "主光照探头"
+msgstr "最小光线反弹"
 
 #. :src: bpy.types.CyclesRenderSettings.min_light_bounces
 msgid "Minimum number of light bounces. Setting this higher reduces noise in the first bounces, but can also be less efficient for more complex geometry like hair and volumes"
 msgstr ""
 
 #. :src: bpy.types.CyclesRenderSettings.min_transparent_bounces
-#, fuzzy
 msgid "Min Transparent Bounces"
-msgstr "透明反弹次数上限"
+msgstr "最小透明反弹"
 
 #. :src: bpy.types.CyclesRenderSettings.min_transparent_bounces
 msgid "Minimum number of transparnet bounces. Setting this higher reduces noise in the first bounces, but can also be less efficient for more complex geometry like hair and volumes"
@@ -88378,7 +88375,7 @@ msgstr "在当前帧关闭快门"
 
 #. :src: bpy.types.CyclesRenderSettings.offscreen_dicing_scale
 msgid "Offscreen Dicing Scale"
-msgstr "分块率"
+msgstr ""
 
 #. :src: bpy.types.CyclesRenderSettings.offscreen_dicing_scale
 msgid ""
@@ -88392,7 +88389,7 @@ msgstr "在视图内渲染时的采样次数, 0 为无限制"
 
 #. :src: bpy.types.CyclesRenderSettings.preview_dicing_rate
 msgid "Preview Dicing Rate"
-msgstr "分块率"
+msgstr ""
 
 #. :src: bpy.types.CyclesRenderSettings.preview_dicing_rate
 msgid "Size of a micropolygon in pixels during preview render"
@@ -88502,7 +88499,7 @@ msgstr "钳制间接光"
 
 #. :src: bpy.types.CyclesRenderSettings.sample_clamp_indirect
 msgid "If non-zero, the maximum value for an indirect sample, higher values will be scaled down to avoid too much noise and slow convergence at the cost of accuracy"
-msgstr "若为非零值, 则代表采样最大值, 较高的值将被按比例缩小, 以避免产生过多的噪点以及缓慢的聚敛, 以牺牲精确度为代价"
+msgstr "若为非零值, 则代表间接光采样最大值, 较高的值将被按比例缩小, 以避免产生过多的噪点以及缓慢的聚敛, 以牺牲精确度为代价"
 
 #. :src: bpy.types.CyclesRenderSettings.samples
 msgid "Number of samples to render for each pixel"
@@ -88514,7 +88511,7 @@ msgstr "采样模式"
 
 #. :src: bpy.types.CyclesRenderSettings.sampling_pattern
 msgid "Random sampling pattern used by the integrator"
-msgstr "使用关联式多重抖动随机采样模式"
+msgstr "积分器使用的随机采样模式"
 
 #. :src: bpy.types.CyclesRenderSettings.sampling_pattern:'SOBOL'
 msgid "Sobol"
@@ -88564,50 +88561,50 @@ msgstr "无限制"
 #. :src: bpy.types.CyclesRenderSettings.texture_limit:'OFF'
 #. :src: bpy.types.CyclesRenderSettings.texture_limit_render:'OFF'
 msgid "No texture size limit"
-msgstr "无纹理尺寸限制"
+msgstr "无贴图尺寸限制"
 
 #. :src: bpy.types.CyclesRenderSettings.texture_limit:'128'
 #. :src: bpy.types.CyclesRenderSettings.texture_limit_render:'128'
 msgid "Limit texture size to 128 pixels"
-msgstr "限制纹理尺寸为128像素"
+msgstr "限制贴图尺寸为128像素"
 
 #. :src: bpy.types.CyclesRenderSettings.texture_limit:'256'
 #. :src: bpy.types.CyclesRenderSettings.texture_limit_render:'256'
 msgid "Limit texture size to 256 pixels"
-msgstr "限制纹理尺寸为256像素"
+msgstr "限制贴图尺寸为256像素"
 
 #. :src: bpy.types.CyclesRenderSettings.texture_limit:'512'
 #. :src: bpy.types.CyclesRenderSettings.texture_limit_render:'512'
 msgid "Limit texture size to 512 pixels"
-msgstr "限制纹理尺寸为512像素"
+msgstr "限制贴图尺寸为512像素"
 
 #. :src: bpy.types.CyclesRenderSettings.texture_limit:'1024'
 #. :src: bpy.types.CyclesRenderSettings.texture_limit_render:'1024'
 msgid "Limit texture size to 1024 pixels"
-msgstr "限制纹理尺寸为1024像素"
+msgstr "限制贴图尺寸为1024像素"
 
 #. :src: bpy.types.CyclesRenderSettings.texture_limit:'2048'
 #. :src: bpy.types.CyclesRenderSettings.texture_limit_render:'2048'
 msgid "Limit texture size to 2048 pixels"
-msgstr "限制纹理尺寸为2048像素"
+msgstr "限制贴图尺寸为2048像素"
 
 #. :src: bpy.types.CyclesRenderSettings.texture_limit:'4096'
 #. :src: bpy.types.CyclesRenderSettings.texture_limit_render:'4096'
 msgid "Limit texture size to 4096 pixels"
-msgstr "限制纹理尺寸为4096像素"
+msgstr "限制贴图尺寸为4096像素"
 
 #. :src: bpy.types.CyclesRenderSettings.texture_limit:'8192'
 #. :src: bpy.types.CyclesRenderSettings.texture_limit_render:'8192'
 msgid "Limit texture size to 8192 pixels"
-msgstr "限制纹理尺寸为8192像素"
+msgstr "限制贴图尺寸为8192像素"
 
 #. :src: bpy.types.CyclesRenderSettings.texture_limit_render
 msgid "Render Texture Limit"
-msgstr "渲染纹理限制限制"
+msgstr "渲染贴图限制"
 
 #. :src: bpy.types.CyclesRenderSettings.texture_limit_render
 msgid "Limit texture size used by final rendering"
-msgstr ""
+msgstr "限制用于最终渲染的贴图尺寸"
 
 #. :src: bpy.types.CyclesRenderSettings.tile_order
 msgid "Tile Order"
@@ -88659,11 +88656,11 @@ msgstr "希尔伯特螺旋"
 
 #. :src: bpy.types.CyclesRenderSettings.tile_order:'HILBERT_SPIRAL'
 msgid "Render in a Hilbert Spiral"
-msgstr "希尔伯特螺旋"
+msgstr ""
 
 #. :src: bpy.types.CyclesRenderSettings.transmission_bounces
 msgid "Transmission Bounces"
-msgstr "传递反弹"
+msgstr "透射反弹"
 
 #. :src: bpy.types.CyclesRenderSettings.transmission_bounces
 msgid "Maximum number of transmission bounces, bounded by total maximum"
@@ -88671,11 +88668,11 @@ msgstr "最大透射反弹次数, 按最大值总数执行反弹"
 
 #. :src: bpy.types.CyclesRenderSettings.transmission_samples
 msgid "Transmission Samples"
-msgstr "传递采样"
+msgstr "透射采样"
 
 #. :src: bpy.types.CyclesRenderSettings.transmission_samples
 msgid "Number of transmission bounce samples to render for each AA sample"
-msgstr "各像素的渲染采样次数"
+msgstr ""
 
 #. :src: bpy.types.CyclesRenderSettings.transparent_max_bounces
 msgid "Transparent Max Bounces"
@@ -88687,7 +88684,7 @@ msgstr "透明反弹的最大次数"
 
 #. :src: bpy.types.CyclesRenderSettings.use_animated_seed
 msgid "Use Animated Seed"
-msgstr "播放动画"
+msgstr "使用动画随机种"
 
 #. :src: bpy.types.CyclesRenderSettings.use_animated_seed
 msgid "Use different seed values (and hence noise patterns) at different frames"
@@ -88695,11 +88692,11 @@ msgstr ""
 
 #. :src: bpy.types.CyclesRenderSettings.use_bvh_embree
 msgid "Use Embree"
-msgstr "使用"
+msgstr "使用Embree"
 
 #. :src: bpy.types.CyclesRenderSettings.use_bvh_embree
 msgid "Use Embree as ray accelerator"
-msgstr ""
+msgstr "使用Embree作为光线加速器"
 
 #. :src: bpy.types.CyclesRenderSettings.use_camera_cull
 msgid "Allow objects to be culled based on the camera frustum"
@@ -88715,7 +88712,7 @@ msgstr "层采样"
 
 #. :src: bpy.types.CyclesRenderSettings.use_layer_samples
 msgid "How to use per view layer sample settings"
-msgstr "单渲染层采样方式设置"
+msgstr "如何使用单视图层采样方式设置"
 
 #. :src: bpy.types.CyclesRenderSettings.use_layer_samples:'USE'
 msgid "Per render layer number of samples override scene samples"
@@ -88774,7 +88771,7 @@ msgstr "体积采样"
 
 #. :src: bpy.types.CyclesRenderSettings.volume_samples
 msgid "Number of volume scattering samples to render for each AA sample"
-msgstr "用于各抗锯齿采样渲染的次表面散射采样次数"
+msgstr "用于各抗锯齿采样渲染的体积散射采样次数"
 
 #. :src: bpy.types.CyclesRenderSettings.volume_step_size
 msgid "Distance between volume shader samples when rendering the volume (lower values give more accurate and detailed results, but also increased render time)"
@@ -88794,7 +88791,7 @@ msgstr "物体对于光泽反射光线的可见性"
 
 #. :src: bpy.types.CyclesVisibilitySettings.scatter
 msgid "Object visibility for volume scatter rays"
-msgstr "物体对于散射光线的可见性"
+msgstr "物体对于体积散射光线的可见性"
 
 #. :src: bpy.types.CyclesVisibilitySettings.shadow
 msgid "Object visibility for shadow rays"
@@ -88802,7 +88799,7 @@ msgstr "物体对于阴影光线的可见性"
 
 #. :src: bpy.types.CyclesVisibilitySettings.transmission
 msgid "Object visibility for transmission rays"
-msgstr "物体对于投射光线的可见性"
+msgstr "物体对于透射光线的可见性"
 
 #. :src: bpy.types.CyclesWorldSettings.homogeneous_volume
 msgid "When using volume rendering, assume volume has the same density everywhere(not using any textures), for faster rendering"
@@ -88818,15 +88815,15 @@ msgstr "贴图精度"
 
 #. :src: bpy.types.CyclesWorldSettings.sample_map_resolution
 msgid "Importance map size is resolution x resolution/2; higher values potentially produce less noise, at the cost of memory and speed"
-msgstr "重要值映射尺寸为分辨率 x 分辨率; 较高的值有助于减少噪点, 但会耗用较多的内存, 并会降低处理速度"
+msgstr "重要值映射尺寸为分辨率 x 分辨率/2; 较高的值有助于减少噪点, 但会耗用较多的内存, 并会降低处理速度"
 
 #. :src: bpy.types.CyclesWorldSettings.sampling_method
 msgid "Sampling method"
-msgstr "采样"
+msgstr "采样方法"
 
 #. :src: bpy.types.CyclesWorldSettings.sampling_method
 msgid "How to sample the background light"
-msgstr "使用鼠标来采样背景图像"
+msgstr "如何采样背景光"
 
 #. :src: bpy.types.CyclesWorldSettings.sampling_method:'NONE'
 msgid "Don't sample the background, faster but might cause noise for non-solid backgrounds"
@@ -88839,7 +88836,7 @@ msgstr ""
 #. :src: bpy.types.CyclesWorldSettings.sampling_method:'MANUAL'
 #. :src: bpy.types.SoftBodySettings.collision_type:'MANUAL'
 msgid "Manual"
-msgstr "手册"
+msgstr "手动"
 
 #. :src: bpy.types.CyclesWorldSettings.sampling_method:'MANUAL'
 msgid "Manually set the resolution of the sampling map, higher values are slower and require more memory but reduce noise"
@@ -88847,16 +88844,16 @@ msgstr ""
 
 #. :src: bpy.types.CyclesWorldSettings.volume_interpolation
 msgid "Interpolation method to use for volumes"
-msgstr "插值方法"
+msgstr "用于体积的插值方法"
 
 #. :src: bpy.types.I18nUpdateTranslationLanguage
 #. :src: bpy.types.I18nUpdateTranslationSettings
 msgid "Settings/info about a language"
-msgstr "针对某种语言的设置 / 信息"
+msgstr "关于某种语言的设置/信息"
 
 #. :src: bpy.types.I18nUpdateTranslationLanguage.mo_path_trunk
 msgid "MO File Path"
-msgstr "文件路径"
+msgstr "MO文件路径"
 
 #. :src: bpy.types.I18nUpdateTranslationLanguage.mo_path_trunk
 msgid "Path to the relevant mo file"
@@ -88864,11 +88861,11 @@ msgstr "相关 mo 文件的路径"
 
 #. :src: bpy.types.I18nUpdateTranslationLanguage.name
 msgid "Language Name"
-msgstr "语言"
+msgstr "语言名称"
 
 #. :src: bpy.types.I18nUpdateTranslationLanguage.name
 msgid "Language label (eg. \"French (Français)\")"
-msgstr "英文名称 / 标签 (例如 \"French (Français)\")"
+msgstr "语言标签 (比如 \"French (Français)\")"
 
 #. :src: bpy.types.I18nUpdateTranslationLanguage.num_id
 msgid "Numeric ID"
@@ -88876,11 +88873,11 @@ msgstr "数值型 ID"
 
 #. :src: bpy.types.I18nUpdateTranslationLanguage.num_id
 msgid "Numeric ID (read only!)"
-msgstr "数值型 ID"
+msgstr "数值型 ID(只读!)"
 
 #. :src: bpy.types.I18nUpdateTranslationLanguage.po_path
 msgid "PO File Path"
-msgstr "文件路径"
+msgstr "PO文件路径"
 
 #. :src: bpy.types.I18nUpdateTranslationLanguage.po_path
 msgid "Path to the relevant po file in branches"
@@ -88888,7 +88885,7 @@ msgstr "分支中相关 po 文件的路径"
 
 #. :src: bpy.types.I18nUpdateTranslationLanguage.po_path_git
 msgid "PO Git Master File Path"
-msgstr "图像文件的路径"
+msgstr "Git主干PO文件的路径"
 
 #. :src: bpy.types.I18nUpdateTranslationLanguage.po_path_git
 msgid "Path to the relevant po file in Blender's translations git repository"
@@ -88908,11 +88905,11 @@ msgstr "语言"
 
 #. :src: bpy.types.I18nUpdateTranslationLanguage.uid
 msgid "ISO code (eg. \"fr_FR\")"
-msgstr "ISO 编码, 例如 fr_FR"
+msgstr "ISO 编码(比如 \"fr_FR\")"
 
 #. :src: bpy.types.I18nUpdateTranslationLanguage.use
 msgid "If this language should be used in the current operator"
-msgstr ""
+msgstr "是否应当在当前操作器中使用该语言"
 
 #. :src: bpy.types.I18nUpdateTranslationSettings.active_lang
 msgid "Active Language"
@@ -89052,7 +89049,7 @@ msgstr "细分屏幕区内的区域"
 
 #. :src: bpy.types.Region.alignment
 msgid "Alignment of the region within the area"
-msgstr "细分屏幕区内的区域"
+msgstr "区域内的区块对齐"
 
 #. :src: bpy.types.Region.alignment:'NONE'
 msgid "Don't use any fixed alignment, fill available space"
@@ -89081,7 +89078,7 @@ msgstr "分割四边形"
 
 #. :src: bpy.types.Region.alignment:'QUAD_SPLIT'
 msgid "Region is split horizontally and vertically"
-msgstr "沿水平和垂直方向重复图像"
+msgstr "沿水平和垂直方向分别分割区域"
 
 #. :src: bpy.types.Region.height
 msgid "Region height"
@@ -89121,15 +89118,15 @@ msgstr "3D 视图区数据"
 
 #. :src: bpy.types.RegionView3D.clip_planes
 msgid "Clip Planes"
-msgstr "剪辑面板"
+msgstr "钳制平面"
 
 #. :src: bpy.types.RegionView3D.is_orthographic_side_view
 msgid "Is Axis Aligned"
-msgstr "为副本使用物体的旋转 (全局的X 轴与粒子的旋转轴对齐)"
+msgstr "是否轴对齐"
 
 #. :src: bpy.types.RegionView3D.is_orthographic_side_view
 msgid "Is current view an orthographic side view"
-msgstr "切换当前视图为正交视图 / 透视图"
+msgstr "当前视图是否正交侧视图"
 
 #. :src: bpy.types.RegionView3D.is_perspective
 msgid "Is Perspective"
@@ -89157,7 +89154,7 @@ msgstr "基于其他侧视图中的可见范围来显示物体"
 
 #. :src: bpy.types.RegionView3D.use_clip_planes
 msgid "Use Clip Planes"
-msgstr "使用剪辑面板"
+msgstr "使用钳制平面"
 
 #. :src: bpy.types.RegionView3D.view_camera_offset
 msgid "Camera Offset"
@@ -89193,7 +89190,7 @@ msgstr "查看矩阵"
 
 #. :src: bpy.types.RegionView3D.view_matrix
 msgid "Current view matrix"
-msgstr "查看矩阵"
+msgstr "当前视图矩阵"
 
 #. :src: bpy.types.RegionView3D.view_perspective
 msgid "View Perspective"
@@ -89214,7 +89211,7 @@ msgstr "窗口矩阵"
 
 #. :src: bpy.types.RegionView3D.window_matrix
 msgid "Current window matrix"
-msgstr "窗口矩阵"
+msgstr "当前窗口矩阵"
 
 #. :src: bpy.types.RenderLayer.invert_zmask
 #. :src: bpy.types.ViewLayer.invert_zmask
@@ -89244,7 +89241,7 @@ msgstr "为了实现遮罩, 将不同层上的实体面均填充为 Z 值"
 #. :src: bpy.types.RenderLayer.use_ao
 #. :src: bpy.types.ViewLayer.use_ao
 msgid "Render Ambient Occlusion in this Layer"
-msgstr "AO 采样"
+msgstr "在当前层中渲染AO"
 
 #. :src: bpy.types.RenderLayer.use_edge_enhance
 #. :src: bpy.types.ViewLayer.use_edge_enhance
@@ -89259,7 +89256,7 @@ msgstr "在当前层中渲染光晕(位于实体的顶部)"
 #. :src: bpy.types.RenderLayer.use_pass_ambient_occlusion
 #. :src: bpy.types.ViewLayer.use_pass_ambient_occlusion
 msgid "Deliver Ambient Occlusion pass"
-msgstr "AO 采样"
+msgstr "传递AO通道"
 
 #. :src: bpy.types.RenderLayer.use_pass_combined
 #. :src: bpy.types.ViewLayer.use_pass_combined
@@ -89444,11 +89441,11 @@ msgstr "渲染通道"
 
 #. :src: bpy.types.RenderPasses
 msgid "Render Passes"
-msgstr "通道"
+msgstr "渲染通道"
 
 #. :src: bpy.types.RenderPasses
 msgid "Collection of render passes"
-msgstr "渲染该集合"
+msgstr "渲染通道集合"
 
 #. :src: bpy.types.RenderResult
 msgid "Result of rendering, including all layers and passes"
@@ -89456,7 +89453,7 @@ msgstr "渲染结果, 包含全部层和通道"
 
 #. :src: bpy.types.RenderSettings
 msgid "Rendering settings for a Scene data-block"
-msgstr "用于场景照明的灯光数据块"
+msgstr "用于场景数据块的渲染设置"
 
 # rblc
 #. :src: bpy.types.RenderSettings.bake_bias
@@ -89626,7 +89623,7 @@ msgstr "帧中的旧映射值"
 
 #. :src: bpy.types.RenderSettings.hair_subdiv
 msgid "Additional Subdiv"
-msgstr "附加"
+msgstr "附加细分"
 
 #. :src: bpy.types.RenderSettings.hair_subdiv
 msgid "Additional subdivision along the hair"
@@ -89634,11 +89631,11 @@ msgstr ""
 
 #. :src: bpy.types.RenderSettings.hair_type
 msgid "Hair Shape Type"
-msgstr "绝对形态键之间的插值计算类型"
+msgstr "毛发形状类型"
 
 #. :src: bpy.types.RenderSettings.hair_type
 msgid "Hair shape type"
-msgstr "绝对形态键之间的插值计算类型"
+msgstr "毛发形状类型"
 
 #. :src: bpy.types.RenderSettings.has_multiple_engines
 msgid "Multiple Engines"
@@ -89707,7 +89704,7 @@ msgstr "垂直的长宽比 - 应用于数字或非四边形像素输出"
 
 #. :src: bpy.types.RenderSettings.preview_pixel_size
 msgid "Pixel size for viewport rendering"
-msgstr "为阴影使用的像素尺寸"
+msgstr "为视图渲染使用的像素尺寸"
 
 #. :src: bpy.types.RenderSettings.preview_pixel_size:'AUTO'
 msgid "Automatic pixel size, depends on the user interface scale"
@@ -89715,23 +89712,23 @@ msgstr ""
 
 #. :src: bpy.types.RenderSettings.preview_pixel_size:'1'
 msgid "1x"
-msgstr "16x"
+msgstr "1x"
 
 #. :src: bpy.types.RenderSettings.preview_pixel_size:'1'
 msgid "Render at full resolution"
-msgstr "渲染的缩放比例"
+msgstr "全分辨率渲染"
 
 #. :src: bpy.types.RenderSettings.preview_pixel_size:'2'
 msgid "Render at 50% resolution"
-msgstr "构建50%代理分辨率"
+msgstr "渲染为50%分辨率"
 
 #. :src: bpy.types.RenderSettings.preview_pixel_size:'4'
 msgid "Render at 25% resolution"
-msgstr "构建25%代理分辨率"
+msgstr "渲染为25%分辨率"
 
 #. :src: bpy.types.RenderSettings.preview_pixel_size:'8'
 msgid "Render at 12.5% resolution"
-msgstr "U 渲染分辨率"
+msgstr "渲染为12.5%分辨率"
 
 #. :src: bpy.types.RenderSettings.resolution_percentage
 msgid "Resolution %"
@@ -89739,7 +89736,7 @@ msgstr "分辨率 %"
 
 #. :src: bpy.types.RenderSettings.resolution_percentage
 msgid "Percentage scale for render resolution"
-msgstr "渲染的缩放比例"
+msgstr "渲染分辨率的缩放比例"
 
 #. :src: bpy.types.RenderSettings.resolution_x
 msgid "Number of horizontal pixels in the rendered image"
@@ -89770,12 +89767,12 @@ msgstr ""
 #. :src: bpy.types.RenderSettings.sequencer_gl_preview:'MATERIAL'
 #. :src: bpy.types.View3DShading.type:'MATERIAL'
 msgid "Look Dev"
-msgstr "标准差"
+msgstr "视觉预览"
 
 #. :src: bpy.types.RenderSettings.sequencer_gl_preview:'MATERIAL'
 #. :src: bpy.types.View3DShading.type:'MATERIAL'
 msgid "Display in Look Dev mode"
-msgstr "粒子的选择及显示模式"
+msgstr "以视觉预览模式显示"
 
 #. :src: bpy.types.RenderSettings.sequencer_gl_preview:'RENDERED'
 #. :src: bpy.types.View3DShading.type:'RENDERED'
@@ -89810,7 +89807,7 @@ msgstr ""
 
 #. :src: bpy.types.RenderSettings.simplify_gpencil_onplay
 msgid "Simplify Playback"
-msgstr "回放"
+msgstr "简化回放"
 
 #. :src: bpy.types.RenderSettings.simplify_gpencil_onplay
 msgid "Simplify Grease Pencil only during animation playback"
@@ -89818,7 +89815,7 @@ msgstr ""
 
 #. :src: bpy.types.RenderSettings.simplify_gpencil_remove_lines
 msgid "Disable Lines"
-msgstr "行数"
+msgstr "禁用线条"
 
 #. :src: bpy.types.RenderSettings.simplify_gpencil_remove_lines
 msgid "Disable external lines of fill strokes"
@@ -89826,7 +89823,7 @@ msgstr ""
 
 #. :src: bpy.types.RenderSettings.simplify_gpencil_shader_fx
 msgid "Simplify Shaders"
-msgstr "简化"
+msgstr "简化着色器"
 
 #. :src: bpy.types.RenderSettings.simplify_gpencil_shader_fx
 msgid "Do not apply shader fx"
@@ -89834,7 +89831,7 @@ msgstr ""
 
 #. :src: bpy.types.RenderSettings.simplify_gpencil_view_fill
 msgid "Disable Fill"
-msgstr "填充"
+msgstr "禁用填充"
 
 #. :src: bpy.types.RenderSettings.simplify_gpencil_view_fill
 msgid "Disable fill strokes in the viewport"
@@ -89842,11 +89839,11 @@ msgstr ""
 
 #. :src: bpy.types.RenderSettings.simplify_gpencil_view_modifier
 msgid "Disable Modifiers"
-msgstr "禁用"
+msgstr "禁用修改器"
 
 #. :src: bpy.types.RenderSettings.simplify_gpencil_view_modifier
 msgid "Do not apply modifiers in the viewport"
-msgstr "为输出的网格应用修改器"
+msgstr "不在视图中显示修改器结果"
 
 #. :src: bpy.types.RenderSettings.simplify_subdivision
 #. :src: bpy.types.RenderSettings.simplify_subdivision_render
@@ -89855,11 +89852,11 @@ msgstr "简化细分"
 
 #. :src: bpy.types.RenderSettings.simplify_subdivision
 msgid "Global maximum subdivision level"
-msgstr "全局细分的最小等级"
+msgstr "最大全局细分等级"
 
 #. :src: bpy.types.RenderSettings.simplify_subdivision_render
 msgid "Global maximum subdivision level during rendering"
-msgstr "全局细分的最小等级"
+msgstr "渲染时的最大全局细分等级"
 
 #. :src: bpy.types.RenderSettings.stamp_background
 msgid "Color to use behind stamp text"
@@ -89965,7 +89962,7 @@ msgstr "渲染框"
 
 #. :src: bpy.types.RenderSettings.use_border
 msgid "Render a user-defined render region, within the frame size"
-msgstr "裁切渲染帧至定义的渲染框尺寸"
+msgstr "裁切渲染框至用户定义的渲染框尺寸"
 
 #. :src: bpy.types.RenderSettings.use_compositing
 msgid "Process the render result through the compositing pipeline, if compositing nodes are enabled"
@@ -89989,7 +89986,7 @@ msgstr "为渲染文件添加扩展名(例如:文件名.jpg)"
 
 #. :src: bpy.types.RenderSettings.use_freestyle
 msgid "Draw stylized strokes using Freestyle"
-msgstr "使用方形轮廓笔触绘制蓝图"
+msgstr "使用Freestyle绘制样式化笔画"
 
 #. :src: bpy.types.RenderSettings.use_full_sample
 #. :src: bpy.types.Scopes.use_full_resolution
@@ -90016,7 +90013,7 @@ msgstr "使用 3D 多重采样运动模糊"
 
 #. :src: bpy.types.RenderSettings.use_multiview
 msgid "Use multiple views in the scene"
-msgstr "多视角"
+msgstr "在场景中使用多视角"
 
 #. :src: bpy.types.RenderSettings.use_overwrite
 msgid "Overwrite existing files while rendering"
@@ -90076,7 +90073,7 @@ msgstr "简化场景设置以便进行快速的预览渲染"
 
 #. :src: bpy.types.RenderSettings.use_simplify_smoke_highres
 msgid "Use High-resolution Smoke"
-msgstr "烟雾的网格精度"
+msgstr "使用高精度烟雾"
 
 #. :src: bpy.types.RenderSettings.use_simplify_smoke_highres
 msgid "Display high-resolution smoke in the viewport"
@@ -90085,7 +90082,7 @@ msgstr ""
 #. :src: bpy.types.RenderSettings.use_single_layer
 #: scripts/startup/bl_ui/properties_view_layer.py:54
 msgid "Render Single Layer"
-msgstr "渲染层"
+msgstr "渲染单个层"
 
 #. :src: bpy.types.RenderSettings.use_single_layer
 msgid "Only render the active layer. Only affects rendering from the interface, ignored for rendering from command line"
@@ -90093,7 +90090,7 @@ msgstr ""
 
 #. :src: bpy.types.RenderSettings.use_spherical_stereo
 msgid "Use Spherical Stereo"
-msgstr "立体声"
+msgstr "使用球面立体"
 
 #. :src: bpy.types.RenderSettings.use_spherical_stereo
 msgid "Active render engine supports spherical stereo rendering"
