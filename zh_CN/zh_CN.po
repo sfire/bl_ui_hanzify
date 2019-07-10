@@ -28,9 +28,9 @@
 #   CG阿颜 | baohua | 生活 | sjn1978 | acme_pjz | 混在北京 | 云风如我 | huangsr2012 | nirenyang | nge
 msgid ""
 msgstr ""
-"Project-Id-Version: Blender 2.80 (sub 74) (b'516afd0162cd')\n"
+"Project-Id-Version: Blender 2.80 (sub 74) (b'91d3b00395ec')\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-09 00:00:00\n"
+"POT-Creation-Date: 2019-07-10 00:00:00\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Asx <i@iAsx.org>\n"
 "Language-Team: \n"
@@ -1108,7 +1108,7 @@ msgstr "从累积结果中移除的片段权重结果"
 #. :src: bpy.types.ColorMixSequence.blend_effect:'MULTIPLY'
 #. :src: bpy.types.ShaderFxRim.mode:'MULTIPLY'
 #. :src: bpy.types.TextureSlot.blend_type:'MULTIPLY'
-#: scripts/startup/bl_ui/space_sequencer.py:1625
+#: scripts/startup/bl_ui/space_sequencer.py:1642
 msgid "Multiply"
 msgstr "正片叠底(相乘)"
 
@@ -2600,7 +2600,7 @@ msgstr ""
 #. :src: bpy.types.ParticleSettingsTextureSlot.mapping_z:'NONE'
 #. :src: bpy.types.ToolSettings.vertex_group_user:'NONE'
 #. :src: bpy.types.UnitSettings.system:'NONE'
-#: scripts/startup/bl_ui/space_sequencer.py:1175
+#: scripts/startup/bl_ui/space_sequencer.py:1176
 #: source/blender/editors/space_node/node_templates.c:427
 msgid "None"
 msgstr "无"
@@ -4971,8 +4971,8 @@ msgstr "所有规则平均"
 #. :src: bpy.types.ToolSettings.snap_elements:'VOLUME'
 #: scripts/addons/cycles/ui.py:211 scripts/addons/cycles/ui.py:422
 #: scripts/addons/cycles/ui.py:850
-#: scripts/startup/bl_ui/space_sequencer.py:1469
-#: scripts/startup/bl_ui/space_sequencer.py:1254
+#: scripts/startup/bl_ui/space_sequencer.py:1486
+#: scripts/startup/bl_ui/space_sequencer.py:1255
 #: source/blender/nodes/shader/nodes/node_shader_output_material.c:27
 #: source/blender/nodes/shader/nodes/node_shader_output_world.c:25
 #: source/blender/nodes/shader/nodes/node_shader_volume_absorption.c:30
@@ -6164,7 +6164,7 @@ msgstr ""
 #. :src: bpy.types.CyclesCurveRenderSettings.resolution
 #: scripts/addons/cycles/ui.py:369
 #: scripts/startup/bl_ui/properties_data_curve.py:205
-#: scripts/startup/bl_ui/space_sequencer.py:1169
+#: scripts/startup/bl_ui/space_sequencer.py:1170
 #: scripts/startup/bl_ui/space_topbar.py:698
 msgid "Resolution"
 msgstr "分辨率"
@@ -6704,7 +6704,7 @@ msgstr "在 3D 视图中背景图的显示设置"
 #: scripts/startup/bl_ui/properties_paint_common.py:133
 #: scripts/startup/bl_ui/properties_physics_dynamicpaint.py:198
 #: scripts/startup/bl_ui/properties_physics_fluid.py:245
-#: scripts/startup/bl_ui/space_sequencer.py:1139
+#: scripts/startup/bl_ui/space_sequencer.py:1140
 #: scripts/startup/bl_ui/space_view3d.py:6189
 #: scripts/startup/bl_ui/space_view3d.py:6196
 #: source/blender/editors/interface/interface_region_color_picker.c:751
@@ -7175,7 +7175,7 @@ msgstr "偏移量"
 #: scripts/startup/bl_ui/properties_physics_rigidbody.py:224
 #: scripts/startup/bl_ui/properties_scene.py:89
 #: scripts/startup/bl_ui/space_clip.py:979
-#: scripts/startup/bl_ui/space_sequencer.py:1005
+#: scripts/startup/bl_ui/space_sequencer.py:1006
 #: scripts/startup/bl_ui/space_view3d.py:2456
 #: scripts/startup/bl_ui/space_view3d.py:4911
 #: scripts/startup/bl_ui/space_view3d.py:4913
@@ -7252,7 +7252,7 @@ msgstr "背景图的旋转(仅适用于正交)"
 #: scripts/startup/bl_ui/properties_particle.py:1237
 #: scripts/startup/bl_ui/space_clip.py:982
 #: scripts/startup/bl_ui/space_image.py:885
-#: scripts/startup/bl_ui/space_sequencer.py:998
+#: scripts/startup/bl_ui/space_sequencer.py:999
 #: scripts/startup/bl_ui/space_view3d.py:2459
 #: scripts/startup/bl_ui/space_view3d.py:5332
 #: scripts/startup/bl_ui/space_view3d.py:5920
@@ -8512,8 +8512,8 @@ msgstr ""
 
 #. :src: bpy.types.ColorManagedSequencerColorspaceSettings.name
 #. :src: bpy.types.CompositorNodeChannelMatte.color_space
-#: scripts/startup/bl_ui/space_sequencer.py:1137
-#: scripts/startup/bl_ui/space_sequencer.py:1147
+#: scripts/startup/bl_ui/space_sequencer.py:1138
+#: scripts/startup/bl_ui/space_sequencer.py:1148
 #: source/blender/editors/interface/interface_templates.c:6538
 #: source/blender/editors/space_node/drawnode.c:716
 msgid "Color Space"
@@ -9017,7 +9017,7 @@ msgstr "色相"
 #. :src: bpy.types.MovieSequence.color_saturation
 #. :src: bpy.types.SceneSequence.color_saturation
 #. :src: bpy.types.TextureSlot.blend_type:'SATURATION'
-#: scripts/startup/bl_ui/space_sequencer.py:1624
+#: scripts/startup/bl_ui/space_sequencer.py:1641
 #: source/blender/editors/interface/interface_region_color_picker.c:691
 #: source/blender/editors/space_node/drawnode.c:2210
 #: source/blender/editors/space_node/drawnode.c:2264
@@ -10423,7 +10423,7 @@ msgstr "使用父级的 Z 轴转动"
 #. :src: bpy.types.LineStyleGeometryModifier_2DTransform.scale_x
 #. :src: bpy.types.TransformSequence.scale_start_x
 #: scripts/startup/bl_ui/properties_data_modifier.py:1093
-#: scripts/startup/bl_ui/space_sequencer.py:1000
+#: scripts/startup/bl_ui/space_sequencer.py:1001
 msgid "Scale X"
 msgstr "X 向缩放"
 
@@ -10519,7 +10519,7 @@ msgstr "运动的主轴"
 #: scripts/startup/bl_ui/properties_data_modifier.py:1151
 #: scripts/startup/bl_ui/properties_data_modifier.py:1167
 #: scripts/startup/bl_ui/space_image.py:1467
-#: scripts/startup/bl_ui/space_sequencer.py:1539
+#: scripts/startup/bl_ui/space_sequencer.py:1556
 #: scripts/startup/bl_ui/space_view3d.py:5404
 #: scripts/startup/bl_ui/space_view3d.py:131
 #: scripts/startup/bl_ui/space_view3d.py:136
@@ -10605,11 +10605,11 @@ msgstr "X"
 #: scripts/startup/bl_ui/properties_texture.py:714
 #: scripts/startup/bl_ui/space_image.py:1468
 #: scripts/startup/bl_ui/space_node.py:555
-#: scripts/startup/bl_ui/space_sequencer.py:879
-#: scripts/startup/bl_ui/space_sequencer.py:1540
-#: scripts/startup/bl_ui/space_sequencer.py:1072
-#: scripts/startup/bl_ui/space_sequencer.py:990
-#: scripts/startup/bl_ui/space_sequencer.py:1001
+#: scripts/startup/bl_ui/space_sequencer.py:880
+#: scripts/startup/bl_ui/space_sequencer.py:1557
+#: scripts/startup/bl_ui/space_sequencer.py:1073
+#: scripts/startup/bl_ui/space_sequencer.py:991
+#: scripts/startup/bl_ui/space_sequencer.py:1002
 #: scripts/startup/bl_ui/space_userpref.py:916
 #: scripts/startup/bl_ui/space_userpref.py:968
 #: scripts/startup/bl_ui/space_view3d.py:5405
@@ -11060,7 +11060,7 @@ msgstr "将运动锁定到目标运动轨迹上"
 #. :src: bpy.types.TimelineMarker.camera
 #. :src: Add-ons' categories
 #: scripts/startup/bl_ui/properties_output.py:214
-#: scripts/startup/bl_ui/space_sequencer.py:1261
+#: scripts/startup/bl_ui/space_sequencer.py:1262
 #: scripts/startup/bl_ui/space_view3d.py:5344
 #: source/blender/blenkernel/intern/object.c:753
 #: source/blender/nodes/shader/nodes/node_shader_tex_coord.c:30
@@ -12562,7 +12562,7 @@ msgstr "过插值曲线"
 #. :src: bpy.types.ShaderFxShadow.orientation:'HORIZONTAL'
 #. :src: bpy.types.ShaderFxWave.orientation:'HORIZONTAL'
 #: scripts/startup/bl_ui/properties_data_curve.py:410
-#: scripts/startup/bl_ui/space_sequencer.py:1054
+#: scripts/startup/bl_ui/space_sequencer.py:1055
 msgid "Horizontal"
 msgstr "水平"
 
@@ -12704,7 +12704,7 @@ msgstr "矢量型控制柄"
 #. :src: bpy.types.View3DCursor.location
 #: scripts/startup/bl_ui/properties_data_mesh.py:226
 #: scripts/startup/bl_ui/properties_material_gpencil.py:201
-#: scripts/startup/bl_ui/space_sequencer.py:1057
+#: scripts/startup/bl_ui/space_sequencer.py:1058
 #: scripts/startup/bl_ui/space_view3d.py:2453
 #: scripts/startup/bl_ui/space_view3d.py:4908
 #: source/blender/nodes/shader/nodes/node_shader_object_info.c:24
@@ -12783,7 +12783,7 @@ msgstr ""
 #. :src: bpy.types.ShaderNodeTexImage.extension:'CLIP'
 #. :src: bpy.types.MESH_OT_quads_convert_to_tris.ngon_method:'CLIP'
 #. :src: bpy.types.RegionView3D.use_box_clip
-#: scripts/startup/bl_ui/space_sequencer.py:451
+#: scripts/startup/bl_ui/space_sequencer.py:452
 msgid "Clip"
 msgstr "剪辑"
 
@@ -13256,7 +13256,7 @@ msgstr ""
 #. :src: bpy.types.UnifiedPaintSettings.use_locked_size:'SCENE'
 #. :src: Add-ons' categories
 #: scripts/startup/bl_ui/properties_output.py:219
-#: scripts/startup/bl_ui/space_sequencer.py:441
+#: scripts/startup/bl_ui/space_sequencer.py:442
 #: source/blender/editors/scene/scene_edit.c:63
 msgid "Scene"
 msgstr "场景"
@@ -17679,7 +17679,7 @@ msgstr ""
 #. :src: bpy.types.WM_OT_link.directory
 #. :src: bpy.types.ImageSequence.directory
 #. :src: bpy.types.SequenceProxy.directory
-#: scripts/startup/bl_ui/space_sequencer.py:1672
+#: scripts/startup/bl_ui/space_sequencer.py:1689
 msgid "Directory"
 msgstr "文件夹"
 
@@ -19704,9 +19704,9 @@ msgstr "线条集名称"
 #: scripts/startup/bl_ui/properties_physics_dynamicpaint.py:178
 #: scripts/startup/bl_ui/properties_physics_fluid.py:211
 #: scripts/startup/bl_ui/properties_physics_fluid.py:149
-#: scripts/startup/bl_ui/space_sequencer.py:1374
-#: scripts/startup/bl_ui/space_sequencer.py:1394
-#: scripts/startup/bl_ui/space_sequencer.py:1407
+#: scripts/startup/bl_ui/space_sequencer.py:1393
+#: scripts/startup/bl_ui/space_sequencer.py:1411
+#: scripts/startup/bl_ui/space_sequencer.py:1424
 #: scripts/startup/bl_ui/space_time.py:79
 #: scripts/startup/bl_ui/space_time.py:82
 #: scripts/startup/bl_ui/space_view3d.py:4844
@@ -19735,7 +19735,7 @@ msgstr "QI 范围的结束 QI 值"
 #: scripts/startup/bl_ui/properties_data_modifier.py:747
 #: scripts/startup/bl_ui/properties_data_modifier.py:2051
 #: scripts/startup/bl_ui/properties_particle.py:1321
-#: scripts/startup/bl_ui/space_sequencer.py:1369
+#: scripts/startup/bl_ui/space_sequencer.py:1381
 #: scripts/startup/bl_ui/space_time.py:78
 #: scripts/startup/bl_ui/space_time.py:81
 #: scripts/startup/bl_ui/space_view3d_toolbar.py:174
@@ -20196,7 +20196,7 @@ msgstr "在一部分帧上的相邻示意收集"
 
 #. :src: bpy.types.GPencilFrame.frame_number
 #. :src: bpy.types.GRAPH_OT_click_insert.frame
-#: scripts/startup/bl_ui/space_sequencer.py:980
+#: scripts/startup/bl_ui/space_sequencer.py:981
 msgid "Frame Number"
 msgstr "帧编号"
 
@@ -20596,7 +20596,7 @@ msgstr ""
 #. :src: bpy.types.GPencilLayer.blend_mode
 #. :src: bpy.types.Material.blend_method
 #. :src: bpy.types.Sequence.blend_type
-#: scripts/startup/bl_ui/space_sequencer.py:1074
+#: scripts/startup/bl_ui/space_sequencer.py:1075
 msgid "Blend Mode"
 msgstr "混合模式"
 
@@ -20729,7 +20729,7 @@ msgstr "建立父子关系时, 物体的父级反转矩阵"
 #: scripts/startup/bl_ui/properties_data_gpencil.py:260
 #: scripts/startup/bl_ui/properties_data_gpencil.py:140
 #: scripts/startup/bl_ui/space_clip.py:786
-#: scripts/startup/bl_ui/space_sequencer.py:1500
+#: scripts/startup/bl_ui/space_sequencer.py:1517
 #: scripts/startup/bl_ui/space_topbar.py:122
 #: scripts/startup/bl_ui/space_view3d.py:5843
 msgid "Opacity"
@@ -22214,7 +22214,7 @@ msgstr "创建笔画副本"
 #. :src: bpy.types.OBJECT_OT_modifier_add.type:'MIRROR'
 #. :src: bpy.types.SEQUENCER_OT_duplicate.mode:'MIRROR'
 #. :src: bpy.types.TRANSFORM_OT_transform.mode:'MIRROR'
-#: scripts/startup/bl_ui/space_sequencer.py:1535
+#: scripts/startup/bl_ui/space_sequencer.py:1552
 #: scripts/startup/bl_ui/space_view3d_toolbar.py:54
 #: scripts/startup/bl_ui/space_view3d_toolbar.py:1209
 #: scripts/startup/bl_ui/space_view3d_toolbar.py:1485
@@ -23545,7 +23545,8 @@ msgid "Factor of Simplify"
 msgstr "简化系数"
 
 #. :src: bpy.types.SimplifyGpencilModifier.mode
-msgid "How simplify the stroke"
+#, fuzzy
+msgid "How to simplify the stroke"
 msgstr "如何简化笔画"
 
 #. :src: bpy.types.SimplifyGpencilModifier.mode:'FIXED'
@@ -23721,7 +23722,7 @@ msgstr ""
 #. :src: bpy.types.TimeGpencilModifier.offset
 #. :src: bpy.types.CacheFile.frame_offset
 #. :src: bpy.types.MovieClip.frame_offset
-#: scripts/startup/bl_ui/space_sequencer.py:1841
+#: scripts/startup/bl_ui/space_sequencer.py:1858
 msgid "Frame Offset"
 msgstr "帧偏移"
 
@@ -24739,8 +24740,8 @@ msgstr "涂抹"
 #. :src: bpy.types.SpaceImageEditor.mask
 #. :src: bpy.types.SpaceImageEditor.mode:'MASK'
 #. :src: bpy.types.SpaceImageEditor.ui_mode:'MASK'
-#: scripts/startup/bl_ui/space_sequencer.py:461
-#: scripts/startup/bl_ui/space_sequencer.py:1945
+#: scripts/startup/bl_ui/space_sequencer.py:462
+#: scripts/startup/bl_ui/space_sequencer.py:1962
 #: scripts/startup/bl_ui/space_view3d.py:5774
 #: source/blender/nodes/composite/nodes/node_composite_boxmask.c:27
 #: source/blender/nodes/composite/nodes/node_composite_boxmask.c:32
@@ -25679,7 +25680,7 @@ msgstr "适配至传感器宽度"
 #. :src: bpy.types.ShaderFxShadow.orientation:'VERTICAL'
 #. :src: bpy.types.ShaderFxWave.orientation:'VERTICAL'
 #: scripts/startup/bl_ui/properties_data_curve.py:411
-#: scripts/startup/bl_ui/space_sequencer.py:1055
+#: scripts/startup/bl_ui/space_sequencer.py:1056
 msgid "Vertical"
 msgstr "垂直"
 
@@ -27913,7 +27914,7 @@ msgstr "图像/影片的文件名称 (无数据刷新)"
 #. :src: bpy.types.MovieClip.frame_duration
 #. :src: bpy.types.OBJECT_OT_quick_explode.frame_duration
 #. :src: bpy.types.ParticleTarget.duration
-#: scripts/startup/bl_ui/space_sequencer.py:1379
+#: scripts/startup/bl_ui/space_sequencer.py:1386
 msgid "Duration"
 msgstr "持续时间"
 
@@ -33557,7 +33558,7 @@ msgstr "节点纹理的节点树"
 #: scripts/startup/bl_ui/properties_paint_common.py:322
 #: scripts/startup/bl_ui/properties_paint_common.py:339
 #: scripts/startup/bl_ui/properties_texture.py:795
-#: scripts/startup/bl_ui/space_sequencer.py:1499
+#: scripts/startup/bl_ui/space_sequencer.py:1516
 #: scripts/startup/bl_ui/space_topbar.py:119
 #: source/blender/nodes/shader/nodes/node_shader_layer_weight.c:24
 msgid "Blend"
@@ -40398,9 +40399,9 @@ msgstr "特殊骨骼组"
 #. :src: bpy.types.SEQUENCER_OT_scene_strip_add.channel
 #. :src: bpy.types.SEQUENCER_OT_sound_strip_add.channel
 #. :src: bpy.types.Sequence.channel
-#: scripts/startup/bl_ui/space_sequencer.py:347
-#: scripts/startup/bl_ui/space_sequencer.py:1363
-#: scripts/startup/bl_ui/space_sequencer.py:1807
+#: scripts/startup/bl_ui/space_sequencer.py:348
+#: scripts/startup/bl_ui/space_sequencer.py:1375
+#: scripts/startup/bl_ui/space_sequencer.py:1824
 msgid "Channel"
 msgstr "通道"
 
@@ -40562,7 +40563,7 @@ msgstr "NLA_MT_add"
 #: scripts/modules/rna_prop_ui.py:205
 #: scripts/startup/bl_ui/properties_freestyle.py:156
 #: scripts/startup/bl_ui/space_clip.py:380
-#: scripts/startup/bl_ui/space_sequencer.py:528
+#: scripts/startup/bl_ui/space_sequencer.py:529
 #: scripts/startup/bl_ui/space_view3d.py:747
 #: scripts/startup/bl_ui/space_view3d.py:749
 #: scripts/startup/bl_ui/space_view3d.py:751
@@ -41746,7 +41747,7 @@ msgstr "交集"
 #. :src: bpy.types.MeshStatVis.type:'DISTORT'
 #. :src: bpy.types.CompositorNodeMovieDistortion.distortion_type
 #: scripts/startup/bl_ui/properties_texture.py:638
-#: scripts/startup/bl_ui/space_sequencer.py:1585
+#: scripts/startup/bl_ui/space_sequencer.py:1602
 #: source/blender/nodes/composite/nodes/node_composite_moviedistortion.c:46
 #: source/blender/nodes/shader/nodes/node_shader_tex_magic.c:26
 #: source/blender/nodes/shader/nodes/node_shader_tex_noise.c:27
@@ -41896,7 +41897,7 @@ msgstr "规格化的四元数旋转"
 #: scripts/startup/bl_ui/properties_data_metaball.py:119
 #: scripts/startup/bl_ui/properties_data_metaball.py:124
 #: scripts/startup/bl_ui/properties_data_metaball.py:127
-#: scripts/startup/bl_ui/space_sequencer.py:1071
+#: scripts/startup/bl_ui/space_sequencer.py:1072
 msgid "Size X"
 msgstr "X 尺寸"
 
@@ -50552,8 +50553,8 @@ msgstr ""
 #. :src: bpy.types.ShaderNodeOutputMaterial.target:'EEVEE'
 #. :src: bpy.types.ShaderNodeOutputWorld.target:'EEVEE'
 #. :src: bpy.types.RenderSettings.engine:'BLENDER_EEVEE'
-#: source/blender/draw/engines/eevee/eevee_engine.c:468
-#: source/blender/draw/engines/eevee/eevee_engine.c:486
+#: source/blender/draw/engines/eevee/eevee_engine.c:478
+#: source/blender/draw/engines/eevee/eevee_engine.c:496
 msgid "Eevee"
 msgstr "Eevee"
 
@@ -51455,7 +51456,7 @@ msgstr "用于映射插口的唯一标识符"
 #. :src: bpy.types.NLA_OT_duplicate.linked
 #. :src: bpy.types.OBJECT_OT_add_named.linked
 #. :src: bpy.types.OBJECT_OT_duplicate.linked
-#: scripts/startup/bl_ui/space_sequencer.py:348
+#: scripts/startup/bl_ui/space_sequencer.py:349
 msgid "Linked"
 msgstr "关联"
 
@@ -52730,7 +52731,7 @@ msgstr "反转所有元素选中状态"
 #. :src: bpy.types.UV_OT_select_box
 #. :src: bpy.types.VIEW3D_OT_select_box
 #: scripts/startup/bl_ui/properties_grease_pencil_common.py:395
-#: scripts/startup/bl_ui/space_sequencer.py:341
+#: scripts/startup/bl_ui/space_sequencer.py:342
 msgctxt "Operator"
 msgid "Box Select"
 msgstr "框选"
@@ -70267,8 +70268,8 @@ msgstr "设置物体模式"
 #: scripts/startup/bl_ui/properties_freestyle.py:756
 #: scripts/startup/bl_ui/properties_freestyle.py:774
 #: scripts/startup/bl_ui/properties_freestyle.py:781
-#: scripts/startup/bl_ui/space_sequencer.py:666
-#: scripts/startup/bl_ui/space_sequencer.py:739
+#: scripts/startup/bl_ui/space_sequencer.py:667
+#: scripts/startup/bl_ui/space_sequencer.py:740
 msgctxt "Operator"
 msgid "Add Modifier"
 msgstr "添加修改器"
@@ -76174,7 +76175,7 @@ msgid "Color Mix"
 msgstr "色彩混合"
 
 #. :src: bpy.types.SEQUENCER_OT_change_path
-#: scripts/startup/bl_ui/space_sequencer.py:1141
+#: scripts/startup/bl_ui/space_sequencer.py:1142
 msgctxt "Operator"
 msgid "Change Data/Files"
 msgstr "改变数据/文件"
@@ -76200,8 +76201,8 @@ msgstr ""
 #: scripts/startup/bl_ui/space_node.py:417
 #: scripts/startup/bl_ui/space_outliner.py:196
 #: scripts/startup/bl_ui/space_outliner.py:258
-#: scripts/startup/bl_ui/space_sequencer.py:654
-#: scripts/startup/bl_ui/space_sequencer.py:716
+#: scripts/startup/bl_ui/space_sequencer.py:655
+#: scripts/startup/bl_ui/space_sequencer.py:717
 #: scripts/startup/bl_ui/space_view3d.py:1560
 #: scripts/startup/bl_ui/space_view3d.py:1586
 #: scripts/startup/bl_ui/space_view3d.py:4529
@@ -76381,7 +76382,7 @@ msgid "Enable selected proxies on all selected Movie, Image and Meta strips"
 msgstr ""
 
 #. :src: bpy.types.SEQUENCER_OT_export_subtitles
-#: scripts/startup/bl_ui/space_sequencer.py:1060
+#: scripts/startup/bl_ui/space_sequencer.py:1061
 msgctxt "Operator"
 msgid "Export Subtitles"
 msgstr "导出字幕"
@@ -76550,8 +76551,8 @@ msgstr "清除首尾帧间的片段偏移"
 #: scripts/startup/bl_ui/space_outliner.py:197
 #: scripts/startup/bl_ui/space_outliner.py:241
 #: scripts/startup/bl_ui/space_outliner.py:259
-#: scripts/startup/bl_ui/space_sequencer.py:655
-#: scripts/startup/bl_ui/space_sequencer.py:717
+#: scripts/startup/bl_ui/space_sequencer.py:656
+#: scripts/startup/bl_ui/space_sequencer.py:718
 #: scripts/startup/bl_ui/space_view3d.py:1561
 #: scripts/startup/bl_ui/space_view3d.py:1587
 #: scripts/startup/bl_ui/space_view3d.py:4530
@@ -76585,7 +76586,7 @@ msgid "Refresh the sequencer editor"
 msgstr "刷新序列编辑器"
 
 #. :src: bpy.types.SEQUENCER_OT_reload
-#: scripts/startup/bl_ui/space_sequencer.py:583
+#: scripts/startup/bl_ui/space_sequencer.py:584
 msgctxt "Operator"
 msgid "Reload Strips"
 msgstr "重新加载片段"
@@ -77315,8 +77316,8 @@ msgstr "设置光标的位置"
 
 #. :src: bpy.types.TEXT_OT_cut
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'PARTICLE', 'builtin_brush.Cut'
-#: scripts/startup/bl_ui/space_sequencer.py:650
-#: scripts/startup/bl_ui/space_sequencer.py:712
+#: scripts/startup/bl_ui/space_sequencer.py:651
+#: scripts/startup/bl_ui/space_sequencer.py:713
 #: scripts/startup/bl_ui/space_view3d.py:1559
 #: scripts/startup/bl_ui/space_view3d.py:1585
 #: scripts/startup/bl_ui/space_view3d_toolbar.py:1657
@@ -78103,7 +78104,7 @@ msgstr "所选物体的轨迹球式的旋转方式"
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'EDIT_METABALL', 'builtin.transform'
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'EDIT_LATTICE', 'builtin.transform'
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'EDIT_GPENCIL', 'builtin.transform'
-#: scripts/startup/bl_ui/space_sequencer.py:544
+#: scripts/startup/bl_ui/space_sequencer.py:545
 msgctxt "Operator"
 msgid "Transform"
 msgstr "变换"
@@ -78127,7 +78128,7 @@ msgstr "值"
 #: scripts/startup/bl_ui/space_graph.py:305
 #: scripts/startup/bl_ui/space_nla.py:228
 #: scripts/startup/bl_ui/space_node.py:598
-#: scripts/startup/bl_ui/space_sequencer.py:560
+#: scripts/startup/bl_ui/space_sequencer.py:561
 #: scripts/startup/bl_ui/space_view3d.py:4665
 msgctxt "Operator"
 msgid "Move"
@@ -83848,7 +83849,7 @@ msgstr "克隆"
 #. :src: bpy.types.IMAGE_PT_tools_active Tools: 'PAINT', 'builtin_brush.Mask'
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'SCULPT', 'builtin_brush.Mask'
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'PAINT_TEXTURE', 'builtin_brush.Mask'
-#: scripts/startup/bl_ui/space_sequencer.py:459
+#: scripts/startup/bl_ui/space_sequencer.py:460
 msgctxt "Operator"
 msgid "Mask"
 msgstr "遮罩"
@@ -105615,8 +105616,8 @@ msgid "Alternate Select"
 msgstr "固定交替"
 
 #: scripts/startup/bl_ui/properties_grease_pencil_common.py:403
-#: scripts/startup/bl_ui/space_sequencer.py:657
-#: scripts/startup/bl_ui/space_sequencer.py:719
+#: scripts/startup/bl_ui/space_sequencer.py:658
+#: scripts/startup/bl_ui/space_sequencer.py:720
 msgctxt "Operator"
 msgid "Delete..."
 msgstr "删除..."
@@ -105762,8 +105763,8 @@ msgstr "隐藏未选项"
 #: scripts/startup/bl_ui/space_graph.py:163
 #: scripts/startup/bl_ui/space_image.py:156
 #: scripts/startup/bl_ui/space_nla.py:123
-#: scripts/startup/bl_ui/space_sequencer.py:310
-#: scripts/startup/bl_ui/space_sequencer.py:335
+#: scripts/startup/bl_ui/space_sequencer.py:311
+#: scripts/startup/bl_ui/space_sequencer.py:336
 #: scripts/startup/bl_ui/space_view3d.py:3067
 #: scripts/startup/bl_ui/space_view3d.py:1237
 #: scripts/startup/bl_ui/space_view3d.py:1297
@@ -105788,7 +105789,7 @@ msgstr "全部"
 #: scripts/startup/bl_ui/space_graph.py:164
 #: scripts/startup/bl_ui/space_image.py:157
 #: scripts/startup/bl_ui/space_nla.py:124
-#: scripts/startup/bl_ui/space_sequencer.py:336
+#: scripts/startup/bl_ui/space_sequencer.py:337
 #: scripts/startup/bl_ui/space_view3d.py:1238
 #: scripts/startup/bl_ui/space_view3d.py:1298
 #: scripts/startup/bl_ui/space_view3d.py:1332
@@ -105811,7 +105812,7 @@ msgstr "无"
 #: scripts/startup/bl_ui/space_graph.py:165
 #: scripts/startup/bl_ui/space_image.py:158
 #: scripts/startup/bl_ui/space_nla.py:125
-#: scripts/startup/bl_ui/space_sequencer.py:337
+#: scripts/startup/bl_ui/space_sequencer.py:338
 #: scripts/startup/bl_ui/space_view3d.py:2733
 #: scripts/startup/bl_ui/space_view3d.py:2810
 #: scripts/startup/bl_ui/space_view3d.py:4580
@@ -106905,12 +106906,12 @@ msgid "Tracks For Location"
 msgstr "位置轨迹"
 
 #: scripts/startup/bl_ui/space_clip.py:1099
-#: scripts/startup/bl_ui/space_sequencer.py:1740
+#: scripts/startup/bl_ui/space_sequencer.py:1757
 msgid "Timecode Index"
 msgstr "时间码编号"
 
 #: scripts/startup/bl_ui/space_clip.py:1251
-#: scripts/startup/bl_ui/space_sequencer.py:242
+#: scripts/startup/bl_ui/space_sequencer.py:243
 msgid "Zoom %d:%d"
 msgstr "缩放比 %d:%d"
 
@@ -107259,7 +107260,7 @@ msgid "Frame All"
 msgstr "全部帧"
 
 #: scripts/startup/bl_ui/space_image.py:168
-#: scripts/startup/bl_ui/space_sequencer.py:311
+#: scripts/startup/bl_ui/space_sequencer.py:312
 #: scripts/startup/bl_ui/space_view3d.py:1208
 #: scripts/startup/bl_ui/space_view3d.py:1396
 #: scripts/startup/bl_ui/space_view3d.py:1700
@@ -107268,7 +107269,7 @@ msgid "Less"
 msgstr "缩减选区"
 
 #: scripts/startup/bl_ui/space_image.py:169
-#: scripts/startup/bl_ui/space_sequencer.py:312
+#: scripts/startup/bl_ui/space_sequencer.py:313
 #: scripts/startup/bl_ui/space_view3d.py:1207
 #: scripts/startup/bl_ui/space_view3d.py:1395
 #: scripts/startup/bl_ui/space_view3d.py:1699
@@ -107799,133 +107800,134 @@ msgstr "伽玛:"
 msgid "Gain:"
 msgstr "增益:"
 
-#: scripts/startup/bl_ui/space_sequencer.py:274
+#: scripts/startup/bl_ui/space_sequencer.py:275
 msgctxt "Operator"
 msgid "Sequence Render Animation"
 msgstr "序列渲染动画"
 
-#: scripts/startup/bl_ui/space_sequencer.py:321
-#: scripts/startup/bl_ui/space_sequencer.py:290
-#: scripts/startup/bl_ui/space_sequencer.py:300
+#: scripts/startup/bl_ui/space_sequencer.py:322
+#: scripts/startup/bl_ui/space_sequencer.py:291
+#: scripts/startup/bl_ui/space_sequencer.py:301
 #: scripts/startup/bl_ui/space_view3d.py:1179
 #: scripts/startup/bl_ui/space_view3d.py:1088
 msgctxt "Operator"
 msgid "Left"
 msgstr "左视图"
 
-#: scripts/startup/bl_ui/space_sequencer.py:324
-#: scripts/startup/bl_ui/space_sequencer.py:291
-#: scripts/startup/bl_ui/space_sequencer.py:301
+#: scripts/startup/bl_ui/space_sequencer.py:325
+#: scripts/startup/bl_ui/space_sequencer.py:292
+#: scripts/startup/bl_ui/space_sequencer.py:302
 #: scripts/startup/bl_ui/space_view3d.py:1175
 #: scripts/startup/bl_ui/space_view3d.py:1087
 msgctxt "Operator"
 msgid "Right"
 msgstr "右视图"
 
-#: scripts/startup/bl_ui/space_sequencer.py:345
-#: scripts/startup/bl_ui/space_sequencer.py:1419
+#: scripts/startup/bl_ui/space_sequencer.py:346
+#: scripts/startup/bl_ui/space_sequencer.py:1436
 msgid "Playhead"
 msgstr "播放头"
 
-#: scripts/startup/bl_ui/space_sequencer.py:346
+#: scripts/startup/bl_ui/space_sequencer.py:347
 msgid "Handle"
 msgstr "控制柄"
 
-#: scripts/startup/bl_ui/space_sequencer.py:351
+#: scripts/startup/bl_ui/space_sequencer.py:352
 #: scripts/startup/bl_ui/space_view3d.py:1321
 #: scripts/startup/bl_ui/space_view3d.py:1745
 msgctxt "Operator"
 msgid "Grouped"
 msgstr "按组"
 
-#: scripts/startup/bl_ui/space_sequencer.py:381
+#: scripts/startup/bl_ui/space_sequencer.py:382
 msgctxt "Operator"
 msgid "Path/Files"
 msgstr "路径/文件"
 
-#: scripts/startup/bl_ui/space_sequencer.py:404
+#: scripts/startup/bl_ui/space_sequencer.py:405
 msgctxt "Operator"
 msgid "Go to Playhead"
 msgstr "回到播放头"
 
-#: scripts/startup/bl_ui/space_sequencer.py:408
+#: scripts/startup/bl_ui/space_sequencer.py:409
 msgctxt "Operator"
 msgid "Jump to Previous Strip"
 msgstr "跳转到上一片段"
 
-#: scripts/startup/bl_ui/space_sequencer.py:411
+#: scripts/startup/bl_ui/space_sequencer.py:412
 msgctxt "Operator"
 msgid "Jump to Next Strip"
 msgstr "跳转到下一片段"
 
-#: scripts/startup/bl_ui/space_sequencer.py:417
+#: scripts/startup/bl_ui/space_sequencer.py:418
 msgctxt "Operator"
 msgid "Jump to Previous Strip (Center)"
 msgstr "跳转到上一片段(中心)"
 
-#: scripts/startup/bl_ui/space_sequencer.py:420
+#: scripts/startup/bl_ui/space_sequencer.py:421
 msgctxt "Operator"
 msgid "Jump to Next Strip (Center)"
 msgstr "跳转到下一片段(中心)"
 
-#: scripts/startup/bl_ui/space_sequencer.py:466
+#: scripts/startup/bl_ui/space_sequencer.py:467
 msgctxt "Operator"
 msgid "Movie"
 msgstr "影片"
 
-#: scripts/startup/bl_ui/space_sequencer.py:467
+#: scripts/startup/bl_ui/space_sequencer.py:468
 msgctxt "Operator"
 msgid "Sound"
 msgstr "声音"
 
-#: scripts/startup/bl_ui/space_sequencer.py:468
+#: scripts/startup/bl_ui/space_sequencer.py:469
 msgctxt "Operator"
 msgid "Image/Sequence"
 msgstr "图像/序列"
 
-#: scripts/startup/bl_ui/space_sequencer.py:494
+#: scripts/startup/bl_ui/space_sequencer.py:495
 msgid "No Items Available"
 msgstr "没有可用的条目"
 
-#: scripts/startup/bl_ui/space_sequencer.py:506
+#: scripts/startup/bl_ui/space_sequencer.py:507
 msgctxt "Operator"
 msgid "Sound Crossfade"
 msgstr ""
 
-#: scripts/startup/bl_ui/space_sequencer.py:562
-#: scripts/startup/bl_ui/space_sequencer.py:723
+#: scripts/startup/bl_ui/space_sequencer.py:563
+#: scripts/startup/bl_ui/space_sequencer.py:724
 msgctxt "Operator"
 msgid "Slip Strip Contents"
 msgstr "滑动片段内容"
 
-#: scripts/startup/bl_ui/space_sequencer.py:585
+#: scripts/startup/bl_ui/space_sequencer.py:586
 msgctxt "Operator"
 msgid "Change Path/Files"
 msgstr "改变日期 / 文件"
 
-#: scripts/startup/bl_ui/space_sequencer.py:586
+#: scripts/startup/bl_ui/space_sequencer.py:587
 msgctxt "Operator"
 msgid "Swap Data"
 msgstr "交换数据"
 
-#: scripts/startup/bl_ui/space_sequencer.py:878
-#: scripts/startup/bl_ui/space_sequencer.py:989
+#: scripts/startup/bl_ui/space_sequencer.py:879
+#: scripts/startup/bl_ui/space_sequencer.py:990
 msgid "Position X"
 msgstr "X 位置"
 
-#: scripts/startup/bl_ui/space_sequencer.py:1422
+#: scripts/startup/bl_ui/space_sequencer.py:1395
+#: scripts/startup/bl_ui/space_sequencer.py:1439
 msgid "{:>14}:"
 msgstr "{:>14}:"
 
-#: scripts/startup/bl_ui/space_sequencer.py:1626
+#: scripts/startup/bl_ui/space_sequencer.py:1643
 msgid "Convert to Float"
 msgstr "转换为浮点数"
 
-#: scripts/startup/bl_ui/space_sequencer.py:1669
+#: scripts/startup/bl_ui/space_sequencer.py:1686
 msgid "Storage"
 msgstr "存储"
 
-#: scripts/startup/bl_ui/space_sequencer.py:1789
+#: scripts/startup/bl_ui/space_sequencer.py:1806
 msgid "Preview Shading"
 msgstr "预览着色"
 
@@ -107934,7 +107936,7 @@ msgid "Preview as Backdrop"
 msgstr "预览为背景图"
 
 #: scripts/startup/bl_ui/space_sequencer.py:216
-#: scripts/startup/bl_ui/space_sequencer.py:233
+#: scripts/startup/bl_ui/space_sequencer.py:234
 msgctxt "Operator"
 msgid "Zoom"
 msgstr "缩放"
@@ -107944,249 +107946,249 @@ msgctxt "Operator"
 msgid "Refresh All"
 msgstr "全部刷新"
 
-#: scripts/startup/bl_ui/space_sequencer.py:232
+#: scripts/startup/bl_ui/space_sequencer.py:233
 msgctxt "Operator"
 msgid "Fit Preview in window"
 msgstr "预览匹配窗口"
 
-#: scripts/startup/bl_ui/space_sequencer.py:273
+#: scripts/startup/bl_ui/space_sequencer.py:274
 msgctxt "Operator"
 msgid "Sequence Render Image"
 msgstr "序列渲染图像"
 
-#: scripts/startup/bl_ui/space_sequencer.py:289
+#: scripts/startup/bl_ui/space_sequencer.py:290
 msgctxt "Operator"
 msgid "Both"
 msgstr "两者"
 
-#: scripts/startup/bl_ui/space_sequencer.py:437
+#: scripts/startup/bl_ui/space_sequencer.py:438
 msgctxt "Operator"
 msgid "Scene..."
 msgstr "场景..."
 
-#: scripts/startup/bl_ui/space_sequencer.py:447
+#: scripts/startup/bl_ui/space_sequencer.py:448
 msgctxt "Operator"
 msgid "Clip..."
 msgstr "剪辑..."
 
-#: scripts/startup/bl_ui/space_sequencer.py:457
+#: scripts/startup/bl_ui/space_sequencer.py:458
 msgctxt "Operator"
 msgid "Mask..."
 msgstr "遮罩..."
 
-#: scripts/startup/bl_ui/space_sequencer.py:473
+#: scripts/startup/bl_ui/space_sequencer.py:474
 msgctxt "Operator"
 msgid "Color"
 msgstr "颜色"
 
-#: scripts/startup/bl_ui/space_sequencer.py:474
+#: scripts/startup/bl_ui/space_sequencer.py:475
 #: scripts/startup/bl_ui/space_view3d.py:2020
 msgctxt "Operator"
 msgid "Text"
 msgstr "文本"
 
-#: scripts/startup/bl_ui/space_sequencer.py:478
+#: scripts/startup/bl_ui/space_sequencer.py:479
 msgctxt "Operator"
 msgid "Adjustment Layer"
 msgstr "调整层"
 
-#: scripts/startup/bl_ui/space_sequencer.py:510
+#: scripts/startup/bl_ui/space_sequencer.py:511
 msgctxt "Operator"
 msgid "Cross"
 msgstr "过渡"
 
-#: scripts/startup/bl_ui/space_sequencer.py:511
+#: scripts/startup/bl_ui/space_sequencer.py:512
 msgctxt "Operator"
 msgid "Gamma Cross"
 msgstr "伽玛过渡"
 
-#: scripts/startup/bl_ui/space_sequencer.py:515
+#: scripts/startup/bl_ui/space_sequencer.py:516
 msgctxt "Operator"
 msgid "Wipe"
 msgstr "擦除"
 
-#: scripts/startup/bl_ui/space_sequencer.py:529
+#: scripts/startup/bl_ui/space_sequencer.py:530
 msgctxt "Operator"
 msgid "Subtract"
 msgstr "减去"
 
-#: scripts/startup/bl_ui/space_sequencer.py:530
+#: scripts/startup/bl_ui/space_sequencer.py:531
 msgctxt "Operator"
 msgid "Multiply"
 msgstr "相乘"
 
-#: scripts/startup/bl_ui/space_sequencer.py:531
+#: scripts/startup/bl_ui/space_sequencer.py:532
 msgctxt "Operator"
 msgid "Over Drop"
 msgstr "向下覆盖"
 
-#: scripts/startup/bl_ui/space_sequencer.py:532
+#: scripts/startup/bl_ui/space_sequencer.py:533
 msgctxt "Operator"
 msgid "Alpha Over"
 msgstr "Alpha 在上"
 
-#: scripts/startup/bl_ui/space_sequencer.py:533
+#: scripts/startup/bl_ui/space_sequencer.py:534
 msgctxt "Operator"
 msgid "Alpha Under"
 msgstr "Alpha 在下"
 
-#: scripts/startup/bl_ui/space_sequencer.py:534
+#: scripts/startup/bl_ui/space_sequencer.py:535
 msgctxt "Operator"
 msgid "Color Mix"
 msgstr "颜色混合"
 
-#: scripts/startup/bl_ui/space_sequencer.py:539
+#: scripts/startup/bl_ui/space_sequencer.py:540
 msgctxt "Operator"
 msgid "Multicam Selector"
 msgstr "多机位选择器"
 
-#: scripts/startup/bl_ui/space_sequencer.py:545
+#: scripts/startup/bl_ui/space_sequencer.py:546
 msgctxt "Operator"
 msgid "Speed Control"
 msgstr "速度控制"
 
-#: scripts/startup/bl_ui/space_sequencer.py:549
+#: scripts/startup/bl_ui/space_sequencer.py:550
 msgctxt "Operator"
 msgid "Glow"
 msgstr "辉光"
 
-#: scripts/startup/bl_ui/space_sequencer.py:550
+#: scripts/startup/bl_ui/space_sequencer.py:551
 msgctxt "Operator"
 msgid "Gaussian Blur"
 msgstr "高斯模糊"
 
-#: scripts/startup/bl_ui/space_sequencer.py:561
+#: scripts/startup/bl_ui/space_sequencer.py:562
 msgctxt "Operator"
 msgid "Move/Extend from Playhead"
 msgstr "从播放头移到/延伸"
 
-#: scripts/startup/bl_ui/space_sequencer.py:584
+#: scripts/startup/bl_ui/space_sequencer.py:585
 msgctxt "Operator"
 msgid "Reload Strips and Adjust Length"
 msgstr "重新加载片段并调节长度"
 
-#: scripts/startup/bl_ui/space_sequencer.py:612
+#: scripts/startup/bl_ui/space_sequencer.py:613
 msgctxt "Operator"
 msgid "Mute Unselected Strips"
 msgstr "屏蔽未选择的片段"
 
-#: scripts/startup/bl_ui/space_sequencer.py:613
+#: scripts/startup/bl_ui/space_sequencer.py:614
 msgctxt "Operator"
 msgid "Unmute Deselected Strips"
 msgstr "取消屏蔽未选择的片断"
 
-#: scripts/startup/bl_ui/space_sequencer.py:651
+#: scripts/startup/bl_ui/space_sequencer.py:652
 msgctxt "Operator"
 msgid "Hold Cut"
 msgstr ""
 
-#: scripts/startup/bl_ui/space_sequencer.py:1264
+#: scripts/startup/bl_ui/space_sequencer.py:1265
 msgid "Show Grease Pencil"
 msgstr "显示蜡笔"
 
-#: scripts/startup/bl_ui/space_sequencer.py:1303
+#: scripts/startup/bl_ui/space_sequencer.py:1304
 msgid "Original frame range: %d-%d (%d)"
 msgstr "原始帧范围: %d-%d (%d)"
 
-#: scripts/startup/bl_ui/space_sequencer.py:1389
+#: scripts/startup/bl_ui/space_sequencer.py:1406
 msgid "Strip Offset Start"
 msgstr "片断起始偏移量"
 
-#: scripts/startup/bl_ui/space_sequencer.py:1402
+#: scripts/startup/bl_ui/space_sequencer.py:1419
 msgid "Hold Offset Start"
 msgstr ""
 
-#: scripts/startup/bl_ui/space_sequencer.py:1581
+#: scripts/startup/bl_ui/space_sequencer.py:1598
 msgid "Tracker"
 msgstr "追踪器"
 
-#: scripts/startup/bl_ui/space_sequencer.py:1735
+#: scripts/startup/bl_ui/space_sequencer.py:1752
 msgid "Build JPEG Quality"
 msgstr "创建的 JPEG 图像品质"
 
-#: scripts/startup/bl_ui/space_sequencer.py:439
+#: scripts/startup/bl_ui/space_sequencer.py:440
 msgctxt "Operator"
 msgid "Scene"
 msgstr "场景"
 
-#: scripts/startup/bl_ui/space_sequencer.py:449
+#: scripts/startup/bl_ui/space_sequencer.py:450
 msgctxt "Operator"
 msgid "Clip"
 msgstr "剪辑"
 
-#: scripts/startup/bl_ui/space_sequencer.py:667
-#: scripts/startup/bl_ui/space_sequencer.py:740
+#: scripts/startup/bl_ui/space_sequencer.py:668
+#: scripts/startup/bl_ui/space_sequencer.py:741
 msgctxt "Operator"
 msgid "Copy Modifiers to Selection"
 msgstr "复制修改器到选中项"
 
-#: scripts/startup/bl_ui/space_sequencer.py:692
-#: scripts/startup/bl_ui/space_sequencer.py:774
-#: scripts/startup/bl_ui/space_sequencer.py:688
-#: scripts/startup/bl_ui/space_sequencer.py:770
+#: scripts/startup/bl_ui/space_sequencer.py:693
+#: scripts/startup/bl_ui/space_sequencer.py:775
+#: scripts/startup/bl_ui/space_sequencer.py:689
+#: scripts/startup/bl_ui/space_sequencer.py:771
 msgctxt "Operator"
 msgid "Toggle Meta"
 msgstr "切换复合片段"
 
-#: scripts/startup/bl_ui/space_sequencer.py:1066
+#: scripts/startup/bl_ui/space_sequencer.py:1067
 msgid "Default fade"
 msgstr "默认过渡"
 
-#: scripts/startup/bl_ui/space_sequencer.py:1173
+#: scripts/startup/bl_ui/space_sequencer.py:1174
 msgid "%dx%d"
 msgstr "%dx%d"
 
-#: scripts/startup/bl_ui/space_sequencer.py:1215
-#: scripts/startup/bl_ui/space_sequencer.py:1120
+#: scripts/startup/bl_ui/space_sequencer.py:1216
+#: scripts/startup/bl_ui/space_sequencer.py:1121
 #: source/blender/editors/space_info/info_ops.c:336
 msgid "Unpack"
 msgstr "解包"
 
-#: scripts/startup/bl_ui/space_sequencer.py:1218
-#: scripts/startup/bl_ui/space_sequencer.py:1123
+#: scripts/startup/bl_ui/space_sequencer.py:1219
+#: scripts/startup/bl_ui/space_sequencer.py:1124
 msgid "Pack"
 msgstr "打包"
 
-#: scripts/startup/bl_ui/space_sequencer.py:1434
+#: scripts/startup/bl_ui/space_sequencer.py:1451
 msgid "Original Frame Range"
 msgstr "原始帧范围"
 
-#: scripts/startup/bl_ui/space_sequencer.py:242
+#: scripts/startup/bl_ui/space_sequencer.py:243
 msgctxt "Operator"
 msgid "Zoom %d:%d"
 msgstr "缩放比 %d:%d"
 
-#: scripts/startup/bl_ui/space_sequencer.py:745
+#: scripts/startup/bl_ui/space_sequencer.py:746
 msgid "Add Transition"
 msgstr "添加过渡"
 
-#: scripts/startup/bl_ui/space_sequencer.py:749
+#: scripts/startup/bl_ui/space_sequencer.py:750
 msgctxt "Operator"
 msgid "Crossfade Sounds"
 msgstr "过渡声音"
 
-#: scripts/startup/bl_ui/space_sequencer.py:1068
+#: scripts/startup/bl_ui/space_sequencer.py:1069
 msgid "Effect Fader"
 msgstr "效果渐变"
 
-#: scripts/startup/bl_ui/space_sequencer.py:974
+#: scripts/startup/bl_ui/space_sequencer.py:975
 msgid "Stretch to input strip length"
 msgstr "拉伸至导入片段的长度"
 
-#: scripts/startup/bl_ui/space_sequencer.py:1011
+#: scripts/startup/bl_ui/space_sequencer.py:1012
 msgid "Source Channel"
 msgstr "源通道"
 
-#: scripts/startup/bl_ui/space_sequencer.py:1016
+#: scripts/startup/bl_ui/space_sequencer.py:1017
 msgid "    Cut to"
 msgstr "    剪切到"
 
-#: scripts/startup/bl_ui/space_sequencer.py:1038
+#: scripts/startup/bl_ui/space_sequencer.py:1039
 msgid "Two or more channels are needed below this strip"
 msgstr ""
 
-#: scripts/startup/bl_ui/space_sequencer.py:1027
-#: scripts/startup/bl_ui/space_sequencer.py:1031
+#: scripts/startup/bl_ui/space_sequencer.py:1028
+#: scripts/startup/bl_ui/space_sequencer.py:1032
 msgctxt "Operator"
 msgid "d"
 msgstr ""
@@ -110971,36 +110973,36 @@ msgid "Source or destination meshes do not have any faces, cannot transfer face 
 msgstr "源网格与目标网格均不包含面，无法传递面数据"
 
 #: source/blender/blenkernel/intern/dynamicpaint.c:852
-#: source/blender/blenkernel/intern/dynamicpaint.c:1361
-#: source/blender/blenkernel/intern/dynamicpaint.c:1422
-#: source/blender/blenkernel/intern/dynamicpaint.c:2901
-#: source/blender/blenkernel/intern/dynamicpaint.c:3165
-#: source/blender/blenkernel/intern/dynamicpaint.c:6140
-#: source/blender/blenkernel/intern/dynamicpaint.c:6345
+#: source/blender/blenkernel/intern/dynamicpaint.c:1359
+#: source/blender/blenkernel/intern/dynamicpaint.c:1420
+#: source/blender/blenkernel/intern/dynamicpaint.c:2887
+#: source/blender/blenkernel/intern/dynamicpaint.c:3151
+#: source/blender/blenkernel/intern/dynamicpaint.c:6126
+#: source/blender/blenkernel/intern/dynamicpaint.c:6331
 msgid "Not enough free memory"
 msgstr "内存不足"
 
-#: source/blender/blenkernel/intern/dynamicpaint.c:2863
+#: source/blender/blenkernel/intern/dynamicpaint.c:2849
 msgid "Canvas mesh not updated"
 msgstr "画布网格未更新"
 
-#: source/blender/blenkernel/intern/dynamicpaint.c:2866
+#: source/blender/blenkernel/intern/dynamicpaint.c:2852
 msgid "Cannot bake non-'image sequence' formats"
 msgstr "添加一个图像或一套图像序列到序列编辑器中"
 
-#: source/blender/blenkernel/intern/dynamicpaint.c:2881
+#: source/blender/blenkernel/intern/dynamicpaint.c:2867
 msgid "No UV data on canvas"
 msgstr "浏览要关联的网格数据"
 
-#: source/blender/blenkernel/intern/dynamicpaint.c:2884
+#: source/blender/blenkernel/intern/dynamicpaint.c:2870
 msgid "Invalid resolution"
 msgstr "分辨率不存在"
 
-#: source/blender/blenkernel/intern/dynamicpaint.c:3325
+#: source/blender/blenkernel/intern/dynamicpaint.c:3311
 msgid "Image save failed: invalid surface"
 msgstr "当前空间中显示和编辑的图像"
 
-#: source/blender/blenkernel/intern/dynamicpaint.c:3344
+#: source/blender/blenkernel/intern/dynamicpaint.c:3330
 msgid "Image save failed: not enough free memory"
 msgstr "图像存储失败:没有足够内存"
 
@@ -111410,39 +111412,39 @@ msgstr "无法读取"
 msgid "Unable to open"
 msgstr "无法打开文件"
 
-#: source/blender/blenloader/intern/readfile.c:5234
+#: source/blender/blenloader/intern/readfile.c:5239
 msgid "Non-Empty object '%s' cannot duplicate collection '%s' anymore in Blender 2.80, removed instancing"
 msgstr ""
 
-#: source/blender/blenloader/intern/readfile.c:6451
+#: source/blender/blenloader/intern/readfile.c:6456
 msgid "LIB: object lost from scene: '%s'"
 msgstr "库错误: 场景中丢失物体:  '%s'"
 
-#: source/blender/blenloader/intern/readfile.c:8240
+#: source/blender/blenloader/intern/readfile.c:8245
 msgid "Library '%s', '%s' had multiple instances, save and reload!"
 msgstr "库  '%s', '%s' 拥有多个实例, 保存并重新加载!"
 
-#: source/blender/blenloader/intern/readfile.c:9947
+#: source/blender/blenloader/intern/readfile.c:9952
 msgid "LIB: Data refers to main .blend file: '%s' from %s"
 msgstr "库错误: 数据指向主公成文件 :  %s 中的 '%s' "
 
-#: source/blender/blenloader/intern/readfile.c:11630
+#: source/blender/blenloader/intern/readfile.c:11635
 msgid "LIB: %s: '%s' is directly linked from '%s' (parent '%s'), but is a non-linkable data type"
 msgstr ""
 
-#: source/blender/blenloader/intern/readfile.c:11648
+#: source/blender/blenloader/intern/readfile.c:11653
 msgid "LIB: %s: '%s' missing from '%s', parent '%s'"
 msgstr ""
 
-#: source/blender/blenloader/intern/readfile.c:11731
+#: source/blender/blenloader/intern/readfile.c:11736
 msgid "Read packed library:  '%s', parent '%s'"
 msgstr ""
 
-#: source/blender/blenloader/intern/readfile.c:11743
+#: source/blender/blenloader/intern/readfile.c:11748
 msgid "Read library:  '%s', '%s', parent '%s'"
 msgstr ""
 
-#: source/blender/blenloader/intern/readfile.c:11784
+#: source/blender/blenloader/intern/readfile.c:11789
 msgid "Cannot find lib '%s'"
 msgstr "未能找到库文件 '%s'"
 
@@ -111450,7 +111452,7 @@ msgstr "未能找到库文件 '%s'"
 msgid "Unable to open blend <memory>"
 msgstr "无法打开文件 <memory>"
 
-#: source/blender/blenloader/intern/readfile.c:5384
+#: source/blender/blenloader/intern/readfile.c:5389
 msgid "Warning in console"
 msgstr "警告显示在控制台"
 
@@ -111492,32 +111494,32 @@ msgstr "隐藏 %d"
 msgid "Eevee material conversion problem. Error in console"
 msgstr "Eevee材质转换错误，错误详见控制台"
 
-#: source/blender/blenloader/intern/writefile.c:3975
+#: source/blender/blenloader/intern/writefile.c:3973
 msgid "Unable to make version backup: filename too short"
 msgstr "无法产生版本备份:  文件名过短"
 
-#: source/blender/blenloader/intern/writefile.c:3985
-#: source/blender/blenloader/intern/writefile.c:3997
+#: source/blender/blenloader/intern/writefile.c:3983
+#: source/blender/blenloader/intern/writefile.c:3995
 msgid "Unable to make version backup"
 msgstr "无法产生版本备份"
 
-#: source/blender/blenloader/intern/writefile.c:4029
+#: source/blender/blenloader/intern/writefile.c:4027
 msgid "Checking sanity of current .blend file *BEFORE* save to disk"
 msgstr ""
 
-#: source/blender/blenloader/intern/writefile.c:4109
+#: source/blender/blenloader/intern/writefile.c:4107
 msgid "Version backup failed (file saved with @)"
 msgstr "版本备份失败 (文件以@保存)"
 
-#: source/blender/blenloader/intern/writefile.c:4115
+#: source/blender/blenloader/intern/writefile.c:4113
 msgid "Cannot change old file (file saved with @)"
 msgstr "无法改变旧文件(文件以@保存)"
 
-#: source/blender/blenloader/intern/writefile.c:4120
+#: source/blender/blenloader/intern/writefile.c:4118
 msgid "Checking sanity of current .blend file *AFTER* save to disk"
 msgstr ""
 
-#: source/blender/blenloader/intern/writefile.c:4047
+#: source/blender/blenloader/intern/writefile.c:4045
 msgid "Cannot open file %s for writing: %s"
 msgstr "无法打开文件 %s 以写入数据: %s"
 
@@ -111616,7 +111618,7 @@ msgstr "循环边未相连"
 
 #: source/blender/collada/AnimationImporter.cpp:247
 #: source/blender/collada/AnimationImporter.cpp:2215
-#: source/blender/editors/space_outliner/outliner_draw.c:791
+#: source/blender/editors/space_outliner/outliner_draw.c:795
 msgctxt "Action"
 msgid "Group"
 msgstr "群组"
@@ -112001,7 +112003,7 @@ msgstr ""
 
 #: source/blender/editors/animation/keyframing.c:298
 msgid "Could not update flags for this fcurve, as RNA path is invalid for the given ID (ID = %s, path = %s)"
-msgstr "无法粘贴驱动, 因为对于指定的ID无法找到有效的RNA路径(ID = %s, 路径 = %s)"
+msgstr "无法对该曲线更新标记，因为对于指定的ID无法找到有效的RNA路径(ID = %s, 路径 = %s)"
 
 #: source/blender/editors/animation/keyframing.c:1130
 msgid "F-Curve with path '%s[%d]' cannot be keyframed, ensure that it is not locked or sampled, and try removing F-Modifiers"
@@ -112010,7 +112012,7 @@ msgstr ""
 #: source/blender/editors/animation/keyframing.c:1241
 #: source/blender/editors/animation/keyframing.c:1376
 msgid "Could not insert keyframe, as RNA path is invalid for the given ID (ID = %s, path = %s)"
-msgstr "无法粘贴驱动, 因为对于指定的ID无法找到有效的RNA路径(ID = %s, 路径 = %s)"
+msgstr "无法插入关键帧, 因为对于指定的ID无法找到有效的RNA路径(ID = %s, 路径 = %s)"
 
 #: source/blender/editors/animation/keyframing.c:1370
 msgid "No ID block to insert keyframe in (path = %s)"
@@ -112022,7 +112024,7 @@ msgstr ""
 
 #: source/blender/editors/animation/keyframing.c:1608
 msgid "Could not delete keyframe, as RNA path is invalid for the given ID (ID = %s, path = %s)"
-msgstr "无法找到可复制的驱动, 因为对于指定的ID无法找到有效的RNA路径(ID = %s, 路径 = %s)"
+msgstr "无法删除关键帧, 因为对于指定的ID无法找到有效的RNA路径(ID = %s, 路径 = %s)"
 
 #: source/blender/editors/animation/keyframing.c:1632
 #: source/blender/editors/animation/keyframing.c:1734
@@ -112035,7 +112037,7 @@ msgstr ""
 
 #: source/blender/editors/animation/keyframing.c:1713
 msgid "Could not clear keyframe, as RNA path is invalid for the given ID (ID = %s, path = %s)"
-msgstr "无法添加驱动, 因为对于指定的ID无法找到有效的RNA路径(ID = %s, 路径 = %s)"
+msgstr "无法清除关键帧, 因为对于指定的ID无法找到有效的RNA路径(ID = %s, 路径 = %s)"
 
 #: source/blender/editors/animation/keyframing.c:1763
 msgid "Not clearing all keyframes from locked F-Curve '%s' for %s '%s'"
@@ -112051,7 +112053,7 @@ msgstr "已成功将 %d 个关键帧添加到插帧集 '%s' 中"
 
 #: source/blender/editors/animation/keyframing.c:2046
 msgid "Active Keying Set '%s' not found"
-msgstr ""
+msgstr "未找到活动插帧集 '%s'"
 
 #: source/blender/editors/animation/keyframing.c:2074
 msgid "Successfully removed %d keyframes for keying set '%s'"
@@ -112067,7 +112069,7 @@ msgstr "在物体 '%s' 上成功移除了 %d 关键帧"
 
 #: source/blender/editors/animation/keyframing.c:2328
 msgid "No keyframes removed from Object '%s'"
-msgstr ""
+msgstr "未能从物体 '%s' 上成功关键帧"
 
 #: source/blender/editors/animation/keyframing.c:2481
 msgid "\"%s\" property cannot be animated"
@@ -112084,48 +112086,43 @@ msgstr ""
 
 #: source/blender/editors/animation/keyframing.c:3011
 msgid "Keying set '%s' not found"
-msgstr "添加到插帧集中的属性: '%s'"
+msgstr "未找到插帧集 '%s'"
 
 #: source/blender/editors/animation/keyingsets.c:156
-#, fuzzy
 msgid "No active Keying Set to remove"
-msgstr "激活的插帧集"
+msgstr "无可供删除的活动插帧集"
 
 #: source/blender/editors/animation/keyingsets.c:160
 msgid "Cannot remove built in keying set"
 msgstr "移除激活的插帧集"
 
 #: source/blender/editors/animation/keyingsets.c:205
-#, fuzzy
 msgid "No active Keying Set to add empty path to"
-msgstr "将插帧集导出为 Python 脚本"
+msgstr "无可供添加空白路径的活动插帧集"
 
 #: source/blender/editors/animation/keyingsets.c:255
-#, fuzzy
 msgid "No active Keying Set path to remove"
-msgstr "移除激活的插帧集路径"
+msgstr "无可供移除的活动插帧集路径"
 
 #: source/blender/editors/animation/keyingsets.c:260
-#, fuzzy
 msgid "No active Keying Set to remove a path from"
-msgstr "移除激活的插帧集路径"
+msgstr "无可供移除路径的活动插帧集"
 
 #: source/blender/editors/animation/keyingsets.c:326
 msgid "Cannot add property to built in keying set"
 msgstr "无法在内建的插帧集中添加属性"
 
 #: source/blender/editors/animation/keyingsets.c:411
-#, fuzzy
 msgid "No active Keying Set to remove property from"
-msgstr "移除激活的插帧集路径"
+msgstr "无可供移除属性的活动插帧集"
 
 #: source/blender/editors/animation/keyingsets.c:415
 msgid "Cannot remove property from built in keying set"
-msgstr "从激活的插帧集中移除激活的路径"
+msgstr "无法从内置插帧集中移除属性"
 
 #: source/blender/editors/animation/keyingsets.c:446
 msgid "Property removed from Keying Set"
-msgstr "从插帧集中移除"
+msgstr "属性已从插帧集移除"
 
 #: source/blender/editors/animation/keyingsets.c:364
 msgid "Property added to Keying Set: '%s'"
@@ -112149,7 +112146,7 @@ msgstr "没有关节被选中"
 
 #: source/blender/editors/armature/armature_edit.c:731
 msgid "Bones for different objects selected"
-msgstr "选定的物体"
+msgstr "用于不同选中物体的骨骼"
 
 #: source/blender/editors/armature/armature_edit.c:773
 msgid "Same bone selected..."
@@ -112167,15 +112164,15 @@ msgstr "选中的点太多: %d"
 
 #: source/blender/editors/armature/armature_edit.c:1314
 msgid "Aligned bone '%s' to parent"
-msgstr ""
+msgstr "骨骼 '%s' 已与父级对齐"
 
 #: source/blender/editors/armature/armature_edit.c:1339
 msgid "%d bones aligned to bone '%s'"
-msgstr ""
+msgstr "%d 骨骼已与骨骼 '%s' 对齐"
 
 #: source/blender/editors/armature/armature_relations.c:296
 msgid "Active object is not a selected armature"
-msgstr "激活的物体不是一个被选中的骨骼物体"
+msgstr "活动物体不是已选中的骨架"
 
 #: source/blender/editors/armature/armature_relations.c:687
 msgid "Separated bones"
@@ -112231,7 +112228,7 @@ msgstr ""
 
 #: source/blender/editors/armature/pose_lib.c:1208
 msgid "PoseLib Previewing Pose: \"%s\""
-msgstr ""
+msgstr "姿态库预览姿态 \"%s\""
 
 #: source/blender/editors/armature/pose_lib.c:320
 msgid "No action to validate"
@@ -112338,7 +112335,7 @@ msgstr ""
 
 #: source/blender/editors/armature/pose_slide.c:987
 msgid "No keyframes to slide between"
-msgstr "滑动"
+msgstr "无可供在其间滑动的关键帧"
 
 #: source/blender/editors/armature/pose_slide.c:1924
 msgid "No keyframed poses to propagate to"
@@ -112370,16 +112367,16 @@ msgstr ""
 
 #: source/blender/editors/armature/pose_transform.c:774
 msgid "Copy buffer has no pose"
-msgstr "复制姿态"
+msgstr "复制缓冲不包含姿态"
 
 #: source/blender/editors/armature/pose_transform.c:1033
 #: source/blender/editors/object/object_transform.c:300
 msgid "Programming error: missing clear transform function or keying set name"
-msgstr "程序错误：缺失清除变形的功能或帧设置名称"
+msgstr "程序错误：缺失清除变换的功能或帧设置名称"
 
 #: source/blender/editors/curve/editcurve.c:1433
 msgid "No point was selected"
-msgstr "轨迹锚点已选中"
+msgstr "无选中点"
 
 #: source/blender/editors/curve/editcurve.c:1460
 msgid "Cannot separate curves with vertex keys"
@@ -112387,11 +112384,11 @@ msgstr "无法使用顶点帧分离曲线"
 
 #: source/blender/editors/curve/editcurve.c:1464
 msgid "Cannot separate current selection"
-msgstr "无法分离节点"
+msgstr "无法分离当前选中项"
 
 #: source/blender/editors/curve/editcurve.c:1535
 msgid "Cannot split current selection"
-msgstr ""
+msgstr "无法拆分当前选中项"
 
 #: source/blender/editors/curve/editcurve.c:3986
 #: source/blender/editors/space_outliner/outliner_tools.c:1478
@@ -112406,11 +112403,11 @@ msgstr "没有可用的转换"
 
 #: source/blender/editors/curve/editcurve.c:4813
 msgid "No points were selected"
-msgstr "将光标吸附到所选项的中心点"
+msgstr "无选中点"
 
 #: source/blender/editors/curve/editcurve.c:4833
 msgid "Could not make new segments"
-msgstr "无法新建文件夹名称"
+msgstr "无法创建新线段"
 
 #: source/blender/editors/curve/editcurve.c:4838
 msgid "Too few selections to merge"
@@ -112430,20 +112427,20 @@ msgstr "无法旋绕"
 
 #: source/blender/editors/curve/editcurve.c:6019
 msgid "Cannot duplicate current selection"
-msgstr "复制当前的镜像体"
+msgstr "无法复制当前选中项"
 
 #: source/blender/editors/curve/editcurve.c:6785
 msgid "Only bezier curves are supported"
-msgstr "仅收集贝塞尔曲线的控制点"
+msgstr "仅支持贝塞尔曲线"
 
 #: source/blender/editors/curve/editcurve.c:6908
 msgid "Active object is not a selected curve"
-msgstr "激活的物体不是一个被选中的曲线物体"
+msgstr "活动物体不是一个被选中的曲线物体"
 
 #: source/blender/editors/curve/editcurve_add.c:72
 msgctxt "Curve"
 msgid "BezierCurve"
-msgstr "贝塞尔曲"
+msgstr "贝塞尔曲线"
 
 #: source/blender/editors/curve/editcurve_add.c:74
 msgctxt "Curve"
@@ -112502,16 +112499,16 @@ msgstr "曲面"
 
 #: source/blender/editors/curve/editcurve_paint.c:586
 msgid "Unable to access 3D viewport"
-msgstr "3D 视图轴向"
+msgstr "无法访问3D 视图"
 
 #: source/blender/editors/curve/editcurve_paint.c:1104
-#: source/blender/editors/object/object_transform.c:1707
+#: source/blender/editors/object/object_transform.c:1708
 msgid "Unable to access depth buffer, using view plane"
 msgstr ""
 
 #: source/blender/editors/curve/editcurve_select.c:1679
 msgid "No control point selected"
-msgstr "选择的控制点"
+msgstr "无选中的控制点"
 
 #: source/blender/editors/curve/editcurve_select.c:1989
 msgid "Control point belongs to another spline"
@@ -112540,7 +112537,7 @@ msgstr "文件过长 %s"
 #: source/blender/editors/gpencil/annotate_draw.c:950
 #: source/blender/editors/gpencil/drawgpencil.c:1185
 msgid "GPencil Stroke Editing"
-msgstr "启用笔画编辑"
+msgstr "蜡笔笔画编辑"
 
 #: source/blender/editors/gpencil/annotate_paint.c:1690
 #: source/blender/editors/gpencil/annotate_paint.c:1722
@@ -112549,19 +112546,19 @@ msgstr ""
 
 #: source/blender/editors/gpencil/annotate_paint.c:1706
 msgid "Annotation Eraser: Hold and drag LMB or RMB to erase | ESC/Enter to end  (or click outside this area)"
-msgstr "蜡笔擦除会话: 按下并拖拽鼠标左键, 或按右键进行清除 | 按ESC / 回车键(或在区域外单击)结束"
+msgstr "标注擦除: 按下并拖拽鼠标左键, 或按右键进行清除 | 按ESC / 回车键(或在区域外单击)结束"
 
 #: source/blender/editors/gpencil/annotate_paint.c:1711
 msgid "Annotation Line Draw: Hold and drag LMB to draw | ESC/Enter to end  (or click outside this area)"
-msgstr "蜡笔直线会话; 按下并拖拽鼠标左键进行绘制 | 按ESC / 回车键(或在区域外单击)结束"
+msgstr "标注直线绘制; 按下并拖拽鼠标左键进行绘制 | 按ESC / 回车键(或在区域外单击)结束"
 
 #: source/blender/editors/gpencil/annotate_paint.c:1716
 msgid "Annotation Freehand Draw: Hold and drag LMB to draw | E/ESC/Enter to end  (or click outside this area)"
-msgstr "蜡笔自由线会话: 按下并拖动鼠标左键进行绘制 | 按ESC / 回车键结束"
+msgstr "标注自由线绘制: 按下并拖动鼠标左键进行绘制 | 按ESC / 回车键(或在区域外单击)结束"
 
 #: source/blender/editors/gpencil/annotate_paint.c:1728
 msgid "Annotation Session: ESC/Enter to end   (or click outside this area)"
-msgstr ""
+msgstr "标注会话: 按ESC / 回车键(或在区域外单击)结束"
 
 #: source/blender/editors/gpencil/annotate_paint.c:1784
 #: source/blender/editors/gpencil/gpencil_paint.c:2612
@@ -112570,7 +112567,7 @@ msgstr "无法绘制笔画"
 
 #: source/blender/editors/gpencil/annotate_paint.c:2050
 msgid "Nothing to erase"
-msgstr "擦除"
+msgstr "无可擦除笔画"
 
 #: source/blender/editors/gpencil/annotate_paint.c:225
 msgid "Annotation cannot be used in grease pencil draw mode"
@@ -112578,7 +112575,7 @@ msgstr ""
 
 #: source/blender/editors/gpencil/annotate_paint.c:238
 msgid "Annotation operator is already active"
-msgstr "蜡笔操作项已激活"
+msgstr "标注操作项已激活"
 
 #: source/blender/editors/gpencil/annotate_paint.c:242
 #: source/blender/editors/gpencil/gpencil_edit.c:1534
@@ -112600,7 +112597,7 @@ msgstr "关键帧复制 / 粘贴缓存中没有已复制的关键帧数据"
 
 #: source/blender/editors/gpencil/editaction_gpencil.c:435
 msgid "No data in buffer to paste"
-msgstr "没有用于粘贴的缓存动画数据"
+msgstr "缓存中无可供粘贴的数据"
 
 #: source/blender/editors/gpencil/gpencil_armature.c:499
 msgid "Unable to add a new Armature modifier to object"
@@ -112650,21 +112647,21 @@ msgstr "蜡笔数据无地可去"
 
 #: source/blender/editors/gpencil/gpencil_data.c:306
 msgid "Cannot delete locked layers"
-msgstr "删除所有活动层"
+msgstr "无法删除锁定层"
 
 #: source/blender/editors/gpencil/gpencil_data.c:1059
 msgid "No active layer to isolate"
-msgstr "隔离集合"
+msgstr "无可隔离的活动层"
 
 #: source/blender/editors/gpencil/gpencil_data.c:1138
 msgid "No layers to merge"
-msgstr "没有要合并的图层"
+msgstr "无可合并的层"
 
 #: source/blender/editors/gpencil/gpencil_data.c:1791
 #: source/blender/editors/gpencil/gpencil_data.c:1855
 #: source/blender/editors/gpencil/gpencil_data.c:1953
 msgid "Current Vertex Group is locked"
-msgstr "锁定的顶点组"
+msgstr "当前顶点组已被锁定"
 
 #: source/blender/editors/gpencil/gpencil_data.c:2221
 msgid "Apply all rotations before join objects"
@@ -112676,7 +112673,7 @@ msgstr "活动的物体不是一个被选中的蜡笔"
 
 #: source/blender/editors/gpencil/gpencil_data.c:2507
 msgid "No active color to isolate"
-msgstr "隔离集合"
+msgstr "无可隔离的活动颜色"
 
 #: source/blender/editors/gpencil/gpencil_data.c:2917
 msgid "Unable to add a new Lattice modifier to object"
@@ -112692,7 +112689,7 @@ msgstr ""
 
 #: source/blender/editors/gpencil/gpencil_edit.c:153
 msgid "No active GP data"
-msgstr "蜡笔调色板"
+msgstr "无活动蜡笔数据"
 
 #: source/blender/editors/gpencil/gpencil_edit.c:673
 #: source/blender/editors/gpencil/gpencil_edit.c:926
@@ -112749,11 +112746,11 @@ msgstr ""
 #: source/blender/editors/gpencil/gpencil_select.c:1035
 #: source/blender/editors/gpencil/gpencil_select.c:1313
 msgid "No active area"
-msgstr "整个窗口截屏 (否则仅对活动区域截屏)"
+msgstr "无活动区域"
 
 #: source/blender/editors/gpencil/gpencil_edit.c:1441
 msgid "There is no layer number %d"
-msgstr "加入纹理的最大数量 %d"
+msgstr "无编号为 %d 的层"
 
 #: source/blender/editors/gpencil/gpencil_fill.c:1143
 msgid "Fill: ESC/RMB cancel, LMB Fill, Shift Draw on Back"
@@ -112791,7 +112788,7 @@ msgstr ""
 
 #: source/blender/editors/gpencil/gpencil_interpolate.c:1112
 msgid "Expected current frame to be a breakdown"
-msgstr "将合适的中断姿态创建到当前帧"
+msgstr "期望当前帧为中断帧"
 
 #: source/blender/editors/gpencil/gpencil_paint.c:2499
 msgid "Grease Pencil Erase Session: Hold and drag LMB or RMB to erase | ESC/Enter to end  (or click outside this area)"
@@ -112818,13 +112815,12 @@ msgid "Grease Pencil Poly Session: LMB click to place next stroke vertex | Relea
 msgstr ""
 
 #: source/blender/editors/gpencil/gpencil_paint.c:2540
-#, fuzzy
 msgid "Grease Pencil Session: ESC/Enter to end (or click outside this area)"
-msgstr "蜡笔直线会话; 按下并拖拽鼠标左键进行绘制 | 按ESC / 回车键(或在区域外单击)结束"
+msgstr "蜡笔会话; 按下并拖拽鼠标左键进行绘制 | 按ESC / 回车键(或在区域外单击)结束"
 
 #: source/blender/editors/gpencil/gpencil_paint.c:3154
 msgid "Active layer is locked or hide"
-msgstr "激活的组被锁定, 操作终止"
+msgstr "活动层被锁定或隐藏"
 
 #: source/blender/editors/gpencil/gpencil_paint.c:3171
 msgid "Nothing to erase or all layers locked"
@@ -112868,7 +112864,7 @@ msgstr ""
 
 #: source/blender/editors/interface/interface_context_menu.c:1055
 msgid "Non-Keyboard Shortcut"
-msgstr "键盘"
+msgstr "无键盘快捷键"
 
 #: source/blender/editors/interface/interface_context_menu.c:1211
 msgid "Shift+Left Mouse"
@@ -112881,12 +112877,12 @@ msgstr ""
 #: source/blender/editors/interface/interface_context_menu.c:450
 msgctxt "Operator"
 msgid "Open File Externally"
-msgstr "无法打开文件: %s"
+msgstr "打开外部文件"
 
 #: source/blender/editors/interface/interface_context_menu.c:461
 msgctxt "Operator"
 msgid "Open Location Externally"
-msgstr "打开"
+msgstr "打开外部位置"
 
 #: source/blender/editors/interface/interface_context_menu.c:538
 msgctxt "Operator"
@@ -112943,7 +112939,7 @@ msgstr "删除驱动"
 #: source/blender/editors/interface/interface_context_menu.c:700
 msgctxt "Operator"
 msgid "Open Drivers Editor"
-msgstr "Blender驱动器编辑器"
+msgstr "打开驱动器编辑器"
 
 #: source/blender/editors/interface/interface_context_menu.c:712
 msgctxt "Operator"
@@ -112958,12 +112954,12 @@ msgstr "将单项添加到插帧集"
 #: source/blender/editors/interface/interface_context_menu.c:766
 msgctxt "Operator"
 msgid "Remove Overrides"
-msgstr "移除"
+msgstr "移除覆盖"
 
 #: source/blender/editors/interface/interface_context_menu.c:772
 msgctxt "Operator"
 msgid "Remove Single Override"
-msgstr "覆盖迭代"
+msgstr "覆盖单个覆盖"
 
 #: source/blender/editors/interface/interface_context_menu.c:837
 msgctxt "Operator"
@@ -112983,12 +112979,12 @@ msgstr "未使用"
 #: source/blender/editors/interface/interface_context_menu.c:875
 msgctxt "Operator"
 msgid "Copy All To Selected"
-msgstr "复制并移动所有选中的关键帧"
+msgstr "全部复制到选中项"
 
 #: source/blender/editors/interface/interface_context_menu.c:881
 msgctxt "Operator"
 msgid "Copy Single To Selected"
-msgstr "复制到选定项"
+msgstr "复制单个到选定项"
 
 #: source/blender/editors/interface/interface_context_menu.c:946
 msgctxt "Operator"
@@ -113003,22 +112999,22 @@ msgstr "添加到快速收藏夹"
 #: source/blender/editors/interface/interface_context_menu.c:1020
 msgctxt "Operator"
 msgid "Change Shortcut"
-msgstr "改变热键"
+msgstr "改变快捷键"
 
 #: source/blender/editors/interface/interface_context_menu.c:1037
 msgctxt "Operator"
 msgid "Remove Shortcut"
-msgstr "移除热键"
+msgstr "移除快捷键"
 
 #: source/blender/editors/interface/interface_context_menu.c:1076
 msgctxt "Operator"
 msgid "Assign Shortcut"
-msgstr "改变热键"
+msgstr "指定快捷键"
 
 #: source/blender/editors/interface/interface_context_menu.c:1104
 msgctxt "Operator"
 msgid "Online Manual"
-msgstr "在线指南"
+msgstr "在线手册"
 
 #: source/blender/editors/interface/interface_context_menu.c:1111
 msgctxt "Operator"
@@ -113031,7 +113027,7 @@ msgstr "未能设置值"
 
 #: source/blender/editors/interface/interface_layout.c:2236
 msgid "Animate property"
-msgstr "动画路径"
+msgstr "动画属性"
 
 #: source/blender/editors/interface/interface_ops.c:1255
 msgid "Active button is not from a script, cannot edit source"
@@ -113128,7 +113124,7 @@ msgstr "未找到菜单 \"%s\""
 
 #: source/blender/editors/interface/interface_region_popover.c:310
 msgid "Panel \"%s\" not found"
-msgstr "未找到项: %s"
+msgstr "未找到面板 \"%s\""
 
 #: source/blender/editors/interface/interface_region_tooltip.c:326
 #: source/blender/editors/interface/interface_region_tooltip.c:557
@@ -113145,9 +113141,8 @@ msgid "Python: %s"
 msgstr "Python: %s"
 
 #: source/blender/editors/interface/interface_region_tooltip.c:672
-#, fuzzy
 msgid "(Shift-Click/Drag to select multiple)"
-msgstr "(Shift-点击以多选)"
+msgstr "(Shift-点击/拖动以多选)"
 
 #: source/blender/editors/interface/interface_region_tooltip.c:720
 msgid "Value: %s"
@@ -113205,15 +113200,15 @@ msgstr "未知"
 
 #: source/blender/editors/interface/interface_templates.c:2978
 msgid "Flip Color Ramp"
-msgstr "颜色渐变"
+msgstr "翻转颜色渐变"
 
 #: source/blender/editors/interface/interface_templates.c:2993
 msgid "Distribute Stops from Left"
-msgstr "从右侧向左侧渲染"
+msgstr "从左侧分布断点"
 
 #: source/blender/editors/interface/interface_templates.c:3008
 msgid "Distribute Stops Evenly"
-msgstr "均匀分布所有 UV"
+msgstr "均匀分布断点"
 
 #: source/blender/editors/interface/interface_templates.c:3020
 msgid "Eyedropper"
@@ -113221,7 +113216,7 @@ msgstr "吸管"
 
 #: source/blender/editors/interface/interface_templates.c:3026
 msgid "Reset Color Ramp"
-msgstr "使用颜色渐变"
+msgstr "重设颜色渐变"
 
 #: source/blender/editors/interface/interface_templates.c:3213
 #: source/blender/editors/interface/interface_templates.c:3243
@@ -113298,11 +113293,11 @@ msgstr ""
 
 #: source/blender/editors/interface/interface_templates.c:861
 msgid "Direct linked library data-block, click to make local"
-msgstr "直接关联的数据块, 转为本地项"
+msgstr "直接关联的数据块, 单击转为本地项"
 
 #: source/blender/editors/interface/interface_templates.c:885
 msgid "Library override of linked data-block, click to make fully local"
-msgstr "直接关联的数据块, 转为本地项"
+msgstr "直接关联的数据块, 单击转为本地项"
 
 #: source/blender/editors/interface/interface_templates.c:910
 msgid "Display number of users of this data (click to make a single-user copy)"
@@ -113317,7 +113312,6 @@ msgid "Unlink data-block (Shift + Click to set users to zero, data will then not
 msgstr ""
 
 #: source/blender/editors/interface/interface_templates.c:1724
-#, fuzzy
 msgid "Can't edit external library data"
 msgstr "无法编辑外部库数据"
 
@@ -113340,16 +113334,16 @@ msgstr "无法编辑受代理保护的约束"
 
 #: source/blender/editors/interface/interface_templates.c:3122
 msgid "Add a new color stop to the color ramp"
-msgstr "在颜色渐变中新建一个色彩隔断"
+msgstr "在颜色渐变中新建一个颜色断点"
 
 #: source/blender/editors/interface/interface_templates.c:3139
 msgid "Delete the active position"
-msgstr "删除激活的姿态"
+msgstr "删除活动位置"
 
 #: source/blender/editors/interface/interface_templates.c:3211
 #: source/blender/editors/interface/interface_templates.c:3241
 msgid "Choose active color stop"
-msgstr "选择激活的颜色"
+msgstr "选择活动颜色断点"
 
 #: source/blender/editors/interface/interface_templates.c:4191
 msgid "Zoom in"
@@ -113361,7 +113355,7 @@ msgstr "缩小"
 
 #: source/blender/editors/interface/interface_templates.c:4263
 msgid "Clipping Options"
-msgstr "剪辑选项"
+msgstr "钳制选项"
 
 #: source/blender/editors/interface/interface_templates.c:4279
 msgid "Delete points"
@@ -113437,7 +113431,7 @@ msgstr "浏览要关联的晶格数据"
 
 #: source/blender/editors/interface/interface_templates.c:601
 msgid "Browse Light Data to be linked"
-msgstr "浏览要关联的曲线数据"
+msgstr "浏览要关联的灯光数据"
 
 #: source/blender/editors/interface/interface_templates.c:603
 msgid "Browse Camera Data to be linked"
@@ -113489,15 +113483,15 @@ msgstr "浏览要关联的蜡笔"
 
 #: source/blender/editors/interface/interface_templates.c:627
 msgid "Browse Movie Clip to be linked"
-msgstr "浏览要关联的场景"
+msgstr "浏览要关联的影片剪辑"
 
 #: source/blender/editors/interface/interface_templates.c:629
 msgid "Browse Mask to be linked"
-msgstr "浏览要关联的场景"
+msgstr "浏览要关联的遮罩"
 
 #: source/blender/editors/interface/interface_templates.c:631
 msgid "Browse Palette Data to be linked"
-msgstr "浏览要关联的晶格数据"
+msgstr "浏览要关联的调色板数据"
 
 #: source/blender/editors/interface/interface_templates.c:633
 msgid "Browse Paint Curve Data to be linked"
@@ -113505,15 +113499,15 @@ msgstr "浏览要关联的曲线数据"
 
 #: source/blender/editors/interface/interface_templates.c:635
 msgid "Browse Cache Files to be linked"
-msgstr "浏览要关联的场景"
+msgstr "浏览要关联的缓存文件"
 
 #: source/blender/editors/interface/interface_templates.c:637
 msgid "Browse Workspace to be linked"
-msgstr "浏览要关联的网格数据"
+msgstr "浏览要关联的工作区"
 
 #: source/blender/editors/interface/interface_templates.c:639
 msgid "Browse LightProbe to be linked"
-msgstr "浏览要关联的曲线数据"
+msgstr "浏览要关联的光照探头"
 
 #: source/blender/editors/interface/interface_templates.c:642
 msgid "Browse ID data to be linked"
@@ -113690,7 +113684,7 @@ msgstr "无法确定ABC片断长度"
 
 #: source/blender/editors/io/io_collada.c:294
 msgid "Global Orientation:"
-msgstr "全局方向:"
+msgstr "全局坐标系:"
 
 #: source/blender/editors/io/io_collada.c:324
 msgid "Texture Options:"
@@ -113798,16 +113792,16 @@ msgstr "LMB: 松开以确定裁切线"
 
 #: source/blender/editors/mesh/editmesh_bisect.c:137
 msgid "Selected edges/faces required"
-msgstr "反细分所选边线和面"
+msgstr "需选中边线/面"
 
 #: source/blender/editors/mesh/editmesh_extrude.c:401
 msgid "Not a valid selection for extrude"
-msgstr "光线追踪镜面反射的数量"
+msgstr "无可供挤出的有效选中项"
 
 #: source/blender/editors/mesh/editmesh_extrude_screw.c:162
 #: source/blender/editors/mesh/editmesh_extrude_spin.c:71
 msgid "Invalid/unset axis"
-msgstr "未使用"
+msgstr ""
 
 #: source/blender/editors/mesh/editmesh_extrude_screw.c:165
 msgid "You have to select a string of connected vertices too"
@@ -113820,7 +113814,7 @@ msgstr "确认: 回车键/鼠标左键点击, 取消: (Esc/鼠标右键), 厚度
 #: source/blender/editors/mesh/editmesh_intersect.c:222
 #: source/blender/editors/mesh/editmesh_intersect.c:329
 msgid "No intersections found"
-msgstr "交集"
+msgstr "未发现交集"
 
 #: source/blender/editors/mesh/editmesh_knife.c:282
 msgid "%s: confirm, %s: cancel, %s: start/define cut, %s: close cut, %s: new cut, %s: midpoint snap (%s), %s: ignore snap (%s), %s: angle constraint (%s), %s: cut through (%s), %s: panning"
@@ -113828,7 +113822,7 @@ msgstr "%s: 确认, %s: 取消, %s: 开始/定义切割, %s: 闭合切线, %s: �
 
 #: source/blender/editors/mesh/editmesh_knife.c:2764
 msgid "Selected faces required"
-msgstr "在选中的面中新增内插面"
+msgstr "需选中面"
 
 #: source/blender/editors/mesh/editmesh_knife_project.c:158
 msgid "No other selected objects found to use for projection"
@@ -113852,7 +113846,7 @@ msgstr "路径选择功能需要先选中两个匹配元素"
 
 #: source/blender/editors/mesh/editmesh_rip.c:1087
 msgid "Cannot rip selected faces"
-msgstr "无法撕裂所选面"
+msgstr "无法断离所选面"
 
 #: source/blender/editors/mesh/editmesh_rip.c:1091
 msgid "Cannot rip multiple disconnected vertices"
@@ -113860,19 +113854,19 @@ msgstr ""
 
 #: source/blender/editors/mesh/editmesh_rip.c:1095
 msgid "Rip failed"
-msgstr "撕裂失败"
+msgstr "断离失败"
 
 #: source/blender/editors/mesh/editmesh_select.c:1281
 msgid "No face regions selected"
-msgstr "面区域"
+msgstr "无选中的面区域"
 
 #: source/blender/editors/mesh/editmesh_select.c:1331
 msgid "No matching face regions found"
-msgstr "面区域"
+msgstr "未找到匹配的面区域"
 
 #: source/blender/editors/mesh/editmesh_select.c:4134
 msgid "Does not work in face selection mode"
-msgstr "面选择模式"
+msgstr "在面选择模式下不起作用"
 
 #: source/blender/editors/mesh/editmesh_select.c:4414
 msgid "This operator requires an active vertex (last selected)"
@@ -113889,19 +113883,19 @@ msgstr "物体未包含权重组 / 顶点组"
 
 #: source/blender/editors/mesh/editmesh_select_similar.c:177
 msgid "No face selected"
-msgstr "选择的面"
+msgstr "无选中面"
 
 #: source/blender/editors/mesh/editmesh_select_similar.c:643
 msgid "No edge selected"
-msgstr "所选边总数"
+msgstr "无选中边"
 
 #: source/blender/editors/mesh/editmesh_select_similar.c:982
 msgid "No vertex selected"
-msgstr "该操作项需要一个活动顶点 (最后选中的顶点)"
+msgstr "无选中顶点"
 
 #: source/blender/editors/mesh/editmesh_select_similar.c:1074
 msgid "No vertex group among the selected vertices"
-msgstr "将选中的顶点指定到活动顶点组"
+msgstr "选中的顶点中无顶点组"
 
 #: source/blender/editors/mesh/editmesh_tools.c:7723
 msgid "%s: confirm, %s: cancel, %s: point to mouse (%s), %s: point to Pivot, %s: point to object origin, %s: reset normals, %s: set & point to 3D cursor, %s: select & point to mesh item, %s: invert normals (%s), %s: spherize (%s), %s: align (%s)"
@@ -113923,7 +113917,7 @@ msgstr "无法找到可用于旋转的可选择边"
 #: source/blender/editors/mesh/editmesh_tools.c:3261
 #: source/blender/editors/mesh/editmesh_tools.c:3388
 msgid "No selected vertex"
-msgstr "编辑模式下所选顶点的计数值"
+msgstr "无选中顶点"
 
 #: source/blender/editors/mesh/editmesh_tools.c:2449
 msgid "Selected faces must be triangles or quads"
@@ -113931,7 +113925,7 @@ msgstr "将相邻三角面合并为四角面"
 
 #: source/blender/editors/mesh/editmesh_tools.c:3318
 msgid "Active mesh does not have shape keys"
-msgstr "禁用当前形态键"
+msgstr "活动网格没有形态键"
 
 #: source/blender/editors/mesh/editmesh_tools.c:3758
 msgid "No edges are selected to operate on"
@@ -113953,11 +113947,11 @@ msgstr "不支持雕刻模式"
 
 #: source/blender/editors/mesh/editmesh_tools.c:4381
 msgid "No edges selected"
-msgstr "指定包含或排除所选的特征边类型"
+msgstr "无选中边"
 
 #: source/blender/editors/mesh/editmesh_tools.c:4386
 msgid "No faces filled"
-msgstr "面"
+msgstr "无已填充面"
 
 #: source/blender/editors/mesh/editmesh_tools.c:5199
 msgid "No active vertex group"
@@ -114011,7 +114005,7 @@ msgstr "编辑模式下所选面的计数值"
 
 #: source/blender/editors/mesh/mesh_data.c:1155
 msgid "Cannot add tessfaces to a mesh that already has polygons"
-msgstr "无法线已包含多边形的网格中添加细分曲面"
+msgstr "无法向已包含多边形的网格中添加细分曲面"
 
 #: source/blender/editors/mesh/mesh_data.c:1165
 msgid "Cannot add edges in edit mode"
@@ -114101,7 +114095,7 @@ msgstr "辐射体积"
 #: source/blender/editors/object/object_add.c:579
 msgctxt "Light"
 msgid "ReflectionPlane"
-msgstr "反射"
+msgstr "反射平面"
 
 #: source/blender/editors/object/object_add.c:581
 msgctxt "Light"
@@ -114111,7 +114105,7 @@ msgstr "立方盒反射"
 #: source/blender/editors/object/object_add.c:583
 msgctxt "Light"
 msgid "LightProbe"
-msgstr "光照探头数据块"
+msgstr "光照探头"
 
 #: source/blender/editors/object/object_add.c:685
 msgctxt "Object"
@@ -114137,33 +114131,33 @@ msgstr "无法在编辑模式下创建骨架"
 msgid "Not implemented"
 msgstr "还未部署"
 
-#: source/blender/editors/object/object_add.c:2184
+#: source/blender/editors/object/object_add.c:2190
 msgid "Converting some linked object/object data, enforcing 'Keep Original' option to True"
 msgstr ""
 
-#: source/blender/editors/object/object_add.c:2708
+#: source/blender/editors/object/object_add.c:2716
 msgid "Object not found"
 msgstr "没找到物体"
 
-#: source/blender/editors/object/object_add.c:2716
+#: source/blender/editors/object/object_add.c:2724
 msgid "Object could not be duplicated"
 msgstr "无法复制物体"
 
-#: source/blender/editors/object/object_add.c:2794
-#: source/blender/editors/object/object_add.c:2868
+#: source/blender/editors/object/object_add.c:2802
+#: source/blender/editors/object/object_add.c:2876
 msgid "This data does not support joining in edit mode"
 msgstr "此数据不支持在编辑模式中接合"
 
-#: source/blender/editors/object/object_add.c:2798
-#: source/blender/editors/object/object_add.c:2872
+#: source/blender/editors/object/object_add.c:2806
+#: source/blender/editors/object/object_add.c:2880
 #: source/blender/editors/space_outliner/outliner_edit.c:305
 #: source/blender/editors/space_text/text_ops.c:162
 #: source/blender/editors/space_text/text_ops.c:179
 #: source/blender/editors/space_text/text_ops.c:201
 msgid "Cannot edit external library data"
-msgstr "无法编辑库数据"
+msgstr "无法编辑外部库数据"
 
-#: source/blender/editors/object/object_add.c:2804
+#: source/blender/editors/object/object_add.c:2812
 msgid "This data does not support joining in this mode"
 msgstr "此数据不支持在编辑模式中接合"
 
@@ -114184,7 +114178,7 @@ msgstr ""
 
 #: source/blender/editors/object/object_add.c:1588
 msgid "Deleted %u object(s)"
-msgstr ""
+msgstr "已删除 ％u 个物体"
 
 #: source/blender/editors/object/object_bake.c:141
 msgid "Baking of multires data only works with an active mesh object"
@@ -114264,11 +114258,11 @@ msgstr "将烘焙贴图保存为内部、外部图像文件或将其打包"
 
 #: source/blender/editors/object/object_bake_api.c:419
 msgid "Object \"%s\" is not in view layer"
-msgstr "未在物体 \"%s\" 中找到活动的 UV 层"
+msgstr "物体 \"%s\" 不位于视图层"
 
 #: source/blender/editors/object/object_bake_api.c:424
 msgid "Object \"%s\" is not enabled for rendering"
-msgstr ""
+msgstr "物体 \"%s\" 未启用渲染"
 
 #: source/blender/editors/object/object_bake_api.c:429
 msgid "Object \"%s\" is not a mesh"
@@ -114280,7 +114274,7 @@ msgstr "未在物体 \"%s\" 中找到活动的 UV 层"
 
 #: source/blender/editors/object/object_bake_api.c:455
 msgid "Circular dependency for image \"%s\" from object \"%s\""
-msgstr "未初始化的图像 \"%s\" 出现在物体 \"%s\" 上"
+msgstr "循环依赖来自物体 \"%s\" 的图像 \"%s\""
 
 #: source/blender/editors/object/object_bake_api.c:469
 msgid "Uninitialized image \"%s\" from object \"%s\""
@@ -114300,7 +114294,7 @@ msgstr ""
 
 #: source/blender/editors/object/object_bake_api.c:698
 msgid "Uninitialized image %s"
-msgstr ""
+msgstr "未初始化的图像 %s"
 
 #: source/blender/editors/object/object_bake_api.c:792
 msgid "No UV layer named \"%s\" found in the object \"%s\""
@@ -114308,11 +114302,11 @@ msgstr "未在物体 \"%s\" 中找到激活名为 \"%s\" 的UV层"
 
 #: source/blender/editors/object/object_bake_api.c:1028
 msgid "Error baking from object \"%s\""
-msgstr ""
+msgstr "从物体 \"%s\" 上烘焙时出错"
 
 #: source/blender/editors/object/object_bake_api.c:1126
 msgid "Problem baking object \"%s\""
-msgstr "写入 \"%s\" 的烘焙贴图"
+msgstr "烘焙物体 \"%s\" 时出现问题"
 
 #: source/blender/editors/object/object_bake_api.c:1148
 msgid "Problem saving the bake map internally for object \"%s\""
@@ -114329,11 +114323,11 @@ msgstr "写入 \"%s\" 的烘焙贴图"
 #: source/blender/editors/object/object_collection.c:170
 #: source/blender/editors/object/object_relations.c:1636
 msgid "Skipped some collections because of cycle detected"
-msgstr "由于检测到 Cycles 而忽略部分组"
+msgstr "由于循环检测而忽略部分集合"
 
 #: source/blender/editors/object/object_collection.c:247
 msgid "Active object contains no collections"
-msgstr "活动物体未包含任何组"
+msgstr "活动物体未包含任何集合"
 
 #: source/blender/editors/object/object_collection.c:489
 msgid "Could not add the collection because of dependency cycle detected"
@@ -114433,19 +114427,19 @@ msgstr "无法编辑关联的网格或曲线数据"
 
 #: source/blender/editors/object/object_edit.c:1487
 msgid "No collection selected"
-msgstr "在选中的集中内部添加新的集合"
+msgstr "无选中集合"
 
 #: source/blender/editors/object/object_edit.c:1494
 msgid "Unexpected error, collection not found"
-msgstr "元件无法在元件集合中找到"
+msgstr "意外错误，无法找到集合"
 
 #: source/blender/editors/object/object_edit.c:1519
 msgid "%s already in %s"
-msgstr "%s已经在%s"
+msgstr "%s 已经位于 %s"
 
 #: source/blender/editors/object/object_edit.c:1540
 msgid "%s %s to %s"
-msgstr "%s %s到%s"
+msgstr "%s %s 到 %s"
 
 #: source/blender/editors/object/object_gpencil_modifier.c:76
 #: source/blender/editors/object/object_gpencil_modifier.c:283
@@ -114467,7 +114461,7 @@ msgstr "将修改器应用至物体数据"
 
 #: source/blender/editors/object/object_gpencil_modifier.c:247
 msgid "Modifiers cannot be applied in paint, sculpt or edit mode"
-msgstr "无法在编辑模式下应用修改器"
+msgstr "无法在绘制，雕刻或编辑模式下应用修改器"
 
 #: source/blender/editors/object/object_gpencil_modifier.c:252
 #: source/blender/editors/object/object_gpencil_modifier.c:257
@@ -114574,7 +114568,7 @@ msgstr "添加一个等级的细分"
 
 #: source/blender/editors/object/object_modifier.c:1408
 msgid "Second selected mesh object required to copy shape from"
-msgstr "第二个选择的网格物体需要一个拷贝的变形源"
+msgstr "第二个选择的网格物体需要一个拷贝的形变源"
 
 #: source/blender/editors/object/object_modifier.c:1413
 msgid "Objects do not have the same number of vertices"
@@ -114582,7 +114576,7 @@ msgstr "物体没有同样数量的顶点"
 
 #: source/blender/editors/object/object_modifier.c:2006
 msgid "Modifier is disabled"
-msgstr "修改器关闭，略过应用"
+msgstr "已禁用修改器"
 
 #: source/blender/editors/object/object_modifier.c:1937
 msgid "Mesh '%s' has no skin vertex data"
@@ -114634,7 +114628,7 @@ msgid "Not enough vertices for vertex-parent"
 msgstr "创建父级顶点"
 
 #: source/blender/editors/object/object_relations.c:1219
-#: source/blender/editors/object/object_transform.c:986
+#: source/blender/editors/object/object_transform.c:987
 msgid "Operation cannot be performed in edit mode"
 msgstr "无法在编辑模式下执行该操作"
 
@@ -114708,59 +114702,59 @@ msgstr "正文中缺少'shaderfx'"
 msgid "Cannot edit shaderfxs coming from library override"
 msgstr ""
 
-#: source/blender/editors/object/object_transform.c:870
+#: source/blender/editors/object/object_transform.c:871
 msgid "Objects have no data to transform"
 msgstr "物体没有同样数量的顶点"
 
-#: source/blender/editors/object/object_transform.c:1213
+#: source/blender/editors/object/object_transform.c:1214
 msgid "Cannot apply to a multi user armature"
 msgstr "无法应用至多用户骨架"
 
-#: source/blender/editors/object/object_transform.c:1346
+#: source/blender/editors/object/object_transform.c:1347
 msgid "Grease Pencil Object does not support this set origin option"
 msgstr ""
 
-#: source/blender/editors/object/object_transform.c:565
+#: source/blender/editors/object/object_transform.c:566
 msgid "Cannot apply to a multi user: Object \"%s\", %s \"%s\", aborting"
 msgstr ""
 
-#: source/blender/editors/object/object_transform.c:575
+#: source/blender/editors/object/object_transform.c:576
 msgid "Cannot apply to library data: Object \"%s\", %s \"%s\", aborting"
 msgstr ""
 
-#: source/blender/editors/object/object_transform.c:592
+#: source/blender/editors/object/object_transform.c:593
 msgid "Rotation/Location can't apply to a 2D curve: Object \"%s\", %s \"%s\", aborting"
 msgstr ""
 
-#: source/blender/editors/object/object_transform.c:602
+#: source/blender/editors/object/object_transform.c:603
 msgid "Can't apply to a curve with shape-keys: Object \"%s\", %s \"%s\", aborting"
 msgstr ""
 
-#: source/blender/editors/object/object_transform.c:614
+#: source/blender/editors/object/object_transform.c:615
 msgid "Font's can only have scale applied: \"%s\""
 msgstr ""
 
-#: source/blender/editors/object/object_transform.c:637
+#: source/blender/editors/object/object_transform.c:638
 msgid "Can't apply to a GP datablock where all layers are parented: Object \"%s\", %s \"%s\", aborting"
 msgstr ""
 
-#: source/blender/editors/object/object_transform.c:649
+#: source/blender/editors/object/object_transform.c:650
 msgid "Can't apply to GP datablock with no layers: Object \"%s\", %s \"%s\", aborting"
 msgstr ""
 
-#: source/blender/editors/object/object_transform.c:664
+#: source/blender/editors/object/object_transform.c:665
 msgid "Area Lights can only have scale applied: \"%s\""
 msgstr ""
 
-#: source/blender/editors/object/object_transform.c:1428
+#: source/blender/editors/object/object_transform.c:1429
 msgid "%i object(s) not centered, %i changed:"
 msgstr "%i 物体没有置中, %i 改变:"
 
-#: source/blender/editors/object/object_transform.c:1434
+#: source/blender/editors/object/object_transform.c:1435
 msgid "|%i linked library object(s)"
 msgstr "|%i 链接的库物体"
 
-#: source/blender/editors/object/object_transform.c:1437
+#: source/blender/editors/object/object_transform.c:1438
 msgid "|%i multiuser armature object(s)"
 msgstr "|%i 多用户的骨骼物体"
 
@@ -115423,68 +115417,68 @@ msgstr "使用的修改器不支持外形位置"
 msgid "No active vertex group for painting, aborting"
 msgstr "没有用于绘画的激活顶点组, 操作终止"
 
-#: source/blender/editors/sculpt_paint/sculpt.c:5823
+#: source/blender/editors/sculpt_paint/sculpt.c:5821
 msgid "Warning!"
 msgstr "注意!"
 
-#: source/blender/editors/sculpt_paint/sculpt.c:5844
+#: source/blender/editors/sculpt_paint/sculpt.c:5842
 #: source/blender/windowmanager/intern/wm_operators.c:1212
 msgid "OK"
 msgstr "确定"
 
-#: source/blender/editors/sculpt_paint/sculpt.c:5827
+#: source/blender/editors/sculpt_paint/sculpt.c:5825
 msgid "Vertex Data Detected!"
 msgstr "检测到顶点数据!"
 
-#: source/blender/editors/sculpt_paint/sculpt.c:5828
+#: source/blender/editors/sculpt_paint/sculpt.c:5826
 msgid "Dyntopo will not preserve vertex colors, UVs, or other customdata"
 msgstr "动态拓扑雕刻将不会保留顶点色, UV, 或其他的自定义数据"
 
-#: source/blender/editors/sculpt_paint/sculpt.c:5835
+#: source/blender/editors/sculpt_paint/sculpt.c:5833
 msgid "Generative Modifiers Detected!"
 msgstr "检测到生成修改器!"
 
-#: source/blender/editors/sculpt_paint/sculpt.c:5836
+#: source/blender/editors/sculpt_paint/sculpt.c:5834
 msgid "Keeping the modifiers will increase polycount when returning to object mode"
 msgstr ""
 
-#: source/blender/editors/sculpt_paint/sculpt.c:6105
+#: source/blender/editors/sculpt_paint/sculpt.c:6103
 msgid "non-triangle face"
 msgstr "顶点 (基于三点)"
 
-#: source/blender/editors/sculpt_paint/sculpt.c:6108
+#: source/blender/editors/sculpt_paint/sculpt.c:6106
 msgid "multi-res modifier"
 msgstr "多重修改器"
 
-#: source/blender/editors/sculpt_paint/sculpt.c:6116
+#: source/blender/editors/sculpt_paint/sculpt.c:6114
 msgid "vertex data"
 msgstr "顶点数据"
 
-#: source/blender/editors/sculpt_paint/sculpt.c:6119
+#: source/blender/editors/sculpt_paint/sculpt.c:6117
 msgid "edge data"
 msgstr "边数据"
 
-#: source/blender/editors/sculpt_paint/sculpt.c:6122
+#: source/blender/editors/sculpt_paint/sculpt.c:6120
 msgid "face data"
 msgstr "面数据"
 
-#: source/blender/editors/sculpt_paint/sculpt.c:6125
+#: source/blender/editors/sculpt_paint/sculpt.c:6123
 msgid "constructive modifier"
 msgstr "修改器无法应用至多用户数据"
 
-#: source/blender/editors/sculpt_paint/sculpt.c:6405
+#: source/blender/editors/sculpt_paint/sculpt.c:6403
 msgid "Click on the mesh to set the detail"
 msgstr ""
 
-#: source/blender/editors/sculpt_paint/sculpt.c:6088
+#: source/blender/editors/sculpt_paint/sculpt.c:6086
 msgid "Object has non-uniform scale, sculpting may be unpredictable"
 msgstr ""
 
-#: source/blender/editors/sculpt_paint/sculpt.c:6092
+#: source/blender/editors/sculpt_paint/sculpt.c:6090
 msgid "Object has negative scale, sculpting may be unpredictable"
 msgstr ""
 
-#: source/blender/editors/sculpt_paint/sculpt.c:6147
+#: source/blender/editors/sculpt_paint/sculpt.c:6145
 msgid "Dynamic Topology found: %s, disabled"
 msgstr ""
 
@@ -116612,8 +116606,8 @@ msgstr ""
 msgid "Could not find a valid parent collection for the new duplicate, it won't be linked to any view layer"
 msgstr ""
 
-#: source/blender/editors/space_outliner/outliner_collections.c:595
-msgid "Cannot add a colection to a linked collection/scene"
+#. :src: source/blender/editors/space_outliner/outliner_collections.c:595
+msgid "Cannot add a collection to a linked collection/scene"
 msgstr ""
 
 #: source/blender/editors/space_outliner/outliner_collections.c:328
@@ -116646,112 +116640,112 @@ msgstr ""
 msgid "Can't edit library linked object"
 msgstr "无法编辑关联的网格或曲线数据"
 
-#: source/blender/editors/space_outliner/outliner_draw.c:1023
+#: source/blender/editors/space_outliner/outliner_draw.c:1027
 msgid "Use view layer for rendering"
 msgstr "设置用于渲染的激活图层"
 
-#: source/blender/editors/space_outliner/outliner_draw.c:1059
+#: source/blender/editors/space_outliner/outliner_draw.c:1063
 msgid ""
 "Temporarily hide in viewport\n"
 "* Shift to set children"
 msgstr ""
 
-#: source/blender/editors/space_outliner/outliner_draw.c:1086
+#: source/blender/editors/space_outliner/outliner_draw.c:1090
 msgid ""
 "Disable selection in viewport\n"
 "* Shift to set children"
 msgstr ""
 
-#: source/blender/editors/space_outliner/outliner_draw.c:1111
+#: source/blender/editors/space_outliner/outliner_draw.c:1115
 msgid ""
 "Globally disable in viewports\n"
 "* Shift to set children"
 msgstr ""
 
-#: source/blender/editors/space_outliner/outliner_draw.c:1136
+#: source/blender/editors/space_outliner/outliner_draw.c:1140
 msgid ""
 "Globally disable in renders\n"
 "* Shift to set children"
 msgstr ""
 
-#: source/blender/editors/space_outliner/outliner_draw.c:1217
-#: source/blender/editors/space_outliner/outliner_draw.c:1262
-#: source/blender/editors/space_outliner/outliner_draw.c:1308
+#: source/blender/editors/space_outliner/outliner_draw.c:1221
+#: source/blender/editors/space_outliner/outliner_draw.c:1266
+#: source/blender/editors/space_outliner/outliner_draw.c:1312
 msgid "Restrict visibility in the 3D View"
 msgstr "在视图中限制可见性"
 
-#: source/blender/editors/space_outliner/outliner_draw.c:1238
-#: source/blender/editors/space_outliner/outliner_draw.c:1283
+#: source/blender/editors/space_outliner/outliner_draw.c:1242
+#: source/blender/editors/space_outliner/outliner_draw.c:1287
 msgid "Restrict selection in the 3D View"
 msgstr "在视图中限制可选性"
 
-#: source/blender/editors/space_outliner/outliner_draw.c:1329
+#: source/blender/editors/space_outliner/outliner_draw.c:1333
 msgid "Restrict editing of strokes and keyframes in this layer"
 msgstr ""
 
-#: source/blender/editors/space_outliner/outliner_draw.c:1377
+#: source/blender/editors/space_outliner/outliner_draw.c:1381
 msgid ""
 "Temporarily hide in viewport\n"
 "* Ctrl to isolate collection\n"
 "* Shift to set inside collections and objects"
 msgstr ""
 
-#: source/blender/editors/space_outliner/outliner_draw.c:1406
+#: source/blender/editors/space_outliner/outliner_draw.c:1410
 msgid ""
 "Mask out objects in collection from view layer\n"
 "* Ctrl to isolate collection\n"
 "* Shift to set inside collections"
 msgstr ""
 
-#: source/blender/editors/space_outliner/outliner_draw.c:1436
+#: source/blender/editors/space_outliner/outliner_draw.c:1440
 msgid ""
 "Objects in collection only contribute indirectly (through shadows and reflections) in the view layer\n"
 "* Ctrl to isolate collection\n"
 "* Shift to set inside collections"
 msgstr ""
 
-#: source/blender/editors/space_outliner/outliner_draw.c:1468
+#: source/blender/editors/space_outliner/outliner_draw.c:1472
 msgid ""
 "Globally disable in viewports\n"
 "* Ctrl to isolate collection\n"
 "* Shift to set inside collections and objects"
 msgstr ""
 
-#: source/blender/editors/space_outliner/outliner_draw.c:1505
+#: source/blender/editors/space_outliner/outliner_draw.c:1509
 msgid ""
 "Globally disable in renders\n"
 "* Ctrl to isolate collection\n"
 "* Shift to set inside collections and objects"
 msgstr ""
 
-#: source/blender/editors/space_outliner/outliner_draw.c:1540
+#: source/blender/editors/space_outliner/outliner_draw.c:1544
 msgid ""
 "Disable selection in viewport\n"
 "* Ctrl to isolate collection\n"
 "* Shift to set inside collections and objects"
 msgstr ""
 
-#: source/blender/editors/space_outliner/outliner_draw.c:1600
+#: source/blender/editors/space_outliner/outliner_draw.c:1604
 msgid "Number of users of this data-block"
 msgstr "数据块的用户数量"
 
-#: source/blender/editors/space_outliner/outliner_draw.c:1605
+#: source/blender/editors/space_outliner/outliner_draw.c:1609
 msgid "Data-block will be retained using a fake user"
 msgstr ""
 
-#: source/blender/editors/space_outliner/outliner_draw.c:1609
+#: source/blender/editors/space_outliner/outliner_draw.c:1613
 msgid "Data-block has no users and will be deleted"
 msgstr ""
 
-#: source/blender/editors/space_outliner/outliner_draw.c:1643
+#: source/blender/editors/space_outliner/outliner_draw.c:1647
 msgid "Data-block has a 'fake' user which will keep it in the file even if nothing else uses it"
 msgstr ""
 
-#: source/blender/editors/space_outliner/outliner_draw.c:712
+#: source/blender/editors/space_outliner/outliner_draw.c:716
 msgid "Library path '%s' does not exist, correct this before saving"
 msgstr "库路径 '%s' 不存在, 请在保存前纠正"
 
-#: source/blender/editors/space_outliner/outliner_draw.c:718
+#: source/blender/editors/space_outliner/outliner_draw.c:722
 msgid "Library path '%s' is now valid, please reload the library"
 msgstr ""
 
@@ -117204,87 +117198,87 @@ msgid "No active object found"
 msgstr "没找到物体"
 
 # rblc
-#: source/blender/editors/space_view3d/view3d_draw.c:1110
+#: source/blender/editors/space_view3d/view3d_draw.c:1114
 msgid "Front Orthographic"
 msgstr "前视图"
 
-#: source/blender/editors/space_view3d/view3d_draw.c:1113
+#: source/blender/editors/space_view3d/view3d_draw.c:1117
 msgid "Front Perspective"
 msgstr "前视图"
 
 # rblc
-#: source/blender/editors/space_view3d/view3d_draw.c:1118
+#: source/blender/editors/space_view3d/view3d_draw.c:1122
 msgid "Back Orthographic"
 msgstr "正交"
 
 # rblc
-#: source/blender/editors/space_view3d/view3d_draw.c:1121
+#: source/blender/editors/space_view3d/view3d_draw.c:1125
 msgid "Back Perspective"
 msgstr "后视图"
 
 # rblc
-#: source/blender/editors/space_view3d/view3d_draw.c:1126
+#: source/blender/editors/space_view3d/view3d_draw.c:1130
 msgid "Top Orthographic"
 msgstr "正交"
 
 # rblc
-#: source/blender/editors/space_view3d/view3d_draw.c:1129
+#: source/blender/editors/space_view3d/view3d_draw.c:1133
 msgid "Top Perspective"
 msgstr "是透视效果"
 
-#: source/blender/editors/space_view3d/view3d_draw.c:1134
+#: source/blender/editors/space_view3d/view3d_draw.c:1138
 msgid "Bottom Orthographic"
 msgstr "正交"
 
-#: source/blender/editors/space_view3d/view3d_draw.c:1137
+#: source/blender/editors/space_view3d/view3d_draw.c:1141
 msgid "Bottom Perspective"
 msgstr "是透视效果"
 
 # rblc
-#: source/blender/editors/space_view3d/view3d_draw.c:1142
+#: source/blender/editors/space_view3d/view3d_draw.c:1146
 msgid "Right Orthographic"
 msgstr "正交"
 
-#: source/blender/editors/space_view3d/view3d_draw.c:1145
+#: source/blender/editors/space_view3d/view3d_draw.c:1149
 msgid "Right Perspective"
 msgstr "是透视效果"
 
 # rblc
-#: source/blender/editors/space_view3d/view3d_draw.c:1150
+#: source/blender/editors/space_view3d/view3d_draw.c:1154
 msgid "Left Orthographic"
 msgstr "正交"
 
 # rblc
-#: source/blender/editors/space_view3d/view3d_draw.c:1153
+#: source/blender/editors/space_view3d/view3d_draw.c:1157
 msgid "Left Perspective"
 msgstr "是透视效果"
 
-#: source/blender/editors/space_view3d/view3d_draw.c:1163
+#: source/blender/editors/space_view3d/view3d_draw.c:1167
 msgid "Camera Perspective"
 msgstr "是透视效果"
 
-#: source/blender/editors/space_view3d/view3d_draw.c:1166
+#: source/blender/editors/space_view3d/view3d_draw.c:1170
 msgid "Camera Orthographic"
 msgstr "正交"
 
-#: source/blender/editors/space_view3d/view3d_draw.c:1170
+#: source/blender/editors/space_view3d/view3d_draw.c:1174
 msgid "Camera Panoramic"
 msgstr "全景"
 
-#: source/blender/editors/space_view3d/view3d_draw.c:1174
+#: source/blender/editors/space_view3d/view3d_draw.c:1178
 msgid "Object as Camera"
 msgstr "物体作为相机"
 
 # rblc
-#: source/blender/editors/space_view3d/view3d_draw.c:1178
+#: source/blender/editors/space_view3d/view3d_draw.c:1182
 msgid "User Orthographic"
 msgstr "用户正交"
 
-#: source/blender/editors/space_view3d/view3d_draw.c:1179
+#: source/blender/editors/space_view3d/view3d_draw.c:1183
 msgid "User Perspective"
 msgstr "用户透视"
 
-#: source/blender/editors/space_view3d/view3d_draw.c:1204
+#: source/blender/editors/space_view3d/view3d_draw.c:1208
 msgid "%s (Local)"
 msgstr "%s (局部)"
 
@@ -117843,15 +117837,15 @@ msgstr "无法使用零长度的边"
 msgid "Cannot use zero-area face"
 msgstr "无法使用零区域的面"
 
-#: source/blender/editors/undo/ed_undo.c:125
+#: source/blender/editors/undo/ed_undo.c:129
 msgid "Checking sanity of current .blend file *BEFORE* undo step"
 msgstr ""
 
-#: source/blender/editors/undo/ed_undo.c:225
+#: source/blender/editors/undo/ed_undo.c:229
 msgid "Checking sanity of current .blend file *AFTER* undo step"
 msgstr ""
 
-#: source/blender/editors/undo/ed_undo.c:432
+#: source/blender/editors/undo/ed_undo.c:440
 msgid "Undo disabled at startup"
 msgstr "已关闭"
 
@@ -118430,8 +118424,8 @@ msgstr "相同的输入 / 输出接口方向"
 msgid "Unable to locate link in node tree"
 msgstr "启用合成节点树"
 
-#: source/blender/makesrna/intern/rna_nodetree.c:1761
-#: source/blender/makesrna/intern/rna_nodetree.c:1791
+#: source/blender/makesrna/intern/rna_nodetree.c:1767
+#: source/blender/makesrna/intern/rna_nodetree.c:1797
 msgid "Unable to create socket"
 msgstr "无法创建接口"
 
@@ -118456,7 +118450,7 @@ msgid "Unable to locate node '%s' in node tree"
 msgstr "无法在节点树中找到节点 '%s'"
 
 #: source/blender/makesrna/intern/rna_nodetree.c:1050
-#: source/blender/makesrna/intern/rna_nodetree.c:1807
+#: source/blender/makesrna/intern/rna_nodetree.c:1813
 msgid "Unable to locate socket '%s' in node"
 msgstr "无法在节点上找到接口 '%s'"
 
@@ -118464,7 +118458,7 @@ msgstr "无法在节点上找到接口 '%s'"
 msgid "Registering node class: '%s' is too long, maximum length is %d"
 msgstr "注册节点类: '%s' 过长, 最大长度为 %d"
 
-#: source/blender/makesrna/intern/rna_nodetree.c:2022
+#: source/blender/makesrna/intern/rna_nodetree.c:2028
 msgid "Registering node socket class: '%s' is too long, maximum length is %d"
 msgstr "注册节点插口类: '%s' 过长, 最大长度为 %d"
 
@@ -118472,8 +118466,8 @@ msgstr "注册节点插口类: '%s' 过长, 最大长度为 %d"
 msgid "Can only assign evaluated data to evaluated object, or original data to original object"
 msgstr ""
 
-#: source/blender/makesrna/intern/rna_object.c:640
-msgid "Only empty objects support group instances"
+#. :src: source/blender/makesrna/intern/rna_object.c:640
+msgid "Only empty objects support collection instances"
 msgstr ""
 
 #: source/blender/makesrna/intern/rna_object.c:644
@@ -119888,11 +119882,11 @@ msgstr "关"
 msgid "unsupported format"
 msgstr "格式不支持"
 
-#: source/blender/windowmanager/intern/wm_operators.c:2030
+#: source/blender/windowmanager/intern/wm_operators.c:2015
 msgid "Toggle System Console"
 msgstr "切换系统控制台"
 
-#: source/blender/windowmanager/intern/wm_operators.c:2028
+#: source/blender/windowmanager/intern/wm_operators.c:2013
 msgctxt "Operator"
 msgid "Toggle System Console"
 msgstr "切换系统控制台"
@@ -119901,19 +119895,19 @@ msgstr "切换系统控制台"
 msgid "No operator in context"
 msgstr "环境中不含操作项"
 
-#: source/blender/windowmanager/intern/wm_operators.c:2448
+#: source/blender/windowmanager/intern/wm_operators.c:2433
 msgid "Property cannot be both boolean and float"
 msgstr "无法同时具有布尔型与浮点型双重属性"
 
-#: source/blender/windowmanager/intern/wm_operators.c:2606
+#: source/blender/windowmanager/intern/wm_operators.c:2591
 msgid "Pointer from path image_id is not an ID"
 msgstr "image_id路径中的指针不是一个ID"
 
-#: source/blender/windowmanager/intern/wm_operators.c:2655
+#: source/blender/windowmanager/intern/wm_operators.c:2640
 msgid "Property must be an integer or a float"
 msgstr "属性须为整型或浮点型"
 
-#: source/blender/windowmanager/intern/wm_operators.c:2676
+#: source/blender/windowmanager/intern/wm_operators.c:2661
 msgid "Property must be a none, distance, factor, percentage, angle, or pixel"
 msgstr "属性须为空, 距离, 系数或角度"
 
@@ -119953,19 +119947,19 @@ msgstr "操作项 '%s' 未启用注册, 调用函数有误"
 msgid "Operator redo '%s': wrong context"
 msgstr "操作项 redo '%s': 环境有误"
 
-#: source/blender/windowmanager/intern/wm_operators.c:2476
+#: source/blender/windowmanager/intern/wm_operators.c:2461
 msgid "Could not resolve path '%s'"
 msgstr "未能分解路径 '%s'"
 
-#: source/blender/windowmanager/intern/wm_operators.c:2488
+#: source/blender/windowmanager/intern/wm_operators.c:2473
 msgid "Property from path '%s' is not a float"
 msgstr "路径 '%s' 中的属性不是浮动型"
 
-#: source/blender/windowmanager/intern/wm_operators.c:2496
+#: source/blender/windowmanager/intern/wm_operators.c:2481
 msgid "Property from path '%s' has length %d instead of %d"
 msgstr "路径 '%s' 的属性长度为 %d 而非 %d"
 
-#: source/blender/windowmanager/intern/wm_operators.c:3198
+#: source/blender/windowmanager/intern/wm_operators.c:3183
 msgid "%d x %s: %.4f ms, average: %.8f ms"
 msgstr ""
 
@@ -119993,19 +119987,19 @@ msgstr ""
 msgid "Stereo 3D Mode requires the window to be fullscreen"
 msgstr ""
 
-#: source/blender/windowmanager/intern/wm_window.c:902
+#: source/blender/windowmanager/intern/wm_window.c:908
 msgid "Blender Render"
 msgstr "Blender渲染"
 
-#: source/blender/windowmanager/intern/wm_window.c:905
+#: source/blender/windowmanager/intern/wm_window.c:911
 msgid "Blender Preferences"
 msgstr "Blender设置"
 
-#: source/blender/windowmanager/intern/wm_window.c:908
+#: source/blender/windowmanager/intern/wm_window.c:914
 msgid "Blender File View"
 msgstr "Blender文件视图"
 
-#: source/blender/windowmanager/intern/wm_window.c:911
+#: source/blender/windowmanager/intern/wm_window.c:917
 msgid "Blender Drivers Editor"
 msgstr "Blender设备编辑器"
 
