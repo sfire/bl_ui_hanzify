@@ -40356,9 +40356,8 @@ msgstr "显示 / 隐藏"
 
 #. :src: bpy.types.CLIP_MT_tracking_context_menu
 #: source/blender/editors/space_buttons/buttons_ops.c:58
-#, fuzzy
 msgid "Context Menu"
-msgstr "枚举菜单情境"
+msgstr "上下文菜单"
 
 #. :src: bpy.types.CLIP_MT_tracking_pie
 #. :src: bpy.types.CLIP_OT_mode_set.mode:'TRACKING'
@@ -55070,7 +55069,7 @@ msgstr "将镂板变换重置为缺省"
 #. :src: bpy.types.OUTLINER_OT_operation
 msgctxt "Operator"
 msgid "Context Menu"
-msgstr "绘制上下文菜单"
+msgstr "上下文菜单"
 
 #. :src: bpy.types.BUTTONS_OT_context_menu
 msgid "Display properties editor context_menu"
@@ -105710,21 +105709,18 @@ msgid "Parent"
 msgstr "父级"
 
 #: scripts/startup/bl_ui/properties_mask_common.py:286
-#, fuzzy
 msgid "Animation:"
-msgstr "动画"
+msgstr "动画:"
 
 #: scripts/startup/bl_ui/properties_mask_common.py:288
-#, fuzzy
 msgctxt "Operator"
 msgid "Insert Key"
 msgstr "插入关键帧"
 
 #: scripts/startup/bl_ui/properties_mask_common.py:289
-#, fuzzy
 msgctxt "Operator"
 msgid "Clear Key"
-msgstr "色彩抠像"
+msgstr "清除关键帧"
 
 #: scripts/startup/bl_ui/properties_mask_common.py:290
 #: scripts/startup/bl_ui/space_clip.py:1504
@@ -105977,7 +105973,7 @@ msgstr "切向阶段"
 
 #: scripts/startup/bl_ui/properties_particle.py:601
 msgid "Randomize Phase "
-msgstr "随机化阶段"
+msgstr "随机化阶段 "
 
 #: scripts/startup/bl_ui/properties_particle.py:1229
 msgid "Render As"
@@ -114061,7 +114057,7 @@ msgstr "无法在编辑模式下合并"
 
 #: source/blender/editors/mesh/meshtools.c:309
 msgid "Active object is not a mesh"
-msgstr "活动的物体不是网格物体"
+msgstr "活动物体不是网格物体"
 
 #: source/blender/editors/mesh/meshtools.c:340
 msgid "Active object is not a selected mesh"
@@ -114560,11 +114556,11 @@ msgstr "无法在编辑模式下应用修改器"
 
 #: source/blender/editors/object/object_modifier.c:767
 msgid "Constructive modifier cannot be applied to multi-res data in sculpt mode"
-msgstr "修改器无法应用至多用户数据"
+msgstr "构造修改器无法应用至雕刻模式下的多精度数据数据"
 
 #: source/blender/editors/object/object_modifier.c:1395
 msgid "Reshape can work only with higher levels of subdivisions"
-msgstr "添加一个等级的细分"
+msgstr ""
 
 #: source/blender/editors/object/object_modifier.c:1408
 msgid "Second selected mesh object required to copy shape from"
@@ -114591,7 +114587,7 @@ msgstr "确定?"
 #: source/blender/editors/object/object_relations.c:1011
 #: source/blender/editors/space_outliner/outliner_dragdrop.c:410
 msgid "Set Parent To"
-msgstr "父级设置目标"
+msgstr "设置父级目标"
 
 #: source/blender/editors/object/object_relations.c:1024
 msgid "Object (Keep Transform)"
@@ -114599,7 +114595,7 @@ msgstr "物体 (保持变换)"
 
 #: source/blender/editors/object/object_relations.c:1035
 msgid "Object (Without Inverse)"
-msgstr "不使用反转方式建立父子关系"
+msgstr "物体(无反向)"
 
 #: source/blender/editors/object/object_relations.c:268
 msgid "Select either 1 or 3 vertices to parent to"
@@ -114613,7 +114609,7 @@ msgstr "在父级中循环"
 
 #: source/blender/editors/object/object_relations.c:367
 msgid "Can only make proxy for a referenced object or collection"
-msgstr "只能为参考物体或组创建代理"
+msgstr "只能为参考物体或集合创建代理"
 
 #: source/blender/editors/object/object_relations.c:417
 msgid "No object to make proxy for"
@@ -114625,7 +114621,7 @@ msgstr "无活动骨骼"
 
 #: source/blender/editors/object/object_relations.c:972
 msgid "Not enough vertices for vertex-parent"
-msgstr "创建父级顶点"
+msgstr "无足够用作父级的顶点"
 
 #: source/blender/editors/object/object_relations.c:1219
 #: source/blender/editors/object/object_transform.c:987
@@ -114659,15 +114655,15 @@ msgstr "只能为参考物体或组创建代理"
 
 #: source/blender/editors/object/object_relations.c:2703
 msgid "Incorrect context for running object data unlink"
-msgstr "未关联字体的运行环境不正确"
+msgstr "未关联物体数据的运行环境不正确"
 
 #: source/blender/editors/object/object_relations.c:2719
 msgid "Can't unlink this object data"
-msgstr "断开活动标注数据块的关联"
+msgstr "无法断开该物体数据的关联"
 
 #: source/blender/editors/object/object_select.c:867
 msgid "Select Collection"
-msgstr "选择集合中的物体"
+msgstr "选择集合"
 
 #: source/blender/editors/object/object_select.c:660
 #: source/blender/editors/object/object_select.c:1053
@@ -114680,23 +114676,23 @@ msgstr ""
 
 #: source/blender/editors/object/object_select.c:1090
 msgid "Active object must be a light"
-msgstr "添加光照探头物体"
+msgstr "活动物体必须是灯光"
 
 #: source/blender/editors/object/object_shader_fx.c:77
 msgid "Only one Effect of this type is allowed"
-msgstr "只允许一种当前类型的修改器"
+msgstr "只允许一种当前类型的效果"
 
 #: source/blender/editors/object/object_shader_fx.c:71
 msgid "Effect cannot be added to object '%s'"
-msgstr "无法为物体 '%s' 添加修改器"
+msgstr "无法为物体 '%s' 添加效果"
 
 #: source/blender/editors/object/object_shader_fx.c:149
 msgid "Effect '%s' not in object '%s'"
-msgstr "修改器 '%s' 未作用于物体 '%s'"
+msgstr "效果 '%s' 未作用于物体 '%s'"
 
 #: source/blender/editors/object/object_shader_fx.c:298
 msgid "Context missing 'shaderfx'"
-msgstr "正文中缺少'shaderfx'"
+msgstr "上下文中缺少'shaderfx'"
 
 #: source/blender/editors/object/object_shader_fx.c:313
 msgid "Cannot edit shaderfxs coming from library override"
@@ -114760,11 +114756,11 @@ msgstr "|%i 多用户的骨骼物体"
 
 #: source/blender/editors/object/object_vgroup.c:1628
 msgid "No vertex groups to operate on"
-msgstr "将 OBJ 组导入为顶点组"
+msgstr "无可供操作的顶点组"
 
 #: source/blender/editors/object/object_vgroup.c:1651
 msgid "All groups are locked"
-msgstr "全部组"
+msgstr "全部组均已锁定"
 
 #: source/blender/editors/object/object_vgroup.c:3130
 msgid "This operator does not support an active mirror modifier"
@@ -114812,7 +114808,7 @@ msgstr "移除了 %d 个重叠粒子"
 
 #: source/blender/editors/physics/particle_object.c:958
 msgid "No hair connected (can't connect hair if particle system modifier is disabled)"
-msgstr "如果粒子系统修改器为禁用状态, 则无法断开毛发系统"
+msgstr "无相连的毛发(如果粒子系统修改器为禁用状态, 则无法连接毛发)"
 
 #: source/blender/editors/physics/particle_object.c:1272
 msgid "Copy particle systems to selected: %d done, %d failed"
@@ -115112,7 +115108,7 @@ msgstr "帧: %d "
 
 #: source/blender/editors/render/render_internal.c:465
 msgid "| Mem:%.2fM (%.2fM, Peak %.2fM) "
-msgstr "| 内存: %.2fM (%.2fM, 峰值: %.2fM) "
+msgstr "| 内存: %.2fM (%.2fM, 峰值 %.2fM) "
 
 #: source/blender/editors/render/render_internal.c:471
 msgid "| Mem:%.2fM, Peak: %.2fM "
@@ -115149,7 +115145,7 @@ msgstr "场景中没有相机"
 #: source/blender/editors/render/render_opengl.c:794
 #: source/blender/render/intern/source/pipeline.c:2526
 msgid "Movie format unsupported"
-msgstr "影片剪辑格式不支持"
+msgstr "不受支持的影片格式"
 
 #: source/blender/editors/render/render_opengl.c:579
 msgid "Failed to create OpenGL off-screen buffer, %s"
@@ -115181,19 +115177,19 @@ msgstr ""
 
 #: source/blender/editors/render/render_shading.c:1398
 msgid "Unknown line color modifier type"
-msgstr "色彩修改器类型"
+msgstr "未知线条色彩修改器类型"
 
 #: source/blender/editors/render/render_shading.c:1439
 msgid "Unknown alpha transparency modifier type"
-msgstr "Alpha 修改器类型"
+msgstr "未知Alpha 透明修改器类型"
 
 #: source/blender/editors/render/render_shading.c:1480
 msgid "Unknown line thickness modifier type"
-msgstr "线条样式粗细度修改器"
+msgstr "未知线宽修改器类型"
 
 #: source/blender/editors/render/render_shading.c:1521
 msgid "Unknown stroke geometry modifier type"
-msgstr "用于定义笔触几何形状修改器的基型"
+msgstr "未知笔画几何形状修改器类型"
 
 #: source/blender/editors/render/render_shading.c:1593
 #: source/blender/editors/render/render_shading.c:1643
@@ -115214,7 +115210,7 @@ msgstr "打开窗口失败"
 
 #: source/blender/editors/scene/scene_edit.c:164
 msgid "View layer '%s' could not be removed from scene '%s'"
-msgstr "无法将渲染层 '%s' 从场景 '%s' 中移除"
+msgstr "无法将视图层 '%s' 从场景 '%s' 中移除"
 
 #: source/blender/editors/screen/screen_ops.c:3955
 #: source/blender/editors/screen/screen_ops.c:4001
@@ -115228,11 +115224,11 @@ msgstr "在顶部显示"
 
 #: source/blender/editors/screen/screen_ops.c:3961
 msgid "Show Header"
-msgstr "显示标题栏菜单"
+msgstr "显示标题栏"
 
 #: source/blender/editors/screen/screen_ops.c:3969
 msgid "Show Tool Settings"
-msgstr "工具设置"
+msgstr "显示工具设置"
 
 #: source/blender/editors/screen/screen_ops.c:3992
 #: source/blender/editors/screen/screen_ops.c:4019
@@ -115246,15 +115242,15 @@ msgstr "区域最大化"
 
 #: source/blender/editors/screen/screen_ops.c:4006
 msgid "Show Footer"
-msgstr "显示"
+msgstr "显示底栏"
 
 #: source/blender/editors/screen/screen_ops.c:4027
 msgid "Flip to Right"
-msgstr "右视图"
+msgstr "翻转至右侧"
 
 #: source/blender/editors/screen/screen_ops.c:4028
 msgid "Flip to Left"
-msgstr "左视图"
+msgstr "翻转至左侧"
 
 #: source/blender/editors/screen/screen_ops.c:2471
 msgid "Can only scale region size from an action zone"
@@ -115310,25 +115306,24 @@ msgstr ""
 
 #: source/blender/editors/screen/screen_user_menu.c:291
 msgid "No menu items found"
-msgstr "未找到菜单 \"%s\""
+msgstr "未找到菜单条目"
 
 #: source/blender/editors/screen/screen_user_menu.c:292
 msgid "Right click on buttons to add them to this menu"
 msgstr ""
 
 #: source/blender/editors/screen/screen_user_menu.c:300
-#, fuzzy
 msgid "Quick Favorites"
-msgstr "添加到快速收藏夹"
+msgstr "快速收藏夹"
 
 #: source/blender/editors/screen/workspace_edit.c:508
 msgctxt "Operator"
 msgid "Duplicate Current"
-msgstr "复制当前行"
+msgstr "复制当前"
 
 #: source/blender/editors/sculpt_paint/paint_image.c:954
 msgid "Sample color for %s"
-msgstr ""
+msgstr "为 %s 采样颜色"
 
 #: source/blender/editors/sculpt_paint/paint_image.c:956
 msgid "Brush. Use Left Click to sample for palette instead"
@@ -115395,19 +115390,19 @@ msgstr "无法创建 OpenGL 离线缓存: %s"
 
 #: source/blender/editors/sculpt_paint/paint_image_proj.c:6281
 msgid "Missing%s%s%s%s detected!"
-msgstr ""
+msgstr "检测到 %s%s%s%s 缺失!"
 
 #: source/blender/editors/sculpt_paint/paint_vertex.c:1540
 msgid "Active group is locked, aborting"
-msgstr "激活的组被锁定, 操作终止"
+msgstr "活动组被锁定, 操作终止"
 
 #: source/blender/editors/sculpt_paint/paint_vertex.c:1546
 msgid "Mirror group is locked, aborting"
-msgstr "激活的组被锁定, 操作终止"
+msgstr "镜像组被锁定, 操作终止"
 
 #: source/blender/editors/sculpt_paint/paint_vertex.c:1569
 msgid "Multipaint group is locked, aborting"
-msgstr "激活的组被锁定, 操作终止"
+msgstr "多精度绘制组被锁定, 操作终止"
 
 #: source/blender/editors/sculpt_paint/paint_vertex_weight_ops.c:209
 msgid "The modifier used does not support deformed locations"
@@ -115444,11 +115439,11 @@ msgstr ""
 
 #: source/blender/editors/sculpt_paint/sculpt.c:6103
 msgid "non-triangle face"
-msgstr "顶点 (基于三点)"
+msgstr "非三角面"
 
 #: source/blender/editors/sculpt_paint/sculpt.c:6106
 msgid "multi-res modifier"
-msgstr "多重修改器"
+msgstr "多级精度修改器"
 
 #: source/blender/editors/sculpt_paint/sculpt.c:6114
 msgid "vertex data"
@@ -115464,7 +115459,7 @@ msgstr "面数据"
 
 #: source/blender/editors/sculpt_paint/sculpt.c:6123
 msgid "constructive modifier"
-msgstr "修改器无法应用至多用户数据"
+msgstr "构造修改器"
 
 #: source/blender/editors/sculpt_paint/sculpt.c:6403
 msgid "Click on the mesh to set the detail"
@@ -115541,7 +115536,7 @@ msgstr ""
 
 #: source/blender/editors/space_action/action_edit.c:1543
 msgid "Not implemented for Masks"
-msgstr "还未部署"
+msgstr "还对遮罩未部署"
 
 #: source/blender/editors/space_buttons/buttons_context.c:1182
 msgid "Follow context or keep fixed data-block displayed"
@@ -115553,11 +115548,11 @@ msgstr "无法激活文件的选择器，一个已经被打开"
 
 #: source/blender/editors/space_buttons/buttons_texture.c:275
 msgid "Texture Field"
-msgstr "纹理力场"
+msgstr ""
 
 #: source/blender/editors/space_buttons/buttons_texture.c:296
 msgid "Brush Mask"
-msgstr "遮罩"
+msgstr "笔刷遮罩"
 
 #: source/blender/editors/space_buttons/buttons_texture.c:485
 msgid "No textures in context"
@@ -115565,11 +115560,11 @@ msgstr "上下文无纹理"
 
 #: source/blender/editors/space_buttons/buttons_texture.c:584
 msgid "Show texture in texture tab"
-msgstr "视图中显示纹理"
+msgstr "在纹理选项卡中显示纹理"
 
 #: source/blender/editors/space_buttons/buttons_texture.c:275
 msgid "Fields"
-msgstr "视频场"
+msgstr "场"
 
 #: source/blender/editors/space_clip/clip_buttons.c:498
 msgid "Track is locked"
@@ -115645,7 +115640,7 @@ msgstr "屏幕坐标中的标记搜索块高度"
 
 #: source/blender/editors/space_clip/clip_buttons.c:816
 msgid "%d x %d"
-msgstr ""
+msgstr "%d x %d"
 
 #: source/blender/editors/space_clip/clip_buttons.c:822
 msgid ", %d float channel(s)"
@@ -115669,7 +115664,7 @@ msgstr ", RGB 字节"
 
 #: source/blender/editors/space_clip/clip_buttons.c:845
 msgid ", %.2f fps"
-msgstr ""
+msgstr ", %.2f fps"
 
 #: source/blender/editors/space_clip/clip_buttons.c:850
 msgid ", failed to load"
@@ -115757,11 +115752,11 @@ msgstr "二次投射的平均误差: %.3f"
 
 #: source/blender/editors/space_file/file_draw.c:269
 msgid "Parent Directory"
-msgstr "移动到父级目录"
+msgstr "父级目录"
 
 #: source/blender/editors/space_file/file_draw.c:272
 msgid "Open Directory"
-msgstr "无法打开文件夹 %s"
+msgstr "打开目录"
 
 #: source/blender/editors/space_file/file_draw.c:295
 #: source/blender/windowmanager/intern/wm_files.c:2976
@@ -115790,7 +115785,7 @@ msgstr "文件名"
 
 #: source/blender/editors/space_file/file_ops.c:1854
 msgid "File does not exist"
-msgstr "驱动中无此变量"
+msgstr "此文件不存在"
 
 #: source/blender/editors/space_file/file_ops.c:1919
 msgid "No parent directory given"
@@ -115806,11 +115801,11 @@ msgstr ""
 
 #: source/blender/editors/space_file/file_ops.c:1958
 msgid "Could not create new folder: %s"
-msgstr ""
+msgstr "无法创建新文件夹: %s"
 
 #: source/blender/editors/space_file/file_ops.c:2479
 msgid "Could not delete file: %s"
-msgstr "无法加载 '%s' 文件"
+msgstr "无法删除文件: %s"
 
 #: source/blender/editors/space_graph/graph_buttons.c:132
 msgid "Cursor from Selection"
@@ -115844,7 +115839,7 @@ msgstr "插值类型:"
 
 #: source/blender/editors/space_graph/graph_buttons.c:373
 msgid "None for Enum/Boolean"
-msgstr "布尔"
+msgstr ""
 
 #: source/blender/editors/space_graph/graph_buttons.c:406
 msgid "Key:"
@@ -115896,27 +115891,24 @@ msgid "Expression:"
 msgstr "表达式:"
 
 #: source/blender/editors/space_graph/graph_buttons.c:1017
-#, fuzzy
 msgid "Add Input Variable"
-msgstr "添加变量"
+msgstr "添加输入变量"
 
 #: source/blender/editors/space_graph/graph_buttons.c:1174
 msgid "Update Dependencies"
-msgstr "更新相关性"
+msgstr "更新依赖"
 
 #: source/blender/editors/space_graph/graph_buttons.c:1267
-#, fuzzy
 msgid "Driven Property:"
-msgstr "字符串型属性"
+msgstr "被驱动属性:"
 
 #: source/blender/editors/space_graph/graph_buttons.c:1275
-#, fuzzy
 msgid "Driver Settings:"
-msgstr "视图设置"
+msgstr "驱动器设置:"
 
 #: source/blender/editors/space_graph/graph_buttons.c:1281
 msgid "Show in Drivers Editor"
-msgstr ""
+msgstr "在驱动器编辑器中显示"
 
 #: source/blender/editors/space_graph/graph_buttons.c:1323
 #: source/blender/editors/space_nla/nla_buttons.c:503
@@ -115933,7 +115925,7 @@ msgstr ""
 
 #: source/blender/editors/space_graph/graph_buttons.c:962
 msgid "Slow Python expression"
-msgstr "错误: Python 表达式无效"
+msgstr "拖慢Python 表达式"
 
 #: source/blender/editors/space_graph/graph_buttons.c:969
 msgid "WARNING: Driver expression may not work correctly"
@@ -115985,7 +115977,7 @@ msgstr "驱动器"
 
 #: source/blender/editors/space_graph/graph_buttons.c:1387
 msgid "Add/Edit Driver"
-msgstr "添加驱动器"
+msgstr "添加/编辑驱动器"
 
 #: source/blender/editors/space_graph/graph_buttons.c:1408
 msgid "View Properties"
@@ -115994,7 +115986,7 @@ msgstr "查看属性"
 #: source/blender/editors/space_graph/graph_buttons.c:661
 msgctxt "Operator"
 msgid "Invalid Variable Name"
-msgstr "驱动变量"
+msgstr "无效的变量名"
 
 #: source/blender/editors/space_graph/graph_edit.c:2106
 msgid "<No ID>"
@@ -116006,11 +115998,11 @@ msgstr ""
 
 #: source/blender/editors/space_graph/graph_edit.c:629
 msgid "No selected F-Curves to add keyframes to"
-msgstr "仅关键帧和已选择的函数曲线为可见并且允许编辑"
+msgstr "无可供插入关键帧的已选函数曲线"
 
 #: source/blender/editors/space_graph/graph_edit.c:632
 msgid "No channels to add keyframes to"
-msgstr "仅选定通道的关键帧"
+msgstr "无可供插入关键帧的已选通道"
 
 #: source/blender/editors/space_graph/graph_edit.c:848
 msgid "Keyframes cannot be added to sampled F-Curves"
@@ -116056,7 +116048,7 @@ msgstr "无可供粘贴的函数曲线修改器"
 
 #: source/blender/editors/space_graph/graph_edit.c:1442
 msgid "File not found '%s'"
-msgstr "未找到项: %s"
+msgstr "未找到文件: '%s'"
 
 #: source/blender/editors/space_graph/graph_edit.c:2103
 msgid "Euler Rotation F-Curve has invalid index (ID='%s', Path='%s', Index=%d)"
@@ -116073,7 +116065,7 @@ msgstr "槽 %d"
 
 #: source/blender/editors/space_image/image_buttons.c:859
 msgid "Discard"
-msgstr "放弃修改"
+msgstr "丢弃"
 
 #: source/blender/editors/space_image/image_buttons.c:1060
 msgid "Hard coded Non-Linear, Gamma:1.7"
@@ -116093,9 +116085,8 @@ msgstr "选择通道"
 
 #: source/blender/editors/space_image/image_buttons.c:691
 #: source/blender/editors/space_image/image_buttons.c:720
-#, fuzzy
 msgid "Select View"
-msgstr "连接行号"
+msgstr "连接视图"
 
 #: source/blender/editors/space_image/image_buttons.c:1211
 msgid "Can't Load Image"
@@ -116131,20 +116122,20 @@ msgstr " + Z"
 
 #: source/blender/editors/space_image/image_buttons.c:1263
 msgid "Frame %d / %d"
-msgstr "帧: %d / %d"
+msgstr "帧 %d / %d"
 
 #: source/blender/editors/space_image/image_buttons.c:1269
 msgid "Frame %d: %s"
-msgstr "帧: %d (%s)"
+msgstr "帧 %d : %s"
 
 #: source/blender/editors/space_image/image_buttons.c:1273
 msgid "Frame %d"
-msgstr "帧: %d"
+msgstr "帧 %d"
 
 #: source/blender/editors/space_image/image_ops.c:1236
 #: source/blender/makesrna/intern/rna_main_api.c:405
 msgid "unsupported image format"
-msgstr "图像格式不支持"
+msgstr "图像格式不受支持"
 
 #: source/blender/editors/space_image/image_ops.c:2165
 msgid "Can only save sequence on image sequences"
@@ -116278,11 +116269,11 @@ msgstr ""
 
 #: source/blender/editors/space_info/info_stats.c:542
 msgid "Verts:%s | Tris:%s%s"
-msgstr "顶点:%s | 三角:%s%s"
+msgstr "顶点:%s | 三角面:%s%s"
 
 #: source/blender/editors/space_info/info_stats.c:550
 msgid "Verts:%s | Faces:%s | Tris:%s | Objects:%s/%s%s%s"
-msgstr "点:%s/%s | 边:%s/%s | 面:%s/%s | 三角:%s"
+msgstr "点:%s | 边:%s | 三角面:%s | 物体:%s/%s%s%s"
 
 #: source/blender/editors/space_nla/nla_buttons.c:358
 msgid "Strip Extents:"
@@ -116482,15 +116473,15 @@ msgstr "中间调"
 
 #: source/blender/editors/space_node/drawnode.c:2661
 msgid "Matte Objects:"
-msgstr "蒙版:"
+msgstr "蒙版物体:"
 
 #: source/blender/editors/space_node/drawnode.c:2674
 msgid "Add Crypto Layer"
-msgstr "添加遮罩层"
+msgstr "添加Crypto层"
 
 #: source/blender/editors/space_node/drawnode.c:2675
 msgid "Remove Crypto Layer"
-msgstr "移除遮罩层"
+msgstr "移除Crypto层"
 
 #: source/blender/editors/space_node/drawnode.c:3133
 #: source/blender/editors/space_node/drawnode.c:3151
@@ -116588,7 +116579,7 @@ msgstr "将连接到节点输入端上的连线断开"
 
 #: source/blender/editors/space_outliner/outliner_collections.c:195
 msgid "More than one collection is selected"
-msgstr "有多个可用的渲染引擎"
+msgstr "有多个集合被选中"
 
 #: source/blender/editors/space_outliner/outliner_collections.c:205
 msgid "Can't add a new collection to linked scene/collection"
@@ -116596,7 +116587,7 @@ msgstr ""
 
 #: source/blender/editors/space_outliner/outliner_collections.c:504
 msgid "No active collection"
-msgstr "没活动集合"
+msgstr "无活动集合"
 
 #: source/blender/editors/space_outliner/outliner_collections.c:528
 msgid "Can't duplicate the master collection"
@@ -116616,20 +116607,20 @@ msgstr ""
 
 #: source/blender/editors/space_outliner/outliner_dragdrop.c:804
 msgid "Link inside Collection"
-msgstr "关联至集合"
+msgstr "关联内部集合"
 
 #: source/blender/editors/space_outliner/outliner_dragdrop.c:812
 #: source/blender/editors/space_outliner/outliner_dragdrop.c:822
 msgid "Move between collections"
-msgstr "集合"
+msgstr "在集合之间移动"
 
 #: source/blender/editors/space_outliner/outliner_dragdrop.c:815
 msgid "Move before collection"
-msgstr "移动到集合"
+msgstr "移动到集合前"
 
 #: source/blender/editors/space_outliner/outliner_dragdrop.c:825
 msgid "Move after collection"
-msgstr "移动到集合"
+msgstr "移动到集合后"
 
 #: source/blender/editors/space_outliner/outliner_dragdrop.c:831
 msgid "Move inside collection (Ctrl to link, Shift to parent)"
@@ -116638,11 +116629,11 @@ msgstr ""
 #: source/blender/editors/space_outliner/outliner_dragdrop.c:343
 #: source/blender/editors/space_outliner/outliner_dragdrop.c:377
 msgid "Can't edit library linked object"
-msgstr "无法编辑关联的网格或曲线数据"
+msgstr "无法编辑与物体关联的库"
 
 #: source/blender/editors/space_outliner/outliner_draw.c:1027
 msgid "Use view layer for rendering"
-msgstr "设置用于渲染的激活图层"
+msgstr "使用用于渲染的视图层"
 
 #: source/blender/editors/space_outliner/outliner_draw.c:1063
 msgid ""
@@ -116672,12 +116663,12 @@ msgstr ""
 #: source/blender/editors/space_outliner/outliner_draw.c:1266
 #: source/blender/editors/space_outliner/outliner_draw.c:1312
 msgid "Restrict visibility in the 3D View"
-msgstr "在视图中限制可见性"
+msgstr "在3D视图中限制可见性"
 
 #: source/blender/editors/space_outliner/outliner_draw.c:1242
 #: source/blender/editors/space_outliner/outliner_draw.c:1287
 msgid "Restrict selection in the 3D View"
-msgstr "在视图中限制可选性"
+msgstr "在3D视图中限制可选性"
 
 #: source/blender/editors/space_outliner/outliner_draw.c:1333
 msgid "Restrict editing of strokes and keyframes in this layer"
@@ -116755,7 +116746,7 @@ msgstr ").点击此处继续..."
 
 #: source/blender/editors/space_outliner/outliner_edit.c:221
 msgid "Active object mode not changed"
-msgstr "物体模式"
+msgstr "未改变活动物体模式"
 
 #: source/blender/editors/space_outliner/outliner_edit.c:289
 msgid "Cannot edit builtin name"
@@ -116767,7 +116758,7 @@ msgstr "无法编辑序列的名称"
 
 #: source/blender/editors/space_outliner/outliner_edit.c:298
 msgid "Cannot edit name of master collection"
-msgstr "无法编辑序列的名称"
+msgstr "无法主集合的名称"
 
 #: source/blender/editors/space_outliner/outliner_edit.c:308
 msgid "Cannot edit the path of an indirectly linked library"
@@ -116775,11 +116766,11 @@ msgstr "无法编辑这个间接链接库的路径"
 
 #: source/blender/editors/space_outliner/outliner_edit.c:705
 msgid "No selected data-blocks to copy"
-msgstr "蜡笔数据块"
+msgstr "无可供复制的已选数据块"
 
 #: source/blender/editors/space_outliner/outliner_edit.c:740
 msgid "No data to paste"
-msgstr "没有要粘贴的数据"
+msgstr "没有可供粘贴的数据"
 
 #: source/blender/editors/space_outliner/outliner_edit.c:2014
 msgid "Operation requires an active keying set"
@@ -116788,7 +116779,7 @@ msgstr "操作需要一个活动的插帧集"
 #: source/blender/editors/space_outliner/outliner_edit.c:2123
 #: source/blender/editors/space_outliner/outliner_edit.c:2169
 msgid "No orphanned data-blocks to purge"
-msgstr "蜡笔数据块"
+msgstr "无可清理的孤立数据块"
 
 #: source/blender/editors/space_outliner/outliner_edit.c:398
 #: source/blender/editors/space_outliner/outliner_edit.c:439
@@ -116817,13 +116808,13 @@ msgstr ""
 
 #: source/blender/editors/space_outliner/outliner_edit.c:746
 msgid "%d data-blocks pasted"
-msgstr ""
+msgstr "已粘贴数据块 %d"
 
 #: source/blender/editors/space_outliner/outliner_edit.c:812
 #: source/blender/windowmanager/intern/wm_files_link.c:674
 #: source/blender/windowmanager/intern/wm_files_link.c:952
 msgid "Cannot relocate indirectly linked library '%s'"
-msgstr ""
+msgstr "无法直接重定位关联库 '%s'"
 
 #: source/blender/editors/space_outliner/outliner_edit.c:1410
 msgid "Not found: %s"
@@ -116831,7 +116822,7 @@ msgstr "未找到项: %s"
 
 #: source/blender/editors/space_outliner/outliner_edit.c:2176
 msgid "Deleted %d data-blocks"
-msgstr ""
+msgstr "已删除 %d 数据块"
 
 #: source/blender/editors/space_outliner/outliner_tools.c:2193
 #: source/blender/editors/space_outliner/outliner_tools.c:2206
@@ -116878,11 +116869,11 @@ msgstr "无法加载 '%s' 文件"
 
 #: source/blender/editors/space_sequencer/sequencer_edit.c:1616
 msgid "Trim offset: %s"
-msgstr ""
+msgstr "修剪偏移量: %s"
 
 #: source/blender/editors/space_sequencer/sequencer_edit.c:1619
 msgid "Trim offset: %d"
-msgstr ""
+msgstr "修剪偏移量: %d"
 
 #: source/blender/editors/space_sequencer/sequencer_edit.c:566
 msgid "Cannot apply effects to audio sequence strips"
@@ -116932,7 +116923,7 @@ msgstr "新的特效需要更多的输入片段"
 
 #: source/blender/editors/space_sequencer/sequencer_edit.c:4089
 msgid "Can't create subtitle file"
-msgstr "无法创建导出文件"
+msgstr "无法创建字幕文件"
 
 #: source/blender/editors/space_sequencer/sequencer_edit.c:4106
 msgid "No subtitles (text strips) to export"
@@ -117031,7 +117022,7 @@ msgstr "没有最近打开过的文件"
 
 #: source/blender/editors/space_topbar/space_topbar.c:237
 msgid "Open Recent"
-msgstr "最近打开的文件"
+msgstr "打开近期文件"
 
 #: source/blender/editors/space_view3d/view3d_buttons.c:448
 msgid "Control Point:"
@@ -117171,7 +117162,7 @@ msgstr "用于表面细分修改器的权重值"
 #: source/blender/editors/space_view3d/view3d_buttons.c:739
 #: source/blender/editors/space_view3d/view3d_buttons.c:806
 msgid "Weight used for Soft Body Goal"
-msgstr "用于软体的权重"
+msgstr "用于软体目标的权重"
 
 #: source/blender/editors/space_view3d/view3d_buttons.c:753
 msgid "Radius of curve control points"
@@ -117195,75 +117186,75 @@ msgstr "顶点权重"
 
 #: source/blender/editors/space_view3d/view3d_buttons.c:1636
 msgid "No active object found"
-msgstr "没找到物体"
+msgstr "未找到活动物体"
 
 # rblc
 #: source/blender/editors/space_view3d/view3d_draw.c:1114
 msgid "Front Orthographic"
-msgstr "前视图"
+msgstr "正交前视图"
 
 #: source/blender/editors/space_view3d/view3d_draw.c:1117
 msgid "Front Perspective"
-msgstr "前视图"
+msgstr "透视前视图"
 
 # rblc
 #: source/blender/editors/space_view3d/view3d_draw.c:1122
 msgid "Back Orthographic"
-msgstr "正交"
+msgstr "正交后视图"
 
 # rblc
 #: source/blender/editors/space_view3d/view3d_draw.c:1125
 msgid "Back Perspective"
-msgstr "后视图"
+msgstr "透视后视图"
 
 # rblc
 #: source/blender/editors/space_view3d/view3d_draw.c:1130
 msgid "Top Orthographic"
-msgstr "正交"
+msgstr "正交顶视图"
 
 # rblc
 #: source/blender/editors/space_view3d/view3d_draw.c:1133
 msgid "Top Perspective"
-msgstr "是透视效果"
+msgstr "透视顶视图"
 
 #: source/blender/editors/space_view3d/view3d_draw.c:1138
 msgid "Bottom Orthographic"
-msgstr "正交"
+msgstr "正交底视图"
 
 #: source/blender/editors/space_view3d/view3d_draw.c:1141
 msgid "Bottom Perspective"
-msgstr "是透视效果"
+msgstr "透视底视图"
 
 # rblc
 #: source/blender/editors/space_view3d/view3d_draw.c:1146
 msgid "Right Orthographic"
-msgstr "正交"
+msgstr "正交右视图"
 
 #: source/blender/editors/space_view3d/view3d_draw.c:1149
 msgid "Right Perspective"
-msgstr "是透视效果"
+msgstr "透视右视图"
 
 # rblc
 #: source/blender/editors/space_view3d/view3d_draw.c:1154
 msgid "Left Orthographic"
-msgstr "正交"
+msgstr "正交左视图"
 
 # rblc
 #: source/blender/editors/space_view3d/view3d_draw.c:1157
 msgid "Left Perspective"
-msgstr "是透视效果"
+msgstr "透视左视图"
 
 #: source/blender/editors/space_view3d/view3d_draw.c:1167
 msgid "Camera Perspective"
-msgstr "是透视效果"
+msgstr "相机透视"
 
 #: source/blender/editors/space_view3d/view3d_draw.c:1170
 msgid "Camera Orthographic"
-msgstr "正交"
+msgstr "相机正交"
 
 #: source/blender/editors/space_view3d/view3d_draw.c:1174
 msgid "Camera Panoramic"
-msgstr "全景"
+msgstr "相机全景"
 
 #: source/blender/editors/space_view3d/view3d_draw.c:1178
 msgid "Object as Camera"
@@ -117292,7 +117283,7 @@ msgstr "帧率: %i"
 
 #: source/blender/editors/space_view3d/view3d_edit.c:2411
 msgid "Cannot dolly when the view offset is locked"
-msgstr "无法在视图锁定至一个物体时开启飞行模式"
+msgstr "无法在视图偏移被锁定时滑动"
 
 #: source/blender/editors/space_view3d/view3d_edit.c:3555
 msgid "Depth too large"
@@ -117317,7 +117308,7 @@ msgstr "清除物体约束"
 #: source/blender/editors/space_view3d/view3d_gizmo_ruler.c:1077
 #: source/blender/editors/space_view3d/view3d_gizmo_ruler.c:1138
 msgid "Gizmos hidden in this view"
-msgstr "在这个视图中隐藏Gizmos"
+msgstr "在该视图中隐藏Gizmo"
 
 #: source/blender/editors/space_view3d/view3d_header.c:158
 msgid "Vertex select - Shift-Click for multiple modes, Ctrl-Click contracts selection"
@@ -117333,23 +117324,23 @@ msgstr "面选择模式 - Shift+单击选择多重模式，Ctrl+单击扩展选�
 
 #: source/blender/editors/space_view3d/view3d_ops.c:114
 msgid "No objects to paste"
-msgstr "粘贴物体"
+msgstr "无可供粘贴的物体"
 
 #: source/blender/editors/space_view3d/view3d_ops.c:81
 msgid "Copied %d selected objects"
-msgstr ""
+msgstr "已复制 %d 选中物体"
 
 #: source/blender/editors/space_view3d/view3d_ops.c:120
 msgid "%d objects pasted"
-msgstr "已粘贴%d物体"
+msgstr "已粘贴 %d 物体"
 
 #: source/blender/editors/space_view3d/view3d_snap.c:506
 msgid "No active element found!"
-msgstr "找不到有效元素!"
+msgstr "未找到活动元素!"
 
 #: source/blender/editors/space_view3d/view3d_view.c:537
 msgid "No active camera"
-msgstr "没有激活相机"
+msgstr "无活动相机"
 
 #: source/blender/editors/space_view3d/view3d_view.c:1233
 msgid "No more than 16 local views"
@@ -117357,7 +117348,7 @@ msgstr "不得多于 16 个局部视图"
 
 #: source/blender/editors/space_view3d/view3d_view.c:1490
 msgid "No object selected"
-msgstr "没有选中的物体"
+msgstr "无选中物体"
 
 #: source/blender/editors/space_view3d/view3d_walk.c:441
 msgid "Cannot navigate a camera from an external library"
@@ -117457,7 +117448,7 @@ msgstr "X 向缩放: %s   Y 向缩放: %s  Z 向缩放: %s%s %s"
 #: source/blender/editors/transform/transform.c:5111
 #: source/blender/editors/transform/transform.c:9358
 msgid " Proportional size: %.2f"
-msgstr ""
+msgstr " 衰减编辑区尺寸: %.2f"
 
 #: source/blender/editors/transform/transform.c:4230
 msgid "To Sphere: %s %s"
@@ -117501,7 +117492,7 @@ msgstr ""
 
 #: source/blender/editors/transform/transform.c:5344
 msgid "Shrink/Fatten:"
-msgstr "法线缩放:"
+msgstr "法向缩放:"
 
 #: source/blender/editors/transform/transform.c:5368
 msgid " or Alt) Even Thickness %s"
@@ -117518,28 +117509,28 @@ msgstr "倾斜: %.2f° %s"
 #: source/blender/editors/transform/transform.c:5529
 #: source/blender/editors/transform/transform.c:5727
 msgid "Shrink/Fatten: %s"
-msgstr "法线缩放: %s"
+msgstr "法向缩放: %s"
 
 #: source/blender/editors/transform/transform.c:5532
 #: source/blender/editors/transform/transform.c:5730
 msgid "Shrink/Fatten: %3f"
-msgstr "法线缩放: %3f"
+msgstr "法向缩放: %3f"
 
 #: source/blender/editors/transform/transform.c:5614
 msgid "Feather Shrink/Fatten: %s"
-msgstr "羽毛法线缩放: %s"
+msgstr "羽化法向缩放: %s"
 
 #: source/blender/editors/transform/transform.c:5617
 msgid "Feather Shrink/Fatten: %3f"
-msgstr "羽毛法线缩放: %3f"
+msgstr "羽化法线缩放: %3f"
 
 #: source/blender/editors/transform/transform.c:5809
 msgid "Opacity: %s"
-msgstr ""
+msgstr "不透明度: %s"
 
 #: source/blender/editors/transform/transform.c:5812
 msgid "Opacity: %3f"
-msgstr ""
+msgstr "不透明度: %3f"
 
 #: source/blender/editors/transform/transform.c:5884
 msgid "Push/Pull: %s%s %s"
@@ -117698,7 +117689,7 @@ msgstr "局部"
 #: source/blender/editors/transform/transform_constraints.c:703
 #: source/blender/editors/transform/transform_orientations.c:453
 msgid "normal"
-msgstr "法线"
+msgstr "法向"
 
 #: source/blender/editors/transform/transform_constraints.c:712
 #: source/blender/editors/transform/transform_orientations.c:476
@@ -117717,11 +117708,11 @@ msgstr "万向"
 
 #: source/blender/editors/transform/transform_constraints.c:724
 msgid "custom matrix"
-msgstr "自定义"
+msgstr "自定义矩阵"
 
 #: source/blender/editors/transform/transform_constraints.c:732
 msgid "custom orientation"
-msgstr "自定义变换坐标系的名称"
+msgstr "自定义坐标系"
 
 #: source/blender/editors/transform/transform_constraints.c:1027
 msgid " along Y axis"
@@ -117847,7 +117838,7 @@ msgstr ""
 
 #: source/blender/editors/undo/ed_undo.c:440
 msgid "Undo disabled at startup"
-msgstr "已关闭"
+msgstr "取消启动时禁用"
 
 #: source/blender/editors/util/ed_util.c:314
 msgid "Unpack File"
@@ -117895,7 +117886,7 @@ msgstr ""
 
 #: source/blender/editors/uvedit/uvedit_unwrap_ops.c:729
 msgid "Minimize Stretch. Blend %.2f"
-msgstr ""
+msgstr "最小化拉伸. 混合 %.2f"
 
 #: source/blender/editors/uvedit/uvedit_unwrap_ops.c:731
 msgid "Press + and -, or scroll wheel to set blending"
@@ -117915,15 +117906,15 @@ msgstr "细分修改器使用前需要首先展开"
 
 #: source/blender/freestyle/intern/blender_interface/FRS_freestyle.cpp:309
 msgid "Freestyle: Mesh loading"
-msgstr "自由样式:网格加载"
+msgstr "Freestyle: 网格加载"
 
 #: source/blender/freestyle/intern/blender_interface/FRS_freestyle.cpp:504
 msgid "Freestyle: View map creation"
-msgstr "视图映射缓存"
+msgstr "Freestyle: 视图贴图创建"
 
 #: source/blender/freestyle/intern/blender_interface/FRS_freestyle.cpp:671
 msgid "Freestyle: Stroke rendering"
-msgstr "用于Freestyle线条渲染的面标记"
+msgstr "Freestyle: 笔画渲染"
 
 #: source/blender/freestyle/intern/system/PythonInterpreter.h:82
 msgid "Cannot open file: %s"
@@ -117943,11 +117934,11 @@ msgstr "棕色狐狸"
 
 #: source/blender/imbuf/intern/thumbs_font.c:39
 msgid "jumps over"
-msgstr "跳过来"
+msgstr "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 
 #: source/blender/imbuf/intern/thumbs_font.c:40
 msgid "the lazy dog"
-msgstr "懒狗"
+msgstr "0123456789 abcdefghijklmnopqrstuvwxyz"
 
 #: source/blender/makesrna/intern/rna_ID.c:655
 msgid "Index out of range"
@@ -117963,7 +117954,7 @@ msgstr "注册 ID 属性类: '%s' 太长, 最大的长度是 %d"
 
 #: source/blender/makesrna/intern/rna_ID.c:545
 msgid "%s is not compatible with %s 'refresh' options"
-msgstr ""
+msgstr "%s 和 %s '刷新'选项不兼容"
 
 #: source/blender/makesrna/intern/rna_access.c:2077
 msgid "This property is for internal use only and can't be edited"
@@ -117996,7 +117987,7 @@ msgstr ""
 
 #: source/blender/makesrna/intern/rna_access.c:3746
 msgid "%s: expected %s type, not %s."
-msgstr ""
+msgstr "％s: 预期 ％s 类型,而非 ％s."
 
 #: source/blender/makesrna/intern/rna_access.c:4447
 msgid "Array length mismatch (expected %d, got %d)"
@@ -118056,7 +118047,7 @@ msgstr "没有有效的驱动来创建副本"
 
 #: source/blender/makesrna/intern/rna_animation.c:682
 msgid "Driver not found in this animation data"
-msgstr "未能找到图像数据"
+msgstr "未能在该动画数据中找到驱动器"
 
 #: source/blender/makesrna/intern/rna_animation.c:319
 msgid "Registering keying set info class: '%s' is too long, maximum length is %d"
@@ -118068,11 +118059,11 @@ msgstr "无法移除 NLA 轨道 '%s'"
 
 #: source/blender/makesrna/intern/rna_animation.c:666
 msgid "Driver '%s[%d]' already exists"
-msgstr ""
+msgstr "驱动器在 '%s[%d]' 中已存在"
 
 #: source/blender/makesrna/intern/rna_animation_api.c:51
 msgid "Invalid context for keying set"
-msgstr "添加到插帧集"
+msgstr "无效的插帧集上下文"
 
 #: source/blender/makesrna/intern/rna_animation_api.c:55
 msgid "Incomplete built-in keying set, appears to be missing type info"
@@ -118096,19 +118087,19 @@ msgstr "未能移除的背景图"
 
 #: source/blender/makesrna/intern/rna_collection.c:85
 msgid "Object '%s' already in collection '%s'"
-msgstr ""
+msgstr "物体 '%s' 已在集合 '%s' 里\""
 
 #: source/blender/makesrna/intern/rna_collection.c:104
 msgid "Object '%s' not in collection '%s'"
-msgstr ""
+msgstr "物体 '%s' 不在集合 '%s' 里\""
 
 #: source/blender/makesrna/intern/rna_collection.c:188
 msgid "Collection '%s' already in collection '%s'"
-msgstr ""
+msgstr "集合 '%s' 已在集合 '%s' 里"
 
 #: source/blender/makesrna/intern/rna_collection.c:207
 msgid "Collection '%s' not in collection '%s'"
-msgstr ""
+msgstr "集合 '%s' 不在集合 '%s' 里"
 
 #: source/blender/makesrna/intern/rna_color.c:360
 msgid "Element not found in element collection or last element"
@@ -118132,12 +118123,12 @@ msgstr "关系"
 
 #: source/blender/makesrna/intern/rna_constraint.c:587
 msgid "Target is not in the constraint target list"
-msgstr "选择约束目标"
+msgstr "目标不在约束目标列表中"
 
 #: source/blender/makesrna/intern/rna_curve.c:104
 #: source/blender/makesrna/intern/rna_scene.c:543
 msgid "Easing (by strength)"
-msgstr "强度/力度"
+msgstr ""
 
 #: source/blender/makesrna/intern/rna_curve.c:123
 #: source/blender/makesrna/intern/rna_scene.c:562
@@ -118182,11 +118173,11 @@ msgstr ""
 
 #: source/blender/makesrna/intern/rna_fcurve_api.c:59
 msgid "FCurve has no keyframes"
-msgstr "关键帧"
+msgstr "函数曲线无关键帧"
 
 #: source/blender/makesrna/intern/rna_fcurve_api.c:73
 msgid "FCurve has already keyframes"
-msgstr "骨骼已存在 IK 约束"
+msgstr "函数曲线已有关键帧"
 
 #: source/blender/makesrna/intern/rna_fcurve_api.c:76
 msgid "FCurve has no sample points"
@@ -118195,7 +118186,7 @@ msgstr ""
 #: source/blender/makesrna/intern/rna_fcurve_api.c:53
 #: source/blender/makesrna/intern/rna_fcurve_api.c:70
 msgid "Invalid frame range (%d - %d)"
-msgstr ""
+msgstr "无效帧范围 (%d - %d)\""
 
 #: source/blender/makesrna/intern/rna_gpencil.c:617
 msgid "GPencilStrokePoints.pop: index out of range"
@@ -118233,11 +118224,11 @@ msgstr "图像文件的色彩空间"
 
 #: source/blender/makesrna/intern/rna_image_api.c:61
 msgid "Could not save packed file to disk as '%s'"
-msgstr ""
+msgstr "无法保存文件至磁盘 '%s'"
 
 #: source/blender/makesrna/intern/rna_image_api.c:96
 msgid "Could not write image: %s, '%s'"
-msgstr "未能将图像 '%s' 保存至 '%s'"
+msgstr "未能写入图像: %s, '%s'"
 
 #: source/blender/makesrna/intern/rna_image_api.c:136
 msgid "Image '%s' could not be saved to '%s'"
@@ -118251,7 +118242,7 @@ msgstr "图像 '%s' 未包含任何图像数据"
 
 #: source/blender/makesrna/intern/rna_image_api.c:226
 msgid "Failed to load image texture '%s'"
-msgstr "加载'%s'图像纹理失败"
+msgstr "加载图像纹理'%s' 失败"
 
 #: source/blender/makesrna/intern/rna_key.c:93
 msgctxt "Key"
@@ -118276,19 +118267,19 @@ msgstr "添加多边形网格修改器失败"
 
 #: source/blender/makesrna/intern/rna_linestyle.c:411
 msgid "Color modifier '%s' could not be removed"
-msgstr "类似'%s'的配置集无法被移除"
+msgstr "无法移除颜色修改器'%s'"
 
 #: source/blender/makesrna/intern/rna_linestyle.c:446
 msgid "Alpha modifier '%s' could not be removed"
-msgstr "类似'%s'的配置集无法被移除"
+msgstr "无法移除Alpha修改器'%s'"
 
 #: source/blender/makesrna/intern/rna_linestyle.c:481
 msgid "Thickness modifier '%s' could not be removed"
-msgstr "类似'%s'的配置集无法被移除"
+msgstr "无法移除线宽修改器'%s'"
 
 #: source/blender/makesrna/intern/rna_linestyle.c:517
 msgid "Geometry modifier '%s' could not be removed"
-msgstr "类似'%s'的配置集无法被移除"
+msgstr "无法移除几何修改器'%s'"
 
 #: source/blender/makesrna/intern/rna_main_api.c:462
 msgid "unsupported font format"
@@ -118329,11 +118320,11 @@ msgstr "对这个物体的ID类型 '%s' 非法无效"
 
 #: source/blender/makesrna/intern/rna_mask.c:560
 msgid "Mask layer not found for given spline"
-msgstr "遮罩层 '%s' 不包含赋予的放样线条"
+msgstr "未能为给定样条线找到遮罩层"
 
 #: source/blender/makesrna/intern/rna_mask.c:565
 msgid "Point is not found in given spline"
-msgstr "曲线 '%s' 不包含放样"
+msgstr "未能在给定样条线找到控制点"
 
 #: source/blender/makesrna/intern/rna_mask.c:413
 msgid "Mask layer '%s' not found in mask '%s'"
@@ -118362,7 +118353,7 @@ msgstr ""
 
 #: source/blender/makesrna/intern/rna_mesh.c:995
 msgid "FaceMap not in mesh"
-msgstr "面图不在网格中"
+msgstr ""
 
 #: source/blender/makesrna/intern/rna_mesh.c:1002
 msgid "Error removing face-map"
@@ -118489,7 +118480,7 @@ msgstr "顶点未包含在顶点组中"
 #: source/blender/makesrna/intern/rna_object.c:1722
 #: source/blender/makesrna/intern/rna_object.c:1739
 msgid "FaceMap.add(): cannot be called while object is in edit mode"
-msgstr "VertexGroup.add(): 物体在编辑模式时无法被调用"
+msgstr "FaceMap.add(): 无法在编辑模式下调用"
 
 #: source/blender/makesrna/intern/rna_object.c:1346
 msgid "Constraint '%s' not found in object '%s'"
@@ -118501,19 +118492,19 @@ msgstr "形变组 '%s' 未存在于物体 '%s' 中"
 
 #: source/blender/makesrna/intern/rna_object.c:1698
 msgid "FaceMap '%s' not in object '%s'"
-msgstr "修改器 '%s' 未作用于物体 '%s'"
+msgstr ""
 
 #: source/blender/makesrna/intern/rna_object_api.c:260
 msgid "Viewport not in local view"
-msgstr "局部 UV 视图"
+msgstr "视图不在自身视图状态"
 
 #: source/blender/makesrna/intern/rna_object_api.c:433
 msgid "ShapeKey not found"
-msgstr "形态键"
+msgstr "未找到形态键"
 
 #: source/blender/makesrna/intern/rna_object_api.c:438
 msgid "Could not remove ShapeKey"
-msgstr "形态键"
+msgstr "无法删除形态键"
 
 #: source/blender/makesrna/intern/rna_object_api.c:461
 msgid "Object should be of mesh type"
@@ -118542,7 +118533,7 @@ msgstr "列表中存在不良的顶点编号"
 #: source/blender/makesrna/intern/rna_object_api.c:223
 #: source/blender/makesrna/intern/rna_object_api.c:245
 msgid "Object '%s' not in View Layer '%s'!"
-msgstr ""
+msgstr "物体 '％s' 不在视图层 '％s' 中!"
 
 #: source/blender/makesrna/intern/rna_object_api.c:268
 msgid "Object %s not in view layer %s"
@@ -118550,11 +118541,11 @@ msgstr ""
 
 #: source/blender/makesrna/intern/rna_object_api.c:327
 msgid "'from_space' '%s' is invalid when no pose bone is given!"
-msgstr "当没有给出姿势骨骼时'from_space' '%s'无效!"
+msgstr "当没有给定姿势骨骼时'from_space' '%s'无效!"
 
 #: source/blender/makesrna/intern/rna_object_api.c:336
 msgid "'to_space' '%s' is invalid when no pose bone is given!"
-msgstr "当没有给出姿势骨骼时'to_space' '%s'无效!"
+msgstr "当没有给定姿势骨骼时'to_space' '%s'无效!"
 
 #: source/blender/makesrna/intern/rna_object_api.c:419
 msgid "Object '%s' does not support shapes"
@@ -118562,7 +118553,7 @@ msgstr "物体 '%s' 不支持变形"
 
 #: source/blender/makesrna/intern/rna_object_api.c:516
 msgid "Object '%s' has no evaluated mesh data"
-msgstr "网格 '%s' 没有皮肤顶点数据"
+msgstr "物体 '%s' 无已解算网格数据"
 
 #: source/blender/makesrna/intern/rna_object_api.c:616
 msgid "Object '%s' could not create internal data for finding nearest point"
@@ -118570,7 +118561,7 @@ msgstr "物体 '%s' 无法创建用于寻找最近点的内部数据"
 
 #: source/blender/makesrna/intern/rna_palette.c:48
 msgid "Palette '%s' does not contain color given"
-msgstr "曲线 '%s' 不包含放样"
+msgstr "调色板 '%s' 不包含给定颜色"
 
 #: source/blender/makesrna/intern/rna_particle.c:1008
 msgid "ParticleSystem"
@@ -118583,7 +118574,7 @@ msgstr "网格没有UV数据"
 
 #: source/blender/makesrna/intern/rna_particle.c:548
 msgid "Object was not yet evaluated"
-msgstr "将估算模拟"
+msgstr "物体尚未经解算"
 
 #: source/blender/makesrna/intern/rna_particle.c:587
 msgid "Mesh has no VCol data"
@@ -118605,7 +118596,7 @@ msgstr "约束 '%s' 未在姿态骨骼 '%s' 中找到"
 #: source/blender/makesrna/intern/rna_pose_api.c:62
 #: source/blender/makesrna/intern/rna_pose_api.c:94
 msgid "Bone '%s' is not a B-Bone!"
-msgstr "骨骼'%s'不是一个B-骨骼!"
+msgstr "骨骼 '%s' 不是柔性骨骼!"
 
 #: source/blender/makesrna/intern/rna_pose_api.c:66
 msgid "Bone '%s' has out of date B-Bone segment data!"
@@ -118633,7 +118624,7 @@ msgstr "插帧集选项中添加所选"
 
 #: source/blender/makesrna/intern/rna_scene.c:2191
 msgid "Style module could not be removed"
-msgstr "样式模块配置, 用于指定样式模块"
+msgstr "无法移除样式模块"
 
 #: source/blender/makesrna/intern/rna_scene.c:1488
 msgid "Render view '%s' could not be removed from scene '%s'"
@@ -118649,7 +118640,7 @@ msgstr "类似'%s'的配置集无法被移除"
 
 #: source/blender/makesrna/intern/rna_scene.c:2185
 msgid "Style module '%s' could not be removed"
-msgstr "类似'%s'的配置集无法被移除"
+msgstr "无法移除样式模块 '%s'"
 
 #: source/blender/makesrna/intern/rna_sequencer.c:1133
 msgid "Sequence type does not support modifiers"
@@ -118725,7 +118716,7 @@ msgstr "注册的面板类: '%s' 太长, 最大长度为 %d"
 
 #: source/blender/makesrna/intern/rna_ui.c:284
 msgid "Registering panel class: '%s' has category '%s' "
-msgstr ""
+msgstr "注册面板类: '％s' 具有类别 '％s' "
 
 #: source/blender/makesrna/intern/rna_ui.c:334
 msgid "Registering panel class: parent '%s' for '%s' not found"
@@ -118745,15 +118736,15 @@ msgstr "注册的菜单类: '%s' 太长, 最大长度为 %d"
 
 #: source/blender/makesrna/intern/rna_userdef.c:520
 msgid "Add-on is no longer valid"
-msgstr "外部路径失效"
+msgstr "插件已失效"
 
 #: source/blender/makesrna/intern/rna_userdef.c:541
 msgid "Excluded path is no longer valid"
-msgstr "外部路径失效"
+msgstr ""
 
 #: source/blender/makesrna/intern/rna_userdef.c:751
 msgid "Registering add-on preferences class: '%s' is too long, maximum length is %d"
-msgstr "注册 ID 属性类: '%s' 太长, 最大的长度是 %d"
+msgstr "注册插件设置类: '%s' 太长, 最大的长度是 %d"
 
 #: source/blender/makesrna/intern/rna_vfont_api.c:42
 msgid "Font not packed"
@@ -118805,11 +118796,11 @@ msgstr ""
 
 #: source/blender/makesrna/intern/rna_wm_api.c:570
 msgid "Only a single character supported"
-msgstr "仅使用完善且支持的功能特性"
+msgstr "仅支持单个字符"
 
 #: source/blender/makesrna/intern/rna_wm_api.c:124
 msgid "Gizmo group type '%s' not found!"
-msgstr ""
+msgstr "未找到 '％s' Gizmo组类型!"
 
 #: source/blender/makesrna/intern/rna_wm_api.c:128
 msgid "Gizmo group '%s' has 'PERSISTENT' option set!"
@@ -118826,28 +118817,28 @@ msgstr "无法移除键配置 %s"
 
 #: source/blender/makesrna/intern/rna_wm_gizmo.c:841
 msgid "Area type does not support gizmos"
-msgstr "区域类型不支持Gizmos"
+msgstr "区域类型不支持Gizmo"
 
 #: source/blender/makesrna/intern/rna_wm_gizmo.c:466
 msgid "Registering gizmo class: '%s' is too long, maximum length is %d"
-msgstr "注册Gizmo:'%s'过长,最大长度为%d"
+msgstr "注册Gizmo类:'%s' 过长,最大长度为 %d "
 
 #: source/blender/makesrna/intern/rna_wm_gizmo.c:592
 msgid "GizmoType '%s' not known"
-msgstr "Gizmo类型'%s'未知"
+msgstr "未知Gizmo类型 '%s'"
 
 #: source/blender/makesrna/intern/rna_wm_gizmo.c:825
 msgid "Registering gizmogroup class: '%s' is too long, maximum length is %d"
-msgstr "注册Gizmo群组:'%s'过长,最大长度为%d"
+msgstr "注册Gizmo群组类:'%s' 过长,最大长度为 %d"
 
 #: source/blender/makesrna/intern/rna_wm_gizmo_api.c:78
 #: source/blender/makesrna/intern/rna_wm_gizmo_api.c:192
 msgid "Gizmo target property '%s.%s' not found"
-msgstr ""
+msgstr "Gizmo目标属性 '％s.％s' 未找到"
 
 #: source/blender/makesrna/intern/rna_wm_gizmo_api.c:88
 msgid "Property '%s.%s' not found"
-msgstr ""
+msgstr "未找到属性'％s.％s'"
 
 #: source/blender/makesrna/intern/rna_wm_gizmo_api.c:103
 msgid "Gizmo target '%s.%s' expects '%s', '%s.%s' is '%s'"
@@ -118871,19 +118862,19 @@ msgstr "%s '%s'"
 
 #: source/blender/makesrna/intern/rna_workspace.c:89
 msgid "wmOwnerID '%s' not in workspace '%s'"
-msgstr ""
+msgstr "wmOwnerID '％s' 不在工作区 '％s' 中"
 
 #: source/blender/makesrna/intern/rna_workspace_api.c:84
 msgid "Operator '%s' not found!"
-msgstr "操作'%s'未找到!"
+msgstr "未找到操作 '%s'!"
 
 #: source/blender/makesrna/intern/rna_workspace_api.c:100
 msgid "Gizmo group '%s' not found!"
-msgstr "Gizmo组'%s'未找到!"
+msgstr "未找到Gizmo组 '%s'!"
 
 #: source/blender/modifiers/intern/MOD_bevel.c:190
 msgid "Enable 'Auto Smooth' option in mesh settings for hardening"
-msgstr "在网格设置中启用'自动平滑'选项以进行强化"
+msgstr "在网格设置中启用 '自动平滑' 选项以进行强化"
 
 #: source/blender/modifiers/intern/MOD_boolean.c:326
 msgid "Cannot execute boolean operation"
@@ -118897,7 +118888,7 @@ msgstr ""
 
 #: source/blender/modifiers/intern/MOD_correctivesmooth.c:600
 msgid "Bind data required"
-msgstr "绑定数据缺失"
+msgstr "需要绑定数据"
 
 #: source/blender/modifiers/intern/MOD_correctivesmooth.c:607
 msgid "Bind vertex count mismatch: %u to %u"
@@ -118905,7 +118896,7 @@ msgstr ""
 
 #: source/blender/modifiers/intern/MOD_correctivesmooth.c:615
 msgid "Object is not a mesh"
-msgstr "活动的物体不是网格物体"
+msgstr "物体不是网格物体"
 
 #: source/blender/modifiers/intern/MOD_correctivesmooth.c:623
 msgid "Original vertex count mismatch: %u to %u"
@@ -118976,7 +118967,7 @@ msgstr ""
 
 #: source/blender/modifiers/intern/MOD_normal_edit.c:466
 msgid "Invalid target settings"
-msgstr "错误:  目标通道无效"
+msgstr "无效的目标设置"
 
 #: source/blender/modifiers/intern/MOD_skin.c:1781
 msgid "Hull error"
@@ -118998,7 +118989,7 @@ msgstr "面需要常用的输出"
 #: source/blender/modifiers/intern/MOD_surfacedeform.c:1067
 #: source/blender/modifiers/intern/MOD_surfacedeform.c:1086
 msgid "Out of memory"
-msgstr "配置 clmd->clothObject 时内存不足"
+msgstr "内存不足"
 
 #: source/blender/modifiers/intern/MOD_surfacedeform.c:1040
 #: source/blender/modifiers/intern/MOD_surfacedeform.c:1090
@@ -119015,11 +119006,11 @@ msgstr ""
 
 #: source/blender/modifiers/intern/MOD_surfacedeform.c:1106
 msgid "Target contains invalid polygons"
-msgstr "错误:  目标通道无效"
+msgstr "目标包含无效多边形"
 
 #: source/blender/modifiers/intern/MOD_surfacedeform.c:1198
 msgid "No valid target mesh"
-msgstr "'整合' 仅对网格物体有效"
+msgstr "无有效目标网格"
 
 #: source/blender/modifiers/intern/MOD_surfacedeform.c:1208
 msgid "Attempt to unbind from inactive dependency graph"
@@ -119027,7 +119018,7 @@ msgstr ""
 
 #: source/blender/modifiers/intern/MOD_surfacedeform.c:1227
 msgid "Verts changed from %u to %u"
-msgstr ""
+msgstr "顶点从 %u 改变为 %u"
 
 #: source/blender/modifiers/intern/MOD_surfacedeform.c:1231
 msgid "Target polygons changed from %u to %u"
@@ -119114,7 +119105,7 @@ msgstr "右下"
 
 #: source/blender/nodes/composite/nodes/node_composite_cryptomatte.c:200
 msgid "Pick"
-msgstr "选择相连的拾取项"
+msgstr "拾取"
 
 #: source/blender/nodes/composite/nodes/node_composite_diffMatte.c:27
 msgid "Image 1"
@@ -119247,7 +119238,7 @@ msgstr "黑色素"
 
 #: source/blender/nodes/shader/nodes/node_shader_bsdf_hair_principled.c:27
 msgid "Melanin Redness"
-msgstr "黑色素发红"
+msgstr "黑色素红"
 
 #: source/blender/nodes/shader/nodes/node_shader_bsdf_hair_principled.c:29
 msgid "Absorption Coefficient"
@@ -119411,11 +119402,11 @@ msgstr "射线深度"
 
 #: source/blender/nodes/shader/nodes/node_shader_light_path.c:33
 msgid "Diffuse Depth"
-msgstr "深度"
+msgstr "漫射深度"
 
 #: source/blender/nodes/shader/nodes/node_shader_light_path.c:34
 msgid "Glossy Depth"
-msgstr "深度"
+msgstr "光泽深度"
 
 #: source/blender/nodes/shader/nodes/node_shader_light_path.c:35
 msgid "Transparent Depth"
@@ -119423,7 +119414,7 @@ msgstr "透明深度"
 
 #: source/blender/nodes/shader/nodes/node_shader_light_path.c:36
 msgid "Transmission Depth"
-msgstr "透射"
+msgstr "透射深度"
 
 #: source/blender/nodes/shader/nodes/node_shader_mixRgb.c:28
 #: source/blender/nodes/shader/nodes/node_shader_tex_brick.c:35
@@ -119472,7 +119463,7 @@ msgstr "灰泥尺寸"
 
 #: source/blender/nodes/shader/nodes/node_shader_tex_brick.c:72
 msgid "Mortar Smooth"
-msgstr "灰泥"
+msgstr "灰泥平滑"
 
 #: source/blender/nodes/shader/nodes/node_shader_tex_brick.c:94
 #: source/blender/nodes/texture/nodes/node_texture_bricks.c:34
@@ -119512,7 +119503,7 @@ msgstr "吸收颜色"
 
 #: source/blender/nodes/shader/nodes/node_shader_volume_principled.c:30
 msgid "Emission Strength"
-msgstr "排放强度"
+msgstr "自发光强度"
 
 #: source/blender/nodes/shader/nodes/node_shader_volume_principled.c:31
 msgid "Emission Color"
@@ -119592,7 +119583,7 @@ msgstr "未知的 PY 异常, 无法转换"
 #: source/blender/python/intern/bpy_rna_anim.c:363
 #: source/blender/python/intern/bpy_rna_anim.c:500
 msgid "Could not resolve path (%s)"
-msgstr "未能分解路径(%s)"
+msgstr "未能解析路径 (%s)"
 
 #: source/blender/render/intern/source/external_engine.c:712
 msgid "Failed allocate render result, out of memory"
@@ -119612,7 +119603,7 @@ msgstr "场景名:%s 顶点:%d 面:%d 光晕点:%d 灯光:%d"
 
 #: source/blender/render/intern/source/pipeline.c:215
 msgid "Sce: %s Ve:%d Fa:%d La:%d"
-msgstr "场景名:%s | 顶点:%d | 面:%d | 灯光:%d"
+msgstr "场景: %s | 顶点:%d | 面:%d | 灯光:%d"
 
 #: source/blender/render/intern/source/pipeline.c:826
 msgid "Image too small"
@@ -119620,11 +119611,11 @@ msgstr "图像过小"
 
 #: source/blender/render/intern/source/pipeline.c:1215
 msgid "Cannot render, no camera"
-msgstr "无法渲染,没有相机"
+msgstr "无法渲染, 没有相机"
 
 #: source/blender/render/intern/source/pipeline.c:1889
 msgid "No border area selected"
-msgstr "没有选中的区域"
+msgstr "无框选区域"
 
 #: source/blender/render/intern/source/pipeline.c:1900
 msgid "Cannot save render buffers, check the temp default path"
@@ -119660,7 +119651,7 @@ msgstr "写入错误：(%s)无法保存 '%s'"
 
 #: source/blender/render/intern/source/pipeline.c:1787
 msgid "Camera \"%s\" is not a multi-view camera"
-msgstr ""
+msgstr "相机 \"％s\" 不是多视图相机"
 
 #: source/blender/render/intern/source/pipeline.c:1799
 msgid "No active view found in scene \"%s\""
@@ -119672,7 +119663,7 @@ msgstr ""
 
 #: source/blender/render/intern/source/pipeline.c:2892
 msgid "%s: failed to allocate clip buffer '%s'"
-msgstr ""
+msgstr "%s: 分配剪辑缓存 '%s' 失败"
 
 #: source/blender/render/intern/source/pipeline.c:2897
 msgid "%s: incorrect dimensions for partial copy '%s'"
@@ -119681,7 +119672,7 @@ msgstr ""
 #: source/blender/render/intern/source/pipeline.c:2908
 #: source/blender/render/intern/source/pipeline.c:2915
 msgid "%s: failed to load '%s'"
-msgstr "%s: 加载失败 '%s'"
+msgstr "%s: 加载 '%s' 失败"
 
 #: source/blender/render/intern/source/render_result.c:1035
 msgid "Error writing render result, %s (see console)"
@@ -119722,7 +119713,7 @@ msgstr ""
 
 #: source/blender/windowmanager/intern/wm_files.c:2816
 msgid "Permanently allow execution of scripts"
-msgstr "允许执行"
+msgstr "永久允许执行脚本"
 
 #: source/blender/windowmanager/intern/wm_files.c:2843
 msgid "Reload file with execution of Python scripts enabled"
@@ -119766,7 +119757,7 @@ msgstr "在 '%s' 中不支持的文件格式"
 
 #: source/blender/windowmanager/intern/wm_files.c:694
 msgid "File path '%s' invalid"
-msgstr "'%s'文件路径无效"
+msgstr "文件路径 '%s' 无效"
 
 #: source/blender/windowmanager/intern/wm_files.c:697
 msgid "Unknown error loading '%s'"
@@ -119774,7 +119765,7 @@ msgstr "未知的加载错误 '%s'"
 
 #: source/blender/windowmanager/intern/wm_files.c:895
 msgid "Application Template '%s' not found"
-msgstr "应用模板'%s'没找到"
+msgstr "未找到应用模板 '%s'"
 
 #: source/blender/windowmanager/intern/wm_files.c:960
 msgid "Could not read '%s'"
@@ -119794,7 +119785,7 @@ msgstr ""
 
 #: source/blender/windowmanager/intern/wm_files.c:2677
 msgid "Saved \"%s\""
-msgstr "已保存\"%s\""
+msgstr "已保存 \"%s\""
 
 #: source/blender/windowmanager/intern/wm_files_link.c:963
 msgid "Not a library"
@@ -119818,7 +119809,7 @@ msgstr ""
 
 #: source/blender/windowmanager/intern/wm_files_link.c:352
 msgid "'%s': not a library"
-msgstr "'%s':不是一个库"
+msgstr "'%s': 不是一个库"
 
 #: source/blender/windowmanager/intern/wm_files_link.c:356
 #: source/blender/windowmanager/intern/wm_files_link.c:370
@@ -119828,7 +119819,7 @@ msgstr ""
 
 #: source/blender/windowmanager/intern/wm_files_link.c:360
 msgid "'%s': cannot use current file as library"
-msgstr "无法解包独立的库文件, '%s'"
+msgstr "'%s': 无法使用当前文件作为库文件"
 
 #: source/blender/windowmanager/intern/wm_files_link.c:385
 msgid "Scene '%s' is linked, instantiation of objects & groups is disabled"
@@ -119840,7 +119831,7 @@ msgstr ""
 
 #: source/blender/windowmanager/intern/wm_files_link.c:906
 msgid "'%s' is not a valid library filepath"
-msgstr "'%s' 顶点组无效"
+msgstr "'%s' 为无效库文件路径"
 
 #: source/blender/windowmanager/intern/wm_files_link.c:911
 msgid "Trying to reload library '%s' from invalid path '%s'"
@@ -119852,15 +119843,15 @@ msgstr ""
 
 #: source/blender/windowmanager/intern/wm_keymap.c:1151
 msgid "Win"
-msgstr "风力"
+msgstr "Win"
 
 #: source/blender/windowmanager/intern/wm_keymap.c:1153
 msgid "OSkey"
-msgstr "天空"
+msgstr "系统键"
 
 #: source/blender/windowmanager/intern/wm_keymap.c:1162
 msgid "Bksp"
-msgstr ""
+msgstr "Bksp"
 
 #: source/blender/windowmanager/intern/wm_keymap.c:1164
 msgid "Esc"
@@ -119909,7 +119900,7 @@ msgstr "属性须为整型或浮点型"
 
 #: source/blender/windowmanager/intern/wm_operators.c:2661
 msgid "Property must be a none, distance, factor, percentage, angle, or pixel"
-msgstr "属性须为空, 距离, 系数或角度"
+msgstr "属性须为空, 距离, 系数, 百分比, 角度或像素"
 
 #: source/blender/windowmanager/intern/wm_operators.c:182
 msgid "Registering operator class: '%s', invalid bl_idname '%s', at position %d"
@@ -119929,7 +119920,7 @@ msgstr "无法读取 %s '%s': %s"
 
 #: source/blender/windowmanager/intern/wm_operators.c:1059
 msgid "%s '%s' not found"
-msgstr "%s未找到'%s'"
+msgstr "%s 未找到 '%s'"
 
 #: source/blender/windowmanager/intern/wm_operators.c:1304
 msgid "Operator '%s' does not have register enabled, incorrect invoke function"
@@ -119941,19 +119932,19 @@ msgstr "操作项 '%s' 未启用撤销, 调用函数有误"
 
 #: source/blender/windowmanager/intern/wm_operators.c:1380
 msgid "Operator redo '%s' does not have register enabled, incorrect invoke function"
-msgstr "操作项 '%s' 未启用注册, 调用函数有误"
+msgstr "操作项重做 '%s' 未启用注册, 调用函数有误"
 
 #: source/blender/windowmanager/intern/wm_operators.c:1387
 msgid "Operator redo '%s': wrong context"
-msgstr "操作项 redo '%s': 环境有误"
+msgstr "操作项重做 '%s': 上下文错误"
 
 #: source/blender/windowmanager/intern/wm_operators.c:2461
 msgid "Could not resolve path '%s'"
-msgstr "未能分解路径 '%s'"
+msgstr "未能解析路径 '%s'"
 
 #: source/blender/windowmanager/intern/wm_operators.c:2473
 msgid "Property from path '%s' is not a float"
-msgstr "路径 '%s' 中的属性不是浮动型"
+msgstr "路径 '%s' 中的属性不是浮点型"
 
 #: source/blender/windowmanager/intern/wm_operators.c:2481
 msgid "Property from path '%s' has length %d instead of %d"
@@ -120001,7 +119992,7 @@ msgstr "Blender文件视图"
 
 #: source/blender/windowmanager/intern/wm_window.c:917
 msgid "Blender Drivers Editor"
-msgstr "Blender设备编辑器"
+msgstr "Blender驱动器编辑器"
 
 #. :src: Add-ons' categories
 msgid "All Add-ons"
