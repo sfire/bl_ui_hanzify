@@ -8,7 +8,7 @@
 
 **Screenshot**:
 
-![](./mirror_submenu.png)
+![](./img/mirror_submenu.png)
 
 ## 2. Sub menu of Fractional Zoom
 
@@ -18,7 +18,7 @@
 
 **Screenshot**:
 
-![](./fractional_zoom_submenu.png)
+![](./img/fractional_zoom_submenu.png)
 
 
 ## 3. Unit Presets
@@ -35,9 +35,9 @@
 
 **Screenshot**:
 
-![](./unit_length_presets.png)
-![](./unit_mass_presets.png)
-![](./unit_time_presets.png)
+![](./img/unit_length_presets.png)
+![](./img/unit_mass_presets.png)
+![](./img/unit_time_presets.png)
 
 ## 4. Preference of Light
 
@@ -53,7 +53,7 @@
 
 **Screenshot**:
 
-![](./preference_lights.png)
+![](./img/preference_lights.png)
 
 ## 5. Preference of Keymap
 
@@ -65,7 +65,7 @@
 
 **Screenshot**:
 
-![](./preference_keymap.png)
+![](./img/preference_keymap.png)
 
 ## 5. Popup on exit
 
@@ -77,7 +77,7 @@
 
 **Screenshot**:
 
-![](./quit_warning.png)
+![](./img/quit_warning.png)
 
 ## 6. Viewport Shading
 
@@ -89,7 +89,7 @@
 
 **Screenshot**:
 
-![](./viewport_shading.png)
+![](./img/viewport_shading.png)
 
 ## 7. Drag action of Gizmo
 
@@ -101,4 +101,4 @@
 
 **Screenshot**:
 
-![](./drag_action.png)
+![](./img/drag_action.png)

@@ -25,7 +25,7 @@ Blender 的UI是通过安装目录下的 `\datafiles\locale\zh_CN\LC_MESSAGES` �
 
    一次多义情况下，可以通过poedit打开 `zh_CN.po` 文件后显示的 `给译员的注释` 来推测UI用到该词条的位置，进而作出合理的判断与修改。
 
-   ![注释](./poedit_comments.png)
+   ![注释](./img/poedit_comments.png)
 
 3. 统一用词问题
    为确保界面词汇一致性，请新用户参考[对照表](./dict.md)统一用词。
