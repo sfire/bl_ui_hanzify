@@ -19,20 +19,23 @@
 #   <Same as above>
 #   Special thanks to DeathBlood <deathblood@sohu.com>
 #   Special thanks to snail, Marshadow
+#
 #  ★ BlenderCN Translation Team, 2011-2015
 #   Leon Cheung <leon4you@gmail.com>
 #   congcong009 <congcong009@gmail.com>
 #   Xiao Xiangquan <xiaoxiangquan@gmail.com>
 #  ▲ BlenderCN Translation Revisers 2012-2016
-#   Asx <i@iAsx.org> 2018
 #   CG阿颜 | baohua | 生活 | sjn1978 | acme_pjz | 混在北京 | 云风如我 | huangsr2012 | nirenyang | nge
+#
+#  ★ Translator for Blender 2.8 in 2019
+#   Asx <i@iAsx.org> | DeathBlood
 msgid ""
 msgstr ""
 "Project-Id-Version: Blender 2.80 (sub 74) (b'91d3b00395ec')\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-07-10 00:00:00\n"
 "PO-Revision-Date: \n"
-"Last-Translator: Asx <i@iAsx.org>\n"
+"Last-Translator: NGE\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -12025,22 +12028,22 @@ msgstr "控制此关系的曲线"
 #. :src: bpy.types.SplineIKConstraint.use_bulge_max
 #. :src: bpy.types.StretchToConstraint.use_bulge_max
 msgid "Use Volume Variation Maximum"
-msgstr ""
+msgstr "使用体积变化最大值"
 
 #. :src: bpy.types.SplineIKConstraint.use_bulge_max
 #. :src: bpy.types.StretchToConstraint.use_bulge_max
 msgid "Use upper limit for volume variation"
-msgstr ""
+msgstr "使用较高限制体积变化"
 
 #. :src: bpy.types.SplineIKConstraint.use_bulge_min
 #. :src: bpy.types.StretchToConstraint.use_bulge_min
 msgid "Use Volume Variation Minimum"
-msgstr ""
+msgstr "使用体积变化最小值"
 
 #. :src: bpy.types.SplineIKConstraint.use_bulge_min
 #. :src: bpy.types.StretchToConstraint.use_bulge_min
 msgid "Use lower limit for volume variation"
-msgstr ""
+msgstr "使用较低限制体积变化"
 
 #. :src: bpy.types.SplineIKConstraint.use_chain_offset
 msgid "Chain Offset"
@@ -12072,7 +12075,7 @@ msgstr "使用初始缩放"
 
 #. :src: bpy.types.SplineIKConstraint.use_original_scale
 msgid "Apply volume preservation over the original scaling"
-msgstr ""
+msgstr "对原始缩放应用体积保护"
 
 #. :src: bpy.types.SplineIKConstraint.xz_scale_mode
 msgid "XZ Scale Mode"
@@ -12117,7 +12120,7 @@ msgstr "Y 缩放模式"
 
 #. :src: bpy.types.SplineIKConstraint.y_scale_mode
 msgid "Method used for determining the scaling of the Y axis of the bones, on top of the shape and scaling of the curve itself"
-msgstr ""
+msgstr "用于确定骨骼Y轴在形状顶部的缩放比例和曲线本身的缩放比例的方法"
 
 #. :src: bpy.types.SplineIKConstraint.y_scale_mode:'NONE'
 msgid "Don't scale in the Y axis"
@@ -12199,7 +12202,7 @@ msgstr "变换缓存约束"
 
 #. :src: bpy.types.TransformCacheConstraint
 msgid "Look up transformation from an external file"
-msgstr ""
+msgstr "从外部文件查找转换"
 
 #. :src: bpy.types.TransformCacheConstraint.cache_file
 #. :src: bpy.types.MeshSequenceCacheModifier.cache_file
@@ -12210,7 +12213,7 @@ msgstr "缓存文件"
 
 #. :src: bpy.types.TransformCacheConstraint.object_path
 msgid "Path to the object in the Alembic archive used to lookup the transform matrix"
-msgstr ""
+msgstr "Alembic存档中的物体路径用来查找转换矩阵"
 
 #. :src: bpy.types.TransformConstraint
 msgid "Transformation Constraint"
@@ -12441,7 +12444,7 @@ msgstr "多目标约束的物体"
 
 #. :src: bpy.types.ConstraintTargetBone.subtarget
 msgid "Target armature bone"
-msgstr ""
+msgstr "目标骨架骨骼"
 
 #. :src: bpy.types.ConstraintTargetBone.target
 msgid "Target armature"
@@ -12453,7 +12456,7 @@ msgstr "混合权重"
 
 #. :src: bpy.types.ConstraintTargetBone.weight
 msgid "Blending weight of this bone"
-msgstr ""
+msgstr "混合此骨头的权重"
 
 #. :src: bpy.types.CurveMap
 msgid "Curve in a curve mapping"
@@ -12721,15 +12724,15 @@ msgstr "曲线点的选择状态"
 
 #. :src: bpy.types.CurveMapPoints
 msgid "Curve Map Point"
-msgstr ""
+msgstr "曲线映射点"
 
 #. :src: bpy.types.CurveMapPoints
 msgid "Collection of Curve Map Points"
-msgstr ""
+msgstr "曲线映射点集合"
 
 #. :src: bpy.types.CurveMapping
 msgid "Curve mapping to map color, vector and scalar values to other values using a user defined curve"
-msgstr ""
+msgstr "使用用户定义的曲线将颜色、向量和标量值映射到其他值的曲线映射"
 
 #. :src: bpy.types.CurveMapping.black_level
 #: source/blender/nodes/composite/nodes/node_composite_curves.c:86
@@ -12759,11 +12762,11 @@ msgstr "Y 最小剪切值"
 # rblc
 #. :src: bpy.types.CurveMapping.tone
 msgid "Tone"
-msgstr ""
+msgstr "色调"
 
 #. :src: bpy.types.CurveMapping.tone
 msgid "Tone of the curve"
-msgstr ""
+msgstr "色调曲线"
 
 #. :src: bpy.types.CurveMapping.tone:'STANDARD'
 #. :src: bpy.types.IKParam.ik_solver:'LEGACY'
@@ -12773,7 +12776,7 @@ msgstr "标准"
 
 #. :src: bpy.types.CurveMapping.tone:'FILMLIKE'
 msgid "Film like"
-msgstr ""
+msgstr "电影向"
 
 #. :src: bpy.types.CurveMapping.use_clip
 #. :src: bpy.types.MirrorGpencilModifier.use_clip
@@ -13000,7 +13003,7 @@ msgstr ""
 
 #. :src: bpy.types.CurvePaintSettings.surface_plane:'NORMAL_SURFACE'
 msgid "Normal/Surface"
-msgstr ""
+msgstr "法线/表面"
 
 #. :src: bpy.types.CurvePaintSettings.surface_plane:'NORMAL_SURFACE'
 msgid "Display aligned to the surface"
@@ -13115,7 +13118,7 @@ msgstr "视图"
 
 #. :src: bpy.types.CurvePaintSettings.surface_plane:'VIEW'
 msgid "Display aligned to the viewport"
-msgstr ""
+msgstr "显示对齐到视图"
 
 #. :src: bpy.types.CurvePaintSettings.use_corners_detect
 msgid "Detect Corners"
@@ -13169,7 +13172,7 @@ msgstr "活动曲线样条"
 #. :src: bpy.types.Depsgraph
 #. :src: bpy.types.ViewLayer.depsgraph
 msgid "Dependency Graph"
-msgstr ""
+msgstr "依赖关系图"
 
 #. :src: bpy.types.Depsgraph.ids
 msgid "IDs"
@@ -13407,11 +13410,11 @@ msgstr "旋转面内侧的 UV 坐标"
 
 #. :src: bpy.types.DepsgraphUpdate
 msgid "Dependency Graph Update"
-msgstr ""
+msgstr "依赖图已经更新"
 
 #. :src: bpy.types.DepsgraphUpdate
 msgid "Information about ID that was updated"
-msgstr ""
+msgstr "ID的信息已经更新"
 
 #. :src: bpy.types.DepsgraphUpdate.id
 #. :src: bpy.types.DriverTarget.id
@@ -13424,7 +13427,7 @@ msgstr "ID"
 
 #. :src: bpy.types.DepsgraphUpdate.id
 msgid "Updated datablock"
-msgstr ""
+msgstr "更新了数据块"
 
 #. :src: bpy.types.DepsgraphUpdate.is_updated_geometry
 #. :src: bpy.types.FileSelectParams.filter_id_category:'GEOMETRY'
@@ -13443,7 +13446,7 @@ msgstr "几何数据"
 
 #. :src: bpy.types.DepsgraphUpdate.is_updated_geometry
 msgid "Object geometry is updated"
-msgstr ""
+msgstr "物体几何体已更新"
 
 #. :src: bpy.types.DepsgraphUpdate.is_updated_transform
 #. :src: bpy.types.CLIP_MT_track_transform
@@ -13491,7 +13494,7 @@ msgstr "变换"
 
 #. :src: bpy.types.DepsgraphUpdate.is_updated_transform
 msgid "Object transformation is updated"
-msgstr ""
+msgstr "物体变换信息已更新"
 
 #. :src: bpy.types.DisplaySafeAreas
 #. :src: bpy.types.Scene.safe_areas
@@ -13580,7 +13583,7 @@ msgstr "显示缓存文件"
 
 #. :src: bpy.types.DopeSheet.show_cache_files
 msgid "Include visualization of cache file related animation data"
-msgstr ""
+msgstr "包括缓存文件相关动画数据的可视化"
 
 #. :src: bpy.types.DopeSheet.show_cameras
 msgid "Display Camera"
@@ -13596,7 +13599,7 @@ msgstr "显示曲线"
 
 #. :src: bpy.types.DopeSheet.show_curves
 msgid "Include visualization of curve related animation data"
-msgstr ""
+msgstr "包括曲线相关动画数据的可视化"
 
 #. :src: bpy.types.DopeSheet.show_datablock_filters
 msgid "Show Datablock Filters"
@@ -13628,7 +13631,7 @@ msgstr "仅活动场景"
 
 #. :src: bpy.types.DopeSheet.show_gpencil_3d_only
 msgid "Only show Grease Pencil data-blocks used as part of the active scene"
-msgstr ""
+msgstr "只显示蜡笔数据块用作激活场景的一部分"
 
 #. :src: bpy.types.DopeSheet.show_hidden
 #. :src: bpy.types.MovieTrackingDopesheet.show_hidden
@@ -13706,7 +13709,7 @@ msgstr "包含与修改器关联的数据块相关的动画数据的视觉化呈
 
 #. :src: bpy.types.DopeSheet.show_movieclips
 msgid "Display Movie Clips"
-msgstr ""
+msgstr "显示影片剪辑"
 
 #. :src: bpy.types.DopeSheet.show_movieclips
 #, fuzzy
@@ -14356,7 +14359,7 @@ msgstr "驱动器变量类型"
 
 #. :src: bpy.types.DriverTarget.transform_type:'SCALE_AVG'
 msgid "Average Scale"
-msgstr ""
+msgstr "平均缩放"
 
 #. :src: bpy.types.DriverVariable
 msgid "Driver Variable"
@@ -14372,7 +14375,7 @@ msgstr "名称是否合法"
 
 #. :src: bpy.types.DriverVariable.is_name_valid
 msgid "Is this a valid name for a driver variable"
-msgstr ""
+msgstr "这是驱动器变量的有效名称吗"
 
 #. :src: bpy.types.DriverVariable.name
 msgid "Name to use in scripted expressions/functions (no spaces or dots are allowed, and must start with a letter)"
@@ -15301,7 +15304,7 @@ msgstr "活动表面"
 
 #. :src: bpy.types.DynamicPaintSurfaces.active
 msgid "Active Dynamic Paint surface being displayed"
-msgstr ""
+msgstr "激活已经显示的动态喷绘表面"
 
 #. :src: bpy.types.DynamicPaintSurfaces.active_index
 #. :src: bpy.types.PointCaches.active_index
@@ -15314,7 +15317,7 @@ msgstr "编辑骨骼"
 
 #. :src: bpy.types.EditBone
 msgid "Editmode bone in an Armature data-block"
-msgstr ""
+msgstr "在骨架数据块内的编辑模式骨头"
 
 #. :src: bpy.types.EditBone.head
 msgid "Location of head end of the bone"
@@ -15605,7 +15608,7 @@ msgstr "可读名称"
 
 #. :src: bpy.types.EnumPropertyItem.value
 msgid "Value of the item"
-msgstr ""
+msgstr "项目的值"
 
 #. :src: bpy.types.FCurve
 msgid "F-Curve"
@@ -17694,7 +17697,7 @@ msgstr "显示尺寸"
 
 #. :src: bpy.types.FileSelectParams.display_size
 msgid "Change the size of the display (width of columns or thumbnails size)"
-msgstr ""
+msgstr "更改显示的大小（列宽或缩略图大小）"
 
 #. :src: bpy.types.FileSelectParams.display_size:'TINY'
 msgid "Tiny"
@@ -18063,7 +18066,7 @@ msgstr "Freestyle线条样式"
 
 #. :src: bpy.types.FileSelectParams.filter_id:'LINESTYLE'
 msgid "Show/hide Freestyle's Line Style data-blocks"
-msgstr ""
+msgstr "显示/隐藏 Freestyle的线样式数据块"
 
 #. :src: bpy.types.FileSelectParams.filter_id:'LATTICE'
 msgid "Show/hide Lattice data-blocks"
@@ -18212,7 +18215,7 @@ msgstr "着色方式"
 
 #. :src: bpy.types.FileSelectParams.filter_id_category:'SHADING'
 msgid "Show/hide materials, nodetrees, textures and Freestyle's linestyles"
-msgstr ""
+msgstr "显示/隐藏 材质，节点树，纹理和Freestyle的线样式"
 
 #. :src: bpy.types.FileSelectParams.filter_id_category:'IMAGE'
 msgid "Images & Sounds"
@@ -18220,7 +18223,7 @@ msgstr "图像 & 声音"
 
 #. :src: bpy.types.FileSelectParams.filter_id_category:'IMAGE'
 msgid "Show/hide images, movie clips, sounds and masks"
-msgstr ""
+msgstr "显示/隐藏 图像，影片剪辑，声音和遮罩"
 
 #. :src: bpy.types.FileSelectParams.filter_id_category:'ENVIRONMENT'
 #. :src: bpy.types.OBJECT_OT_bake.type:'ENVIRONMENT'
@@ -18233,7 +18236,7 @@ msgstr "环境"
 
 #. :src: bpy.types.FileSelectParams.filter_id_category:'ENVIRONMENT'
 msgid "Show/hide worlds, lights, cameras and speakers"
-msgstr ""
+msgstr "显示/隐藏世界，灯光，相机和喇叭"
 
 #. :src: bpy.types.FileSelectParams.filter_id_category:'MISC'
 #. :src: bpy.types.USERPREF_PT_edit_misc
@@ -18709,7 +18712,7 @@ msgstr "过滤 Blender ID"
 
 #. :src: bpy.types.FileSelectParams.use_filter_blendid
 msgid "Show .blend files items (objects, materials, etc.)"
-msgstr ""
+msgstr "显示 .blend文件项目(物体，材质等等)"
 
 #. :src: bpy.types.FileSelectParams.use_filter_folder
 msgid "Filter Folder"
@@ -19412,7 +19415,7 @@ msgstr "流体网格速度"
 
 #. :src: bpy.types.FluidVertexVelocity
 msgid "Velocity of a simulated fluid mesh"
-msgstr ""
+msgstr "作为流体模拟的网格物体的速度"
 
 #. :src: bpy.types.FreestyleLineSet
 #. :src: bpy.types.VIEWLAYER_PT_freestyle_lineset
@@ -19640,7 +19643,7 @@ msgstr "双面"
 
 #. :src: bpy.types.FreestyleLineSet.face_mark_condition:'BOTH'
 msgid "Select a feature edge if both of its adjacent faces are marked"
-msgstr ""
+msgstr "如果临近面都被标记则选择特征边"
 
 # pblc
 #. :src: bpy.types.FreestyleLineSet.face_mark_negation
@@ -19794,7 +19797,7 @@ msgstr "按可见性选择特征边"
 
 #. :src: bpy.types.FreestyleLineSet.select_contour
 msgid "Select contours (outer silhouettes of each object)"
-msgstr ""
+msgstr "选择轮廓（每个对象的外部轮廓）"
 
 #. :src: bpy.types.FreestyleLineSet.select_crease
 msgid "Select crease edges (those between two faces making an angle smaller than the Crease Angle)"
@@ -20110,7 +20113,7 @@ msgstr ""
 
 #. :src: bpy.types.GPUFXSettings.ssao
 msgid "Screen Space Ambient Occlusion settings"
-msgstr ""
+msgstr "屏幕空间环境光遮蔽（AO）设置"
 
 #. :src: bpy.types.GPUFXSettings.use_ssao
 msgid "SSAO"
@@ -20118,7 +20121,7 @@ msgstr "SSAO"
 
 #. :src: bpy.types.GPUFXSettings.use_ssao
 msgid "Use screen space ambient occlusion of field on viewport"
-msgstr ""
+msgstr "在视图上使用屏幕空间环境光遮蔽（AO）区域"
 
 #. :src: bpy.types.GPUSSAOSettings
 msgid "GPU SSAO"
@@ -20126,7 +20129,7 @@ msgstr "GPU SSAO"
 
 #. :src: bpy.types.GPUSSAOSettings
 msgid "Settings for GPU based screen space ambient occlusion"
-msgstr ""
+msgstr "基于屏幕空间环境光遮蔽（AO）的GPU设置"
 
 #. :src: bpy.types.GPUSSAOSettings.attenuation
 #. :src: bpy.types.Speaker.attenuation
@@ -20137,11 +20140,11 @@ msgstr "衰减量"
 #. :src: bpy.types.GPUSSAOSettings.attenuation
 #. :src: bpy.types.SceneDisplay.matcap_ssao_attenuation
 msgid "Attenuation constant"
-msgstr ""
+msgstr "衰减常数"
 
 #. :src: bpy.types.GPUSSAOSettings.color
 msgid "Color for screen space ambient occlusion effect"
-msgstr ""
+msgstr "屏幕空间环境光遮蔽（AO）的颜色影响"
 
 #. :src: bpy.types.GPUSSAOSettings.distance_max
 msgid "Distance of object that contribute to the SSAO effect"
@@ -91382,7 +91385,7 @@ msgstr "多视图"
 
 #. :src: bpy.types.RenderSettings.views_format:'MULTIVIEW'
 msgid "Multi camera system, adjust the cameras individually"
-msgstr ""
+msgstr "多相机系统，单独的调节相机"
 
 #. :src: bpy.types.RenderSlot
 msgid "Render Slot"
@@ -91609,91 +91612,91 @@ msgstr "约束解算器在每步模拟中的迭代次数 (值越高, 结果越�
 
 #. :src: bpy.types.RigidBodyConstraint.spring_damping_ang_x
 msgid "Damping X Angle"
-msgstr ""
+msgstr "阻尼X转角"
 
 #. :src: bpy.types.RigidBodyConstraint.spring_damping_ang_x
 msgid "Damping on the X rotational axis"
-msgstr ""
+msgstr "X旋转轴方向的阻尼"
 
 #. :src: bpy.types.RigidBodyConstraint.spring_damping_ang_y
 msgid "Damping Y Angle"
-msgstr ""
+msgstr "阻尼Y转角"
 
 #. :src: bpy.types.RigidBodyConstraint.spring_damping_ang_y
 msgid "Damping on the Y rotational axis"
-msgstr ""
+msgstr "Y旋转轴方向的阻尼"
 
 #. :src: bpy.types.RigidBodyConstraint.spring_damping_ang_z
 msgid "Damping Z Angle"
-msgstr ""
+msgstr "阻尼Z转角"
 
 #. :src: bpy.types.RigidBodyConstraint.spring_damping_ang_z
 msgid "Damping on the Z rotational axis"
-msgstr ""
+msgstr "Z旋转轴方向的阻尼"
 
 #. :src: bpy.types.RigidBodyConstraint.spring_damping_x
 msgid "Damping X"
-msgstr ""
+msgstr "阻尼X"
 
 #. :src: bpy.types.RigidBodyConstraint.spring_damping_x
 msgid "Damping on the X axis"
-msgstr ""
+msgstr "X轴方向的阻尼"
 
 #. :src: bpy.types.RigidBodyConstraint.spring_damping_y
 msgid "Damping Y"
-msgstr ""
+msgstr "阻尼Y"
 
 #. :src: bpy.types.RigidBodyConstraint.spring_damping_y
 msgid "Damping on the Y axis"
-msgstr ""
+msgstr "Y轴方向的阻尼"
 
 #. :src: bpy.types.RigidBodyConstraint.spring_damping_z
 msgid "Damping Z"
-msgstr ""
+msgstr "阻尼Z"
 
 #. :src: bpy.types.RigidBodyConstraint.spring_damping_z
 msgid "Damping on the Z axis"
-msgstr ""
+msgstr "Z轴方向的阻尼"
 
 #. :src: bpy.types.RigidBodyConstraint.spring_stiffness_ang_x
 msgid "X Angle Stiffness"
-msgstr ""
+msgstr "X转角硬度"
 
 #. :src: bpy.types.RigidBodyConstraint.spring_stiffness_ang_x
 msgid "Stiffness on the X rotational axis"
-msgstr ""
+msgstr "X转动轴方向的硬度"
 
 #. :src: bpy.types.RigidBodyConstraint.spring_stiffness_ang_y
 msgid "Y Angle Stiffness"
-msgstr ""
+msgstr "Y转角硬度"
 
 #. :src: bpy.types.RigidBodyConstraint.spring_stiffness_ang_y
 msgid "Stiffness on the Y rotational axis"
-msgstr ""
+msgstr "Y转动轴方向的硬度"
 
 #. :src: bpy.types.RigidBodyConstraint.spring_stiffness_ang_z
 msgid "Z Angle Stiffness"
-msgstr ""
+msgstr "Z转角硬度"
 
 #. :src: bpy.types.RigidBodyConstraint.spring_stiffness_ang_z
 msgid "Stiffness on the Z rotational axis"
-msgstr ""
+msgstr "Z转动轴方向的硬度"
 
 #. :src: bpy.types.RigidBodyConstraint.spring_stiffness_x
 msgid "X Axis Stiffness"
-msgstr ""
+msgstr "X轴硬度"
 
 #. :src: bpy.types.RigidBodyConstraint.spring_stiffness_x
 msgid "Stiffness on the X axis"
-msgstr ""
+msgstr "X轴方向的硬度"
 
 #. :src: bpy.types.RigidBodyConstraint.spring_stiffness_y
 msgid "Y Axis Stiffness"
-msgstr ""
+msgstr "Y轴硬度"
 
 #. :src: bpy.types.RigidBodyConstraint.spring_stiffness_y
 msgid "Stiffness on the Y axis"
-msgstr ""
+msgstr "Y轴方向的硬度"
 
 #. :src: bpy.types.RigidBodyConstraint.spring_stiffness_z
 msgid "Z Axis Stiffness"
@@ -97286,7 +97289,7 @@ msgstr "显示其它物体"
 
 #. :src: bpy.types.SpaceOutliner.use_filter_object_others
 msgid "Show curves, lattices, light probes, fonts, ..."
-msgstr ""
+msgstr "显示曲线，晶格，光照探头，字体, ..."
 
 #. :src: bpy.types.SpaceOutliner.use_sort_alpha
 msgid "Sort Alphabetically"
@@ -97486,7 +97489,7 @@ msgstr "显示偏移"
 
 #. :src: bpy.types.SpaceSequenceEditor.show_strip_offset
 msgid "Display strip in/out offsets"
-msgstr ""
+msgstr "显示片段淡入淡出的偏移量"
 
 #. :src: bpy.types.SpaceSequenceEditor.use_marker_sync
 msgid "Transform markers as well as strips"
@@ -97662,7 +97665,7 @@ msgstr "可见线条"
 
 #. :src: bpy.types.SpaceTextEditor.visible_lines
 msgid "Amount of lines that can be visible in current editor"
-msgstr ""
+msgstr "当前编辑器的可见行数"
 
 #. :src: bpy.types.SpaceView3D
 msgid "3D View Space"
@@ -97690,7 +97693,7 @@ msgstr "效果选项"
 
 #. :src: bpy.types.SpaceView3D.fx_settings
 msgid "Options used for real time compositing"
-msgstr ""
+msgstr "用于实时合成的选项"
 
 #. :src: bpy.types.SpaceView3D.icon_from_show_object_viewport
 msgid "Visibility Icon"
@@ -97796,7 +97799,7 @@ msgstr "显示相机焦距"
 
 #. :src: bpy.types.SpaceView3D.show_gizmo_camera_dof_distance
 msgid "Gizmo to adjust camera focus distance (depends on limits display)"
-msgstr ""
+msgstr "调节相机对焦距离的操纵杆（必须视图显示内的限制打开）"
 
 #. :src: bpy.types.SpaceView3D.show_gizmo_camera_lens
 msgid "Show Camera Lens"
@@ -97804,7 +97807,7 @@ msgstr "显示相机镜头"
 
 #. :src: bpy.types.SpaceView3D.show_gizmo_camera_lens
 msgid "Gizmo to adjust camera lens & ortho size"
-msgstr ""
+msgstr "调节相机镜头和正交尺寸的操纵杆"
 
 #. :src: bpy.types.SpaceView3D.show_gizmo_context
 msgid "Context Gizmo"
@@ -97828,15 +97831,15 @@ msgstr "显示空白图像"
 
 #. :src: bpy.types.SpaceView3D.show_gizmo_empty_image
 msgid "Gizmo to adjust image size and position"
-msgstr ""
+msgstr "调节图像尺寸和位置的操纵杆"
 
 #. :src: bpy.types.SpaceView3D.show_gizmo_light_look_at
 msgid "Show Light Look-At"
-msgstr ""
+msgstr "显示灯光朝向"
 
 #. :src: bpy.types.SpaceView3D.show_gizmo_light_look_at
 msgid "Gizmo to adjust the direction of the light"
-msgstr ""
+msgstr "调节灯光方向的操纵杆"
 
 #. :src: bpy.types.SpaceView3D.show_gizmo_light_size
 msgid "Show Light Size"
@@ -97844,7 +97847,7 @@ msgstr "显示灯光尺寸"
 
 #. :src: bpy.types.SpaceView3D.show_gizmo_light_size
 msgid "Gizmo to adjust spot and area size"
-msgstr ""
+msgstr "调节聚光灯和面光源尺寸的操纵杆"
 
 #. :src: bpy.types.SpaceView3D.show_gizmo_navigate
 msgid "Navigate Gizmo"
@@ -101819,7 +101822,7 @@ msgstr "仅线条"
 
 #. :src: bpy.types.View3DOverlay.use_gpencil_multiedit_line_only
 msgid "Only show edit lines for additional frames"
-msgstr ""
+msgstr "只为叠加帧显示编辑线条"
 
 #. :src: bpy.types.View3DOverlay.use_gpencil_paper
 msgid "Use Paper"
@@ -101860,7 +101863,7 @@ msgstr "线框阈值"
 
 #. :src: bpy.types.View3DOverlay.wireframe_threshold
 msgid "Adjust the number of wires displayed (1 for all wires)"
-msgstr ""
+msgstr "调整线框显示的强度值(1显示全部线条)"
 
 #. :src: bpy.types.View3DOverlay.xray_alpha_bone
 msgid "Opacity to use for bone selection"
@@ -101896,7 +101899,7 @@ msgstr "使用世界背景颜色"
 
 #. :src: bpy.types.View3DShading.background_type:'VIEWPORT'
 msgid "Use a custom color limited to this viewport only"
-msgstr ""
+msgstr "使用一个自定义颜色来限制当前视图颜色"
 
 #. :src: bpy.types.View3DShading.cavity_ridge_factor
 msgid "Cavity Ridge"
@@ -101971,19 +101974,19 @@ msgstr "显示纹理"
 
 #. :src: bpy.types.View3DShading.curvature_ridge_factor
 msgid "Curvature Ridge"
-msgstr ""
+msgstr "脊线曲率"
 
 #. :src: bpy.types.View3DShading.curvature_ridge_factor
 msgid "Factor for the curvature ridges"
-msgstr ""
+msgstr "脊线曲率的系数"
 
 #. :src: bpy.types.View3DShading.curvature_valley_factor
 msgid "Curvature Valley"
-msgstr ""
+msgstr "谷线曲率"
 
 #. :src: bpy.types.View3DShading.curvature_valley_factor
 msgid "Factor for the curvature valleys"
-msgstr ""
+msgstr "谷线曲率的系数"
 
 #. :src: bpy.types.View3DShading.light
 msgid "Lighting Method for Solid/Texture Viewport Shading"
@@ -109785,7 +109788,7 @@ msgstr "物体Gizmo"
 
 #: scripts/startup/bl_ui/space_view3d.py:5343
 msgid "Look At"
-msgstr "看向"
+msgstr "朝向"
 
 #: scripts/startup/bl_ui/space_view3d.py:5357
 msgid "Viewport Overlays"
@@ -110545,12 +110548,12 @@ msgstr "宽度尺寸"
 #: scripts/startup/bl_ui/space_view3d.py:5242
 #: scripts/startup/bl_ui/space_view3d.py:5253
 msgid "Ridge"
-msgstr "脊线 & 谷线"
+msgstr "脊线"
 
 #: scripts/startup/bl_ui/space_view3d.py:5243
 #: scripts/startup/bl_ui/space_view3d.py:5254
 msgid "Valley"
-msgstr "脊线 & 谷线"
+msgstr "谷线"
 
 #: scripts/startup/bl_ui/space_view3d.py:6048
 msgid "No object selected, using cursor"
