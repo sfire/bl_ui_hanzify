@@ -44,7 +44,7 @@ msgstr ""
 "Language: zh_CN\n"
 "=====X-Generator: Poedit 1.6.9\n"
 "Language: zh_CN>>>>>> .r306\n"
-"X-Generator: Poedit 2.2.3\n"
+"X-Generator: Poedit 2.2.1\n"
 
 #. :src: bpy.types.ActionFCurves
 msgid "Action F-Curves"
@@ -54372,7 +54372,7 @@ msgstr "翻转(并纠正)所选骨骼名称的轴向后缀"
 #. :src: bpy.types.ARMATURE_OT_flip_names.do_strip_numbers
 #. :src: bpy.types.POSE_OT_flip_names.do_strip_numbers
 msgid "Strip Numbers"
-msgstr "片断序号"
+msgstr "片段序号"
 
 #. :src: bpy.types.ARMATURE_OT_flip_names.do_strip_numbers
 #. :src: bpy.types.POSE_OT_flip_names.do_strip_numbers
@@ -57098,7 +57098,7 @@ msgstr "在 (0.0-1.0) 坐标标准值区间内的游标位置"
 #. :src: bpy.types.IMAGE_OT_view_zoom_ratio
 msgctxt "Operator"
 msgid "View Zoom Ratio"
-msgstr "缩放比率视图"
+msgstr "视图缩放比率"
 
 #. :src: bpy.types.CLIP_OT_view_zoom_ratio
 msgid "Set the zoom ratio (based on clip size)"
@@ -68028,7 +68028,7 @@ msgstr "为选择的非线性动画片段添加复制的函数曲线修改器"
 
 #. :src: bpy.types.NLA_OT_fmodifier_paste.only_active
 msgid "Only paste F-Modifiers on active strip"
-msgstr "仅向活动片断添加函数曲线修改器"
+msgstr "仅向活动片段添加函数曲线修改器"
 
 # rblc
 #. :src: bpy.types.NLA_OT_make_single_user
@@ -68365,7 +68365,7 @@ msgstr "缩放背景图像"
 #. :src: bpy.types.NODE_OT_clear_viewer_border
 msgctxt "Operator"
 msgid "Clear Viewer Border"
-msgstr "清除渲染选框"
+msgstr "清除预览器选框"
 
 #. :src: bpy.types.NODE_OT_clear_viewer_border
 msgid "Clear the boundaries for viewer operations"
@@ -68850,7 +68850,7 @@ msgstr "使用套索选择节点"
 #. :src: bpy.types.NODE_OT_select_link_viewer
 msgctxt "Operator"
 msgid "Link Viewer"
-msgstr "链接查看器"
+msgstr "连接预览器"
 
 #. :src: bpy.types.NODE_OT_select_link_viewer
 msgid "Select node and link it to a viewer node"
@@ -75223,7 +75223,7 @@ msgstr "复制活动线条集合到缓冲区"
 #. :src: bpy.types.SCENE_OT_freestyle_lineset_move
 msgctxt "Operator"
 msgid "Move Line Set"
-msgstr "复制线条集合"
+msgstr "移动线条集合"
 
 #. :src: bpy.types.SCENE_OT_freestyle_lineset_move
 msgid "Change the position of the active line set within the list of line sets"
@@ -76065,7 +76065,7 @@ msgstr "交替渐变"
 #. :src: bpy.types.SEQUENCER_OT_change_effect_type.type:'CROSS'
 #. :src: bpy.types.SEQUENCER_OT_effect_strip_add.type:'CROSS'
 msgid "Crossfade effect strip type"
-msgstr "交替渐变特效的片断类型"
+msgstr "交替渐变特效的片段类型"
 
 #. :src: bpy.types.SEQUENCER_OT_change_effect_type.type:'ADD'
 #. :src: bpy.types.SEQUENCER_OT_effect_strip_add.type:'ADD'
@@ -76518,15 +76518,15 @@ msgstr "将一个影片剪辑片段添加到序列编辑器中"
 #. :src: bpy.types.SEQUENCER_OT_mute
 msgctxt "Operator"
 msgid "Mute Strips"
-msgstr "禁用片段"
+msgstr "屏蔽片段"
 
 #. :src: bpy.types.SEQUENCER_OT_mute
 msgid "Mute (un)selected strips"
-msgstr "禁用所选片段"
+msgstr "屏蔽所选片段"
 
 #. :src: bpy.types.SEQUENCER_OT_mute.unselected
 msgid "Mute unselected rather than selected strips"
-msgstr "禁用未选片段, 而不是所选片段"
+msgstr "屏蔽未选片段, 而不是所选片段"
 
 #. :src: bpy.types.SEQUENCER_OT_offset_clear
 msgctxt "Operator"
@@ -76775,7 +76775,7 @@ msgstr "选择更多相邻与当前选择的片段"
 #. :src: bpy.types.SEQUENCER_OT_slip
 msgctxt "Operator"
 msgid "Trim Strips"
-msgstr "修剪片断"
+msgstr "修剪片段"
 
 #. :src: bpy.types.SEQUENCER_OT_slip
 msgid "Trim the contents of the active strip"
@@ -76783,7 +76783,7 @@ msgstr "修剪活动片段内容"
 
 #. :src: bpy.types.SEQUENCER_OT_slip.offset
 msgid "Offset to the data of the strip"
-msgstr "偏移至片断数据"
+msgstr "偏移至片段数据"
 
 #. :src: bpy.types.SEQUENCER_OT_snap
 msgctxt "Operator"
@@ -76854,7 +76854,7 @@ msgstr "色调映射"
 #. :src: bpy.types.SEQUENCER_OT_strip_modifier_copy
 msgctxt "Operator"
 msgid "Copy to Selected Strips"
-msgstr "复制到选定片断"
+msgstr "复制到选定片段"
 
 #. :src: bpy.types.SEQUENCER_OT_strip_modifier_copy
 msgid "Copy modifiers of the active strip to all selected strips"
@@ -76929,7 +76929,7 @@ msgstr "交换特效片段的两个输入"
 #. :src: bpy.types.SEQUENCER_OT_unlock
 msgctxt "Operator"
 msgid "Unlock Strips"
-msgstr "解锁片断"
+msgstr "解锁片段"
 
 #. :src: bpy.types.SEQUENCER_OT_unlock
 msgid "Unlock strips so they can be transformed"
@@ -76938,7 +76938,7 @@ msgstr "锁定片段使其无法变换"
 #. :src: bpy.types.SEQUENCER_OT_unmute
 msgctxt "Operator"
 msgid "Unmute Strips"
-msgstr "取消屏蔽片断"
+msgstr "取消屏蔽片段"
 
 #. :src: bpy.types.SEQUENCER_OT_unmute
 msgid "Unmute (un)selected strips"
@@ -77397,7 +77397,7 @@ msgstr "文件底部"
 #. :src: bpy.types.TEXT_OT_move_lines
 msgctxt "Operator"
 msgid "Move Lines"
-msgstr "移动线条"
+msgstr "移动行"
 
 #. :src: bpy.types.TEXT_OT_move_lines
 msgid "Move the currently selected line(s) up/down"
@@ -77543,12 +77543,12 @@ msgstr "要滚动的行数"
 #. :src: bpy.types.TEXT_OT_scroll_bar
 msgctxt "Operator"
 msgid "Scrollbar"
-msgstr "滚动"
+msgstr "滚动条"
 
 #. :src: bpy.types.TEXT_OT_select_line
 msgctxt "Operator"
 msgid "Select Line"
-msgstr "连接行号"
+msgstr "选择行"
 
 #. :src: bpy.types.TEXT_OT_select_line
 msgid "Select text by line"
@@ -78387,7 +78387,7 @@ msgstr "图像文件的路径"
 
 #. :src: bpy.types.UI_OT_edittranslation.rna_ctxt
 msgid "RNA context for label"
-msgstr "用于标签的 RNA 情境"
+msgstr "用于标签的 RNA 上下文"
 
 #. :src: bpy.types.UI_OT_edittranslation.rna_enum
 msgid "Identifier of the RNA enum item, if any"
@@ -81131,7 +81131,7 @@ msgstr ""
 #. :src: bpy.types.WM_OT_context_collection_boolean_set
 msgctxt "Operator"
 msgid "Context Collection Boolean Set"
-msgstr "碰撞布尔设置情境"
+msgstr "上下文集合布尔设置"
 
 #. :src: bpy.types.WM_OT_context_collection_boolean_set
 msgid "Set boolean values for a collection of items"
@@ -81145,16 +81145,16 @@ msgstr "从各个可迭代项指向值的数据路径 (整型或浮点型)"
 #. :src: bpy.types.WM_OT_context_collection_boolean_set.data_path_iter
 #. :src: bpy.types.WM_OT_context_modal_mouse.data_path_iter
 msgid "The data path relative to the context, must point to an iterable"
-msgstr "涉及情境的数据路径, 须指向一个可迭代项"
+msgstr "涉及上下文的数据路径, 须指向一个可迭代项"
 
 #. :src: bpy.types.WM_OT_context_cycle_array
 msgctxt "Operator"
 msgid "Context Array Cycle"
-msgstr "正文阵列循环"
+msgstr "上下文阵列循环"
 
 #. :src: bpy.types.WM_OT_context_cycle_array
 msgid "Set a context array value (useful for cycling the active mesh edit mode)"
-msgstr "设置一个情境阵列值 (适用于活动网格的编辑模式的循环)"
+msgstr "设置一个上下文阵列值 (适用于活动网格的编辑模式的循环)"
 
 #. :src: bpy.types.WM_OT_context_cycle_array.data_path
 #. :src: bpy.types.WM_OT_context_cycle_enum.data_path
@@ -81192,7 +81192,7 @@ msgstr "属性"
 #. :src: bpy.types.WM_OT_context_toggle.data_path
 #. :src: bpy.types.WM_OT_context_toggle_enum.data_path
 msgid "RNA context string"
-msgstr "RNA 正文字符串"
+msgstr "RNA 上下文字符串"
 
 #. :src: bpy.types.WM_OT_context_cycle_array.reverse
 #. :src: bpy.types.WM_OT_context_cycle_enum.reverse
@@ -81203,13 +81203,13 @@ msgstr "逆序"
 #. :src: bpy.types.WM_OT_context_cycle_enum
 msgctxt "Operator"
 msgid "Context Enum Cycle"
-msgstr "循环枚举情境"
+msgstr "上下文枚举循环"
 
 #. :src: bpy.types.WM_OT_context_cycle_enum
 #. :src: bpy.types.WM_OT_context_toggle
 #. :src: bpy.types.WM_OT_context_toggle_enum
 msgid "Toggle a context value"
-msgstr "切换正文值"
+msgstr "切换上下文值"
 
 #. :src: bpy.types.WM_OT_context_cycle_enum.wrap
 #. :src: bpy.types.WM_OT_context_cycle_int.wrap
@@ -81219,7 +81219,7 @@ msgstr ""
 #. :src: bpy.types.WM_OT_context_cycle_int
 msgctxt "Operator"
 msgid "Context Int Cycle"
-msgstr "正文整型循环"
+msgstr "上下文整型循环"
 
 #. :src: bpy.types.WM_OT_context_cycle_int
 msgid "Set a context value (useful for cycling active material, vertex keys, groups, etc.)"
@@ -81265,11 +81265,11 @@ msgstr "上下文枚举饼菜单"
 #. :src: bpy.types.WM_OT_context_scale_float
 msgctxt "Operator"
 msgid "Context Scale Float"
-msgstr "正文浮点缩放"
+msgstr "上下文浮点缩放"
 
 #. :src: bpy.types.WM_OT_context_scale_float
 msgid "Scale a float context value"
-msgstr "缩放正文的浮点值"
+msgstr "缩放上下文的浮点值"
 
 # rblc
 #. :src: bpy.types.WM_OT_context_scale_float.value
@@ -81283,11 +81283,11 @@ msgstr "赋值"
 #. :src: bpy.types.WM_OT_context_scale_int
 msgctxt "Operator"
 msgid "Context Scale Int"
-msgstr "正文整形缩放"
+msgstr "上下文整型缩放"
 
 #. :src: bpy.types.WM_OT_context_scale_int
 msgid "Scale an int context value"
-msgstr "缩放正文的整型值"
+msgstr "缩放上下文的整型值"
 
 #. :src: bpy.types.WM_OT_context_scale_int.always_step
 msgid "Always Step"
@@ -81300,7 +81300,7 @@ msgstr "当 '值' 不为 0 时, 始终用最小值 1 对值进行调节"
 #. :src: bpy.types.WM_OT_context_set_boolean
 msgctxt "Operator"
 msgid "Context Set Boolean"
-msgstr "正文设置布尔型"
+msgstr "上下文设置布尔型"
 
 #. :src: bpy.types.WM_OT_context_set_boolean
 #. :src: bpy.types.WM_OT_context_set_enum
@@ -81309,7 +81309,7 @@ msgstr "正文设置布尔型"
 #. :src: bpy.types.WM_OT_context_set_string
 #. :src: bpy.types.WM_OT_context_set_value
 msgid "Set a context value"
-msgstr "设置正文值"
+msgstr "设置上下文值"
 
 # rblc
 #. :src: bpy.types.WM_OT_context_set_boolean.value
@@ -81320,7 +81320,7 @@ msgstr "指定值"
 #. :src: bpy.types.WM_OT_context_set_enum
 msgctxt "Operator"
 msgid "Context Set Enum"
-msgstr "情境"
+msgstr "上下文设置切换"
 
 # rblc
 #. :src: bpy.types.WM_OT_context_set_enum.value
@@ -81331,7 +81331,7 @@ msgstr "指定值 (作为字符串型)"
 #. :src: bpy.types.WM_OT_context_set_float
 msgctxt "Operator"
 msgid "Context Set Float"
-msgstr "设置正文为浮点"
+msgstr "设置上下文为浮点"
 
 #. :src: bpy.types.WM_OT_context_set_float.relative
 #. :src: bpy.types.WM_OT_context_set_int.relative
@@ -81350,22 +81350,22 @@ msgstr ""
 #. :src: bpy.types.WM_OT_context_set_int
 msgctxt "Operator"
 msgid "Context Set"
-msgstr "设置正文"
+msgstr "设置上下文"
 
 #. :src: bpy.types.WM_OT_context_set_string
 msgctxt "Operator"
 msgid "Context Set String"
-msgstr "正文设置字符串型"
+msgstr "上下文设置字符串型"
 
 #. :src: bpy.types.WM_OT_context_set_value
 msgctxt "Operator"
 msgid "Context Set Value"
-msgstr "正文设置值"
+msgstr "上下文设置值"
 
 #. :src: bpy.types.WM_OT_context_toggle
 msgctxt "Operator"
 msgid "Context Toggle"
-msgstr "切换情境"
+msgstr "切换上下文"
 
 #. :src: bpy.types.WM_OT_context_toggle.module
 msgid "Optionally override the context with a module"
@@ -81374,7 +81374,7 @@ msgstr ""
 #. :src: bpy.types.WM_OT_context_toggle_enum
 msgctxt "Operator"
 msgid "Context Toggle Values"
-msgstr "正文切换值"
+msgstr "上下文切换值"
 
 #. :src: bpy.types.WM_OT_context_toggle_enum.value_1
 #. :src: bpy.types.WM_OT_context_toggle_enum.value_2
@@ -92892,7 +92892,7 @@ msgstr "锁定片段使其无法变换"
 
 #. :src: bpy.types.Sequence.modifiers
 msgid "Modifiers affecting this strip"
-msgstr "影响该片断的修改器"
+msgstr "影响该片段的修改器"
 
 #. :src: bpy.types.Sequence.mute
 msgid "Disable strip so that it cannot be viewed in the output"
@@ -93177,7 +93177,7 @@ msgstr "回放方向"
 #. :src: bpy.types.MovieSequence.playback_direction
 #. :src: bpy.types.SceneSequence.playback_direction
 msgid "Play strip forwards or backwards"
-msgstr "向前或向后播放片断"
+msgstr "向前或向后播放片段"
 
 #. :src: bpy.types.EffectSequence.playback_direction:'FORWARD'
 #. :src: bpy.types.ImageSequence.playback_direction:'FORWARD'
@@ -94046,7 +94046,7 @@ msgstr ""
 
 #. :src: bpy.types.SequenceEditor.proxy_storage:'PER_STRIP'
 msgid "Per Strip"
-msgstr "单个片断"
+msgstr "单个片段"
 
 #. :src: bpy.types.SequenceEditor.proxy_storage:'PER_STRIP'
 msgid "Store proxies using per strip settings"
@@ -94066,7 +94066,7 @@ msgstr ""
 
 #. :src: bpy.types.SequenceEditor.sequences
 msgid "Top-level strips only"
-msgstr "仅顶级片断"
+msgstr "仅顶级片段"
 
 #. :src: bpy.types.SequenceEditor.sequences_all
 msgid "All Sequences"
@@ -94211,7 +94211,7 @@ msgstr "用于遮罩动画的时间"
 
 #. :src: bpy.types.SequenceModifier.mask_time:'RELATIVE'
 msgid "Mask animation is offset to start of strip"
-msgstr "遮罩动画偏移至片断起始位置"
+msgstr "遮罩动画偏移至片段起始位置"
 
 #. :src: bpy.types.SequenceModifier.mask_time:'ABSOLUTE'
 msgid "Mask animation is in sync with scene frame"
@@ -94282,15 +94282,15 @@ msgstr "白色值"
 
 #. :src: bpy.types.WhiteBalanceModifier.white_value
 msgid "This color defines white in the strip"
-msgstr "该颜色定义片断中白色"
+msgstr "该颜色定义片段中白色"
 
 #. :src: bpy.types.SequenceModifiers
 msgid "Strip Modifiers"
-msgstr "片断修改器"
+msgstr "片段修改器"
 
 #. :src: bpy.types.SequenceModifiers
 msgid "Collection of strip modifiers"
-msgstr "片断修改器集合"
+msgstr "片段修改器集合"
 
 #. :src: bpy.types.SequenceProxy
 msgid "Sequence Proxy"
@@ -95925,7 +95925,7 @@ msgstr ""
 #. :src: bpy.types.SpaceImageEditor.mode
 #. :src: bpy.types.SpaceImageEditor.ui_mode
 msgid "Editing context being displayed"
-msgstr "编辑显示的正文"
+msgstr "编辑显示的上下文"
 
 #. :src: bpy.types.SpaceClipEditor.path_length
 msgid "Length of displaying path, in frames"
@@ -97449,7 +97449,7 @@ msgstr "使用背景图"
 
 #. :src: bpy.types.SpaceSequenceEditor.show_backdrop
 msgid "Display result under strips"
-msgstr "在所有片断下方显示"
+msgstr "在所有片段下方显示"
 
 #. :src: bpy.types.SpaceSequenceEditor.show_frames
 msgid "Display Frames"
@@ -97461,7 +97461,7 @@ msgstr "显示为帧数而非秒数"
 
 #. :src: bpy.types.SpaceSequenceEditor.show_metadata
 msgid "Show metadata of first visible strip"
-msgstr "显示第一个可见片断的元数据"
+msgstr "显示第一个可见片段的元数据"
 
 #. :src: bpy.types.SpaceSequenceEditor.show_overexposed
 msgid "Show Overexposed"
@@ -97517,7 +97517,7 @@ msgstr "隐藏波形"
 
 #. :src: bpy.types.SpaceSequenceEditor.waveform_display_type:'NO_WAVEFORMS'
 msgid "No waveforms drawn for any sound strips"
-msgstr "不为任何片断绘制波形"
+msgstr "不为任何片段绘制波形"
 
 #. :src: bpy.types.SpaceSequenceEditor.waveform_display_type:'ALL_WAVEFORMS'
 msgid "Waveforms On"
@@ -97525,7 +97525,7 @@ msgstr "显示波形"
 
 #. :src: bpy.types.SpaceSequenceEditor.waveform_display_type:'ALL_WAVEFORMS'
 msgid "Waveforms drawn for all sound strips"
-msgstr "为所有声音片断绘制波形"
+msgstr "为所有声音片段绘制波形"
 
 #. :src: bpy.types.SpaceSequenceEditor.waveform_display_type:'DEFAULT_WAVEFORMS'
 msgid "Use Strip Option"
@@ -97533,7 +97533,7 @@ msgstr "使用片段选项"
 
 #. :src: bpy.types.SpaceSequenceEditor.waveform_display_type:'DEFAULT_WAVEFORMS'
 msgid "Waveforms drawn according to strip setting"
-msgstr "根据片断设置绘制波形"
+msgstr "根据片段设置绘制波形"
 
 #. :src: bpy.types.SpaceTextEditor
 msgid "Space Text Editor"
@@ -99618,11 +99618,11 @@ msgstr "已选中的声音片段 (用于为声音调时)"
 
 #. :src: bpy.types.ThemeNLAEditor.strips
 msgid "Action-Clip Strip - Unselected"
-msgstr "动作剪辑片断 - 未选中"
+msgstr "动作剪辑片段 - 未选中"
 
 #. :src: bpy.types.ThemeNLAEditor.strips_selected
 msgid "Action-Clip Strip - Selected"
-msgstr "动作剪辑片断 - 已选中"
+msgstr "动作剪辑片段 - 已选中"
 
 #. :src: bpy.types.ThemeNLAEditor.transition_strips
 msgid "Transition Strip - Unselected"
@@ -102988,7 +102988,7 @@ msgstr "动画摄影表"
 #. :src: KM_HIERARCHY.DOPESHEET_EDITOR.DOPESHEET_EDITOR
 msgctxt "WindowManager"
 msgid "Dopesheet Generic"
-msgstr "常规动画摄影表"
+msgstr "动画摄影表通用操作"
 
 #. :src: KM_HIERARCHY.NLA_EDITOR
 msgctxt "WindowManager"
@@ -103043,7 +103043,7 @@ msgstr "节点编辑器"
 #. :src: KM_HIERARCHY.NODE_EDITOR.NODE_EDITOR
 msgctxt "WindowManager"
 msgid "Node Generic"
-msgstr "节点通用项"
+msgstr "节点通用操作"
 
 #. :src: KM_HIERARCHY.SEQUENCE_EDITOR
 msgctxt "WindowManager"
@@ -105884,7 +105884,7 @@ msgstr "主机名"
 
 #: scripts/startup/bl_ui/properties_output.py:227
 msgid "Strip Name"
-msgstr "片断名称"
+msgstr "片段名称"
 
 #: scripts/startup/bl_ui/properties_output.py:277
 msgid "Include Labels"
@@ -108069,7 +108069,7 @@ msgstr "屏蔽未选择的片段"
 #: scripts/startup/bl_ui/space_sequencer.py:614
 msgctxt "Operator"
 msgid "Unmute Deselected Strips"
-msgstr "取消屏蔽未选择的片断"
+msgstr "取消屏蔽未选择的片段"
 
 #: scripts/startup/bl_ui/space_sequencer.py:652
 msgctxt "Operator"
@@ -108086,7 +108086,7 @@ msgstr "原始帧范围: %d-%d (%d)"
 
 #: scripts/startup/bl_ui/space_sequencer.py:1406
 msgid "Strip Offset Start"
-msgstr "片断偏移量起始"
+msgstr "片段偏移量起始"
 
 #: scripts/startup/bl_ui/space_sequencer.py:1419
 msgid "Hold Offset Start"
@@ -111226,7 +111226,7 @@ msgstr "非法输入错误"
 
 #: source/blender/blenkernel/intern/report.c:57
 msgid "Invalid Context Error"
-msgstr "非法正文错误"
+msgstr "非法上下文错误"
 
 #: source/blender/blenkernel/intern/report.c:59
 msgid "Out Of Memory Error"
@@ -113680,7 +113680,7 @@ msgstr "未指定文件名"
 
 #: source/blender/editors/io/io_alembic.c:654
 msgid "Unable to determine ABC sequence length"
-msgstr "无法确定ABC片断长度"
+msgstr "无法确定ABC片段长度"
 
 #: source/blender/editors/io/io_collada.c:294
 msgid "Global Orientation:"
@@ -114395,11 +114395,11 @@ msgstr "骨骼已存在 IK 约束"
 
 #: source/blender/editors/object/object_constraint.c:640
 msgid "Context missing 'constraint'"
-msgstr "缺失情境 '约束'"
+msgstr "缺失上下文 '约束'"
 
 #: source/blender/editors/object/object_constraint.c:645
 msgid "Context missing active object"
-msgstr "缺失情境 '约束'"
+msgstr "上下文缺失活动物体"
 
 #: source/blender/editors/object/object_constraint.c:650
 msgid "Cannot edit library data"
@@ -115544,7 +115544,7 @@ msgstr "还对遮罩未部署"
 
 #: source/blender/editors/space_buttons/buttons_context.c:1182
 msgid "Follow context or keep fixed data-block displayed"
-msgstr "跟随情境或保持显示固定的数据块"
+msgstr "跟随上下文或保持显示固定的数据块"
 
 #: source/blender/editors/space_buttons/buttons_ops.c:170
 msgid "Cannot activate a file selector, one already open"
@@ -117827,7 +117827,7 @@ msgstr ""
 
 #: source/blender/editors/transform/transform_ops.c:266
 msgid "Create Orientation's 'use' parameter only valid in a 3DView context"
-msgstr "仅为在 3D 视图情境中有效的轴向创建 '使用' 参数"
+msgstr "仅为在 3D 视图上下文中有效的轴向创建 '使用' 参数"
 
 #: source/blender/editors/transform/transform_orientations.c:492
 msgid "custom"
@@ -118246,7 +118246,7 @@ msgstr "无法从图像建立缓冲"
 
 #: source/blender/makesrna/intern/rna_image_api.c:107
 msgid "Scene not in context, could not get save parameters"
-msgstr "场景不在正文中, 无法获得保存的参数"
+msgstr "场景不在上下文中, 无法获得保存的参数"
 
 #: source/blender/makesrna/intern/rna_image_api.c:174
 msgid "Image not packed"
@@ -119714,7 +119714,7 @@ msgstr "粘贴名称"
 
 #: source/blender/windowmanager/intern/wm_event_system.c:1577
 msgid "Missing 'window' in context"
-msgstr "正文中缺少'window'"
+msgstr "上下文中缺少'window'"
 
 #: source/blender/windowmanager/intern/wm_files.c:2289
 msgid "Trusted Source [Untrusted Path]"
