@@ -92261,7 +92261,7 @@ msgstr "混合系数"
 
 #. :src: bpy.types.SceneEEVEE.bloom_knee
 msgid "Knee"
-msgstr "屈伸"
+msgstr "屈伸度"
 
 #. :src: bpy.types.SceneEEVEE.bloom_knee
 msgid "Makes transition between under/over-threshold gradual"
@@ -118782,7 +118782,7 @@ msgstr ""
 
 #: source/blender/makesrna/intern/rna_wm_api.c:299
 msgid "Not a modal keymap"
-msgstr "不是一种键映射模式"
+msgstr "非模态键位映射"
 
 #: source/blender/makesrna/intern/rna_wm_api.c:326
 msgid "Property value not in enumeration"
