@@ -19,21 +19,19 @@
 #   <Same as above>
 #   Special thanks to DeathBlood <deathblood@sohu.com>
 #   Special thanks to snail, Marshadow
-#
 #  ★ BlenderCN Translation Team, 2011-2015
 #   Leon Cheung <leon4you@gmail.com>
 #   congcong009 <congcong009@gmail.com>
 #   Xiao Xiangquan <xiaoxiangquan@gmail.com>
-#
 #  ▲ BlenderCN Translation Revisers 2012-2016
 #   CG阿颜 | baohua | 生活 | sjn1978 | acme_pjz | 混在北京 | 云风如我 | huangsr2012 | nirenyang
 #  ★ Translator for Blender 2.8 in 2019
 #   Asx <i@iAsx.org> | DeathBlood | NGE
 msgid ""
 msgstr ""
-"Project-Id-Version: Blender 2.80 (sub 74) (b'06312c6d2db8')\n"
+"Project-Id-Version: Blender 2.80 (sub 74) (b'38d4483c6a51')\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-18 00:00:00\n"
+"POT-Creation-Date: 2019-07-21 00:00:00\n"
 "PO-Revision-Date: \n"
 "Last-Translator: DeathBlood\n"
 "Language-Team: \n"
@@ -77,7 +75,7 @@ msgstr "函数曲线组"
 #. :src: bpy.types.Region.type:'CHANNELS'
 #. :src: bpy.types.ThemeDopeSheet.channels
 #: scripts/startup/bl_ui/space_node.py:591
-#: scripts/startup/bl_ui/space_userpref.py:578
+#: scripts/startup/bl_ui/space_userpref.py:570
 msgid "Channels"
 msgstr "通道"
 
@@ -845,7 +843,7 @@ msgstr "数据块的动画数据"
 #. :src: bpy.types.SEQUENCER_OT_select_all.action
 #. :src: bpy.types.UV_OT_select_all.action
 #. :src: bpy.types.SpaceDopeSheetEditor.action
-#: scripts/startup/bl_ui/space_userpref.py:367
+#: scripts/startup/bl_ui/space_userpref.py:359
 msgid "Action"
 msgstr "动作"
 
@@ -1471,7 +1469,7 @@ msgstr "细分的一个屏幕中, 包含编辑器"
 #. :src: bpy.types.Region.height
 #. :src: bpy.types.WorldMistSettings.height
 #: scripts/startup/bl_ui/properties_data_camera.py:209
-#: scripts/startup/bl_ui/space_view3d.py:6478
+#: scripts/startup/bl_ui/space_view3d.py:6473
 #: scripts/startup/bl_ui/space_view3d_toolbar.py:367
 #: source/blender/editors/space_image/image_ops.c:2570
 #: source/blender/nodes/shader/nodes/node_shader_bump.c:31
@@ -1492,7 +1490,7 @@ msgid "Regions this area is subdivided in"
 msgstr "区域将细分成块"
 
 #. :src: bpy.types.Area.show_menus
-#: source/blender/editors/screen/screen_ops.c:3973
+#: source/blender/editors/screen/screen_ops.c:3980
 msgid "Show Menus"
 msgstr "显示菜单"
 
@@ -1536,7 +1534,7 @@ msgstr "此区域当前的编辑器类型"
 #. :src: bpy.types.SpaceView3D.show_object_viewport_empty
 #. :src: bpy.types.ThemeView3D.empty
 #. :src: bpy.types.WorkSpaceTool.space_type:'EMPTY'
-#: scripts/startup/bl_ui/space_view3d.py:5338
+#: scripts/startup/bl_ui/space_view3d.py:5333
 #: source/blender/blenkernel/intern/object.c:763
 #: source/blender/blenkernel/intern/object.c:768
 msgid "Empty"
@@ -2750,8 +2748,8 @@ msgstr "间接光"
 #: scripts/startup/bl_ui/space_view3d_toolbar.py:1290
 #: scripts/startup/bl_ui/space_view3d_toolbar.py:1288
 #: source/blender/blenloader/intern/versioning_270.c:141
-#: source/blender/editors/interface/interface_region_color_picker.c:369
-#: source/blender/editors/interface/interface_region_color_picker.c:437
+#: source/blender/editors/interface/interface_region_color_picker.c:388
+#: source/blender/editors/interface/interface_region_color_picker.c:456
 #: source/blender/editors/space_image/image_buttons.c:1010
 #: source/blender/editors/space_image/image_ops.c:2573
 #: source/blender/makesrna/intern/rna_gpencil_modifier.c:112
@@ -2853,7 +2851,7 @@ msgstr "颜色"
 #. :src: bpy.types.CyclesVisibilitySettings.diffuse
 #: scripts/addons/cycles/ui.py:202 scripts/addons/cycles/ui.py:418
 #: scripts/addons/cycles/ui.py:818 scripts/addons/cycles/ui.py:950
-#: scripts/startup/bl_ui/space_userpref.py:2030
+#: scripts/startup/bl_ui/space_userpref.py:2022
 msgid "Diffuse"
 msgstr "漫射"
 
@@ -3461,7 +3459,7 @@ msgstr "矢量字体数据块"
 #. :src: bpy.types.SpaceSequenceEditor.grease_pencil
 #. :src: bpy.types.SpaceView3D.show_object_select_grease_pencil
 #. :src: bpy.types.SpaceView3D.show_object_viewport_grease_pencil
-#: scripts/startup/bl_ui/space_userpref.py:382
+#: scripts/startup/bl_ui/space_userpref.py:374
 #: source/blender/editors/space_sequencer/sequencer_buttons.c:104
 msgid "Grease Pencil"
 msgstr "蜡笔"
@@ -3712,7 +3710,7 @@ msgstr "形态键数据块"
 
 #. :src: bpy.types.BlendData.sounds
 #. :src: bpy.types.FileSelectParams.filter_id:'SOUND'
-#: scripts/startup/bl_ui/space_userpref.py:1227
+#: scripts/startup/bl_ui/space_userpref.py:1219
 msgid "Sounds"
 msgstr "声音"
 
@@ -3748,7 +3746,7 @@ msgstr "文本数据块"
 #. :src: bpy.types.PARTICLE_PT_textures
 #. :src: bpy.types.USERPREF_PT_viewport_textures
 #: scripts/startup/bl_ui/space_dopesheet.py:134
-#: scripts/startup/bl_ui/space_userpref.py:1225
+#: scripts/startup/bl_ui/space_userpref.py:1217
 #: source/blender/nodes/texture/node_texture_tree.c:102
 msgid "Textures"
 msgstr "纹理"
@@ -4278,8 +4276,8 @@ msgstr "群组规则名称"
 #: scripts/startup/bl_ui/properties_texture.py:149
 #: scripts/startup/bl_ui/space_clip.py:580
 #: scripts/startup/bl_ui/space_image.py:997
-#: scripts/startup/bl_ui/space_view3d.py:5605
-#: scripts/startup/bl_ui/space_view3d.py:5237
+#: scripts/startup/bl_ui/space_view3d.py:5600
+#: scripts/startup/bl_ui/space_view3d.py:5232
 #: source/blender/editors/space_image/image_buttons.c:911
 msgid "Type"
 msgstr "类型"
@@ -4326,7 +4324,7 @@ msgstr "为避免在不久后与其他群簇及及导向器物体碰撞的机动
 #. :src: bpy.types.GPENCIL_MT_separate
 #. :src: bpy.types.BooleanModifier.debug_options:'SEPARATE'
 #. :src: bpy.types.BOID_OT_rule_add.type:'SEPARATE'
-#: scripts/startup/bl_ui/space_view3d.py:6300
+#: scripts/startup/bl_ui/space_view3d.py:6295
 msgid "Separate"
 msgstr "分离"
 
@@ -4541,7 +4539,7 @@ msgstr "逸出到此距离"
 #: scripts/startup/bl_ui/properties_physics_cloth.py:305
 #: scripts/startup/bl_ui/properties_physics_dynamicpaint.py:725
 #: scripts/startup/bl_ui/properties_texture.py:489
-#: scripts/startup/bl_ui/space_view3d.py:6475
+#: scripts/startup/bl_ui/space_view3d.py:6470
 #: scripts/startup/bl_ui/space_view3d.py:429
 #: scripts/startup/bl_ui/space_view3d_toolbar.py:362
 #: scripts/startup/bl_ui/space_view3d_toolbar.py:274
@@ -4943,7 +4941,7 @@ msgstr "随机一个规则"
 #. :src: bpy.types.PAINT_OT_brush_select.vertex_tool:'AVERAGE'
 #. :src: bpy.types.PAINT_OT_brush_select.weight_tool:'AVERAGE'
 #. :src: bpy.types.SoftBodySettings.collision_type:'AVERAGE'
-#: scripts/startup/bl_ui/space_view3d.py:3880
+#: scripts/startup/bl_ui/space_view3d.py:3875
 msgid "Average"
 msgstr "平均"
 
@@ -5957,6 +5955,7 @@ msgstr "用于强度的曲线"
 #. :src: bpy.types.WM_OT_demo_mode_control.mode
 #. :src: bpy.types.ImagePaint.mode
 #. :src: bpy.types.ParticleTarget.alliance
+#. :src: bpy.types.SVGExport.mode
 #. :src: bpy.types.ShaderFxColorize.mode
 #. :src: bpy.types.ShaderFxGlow.mode
 #. :src: bpy.types.ShaderFxRim.mode
@@ -6142,7 +6141,7 @@ msgid "Use visible strokes as fill boundary limits"
 msgstr "使用可见线条作为边界限制"
 
 #. :src: bpy.types.BrushGpencilSettings.fill_draw_mode:'CONTROL'
-#: scripts/startup/bl_ui/space_view3d.py:6099
+#: scripts/startup/bl_ui/space_view3d.py:6094
 msgid "Edit Lines"
 msgstr "编辑线条"
 
@@ -6393,7 +6392,7 @@ msgstr "生成中间点用于非常快速的鼠标移动，设置0为关闭"
 #: scripts/addons/cycles/ui.py:879
 #: scripts/startup/bl_ui/properties_data_modifier.py:2011
 #: scripts/startup/bl_ui/properties_particle.py:1244
-#: scripts/startup/bl_ui/space_userpref.py:374
+#: scripts/startup/bl_ui/space_userpref.py:366
 #: source/blender/editors/interface/interface_templates.c:2780
 #: source/blender/editors/render/render_shading.c:572
 msgid "Material"
@@ -6707,9 +6706,9 @@ msgstr "在 3D 视图中背景图的显示设置"
 #: scripts/startup/bl_ui/properties_physics_dynamicpaint.py:198
 #: scripts/startup/bl_ui/properties_physics_fluid.py:245
 #: scripts/startup/bl_ui/space_sequencer.py:1140
-#: scripts/startup/bl_ui/space_view3d.py:6189
-#: scripts/startup/bl_ui/space_view3d.py:6196
-#: source/blender/editors/interface/interface_region_color_picker.c:751
+#: scripts/startup/bl_ui/space_view3d.py:6184
+#: scripts/startup/bl_ui/space_view3d.py:6191
+#: source/blender/editors/interface/interface_region_color_picker.c:770
 #: source/blender/editors/space_image/image_buttons.c:976
 #: source/blender/nodes/composite/nodes/node_composite_composite.c:28
 #: source/blender/nodes/composite/nodes/node_composite_idMask.c:32
@@ -6873,7 +6872,7 @@ msgstr "裁切"
 #: scripts/startup/bl_ui/properties_paint_common.py:132
 #: scripts/startup/bl_ui/space_image.py:770
 #: scripts/startup/bl_ui/space_view3d.py:2035
-#: scripts/startup/bl_ui/space_view3d.py:5339
+#: scripts/startup/bl_ui/space_view3d.py:5334
 #: source/blender/makesrna/intern/rna_scene.c:358
 #: source/blender/nodes/composite/nodes/node_composite_alphaOver.c:28
 #: source/blender/nodes/composite/nodes/node_composite_alphaOver.c:29
@@ -7081,7 +7080,7 @@ msgstr "用于定义显示哪一个层, 通道和帧的参数"
 #: scripts/startup/bl_ui/properties_material_gpencil.py:222
 #: scripts/startup/bl_ui/properties_physics_fluid.py:217
 #: scripts/startup/bl_ui/space_node.py:594
-#: scripts/startup/bl_ui/space_view3d.py:5987
+#: scripts/startup/bl_ui/space_view3d.py:5982
 #: source/blender/editors/space_node/drawnode.c:918
 #: source/blender/editors/space_node/drawnode.c:2928
 #: source/blender/nodes/composite/nodes/node_composite_texture.c:27
@@ -7179,11 +7178,11 @@ msgstr "偏移量"
 #: scripts/startup/bl_ui/space_clip.py:979
 #: scripts/startup/bl_ui/space_sequencer.py:1006
 #: scripts/startup/bl_ui/space_view3d.py:2456
-#: scripts/startup/bl_ui/space_view3d.py:4911
-#: scripts/startup/bl_ui/space_view3d.py:4913
-#: scripts/startup/bl_ui/space_view3d.py:4915
-#: scripts/startup/bl_ui/space_view3d.py:5108
-#: scripts/startup/bl_ui/space_view3d.py:5139
+#: scripts/startup/bl_ui/space_view3d.py:4906
+#: scripts/startup/bl_ui/space_view3d.py:4908
+#: scripts/startup/bl_ui/space_view3d.py:4910
+#: scripts/startup/bl_ui/space_view3d.py:5103
+#: scripts/startup/bl_ui/space_view3d.py:5134
 #: source/blender/editors/space_view3d/view3d_buttons.c:1334
 #: source/blender/editors/space_view3d/view3d_buttons.c:1358
 #: source/blender/editors/space_view3d/view3d_buttons.c:1382
@@ -7256,9 +7255,9 @@ msgstr "背景图的旋转(仅适用于正交)"
 #: scripts/startup/bl_ui/space_image.py:885
 #: scripts/startup/bl_ui/space_sequencer.py:999
 #: scripts/startup/bl_ui/space_view3d.py:2459
-#: scripts/startup/bl_ui/space_view3d.py:5332
-#: scripts/startup/bl_ui/space_view3d.py:5920
-#: scripts/startup/bl_ui/space_view3d.py:5396
+#: scripts/startup/bl_ui/space_view3d.py:5327
+#: scripts/startup/bl_ui/space_view3d.py:5915
+#: scripts/startup/bl_ui/space_view3d.py:5391
 #: source/blender/nodes/composite/nodes/node_composite_movieclip.c:33
 #: source/blender/nodes/composite/nodes/node_composite_texture.c:28
 #: source/blender/nodes/composite/nodes/node_composite_transform.c:32
@@ -7415,7 +7414,7 @@ msgstr "光圈叶片的旋转值"
 
 #. :src: bpy.types.CameraDOFSettings.focus_distance
 #: scripts/startup/bl_ui/properties_data_camera.py:234
-#: scripts/startup/bl_ui/space_view3d.py:5346
+#: scripts/startup/bl_ui/space_view3d.py:5341
 msgid "Focus Distance"
 msgstr "焦点距离"
 
@@ -7574,7 +7573,7 @@ msgstr "右"
 #. :src: bpy.types.TextSequence.align_y:'CENTER'
 #. :src: bpy.types.SpaceUVEditor.pixel_snap_mode:'CENTER'
 #. :src: bpy.types.ToolSettings.snap_target:'CENTER'
-#: scripts/startup/bl_ui/space_view3d.py:5545
+#: scripts/startup/bl_ui/space_view3d.py:5540
 #: source/blender/nodes/shader/nodes/node_shader_squeeze.c:29
 msgid "Center"
 msgstr "中心"
@@ -8579,7 +8578,7 @@ msgstr "用于显示图像的色彩映射曲线"
 #. :src: bpy.types.ParticleBrush.curve
 #. :src: bpy.types.SpaceView3D.show_object_select_curve
 #. :src: bpy.types.SpaceView3D.show_object_viewport_curve
-#: scripts/startup/bl_ui/space_userpref.py:369
+#: scripts/startup/bl_ui/space_userpref.py:361
 #: source/blender/blenkernel/intern/object.c:745
 msgid "Curve"
 msgstr "曲线"
@@ -8981,7 +8980,7 @@ msgstr "相除"
 #. :src: bpy.types.Sequence.blend_type:'HUE'
 #. :src: bpy.types.ColorMixSequence.blend_effect:'HUE'
 #. :src: bpy.types.TextureSlot.blend_type:'HUE'
-#: source/blender/editors/interface/interface_region_color_picker.c:674
+#: source/blender/editors/interface/interface_region_color_picker.c:693
 #: source/blender/nodes/composite/nodes/node_composite_hueSatVal.c:28
 #: source/blender/nodes/shader/nodes/node_shader_hueSatVal.c:27
 #: source/blender/nodes/texture/nodes/node_texture_hueSatVal.c:27
@@ -9020,7 +9019,7 @@ msgstr "色相"
 #. :src: bpy.types.SceneSequence.color_saturation
 #. :src: bpy.types.TextureSlot.blend_type:'SATURATION'
 #: scripts/startup/bl_ui/space_sequencer.py:1641
-#: source/blender/editors/interface/interface_region_color_picker.c:691
+#: source/blender/editors/interface/interface_region_color_picker.c:710
 #: source/blender/editors/space_node/drawnode.c:2210
 #: source/blender/editors/space_node/drawnode.c:2264
 #: source/blender/nodes/composite/nodes/node_composite_hueSatVal.c:29
@@ -9085,9 +9084,9 @@ msgstr "饱和度"
 #. :src: bpy.types.ColorMixSequence.blend_effect:'VALUE'
 #. :src: bpy.types.ShapeKey.value
 #. :src: bpy.types.TextureSlot.blend_type:'VALUE'
-#: source/blender/editors/interface/interface_region_color_picker.c:409
-#: source/blender/editors/interface/interface_region_color_picker.c:457
-#: source/blender/editors/interface/interface_region_color_picker.c:725
+#: source/blender/editors/interface/interface_region_color_picker.c:428
+#: source/blender/editors/interface/interface_region_color_picker.c:476
+#: source/blender/editors/interface/interface_region_color_picker.c:744
 #: source/blender/nodes/composite/nodes/node_composite_boxmask.c:28
 #: source/blender/nodes/composite/nodes/node_composite_ellipsemask.c:28
 #: source/blender/nodes/composite/nodes/node_composite_hueSatVal.c:30
@@ -9122,7 +9121,7 @@ msgstr "值(明度)"
 #. :src: bpy.types.ColorMapping.brightness
 #. :src: bpy.types.Texture.intensity
 #. :src: bpy.types.PAINT_OT_vertex_color_brightness_contrast.brightness
-#: scripts/startup/bl_ui/space_userpref.py:644
+#: scripts/startup/bl_ui/space_userpref.py:636
 msgid "Brightness"
 msgstr "亮度"
 
@@ -9591,7 +9590,7 @@ msgstr "主体的解算空间"
 #. :src: bpy.types.ShaderNodeNormalMap.space:'WORLD'
 #. :src: bpy.types.ShaderNodeTexPointDensity.space:'WORLD'
 #. :src: bpy.types.ShaderNodeVectorDisplacement.space:'WORLD'
-#: scripts/startup/bl_ui/space_view3d.py:5240
+#: scripts/startup/bl_ui/space_view3d.py:5235
 msgid "World Space"
 msgstr "世界空间"
 
@@ -9926,7 +9925,7 @@ msgstr "使用目标物体的变换属性, 在一个动作中查找用于主体�
 #. :src: bpy.types.POSE_OT_constraint_add_with_targets.type:'ARMATURE'
 #. :src: bpy.types.SpaceView3D.show_object_select_armature
 #. :src: bpy.types.SpaceView3D.show_object_viewport_armature
-#: scripts/startup/bl_ui/space_userpref.py:368
+#: scripts/startup/bl_ui/space_userpref.py:360
 #: source/blender/blenkernel/intern/object.c:759
 msgid "Armature"
 msgstr "骨架"
@@ -9956,7 +9955,7 @@ msgstr "将目标物体做为主体的 \"可分离\" 父级"
 #. :src: bpy.types.CLIP_OT_set_plane.plane:'FLOOR'
 #. :src: bpy.types.POSE_OT_constraint_add.type:'FLOOR'
 #. :src: bpy.types.POSE_OT_constraint_add_with_targets.type:'FLOOR'
-#: scripts/startup/bl_ui/space_view3d.py:5388
+#: scripts/startup/bl_ui/space_view3d.py:5383
 msgid "Floor"
 msgstr "基面"
 
@@ -10048,10 +10047,10 @@ msgstr "用于动作约束的起始帧"
 #. :src: bpy.types.SmokeDomainSettings.flame_max_temp
 #. :src: bpy.types.TexMapping.max
 #: scripts/startup/bl_ui/properties_output.py:411
+#: scripts/startup/bl_ui/space_view3d.py:5607
 #: scripts/startup/bl_ui/space_view3d.py:5612
-#: scripts/startup/bl_ui/space_view3d.py:5617
-#: scripts/startup/bl_ui/space_view3d.py:5624
-#: scripts/startup/bl_ui/space_view3d.py:5628
+#: scripts/startup/bl_ui/space_view3d.py:5619
+#: scripts/startup/bl_ui/space_view3d.py:5623
 msgid "Maximum"
 msgstr "最大值"
 
@@ -10086,10 +10085,10 @@ msgstr "目标通道范围的最大值"
 #. :src: bpy.types.TexMapping.min
 #. :src: bpy.types.WorldMistSettings.intensity
 #: scripts/startup/bl_ui/properties_output.py:410
+#: scripts/startup/bl_ui/space_view3d.py:5606
 #: scripts/startup/bl_ui/space_view3d.py:5611
-#: scripts/startup/bl_ui/space_view3d.py:5616
-#: scripts/startup/bl_ui/space_view3d.py:5623
-#: scripts/startup/bl_ui/space_view3d.py:5627
+#: scripts/startup/bl_ui/space_view3d.py:5618
+#: scripts/startup/bl_ui/space_view3d.py:5622
 msgid "Minimum"
 msgstr "最小值"
 
@@ -10193,8 +10192,8 @@ msgstr "骨架骨骼，网格或者晶格顶点组, ..."
 #. :src: bpy.types.UV_OT_snap_selected.target
 #: scripts/startup/bl_ui/space_clip.py:1029
 #: scripts/startup/bl_ui/space_image.py:877
-#: scripts/startup/bl_ui/space_view3d.py:5900
-#: scripts/startup/bl_ui/space_view3d.py:5993
+#: scripts/startup/bl_ui/space_view3d.py:5895
+#: scripts/startup/bl_ui/space_view3d.py:5988
 msgid "Target"
 msgstr "目标"
 
@@ -10522,7 +10521,7 @@ msgstr "运动的主轴"
 #: scripts/startup/bl_ui/properties_data_modifier.py:1167
 #: scripts/startup/bl_ui/space_image.py:1467
 #: scripts/startup/bl_ui/space_sequencer.py:1556
-#: scripts/startup/bl_ui/space_view3d.py:5404
+#: scripts/startup/bl_ui/space_view3d.py:5399
 #: scripts/startup/bl_ui/space_view3d.py:131
 #: scripts/startup/bl_ui/space_view3d.py:136
 #: scripts/startup/bl_ui/space_view3d.py:139
@@ -10612,9 +10611,9 @@ msgstr "X"
 #: scripts/startup/bl_ui/space_sequencer.py:1073
 #: scripts/startup/bl_ui/space_sequencer.py:991
 #: scripts/startup/bl_ui/space_sequencer.py:1002
-#: scripts/startup/bl_ui/space_userpref.py:916
-#: scripts/startup/bl_ui/space_userpref.py:968
-#: scripts/startup/bl_ui/space_view3d.py:5405
+#: scripts/startup/bl_ui/space_userpref.py:908
+#: scripts/startup/bl_ui/space_userpref.py:960
+#: scripts/startup/bl_ui/space_view3d.py:5400
 #: scripts/startup/bl_ui/space_view3d.py:148
 #: scripts/startup/bl_ui/space_view3d.py:155
 #: scripts/startup/bl_ui/space_view3d.py:162
@@ -10667,8 +10666,8 @@ msgstr "Y"
 #: scripts/startup/bl_ui/properties_data_modifier.py:1153
 #: scripts/startup/bl_ui/properties_texture.py:715
 #: scripts/startup/bl_ui/space_node.py:556
-#: scripts/startup/bl_ui/space_userpref.py:917
-#: scripts/startup/bl_ui/space_view3d.py:5406
+#: scripts/startup/bl_ui/space_userpref.py:909
+#: scripts/startup/bl_ui/space_view3d.py:5401
 #: scripts/startup/bl_ui/space_view3d.py:149
 #: scripts/startup/bl_ui/space_view3d.py:156
 #: scripts/startup/bl_ui/space_view3d.py:163
@@ -11063,7 +11062,7 @@ msgstr "将运动锁定到目标运动轨迹上"
 #. :src: Add-ons' categories
 #: scripts/startup/bl_ui/properties_output.py:214
 #: scripts/startup/bl_ui/space_sequencer.py:1262
-#: scripts/startup/bl_ui/space_view3d.py:5344
+#: scripts/startup/bl_ui/space_view3d.py:5339
 #: source/blender/blenkernel/intern/object.c:753
 #: source/blender/nodes/shader/nodes/node_shader_tex_coord.c:30
 msgid "Camera"
@@ -12708,7 +12707,7 @@ msgstr "矢量型控制柄"
 #: scripts/startup/bl_ui/properties_material_gpencil.py:201
 #: scripts/startup/bl_ui/space_sequencer.py:1058
 #: scripts/startup/bl_ui/space_view3d.py:2453
-#: scripts/startup/bl_ui/space_view3d.py:4908
+#: scripts/startup/bl_ui/space_view3d.py:4903
 #: source/blender/nodes/shader/nodes/node_shader_object_info.c:24
 msgid "Location"
 msgstr "位置"
@@ -12893,7 +12892,7 @@ msgstr "游标"
 #. :src: bpy.types.ToolSettings.annotation_stroke_placement_view2d:'SURFACE'
 #. :src: bpy.types.ToolSettings.annotation_stroke_placement_view3d:'SURFACE'
 #. :src: bpy.types.ToolSettings.gpencil_stroke_placement_view3d:'SURFACE'
-#: scripts/startup/bl_ui/space_userpref.py:379
+#: scripts/startup/bl_ui/space_userpref.py:371
 #: source/blender/nodes/shader/nodes/node_shader_output_light.c:24
 #: source/blender/nodes/shader/nodes/node_shader_output_material.c:26
 #: source/blender/nodes/shader/nodes/node_shader_output_world.c:24
@@ -14997,7 +14996,7 @@ msgstr "数据层"
 #. :src: bpy.types.View3DShading.color_type:'TEXTURE'
 #. :src: bpy.types.View3DShading.wireframe_color_type:'TEXTURE'
 #: scripts/startup/bl_ui/properties_data_modifier.py:1177
-#: scripts/startup/bl_ui/space_userpref.py:381
+#: scripts/startup/bl_ui/space_userpref.py:373
 #: source/blender/editors/interface/interface_templates.c:2765
 #: source/blender/editors/render/render_shading.c:634
 #: source/blender/nodes/shader/node_shader_tree.c:128
@@ -15116,7 +15115,7 @@ msgid "Paint"
 msgstr "图像绘制"
 
 #. :src: bpy.types.DynamicPaintSurface.use_antialiasing
-#: scripts/startup/bl_ui/space_userpref.py:210
+#: scripts/startup/bl_ui/space_userpref.py:202
 msgid "Anti-aliasing"
 msgstr "抗锯齿"
 
@@ -15730,9 +15729,9 @@ msgstr "使用曲线斜率引入 / 引出末端点关键帧"
 #. :src: bpy.types.IMPORT_SCENE_OT_obj.use_split_groups
 #. :src: bpy.types.OBJECT_OT_vertex_group_set_active.group
 #. :src: bpy.types.POSE_OT_select_grouped.type:'GROUP'
-#: source/blender/blenkernel/intern/action.c:260
-#: source/blender/blenkernel/intern/action.c:265
-#: source/blender/blenkernel/intern/action.c:1089
+#: source/blender/blenkernel/intern/action.c:261
+#: source/blender/blenkernel/intern/action.c:266
+#: source/blender/blenkernel/intern/action.c:1138
 #: source/blender/blenkernel/intern/deform.c:628
 #: source/blender/blenkernel/intern/ipo.c:1274
 #: source/blender/blenkernel/intern/object_deform.c:134
@@ -16855,6 +16854,7 @@ msgstr "函数修改器封套的控制点"
 #. :src: bpy.types.POSELIB_OT_pose_add.frame
 #. :src: bpy.types.SEQUENCER_OT_cut.frame
 #. :src: bpy.types.SEQUENCER_OT_snap.frame
+#. :src: bpy.types.SVGExport.mode:'FRAME'
 #. :src: bpy.types.ShapeKey.frame
 #. :src: bpy.types.TimelineMarker.frame
 #: scripts/startup/bl_ui/properties_output.py:205
@@ -17407,10 +17407,10 @@ msgstr "力场起源于物体的所有顶点"
 #: scripts/startup/bl_ui/properties_texture.py:543
 #: scripts/startup/bl_ui/properties_texture.py:595
 #: scripts/startup/bl_ui/properties_texture.py:644
-#: scripts/startup/bl_ui/space_userpref.py:643
-#: scripts/startup/bl_ui/space_view3d.py:5342
-#: scripts/startup/bl_ui/space_view3d.py:5689
-#: scripts/startup/bl_ui/space_view3d.py:5515
+#: scripts/startup/bl_ui/space_userpref.py:635
+#: scripts/startup/bl_ui/space_view3d.py:5337
+#: scripts/startup/bl_ui/space_view3d.py:5684
+#: scripts/startup/bl_ui/space_view3d.py:5510
 #: source/blender/nodes/composite/nodes/node_composite_blur.c:29
 #: source/blender/nodes/composite/nodes/node_composite_bokehblur.c:30
 #: source/blender/nodes/shader/nodes/node_shader_bsdf_toon.c:25
@@ -17656,7 +17656,7 @@ msgstr "是否此路径当前可到达"
 #. :src: bpy.types.FileBrowserFSMenuEntry.use_save
 #. :src: bpy.types.TEXT_OT_resolve_conflict.resolution:'SAVE'
 #: source/blender/editors/space_image/image_buttons.c:858
-#: source/blender/windowmanager/intern/wm_files.c:2997
+#: source/blender/windowmanager/intern/wm_files.c:3005
 msgid "Save"
 msgstr "保存"
 
@@ -18149,7 +18149,7 @@ msgstr "显示/隐藏文本数据块"
 
 #. :src: bpy.types.FileSelectParams.filter_id:'FONT'
 #. :src: bpy.types.OBJECT_OT_make_links_data.type:'FONTS'
-#: scripts/startup/bl_ui/space_userpref.py:1224
+#: scripts/startup/bl_ui/space_userpref.py:1216
 msgid "Fonts"
 msgstr "字体"
 
@@ -18830,7 +18830,7 @@ msgstr "在仿真中移除流体的物体"
 #. :src: bpy.types.VIEW3D_MT_particle
 #. :src: bpy.types.PARTICLE_OT_delete.type:'PARTICLE'
 #. :src: bpy.types.PHYSICS_PT_collision_particle
-#: scripts/startup/bl_ui/space_userpref.py:377
+#: scripts/startup/bl_ui/space_userpref.py:369
 msgid "Particle"
 msgstr "粒子"
 
@@ -19709,7 +19709,7 @@ msgstr "线条集名称"
 #: scripts/startup/bl_ui/space_sequencer.py:1424
 #: scripts/startup/bl_ui/space_time.py:79
 #: scripts/startup/bl_ui/space_time.py:82
-#: scripts/startup/bl_ui/space_view3d.py:4844
+#: scripts/startup/bl_ui/space_view3d.py:4839
 #: scripts/startup/bl_ui/space_view3d_toolbar.py:175
 #: source/blender/editors/animation/fmodifier_ui.c:1009
 #: source/blender/editors/space_node/drawnode.c:147
@@ -20731,7 +20731,7 @@ msgstr "建立父子关系时, 物体的父级反转矩阵"
 #: scripts/startup/bl_ui/space_clip.py:786
 #: scripts/startup/bl_ui/space_sequencer.py:1517
 #: scripts/startup/bl_ui/space_topbar.py:122
-#: scripts/startup/bl_ui/space_view3d.py:5843
+#: scripts/startup/bl_ui/space_view3d.py:5838
 msgid "Opacity"
 msgstr "不透明度"
 
@@ -21181,7 +21181,7 @@ msgstr "平行线"
 #. :src: bpy.types.ThemeView3D.grid
 #. :src: bpy.types.ToolSettings.snap_node_element:'GRID'
 #: scripts/startup/bl_ui/space_clip.py:119
-#: scripts/startup/bl_ui/space_view3d.py:5382
+#: scripts/startup/bl_ui/space_view3d.py:5377
 msgid "Grid"
 msgstr "栅格"
 
@@ -21439,7 +21439,7 @@ msgstr "围绕画笔的中点旋转点"
 #. :src: bpy.types.PAINT_OT_brush_select.sculpt_tool:'PINCH'
 #: scripts/startup/bl_ui/properties_grease_pencil_common.py:331
 #: scripts/startup/bl_ui/properties_paint_common.py:437
-#: scripts/startup/bl_ui/space_view3d.py:6468
+#: scripts/startup/bl_ui/space_view3d.py:6463
 #: scripts/startup/bl_ui/space_view3d_toolbar.py:340
 msgid "Pinch"
 msgstr "夹捏"
@@ -21806,7 +21806,7 @@ msgid "Highlight"
 msgstr "高亮"
 
 #. :src: bpy.types.Gizmo.line_width
-#: scripts/startup/bl_ui/space_userpref.py:182
+#: scripts/startup/bl_ui/space_userpref.py:174
 msgid "Line Width"
 msgstr "线宽"
 
@@ -22018,7 +22018,7 @@ msgstr "窗口"
 #. :src: bpy.types.ThemeSpaceGeneric.header
 #. :src: bpy.types.ThemeSpaceGradient.header
 #: source/blender/editors/interface/interface_context_menu.c:1153
-#: source/blender/editors/screen/screen_ops.c:4045
+#: source/blender/editors/screen/screen_ops.c:4052
 msgid "Header"
 msgstr "标题栏"
 
@@ -22066,7 +22066,7 @@ msgstr "浮动区域"
 #. :src: bpy.types.PROPERTIES_PT_navigation_bar
 #. :src: bpy.types.Region.type:'NAVIGATION_BAR'
 #: source/blender/editors/interface/interface_context_menu.c:1157
-#: source/blender/editors/screen/screen_ops.c:4057
+#: source/blender/editors/screen/screen_ops.c:4064
 msgid "Navigation Bar"
 msgstr "导航栏"
 
@@ -22083,7 +22083,7 @@ msgstr "执行按钮"
 #. :src: bpy.types.Region.type:'FOOTER'
 #. :src: bpy.types.SpaceTextEditor.show_region_footer
 #: source/blender/editors/interface/interface_context_menu.c:1163
-#: source/blender/editors/screen/screen_ops.c:4051
+#: source/blender/editors/screen/screen_ops.c:4058
 msgid "Footer"
 msgstr "页脚"
 
@@ -22741,7 +22741,7 @@ msgstr "层"
 #: scripts/startup/bl_ui/properties_data_modifier.py:2196
 #: source/blender/editors/space_image/image_buttons.c:277
 msgid "Pass"
-msgstr "通递层"
+msgstr "通道层"
 
 #. :src: bpy.types.ArrayGpencilModifier.layer_pass
 #. :src: bpy.types.BuildGpencilModifier.layer_pass
@@ -23890,7 +23890,7 @@ msgstr "红绿蓝"
 #. :src: bpy.types.SmokeDomainSettings.coba_field:'COLOR_R'
 #. :src: bpy.types.SpaceImageEditor.display_channels:'RED'
 #. :src: bpy.types.SpaceNodeEditor.backdrop_channels:'RED'
-#: source/blender/editors/interface/interface_region_color_picker.c:614
+#: source/blender/editors/interface/interface_region_color_picker.c:633
 #: source/blender/nodes/texture/nodes/node_texture_compose.c:27
 #: source/blender/nodes/texture/nodes/node_texture_decompose.c:32
 msgid "Red"
@@ -23905,7 +23905,7 @@ msgstr "红"
 #. :src: bpy.types.SmokeDomainSettings.coba_field:'COLOR_G'
 #. :src: bpy.types.SpaceImageEditor.display_channels:'GREEN'
 #. :src: bpy.types.SpaceNodeEditor.backdrop_channels:'GREEN'
-#: source/blender/editors/interface/interface_region_color_picker.c:632
+#: source/blender/editors/interface/interface_region_color_picker.c:651
 #: source/blender/nodes/texture/nodes/node_texture_compose.c:28
 #: source/blender/nodes/texture/nodes/node_texture_decompose.c:33
 msgid "Green"
@@ -23920,7 +23920,7 @@ msgstr "绿"
 #. :src: bpy.types.SmokeDomainSettings.coba_field:'COLOR_B'
 #. :src: bpy.types.SpaceImageEditor.display_channels:'BLUE'
 #. :src: bpy.types.SpaceNodeEditor.backdrop_channels:'BLUE'
-#: source/blender/editors/interface/interface_region_color_picker.c:650
+#: source/blender/editors/interface/interface_region_color_picker.c:669
 #: source/blender/nodes/texture/nodes/node_texture_compose.c:29
 #: source/blender/nodes/texture/nodes/node_texture_decompose.c:34
 msgid "Blue"
@@ -24099,7 +24099,7 @@ msgid "Animation data for this data-block"
 msgstr "数据块的动画数据"
 
 #. :src: bpy.types.Armature.bones
-#: scripts/startup/bl_ui/space_view3d.py:5443
+#: scripts/startup/bl_ui/space_view3d.py:5438
 msgid "Bones"
 msgstr "骨骼"
 
@@ -24741,7 +24741,7 @@ msgstr "涂抹"
 #. :src: bpy.types.SpaceImageEditor.ui_mode:'MASK'
 #: scripts/startup/bl_ui/space_sequencer.py:462
 #: scripts/startup/bl_ui/space_sequencer.py:1962
-#: scripts/startup/bl_ui/space_view3d.py:5774
+#: scripts/startup/bl_ui/space_view3d.py:5769
 #: source/blender/nodes/composite/nodes/node_composite_boxmask.c:27
 #: source/blender/nodes/composite/nodes/node_composite_boxmask.c:32
 #: source/blender/nodes/composite/nodes/node_composite_colorcorrection.c:28
@@ -24933,8 +24933,8 @@ msgstr "推移"
 #. :src: bpy.types.UV_OT_pack_islands.rotate
 #. :src: bpy.types.VIEW3D_OT_transform_gizmo_set.type:'ROTATE'
 #: scripts/startup/bl_ui/space_image.py:884
-#: scripts/startup/bl_ui/space_view3d.py:5331
-#: scripts/startup/bl_ui/space_view3d.py:5919
+#: scripts/startup/bl_ui/space_view3d.py:5326
+#: scripts/startup/bl_ui/space_view3d.py:5914
 msgid "Rotate"
 msgstr "旋转"
 
@@ -25580,7 +25580,7 @@ msgstr "相机远裁距离"
 #. :src: bpy.types.SpaceView3D.clip_start
 #: scripts/startup/bl_ui/properties_data_camera.py:130
 #: scripts/startup/bl_ui/properties_data_light.py:178
-#: scripts/startup/bl_ui/space_view3d.py:4843
+#: scripts/startup/bl_ui/space_view3d.py:4838
 msgid "Clip Start"
 msgstr "裁剪起点"
 
@@ -25602,7 +25602,7 @@ msgstr "相机物体在 3D 视图中的感官尺寸"
 
 #. :src: bpy.types.Camera.dof
 #. :src: bpy.types.View3DShading.use_dof
-#: scripts/startup/bl_ui/space_view3d.py:5258
+#: scripts/startup/bl_ui/space_view3d.py:5253
 msgid "Depth Of Field"
 msgstr "景深"
 
@@ -25610,7 +25610,7 @@ msgstr "景深"
 #. :src: bpy.types.MovieTrackingCamera.focal_length
 #. :src: bpy.types.MovieTrackingCamera.focal_length_pixels
 #. :src: bpy.types.MovieTrackingSettings.refine_intrinsics:'FOCAL_LENGTH'
-#: scripts/startup/bl_ui/space_view3d.py:4840
+#: scripts/startup/bl_ui/space_view3d.py:4835
 msgid "Focal Length"
 msgstr "焦距"
 
@@ -26684,6 +26684,7 @@ msgstr "截头端点样式 (扁平式)"
 #. :src: bpy.types.CompositorNodeMath.operation:'ROUND'
 #. :src: bpy.types.ShaderNodeMath.operation:'ROUND'
 #. :src: bpy.types.TextureNodeMath.operation:'ROUND'
+#. :src: bpy.types.SVGExport.line_join_type:'ROUND'
 msgid "Round"
 msgstr "圆(四舍五入)"
 
@@ -27162,6 +27163,38 @@ msgstr "拆分长度"
 msgid "Curvilinear 2D length for chain splitting"
 msgstr "用于链式裂解的曲线平面长度"
 
+#. :src: bpy.types.FreestyleLineStyle.stroke_color_mode
+msgid "Stroke Color Mode"
+msgstr "笔画颜色模式"
+
+#. :src: bpy.types.FreestyleLineStyle.stroke_color_mode:'BASE'
+#. :src: bpy.types.PAINT_OT_add_texture_paint_slot.type:'BASE_COLOR'
+#: scripts/startup/bl_ui/properties_material.py:178
+#: source/blender/nodes/shader/nodes/node_shader_bsdf_principled.c:24
+#: source/blender/nodes/shader/nodes/node_shader_eevee_specular.c:24
+msgid "Base Color"
+msgstr "基础色"
+
+#. :src: bpy.types.FreestyleLineStyle.stroke_color_mode:'BASE'
+msgid "Use the linestyle's base color"
+msgstr "使用线条样式的基础色"
+
+#. :src: bpy.types.FreestyleLineStyle.stroke_color_mode:'FIRST'
+msgid "First Vertex"
+msgstr "首个顶点"
+
+#. :src: bpy.types.FreestyleLineStyle.stroke_color_mode:'FIRST'
+msgid "Use the color of a stroke's first vertex"
+msgstr ""
+
+#. :src: bpy.types.FreestyleLineStyle.stroke_color_mode:'FINAL'
+msgid "Final Vertex"
+msgstr "结尾顶点"
+
+#. :src: bpy.types.FreestyleLineStyle.stroke_color_mode:'FINAL'
+msgid "Use the color of a stroke's final vertex"
+msgstr ""
+
 #. :src: bpy.types.FreestyleLineStyle.texture_slots
 #. :src: bpy.types.Material.texture_paint_slots
 #. :src: bpy.types.ParticleSettings.texture_slots
@@ -27260,6 +27293,22 @@ msgstr "虚线"
 #. :src: bpy.types.FreestyleLineStyle.use_dashed_line
 msgid "Enable or disable dashed line"
 msgstr "启用或禁用虚线样式"
+
+#. :src: bpy.types.FreestyleLineStyle.use_export_fills
+msgid "Export Fills"
+msgstr "导出填充"
+
+#. :src: bpy.types.FreestyleLineStyle.use_export_fills
+msgid "Export fills for this Line Style"
+msgstr ""
+
+#. :src: bpy.types.FreestyleLineStyle.use_export_strokes
+msgid "Export Strokes"
+msgstr ""
+
+#. :src: bpy.types.FreestyleLineStyle.use_export_strokes
+msgid "Export strokes for this Line Style"
+msgstr ""
 
 #. :src: bpy.types.FreestyleLineStyle.use_length_max
 msgid "Use Max 2D Length"
@@ -27565,7 +27614,7 @@ msgid "Set stroke thickness relative to the world space"
 msgstr ""
 
 #. :src: bpy.types.GreasePencil.stroke_thickness_space:'SCREENSPACE'
-#: scripts/startup/bl_ui/space_view3d.py:5251
+#: scripts/startup/bl_ui/space_view3d.py:5246
 msgid "Screen Space"
 msgstr "屏幕空间"
 
@@ -29453,7 +29502,7 @@ msgstr "材质的高光色"
 #. :src: bpy.types.PAINT_OT_add_texture_paint_slot.type:'SPECULAR'
 #: scripts/startup/bl_ui/properties_data_light.py:100
 #: scripts/startup/bl_ui/properties_material.py:180
-#: scripts/startup/bl_ui/space_userpref.py:2031
+#: scripts/startup/bl_ui/space_userpref.py:2023
 #: source/blender/nodes/shader/nodes/node_shader_bsdf_principled.c:29
 #: source/blender/nodes/shader/nodes/node_shader_eevee_specular.c:25
 msgid "Specular"
@@ -29538,7 +29587,7 @@ msgstr ""
 #. :src: bpy.types.MESH_OT_sort_elements.elements:'EDGE'
 #. :src: bpy.types.PHYSICS_PT_softbody_edge
 #: scripts/startup/bl_ui/space_image.py:963
-#: scripts/startup/bl_ui/space_view3d.py:5541
+#: scripts/startup/bl_ui/space_view3d.py:5536
 #: source/blender/editors/uvedit/uvedit_ops.c:4913
 msgid "Edges"
 msgstr "边"
@@ -30580,7 +30629,7 @@ msgstr "将子物体实体化到所有点上"
 #. :src: bpy.types.MESH_OT_select_mode.type:'FACE'
 #. :src: bpy.types.MESH_OT_sort_elements.elements:'FACE'
 #: scripts/startup/bl_ui/space_image.py:964
-#: scripts/startup/bl_ui/space_view3d.py:5543
+#: scripts/startup/bl_ui/space_view3d.py:5538
 msgid "Faces"
 msgstr "面"
 
@@ -32809,7 +32858,7 @@ msgstr ""
 #. :src: bpy.types.ToolSettings.gpencil_stroke_placement_view3d:'CURSOR'
 #. :src: bpy.types.ToolSettings.transform_pivot_point:'CURSOR'
 #. :src: bpy.types.View3DCursor
-#: scripts/startup/bl_ui/space_view3d.py:5412
+#: scripts/startup/bl_ui/space_view3d.py:5407
 msgid "3D Cursor"
 msgstr "3D 游标"
 
@@ -32930,7 +32979,7 @@ msgstr "指定方向上的匀加速度"
 #. :src: bpy.types.SEQUENCER_PT_grease_pencil
 #. :src: bpy.types.USERPREF_PT_edit_annotations
 #. :src: bpy.types.VIEW3D_PT_grease_pencil
-#: scripts/startup/bl_ui/space_view3d.py:5417
+#: scripts/startup/bl_ui/space_view3d.py:5412
 #: source/blender/editors/gpencil/gpencil_data.c:130
 #: source/blender/editors/gpencil/gpencil_data.c:247
 msgid "Annotations"
@@ -35201,6 +35250,7 @@ msgstr "执行会聚重复迭代时的最大迭代次数"
 #. :src: bpy.types.RENDER_OT_opengl.animation
 #. :src: bpy.types.RENDER_OT_render.animation
 #. :src: bpy.types.Preferences.active_section:'ANIMATION'
+#. :src: bpy.types.SVGExport.mode:'ANIMATION'
 #. :src: Add-ons' categories
 #: source/blender/editors/space_outliner/outliner_tree.c:847
 msgid "Animation"
@@ -37871,7 +37921,7 @@ msgstr "物体集合"
 #. :src: bpy.types.UV_OT_stitch.active_object_index
 #. :src: bpy.types.ThemeOutliner.active_object
 #. :src: bpy.types.ThemeView3D.object_active
-#: scripts/startup/bl_ui/space_view3d.py:5322
+#: scripts/startup/bl_ui/space_view3d.py:5317
 msgid "Active Object"
 msgstr "活动物体"
 
@@ -40310,7 +40360,7 @@ msgstr "设置控制柄类型"
 #. :src: bpy.types.SpaceClipEditor.pivot_point
 #. :src: bpy.types.SpaceGraphEditor.pivot_point
 #. :src: bpy.types.ToolSettings.transform_pivot_point
-#: scripts/startup/bl_ui/space_view3d.py:5870
+#: scripts/startup/bl_ui/space_view3d.py:5865
 msgid "Pivot Point"
 msgstr "轴心点"
 
@@ -40812,7 +40862,7 @@ msgstr "Python"
 #. :src: bpy.types.ThemeSpaceGeneric.text
 #. :src: bpy.types.ThemeSpaceGradient.text
 #. :src: bpy.types.ThemeWidgetColors.text
-#: scripts/startup/bl_ui/space_userpref.py:380
+#: scripts/startup/bl_ui/space_userpref.py:372
 #: source/blender/blenkernel/intern/object.c:749
 #: source/blender/editors/space_text/text_header.c:116
 #: source/blender/editors/space_text/text_header.c:155
@@ -40967,7 +41017,7 @@ msgstr "晶格上下文菜单"
 #. :src: bpy.types.SpaceView3D.show_object_select_mesh
 #. :src: bpy.types.SpaceView3D.show_object_viewport_mesh
 #. :src: Add-ons' categories
-#: scripts/startup/bl_ui/space_userpref.py:375
+#: scripts/startup/bl_ui/space_userpref.py:367
 #: source/blender/blenkernel/intern/object.c:743
 msgid "Mesh"
 msgstr "网格"
@@ -41027,13 +41077,13 @@ msgstr "合并"
 #. :src: bpy.types.DATA_PT_normals
 #. :src: bpy.types.VIEW3D_PT_overlay_edit_mesh_normals
 #. :src: bpy.types.RenderSettings.bake_type:'NORMALS'
-#: scripts/startup/bl_ui/space_view3d.py:5743
+#: scripts/startup/bl_ui/space_view3d.py:5738
 msgid "Normals"
 msgstr "法向"
 
 #. :src: bpy.types.VIEW3D_MT_edit_mesh_normals_select_strength
 #. :src: bpy.types.VIEW3D_MT_edit_mesh_normals_set_strength
-#: scripts/startup/bl_ui/space_view3d.py:3892
+#: scripts/startup/bl_ui/space_view3d.py:3887
 msgid "Select by Face Strength"
 msgstr "按面强度选择"
 
@@ -41062,7 +41112,7 @@ msgstr "选择相似"
 #. :src: bpy.types.VIEW3D_MT_edit_meta
 #. :src: bpy.types.VIEW3D_MT_metaball_add
 #. :src: bpy.types.DATA_PT_metaball
-#: scripts/startup/bl_ui/space_userpref.py:376
+#: scripts/startup/bl_ui/space_userpref.py:368
 #: scripts/startup/bl_ui/space_view3d.py:2019
 msgid "Metaball"
 msgstr "融球"
@@ -41114,15 +41164,15 @@ msgstr "添加图像"
 #. :src: bpy.types.NODE_DATA_PT_light
 #. :src: bpy.types.SpaceView3D.show_object_select_light
 #. :src: bpy.types.SpaceView3D.show_object_viewport_light
-#: scripts/startup/bl_ui/space_userpref.py:371
-#: scripts/startup/bl_ui/space_view3d.py:5341
+#: scripts/startup/bl_ui/space_userpref.py:363
+#: scripts/startup/bl_ui/space_view3d.py:5336
 msgid "Light"
 msgstr "灯光"
 
 #. :src: bpy.types.VIEW3D_MT_lightprobe_add
 #. :src: bpy.types.SpaceView3D.show_object_select_light_probe
 #. :src: bpy.types.SpaceView3D.show_object_viewport_light_probe
-#: scripts/startup/bl_ui/space_userpref.py:372
+#: scripts/startup/bl_ui/space_userpref.py:364
 msgid "Light Probe"
 msgstr "光照探头"
 
@@ -42008,7 +42058,8 @@ msgstr "顶点权重邻近"
 #. :src: bpy.types.OBJECT_OT_gpencil_modifier_add.type:'BEVEL'
 #. :src: bpy.types.OBJECT_OT_modifier_add.type:'BEVEL'
 #. :src: bpy.types.DATA_PT_geometry_curve_bevel
-#: scripts/startup/bl_ui/space_view3d.py:5550
+#. :src: bpy.types.SVGExport.line_join_type:'BEVEL'
+#: scripts/startup/bl_ui/space_view3d.py:5545
 msgid "Bevel"
 msgstr "倒角"
 
@@ -42092,7 +42143,7 @@ msgstr "三角化"
 #. :src: bpy.types.View3DShading.type:'WIREFRAME'
 #: scripts/startup/bl_ui/properties_data_bone.py:263
 #: scripts/startup/bl_ui/properties_object.py:241
-#: scripts/startup/bl_ui/space_view3d.py:5472
+#: scripts/startup/bl_ui/space_view3d.py:5467
 msgid "Wireframe"
 msgstr "线框"
 
@@ -42345,8 +42396,8 @@ msgstr "指定恒定偏移"
 #. :src: bpy.types.ArrayModifier.use_merge_vertices_cap
 #. :src: bpy.types.MirrorModifier.use_mirror_merge
 #. :src: bpy.types.ScrewModifier.use_merge_vertices
-#: scripts/startup/bl_ui/space_view3d.py:3633
-#: scripts/startup/bl_ui/space_view3d.py:3424
+#: scripts/startup/bl_ui/space_view3d.py:3628
+#: scripts/startup/bl_ui/space_view3d.py:3419
 msgid "Merge Vertices"
 msgstr "合并顶点"
 
@@ -42383,7 +42434,7 @@ msgid "Angle above which to bevel edges"
 msgstr "边线倒角的起始角度值"
 
 #. :src: bpy.types.BevelModifier.face_strength_mode
-#: scripts/startup/bl_ui/space_view3d.py:3893
+#: scripts/startup/bl_ui/space_view3d.py:3888
 msgid "Set Face Strength"
 msgstr "设置面强度"
 
@@ -43913,7 +43964,7 @@ msgstr "动态绘画修改器"
 #. :src: bpy.types.DPAINT_OT_type_toggle.type:'CANVAS'
 #. :src: bpy.types.ImagePaint.canvas
 #. :src: bpy.types.DATA_PT_gpencil_canvas
-#: scripts/startup/bl_ui/space_view3d.py:6083
+#: scripts/startup/bl_ui/space_view3d.py:6078
 msgid "Canvas"
 msgstr "画布"
 
@@ -46247,7 +46298,7 @@ msgstr "使用的加权顶点法向模式"
 #. :src: bpy.types.WeightedNormalModifier.mode:'FACE_AREA'
 #. :src: bpy.types.MESH_OT_average_normals.average_type:'FACE_AREA'
 #. :src: bpy.types.View3DOverlay.show_extra_face_area
-#: scripts/startup/bl_ui/space_view3d.py:5658
+#: scripts/startup/bl_ui/space_view3d.py:5653
 msgid "Face Area"
 msgstr "面的面积"
 
@@ -48084,7 +48135,7 @@ msgstr ""
 #. :src: bpy.types.ShaderNodeGroup.interface
 #. :src: bpy.types.TextureNodeGroup.interface
 #. :src: bpy.types.Preferences.active_section:'INTERFACE'
-#: scripts/startup/bl_ui/space_userpref.py:245
+#: scripts/startup/bl_ui/space_userpref.py:237
 #: source/blender/editors/space_node/node_buttons.c:222
 #: source/blender/nodes/composite/node_composite_tree.c:73
 #: source/blender/nodes/shader/node_shader_tree.c:134
@@ -49177,7 +49228,7 @@ msgstr "克什边缘检测"
 #. :src: bpy.types.View3DShading.show_shadows
 #. :src: bpy.types.ViewLayer.use_pass_shadow
 #: scripts/startup/bl_ui/properties_object.py:250
-#: scripts/startup/bl_ui/space_view3d.py:5223
+#: scripts/startup/bl_ui/space_view3d.py:5218
 msgid "Shadow"
 msgstr "阴影"
 
@@ -49350,7 +49401,7 @@ msgstr "瑕疵修复间隔 (迭代次数)"
 #. :src: bpy.types.CompositorNodeInvert.invert_rgb
 #. :src: bpy.types.CompositorNodeRGB
 #. :src: bpy.types.ShaderNodeRGB
-#: source/blender/editors/interface/interface_region_color_picker.c:527
+#: source/blender/editors/interface/interface_region_color_picker.c:546
 msgid "RGB"
 msgstr "RGB"
 
@@ -50171,7 +50222,7 @@ msgstr "属性名称"
 #. :src: bpy.types.ThemePanelColors.back
 #. :src: bpy.types.View3DShading.background_type
 #. :src: bpy.types.View3DShading.studiolight_background_alpha
-#: scripts/startup/bl_ui/space_view3d.py:5167
+#: scripts/startup/bl_ui/space_view3d.py:5162
 #: source/blender/nodes/shader/nodes/node_shader_background.c:30
 msgid "Background"
 msgstr "背景"
@@ -50507,7 +50558,7 @@ msgid "UV Map for tangent space maps"
 msgstr "用于切向空间映射的 UV 映射"
 
 #. :src: bpy.types.ShaderNodeObjectInfo
-#: scripts/startup/bl_ui/space_userpref.py:625
+#: scripts/startup/bl_ui/space_userpref.py:617
 msgid "Object Info"
 msgstr "物体信息"
 
@@ -52056,10 +52107,10 @@ msgstr "复制选定的关键帧"
 #: scripts/startup/bl_ui/space_nla.py:163
 #: scripts/startup/bl_ui/space_nla.py:262
 #: scripts/startup/bl_ui/space_topbar.py:652
-#: scripts/startup/bl_ui/space_view3d.py:3313
-#: scripts/startup/bl_ui/space_view3d.py:4357
-#: scripts/startup/bl_ui/space_view3d.py:4528
-#: scripts/startup/bl_ui/space_view3d.py:6288
+#: scripts/startup/bl_ui/space_view3d.py:3308
+#: scripts/startup/bl_ui/space_view3d.py:4352
+#: scripts/startup/bl_ui/space_view3d.py:4523
+#: scripts/startup/bl_ui/space_view3d.py:6283
 msgctxt "Operator"
 msgid "Duplicate"
 msgstr "复制"
@@ -53350,7 +53401,7 @@ msgstr ""
 #. :src: bpy.types.NODE_OT_view_selected
 #. :src: bpy.types.SEQUENCER_OT_view_selected
 #. :src: bpy.types.VIEW3D_OT_view_selected
-#: scripts/startup/bl_ui/space_view3d.py:4654
+#: scripts/startup/bl_ui/space_view3d.py:4649
 msgctxt "Operator"
 msgid "View Selected"
 msgstr "查看所选"
@@ -54273,8 +54324,8 @@ msgstr "复制所选骨骼"
 #. :src: bpy.types.TRANSFORM_OT_translate.value
 #. :src: bpy.types.VIEW3D_OT_transform_gizmo_set.type:'TRANSLATE'
 #: scripts/startup/bl_ui/space_image.py:883
-#: scripts/startup/bl_ui/space_view3d.py:5330
-#: scripts/startup/bl_ui/space_view3d.py:5918
+#: scripts/startup/bl_ui/space_view3d.py:5325
+#: scripts/startup/bl_ui/space_view3d.py:5913
 msgid "Move"
 msgstr "移动"
 
@@ -54349,7 +54400,7 @@ msgstr "在所选关节与 3D 游标之间添加骨骼"
 
 #. :src: bpy.types.ARMATURE_OT_flip_names
 #. :src: bpy.types.POSE_OT_flip_names
-#: scripts/startup/bl_ui/space_view3d.py:4398
+#: scripts/startup/bl_ui/space_view3d.py:4393
 msgctxt "Operator"
 msgid "Flip Names"
 msgstr "翻转名称"
@@ -54382,7 +54433,7 @@ msgstr ""
 #: scripts/startup/bl_ui/space_image.py:277
 #: scripts/startup/bl_ui/space_view3d.py:804
 #: scripts/startup/bl_ui/space_view3d.py:2592
-#: scripts/startup/bl_ui/space_view3d.py:4262
+#: scripts/startup/bl_ui/space_view3d.py:4257
 msgctxt "Operator"
 msgid "Hide Selected"
 msgstr "隐藏选中项"
@@ -54480,7 +54531,7 @@ msgstr "断开骨骼连接"
 #. :src: bpy.types.MASK_OT_parent_set
 #. :src: bpy.types.NODE_OT_parent_set
 #. :src: bpy.types.OBJECT_OT_parent_set
-#: source/blender/editors/armature/armature_relations.c:891
+#: source/blender/editors/armature/armature_relations.c:896
 msgctxt "Operator"
 msgid "Make Parent"
 msgstr "创建父级"
@@ -54694,9 +54745,9 @@ msgstr "选择两骨骼间的最短路径"
 #. :src: bpy.types.CURVE_OT_split
 #. :src: bpy.types.MESH_OT_split
 #: scripts/startup/bl_ui/properties_grease_pencil_common.py:219
-#: scripts/startup/bl_ui/space_view3d.py:3879
-#: scripts/startup/bl_ui/space_view3d.py:4543
-#: scripts/startup/bl_ui/space_view3d.py:6301
+#: scripts/startup/bl_ui/space_view3d.py:3874
+#: scripts/startup/bl_ui/space_view3d.py:4538
+#: scripts/startup/bl_ui/space_view3d.py:6296
 msgctxt "Operator"
 msgid "Split"
 msgstr "拆分"
@@ -54726,8 +54777,8 @@ msgstr "切割次数"
 #. :src: bpy.types.ARMATURE_OT_switch_direction
 #. :src: bpy.types.CURVE_OT_switch_direction
 #. :src: bpy.types.MASK_OT_switch_direction
-#: scripts/startup/bl_ui/space_view3d.py:4318
-#: scripts/startup/bl_ui/space_view3d.py:4372
+#: scripts/startup/bl_ui/space_view3d.py:4313
+#: scripts/startup/bl_ui/space_view3d.py:4367
 msgctxt "Operator"
 msgid "Switch Direction"
 msgstr "切换方向"
@@ -57191,8 +57242,7 @@ msgstr "当终端初始化时打印信息"
 #. :src: bpy.types.CONSOLE_OT_clear
 #: scripts/startup/bl_ui/properties_mask_common.py:283
 #: scripts/startup/bl_ui/space_view3d.py:3137
-#: scripts/startup/bl_ui/space_view3d.py:3228
-#: scripts/startup/bl_ui/space_view3d.py:4408
+#: scripts/startup/bl_ui/space_view3d.py:4403
 msgctxt "Operator"
 msgid "Clear"
 msgstr "清空"
@@ -57265,7 +57315,7 @@ msgstr "复制控制台内容, 以用于脚本"
 #: scripts/startup/bl_ui/space_outliner.py:263
 #: scripts/startup/bl_ui/space_topbar.py:654
 #: scripts/startup/bl_ui/space_view3d.py:1914
-#: scripts/startup/bl_ui/space_view3d.py:4252
+#: scripts/startup/bl_ui/space_view3d.py:4247
 #: scripts/startup/bl_ui/space_view3d.py:2172
 #: scripts/startup/bl_ui/space_view3d.py:2434
 msgctxt "Operator"
@@ -57697,7 +57747,7 @@ msgstr "为拉伸约束重置骨骼的原始长度"
 #. :src: bpy.types.CURVE_OT_cyclic_toggle
 #. :src: bpy.types.MASK_OT_cyclic_toggle
 #: scripts/startup/bl_ui/properties_grease_pencil_common.py:179
-#: scripts/startup/bl_ui/space_view3d.py:4560
+#: scripts/startup/bl_ui/space_view3d.py:4555
 msgctxt "Operator"
 msgid "Toggle Cyclic"
 msgstr "切换循环"
@@ -58043,7 +58093,7 @@ msgstr "倒角权重"
 #. :src: bpy.types.TRANSFORM_OT_transform.mode:'ALIGN'
 #. :src: bpy.types.UV_OT_cylinder_project.align
 #. :src: bpy.types.UV_OT_sphere_project.align
-#: source/blender/editors/transform/transform.c:9038
+#: source/blender/editors/transform/transform.c:9076
 msgid "Align"
 msgstr "对齐"
 
@@ -58704,9 +58754,9 @@ msgstr "选择两选中对象间的最短路径"
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'SCULPT_GPENCIL', 'builtin_brush.Smooth'
 #: scripts/startup/bl_ui/space_view3d.py:2443
 #: scripts/startup/bl_ui/space_view3d.py:2817
-#: scripts/startup/bl_ui/space_view3d.py:4535
-#: scripts/startup/bl_ui/space_view3d.py:4581
-#: scripts/startup/bl_ui/space_view3d.py:6275
+#: scripts/startup/bl_ui/space_view3d.py:4530
+#: scripts/startup/bl_ui/space_view3d.py:4576
+#: scripts/startup/bl_ui/space_view3d.py:6270
 msgctxt "Operator"
 msgid "Smooth"
 msgstr "光滑"
@@ -58775,7 +58825,7 @@ msgid "Set type of active spline"
 msgstr "设置激活样条的类型"
 
 #. :src: bpy.types.CURVE_OT_spline_type_set.use_handles
-#: scripts/startup/bl_ui/space_view3d.py:5737
+#: scripts/startup/bl_ui/space_view3d.py:5732
 msgid "Handles"
 msgstr "控制柄类型"
 
@@ -58801,13 +58851,13 @@ msgstr "将选中的点与未选中的相连点分离"
 #. :src: bpy.types.PARTICLE_OT_subdivide
 #: scripts/startup/bl_ui/properties_data_modifier.py:655
 #: scripts/startup/bl_ui/properties_grease_pencil_common.py:199
-#: scripts/startup/bl_ui/space_view3d.py:4317
-#: scripts/startup/bl_ui/space_view3d.py:4356
-#: scripts/startup/bl_ui/space_view3d.py:4536
-#: scripts/startup/bl_ui/space_view3d.py:6269
-#: scripts/startup/bl_ui/space_view3d.py:3391
-#: scripts/startup/bl_ui/space_view3d.py:3438
-#: scripts/startup/bl_ui/space_view3d.py:3504
+#: scripts/startup/bl_ui/space_view3d.py:4312
+#: scripts/startup/bl_ui/space_view3d.py:4351
+#: scripts/startup/bl_ui/space_view3d.py:4531
+#: scripts/startup/bl_ui/space_view3d.py:6264
+#: scripts/startup/bl_ui/space_view3d.py:3386
+#: scripts/startup/bl_ui/space_view3d.py:3433
+#: scripts/startup/bl_ui/space_view3d.py:3499
 msgctxt "Operator"
 msgid "Subdivide"
 msgstr "细分"
@@ -64828,7 +64878,7 @@ msgid "Shape key to use for blending"
 msgstr "用于混合的形态键"
 
 #. :src: bpy.types.MESH_OT_bridge_edge_loops
-#: scripts/startup/bl_ui/space_view3d.py:3457
+#: scripts/startup/bl_ui/space_view3d.py:3452
 msgctxt "Operator"
 msgid "Bridge Edge Loops"
 msgstr "桥接循环边"
@@ -65408,9 +65458,9 @@ msgid "Extrude Only Edges"
 msgstr "只挤出边线"
 
 #. :src: bpy.types.MESH_OT_extrude_faces_indiv
-#: scripts/startup/bl_ui/space_view3d.py:3773
-#: scripts/startup/bl_ui/space_view3d.py:3510
-#: scripts/startup/bl_ui/space_view3d.py:3569
+#: scripts/startup/bl_ui/space_view3d.py:3768
+#: scripts/startup/bl_ui/space_view3d.py:3505
+#: scripts/startup/bl_ui/space_view3d.py:3564
 msgctxt "Operator"
 msgid "Extrude Individual Faces"
 msgstr "挤出各个面"
@@ -65919,9 +65969,9 @@ msgstr "按顶点选择标记, 而不是边"
 
 #. :src: bpy.types.MESH_OT_merge
 #: scripts/startup/bl_ui/properties_grease_pencil_common.py:208
-#: scripts/startup/bl_ui/space_view3d.py:3878
-#: scripts/startup/bl_ui/space_view3d.py:4544
-#: scripts/startup/bl_ui/space_view3d.py:6319
+#: scripts/startup/bl_ui/space_view3d.py:3873
+#: scripts/startup/bl_ui/space_view3d.py:4539
+#: scripts/startup/bl_ui/space_view3d.py:6314
 msgctxt "Operator"
 msgid "Merge"
 msgstr "合并"
@@ -66605,7 +66655,7 @@ msgstr "创建一个棱角球网格"
 #. :src: bpy.types.CyclesCurveRenderSettings.subdivisions
 #: scripts/startup/bl_ui/properties_data_gpencil.py:452
 #: scripts/startup/bl_ui/properties_physics_fluid.py:420
-#: scripts/startup/bl_ui/space_view3d.py:5397
+#: scripts/startup/bl_ui/space_view3d.py:5392
 msgid "Subdivisions"
 msgstr "细分"
 
@@ -67755,9 +67805,9 @@ msgid "Remove vertex color layer"
 msgstr "移除顶点色图层"
 
 #. :src: bpy.types.MESH_OT_vertices_smooth
-#: scripts/startup/bl_ui/space_view3d.py:3624
-#: scripts/startup/bl_ui/space_view3d.py:3912
-#: scripts/startup/bl_ui/space_view3d.py:3412
+#: scripts/startup/bl_ui/space_view3d.py:3619
+#: scripts/startup/bl_ui/space_view3d.py:3907
+#: scripts/startup/bl_ui/space_view3d.py:3407
 msgctxt "Operator"
 msgid "Smooth Vertices"
 msgstr "平滑顶点"
@@ -69360,7 +69410,7 @@ msgstr "传递网格数据"
 
 #. :src: bpy.types.OBJECT_OT_data_transfer
 msgid "Transfer data layer(s) (weights, edge sharp, ...) from active to selected meshes"
-msgstr "将主控物体的网格数据层（权重、锐边等）传递给所选物体"
+msgstr "将活动物体的网格数据层（权重、锐边等）传递给所选物体"
 
 #. :src: bpy.types.OBJECT_OT_data_transfer.data_type
 #. :src: bpy.types.OBJECT_OT_datalayout_transfer.data_type
@@ -69405,7 +69455,7 @@ msgstr "反转传递"
 
 #. :src: bpy.types.OBJECT_OT_data_transfer.use_reverse_transfer
 msgid "Transfer from selected objects to active one"
-msgstr "从所选物体向主控物体传递"
+msgstr "从所选物体向活动物体传递"
 
 #. :src: bpy.types.OBJECT_OT_datalayout_transfer
 msgctxt "Operator"
@@ -69927,7 +69977,7 @@ msgstr "将物体设置为限制渲染以不参与渲染"
 #. :src: bpy.types.OBJECT_OT_join
 #: scripts/startup/bl_ui/properties_grease_pencil_common.py:209
 #: scripts/startup/bl_ui/properties_grease_pencil_common.py:487
-#: scripts/startup/bl_ui/space_view3d.py:6298
+#: scripts/startup/bl_ui/space_view3d.py:6293
 msgctxt "Operator"
 msgid "Join"
 msgstr "合并"
@@ -72648,13 +72698,6 @@ msgstr "添加纹理绘制槽"
 msgid "Add a texture paint slot"
 msgstr "添加一个纹理绘制槽"
 
-#. :src: bpy.types.PAINT_OT_add_texture_paint_slot.type:'BASE_COLOR'
-#: scripts/startup/bl_ui/properties_material.py:178
-#: source/blender/nodes/shader/nodes/node_shader_bsdf_principled.c:24
-#: source/blender/nodes/shader/nodes/node_shader_eevee_specular.c:24
-msgid "Base Color"
-msgstr "基础色"
-
 #. :src: bpy.types.PAINT_OT_brush_colors_flip
 msgctxt "Operator"
 msgid "Brush Colors Flip"
@@ -74339,7 +74382,7 @@ msgstr "用户设置"
 
 #. :src: bpy.types.PREFERENCES_OT_addon_refresh
 #: scripts/startup/bl_ui/properties_data_modifier.py:422
-#: scripts/startup/bl_ui/space_userpref.py:1743
+#: scripts/startup/bl_ui/space_userpref.py:1735
 msgctxt "Operator"
 msgid "Refresh"
 msgstr "刷新"
@@ -76189,8 +76232,8 @@ msgstr "对片段缺少的帧使用占位符"
 #: scripts/startup/bl_ui/space_sequencer.py:717
 #: scripts/startup/bl_ui/space_view3d.py:1560
 #: scripts/startup/bl_ui/space_view3d.py:1586
-#: scripts/startup/bl_ui/space_view3d.py:4529
-#: scripts/startup/bl_ui/space_view3d.py:6289
+#: scripts/startup/bl_ui/space_view3d.py:4524
+#: scripts/startup/bl_ui/space_view3d.py:6284
 #: source/blender/editors/interface/interface_templates.c:2003
 #: source/blender/editors/interface/interface_templates.c:2149
 msgctxt "Operator"
@@ -76539,8 +76582,8 @@ msgstr "清除首尾帧间的片段偏移"
 #: scripts/startup/bl_ui/space_sequencer.py:718
 #: scripts/startup/bl_ui/space_view3d.py:1561
 #: scripts/startup/bl_ui/space_view3d.py:1587
-#: scripts/startup/bl_ui/space_view3d.py:4530
-#: scripts/startup/bl_ui/space_view3d.py:6290
+#: scripts/startup/bl_ui/space_view3d.py:4525
+#: scripts/startup/bl_ui/space_view3d.py:6285
 msgctxt "Operator"
 msgid "Paste"
 msgstr "粘贴"
@@ -77479,7 +77522,7 @@ msgstr "用于解决文本内置和外置之间不同造成的冲突"
 #. :src: bpy.types.TEXT_OT_resolve_conflict.resolution:'IGNORE'
 #. :src: bpy.types.CyclesRenderSettings.use_layer_samples:'IGNORE'
 #: source/blender/editors/space_text/text_ops.c:3536
-#: source/blender/windowmanager/intern/wm_files.c:2874
+#: source/blender/windowmanager/intern/wm_files.c:2882
 msgid "Ignore"
 msgstr "忽略"
 
@@ -77599,7 +77642,7 @@ msgstr "断开活动文本数据块的关联"
 #. :src: bpy.types.TRANSFORM_OT_bend
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'EDIT_GPENCIL', 'builtin.bend'
 #: scripts/startup/bl_ui/space_view3d.py:826
-#: scripts/startup/bl_ui/space_view3d.py:4618
+#: scripts/startup/bl_ui/space_view3d.py:4613
 msgctxt "Operator"
 msgid "Bend"
 msgstr "弯曲"
@@ -77923,7 +77966,7 @@ msgstr "变换坐标系"
 #. :src: bpy.types.TRANSFORM_OT_push_pull
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'EDIT_MESH', 'builtin.push_pull'
 #: scripts/startup/bl_ui/space_view3d.py:827
-#: scripts/startup/bl_ui/space_view3d.py:3407
+#: scripts/startup/bl_ui/space_view3d.py:3402
 msgctxt "Operator"
 msgid "Push/Pull"
 msgstr "推 / 拉"
@@ -77974,7 +78017,7 @@ msgstr "编辑物体纹理空间数据"
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'SCULPT', 'builtin_brush.Rotate'
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'EDIT_GPENCIL', 'builtin.rotate'
 #: scripts/startup/bl_ui/space_graph.py:307
-#: scripts/startup/bl_ui/space_view3d.py:4667
+#: scripts/startup/bl_ui/space_view3d.py:4662
 msgctxt "Operator"
 msgid "Rotate"
 msgstr "旋转"
@@ -78010,8 +78053,8 @@ msgstr "滑动序列"
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'EDIT_MESH', 'builtin.shear'
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'EDIT_GPENCIL', 'builtin.shear'
 #: scripts/startup/bl_ui/space_view3d.py:825
-#: scripts/startup/bl_ui/space_view3d.py:4619
-#: scripts/startup/bl_ui/space_view3d.py:3409
+#: scripts/startup/bl_ui/space_view3d.py:4614
+#: scripts/startup/bl_ui/space_view3d.py:3404
 msgctxt "Operator"
 msgid "Shear"
 msgstr "切变"
@@ -78030,8 +78073,8 @@ msgstr "切变轴向"
 
 #. :src: bpy.types.TRANSFORM_OT_shrink_fatten
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'EDIT_MESH', 'builtin.shrink_fatten'
-#: scripts/startup/bl_ui/space_view3d.py:3408
-#: scripts/startup/bl_ui/space_view3d.py:6274
+#: scripts/startup/bl_ui/space_view3d.py:3403
+#: scripts/startup/bl_ui/space_view3d.py:6269
 msgctxt "Operator"
 msgid "Shrink/Fatten"
 msgstr "法向缩放"
@@ -78059,7 +78102,7 @@ msgstr "倾斜选择 3D 曲线的控制点"
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'EDIT_MESH', 'builtin.to_sphere'
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'EDIT_GPENCIL', 'builtin.to_sphere'
 #: scripts/startup/bl_ui/space_view3d.py:824
-#: scripts/startup/bl_ui/space_view3d.py:4620
+#: scripts/startup/bl_ui/space_view3d.py:4615
 msgctxt "Operator"
 msgid "To Sphere"
 msgstr "球形化"
@@ -78113,7 +78156,7 @@ msgstr "值"
 #: scripts/startup/bl_ui/space_nla.py:228
 #: scripts/startup/bl_ui/space_node.py:598
 #: scripts/startup/bl_ui/space_sequencer.py:561
-#: scripts/startup/bl_ui/space_view3d.py:4665
+#: scripts/startup/bl_ui/space_view3d.py:4660
 msgctxt "Operator"
 msgid "Move"
 msgstr "移动"
@@ -79277,7 +79320,7 @@ msgstr "合并元素之间的最小间隔"
 #. :src: bpy.types.UV_OT_reset
 #: scripts/startup/bl_ui/properties_constraint.py:523
 #: scripts/startup/bl_ui/properties_data_modifier.py:461
-#: scripts/startup/bl_ui/space_userpref.py:785
+#: scripts/startup/bl_ui/space_userpref.py:777
 msgctxt "Operator"
 msgid "Reset"
 msgstr "重置"
@@ -80191,7 +80234,7 @@ msgid "View From the Back"
 msgstr "从后面查看"
 
 #. :src: bpy.types.VIEW3D_OT_view_camera
-#: scripts/startup/bl_ui/space_view3d.py:4653
+#: scripts/startup/bl_ui/space_view3d.py:4648
 msgctxt "Operator"
 msgid "View Camera"
 msgstr "相机视图"
@@ -81610,7 +81653,7 @@ msgstr "状态"
 
 #. :src: bpy.types.WM_OT_open_mainfile.use_scripts
 #. :src: bpy.types.WM_OT_revert_mainfile.use_scripts
-#: source/blender/windowmanager/intern/wm_files.c:2294
+#: source/blender/windowmanager/intern/wm_files.c:2302
 msgid "Trusted Source"
 msgstr "可信任源"
 
@@ -81982,23 +82025,23 @@ msgid "Path of property used to set the zoom level for the control"
 msgstr "用于控制缩放等级的属性设置路径"
 
 #. :src: bpy.types.WM_OT_read_factory_settings
-#: scripts/startup/bl_ui/space_userpref.py:107
 msgctxt "Operator"
 msgid "Load Factory Settings"
 msgstr "加载初始设置"
 
 #. :src: bpy.types.WM_OT_read_factory_settings
-msgid "Load default file and preferences"
-msgstr "加载默认文件和设置"
+msgid "Load factory default startup file and preferences. To make changes permanent, use \"Save Startup File\" and \"Save Preferences\""
+msgstr ""
 
 #. :src: bpy.types.WM_OT_read_factory_userpref
+#: scripts/startup/bl_ui/space_userpref.py:99
 msgctxt "Operator"
 msgid "Load Factory Preferences"
 msgstr "加载初始设置"
 
 #. :src: bpy.types.WM_OT_read_factory_userpref
-msgid "Load default preferences"
-msgstr "加载默认设置"
+msgid "Load factory default preferences. To make changes to preferences permanent, use \"Save Preferences\""
+msgstr ""
 
 #. :src: bpy.types.WM_OT_read_history
 msgctxt "Operator"
@@ -82183,6 +82226,7 @@ msgid "Exit Blender after saving"
 msgstr "保存后退出Blender"
 
 #. :src: bpy.types.WM_OT_save_userpref
+#: scripts/startup/bl_ui/space_userpref.py:93
 msgctxt "Operator"
 msgid "Save Preferences"
 msgstr "保存用户设置"
@@ -83245,7 +83289,7 @@ msgstr "附加追踪设置"
 #. :src: bpy.types.SpaceView3D.lens
 #: scripts/startup/bl_ui/properties_data_camera.py:105
 #: scripts/startup/bl_ui/properties_output.py:216
-#: scripts/startup/bl_ui/space_view3d.py:5345
+#: scripts/startup/bl_ui/space_view3d.py:5340
 msgid "Lens"
 msgstr "镜头"
 
@@ -83559,7 +83603,7 @@ msgstr "采样线"
 #. :src: bpy.types.IMAGE_PT_snapping
 #. :src: bpy.types.VIEW3D_PT_snapping
 #: scripts/startup/bl_ui/space_image.py:873
-#: scripts/startup/bl_ui/space_view3d.py:5892
+#: scripts/startup/bl_ui/space_view3d.py:5887
 msgid "Snapping"
 msgstr "吸附"
 
@@ -83756,9 +83800,9 @@ msgstr "设置 3D 游标的位置，拖拽进行变换"
 #: scripts/startup/bl_ui/space_nla.py:230
 #: scripts/startup/bl_ui/space_view3d.py:820
 #: scripts/startup/bl_ui/space_view3d.py:3073
-#: scripts/startup/bl_ui/space_view3d.py:4614
+#: scripts/startup/bl_ui/space_view3d.py:4609
 #: scripts/startup/bl_ui/space_view3d.py:2226
-#: scripts/startup/bl_ui/space_view3d.py:4669
+#: scripts/startup/bl_ui/space_view3d.py:4664
 msgctxt "Operator"
 msgid "Scale"
 msgstr "缩放"
@@ -84145,6 +84189,22 @@ msgstr "诊断"
 #. :src: bpy.types.PHYSICS_PT_softbody_solver_helpers
 msgid "Helpers"
 msgstr "辅助器"
+
+#. :src: bpy.types.RENDER_PT_SVGExporterLinesetPanel
+msgid "Creates a Panel in the Render Layers context of the properties editor"
+msgstr ""
+
+#. :src: bpy.types.RENDER_PT_SVGExporterLinesetPanel
+msgid "Freestyle Line Style SVG Export"
+msgstr "Freestyle 线条样式SVG导出"
+
+#. :src: bpy.types.RENDER_PT_SVGExporterPanel
+msgid "Creates a Panel in the render context of the properties editor"
+msgstr ""
+
+#. :src: bpy.types.RENDER_PT_SVGExporterPanel
+msgid "Freestyle SVG Export"
+msgstr ""
 
 #. :src: bpy.types.RENDER_PT_color_management
 #: source/blender/editors/space_image/image_buttons.c:1080
@@ -84634,7 +84694,7 @@ msgid "Gradient Colors"
 msgstr "渐变颜色"
 
 #. :src: bpy.types.VIEW3D_PT_annotation_onion
-#: scripts/startup/bl_ui/space_view3d.py:6076
+#: scripts/startup/bl_ui/space_view3d.py:6071
 msgid "Onion Skin"
 msgstr "洋葱皮"
 
@@ -84652,13 +84712,13 @@ msgstr "绘制上下文菜单"
 
 #. :src: bpy.types.VIEW3D_PT_gpencil_guide
 #. :src: bpy.types.VIEW3D_PT_overlay_guides
-#: scripts/startup/bl_ui/space_view3d.py:6021
+#: scripts/startup/bl_ui/space_view3d.py:6016
 #: scripts/startup/bl_ui/space_view3d.py:666
 msgid "Guides"
 msgstr "辅助"
 
 #. :src: bpy.types.VIEW3D_PT_gpencil_lock
-#: scripts/startup/bl_ui/space_view3d.py:6005
+#: scripts/startup/bl_ui/space_view3d.py:6000
 msgid "Drawing Plane"
 msgstr "绘制平面"
 
@@ -84667,7 +84727,7 @@ msgid "Multi Frame"
 msgstr "多次绘制"
 
 #. :src: bpy.types.VIEW3D_PT_gpencil_origin
-#: scripts/startup/bl_ui/space_view3d.py:5979
+#: scripts/startup/bl_ui/space_view3d.py:5974
 msgid "Stroke Placement"
 msgstr "笔画放置"
 
@@ -84852,7 +84912,7 @@ msgstr "挤出光标"
 
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'EDIT_CURVE', 'builtin.radius'
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'EDIT_GPENCIL', 'builtin.radius'
-#: scripts/startup/bl_ui/space_view3d.py:4122
+#: scripts/startup/bl_ui/space_view3d.py:4117
 #: scripts/startup/bl_ui/space_view3d.py:845
 #: scripts/startup/bl_ui/space_view3d.py:2373
 msgctxt "Operator"
@@ -84941,7 +85001,7 @@ msgstr "推移"
 
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'SCULPT', 'builtin_brush.Simplify'
 #: scripts/startup/bl_ui/properties_grease_pencil_common.py:201
-#: scripts/startup/bl_ui/space_view3d.py:6317
+#: scripts/startup/bl_ui/space_view3d.py:6312
 msgctxt "Operator"
 msgid "Simplify"
 msgstr "简化"
@@ -85026,7 +85086,7 @@ msgstr "方框"
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'PAINT_GPENCIL', 'builtin.circle'
 #: scripts/startup/bl_ui/space_view3d.py:1843
 #: scripts/startup/bl_ui/space_view3d.py:1866
-#: scripts/startup/bl_ui/space_view3d.py:4206
+#: scripts/startup/bl_ui/space_view3d.py:4201
 msgctxt "Operator"
 msgid "Circle"
 msgstr "圆环"
@@ -85098,7 +85158,7 @@ msgid "Pose Options"
 msgstr "姿态选项"
 
 #. :src: bpy.types.VIEW3D_PT_transform_orientations
-#: scripts/startup/bl_ui/space_view3d.py:5952
+#: scripts/startup/bl_ui/space_view3d.py:5947
 msgid "Transform Orientations"
 msgstr "变换坐标系"
 
@@ -86550,7 +86610,7 @@ msgid "Maximum memory usage in megabytes (0 means unlimited)"
 msgstr "允许使用的最大内存量(0为不限制)"
 
 #. :src: bpy.types.PreferencesEdit.undo_steps
-#: scripts/startup/bl_ui/space_userpref.py:720
+#: scripts/startup/bl_ui/space_userpref.py:712
 msgid "Undo Steps"
 msgstr "撤销次数"
 
@@ -86691,7 +86751,7 @@ msgid "Causes texture data to be duplicated with the object"
 msgstr "使纹理数据可随物体一同被复制"
 
 #. :src: bpy.types.PreferencesEdit.use_enter_edit_mode
-#: scripts/startup/bl_ui/space_userpref.py:353
+#: scripts/startup/bl_ui/space_userpref.py:345
 msgid "Enter Edit Mode"
 msgstr "进入编辑模式"
 
@@ -86760,7 +86820,7 @@ msgid "Use Visual keying automatically for constrained objects"
 msgstr "为约束物体使用可视化帧"
 
 #. :src: bpy.types.PreferencesFilePaths.animation_player
-#: scripts/startup/bl_ui/space_userpref.py:1250
+#: scripts/startup/bl_ui/space_userpref.py:1242
 msgid "Animation Player"
 msgstr "动画播放器"
 
@@ -86859,7 +86919,7 @@ msgstr "本地 svn-translation 副本的 '/branches' 路径, 以实现从界面�
 #. :src: bpy.types.PreferencesFilePaths.image_editor
 #. :src: bpy.types.RenderSettings.display_mode:'AREA'
 #. :src: bpy.types.Theme.image_editor
-#: scripts/startup/bl_ui/space_userpref.py:1249
+#: scripts/startup/bl_ui/space_userpref.py:1241
 msgid "Image Editor"
 msgstr "图像编辑器"
 
@@ -87072,7 +87132,7 @@ msgid "Use fly dynamics to navigate the scene"
 msgstr "使用动态飞行来浏览场景"
 
 #. :src: bpy.types.PreferencesInput.ndof_deadzone
-#: scripts/startup/bl_ui/space_userpref.py:1621
+#: scripts/startup/bl_ui/space_userpref.py:1613
 msgid "Deadzone"
 msgstr "盲区"
 
@@ -87097,7 +87157,7 @@ msgid "Keep horizon level while flying with 3D Mouse"
 msgstr "保持水平而只移动 3D 鼠标"
 
 #. :src: bpy.types.PreferencesInput.ndof_orbit_sensitivity
-#: scripts/startup/bl_ui/space_userpref.py:1620
+#: scripts/startup/bl_ui/space_userpref.py:1612
 msgid "Orbit Sensitivity"
 msgstr "轨迹球灵敏度"
 
@@ -87664,7 +87724,7 @@ msgid "Use 16x OpenGL MultiSample"
 msgstr "使用16倍 OpenGL 多重采样"
 
 #. :src: bpy.types.PreferencesSystem.image_draw_method
-#: scripts/startup/bl_ui/space_userpref.py:684
+#: scripts/startup/bl_ui/space_userpref.py:676
 msgid "Image Display Method"
 msgstr "图像显示方式"
 
@@ -87775,7 +87835,7 @@ msgid "Number of seconds between each run of the GL texture garbage collector"
 msgstr "GL 纹理收回计算的间隔秒数"
 
 #. :src: bpy.types.PreferencesSystem.texture_time_out
-#: scripts/startup/bl_ui/space_userpref.py:735
+#: scripts/startup/bl_ui/space_userpref.py:727
 msgid "Texture Time Out"
 msgstr "纹理超时设置"
 
@@ -88232,7 +88292,7 @@ msgid "Display splash screen on startup"
 msgstr "启动时显示欢迎画面"
 
 #. :src: bpy.types.PreferencesView.show_tooltips
-#: scripts/startup/bl_ui/space_userpref.py:244
+#: scripts/startup/bl_ui/space_userpref.py:236
 msgid "Tooltips"
 msgstr "工具提示"
 
@@ -89473,7 +89533,7 @@ msgid "Min Transparent Bounces"
 msgstr "最小透明反弹"
 
 #. :src: bpy.types.CyclesRenderSettings.min_transparent_bounces
-msgid "Minimum number of transparnet bounces. Setting this higher reduces noise in the first bounces, but can also be less efficient for more complex geometry like hair and volumes"
+msgid "Minimum number of transparent bounces. Setting this higher reduces noise in the first bounces, but can also be less efficient for more complex geometry like hair and volumes"
 msgstr ""
 
 #. :src: bpy.types.CyclesRenderSettings.motion_blur_position
@@ -90153,6 +90213,63 @@ msgstr "复制纹理"
 #. :src: bpy.types.Print3D_Scene_Props.use_export_texture
 msgid "Copy textures on export to the output path"
 msgstr "导出到输出路径时复制纹理"
+
+#. :src: bpy.types.SVGExport
+msgid "Implements the properties for the SVG exporter"
+msgstr ""
+
+#. :src: bpy.types.SVGExport.line_join_type
+msgid "Linejoin"
+msgstr ""
+
+#. :src: bpy.types.SVGExport.line_join_type:'MITER'
+msgid "Miter"
+msgstr "斜接"
+
+#. :src: bpy.types.SVGExport.line_join_type:'MITER'
+msgid "Corners are sharp"
+msgstr ""
+
+#. :src: bpy.types.SVGExport.line_join_type:'ROUND'
+msgid "Corners are smoothed"
+msgstr ""
+
+#. :src: bpy.types.SVGExport.line_join_type:'BEVEL'
+msgid "Corners are bevelled"
+msgstr ""
+
+#. :src: bpy.types.SVGExport.mode:'FRAME'
+msgid "Export a single frame"
+msgstr ""
+
+#. :src: bpy.types.SVGExport.mode:'ANIMATION'
+msgid "Export an animation"
+msgstr "导出动画"
+
+#. :src: bpy.types.SVGExport.object_fill
+#, fuzzy
+msgid "Fill Contours"
+msgstr "填充色"
+
+#. :src: bpy.types.SVGExport.object_fill
+msgid "Fill the contour with the object's material color"
+msgstr ""
+
+#. :src: bpy.types.SVGExport.split_at_invisible
+msgid "Split at Invisible"
+msgstr ""
+
+#. :src: bpy.types.SVGExport.split_at_invisible
+msgid "Split the stroke at an invisible vertex"
+msgstr ""
+
+#. :src: bpy.types.SVGExport.use_svg_export
+msgid "SVG Export"
+msgstr "SVG导出"
+
+#. :src: bpy.types.SVGExport.use_svg_export
+msgid "Export Freestyle edges to an .svg format"
+msgstr ""
 
 #. :src: bpy.types.SelectedUvElement
 msgid "Selected UV Element"
@@ -96636,11 +96753,11 @@ msgstr "各自中心"
 
 #. :src: bpy.types.SpaceGraphEditor.show_cursor
 msgid "Show Cursor"
-msgstr "显示光标"
+msgstr "显示游标"
 
 #. :src: bpy.types.SpaceGraphEditor.show_cursor
 msgid "Show 2D cursor"
-msgstr "显示二维光标"
+msgstr "显示二维游标"
 
 #. :src: bpy.types.SpaceGraphEditor.show_group_colors
 msgid "Display groups and channels with colors matching their corresponding groups"
@@ -97361,7 +97478,7 @@ msgstr "亮度波形"
 
 #. :src: bpy.types.SpaceSequenceEditor.display_mode:'VECTOR_SCOPE'
 msgid "Chroma Vectorscope"
-msgstr "色度矢量"
+msgstr "色度矢量显示器"
 
 #. :src: bpy.types.SpaceSequenceEditor.grease_pencil
 msgid "Grease Pencil data for this Preview region"
@@ -98729,7 +98846,7 @@ msgid "Affect the density of the particles"
 msgstr "影响粒子的密度"
 
 #. :src: bpy.types.ParticleSettingsTextureSlot.use_map_field
-#: scripts/startup/bl_ui/space_view3d.py:5340
+#: scripts/startup/bl_ui/space_view3d.py:5335
 msgid "Force Field"
 msgstr "力场"
 
@@ -100192,7 +100309,7 @@ msgid "Bundle Solid"
 msgstr "束实色"
 
 #. :src: bpy.types.ThemeView3D.camera_path
-#: scripts/startup/bl_ui/space_view3d.py:5506
+#: scripts/startup/bl_ui/space_view3d.py:5501
 msgid "Camera Path"
 msgstr "相机路径"
 
@@ -101529,7 +101646,7 @@ msgstr "高亮显示选中的连线"
 
 #. :src: bpy.types.View3DOverlay.show_extra_edge_angle
 #: scripts/startup/bl_ui/properties_data_modifier.py:396
-#: scripts/startup/bl_ui/space_view3d.py:5655
+#: scripts/startup/bl_ui/space_view3d.py:5650
 msgid "Edge Angle"
 msgstr "边角度"
 
@@ -101538,7 +101655,7 @@ msgid "Display selected edge angle, using global values when set in the transfor
 msgstr "显示所选边线的夹角, 当在变换面板中设置时, 使用全局值"
 
 #. :src: bpy.types.View3DOverlay.show_extra_edge_length
-#: scripts/startup/bl_ui/space_view3d.py:5654
+#: scripts/startup/bl_ui/space_view3d.py:5649
 msgid "Edge Length"
 msgstr "边长"
 
@@ -101555,7 +101672,7 @@ msgid "Display the area of selected faces, using global values when set in the t
 msgstr "显示所选面的面积值, 当在变换面板中设置时, 使用全局值"
 
 #. :src: bpy.types.View3DOverlay.show_extra_indices
-#: scripts/startup/bl_ui/space_view3d.py:5555
+#: scripts/startup/bl_ui/space_view3d.py:5550
 msgid "Indices"
 msgstr "编号"
 
@@ -101564,7 +101681,7 @@ msgid "Display the index numbers of selected vertices, edges, and faces"
 msgstr "显示所选点线面的编号"
 
 #. :src: bpy.types.View3DOverlay.show_extras
-#: scripts/startup/bl_ui/space_view3d.py:5438
+#: scripts/startup/bl_ui/space_view3d.py:5433
 msgid "Extras"
 msgstr "其他项"
 
@@ -101786,7 +101903,7 @@ msgid "Show edit lines when editing strokes"
 msgstr "在编辑笔画时显示编辑线"
 
 #. :src: bpy.types.View3DOverlay.use_gpencil_fade_layers
-#: scripts/startup/bl_ui/space_view3d.py:6096
+#: scripts/startup/bl_ui/space_view3d.py:6091
 msgid "Fade Layers"
 msgstr "淡化层"
 
@@ -101819,7 +101936,7 @@ msgid "Cover all viewport with a full color layer to improve visibility while dr
 msgstr "当在复杂场景绘制时, 使用全彩色图层覆盖所有视口已提升可视化"
 
 #. :src: bpy.types.View3DOverlay.vertex_opacity
-#: scripts/startup/bl_ui/space_view3d.py:6101
+#: scripts/startup/bl_ui/space_view3d.py:6096
 msgid "Vertex Opacity"
 msgstr "顶点不透明度"
 
@@ -102069,7 +102186,7 @@ msgid "Rotation of the studiolight around the Z-Axis"
 msgstr "棚灯在 Z 轴上的旋转"
 
 #. :src: bpy.types.View3DShading.type
-#: scripts/startup/bl_ui/space_view3d.py:5053
+#: scripts/startup/bl_ui/space_view3d.py:5048
 msgid "Viewport Shading"
 msgstr "视图着色方式"
 
@@ -102248,7 +102365,7 @@ msgid "Tool Mode"
 msgstr "工具模式"
 
 #. :src: bpy.types.WorkSpaceTool.widget
-#: scripts/startup/bl_ui/space_userpref.py:988
+#: scripts/startup/bl_ui/space_userpref.py:980
 msgid "Widget"
 msgstr "控件"
 
@@ -102795,21 +102912,29 @@ msgid "3D View Tool: Transform"
 msgstr "3D视图工具: 变换"
 
 #. :src: KM_HIERARCHY.VIEW_3D.EMPTY.VIEW_3D
+#. :src: KM_HIERARCHY.IMAGE_EDITOR.EMPTY.IMAGE_EDITOR
+#. :src: KM_HIERARCHY.IMAGE_EDITOR.IMAGE_EDITOR.IMAGE_EDITOR
 msgctxt "WindowManager"
 msgid "Generic Tool: Annotate"
 msgstr "通用工具: 标注"
 
 #. :src: KM_HIERARCHY.VIEW_3D.EMPTY.VIEW_3D
+#. :src: KM_HIERARCHY.IMAGE_EDITOR.EMPTY.IMAGE_EDITOR
+#. :src: KM_HIERARCHY.IMAGE_EDITOR.IMAGE_EDITOR.IMAGE_EDITOR
 msgctxt "WindowManager"
 msgid "Generic Tool: Annotate Line"
 msgstr "通用工具: 标注线"
 
 #. :src: KM_HIERARCHY.VIEW_3D.EMPTY.VIEW_3D
+#. :src: KM_HIERARCHY.IMAGE_EDITOR.EMPTY.IMAGE_EDITOR
+#. :src: KM_HIERARCHY.IMAGE_EDITOR.IMAGE_EDITOR.IMAGE_EDITOR
 msgctxt "WindowManager"
 msgid "Generic Tool: Annotate Polygon"
 msgstr "通用工具: 标注多边形"
 
 #. :src: KM_HIERARCHY.VIEW_3D.EMPTY.VIEW_3D
+#. :src: KM_HIERARCHY.IMAGE_EDITOR.EMPTY.IMAGE_EDITOR
+#. :src: KM_HIERARCHY.IMAGE_EDITOR.IMAGE_EDITOR.IMAGE_EDITOR
 msgctxt "WindowManager"
 msgid "Generic Tool: Annotate Eraser"
 msgstr "通用工具: 标注擦除"
@@ -103006,10 +103131,36 @@ msgctxt "WindowManager"
 msgid "UV Editor"
 msgstr "UV 编辑器"
 
+#. :src: KM_HIERARCHY.IMAGE_EDITOR.EMPTY.IMAGE_EDITOR
+msgctxt "WindowManager"
+msgid "Image Editor Tool: Uv, Move"
+msgstr ""
+
+#. :src: KM_HIERARCHY.IMAGE_EDITOR.EMPTY.IMAGE_EDITOR
+msgctxt "WindowManager"
+msgid "Image Editor Tool: Uv, Rotate"
+msgstr ""
+
+#. :src: KM_HIERARCHY.IMAGE_EDITOR.EMPTY.IMAGE_EDITOR
+msgctxt "WindowManager"
+msgid "Image Editor Tool: Uv, Scale"
+msgstr ""
+
 #. :src: KM_HIERARCHY.IMAGE_EDITOR.EMPTY
 msgctxt "WindowManager"
 msgid "UV Sculpt"
 msgstr "UV 雕刻"
+
+#. :src: KM_HIERARCHY.IMAGE_EDITOR.IMAGE_EDITOR
+#, fuzzy
+msgctxt "WindowManager"
+msgid "Image View"
+msgstr "图像来自视图"
+
+#. :src: KM_HIERARCHY.IMAGE_EDITOR.IMAGE_EDITOR.IMAGE_EDITOR
+msgctxt "WindowManager"
+msgid "Image Editor Tool: Sample"
+msgstr ""
 
 #. :src: KM_HIERARCHY.IMAGE_EDITOR.IMAGE_EDITOR
 msgctxt "WindowManager"
@@ -103910,7 +104061,7 @@ msgid "Calculate..."
 msgstr "计算..."
 
 #: scripts/startup/bl_ui/properties_constraint.py:111
-#: scripts/startup/bl_ui/space_userpref.py:1853
+#: scripts/startup/bl_ui/space_userpref.py:1845
 #: source/blender/editors/space_node/drawnode.c:734
 msgid "Location:"
 msgstr "位置:"
@@ -104197,7 +104348,7 @@ msgid "Protected Layers:"
 msgstr "受保护层:"
 
 #: scripts/startup/bl_ui/properties_data_armature.py:91
-#: scripts/startup/bl_ui/space_view3d.py:5401
+#: scripts/startup/bl_ui/space_view3d.py:5396
 msgid "Axes"
 msgstr "轴向"
 
@@ -104213,7 +104364,7 @@ msgstr "组颜色"
 #: scripts/startup/bl_ui/properties_data_gpencil.py:379
 #: scripts/startup/bl_ui/properties_data_mesh.py:277
 #: scripts/startup/bl_ui/properties_data_mesh.py:323
-#: scripts/startup/bl_ui/space_userpref.py:1894
+#: scripts/startup/bl_ui/space_userpref.py:1886
 #: scripts/startup/bl_ui/space_view3d.py:2203
 msgctxt "Operator"
 msgid "Remove"
@@ -105233,7 +105384,7 @@ msgid "Edge Types"
 msgstr "边型"
 
 #: scripts/startup/bl_ui/properties_freestyle.py:220
-#: scripts/startup/bl_ui/space_view3d.py:5714
+#: scripts/startup/bl_ui/space_view3d.py:5709
 msgid "Face Marks"
 msgstr "面标记"
 
@@ -105358,7 +105509,7 @@ msgid "Draw:"
 msgstr "视图显示:"
 
 #: scripts/startup/bl_ui/properties_grease_pencil_common.py:109
-#: scripts/startup/bl_ui/space_view3d.py:4599
+#: scripts/startup/bl_ui/space_view3d.py:4594
 msgctxt "Operator"
 msgid "Delete Frame(s)"
 msgstr "删除帧"
@@ -105368,7 +105519,7 @@ msgid "Edit:"
 msgstr "编辑:"
 
 #: scripts/startup/bl_ui/properties_grease_pencil_common.py:194
-#: scripts/startup/bl_ui/space_view3d.py:4555
+#: scripts/startup/bl_ui/space_view3d.py:4550
 msgctxt "Operator"
 msgid "Arrange Strokes..."
 msgstr "整理笔画..."
@@ -105380,22 +105531,22 @@ msgid "Assign Material"
 msgstr "指定材质"
 
 #: scripts/startup/bl_ui/properties_grease_pencil_common.py:202
-#: scripts/startup/bl_ui/space_view3d.py:4455
+#: scripts/startup/bl_ui/space_view3d.py:4450
 msgctxt "Operator"
 msgid "Adaptive"
 msgstr "自适应"
 
 #: scripts/startup/bl_ui/properties_grease_pencil_common.py:203
-#: scripts/startup/bl_ui/space_view3d.py:4538
-#: scripts/startup/bl_ui/space_view3d.py:6276
+#: scripts/startup/bl_ui/space_view3d.py:4533
+#: scripts/startup/bl_ui/space_view3d.py:6271
 msgctxt "Operator"
 msgid "Trim"
 msgstr "修剪"
 
 #: scripts/startup/bl_ui/properties_grease_pencil_common.py:212
 #: scripts/startup/bl_ui/properties_grease_pencil_common.py:489
-#: scripts/startup/bl_ui/space_view3d.py:4549
-#: scripts/startup/bl_ui/space_view3d.py:6283
+#: scripts/startup/bl_ui/space_view3d.py:4544
+#: scripts/startup/bl_ui/space_view3d.py:6278
 msgctxt "Operator"
 msgid "Flip Direction"
 msgstr "反转方向"
@@ -105411,7 +105562,7 @@ msgstr "转换..."
 
 #: scripts/startup/bl_ui/properties_grease_pencil_common.py:582
 #: scripts/startup/bl_ui/space_view3d.py:940
-#: scripts/startup/bl_ui/space_view3d.py:4763
+#: scripts/startup/bl_ui/space_view3d.py:4758
 msgctxt "Operator"
 msgid "Selection to Grid"
 msgstr "选中项 -> 栅格点"
@@ -105420,27 +105571,27 @@ msgstr "选中项 -> 栅格点"
 #: scripts/startup/bl_ui/space_image.py:312
 #: scripts/startup/bl_ui/space_image.py:507
 #: scripts/startup/bl_ui/space_view3d.py:947
-#: scripts/startup/bl_ui/space_view3d.py:4764
+#: scripts/startup/bl_ui/space_view3d.py:4759
 msgctxt "Operator"
 msgid "Cursor to Selected"
 msgstr "游标 -> 选中项"
 
 #: scripts/startup/bl_ui/properties_grease_pencil_common.py:589
 #: scripts/startup/bl_ui/space_view3d.py:948
-#: scripts/startup/bl_ui/space_view3d.py:4776
+#: scripts/startup/bl_ui/space_view3d.py:4771
 msgctxt "Operator"
 msgid "Cursor to World Origin"
 msgstr "游标 --> 世界原点"
 
 #: scripts/startup/bl_ui/properties_grease_pencil_common.py:590
 #: scripts/startup/bl_ui/space_view3d.py:949
-#: scripts/startup/bl_ui/space_view3d.py:4762
+#: scripts/startup/bl_ui/space_view3d.py:4757
 msgctxt "Operator"
 msgid "Cursor to Grid"
 msgstr "游标 -> 栅格点"
 
 #: scripts/startup/bl_ui/properties_grease_pencil_common.py:611
-#: scripts/startup/bl_ui/space_view3d.py:4470
+#: scripts/startup/bl_ui/space_view3d.py:4465
 msgctxt "Operator"
 msgid "Delete Frame"
 msgstr "删除帧"
@@ -105465,14 +105616,14 @@ msgid "Select:"
 msgstr "选择:"
 
 #: scripts/startup/bl_ui/properties_grease_pencil_common.py:173
-#: scripts/startup/bl_ui/space_view3d.py:4531
-#: scripts/startup/bl_ui/space_view3d.py:6291
+#: scripts/startup/bl_ui/space_view3d.py:4526
+#: scripts/startup/bl_ui/space_view3d.py:6286
 msgctxt "Operator"
 msgid "Paste & Merge"
 msgstr "粘贴 & 合并"
 
 #: scripts/startup/bl_ui/properties_grease_pencil_common.py:180
-#: scripts/startup/bl_ui/space_view3d.py:4561
+#: scripts/startup/bl_ui/space_view3d.py:4556
 msgctxt "Operator"
 msgid "Toggle Caps..."
 msgstr "切换大小写..."
@@ -105483,7 +105634,7 @@ msgid "& Copy"
 msgstr "& 复制"
 
 #: scripts/startup/bl_ui/properties_grease_pencil_common.py:218
-#: scripts/startup/bl_ui/space_view3d.py:4542
+#: scripts/startup/bl_ui/space_view3d.py:4537
 msgctxt "Operator"
 msgid "Separate..."
 msgstr "分离..."
@@ -105533,14 +105684,14 @@ msgstr "回到主调色板..."
 
 #: scripts/startup/bl_ui/properties_grease_pencil_common.py:583
 #: scripts/startup/bl_ui/space_view3d.py:941
-#: scripts/startup/bl_ui/space_view3d.py:4767
+#: scripts/startup/bl_ui/space_view3d.py:4762
 msgctxt "Operator"
 msgid "Selection to Cursor"
 msgstr "选中项 -> 游标"
 
 #: scripts/startup/bl_ui/properties_grease_pencil_common.py:584
 #: scripts/startup/bl_ui/space_view3d.py:942
-#: scripts/startup/bl_ui/space_view3d.py:4772
+#: scripts/startup/bl_ui/space_view3d.py:4767
 msgctxt "Operator"
 msgid "Selection to Cursor (Keep Offset)"
 msgstr "选中项 -> 游标 (保持偏移)"
@@ -105631,7 +105782,7 @@ msgid "Bring Forward"
 msgstr "向前移动"
 
 #: scripts/startup/bl_ui/properties_grease_pencil_common.py:488
-#: scripts/startup/bl_ui/space_view3d.py:6299
+#: scripts/startup/bl_ui/space_view3d.py:6294
 msgctxt "Operator"
 msgid "Join & Copy"
 msgstr "合并 & 复制"
@@ -105732,7 +105883,7 @@ msgstr "缩放羽化"
 #: scripts/startup/bl_ui/space_image.py:278
 #: scripts/startup/bl_ui/space_view3d.py:805
 #: scripts/startup/bl_ui/space_view3d.py:2593
-#: scripts/startup/bl_ui/space_view3d.py:4263
+#: scripts/startup/bl_ui/space_view3d.py:4258
 msgctxt "Operator"
 msgid "Hide Unselected"
 msgstr "隐藏未选项"
@@ -105757,7 +105908,7 @@ msgstr "隐藏未选项"
 #: scripts/startup/bl_ui/space_view3d.py:1732
 #: scripts/startup/bl_ui/space_view3d.py:1764
 #: scripts/startup/bl_ui/space_view3d.py:1784
-#: scripts/startup/bl_ui/space_view3d.py:4673
+#: scripts/startup/bl_ui/space_view3d.py:4668
 #: scripts/startup/bl_ui/space_view3d.py:2971
 msgctxt "Operator"
 msgid "All"
@@ -105794,7 +105945,7 @@ msgstr "无"
 #: scripts/startup/bl_ui/space_sequencer.py:338
 #: scripts/startup/bl_ui/space_view3d.py:2733
 #: scripts/startup/bl_ui/space_view3d.py:2810
-#: scripts/startup/bl_ui/space_view3d.py:4580
+#: scripts/startup/bl_ui/space_view3d.py:4575
 #: scripts/startup/bl_ui/space_view3d.py:1239
 #: scripts/startup/bl_ui/space_view3d.py:1299
 #: scripts/startup/bl_ui/space_view3d.py:1333
@@ -106591,7 +106742,7 @@ msgid "Paths:"
 msgstr "路径:"
 
 #: scripts/startup/bl_ui/properties_scene.py:308
-#: scripts/startup/bl_ui/space_userpref.py:580
+#: scripts/startup/bl_ui/space_userpref.py:572
 msgid "Sample Rate"
 msgstr "采样率"
 
@@ -106692,7 +106843,7 @@ msgid "Unknown add-ons"
 msgstr "未知插件"
 
 #: scripts/startup/bl_ui/properties_workspace.py:88
-#: scripts/startup/bl_ui/space_userpref.py:1831
+#: scripts/startup/bl_ui/space_userpref.py:1823
 msgid "%s: %s"
 msgstr "%s: %s"
 
@@ -107299,7 +107450,7 @@ msgid "Invert Image Colors"
 msgstr "反转图像颜色"
 
 #: scripts/startup/bl_ui/space_image.py:881
-#: scripts/startup/bl_ui/space_view3d.py:5916
+#: scripts/startup/bl_ui/space_view3d.py:5911
 msgid "Affect"
 msgstr "影响"
 
@@ -107415,9 +107566,9 @@ msgstr "取消钉选"
 
 #: scripts/startup/bl_ui/space_image.py:371
 #: scripts/startup/bl_ui/space_view3d.py:987
-#: scripts/startup/bl_ui/space_view3d.py:3661
-#: scripts/startup/bl_ui/space_view3d.py:3718
-#: scripts/startup/bl_ui/space_view3d.py:3475
+#: scripts/startup/bl_ui/space_view3d.py:3656
+#: scripts/startup/bl_ui/space_view3d.py:3713
+#: scripts/startup/bl_ui/space_view3d.py:3470
 #: source/blender/editors/uvedit/uvedit_ops.c:4924
 msgctxt "Operator"
 msgid "Clear Seam"
@@ -107425,21 +107576,21 @@ msgstr "清除缝合边"
 
 #: scripts/startup/bl_ui/space_image.py:404
 #: scripts/startup/bl_ui/space_image.py:417
-#: scripts/startup/bl_ui/space_view3d.py:3551
+#: scripts/startup/bl_ui/space_view3d.py:3546
 msgctxt "Operator"
 msgid "Vertex"
 msgstr "顶点"
 
 #: scripts/startup/bl_ui/space_image.py:408
 #: scripts/startup/bl_ui/space_image.py:421
-#: scripts/startup/bl_ui/space_view3d.py:3552
+#: scripts/startup/bl_ui/space_view3d.py:3547
 msgctxt "Operator"
 msgid "Edge"
 msgstr "边"
 
 #: scripts/startup/bl_ui/space_image.py:412
 #: scripts/startup/bl_ui/space_image.py:425
-#: scripts/startup/bl_ui/space_view3d.py:3553
+#: scripts/startup/bl_ui/space_view3d.py:3548
 msgctxt "Operator"
 msgid "Face"
 msgstr "面"
@@ -108172,7 +108323,7 @@ msgctxt "Operator"
 msgid "d"
 msgstr "d"
 
-#: scripts/startup/bl_ui/space_text.py:343
+#: scripts/startup/bl_ui/space_text.py:345
 msgctxt "Operator"
 msgid "Find..."
 msgstr "查找..."
@@ -108189,22 +108340,22 @@ msgctxt "Operator"
 msgid "Bottom of File"
 msgstr "文件底部"
 
-#: scripts/startup/bl_ui/space_text.py:302
+#: scripts/startup/bl_ui/space_text.py:304
 msgctxt "Operator"
 msgid "One Object"
 msgstr "单一物体"
 
-#: scripts/startup/bl_ui/space_text.py:305
+#: scripts/startup/bl_ui/space_text.py:307
 msgctxt "Operator"
 msgid "One Object Per Line"
 msgstr "每行生成一个物体"
 
-#: scripts/startup/bl_ui/space_text.py:332
+#: scripts/startup/bl_ui/space_text.py:334
 msgctxt "Operator"
 msgid "Move line(s) up"
 msgstr "将行上移"
 
-#: scripts/startup/bl_ui/space_text.py:334
+#: scripts/startup/bl_ui/space_text.py:336
 msgctxt "Operator"
 msgid "Move line(s) down"
 msgstr "将行下移"
@@ -108521,7 +108672,7 @@ msgid "Python API Reference"
 msgstr "Python API 手册"
 
 #: scripts/startup/bl_ui/space_topbar.py:613
-#: scripts/startup/bl_ui/space_userpref.py:1887
+#: scripts/startup/bl_ui/space_userpref.py:1879
 msgctxt "Operator"
 msgid "Report a Bug"
 msgstr "报告问题"
@@ -108547,367 +108698,357 @@ msgstr "开发文档"
 msgid "Node Label"
 msgstr "节点标签"
 
-#: scripts/startup/bl_ui/space_userpref.py:95
+#: scripts/startup/bl_ui/space_userpref.py:87
 msgid "Auto-Save Preferences"
 msgstr "自动保存设置"
 
-#: scripts/startup/bl_ui/space_userpref.py:104
+#: scripts/startup/bl_ui/space_userpref.py:96
 msgctxt "Operator"
-msgid "Revert to Saved"
-msgstr "恢复自动保存的工程"
+msgid "Revert to Saved Preferences"
+msgstr "恢复至自动保存的设置"
 
-#: scripts/startup/bl_ui/space_userpref.py:181
+#: scripts/startup/bl_ui/space_userpref.py:173
 msgid "Resolution Scale"
 msgstr "分辨率缩放"
 
-#: scripts/startup/bl_ui/space_userpref.py:188
+#: scripts/startup/bl_ui/space_userpref.py:180
 msgid "Splash Screen"
 msgstr "启动画面"
 
-#: scripts/startup/bl_ui/space_userpref.py:213
+#: scripts/startup/bl_ui/space_userpref.py:205
 msgid "Hinting"
 msgstr "提示"
 
-#: scripts/startup/bl_ui/space_userpref.py:246
+#: scripts/startup/bl_ui/space_userpref.py:238
 msgid "New Data"
 msgstr "新建数据"
 
-#: scripts/startup/bl_ui/space_userpref.py:265
+#: scripts/startup/bl_ui/space_userpref.py:257
 msgid "Corner Splitting"
 msgstr "拐角拆分"
 
-#: scripts/startup/bl_ui/space_userpref.py:305
+#: scripts/startup/bl_ui/space_userpref.py:297
 msgid "Top Level"
 msgstr "顶级"
 
-#: scripts/startup/bl_ui/space_userpref.py:306
+#: scripts/startup/bl_ui/space_userpref.py:298
 msgid "Sub Level"
 msgstr "次级"
 
-#: scripts/startup/bl_ui/space_userpref.py:351
+#: scripts/startup/bl_ui/space_userpref.py:343
 msgid "Link Materials to"
 msgstr "关联材质到"
 
-#: scripts/startup/bl_ui/space_userpref.py:352
+#: scripts/startup/bl_ui/space_userpref.py:344
 msgid "Align to"
 msgstr "对齐到"
 
-#: scripts/startup/bl_ui/space_userpref.py:418
+#: scripts/startup/bl_ui/space_userpref.py:410
 msgid "Manhattan Distance"
 msgstr "曼哈顿点距"
 
-#: scripts/startup/bl_ui/space_userpref.py:419
+#: scripts/startup/bl_ui/space_userpref.py:411
 msgid "Euclidean Distance"
 msgstr "欧几里德点距"
 
-#: scripts/startup/bl_ui/space_userpref.py:436
+#: scripts/startup/bl_ui/space_userpref.py:428
 msgid "Default Color"
 msgstr "默认颜色"
 
-#: scripts/startup/bl_ui/space_userpref.py:437
+#: scripts/startup/bl_ui/space_userpref.py:429
 msgid "Eraser Radius"
 msgstr "擦除半径"
 
-#: scripts/startup/bl_ui/space_userpref.py:438
+#: scripts/startup/bl_ui/space_userpref.py:430
 msgid "Simplify Stroke"
 msgstr "简化笔画"
 
-#: scripts/startup/bl_ui/space_userpref.py:454
+#: scripts/startup/bl_ui/space_userpref.py:446
 msgid "Use Custom Colors"
 msgstr "使用自定义颜色"
 
-#: scripts/startup/bl_ui/space_userpref.py:476
+#: scripts/startup/bl_ui/space_userpref.py:468
 msgid "Sculpt Overlay Color"
 msgstr "雕刻叠加颜色"
 
-#: scripts/startup/bl_ui/space_userpref.py:477
+#: scripts/startup/bl_ui/space_userpref.py:469
 msgid "Node Auto-offset Margin"
 msgstr "节点自动偏移间距"
 
-#: scripts/startup/bl_ui/space_userpref.py:500
+#: scripts/startup/bl_ui/space_userpref.py:492
 msgid "Minimum Grid Spacing"
 msgstr "最小栅格间距"
 
-#: scripts/startup/bl_ui/space_userpref.py:524
+#: scripts/startup/bl_ui/space_userpref.py:516
 msgid "Only Insert Needed"
 msgstr "只在必要时插入"
 
-#: scripts/startup/bl_ui/space_userpref.py:537
+#: scripts/startup/bl_ui/space_userpref.py:529
 msgid "Show Warning"
 msgstr "显示警告"
 
-#: scripts/startup/bl_ui/space_userpref.py:538
+#: scripts/startup/bl_ui/space_userpref.py:530
 msgid "Only Insert Available"
 msgstr "只在可用曲线上插入"
 
-#: scripts/startup/bl_ui/space_userpref.py:539
+#: scripts/startup/bl_ui/space_userpref.py:531
 msgid "Enable in New Scenes"
 msgstr "在新场景启用"
 
-#: scripts/startup/bl_ui/space_userpref.py:556
+#: scripts/startup/bl_ui/space_userpref.py:548
 msgid "F-Curve Visibility"
 msgstr "函数曲线的可见性"
 
-#: scripts/startup/bl_ui/space_userpref.py:557
+#: scripts/startup/bl_ui/space_userpref.py:549
 msgid "Default Interpolation"
 msgstr "默认插值"
 
-#: scripts/startup/bl_ui/space_userpref.py:558
+#: scripts/startup/bl_ui/space_userpref.py:550
 msgid "Default Handles"
 msgstr "默认控制柄"
 
-#: scripts/startup/bl_ui/space_userpref.py:559
+#: scripts/startup/bl_ui/space_userpref.py:551
 msgid "XYZ to RGB"
 msgstr "XYZ 转 RGB"
 
-#: scripts/startup/bl_ui/space_userpref.py:579
+#: scripts/startup/bl_ui/space_userpref.py:571
 msgid "Mixing Buffer"
 msgstr "混合缓冲区"
 
-#: scripts/startup/bl_ui/space_userpref.py:581
+#: scripts/startup/bl_ui/space_userpref.py:573
 msgid "Sample Format"
 msgstr "采样格式"
 
-#: scripts/startup/bl_ui/space_userpref.py:626
+#: scripts/startup/bl_ui/space_userpref.py:618
 msgid "View Name"
 msgstr "视图名称"
 
-#: scripts/startup/bl_ui/space_userpref.py:627
+#: scripts/startup/bl_ui/space_userpref.py:619
 msgid "Playback FPS"
 msgstr "播放帧率"
 
 # rblc
-#: scripts/startup/bl_ui/space_userpref.py:640
+#: scripts/startup/bl_ui/space_userpref.py:632
 msgid "3D Viewport Axis"
 msgstr "3D 视图轴向"
 
-#: scripts/startup/bl_ui/space_userpref.py:662
+#: scripts/startup/bl_ui/space_userpref.py:654
 msgid "Multisampling"
 msgstr "多重采样"
 
-#: scripts/startup/bl_ui/space_userpref.py:663
+#: scripts/startup/bl_ui/space_userpref.py:655
 msgid "Grease Pencil Multisampling"
 msgstr "蜡笔多重采样"
 
-#: scripts/startup/bl_ui/space_userpref.py:681
+#: scripts/startup/bl_ui/space_userpref.py:673
 msgid "Limit Size"
 msgstr "尺寸限制"
 
-#: scripts/startup/bl_ui/space_userpref.py:721
+#: scripts/startup/bl_ui/space_userpref.py:713
 msgid "Undo Memory Limit"
 msgstr "取消内存限制"
 
-#: scripts/startup/bl_ui/space_userpref.py:728
+#: scripts/startup/bl_ui/space_userpref.py:720
 msgid "Sequencer Cache Limit"
 msgstr "序列缓存限值"
 
-#: scripts/startup/bl_ui/space_userpref.py:729
+#: scripts/startup/bl_ui/space_userpref.py:721
 msgid "Console Scrollback Lines"
 msgstr "控制台回查行数"
 
-#: scripts/startup/bl_ui/space_userpref.py:736
-#: scripts/startup/bl_ui/space_userpref.py:743
+#: scripts/startup/bl_ui/space_userpref.py:728
+#: scripts/startup/bl_ui/space_userpref.py:735
 msgid "Garbage Collection Rate"
 msgstr "垃圾回收率"
 
-#: scripts/startup/bl_ui/space_userpref.py:742
+#: scripts/startup/bl_ui/space_userpref.py:734
 msgid "Vbo Time Out"
 msgstr "Vbo超时"
 
-#: scripts/startup/bl_ui/space_userpref.py:784
-#: scripts/startup/bl_ui/space_userpref.py:1742
-#: scripts/startup/bl_ui/space_userpref.py:2011
-#: scripts/startup/bl_ui/space_userpref.py:1991
-#: scripts/startup/bl_ui/space_userpref.py:2001
+#: scripts/startup/bl_ui/space_userpref.py:776
+#: scripts/startup/bl_ui/space_userpref.py:1734
+#: scripts/startup/bl_ui/space_userpref.py:2003
+#: scripts/startup/bl_ui/space_userpref.py:1983
+#: scripts/startup/bl_ui/space_userpref.py:1993
 msgctxt "Operator"
 msgid "Install..."
 msgstr "安装..."
 
-#: scripts/startup/bl_ui/space_userpref.py:915
+#: scripts/startup/bl_ui/space_userpref.py:907
 msgid "Axis X"
 msgstr "X 轴"
 
-#: scripts/startup/bl_ui/space_userpref.py:967
+#: scripts/startup/bl_ui/space_userpref.py:959
 msgid "Shadow Offset X"
 msgstr "阴影偏移X"
 
-#: scripts/startup/bl_ui/space_userpref.py:983
+#: scripts/startup/bl_ui/space_userpref.py:975
 msgid "Panel Title"
 msgstr "面板标题"
 
-#: scripts/startup/bl_ui/space_userpref.py:993
+#: scripts/startup/bl_ui/space_userpref.py:985
 msgid "Widget Label"
 msgstr "部件标签"
 
-#: scripts/startup/bl_ui/space_userpref.py:1226
+#: scripts/startup/bl_ui/space_userpref.py:1218
 msgid "Scripts"
 msgstr "脚本"
 
-#: scripts/startup/bl_ui/space_userpref.py:1228
+#: scripts/startup/bl_ui/space_userpref.py:1220
 msgid "Temporary Files"
 msgstr "临时文件"
 
-#: scripts/startup/bl_ui/space_userpref.py:1238
+#: scripts/startup/bl_ui/space_userpref.py:1230
 msgid "Render Output"
 msgstr "渲染输出"
 
-#: scripts/startup/bl_ui/space_userpref.py:1239
+#: scripts/startup/bl_ui/space_userpref.py:1231
 msgid "Render Cache"
 msgstr "渲染缓存"
 
-#: scripts/startup/bl_ui/space_userpref.py:1265
+#: scripts/startup/bl_ui/space_userpref.py:1257
 msgid "I18n Branches"
 msgstr "国际化(i18n) 分支"
 
-#: scripts/startup/bl_ui/space_userpref.py:1290
+#: scripts/startup/bl_ui/space_userpref.py:1282
 msgid "Excluded Paths:"
 msgstr "排除的路径:"
 
-#: scripts/startup/bl_ui/space_userpref.py:1342
+#: scripts/startup/bl_ui/space_userpref.py:1334
 msgid "Timer (mins)"
 msgstr "间隔(分钟)"
 
-#: scripts/startup/bl_ui/space_userpref.py:1397
+#: scripts/startup/bl_ui/space_userpref.py:1389
 msgid "Pan Options"
 msgstr "平移选项"
 
-#: scripts/startup/bl_ui/space_userpref.py:1403
+#: scripts/startup/bl_ui/space_userpref.py:1395
 msgid "Zoom Options"
 msgstr "缩放选项"
 
-#: scripts/startup/bl_ui/space_userpref.py:1446
+#: scripts/startup/bl_ui/space_userpref.py:1438
 msgid "Double Click Speed"
 msgstr "双击速度"
 
-#: scripts/startup/bl_ui/space_userpref.py:1496
+#: scripts/startup/bl_ui/space_userpref.py:1488
 msgid "Zoom Method"
 msgstr "视图缩放方法"
 
-#: scripts/startup/bl_ui/space_userpref.py:1501
+#: scripts/startup/bl_ui/space_userpref.py:1493
 msgid "Invert Wheel Zoom Direction"
 msgstr "反向滚轮缩放"
 
-#: scripts/startup/bl_ui/space_userpref.py:1619
+#: scripts/startup/bl_ui/space_userpref.py:1611
 msgid "Pan Sensitivity"
 msgstr "平移敏感度"
 
-#: scripts/startup/bl_ui/space_userpref.py:2029
+#: scripts/startup/bl_ui/space_userpref.py:2021
 msgid "Use Light"
 msgstr "使用灯光"
 
-#: scripts/startup/bl_ui/space_userpref.py:2043
+#: scripts/startup/bl_ui/space_userpref.py:2035
 msgctxt "Operator"
 msgid "Save as Studio light"
 msgstr "保存为棚灯"
 
-#: scripts/startup/bl_ui/space_userpref.py:101
-msgctxt "Operator"
-msgid "Save Current State"
-msgstr "保存当前状态"
-
-#: scripts/startup/bl_ui/space_userpref.py:1017
+#: scripts/startup/bl_ui/space_userpref.py:1009
 msgid "Color Set d"
 msgstr "色彩设置 d"
 
-#: scripts/startup/bl_ui/space_userpref.py:1252
+#: scripts/startup/bl_ui/space_userpref.py:1244
 msgid "Player"
 msgstr "播放器"
 
-#: scripts/startup/bl_ui/space_userpref.py:1386
+#: scripts/startup/bl_ui/space_userpref.py:1378
 msgid "Orbit Style"
 msgstr "轨迹旋转方式"
 
-#: scripts/startup/bl_ui/space_userpref.py:1390
+#: scripts/startup/bl_ui/space_userpref.py:1382
 msgid "Orbit Options"
 msgstr "旋绕选项"
 
-#: scripts/startup/bl_ui/space_userpref.py:1408
+#: scripts/startup/bl_ui/space_userpref.py:1400
 msgid "Fly/Walk Options"
 msgstr "飞行/行走漫游选项"
 
-#: scripts/startup/bl_ui/space_userpref.py:1474
+#: scripts/startup/bl_ui/space_userpref.py:1466
 msgid "Natural Trackpad Direction"
 msgstr "触控板的固有方向"
 
-#: scripts/startup/bl_ui/space_userpref.py:1499
+#: scripts/startup/bl_ui/space_userpref.py:1491
 msgid "Invert Mouse Zoom Direction"
 msgstr "反转鼠标缩放方向"
 
-#: scripts/startup/bl_ui/space_userpref.py:1755
+#: scripts/startup/bl_ui/space_userpref.py:1747
 msgid "Multiple add-ons with the same name found!"
 msgstr "找到多个同名插件!"
 
-#: scripts/startup/bl_ui/space_userpref.py:1757
+#: scripts/startup/bl_ui/space_userpref.py:1749
 msgid "Delete one of each pair to resolve:"
 msgstr "删除每对中的一个来解决:"
 
-#: scripts/startup/bl_ui/space_userpref.py:1922
+#: scripts/startup/bl_ui/space_userpref.py:1914
 msgid "Missing script files"
 msgstr "缺失的脚本文件"
 
-#: scripts/startup/bl_ui/space_userpref.py:1967
+#: scripts/startup/bl_ui/space_userpref.py:1959
 msgid "No custom {} configured"
 msgstr "未配置自定义 {}"
 
-#: scripts/startup/bl_ui/space_userpref.py:49
-msgctxt "Operator"
-msgid "Skip Auto-Save"
-msgstr "跳过自动保存"
-
-#: scripts/startup/bl_ui/space_userpref.py:1761
+#: scripts/startup/bl_ui/space_userpref.py:1753
 msgid ":"
 msgstr ":"
 
-#: scripts/startup/bl_ui/space_userpref.py:1836
+#: scripts/startup/bl_ui/space_userpref.py:1828
 msgid "upgrade to 2.8x required"
 msgstr "需升级至2.8x"
 
-#: scripts/startup/bl_ui/space_userpref.py:1849
+#: scripts/startup/bl_ui/space_userpref.py:1841
 msgid "Description:"
 msgstr "描述:"
 
-#: scripts/startup/bl_ui/space_userpref.py:1850
+#: scripts/startup/bl_ui/space_userpref.py:1842
 msgid "description"
 msgstr "描述"
 
-#: scripts/startup/bl_ui/space_userpref.py:1854
+#: scripts/startup/bl_ui/space_userpref.py:1846
 msgid "location"
 msgstr "位置"
 
-#: scripts/startup/bl_ui/space_userpref.py:1857
+#: scripts/startup/bl_ui/space_userpref.py:1849
 msgid "File:"
 msgstr "文件:"
 
-#: scripts/startup/bl_ui/space_userpref.py:1861
+#: scripts/startup/bl_ui/space_userpref.py:1853
 msgid "Author:"
 msgstr "作者:"
 
-#: scripts/startup/bl_ui/space_userpref.py:1862
+#: scripts/startup/bl_ui/space_userpref.py:1854
 msgid "author"
 msgstr "作者"
 
-#: scripts/startup/bl_ui/space_userpref.py:1865
+#: scripts/startup/bl_ui/space_userpref.py:1857
 msgid "Version:"
 msgstr "版本:"
 
-#: scripts/startup/bl_ui/space_userpref.py:1869
+#: scripts/startup/bl_ui/space_userpref.py:1861
 msgid "Warning:"
 msgstr "须知:"
 
-#: scripts/startup/bl_ui/space_userpref.py:1877
+#: scripts/startup/bl_ui/space_userpref.py:1869
 msgid "Internet:"
 msgstr "互联网:"
 
-#: scripts/startup/bl_ui/space_userpref.py:1881
+#: scripts/startup/bl_ui/space_userpref.py:1873
 msgctxt "Operator"
 msgid "Documentation"
 msgstr "查看文档"
 
-#: scripts/startup/bl_ui/space_userpref.py:1905
+#: scripts/startup/bl_ui/space_userpref.py:1897
 msgid "Preferences:"
 msgstr "设置:"
 
-#: scripts/startup/bl_ui/space_userpref.py:1912
+#: scripts/startup/bl_ui/space_userpref.py:1904
 msgid "Error (see console)"
 msgstr "错误 (详见控制台)"
 
@@ -108917,13 +109058,13 @@ msgid "Interactive Mirror"
 msgstr "交互镜像"
 
 #: scripts/startup/bl_ui/space_view3d.py:943
-#: scripts/startup/bl_ui/space_view3d.py:4775
+#: scripts/startup/bl_ui/space_view3d.py:4770
 msgctxt "Operator"
 msgid "Selection to Active"
 msgstr "选中项 -> 活动项"
 
 #: scripts/startup/bl_ui/space_view3d.py:950
-#: scripts/startup/bl_ui/space_view3d.py:4777
+#: scripts/startup/bl_ui/space_view3d.py:4772
 msgctxt "Operator"
 msgid "Cursor to Active"
 msgstr "游标 -> 活动项"
@@ -109378,13 +109519,13 @@ msgid "Bright/Contrast"
 msgstr "亮度/对比度"
 
 #: scripts/startup/bl_ui/space_view3d.py:2804
-#: scripts/startup/bl_ui/space_view3d.py:4576
+#: scripts/startup/bl_ui/space_view3d.py:4571
 msgctxt "Operator"
 msgid "Normalize All"
 msgstr "全部规格化"
 
 #: scripts/startup/bl_ui/space_view3d.py:2805
-#: scripts/startup/bl_ui/space_view3d.py:4577
+#: scripts/startup/bl_ui/space_view3d.py:4572
 msgctxt "Operator"
 msgid "Normalize"
 msgstr "规格化"
@@ -109460,7 +109601,7 @@ msgid "Change Bone Layers..."
 msgstr "更改骨骼层..."
 
 #: scripts/startup/bl_ui/space_view3d.py:3058
-#: scripts/startup/bl_ui/space_view3d.py:4337
+#: scripts/startup/bl_ui/space_view3d.py:4332
 msgid "Bone Settings"
 msgstr "骨骼设置"
 
@@ -109503,7 +109644,6 @@ msgstr "移除姿态..."
 
 # rblc
 #: scripts/startup/bl_ui/space_view3d.py:3136
-#: scripts/startup/bl_ui/space_view3d.py:3227
 msgctxt "Operator"
 msgid "Calculate"
 msgstr "计算"
@@ -109518,358 +109658,358 @@ msgctxt "Operator"
 msgid "Rename Active Bone..."
 msgstr "重命名活动骨骼..."
 
-#: scripts/startup/bl_ui/space_view3d.py:3238
+#: scripts/startup/bl_ui/space_view3d.py:3233
 msgctxt "Operator"
 msgid "Calculate Motion Paths"
 msgstr "计算运动路径"
 
-#: scripts/startup/bl_ui/space_view3d.py:3239
+#: scripts/startup/bl_ui/space_view3d.py:3234
 msgctxt "Operator"
 msgid "Clear Motion Paths"
 msgstr "清空运动路径"
 
-#: scripts/startup/bl_ui/space_view3d.py:3332
+#: scripts/startup/bl_ui/space_view3d.py:3327
 msgctxt "Operator"
 msgid "Sort Elements..."
 msgstr "网格元素排序..."
 
-#: scripts/startup/bl_ui/space_view3d.py:3604
-#: scripts/startup/bl_ui/space_view3d.py:3395
-#: scripts/startup/bl_ui/space_view3d.py:3561
+#: scripts/startup/bl_ui/space_view3d.py:3599
+#: scripts/startup/bl_ui/space_view3d.py:3390
+#: scripts/startup/bl_ui/space_view3d.py:3556
 msgctxt "Operator"
 msgid "Extrude Vertices"
 msgstr "挤出顶点"
 
-#: scripts/startup/bl_ui/space_view3d.py:3609
-#: scripts/startup/bl_ui/space_view3d.py:3400
+#: scripts/startup/bl_ui/space_view3d.py:3604
+#: scripts/startup/bl_ui/space_view3d.py:3395
 msgctxt "Operator"
 msgid "New Edge/Face from Vertices"
 msgstr "从顶点创建边/面"
 
-#: scripts/startup/bl_ui/space_view3d.py:3610
-#: scripts/startup/bl_ui/space_view3d.py:3401
+#: scripts/startup/bl_ui/space_view3d.py:3605
+#: scripts/startup/bl_ui/space_view3d.py:3396
 msgctxt "Operator"
 msgid "Connect Vertex Path"
 msgstr "连接顶点路径"
 
-#: scripts/startup/bl_ui/space_view3d.py:3611
-#: scripts/startup/bl_ui/space_view3d.py:3402
+#: scripts/startup/bl_ui/space_view3d.py:3606
+#: scripts/startup/bl_ui/space_view3d.py:3397
 msgctxt "Operator"
 msgid "Connect Vertex Pairs"
 msgstr "连接顶点对"
 
-#: scripts/startup/bl_ui/space_view3d.py:3615
+#: scripts/startup/bl_ui/space_view3d.py:3610
 msgctxt "Operator"
 msgid "Rip Vertices"
 msgstr "断离顶点"
 
-#: scripts/startup/bl_ui/space_view3d.py:3617
+#: scripts/startup/bl_ui/space_view3d.py:3612
 msgctxt "Operator"
 msgid "Rip Vertices and Fill"
 msgstr "断离顶点并填充"
 
-#: scripts/startup/bl_ui/space_view3d.py:3619
+#: scripts/startup/bl_ui/space_view3d.py:3614
 msgctxt "Operator"
 msgid "Rip Vertices and Extend"
 msgstr "断离顶点并延长"
 
-#: scripts/startup/bl_ui/space_view3d.py:3623
-#: scripts/startup/bl_ui/space_view3d.py:3410
+#: scripts/startup/bl_ui/space_view3d.py:3618
+#: scripts/startup/bl_ui/space_view3d.py:3405
 msgctxt "Operator"
 msgid "Slide Vertices"
 msgstr "滑移顶点"
 
-#: scripts/startup/bl_ui/space_view3d.py:3629
+#: scripts/startup/bl_ui/space_view3d.py:3624
 msgctxt "Operator"
 msgid "Propagate to Shapes"
 msgstr "传递到形状"
 
-#: scripts/startup/bl_ui/space_view3d.py:3669
-#: scripts/startup/bl_ui/space_view3d.py:3726
+#: scripts/startup/bl_ui/space_view3d.py:3664
+#: scripts/startup/bl_ui/space_view3d.py:3721
 msgctxt "Operator"
 msgid "Clear Sharp from Vertices"
 msgstr "为顶点清除锐边标记"
 
-#: scripts/startup/bl_ui/space_view3d.py:3690
-#: scripts/startup/bl_ui/space_view3d.py:3442
-#: scripts/startup/bl_ui/space_view3d.py:3563
+#: scripts/startup/bl_ui/space_view3d.py:3685
+#: scripts/startup/bl_ui/space_view3d.py:3437
+#: scripts/startup/bl_ui/space_view3d.py:3558
 msgctxt "Operator"
 msgid "Extrude Edges"
 msgstr "挤出边线"
 
-#: scripts/startup/bl_ui/space_view3d.py:3771
-#: scripts/startup/bl_ui/space_view3d.py:3508
-#: scripts/startup/bl_ui/space_view3d.py:3565
+#: scripts/startup/bl_ui/space_view3d.py:3766
+#: scripts/startup/bl_ui/space_view3d.py:3503
+#: scripts/startup/bl_ui/space_view3d.py:3560
 msgctxt "Operator"
 msgid "Extrude Faces"
 msgstr "挤出面"
 
-#: scripts/startup/bl_ui/space_view3d.py:3772
-#: scripts/startup/bl_ui/space_view3d.py:3509
-#: scripts/startup/bl_ui/space_view3d.py:3567
+#: scripts/startup/bl_ui/space_view3d.py:3767
+#: scripts/startup/bl_ui/space_view3d.py:3504
+#: scripts/startup/bl_ui/space_view3d.py:3562
 msgctxt "Operator"
 msgid "Extrude Faces Along Normals"
 msgstr "沿法向挤出面"
 
-#: scripts/startup/bl_ui/space_view3d.py:3782
+#: scripts/startup/bl_ui/space_view3d.py:3777
 msgctxt "Operator"
 msgid "Solidify Faces"
 msgstr "面实体化"
 
-#: scripts/startup/bl_ui/space_view3d.py:3816
-#: scripts/startup/bl_ui/space_view3d.py:3835
+#: scripts/startup/bl_ui/space_view3d.py:3811
+#: scripts/startup/bl_ui/space_view3d.py:3830
 msgctxt "Operator"
 msgid "Weak"
 msgstr "弱"
 
-#: scripts/startup/bl_ui/space_view3d.py:3820
-#: scripts/startup/bl_ui/space_view3d.py:3839
+#: scripts/startup/bl_ui/space_view3d.py:3815
+#: scripts/startup/bl_ui/space_view3d.py:3834
 msgctxt "Operator"
 msgid "Medium"
 msgstr "中度"
 
-#: scripts/startup/bl_ui/space_view3d.py:3824
-#: scripts/startup/bl_ui/space_view3d.py:3843
+#: scripts/startup/bl_ui/space_view3d.py:3819
+#: scripts/startup/bl_ui/space_view3d.py:3838
 msgctxt "Operator"
 msgid "Strong"
 msgstr "强"
 
-#: scripts/startup/bl_ui/space_view3d.py:3865
+#: scripts/startup/bl_ui/space_view3d.py:3860
 msgctxt "Operator"
 msgid "Flip"
 msgstr "翻转"
 
-#: scripts/startup/bl_ui/space_view3d.py:3871
+#: scripts/startup/bl_ui/space_view3d.py:3866
 msgctxt "Operator"
 msgid "Set From Faces"
 msgstr "从面设置"
 
-#: scripts/startup/bl_ui/space_view3d.py:3874
+#: scripts/startup/bl_ui/space_view3d.py:3869
 msgctxt "Operator"
 msgid "Rotate..."
 msgstr "旋转..."
 
-#: scripts/startup/bl_ui/space_view3d.py:3875
+#: scripts/startup/bl_ui/space_view3d.py:3870
 msgctxt "Operator"
 msgid "Point to Target..."
 msgstr "指向目标体..."
 
-#: scripts/startup/bl_ui/space_view3d.py:3887
+#: scripts/startup/bl_ui/space_view3d.py:3882
 msgctxt "Operator"
 msgid "Smoothen Vectors"
 msgstr "平滑矢量"
 
-#: scripts/startup/bl_ui/space_view3d.py:3902
+#: scripts/startup/bl_ui/space_view3d.py:3897
 msgctxt "Operator"
 msgid "Smooth Faces"
 msgstr "平滑面"
 
-#: scripts/startup/bl_ui/space_view3d.py:3903
+#: scripts/startup/bl_ui/space_view3d.py:3898
 msgctxt "Operator"
 msgid "Flat Faces"
 msgstr "平直面"
 
-#: scripts/startup/bl_ui/space_view3d.py:3908
+#: scripts/startup/bl_ui/space_view3d.py:3903
 msgctxt "Operator"
 msgid "Sharp Edges"
 msgstr "锐边"
 
-#: scripts/startup/bl_ui/space_view3d.py:3970
+#: scripts/startup/bl_ui/space_view3d.py:3965
 #: scripts/startup/bl_ui/space_view3d.py:1421
 msgctxt "Operator"
 msgid "Edge Loops"
 msgstr "循环边"
 
-#: scripts/startup/bl_ui/space_view3d.py:3983
+#: scripts/startup/bl_ui/space_view3d.py:3978
 msgctxt "Operator"
 msgid "By Distance"
 msgstr "按距离"
 
-#: scripts/startup/bl_ui/space_view3d.py:4407
+#: scripts/startup/bl_ui/space_view3d.py:4402
 msgctxt "Operator"
 msgid "Make"
 msgstr "生成"
 
-#: scripts/startup/bl_ui/space_view3d.py:4432
+#: scripts/startup/bl_ui/space_view3d.py:4427
 msgctxt "Operator"
 msgid "Bones"
 msgstr "骨骼"
 
-#: scripts/startup/bl_ui/space_view3d.py:4436
+#: scripts/startup/bl_ui/space_view3d.py:4431
 msgctxt "Operator"
 msgid "Dissolve Bones"
 msgstr "融并骨骼"
 
-#: scripts/startup/bl_ui/space_view3d.py:4454
+#: scripts/startup/bl_ui/space_view3d.py:4449
 msgctxt "Operator"
 msgid "Fixed"
 msgstr "固定"
 
-#: scripts/startup/bl_ui/space_view3d.py:4545
-#: scripts/startup/bl_ui/space_view3d.py:6302
+#: scripts/startup/bl_ui/space_view3d.py:4540
+#: scripts/startup/bl_ui/space_view3d.py:6297
 msgctxt "Operator"
 msgid "Close"
 msgstr "邻近"
 
-#: scripts/startup/bl_ui/space_view3d.py:4548
+#: scripts/startup/bl_ui/space_view3d.py:4543
 msgctxt "Operator"
 msgid "Join..."
 msgstr "合并..."
 
-#: scripts/startup/bl_ui/space_view3d.py:4553
+#: scripts/startup/bl_ui/space_view3d.py:4548
 msgctxt "Operator"
 msgid "Move to Layer"
 msgstr "移动到层"
 
-#: scripts/startup/bl_ui/space_view3d.py:4602
-#: scripts/startup/bl_ui/space_view3d.py:6293
+#: scripts/startup/bl_ui/space_view3d.py:4597
+#: scripts/startup/bl_ui/space_view3d.py:6288
 msgctxt "Operator"
 msgid "Duplicate Active Frame"
 msgstr "复制活动帧"
 
-#: scripts/startup/bl_ui/space_view3d.py:4630
+#: scripts/startup/bl_ui/space_view3d.py:4625
 #: scripts/startup/bl_ui/space_view3d_toolbar.py:1999
 msgctxt "Operator"
 msgid "Interpolate"
 msgstr "插值"
 
-#: scripts/startup/bl_ui/space_view3d.py:4631
+#: scripts/startup/bl_ui/space_view3d.py:4626
 #: scripts/startup/bl_ui/space_view3d_toolbar.py:2000
 msgctxt "Operator"
 msgid "Sequence"
 msgstr "序列"
 
-#: scripts/startup/bl_ui/space_view3d.py:4671
+#: scripts/startup/bl_ui/space_view3d.py:4666
 msgid "Show Gizmos"
 msgstr "显示Gizmo"
 
-#: scripts/startup/bl_ui/space_view3d.py:4720
+#: scripts/startup/bl_ui/space_view3d.py:4715
 msgid "Toggle Overlays"
 msgstr "切换覆盖"
 
-#: scripts/startup/bl_ui/space_view3d.py:4855
+#: scripts/startup/bl_ui/space_view3d.py:4850
 msgid "Local Camera"
 msgstr "自身相机"
 
-#: scripts/startup/bl_ui/space_view3d.py:4993
+#: scripts/startup/bl_ui/space_view3d.py:4988
 msgid "Object Types Visibility"
 msgstr "物体类型可见性"
 
-#: scripts/startup/bl_ui/space_view3d.py:5316
+#: scripts/startup/bl_ui/space_view3d.py:5311
 msgid "Viewport Gizmos"
 msgstr "视图Gizmo"
 
-#: scripts/startup/bl_ui/space_view3d.py:5320
+#: scripts/startup/bl_ui/space_view3d.py:5315
 msgid "Navigate"
 msgstr "漫游"
 
-#: scripts/startup/bl_ui/space_view3d.py:5321
+#: scripts/startup/bl_ui/space_view3d.py:5316
 msgid "Active Tools"
 msgstr "活动工具"
 
-#: scripts/startup/bl_ui/space_view3d.py:5328
+#: scripts/startup/bl_ui/space_view3d.py:5323
 msgid "Object Gizmos"
 msgstr "物体Gizmo"
 
-#: scripts/startup/bl_ui/space_view3d.py:5343
+#: scripts/startup/bl_ui/space_view3d.py:5338
 msgid "Look At"
 msgstr "朝向"
 
-#: scripts/startup/bl_ui/space_view3d.py:5357
+#: scripts/startup/bl_ui/space_view3d.py:5352
 msgid "Viewport Overlays"
 msgstr "视图覆盖"
 
-#: scripts/startup/bl_ui/space_view3d.py:5410
+#: scripts/startup/bl_ui/space_view3d.py:5405
 msgid "Text Info"
 msgstr "文本信息"
 
-#: scripts/startup/bl_ui/space_view3d.py:5445
+#: scripts/startup/bl_ui/space_view3d.py:5440
 msgid "Origins"
 msgstr "原点"
 
-#: scripts/startup/bl_ui/space_view3d.py:5448
+#: scripts/startup/bl_ui/space_view3d.py:5443
 msgid "Origins (All)"
 msgstr "原点(全部)"
 
-#: scripts/startup/bl_ui/space_view3d.py:5548
+#: scripts/startup/bl_ui/space_view3d.py:5543
 msgid "Creases"
 msgstr "折痕"
 
-#: scripts/startup/bl_ui/space_view3d.py:5549
+#: scripts/startup/bl_ui/space_view3d.py:5544
 msgctxt "Plural"
 msgid "Sharp"
 msgstr "锐边"
 
-#: scripts/startup/bl_ui/space_view3d.py:5551
+#: scripts/startup/bl_ui/space_view3d.py:5546
 msgid "Seams"
 msgstr "缝合边"
 
-#: scripts/startup/bl_ui/space_view3d.py:5583
+#: scripts/startup/bl_ui/space_view3d.py:5578
 msgid "Vertex Group Weights"
 msgstr "顶点组权重"
 
-#: scripts/startup/bl_ui/space_view3d.py:5599
+#: scripts/startup/bl_ui/space_view3d.py:5594
 msgid "Mesh Analysis"
 msgstr "网格分析"
 
-#: scripts/startup/bl_ui/space_view3d.py:5659
+#: scripts/startup/bl_ui/space_view3d.py:5654
 msgid "Face Angle"
 msgstr "面夹角"
 
-#: scripts/startup/bl_ui/space_view3d.py:5713
+#: scripts/startup/bl_ui/space_view3d.py:5708
 msgid "Edge Marks"
 msgstr "边标记"
 
-#: scripts/startup/bl_ui/space_view3d.py:5825
+#: scripts/startup/bl_ui/space_view3d.py:5820
 msgid "PAINT_TEXTUREPAINT_VERTEXPAINT_WEIGHTTexture PaintVertex PaintWeight Paint"
 msgstr "PAINT_TEXTUREPAINT_VERTEXPAINT_WEIGHTTexture PaintVertex PaintWeight Paint"
 
-#: scripts/startup/bl_ui/space_view3d.py:6064
+#: scripts/startup/bl_ui/space_view3d.py:6059
 msgid "PAINT_GPENCILEDIT_GPENCILSCULPT_GPENCILWEIGHT_GPENCILOBJECTDraw Grease PencilEdit Grease PencilSculpt Grease PencilWeight Grease PencilGrease Pencil"
 msgstr "PAINT_GPENCILEDIT_GPENCILSCULPT_GPENCILWEIGHT_GPENCILOBJECTDraw Grease PencilEdit Grease PencilSculpt Grease PencilWeight Grease PencilGrease Pencil"
 
-#: scripts/startup/bl_ui/space_view3d.py:6089
+#: scripts/startup/bl_ui/space_view3d.py:6084
 msgid "Fade 3D Objects"
 msgstr "淡入3D物体"
 
-#: scripts/startup/bl_ui/space_view3d.py:6180
+#: scripts/startup/bl_ui/space_view3d.py:6175
 msgid "Display:"
 msgstr "显示:"
 
-#: scripts/startup/bl_ui/space_view3d.py:6282
+#: scripts/startup/bl_ui/space_view3d.py:6277
 msgctxt "Operator"
 msgid "Arrange Strokes"
 msgstr "整理笔画"
 
-#: scripts/startup/bl_ui/space_view3d.py:6284
+#: scripts/startup/bl_ui/space_view3d.py:6279
 msgctxt "Operator"
 msgid "Toggle Caps"
 msgstr "切换大小写"
 
-#: scripts/startup/bl_ui/space_view3d.py:6318
+#: scripts/startup/bl_ui/space_view3d.py:6313
 msgctxt "Operator"
 msgid "Simplify Adaptive"
 msgstr "自适应简化"
 
-#: scripts/startup/bl_ui/space_view3d.py:6341
-#: scripts/startup/bl_ui/space_view3d.py:6374
+#: scripts/startup/bl_ui/space_view3d.py:6336
+#: scripts/startup/bl_ui/space_view3d.py:6369
 msgid "Frames:"
 msgstr "帧:"
 
-#: scripts/startup/bl_ui/space_view3d.py:6345
-#: scripts/startup/bl_ui/space_view3d.py:6378
+#: scripts/startup/bl_ui/space_view3d.py:6340
+#: scripts/startup/bl_ui/space_view3d.py:6373
 msgctxt "Operator"
 msgid "Insert Blank"
 msgstr "插入空白帧"
 
-#: scripts/startup/bl_ui/space_view3d.py:6346
-#: scripts/startup/bl_ui/space_view3d.py:6379
+#: scripts/startup/bl_ui/space_view3d.py:6341
+#: scripts/startup/bl_ui/space_view3d.py:6374
 msgctxt "Operator"
 msgid "Duplicate Active"
 msgstr "复制活动项"
 
-#: scripts/startup/bl_ui/space_view3d.py:6352
-#: scripts/startup/bl_ui/space_view3d.py:6385
+#: scripts/startup/bl_ui/space_view3d.py:6347
+#: scripts/startup/bl_ui/space_view3d.py:6380
 msgctxt "Operator"
 msgid "Delete All Active Layers"
 msgstr "删除所有活动层"
@@ -109883,7 +110023,7 @@ msgid "Fill Options"
 msgstr "填充选项"
 
 #: scripts/startup/bl_ui/space_view3d.py:843
-#: scripts/startup/bl_ui/space_view3d.py:4621
+#: scripts/startup/bl_ui/space_view3d.py:4616
 msgctxt "Operator"
 msgid "Shrink Fatten"
 msgstr "法向缩放"
@@ -110045,19 +110185,19 @@ msgid "Paste Pose Flipped"
 msgstr "粘贴已翻转姿态"
 
 #: scripts/startup/bl_ui/space_view3d.py:3041
-#: scripts/startup/bl_ui/space_view3d.py:4395
+#: scripts/startup/bl_ui/space_view3d.py:4390
 msgctxt "Operator"
 msgid "AutoName Left/Right"
 msgstr "左/右自动命名"
 
 #: scripts/startup/bl_ui/space_view3d.py:3042
-#: scripts/startup/bl_ui/space_view3d.py:4396
+#: scripts/startup/bl_ui/space_view3d.py:4391
 msgctxt "Operator"
 msgid "AutoName Front/Back"
 msgstr "前/后自动命名"
 
 #: scripts/startup/bl_ui/space_view3d.py:3043
-#: scripts/startup/bl_ui/space_view3d.py:4397
+#: scripts/startup/bl_ui/space_view3d.py:4392
 msgctxt "Operator"
 msgid "AutoName Top/Bottom"
 msgstr "上/下自动命名"
@@ -110092,316 +110232,316 @@ msgctxt "Operator"
 msgid "Paste X-Flipped Pose"
 msgstr "粘贴 X 轴向的翻转动作"
 
-#: scripts/startup/bl_ui/space_view3d.py:3387
+#: scripts/startup/bl_ui/space_view3d.py:3382
 msgid "Vertex Context Menu"
 msgstr "顶点上下文菜单"
 
-#: scripts/startup/bl_ui/space_view3d.py:3411
+#: scripts/startup/bl_ui/space_view3d.py:3406
 msgctxt "Operator"
 msgid "Randomize Vertices"
 msgstr "顶点随机化"
 
-#: scripts/startup/bl_ui/space_view3d.py:3413
+#: scripts/startup/bl_ui/space_view3d.py:3408
 msgctxt "Operator"
 msgid "Smooth Laplacian"
 msgstr "拉普拉斯平滑"
 
-#: scripts/startup/bl_ui/space_view3d.py:3417
+#: scripts/startup/bl_ui/space_view3d.py:3412
 msgid "Mirror Vertices"
 msgstr "镜像"
 
-#: scripts/startup/bl_ui/space_view3d.py:3418
+#: scripts/startup/bl_ui/space_view3d.py:3413
 msgid "Snap Vertices"
 msgstr "吸附至像素点"
 
-#: scripts/startup/bl_ui/space_view3d.py:3434
+#: scripts/startup/bl_ui/space_view3d.py:3429
 msgid "Edge Context Menu"
 msgstr "边线上下文菜单"
 
-#: scripts/startup/bl_ui/space_view3d.py:3500
+#: scripts/startup/bl_ui/space_view3d.py:3495
 msgid "Face Context Menu"
 msgstr "面上下文菜单"
 
 # rblc
-#: scripts/startup/bl_ui/space_view3d.py:3521
+#: scripts/startup/bl_ui/space_view3d.py:3516
 msgid "UV Unwrap Faces"
 msgstr "UV展开面"
 
-#: scripts/startup/bl_ui/space_view3d.py:3605
-#: scripts/startup/bl_ui/space_view3d.py:3396
+#: scripts/startup/bl_ui/space_view3d.py:3600
+#: scripts/startup/bl_ui/space_view3d.py:3391
 msgctxt "Operator"
 msgid "Bevel Vertices"
 msgstr "顶点倒角"
 
-#: scripts/startup/bl_ui/space_view3d.py:3666
-#: scripts/startup/bl_ui/space_view3d.py:3723
-#: scripts/startup/bl_ui/space_view3d.py:3480
+#: scripts/startup/bl_ui/space_view3d.py:3661
+#: scripts/startup/bl_ui/space_view3d.py:3718
+#: scripts/startup/bl_ui/space_view3d.py:3475
 msgctxt "Operator"
 msgid "Clear Sharp"
 msgstr "清除锐边"
 
-#: scripts/startup/bl_ui/space_view3d.py:3668
-#: scripts/startup/bl_ui/space_view3d.py:3725
+#: scripts/startup/bl_ui/space_view3d.py:3663
+#: scripts/startup/bl_ui/space_view3d.py:3720
 msgctxt "Operator"
 msgid "Mark Sharp from Vertices"
 msgstr "为顶点标记锐边"
 
-#: scripts/startup/bl_ui/space_view3d.py:3691
-#: scripts/startup/bl_ui/space_view3d.py:3443
+#: scripts/startup/bl_ui/space_view3d.py:3686
+#: scripts/startup/bl_ui/space_view3d.py:3438
 msgctxt "Operator"
 msgid "Bevel Edges"
 msgstr "边线倒角"
 
-#: scripts/startup/bl_ui/space_view3d.py:3702
-#: scripts/startup/bl_ui/space_view3d.py:3462
+#: scripts/startup/bl_ui/space_view3d.py:3697
+#: scripts/startup/bl_ui/space_view3d.py:3457
 msgctxt "Operator"
 msgid "Rotate Edge CW"
 msgstr "顺时针旋转边"
 
-#: scripts/startup/bl_ui/space_view3d.py:3703
+#: scripts/startup/bl_ui/space_view3d.py:3698
 msgctxt "Operator"
 msgid "Rotate Edge CCW"
 msgstr "逆时针旋转边"
 
-#: scripts/startup/bl_ui/space_view3d.py:3854
+#: scripts/startup/bl_ui/space_view3d.py:3849
 msgctxt "Operator"
 msgid "Custom Normal"
 msgstr "自定义法向"
 
-#: scripts/startup/bl_ui/space_view3d.py:3855
+#: scripts/startup/bl_ui/space_view3d.py:3850
 msgctxt "Operator"
 msgid "Face Area"
 msgstr "面的面积"
 
-#: scripts/startup/bl_ui/space_view3d.py:3856
+#: scripts/startup/bl_ui/space_view3d.py:3851
 msgctxt "Operator"
 msgid "Corner Angle"
 msgstr "拐角角度"
 
-#: scripts/startup/bl_ui/space_view3d.py:3866
+#: scripts/startup/bl_ui/space_view3d.py:3861
 msgctxt "Operator"
 msgid "Recalculate Outside"
 msgstr "重新计算外侧"
 
-#: scripts/startup/bl_ui/space_view3d.py:3867
+#: scripts/startup/bl_ui/space_view3d.py:3862
 msgctxt "Operator"
 msgid "Recalculate Inside"
 msgstr "重新计算内侧"
 
-#: scripts/startup/bl_ui/space_view3d.py:3884
+#: scripts/startup/bl_ui/space_view3d.py:3879
 msgctxt "Operator"
 msgid "Copy Vectors"
 msgstr "复制矢量"
 
-#: scripts/startup/bl_ui/space_view3d.py:3885
+#: scripts/startup/bl_ui/space_view3d.py:3880
 msgctxt "Operator"
 msgid "Paste Vectors"
 msgstr "粘贴矢量"
 
-#: scripts/startup/bl_ui/space_view3d.py:3888
+#: scripts/startup/bl_ui/space_view3d.py:3883
 msgctxt "Operator"
 msgid "Reset Vectors"
 msgstr "重置矢量"
 
-#: scripts/startup/bl_ui/space_view3d.py:3907
+#: scripts/startup/bl_ui/space_view3d.py:3902
 msgctxt "Operator"
 msgid "Smooth Edges"
 msgstr "平滑边线"
 
-#: scripts/startup/bl_ui/space_view3d.py:3916
+#: scripts/startup/bl_ui/space_view3d.py:3911
 msgctxt "Operator"
 msgid "Sharp Vertices"
 msgstr "锐化顶点"
 
-#: scripts/startup/bl_ui/space_view3d.py:4154
+#: scripts/startup/bl_ui/space_view3d.py:4149
 msgctxt "Operator"
 msgid "Delete Segment"
 msgstr "删除片段"
 
-#: scripts/startup/bl_ui/space_view3d.py:4155
+#: scripts/startup/bl_ui/space_view3d.py:4150
 msgctxt "Operator"
 msgid "Delete Point"
 msgstr "删除点"
 
-#: scripts/startup/bl_ui/space_view3d.py:4187
+#: scripts/startup/bl_ui/space_view3d.py:4182
 msgctxt "Operator"
 msgid "Toggle Bold"
 msgstr "粗体"
 
-#: scripts/startup/bl_ui/space_view3d.py:4188
+#: scripts/startup/bl_ui/space_view3d.py:4183
 msgctxt "Operator"
 msgid "Toggle Italic"
 msgstr "斜体"
 
-#: scripts/startup/bl_ui/space_view3d.py:4189
+#: scripts/startup/bl_ui/space_view3d.py:4184
 msgctxt "Operator"
 msgid "Toggle Underline"
 msgstr "下划线"
 
-#: scripts/startup/bl_ui/space_view3d.py:4190
+#: scripts/startup/bl_ui/space_view3d.py:4185
 msgctxt "Operator"
 msgid "Toggle Small Caps"
 msgstr "小型大写"
 
-#: scripts/startup/bl_ui/space_view3d.py:4199
+#: scripts/startup/bl_ui/space_view3d.py:4194
 msgctxt "Operator"
 msgid "Copyright"
 msgstr "版权符号"
 
-#: scripts/startup/bl_ui/space_view3d.py:4200
+#: scripts/startup/bl_ui/space_view3d.py:4195
 msgctxt "Operator"
 msgid "Registered Trademark"
 msgstr "注册商标符号"
 
-#: scripts/startup/bl_ui/space_view3d.py:4204
+#: scripts/startup/bl_ui/space_view3d.py:4199
 msgctxt "Operator"
 msgid "Degree Sign"
 msgstr "度数符号"
 
-#: scripts/startup/bl_ui/space_view3d.py:4205
+#: scripts/startup/bl_ui/space_view3d.py:4200
 msgctxt "Operator"
 msgid "Multiplication Sign"
 msgstr "乘号"
 
-#: scripts/startup/bl_ui/space_view3d.py:4210
+#: scripts/startup/bl_ui/space_view3d.py:4205
 msgctxt "Operator"
 msgid "Superscript 1"
 msgstr "上标 1"
 
-#: scripts/startup/bl_ui/space_view3d.py:4211
+#: scripts/startup/bl_ui/space_view3d.py:4206
 msgctxt "Operator"
 msgid "Superscript 2"
 msgstr "上标 2"
 
-#: scripts/startup/bl_ui/space_view3d.py:4212
+#: scripts/startup/bl_ui/space_view3d.py:4207
 msgctxt "Operator"
 msgid "Superscript 3"
 msgstr "上标 3"
 
-#: scripts/startup/bl_ui/space_view3d.py:4216
+#: scripts/startup/bl_ui/space_view3d.py:4211
 msgctxt "Operator"
 msgid "Double >>"
 msgstr "加倍 >>"
 
-#: scripts/startup/bl_ui/space_view3d.py:4217
+#: scripts/startup/bl_ui/space_view3d.py:4212
 msgctxt "Operator"
 msgid "Double <<"
 msgstr "加倍 <<"
 
-#: scripts/startup/bl_ui/space_view3d.py:4218
+#: scripts/startup/bl_ui/space_view3d.py:4213
 msgctxt "Operator"
 msgid "Promillage"
 msgstr "千分符"
 
-#: scripts/startup/bl_ui/space_view3d.py:4222
+#: scripts/startup/bl_ui/space_view3d.py:4217
 msgctxt "Operator"
 msgid "Dutch Florin"
 msgstr "荷兰盾"
 
-#: scripts/startup/bl_ui/space_view3d.py:4223
+#: scripts/startup/bl_ui/space_view3d.py:4218
 msgctxt "Operator"
 msgid "British Pound"
 msgstr "英磅"
 
-#: scripts/startup/bl_ui/space_view3d.py:4224
+#: scripts/startup/bl_ui/space_view3d.py:4219
 msgctxt "Operator"
 msgid "Japanese Yen"
 msgstr "日元"
 
-#: scripts/startup/bl_ui/space_view3d.py:4228
+#: scripts/startup/bl_ui/space_view3d.py:4223
 msgctxt "Operator"
 msgid "German S"
 msgstr "德文 S"
 
-#: scripts/startup/bl_ui/space_view3d.py:4229
+#: scripts/startup/bl_ui/space_view3d.py:4224
 msgctxt "Operator"
 msgid "Spanish Question Mark"
 msgstr "西班牙文问号标识"
 
-#: scripts/startup/bl_ui/space_view3d.py:4230
+#: scripts/startup/bl_ui/space_view3d.py:4225
 msgctxt "Operator"
 msgid "Spanish Exclamation Mark"
 msgstr "西班牙文 叹号标识"
 
-#: scripts/startup/bl_ui/space_view3d.py:4421
+#: scripts/startup/bl_ui/space_view3d.py:4416
 msgctxt "Operator"
 msgid "Set Roll"
 msgstr "设置扭转"
 
-#: scripts/startup/bl_ui/space_view3d.py:4445
+#: scripts/startup/bl_ui/space_view3d.py:4440
 msgctxt "Operator"
 msgid "With Empty Groups"
 msgstr "使用空群组"
 
-#: scripts/startup/bl_ui/space_view3d.py:4446
+#: scripts/startup/bl_ui/space_view3d.py:4441
 msgctxt "Operator"
 msgid "With Automatic Weights"
 msgstr "使用自动权重"
 
-#: scripts/startup/bl_ui/space_view3d.py:4506
+#: scripts/startup/bl_ui/space_view3d.py:4501
 msgid "No layer to copy"
 msgstr "没有层供复制"
 
-#: scripts/startup/bl_ui/space_view3d.py:4603
+#: scripts/startup/bl_ui/space_view3d.py:4598
 msgctxt "Operator"
 msgid "Duplicate All Layers"
 msgstr "复制所有层"
 
-#: scripts/startup/bl_ui/space_view3d.py:4716
+#: scripts/startup/bl_ui/space_view3d.py:4711
 msgid "Toggle X-Ray"
 msgstr "切换透视"
 
-#: scripts/startup/bl_ui/space_view3d.py:4892
+#: scripts/startup/bl_ui/space_view3d.py:4887
 msgid "Lock to 3D Cursor"
 msgstr "锁定到3D游标"
 
+#: scripts/startup/bl_ui/space_view3d.py:5204
 #: scripts/startup/bl_ui/space_view3d.py:5209
-#: scripts/startup/bl_ui/space_view3d.py:5214
 msgid "X-Ray"
 msgstr "透视模式"
 
-#: scripts/startup/bl_ui/space_view3d.py:5509
+#: scripts/startup/bl_ui/space_view3d.py:5504
 msgid "Marker Names"
 msgstr "标记名称"
 
-#: scripts/startup/bl_ui/space_view3d.py:5512
+#: scripts/startup/bl_ui/space_view3d.py:5507
 msgid "Tracks:"
 msgstr "轨迹:"
 
-#: scripts/startup/bl_ui/space_view3d.py:5554
+#: scripts/startup/bl_ui/space_view3d.py:5549
 msgid "Developer"
 msgstr "开发人员"
 
-#: scripts/startup/bl_ui/space_view3d.py:5586
-#: scripts/startup/bl_ui/space_view3d.py:5847
+#: scripts/startup/bl_ui/space_view3d.py:5581
+#: scripts/startup/bl_ui/space_view3d.py:5842
 msgid "Zero Weights"
 msgstr "零权重"
 
-#: scripts/startup/bl_ui/space_view3d.py:5806
+#: scripts/startup/bl_ui/space_view3d.py:5801
 msgid "Fade Geometry"
 msgstr "淡化几何体"
 
-#: scripts/startup/bl_ui/space_view3d.py:6040
+#: scripts/startup/bl_ui/space_view3d.py:6035
 msgid "Reference Point"
 msgstr "参考点"
 
-#: scripts/startup/bl_ui/space_view3d.py:6100
+#: scripts/startup/bl_ui/space_view3d.py:6095
 msgid "Show Edit Lines only in multiframe"
 msgstr "仅在多重帧显示编辑线"
 
-#: scripts/startup/bl_ui/space_view3d.py:6294
+#: scripts/startup/bl_ui/space_view3d.py:6289
 msgctxt "Operator"
 msgid "Duplicate Active Frame All Layers"
 msgstr "复制全部层的活动帧"
 
-#: scripts/startup/bl_ui/space_view3d.py:6347
-#: scripts/startup/bl_ui/space_view3d.py:6380
+#: scripts/startup/bl_ui/space_view3d.py:6342
+#: scripts/startup/bl_ui/space_view3d.py:6375
 msgctxt "Operator"
 msgid "Duplicate for All Layers"
 msgstr "复制全部层"
 
-#: scripts/startup/bl_ui/space_view3d.py:6351
-#: scripts/startup/bl_ui/space_view3d.py:6384
+#: scripts/startup/bl_ui/space_view3d.py:6346
+#: scripts/startup/bl_ui/space_view3d.py:6379
 msgctxt "Operator"
 msgid "Delete Active"
 msgstr "删除活动帧"
@@ -110433,52 +110573,52 @@ msgctxt "Operator"
 msgid "Assign to Group"
 msgstr "指定到组"
 
-#: scripts/startup/bl_ui/space_view3d.py:3428
+#: scripts/startup/bl_ui/space_view3d.py:3423
 msgctxt "Operator"
 msgid "Delete Vertices"
 msgstr "删除顶点"
 
-#: scripts/startup/bl_ui/space_view3d.py:3447
+#: scripts/startup/bl_ui/space_view3d.py:3442
 msgctxt "Operator"
 msgid "New Face from Edges"
 msgstr "从边创建面"
 
-#: scripts/startup/bl_ui/space_view3d.py:3495
+#: scripts/startup/bl_ui/space_view3d.py:3490
 msgctxt "Operator"
 msgid "Delete Edges"
 msgstr "删除边"
 
-#: scripts/startup/bl_ui/space_view3d.py:3516
+#: scripts/startup/bl_ui/space_view3d.py:3511
 msgctxt "Operator"
 msgid "Bridge Faces"
 msgstr "桥接面"
 
-#: scripts/startup/bl_ui/space_view3d.py:3541
+#: scripts/startup/bl_ui/space_view3d.py:3536
 msgctxt "Operator"
 msgid "Delete Faces"
 msgstr "删除面"
 
-#: scripts/startup/bl_ui/space_view3d.py:3677
-#: scripts/startup/bl_ui/space_view3d.py:3734
-#: scripts/startup/bl_ui/space_view3d.py:3486
+#: scripts/startup/bl_ui/space_view3d.py:3672
+#: scripts/startup/bl_ui/space_view3d.py:3729
+#: scripts/startup/bl_ui/space_view3d.py:3481
 msgctxt "Operator"
 msgid "Clear Freestyle Edge"
 msgstr "清除 Freestyle 边"
 
-#: scripts/startup/bl_ui/space_view3d.py:3759
+#: scripts/startup/bl_ui/space_view3d.py:3754
 msgctxt "Operator"
 msgid "Clear Freestyle Face"
 msgstr "清除 Freestyle 面"
 
-#: scripts/startup/bl_ui/space_view3d.py:4504
+#: scripts/startup/bl_ui/space_view3d.py:4499
 msgid "No destination object"
 msgstr "无目标物体"
 
-#: scripts/startup/bl_ui/space_view3d.py:5269
+#: scripts/startup/bl_ui/space_view3d.py:5264
 msgid "Specular Lighting"
 msgstr "高光光照"
 
-#: scripts/startup/bl_ui/space_view3d.py:6044
+#: scripts/startup/bl_ui/space_view3d.py:6039
 msgid "Custom Location"
 msgstr "自定义位置"
 
@@ -110492,11 +110632,11 @@ msgctxt "Operator"
 msgid "Remove from All"
 msgstr "从所有组中移除"
 
-#: scripts/startup/bl_ui/space_view3d.py:5093
+#: scripts/startup/bl_ui/space_view3d.py:5088
 msgid "Disable Studio Light Edit"
 msgstr "禁用棚灯编辑"
 
-#: scripts/startup/bl_ui/space_view3d.py:6046
+#: scripts/startup/bl_ui/space_view3d.py:6041
 msgid "Object Location"
 msgstr "物体位置"
 
@@ -110530,17 +110670,17 @@ msgctxt "Operator"
 msgid "Width Size"
 msgstr "宽度尺寸"
 
-#: scripts/startup/bl_ui/space_view3d.py:5242
-#: scripts/startup/bl_ui/space_view3d.py:5253
+#: scripts/startup/bl_ui/space_view3d.py:5237
+#: scripts/startup/bl_ui/space_view3d.py:5248
 msgid "Ridge"
 msgstr "脊线"
 
-#: scripts/startup/bl_ui/space_view3d.py:5243
-#: scripts/startup/bl_ui/space_view3d.py:5254
+#: scripts/startup/bl_ui/space_view3d.py:5238
+#: scripts/startup/bl_ui/space_view3d.py:5249
 msgid "Valley"
 msgstr "谷线"
 
-#: scripts/startup/bl_ui/space_view3d.py:6048
+#: scripts/startup/bl_ui/space_view3d.py:6043
 msgid "No object selected, using cursor"
 msgstr "使用游标，无选中物体"
 
@@ -110958,36 +111098,36 @@ msgid "Source or destination meshes do not have any faces, cannot transfer face 
 msgstr "源网格与目标网格均不包含面，无法传递面数据"
 
 #: source/blender/blenkernel/intern/dynamicpaint.c:852
-#: source/blender/blenkernel/intern/dynamicpaint.c:1359
-#: source/blender/blenkernel/intern/dynamicpaint.c:1420
-#: source/blender/blenkernel/intern/dynamicpaint.c:2887
-#: source/blender/blenkernel/intern/dynamicpaint.c:3151
-#: source/blender/blenkernel/intern/dynamicpaint.c:6126
-#: source/blender/blenkernel/intern/dynamicpaint.c:6331
+#: source/blender/blenkernel/intern/dynamicpaint.c:1363
+#: source/blender/blenkernel/intern/dynamicpaint.c:1424
+#: source/blender/blenkernel/intern/dynamicpaint.c:2893
+#: source/blender/blenkernel/intern/dynamicpaint.c:3157
+#: source/blender/blenkernel/intern/dynamicpaint.c:6132
+#: source/blender/blenkernel/intern/dynamicpaint.c:6337
 msgid "Not enough free memory"
 msgstr "内存不足"
 
-#: source/blender/blenkernel/intern/dynamicpaint.c:2849
+#: source/blender/blenkernel/intern/dynamicpaint.c:2855
 msgid "Canvas mesh not updated"
 msgstr "画布网格未更新"
 
-#: source/blender/blenkernel/intern/dynamicpaint.c:2852
+#: source/blender/blenkernel/intern/dynamicpaint.c:2858
 msgid "Cannot bake non-'image sequence' formats"
 msgstr "添加一个图像或一套图像序列到序列编辑器中"
 
-#: source/blender/blenkernel/intern/dynamicpaint.c:2867
+#: source/blender/blenkernel/intern/dynamicpaint.c:2873
 msgid "No UV data on canvas"
 msgstr "浏览要关联的网格数据"
 
-#: source/blender/blenkernel/intern/dynamicpaint.c:2870
+#: source/blender/blenkernel/intern/dynamicpaint.c:2876
 msgid "Invalid resolution"
 msgstr "分辨率不存在"
 
-#: source/blender/blenkernel/intern/dynamicpaint.c:3311
+#: source/blender/blenkernel/intern/dynamicpaint.c:3317
 msgid "Image save failed: invalid surface"
 msgstr "当前空间中显示和编辑的图像"
 
-#: source/blender/blenkernel/intern/dynamicpaint.c:3330
+#: source/blender/blenkernel/intern/dynamicpaint.c:3336
 msgid "Image save failed: not enough free memory"
 msgstr "图像存储失败:没有足够内存"
 
@@ -111020,7 +111160,7 @@ msgstr "阶化"
 #: source/blender/editors/gpencil/gpencil_data.c:416
 #: source/blender/editors/gpencil/gpencil_data.c:511
 #: source/blender/editors/gpencil/gpencil_data.c:1216
-#: source/blender/editors/gpencil/gpencil_data.c:2343
+#: source/blender/editors/gpencil/gpencil_data.c:2345
 #: source/blender/editors/gpencil/gpencil_edit.c:1263
 #: source/blender/editors/gpencil/gpencil_edit.c:1430
 #: source/blender/editors/gpencil/gpencil_fill.c:1222
@@ -112137,8 +112277,8 @@ msgstr "用于不同选中物体的骨骼"
 msgid "Same bone selected..."
 msgstr "选中了相同的骨骼..."
 
-#: source/blender/editors/armature/armature_edit.c:1282
-#: source/blender/editors/armature/armature_relations.c:791
+#: source/blender/editors/armature/armature_edit.c:1284
+#: source/blender/editors/armature/armature_relations.c:796
 #: source/blender/editors/armature/armature_select.c:1529
 msgid "Operation requires an active bone"
 msgstr "该操作需要一段活动的骨骼"
@@ -112147,19 +112287,19 @@ msgstr "该操作需要一段活动的骨骼"
 msgid "Too many points selected: %d"
 msgstr "选中的点太多: %d"
 
-#: source/blender/editors/armature/armature_edit.c:1314
+#: source/blender/editors/armature/armature_edit.c:1316
 msgid "Aligned bone '%s' to parent"
 msgstr "骨骼 '%s' 已与父级对齐"
 
-#: source/blender/editors/armature/armature_edit.c:1339
+#: source/blender/editors/armature/armature_edit.c:1341
 msgid "%d bones aligned to bone '%s'"
 msgstr "%d 骨骼已与骨骼 '%s' 对齐"
 
-#: source/blender/editors/armature/armature_relations.c:296
+#: source/blender/editors/armature/armature_relations.c:297
 msgid "Active object is not a selected armature"
 msgstr "活动物体不是已选中的骨架"
 
-#: source/blender/editors/armature/armature_relations.c:687
+#: source/blender/editors/armature/armature_relations.c:692
 msgid "Separated bones"
 msgstr "分离的骨骼"
 
@@ -112179,7 +112319,7 @@ msgstr "无法找到绑定解算 (可尝试提高精度)"
 msgid "Cannot pose libdata"
 msgstr "无法调整库数据"
 
-#: source/blender/editors/armature/pose_edit.c:1015
+#: source/blender/editors/armature/pose_edit.c:1019
 msgid "Undo of hiding can only be done with Reveal Selected"
 msgstr ""
 
@@ -112252,16 +112392,16 @@ msgstr "姿势库中没有姿势可供预览 / 应用"
 msgid "Invalid pose specified %d"
 msgstr "指定的姿势无效 %d"
 
-#: source/blender/editors/armature/pose_select.c:911
+#: source/blender/editors/armature/pose_select.c:951
 #: source/blender/editors/object/object_select.c:992
 msgid "No active Keying Set to use"
 msgstr "无激活的帧集"
 
-#: source/blender/editors/armature/pose_select.c:917
+#: source/blender/editors/armature/pose_select.c:957
 msgid "Use another Keying Set, as the active one depends on the currently selected items or cannot find any targets due to unsuitable context"
 msgstr ""
 
-#: source/blender/editors/armature/pose_select.c:923
+#: source/blender/editors/armature/pose_select.c:963
 #: source/blender/editors/object/object_select.c:1004
 msgid "Keying Set does not contain any paths"
 msgstr "插帧集不包含任何路径"
@@ -112376,9 +112516,9 @@ msgid "Cannot split current selection"
 msgstr "无法拆分当前选中项"
 
 #: source/blender/editors/curve/editcurve.c:3986
-#: source/blender/editors/space_outliner/outliner_tools.c:1478
-#: source/blender/editors/space_outliner/outliner_tools.c:1518
-#: source/blender/editors/space_outliner/outliner_tools.c:2120
+#: source/blender/editors/space_outliner/outliner_tools.c:1505
+#: source/blender/editors/space_outliner/outliner_tools.c:1545
+#: source/blender/editors/space_outliner/outliner_tools.c:2147
 msgid "Not yet implemented"
 msgstr "还未部署"
 
@@ -112604,15 +112744,15 @@ msgstr "骨架修改器无效或定义错误"
 msgid "No Armature object in the view layer"
 msgstr "视图图层中没有骨架物体"
 
-#: source/blender/editors/gpencil/gpencil_brush.c:1184
+#: source/blender/editors/gpencil/gpencil_brush.c:1195
 msgid "GPencil Sculpt: %s Stroke  | LMB to paint | RMB/Escape to Exit | Ctrl to Invert Action | Wheel Up/Down for Size  | Shift-Wheel Up/Down for Strength"
 msgstr ""
 
-#: source/blender/editors/gpencil/gpencil_brush.c:1286
+#: source/blender/editors/gpencil/gpencil_brush.c:1297
 msgid "Copy some strokes to the clipboard before using the Clone brush to paste copies of them"
 msgstr ""
 
-#: source/blender/editors/gpencil/gpencil_brush.c:1867
+#: source/blender/editors/gpencil/gpencil_brush.c:1878
 msgid "Cannot sculpt while play animation"
 msgstr "播放动画时无法雕刻"
 
@@ -112642,29 +112782,29 @@ msgstr "无可隔离的活动层"
 msgid "No layers to merge"
 msgstr "无可合并的层"
 
-#: source/blender/editors/gpencil/gpencil_data.c:1791
-#: source/blender/editors/gpencil/gpencil_data.c:1855
-#: source/blender/editors/gpencil/gpencil_data.c:1953
+#: source/blender/editors/gpencil/gpencil_data.c:1793
+#: source/blender/editors/gpencil/gpencil_data.c:1857
+#: source/blender/editors/gpencil/gpencil_data.c:1955
 msgid "Current Vertex Group is locked"
 msgstr "当前顶点组已被锁定"
 
-#: source/blender/editors/gpencil/gpencil_data.c:2221
+#: source/blender/editors/gpencil/gpencil_data.c:2223
 msgid "Apply all rotations before join objects"
 msgstr "合并物体前应用全部旋转"
 
-#: source/blender/editors/gpencil/gpencil_data.c:2238
+#: source/blender/editors/gpencil/gpencil_data.c:2240
 msgid "Active object is not a selected grease pencil"
 msgstr "活动的物体不是一个被选中的蜡笔"
 
-#: source/blender/editors/gpencil/gpencil_data.c:2507
+#: source/blender/editors/gpencil/gpencil_data.c:2511
 msgid "No active color to isolate"
 msgstr "无可隔离的活动颜色"
 
-#: source/blender/editors/gpencil/gpencil_data.c:2917
+#: source/blender/editors/gpencil/gpencil_data.c:2935
 msgid "Unable to add a new Lattice modifier to object"
 msgstr "不能添加新的晶格修改物体"
 
-#: source/blender/editors/gpencil/gpencil_data.c:2930
+#: source/blender/editors/gpencil/gpencil_data.c:2948
 msgid "The existing Lattice modifier is already using a different Lattice object"
 msgstr "现有的晶格修改器已经使用其它晶格物体"
 
@@ -112767,11 +112907,11 @@ msgstr "不能对已经是蜡笔关键帧的当前帧使进行插值"
 msgid "Interpolation requires some editable strokes"
 msgstr "插值需要某些可编辑笔画"
 
-#: source/blender/editors/gpencil/gpencil_interpolate.c:1007
+#: source/blender/editors/gpencil/gpencil_interpolate.c:1008
 msgid "Custom interpolation curve does not exist"
 msgstr "自定义插值曲线不存在"
 
-#: source/blender/editors/gpencil/gpencil_interpolate.c:1112
+#: source/blender/editors/gpencil/gpencil_interpolate.c:1113
 msgid "Expected current frame to be a breakdown"
 msgstr "期望当前帧为中断帧"
 
@@ -112847,7 +112987,7 @@ msgstr "只能在绘制或者编辑模式下添加原始物体"
 msgid "Primitives cannot be added as active layer is locked or hidden"
 msgstr "当活动层被锁定或者隐藏，原始物体将不能添加"
 
-#: source/blender/editors/interface/interface_context_menu.c:1055
+#: source/blender/editors/interface/interface_context_menu.c:1038
 msgid "Non-Keyboard Shortcut"
 msgstr "无键盘快捷键"
 
@@ -112855,7 +112995,7 @@ msgstr "无键盘快捷键"
 msgid "Shift+Left Mouse"
 msgstr "Shift + 鼠标左键"
 
-#: source/blender/editors/interface/interface_context_menu.c:1065
+#: source/blender/editors/interface/interface_context_menu.c:1048
 msgid "Only keyboard shortcuts can be edited that way, please use User Preferences otherwise"
 msgstr "只能以这种方式编辑键盘快捷键，否则请使用用户首选项"
 
@@ -112986,7 +113126,7 @@ msgctxt "Operator"
 msgid "Change Shortcut"
 msgstr "改变快捷键"
 
-#: source/blender/editors/interface/interface_context_menu.c:1037
+#: source/blender/editors/interface/interface_context_menu.c:1057
 msgctxt "Operator"
 msgid "Remove Shortcut"
 msgstr "移除快捷键"
@@ -113014,92 +113154,92 @@ msgstr "未能设置值"
 msgid "Animate property"
 msgstr "动画属性"
 
-#: source/blender/editors/interface/interface_ops.c:1255
+#: source/blender/editors/interface/interface_ops.c:1254
 msgid "Active button is not from a script, cannot edit source"
 msgstr "激活按钮非脚本创建，无法编辑源码"
 
-#: source/blender/editors/interface/interface_ops.c:1261
+#: source/blender/editors/interface/interface_ops.c:1260
 msgid "Active button match cannot be found"
 msgstr "无法找到激活的匹配按钮"
 
-#: source/blender/editors/interface/interface_ops.c:1272
-#: source/blender/editors/interface/interface_ops.c:1459
+#: source/blender/editors/interface/interface_ops.c:1271
+#: source/blender/editors/interface/interface_ops.c:1458
 msgid "Active button not found"
 msgstr "无法找到激活的按钮"
 
-#: source/blender/editors/interface/interface_ops.c:1371
+#: source/blender/editors/interface/interface_ops.c:1370
 msgid "Please set your Preferences' 'Translation Branches Directory' path to a valid directory"
 msgstr "请将首选项 ''翻译分支目录' 路径设置为有效目录"
 
-#: source/blender/editors/interface/interface_ops.c:1194
+#: source/blender/editors/interface/interface_ops.c:1193
 msgid "File '%s' cannot be opened"
 msgstr "打不开文件 '%s'"
 
-#: source/blender/editors/interface/interface_ops.c:1206
+#: source/blender/editors/interface/interface_ops.c:1205
 msgid "See '%s' in the text editor"
 msgstr "参见文本编辑器中的 '%s'"
 
-#: source/blender/editors/interface/interface_ops.c:1379
+#: source/blender/editors/interface/interface_ops.c:1378
 msgid "Could not find operator '%s'! Please enable ui_translate add-on in the User Preferences"
 msgstr "无法找到操作 '%s'! 请在用户参数内开启ui_translate（界面翻译）插件"
 
-#: source/blender/editors/interface/interface_ops.c:1390
+#: source/blender/editors/interface/interface_ops.c:1389
 msgid "No valid po found for language '%s' under %s"
 msgstr "在 %s 下无法找到有效的 '%s' 语言 PO 文件"
 
-#: source/blender/editors/interface/interface_region_color_picker.c:561
+#: source/blender/editors/interface/interface_region_color_picker.c:580
 msgid "Hex"
 msgstr "Hex"
 
-#: source/blender/editors/interface/interface_region_color_picker.c:602
+#: source/blender/editors/interface/interface_region_color_picker.c:621
 msgid "R:"
 msgstr "R:"
 
-#: source/blender/editors/interface/interface_region_color_picker.c:620
+#: source/blender/editors/interface/interface_region_color_picker.c:639
 msgid "G:"
 msgstr "G:"
 
-#: source/blender/editors/interface/interface_region_color_picker.c:638
+#: source/blender/editors/interface/interface_region_color_picker.c:657
 msgid "B:"
 msgstr "B:"
 
-#: source/blender/editors/interface/interface_region_color_picker.c:664
+#: source/blender/editors/interface/interface_region_color_picker.c:683
 msgid "H:"
 msgstr "H:"
 
-#: source/blender/editors/interface/interface_region_color_picker.c:681
+#: source/blender/editors/interface/interface_region_color_picker.c:700
 msgid "S:"
 msgstr "S:"
 
-#: source/blender/editors/interface/interface_region_color_picker.c:699
+#: source/blender/editors/interface/interface_region_color_picker.c:718
 msgid "L:"
 msgstr "L:"
 
-#: source/blender/editors/interface/interface_region_color_picker.c:715
+#: source/blender/editors/interface/interface_region_color_picker.c:734
 msgid "V:"
 msgstr "V:"
 
-#: source/blender/editors/interface/interface_region_color_picker.c:739
+#: source/blender/editors/interface/interface_region_color_picker.c:758
 msgid "A: "
 msgstr "A: "
 
-#: source/blender/editors/interface/interface_region_color_picker.c:776
+#: source/blender/editors/interface/interface_region_color_picker.c:796
 msgid "Hex: "
 msgstr "Hex: "
 
-#: source/blender/editors/interface/interface_region_color_picker.c:793
+#: source/blender/editors/interface/interface_region_color_picker.c:813
 msgid "(Gamma Corrected)"
 msgstr "(伽玛校正)"
 
-#: source/blender/editors/interface/interface_region_color_picker.c:709
+#: source/blender/editors/interface/interface_region_color_picker.c:728
 msgid "Lightness"
 msgstr "低亮度"
 
-#: source/blender/editors/interface/interface_region_color_picker.c:786
+#: source/blender/editors/interface/interface_region_color_picker.c:806
 msgid "Hex triplet for color (#RRGGBB)"
 msgstr "用于颜色的 Hex 三元组形式 (#RRGGBB)"
 
-#: source/blender/editors/interface/interface_region_hud.c:116
+#: source/blender/editors/interface/interface_region_hud.c:117
 msgid "Redo"
 msgstr "重做"
 
@@ -113980,63 +114120,63 @@ msgstr ""
 msgid "Parse error in %s"
 msgstr "语法错误位于 %s"
 
-#: source/blender/editors/mesh/mesh_data.c:1131
+#: source/blender/editors/mesh/mesh_data.c:1129
 msgid "Cannot add geometry in edit mode"
 msgstr "编辑模式下所选边线的计数"
 
-#: source/blender/editors/mesh/mesh_data.c:1150
+#: source/blender/editors/mesh/mesh_data.c:1148
 msgid "Cannot add tessfaces in edit mode"
 msgstr "编辑模式下所选面的计数值"
 
-#: source/blender/editors/mesh/mesh_data.c:1155
+#: source/blender/editors/mesh/mesh_data.c:1153
 msgid "Cannot add tessfaces to a mesh that already has polygons"
 msgstr "无法向已包含多边形的网格中添加细分曲面"
 
-#: source/blender/editors/mesh/mesh_data.c:1165
+#: source/blender/editors/mesh/mesh_data.c:1163
 msgid "Cannot add edges in edit mode"
 msgstr "编辑模式下所选边线的计数"
 
-#: source/blender/editors/mesh/mesh_data.c:1175
+#: source/blender/editors/mesh/mesh_data.c:1173
 msgid "Cannot add vertices in edit mode"
 msgstr "编辑模式下所选顶点的计数值"
 
-#: source/blender/editors/mesh/mesh_data.c:1185
+#: source/blender/editors/mesh/mesh_data.c:1183
 msgid "Cannot remove faces in edit mode"
 msgstr "在编辑模式中显示贝塞尔控制柄"
 
-#: source/blender/editors/mesh/mesh_data.c:1189
+#: source/blender/editors/mesh/mesh_data.c:1187
 msgid "Cannot remove more faces than the mesh contains"
 msgstr "在编辑模式中显示贝塞尔控制柄"
 
-#: source/blender/editors/mesh/mesh_data.c:1199
+#: source/blender/editors/mesh/mesh_data.c:1197
 msgid "Cannot remove edges in edit mode"
 msgstr "在编辑模式中显示贝塞尔控制柄"
 
-#: source/blender/editors/mesh/mesh_data.c:1203
+#: source/blender/editors/mesh/mesh_data.c:1201
 msgid "Cannot remove more edges than the mesh contains"
 msgstr "在编辑模式中显示贝塞尔控制柄"
 
-#: source/blender/editors/mesh/mesh_data.c:1213
+#: source/blender/editors/mesh/mesh_data.c:1211
 msgid "Cannot remove vertices in edit mode"
 msgstr "切换粒子编辑模式"
 
-#: source/blender/editors/mesh/mesh_data.c:1217
+#: source/blender/editors/mesh/mesh_data.c:1215
 msgid "Cannot remove more vertices than the mesh contains"
 msgstr "切换粒子编辑模式"
 
-#: source/blender/editors/mesh/mesh_data.c:1227
+#: source/blender/editors/mesh/mesh_data.c:1225
 msgid "Cannot add loops in edit mode"
 msgstr "无法在编辑模式下添加环切"
 
-#: source/blender/editors/mesh/mesh_data.c:1237
+#: source/blender/editors/mesh/mesh_data.c:1235
 msgid "Cannot add polygons in edit mode"
 msgstr "无法在编辑模式下添加多边形"
 
-#: source/blender/editors/mesh/mesh_data.c:1279
+#: source/blender/editors/mesh/mesh_data.c:1277
 msgid "%d %s mirrored, %d failed"
 msgstr "已镜像 %d %s, 失败 %d"
 
-#: source/blender/editors/mesh/mesh_data.c:1283
+#: source/blender/editors/mesh/mesh_data.c:1281
 msgid "%d %s mirrored"
 msgstr "已镜像 %d %s"
 
@@ -114147,17 +114287,17 @@ msgid "This data does not support joining in this mode"
 msgstr "此数据不支持在编辑模式中接合"
 
 #: source/blender/editors/object/object_add.c:1515
-#: source/blender/editors/space_outliner/outliner_tools.c:512
-#: source/blender/editors/space_outliner/outliner_tools.c:1007
-#: source/blender/editors/space_outliner/outliner_tools.c:1088
+#: source/blender/editors/space_outliner/outliner_tools.c:539
+#: source/blender/editors/space_outliner/outliner_tools.c:1034
+#: source/blender/editors/space_outliner/outliner_tools.c:1115
 msgid "Cannot delete indirectly linked object '%s'"
 msgstr ""
 
 #: source/blender/editors/object/object_add.c:1522
 #: source/blender/editors/object/object_add.c:1572
-#: source/blender/editors/space_outliner/outliner_tools.c:518
-#: source/blender/editors/space_outliner/outliner_tools.c:1015
-#: source/blender/editors/space_outliner/outliner_tools.c:1096
+#: source/blender/editors/space_outliner/outliner_tools.c:545
+#: source/blender/editors/space_outliner/outliner_tools.c:1042
+#: source/blender/editors/space_outliner/outliner_tools.c:1123
 msgid "Cannot delete object '%s' from scene '%s', indirectly used objects need at least one user"
 msgstr ""
 
@@ -114318,79 +114458,79 @@ msgstr "活动物体未包含任何集合"
 msgid "Could not add the collection because of dependency cycle detected"
 msgstr "无法添加集合, 因为检测到从属循环"
 
-#: source/blender/editors/object/object_constraint.c:2189
+#: source/blender/editors/object/object_constraint.c:2195
 msgid "Add IK"
 msgstr "添加 IK"
 
-#: source/blender/editors/object/object_constraint.c:2199
+#: source/blender/editors/object/object_constraint.c:2205
 msgid "To Active Bone"
 msgstr "到活动的骨骼"
 
-#: source/blender/editors/object/object_constraint.c:2203
+#: source/blender/editors/object/object_constraint.c:2209
 msgid "To Active Object"
 msgstr "到活动的物体"
 
-#: source/blender/editors/object/object_constraint.c:2209
+#: source/blender/editors/object/object_constraint.c:2215
 msgid "To New Empty Object"
 msgstr "到新的空物体"
 
 # rblc
-#: source/blender/editors/object/object_constraint.c:2211
+#: source/blender/editors/object/object_constraint.c:2217
 msgid "Without Targets"
 msgstr "没有目标"
 
-#: source/blender/editors/object/object_constraint.c:981
-#: source/blender/editors/object/object_constraint.c:1234
+#: source/blender/editors/object/object_constraint.c:982
+#: source/blender/editors/object/object_constraint.c:1235
 msgid "Could not find constraint data for Child-Of Set Inverse"
 msgstr "无法找到父子约束中的反向数据"
 
-#: source/blender/editors/object/object_constraint.c:1036
-#: source/blender/editors/object/object_constraint.c:1289
+#: source/blender/editors/object/object_constraint.c:1037
+#: source/blender/editors/object/object_constraint.c:1290
 msgid "Child Of constraint not found"
 msgstr "未找到子级约束"
 
-#: source/blender/editors/object/object_constraint.c:1095
+#: source/blender/editors/object/object_constraint.c:1096
 msgid "Follow Path constraint not found"
 msgstr "未找到路径跟随约束"
 
-#: source/blender/editors/object/object_constraint.c:1114
+#: source/blender/editors/object/object_constraint.c:1115
 msgid "Path is already animated"
 msgstr "路径已有动画设置"
 
-#: source/blender/editors/object/object_constraint.c:1652
+#: source/blender/editors/object/object_constraint.c:1653
 msgid "No active bone with constraints for copying"
 msgstr "无可供复制的带约束的活动骨骼"
 
-#: source/blender/editors/object/object_constraint.c:1899
+#: source/blender/editors/object/object_constraint.c:1905
 msgid "No active pose bone to add a constraint to"
 msgstr "无可供添加约束的活动姿态骨骼"
 
-#: source/blender/editors/object/object_constraint.c:2006
-#: source/blender/editors/object/object_constraint.c:2028
+#: source/blender/editors/object/object_constraint.c:2012
+#: source/blender/editors/object/object_constraint.c:2034
 msgid "No active object to add constraint to"
 msgstr "没有可供添加约束的活动物体"
 
-#: source/blender/editors/object/object_constraint.c:2173
+#: source/blender/editors/object/object_constraint.c:2179
 msgid "Must have an active bone to add IK constraint to"
 msgstr "必须有一段可供添加 IK 约束的活动骨骼"
 
-#: source/blender/editors/object/object_constraint.c:2184
+#: source/blender/editors/object/object_constraint.c:2190
 msgid "Bone already has an IK constraint"
 msgstr "骨骼已存在 IK 约束"
 
-#: source/blender/editors/object/object_constraint.c:640
+#: source/blender/editors/object/object_constraint.c:641
 msgid "Context missing 'constraint'"
 msgstr "缺失上下文 '约束'"
 
-#: source/blender/editors/object/object_constraint.c:645
+#: source/blender/editors/object/object_constraint.c:646
 msgid "Context missing active object"
 msgstr "上下文缺失活动物体"
 
-#: source/blender/editors/object/object_constraint.c:650
+#: source/blender/editors/object/object_constraint.c:651
 msgid "Cannot edit library data"
 msgstr "无法编辑库数据"
 
-#: source/blender/editors/object/object_constraint.c:655
+#: source/blender/editors/object/object_constraint.c:656
 msgid "Cannot edit constraints coming from library override"
 msgstr "无法编辑来自库重写的约束"
 
@@ -114790,7 +114930,7 @@ msgstr "动态绘画修改器"
 msgid "Bake failed: invalid canvas"
 msgstr "烘焙失败：非法绘制"
 
-#: source/blender/editors/physics/particle_edit.c:3129
+#: source/blender/editors/physics/particle_edit.c:3132
 msgid "Removed %d double particles"
 msgstr "移除了 %d 个重叠粒子"
 
@@ -115190,9 +115330,9 @@ msgid "No active line style in the current scene"
 msgstr "当前场景中没有活动的线样式"
 
 #: source/blender/editors/render/render_view.c:157
-#: source/blender/editors/screen/screen_ops.c:1294
-#: source/blender/editors/screen/screen_ops.c:4696
-#: source/blender/editors/screen/screen_ops.c:4762
+#: source/blender/editors/screen/screen_ops.c:1301
+#: source/blender/editors/screen/screen_ops.c:4703
+#: source/blender/editors/screen/screen_ops.c:4769
 msgid "Failed to open window!"
 msgstr "打开窗口失败！"
 
@@ -115200,95 +115340,95 @@ msgstr "打开窗口失败！"
 msgid "View layer '%s' could not be removed from scene '%s'"
 msgstr "无法将视图层 '%s' 从场景 '%s' 中移除"
 
-#: source/blender/editors/screen/screen_ops.c:3955
-#: source/blender/editors/screen/screen_ops.c:4001
+#: source/blender/editors/screen/screen_ops.c:3962
+#: source/blender/editors/screen/screen_ops.c:4008
 msgid "Flip to Bottom"
 msgstr "在底部显示"
 
-#: source/blender/editors/screen/screen_ops.c:3956
-#: source/blender/editors/screen/screen_ops.c:4002
+#: source/blender/editors/screen/screen_ops.c:3963
+#: source/blender/editors/screen/screen_ops.c:4009
 msgid "Flip to Top"
 msgstr "在顶部显示"
 
-#: source/blender/editors/screen/screen_ops.c:3961
+#: source/blender/editors/screen/screen_ops.c:3968
 msgid "Show Header"
 msgstr "显示标题栏"
 
-#: source/blender/editors/screen/screen_ops.c:3969
+#: source/blender/editors/screen/screen_ops.c:3976
 msgid "Show Tool Settings"
 msgstr "显示工具设置"
 
-#: source/blender/editors/screen/screen_ops.c:3992
-#: source/blender/editors/screen/screen_ops.c:4019
+#: source/blender/editors/screen/screen_ops.c:3999
+#: source/blender/editors/screen/screen_ops.c:4026
 msgid "Tile Area"
 msgstr "拼贴区域"
 
-#: source/blender/editors/screen/screen_ops.c:3992
-#: source/blender/editors/screen/screen_ops.c:4019
+#: source/blender/editors/screen/screen_ops.c:3999
+#: source/blender/editors/screen/screen_ops.c:4026
 msgid "Maximize Area"
 msgstr "区域最大化"
 
-#: source/blender/editors/screen/screen_ops.c:4006
+#: source/blender/editors/screen/screen_ops.c:4013
 msgid "Show Footer"
 msgstr "显示底栏"
 
-#: source/blender/editors/screen/screen_ops.c:4027
+#: source/blender/editors/screen/screen_ops.c:4034
 msgid "Flip to Right"
 msgstr "翻转至右侧"
 
-#: source/blender/editors/screen/screen_ops.c:4028
+#: source/blender/editors/screen/screen_ops.c:4035
 msgid "Flip to Left"
 msgstr "翻转至左侧"
 
-#: source/blender/editors/screen/screen_ops.c:2471
+#: source/blender/editors/screen/screen_ops.c:2478
 msgid "Can only scale region size from an action zone"
 msgstr "只能在当前操作区内缩放区域尺寸"
 
-#: source/blender/editors/screen/screen_ops.c:2923
+#: source/blender/editors/screen/screen_ops.c:2930
 msgid "No more keyframes to jump to in this direction"
 msgstr "此方向再无可供跳转的关键帧"
 
-#: source/blender/editors/screen/screen_ops.c:2987
+#: source/blender/editors/screen/screen_ops.c:2994
 msgid "No more markers to jump to in this direction"
 msgstr "此方向再无可供跳转的标识"
 
-#: source/blender/editors/screen/screen_ops.c:3195
+#: source/blender/editors/screen/screen_ops.c:3202
 msgid "Global areas (Top Bar, Status Bar) do not support joining"
 msgstr ""
 
-#: source/blender/editors/screen/screen_ops.c:3718
+#: source/blender/editors/screen/screen_ops.c:3725
 msgid "Only window region can be 4-splitted"
 msgstr "四分视图只支持窗口区域"
 
-#: source/blender/editors/screen/screen_ops.c:3771
+#: source/blender/editors/screen/screen_ops.c:3778
 msgid "Only last region can be 4-splitted"
 msgstr "最后一个区可以被 4 等分"
 
-#: source/blender/editors/screen/screen_ops.c:4654
+#: source/blender/editors/screen/screen_ops.c:4661
 msgid "No fullscreen areas were found"
 msgstr "没有找到全屏区域"
 
-#: source/blender/editors/screen/screen_ops.c:3517
+#: source/blender/editors/screen/screen_ops.c:3524
 msgid "Removed amount of editors: %d"
 msgstr "移除的编辑器数量: %d"
 
-#: source/blender/editors/screen/screen_ops.c:232
+#: source/blender/editors/screen/screen_ops.c:233
 msgid "expected a view3d region"
 msgstr "期望一个 3D 视图区"
 
-#: source/blender/editors/screen/screen_ops.c:246
+#: source/blender/editors/screen/screen_ops.c:247
 msgid "expected a timeline/animation area to be active"
 msgstr "需要一个活动的时间线 / 动画区域"
 
-#: source/blender/editors/screen/screen_ops.c:393
+#: source/blender/editors/screen/screen_ops.c:400
 msgid "expected a view3d region & editmesh"
 msgstr "期望一个 3D 视图区域和编辑网格"
 
-#: source/blender/editors/screen/screen_ops.c:525
+#: source/blender/editors/screen/screen_ops.c:532
 msgid "expected a view3d region & editcurve"
 msgstr "期望一个 3D 视图区域和编辑曲线"
 
-#: source/blender/editors/screen/screen_ops.c:3887
+#: source/blender/editors/screen/screen_ops.c:3894
 msgid "Flipping regions in the Top-bar is not allowed"
 msgstr ""
 
@@ -115380,15 +115520,15 @@ msgstr "无法创建 OpenGL 离线缓存: %s"
 msgid "Missing%s%s%s%s detected!"
 msgstr "检测到 %s%s%s%s 缺失!"
 
-#: source/blender/editors/sculpt_paint/paint_vertex.c:1540
+#: source/blender/editors/sculpt_paint/paint_vertex.c:1570
 msgid "Active group is locked, aborting"
 msgstr "活动组被锁定, 操作终止"
 
-#: source/blender/editors/sculpt_paint/paint_vertex.c:1546
+#: source/blender/editors/sculpt_paint/paint_vertex.c:1576
 msgid "Mirror group is locked, aborting"
 msgstr "镜像组被锁定, 操作终止"
 
-#: source/blender/editors/sculpt_paint/paint_vertex.c:1569
+#: source/blender/editors/sculpt_paint/paint_vertex.c:1599
 msgid "Multipaint group is locked, aborting"
 msgstr "多精度绘制组被锁定, 操作终止"
 
@@ -115747,7 +115887,7 @@ msgid "Open Directory"
 msgstr "打开目录"
 
 #: source/blender/editors/space_file/file_draw.c:295
-#: source/blender/windowmanager/intern/wm_files.c:2981
+#: source/blender/windowmanager/intern/wm_files.c:2989
 msgid "Cancel"
 msgstr "取消"
 
@@ -116177,7 +116317,7 @@ msgstr "图像 %s 无法自动保存，必须使用一个不同的文件格式"
 
 #: source/blender/editors/space_image/image_ops.c:2310
 msgid "File path used by more than one saved image: %s"
-msgstr "多个已保存图像使用的文件路径: ％s"
+msgstr ""
 
 #: source/blender/editors/space_image/image_ops.c:2320
 msgid "Image %s can't be saved, no valid file path: %s"
@@ -116311,7 +116451,7 @@ msgstr "先选中一个已有的 NLA 轨道或一个空动作行"
 
 #: source/blender/editors/space_nla/nla_channels.c:477
 msgid "No animation channel found at index %d"
-msgstr "在索引 ％d 处找不到动画通道"
+msgstr ""
 
 #: source/blender/editors/space_nla/nla_channels.c:482
 msgid "Animation channel at index %d is not a NLA 'Active Action' channel"
@@ -116330,7 +116470,7 @@ msgid "No AnimData blocks in tweak mode to exit from"
 msgstr "无可供调节的动画数据块"
 
 #: source/blender/editors/space_nla/nla_edit.c:613
-#: source/blender/editors/space_outliner/outliner_tools.c:1779
+#: source/blender/editors/space_outliner/outliner_tools.c:1806
 msgid "No valid action to add"
 msgstr "没有可供添加的有效动作"
 
@@ -116347,7 +116487,7 @@ msgid "Cannot swap selected strips as they will not be able to fit in their new 
 msgstr "无法与选择的片段互换因为两者无法匹配"
 
 #: source/blender/editors/space_nla/nla_edit.c:620
-#: source/blender/editors/space_outliner/outliner_tools.c:1785
+#: source/blender/editors/space_outliner/outliner_tools.c:1812
 msgid "Action '%s' does not specify what data-blocks it can be used on (try setting the 'ID Root Type' setting from the data-blocks editor for this action to avoid future problems)"
 msgstr ""
 
@@ -116504,23 +116644,23 @@ msgstr "输出项:"
 msgid "Sockets"
 msgstr "插口"
 
-#: source/blender/editors/space_node/node_edit.c:2145
+#: source/blender/editors/space_node/node_edit.c:2146
 msgid "Clipboard is empty"
 msgstr "剪贴板为空"
 
-#: source/blender/editors/space_node/node_edit.c:2150
+#: source/blender/editors/space_node/node_edit.c:2151
 msgid "Clipboard nodes are an incompatible type"
 msgstr "剪贴板节点处于一个不兼容的类型"
 
-#: source/blender/editors/space_node/node_edit.c:2156
+#: source/blender/editors/space_node/node_edit.c:2157
 msgid "Some nodes references could not be restored, will be left empty"
 msgstr "一些节点引用无法被重置, 将被留空"
 
-#: source/blender/editors/space_node/node_edit.c:2573
+#: source/blender/editors/space_node/node_edit.c:2574
 msgid "Text not used by any node, no update done"
 msgstr "文本没有被节点使用, 无更新"
 
-#: source/blender/editors/space_node/node_edit.c:2166
+#: source/blender/editors/space_node/node_edit.c:2167
 msgid "Cannot add node %s into node tree %s"
 msgstr "无法将 %s 类型的节点添加到节点树 %s 中"
 
@@ -116619,11 +116759,11 @@ msgstr "移动到集合内 (Ctrl 为关联, Shift 为父级)"
 msgid "Can't edit library linked object"
 msgstr "无法编辑与物体关联的库"
 
-#: source/blender/editors/space_outliner/outliner_draw.c:1027
+#: source/blender/editors/space_outliner/outliner_draw.c:1061
 msgid "Use view layer for rendering"
 msgstr "使用用于渲染的视图层"
 
-#: source/blender/editors/space_outliner/outliner_draw.c:1063
+#: source/blender/editors/space_outliner/outliner_draw.c:1097
 msgid ""
 "Temporarily hide in viewport\n"
 "* Shift to set children"
@@ -116631,7 +116771,7 @@ msgstr ""
 "在视图中暂时隐藏\n"
 "* 与Shift搭配使用时牵连"
 
-#: source/blender/editors/space_outliner/outliner_draw.c:1090
+#: source/blender/editors/space_outliner/outliner_draw.c:1124
 msgid ""
 "Disable selection in viewport\n"
 "* Shift to set children"
@@ -116639,7 +116779,7 @@ msgstr ""
 "在视图中禁用选择\n"
 "* 与Shift搭配使用时牵连"
 
-#: source/blender/editors/space_outliner/outliner_draw.c:1115
+#: source/blender/editors/space_outliner/outliner_draw.c:1149
 msgid ""
 "Globally disable in viewports\n"
 "* Shift to set children"
@@ -116647,7 +116787,7 @@ msgstr ""
 "全局禁用视图显示\n"
 "* 与Shift搭配使用时牵连"
 
-#: source/blender/editors/space_outliner/outliner_draw.c:1140
+#: source/blender/editors/space_outliner/outliner_draw.c:1174
 msgid ""
 "Globally disable in renders\n"
 "* Shift to set children"
@@ -116655,22 +116795,22 @@ msgstr ""
 "全局禁用渲染\n"
 "* 与Shift搭配使用时牵连"
 
-#: source/blender/editors/space_outliner/outliner_draw.c:1221
-#: source/blender/editors/space_outliner/outliner_draw.c:1266
-#: source/blender/editors/space_outliner/outliner_draw.c:1312
+#: source/blender/editors/space_outliner/outliner_draw.c:1255
+#: source/blender/editors/space_outliner/outliner_draw.c:1300
+#: source/blender/editors/space_outliner/outliner_draw.c:1346
 msgid "Restrict visibility in the 3D View"
 msgstr "在3D视图中限制可见性"
 
-#: source/blender/editors/space_outliner/outliner_draw.c:1242
-#: source/blender/editors/space_outliner/outliner_draw.c:1287
+#: source/blender/editors/space_outliner/outliner_draw.c:1276
+#: source/blender/editors/space_outliner/outliner_draw.c:1321
 msgid "Restrict selection in the 3D View"
 msgstr "在3D视图中限制可选性"
 
-#: source/blender/editors/space_outliner/outliner_draw.c:1333
+#: source/blender/editors/space_outliner/outliner_draw.c:1367
 msgid "Restrict editing of strokes and keyframes in this layer"
 msgstr "限制编辑该层中的笔画与关键帧"
 
-#: source/blender/editors/space_outliner/outliner_draw.c:1381
+#: source/blender/editors/space_outliner/outliner_draw.c:1401
 msgid ""
 "Temporarily hide in viewport\n"
 "* Ctrl to isolate collection\n"
@@ -116680,7 +116820,7 @@ msgstr ""
 "* Ctrl to isolate collection\n"
 "* 搭配Shift牵连内部子集合与物体"
 
-#: source/blender/editors/space_outliner/outliner_draw.c:1410
+#: source/blender/editors/space_outliner/outliner_draw.c:1430
 msgid ""
 "Mask out objects in collection from view layer\n"
 "* Ctrl to isolate collection\n"
@@ -116690,7 +116830,7 @@ msgstr ""
 "* Ctrl to isolate collection\n"
 "* 搭配Shift牵连内部子集合"
 
-#: source/blender/editors/space_outliner/outliner_draw.c:1440
+#: source/blender/editors/space_outliner/outliner_draw.c:1460
 msgid ""
 "Objects in collection only contribute indirectly (through shadows and reflections) in the view layer\n"
 "* Ctrl to isolate collection\n"
@@ -116700,7 +116840,7 @@ msgstr ""
 "* Ctrl to isolate collection\n"
 "* 搭配Shift牵连内部子集合"
 
-#: source/blender/editors/space_outliner/outliner_draw.c:1472
+#: source/blender/editors/space_outliner/outliner_draw.c:1492
 msgid ""
 "Globally disable in viewports\n"
 "* Ctrl to isolate collection\n"
@@ -116710,7 +116850,7 @@ msgstr ""
 "* Ctrl to isolate collection\n"
 "* 搭配Shift牵连内部子集合与物体"
 
-#: source/blender/editors/space_outliner/outliner_draw.c:1509
+#: source/blender/editors/space_outliner/outliner_draw.c:1529
 msgid ""
 "Globally disable in renders\n"
 "* Ctrl to isolate collection\n"
@@ -116720,7 +116860,7 @@ msgstr ""
 "* Ctrl to isolate collection\n"
 "* 搭配Shift牵连内部子集合与物体"
 
-#: source/blender/editors/space_outliner/outliner_draw.c:1544
+#: source/blender/editors/space_outliner/outliner_draw.c:1564
 msgid ""
 "Disable selection in viewport\n"
 "* Ctrl to isolate collection\n"
@@ -116730,19 +116870,19 @@ msgstr ""
 "* Ctrl to isolate collection\n"
 "* 搭配Shift牵连内部子集合与垂体"
 
-#: source/blender/editors/space_outliner/outliner_draw.c:1604
+#: source/blender/editors/space_outliner/outliner_draw.c:1630
 msgid "Number of users of this data-block"
 msgstr "数据块的用户数量"
 
-#: source/blender/editors/space_outliner/outliner_draw.c:1609
+#: source/blender/editors/space_outliner/outliner_draw.c:1635
 msgid "Data-block will be retained using a fake user"
 msgstr "将使用伪用户保留数据块"
 
-#: source/blender/editors/space_outliner/outliner_draw.c:1613
+#: source/blender/editors/space_outliner/outliner_draw.c:1639
 msgid "Data-block has no users and will be deleted"
 msgstr "数据块没有用户，将被删除"
 
-#: source/blender/editors/space_outliner/outliner_draw.c:1647
+#: source/blender/editors/space_outliner/outliner_draw.c:1673
 msgid "Data-block has a 'fake' user which will keep it in the file even if nothing else uses it"
 msgstr "数据块拥有一个伪用户就会被保存在文件内，如果没有用户使用它将不保存"
 
@@ -116838,9 +116978,9 @@ msgstr "未找到项: %s"
 msgid "Deleted %d data-blocks"
 msgstr "已删除 %d 数据块"
 
-#: source/blender/editors/space_outliner/outliner_tools.c:2193
-#: source/blender/editors/space_outliner/outliner_tools.c:2206
-#: source/blender/editors/space_outliner/outliner_tools.c:2226
+#: source/blender/editors/space_outliner/outliner_tools.c:2220
+#: source/blender/editors/space_outliner/outliner_tools.c:2233
+#: source/blender/editors/space_outliner/outliner_tools.c:2253
 msgid "Mixed selection"
 msgstr "混合所选项"
 
@@ -117303,7 +117443,7 @@ msgstr "无法在视图偏移被锁定时滑动"
 msgid "Depth too large"
 msgstr "深度值过大"
 
-#: source/blender/editors/space_view3d/view3d_edit.c:5212
+#: source/blender/editors/space_view3d/view3d_edit.c:5215
 msgid "X-Ray not available in current mode"
 msgstr "X光在此模式下不可用"
 
@@ -117352,15 +117492,15 @@ msgstr "已粘贴 %d 物体"
 msgid "No active element found!"
 msgstr "未找到活动元素!"
 
-#: source/blender/editors/space_view3d/view3d_view.c:537
+#: source/blender/editors/space_view3d/view3d_view.c:539
 msgid "No active camera"
 msgstr "无活动相机"
 
-#: source/blender/editors/space_view3d/view3d_view.c:1233
+#: source/blender/editors/space_view3d/view3d_view.c:1247
 msgid "No more than 16 local views"
 msgstr "不得多于 16 个局部视图"
 
-#: source/blender/editors/space_view3d/view3d_view.c:1490
+#: source/blender/editors/space_view3d/view3d_view.c:1504
 msgid "No object selected"
 msgstr "无选中物体"
 
@@ -117460,7 +117600,7 @@ msgstr "X 向缩放: %s   Y 向缩放: %s  Z 向缩放: %s%s %s"
 #: source/blender/editors/transform/transform.c:4330
 #: source/blender/editors/transform/transform.c:4759
 #: source/blender/editors/transform/transform.c:5111
-#: source/blender/editors/transform/transform.c:9358
+#: source/blender/editors/transform/transform.c:9396
 msgid " Proportional size: %.2f"
 msgstr " 衰减编辑区尺寸: %.2f"
 
@@ -117607,82 +117747,82 @@ msgstr "封套: %s"
 msgid "Envelope: %3f"
 msgstr "封套: %3f"
 
-#: source/blender/editors/transform/transform.c:8075
+#: source/blender/editors/transform/transform.c:8113
 msgid "Edge Slide: "
 msgstr "滑移边线: "
 
-#: source/blender/editors/transform/transform.c:8085
-#: source/blender/editors/transform/transform.c:8696
+#: source/blender/editors/transform/transform.c:8123
+#: source/blender/editors/transform/transform.c:8734
 msgid "(E)ven: %s, "
 msgstr "(E) 均匀: %s, "
 
-#: source/blender/editors/transform/transform.c:8088
-#: source/blender/editors/transform/transform.c:8699
+#: source/blender/editors/transform/transform.c:8126
+#: source/blender/editors/transform/transform.c:8737
 msgid "(F)lipped: %s, "
 msgstr "(F) 翻转: %s, "
 
-#: source/blender/editors/transform/transform.c:8091
-#: source/blender/editors/transform/transform.c:8702
+#: source/blender/editors/transform/transform.c:8129
+#: source/blender/editors/transform/transform.c:8740
 msgid "Alt or (C)lamp: %s"
 msgstr "Alt 或限定 (C): %s"
 
-#: source/blender/editors/transform/transform.c:8686
+#: source/blender/editors/transform/transform.c:8724
 msgid "Vert Slide: "
 msgstr "顶点滑移: "
 
-#: source/blender/editors/transform/transform.c:8761
+#: source/blender/editors/transform/transform.c:8799
 msgid "Roll: %s"
 msgstr "扭转: %s"
 
-#: source/blender/editors/transform/transform.c:8764
+#: source/blender/editors/transform/transform.c:8802
 msgid "Roll: %.2f"
 msgstr "扭转: %.2f"
 
-#: source/blender/editors/transform/transform.c:8844
+#: source/blender/editors/transform/transform.c:8882
 msgid "Time: +%s %s"
 msgstr "时间: +%s %s"
 
-#: source/blender/editors/transform/transform.c:8847
+#: source/blender/editors/transform/transform.c:8885
 msgid "Time: %s %s"
 msgstr "时间: %s %s"
 
-#: source/blender/editors/transform/transform.c:8853
+#: source/blender/editors/transform/transform.c:8891
 msgid "Time: +%.3f %s"
 msgstr "时间: +%.3f %s"
 
-#: source/blender/editors/transform/transform.c:8856
+#: source/blender/editors/transform/transform.c:8894
 msgid "Time: %.3f %s"
 msgstr "时间: %.3f %s"
 
-#: source/blender/editors/transform/transform.c:8928
+#: source/blender/editors/transform/transform.c:8966
 msgid "Mirror%s"
 msgstr "镜像 %s"
 
-#: source/blender/editors/transform/transform.c:8972
+#: source/blender/editors/transform/transform.c:9010
 msgid "Select a mirror axis (X, Y)"
 msgstr "选择一个镜像轴 (X, Y)"
 
-#: source/blender/editors/transform/transform.c:8975
+#: source/blender/editors/transform/transform.c:9013
 msgid "Select a mirror axis (X, Y, Z)"
 msgstr "选择一个镜像轴 (X, Y, Z)"
 
-#: source/blender/editors/transform/transform.c:9083
+#: source/blender/editors/transform/transform.c:9121
 msgid "Sequence Slide: %s%s, ("
 msgstr "序列滑移: %s%s, ("
 
-#: source/blender/editors/transform/transform.c:9093
+#: source/blender/editors/transform/transform.c:9131
 msgid " or Alt) Expand to fit %s"
 msgstr " 或 Alt) 扩展匹配到 %s"
 
-#: source/blender/editors/transform/transform.c:9354
+#: source/blender/editors/transform/transform.c:9392
 msgid "DeltaX: %s"
 msgstr "X 向增量: %s"
 
-#: source/blender/editors/transform/transform.c:9546
+#: source/blender/editors/transform/transform.c:9584
 msgid "TimeSlide: %s"
 msgstr "时间滑移: %s"
 
-#: source/blender/editors/transform/transform.c:9704
+#: source/blender/editors/transform/transform.c:9742
 msgid "ScaleX: %s"
 msgstr "X 向缩放: %s"
 
@@ -117769,11 +117909,11 @@ msgstr "文本空间变换不支持的类型"
 msgid "Linked data can't text-space transform"
 msgstr "关联的数据不能文本-空间变换"
 
-#: source/blender/editors/transform/transform_conversions.c:1309
+#: source/blender/editors/transform/transform_conversions.c:1308
 msgid "Cannot change Pose when 'Rest Position' is enabled"
 msgstr "当 '静默姿态' 启动时无法改变姿态"
 
-#: source/blender/editors/transform/transform_conversions.c:1405
+#: source/blender/editors/transform/transform_conversions.c:1402
 msgid "Bone selection count error"
 msgstr "吸附选择至光标"
 
@@ -118001,7 +118141,7 @@ msgstr "' %s' 没有大写字母数字后缀"
 
 #: source/blender/makesrna/intern/rna_access.c:3746
 msgid "%s: expected %s type, not %s."
-msgstr "％s: 预期 ％s 类型，而非 %s."
+msgstr ""
 
 #: source/blender/makesrna/intern/rna_access.c:4447
 msgid "Array length mismatch (expected %d, got %d)"
@@ -118312,7 +118452,7 @@ msgid "Can not create object in main database with an evaluated data data-block"
 msgstr "无法使用已评估的数据数据块在主数据库中创建对象"
 
 #: source/blender/makesrna/intern/rna_main_api.c:349
-#: source/blender/makesrna/intern/rna_object_api.c:392
+#: source/blender/makesrna/intern/rna_object_api.c:358
 msgid "Object does not have geometry data"
 msgstr "点数据的来源物体"
 
@@ -118383,11 +118523,11 @@ msgstr "未找到纹理层 '%s'"
 
 #: source/blender/makesrna/intern/rna_mesh_api.c:137
 msgid "Number of custom normals is not number of loops (%f / %d)"
-msgstr "自定义法线向量数不是循环数（％f /％d）"
+msgstr ""
 
 #: source/blender/makesrna/intern/rna_mesh_api.c:159
 msgid "Number of custom normals is not number of vertices (%f / %d)"
-msgstr "自定义法线向量数不是顶点数（％f /％d）"
+msgstr ""
 
 #: source/blender/makesrna/intern/rna_meta.c:132
 msgid "Metaball '%s' does not contain spline given"
@@ -118508,68 +118648,66 @@ msgstr "形变组 '%s' 未存在于物体 '%s' 中"
 msgid "FaceMap '%s' not in object '%s'"
 msgstr ""
 
-#: source/blender/makesrna/intern/rna_object_api.c:260
+#: source/blender/makesrna/intern/rna_object_api.c:226
 msgid "Viewport not in local view"
 msgstr "视图不在自身视图状态"
 
-#: source/blender/makesrna/intern/rna_object_api.c:433
+#: source/blender/makesrna/intern/rna_object_api.c:399
 msgid "ShapeKey not found"
 msgstr "未找到形态键"
 
-#: source/blender/makesrna/intern/rna_object_api.c:438
+#: source/blender/makesrna/intern/rna_object_api.c:404
 msgid "Could not remove ShapeKey"
 msgstr "无法删除形态键"
 
-#: source/blender/makesrna/intern/rna_object_api.c:461
+#: source/blender/makesrna/intern/rna_object_api.c:427
 msgid "Object should be of mesh type"
 msgstr "物体需要是网格类型"
 
 # rblc
-#: source/blender/makesrna/intern/rna_object_api.c:468
+#: source/blender/makesrna/intern/rna_object_api.c:434
 msgid "No vertex groups assigned to mesh"
 msgstr "网格未被指定任何顶点组"
 
 # rblc
-#: source/blender/makesrna/intern/rna_object_api.c:473
+#: source/blender/makesrna/intern/rna_object_api.c:439
 msgid "Bad assignment mode"
 msgstr "分配模式不良"
 
 # rblc
-#: source/blender/makesrna/intern/rna_object_api.c:485
+#: source/blender/makesrna/intern/rna_object_api.c:451
 msgid "Bad vertex index in list"
 msgstr "列表中存在不良的顶点编号"
 
-#: source/blender/makesrna/intern/rna_object_api.c:100
-#: source/blender/makesrna/intern/rna_object_api.c:126
-#: source/blender/makesrna/intern/rna_object_api.c:146
-#: source/blender/makesrna/intern/rna_object_api.c:178
-#: source/blender/makesrna/intern/rna_object_api.c:201
-#: source/blender/makesrna/intern/rna_object_api.c:223
-#: source/blender/makesrna/intern/rna_object_api.c:245
-msgid "Object '%s' not in View Layer '%s'!"
+#. :src: source/blender/makesrna/intern/rna_object_api.c:101
+msgid "Object '%s' can't be selected because it is not in View Layer '%s'!"
 msgstr ""
 
-#: source/blender/makesrna/intern/rna_object_api.c:268
+#. :src: source/blender/makesrna/intern/rna_object_api.c:141
+msgid "Object '%s' can't be hidden because it is not in View Layer '%s'!"
+msgstr ""
+
+#: source/blender/makesrna/intern/rna_object_api.c:234
 msgid "Object %s not in view layer %s"
 msgstr ""
 
-#: source/blender/makesrna/intern/rna_object_api.c:327
+#: source/blender/makesrna/intern/rna_object_api.c:293
 msgid "'from_space' '%s' is invalid when no pose bone is given!"
 msgstr "当没有给定姿势骨骼时'from_space' '%s'无效!"
 
-#: source/blender/makesrna/intern/rna_object_api.c:336
+#: source/blender/makesrna/intern/rna_object_api.c:302
 msgid "'to_space' '%s' is invalid when no pose bone is given!"
 msgstr "当没有给定姿势骨骼时'to_space' '%s'无效!"
 
-#: source/blender/makesrna/intern/rna_object_api.c:419
+#: source/blender/makesrna/intern/rna_object_api.c:385
 msgid "Object '%s' does not support shapes"
 msgstr "物体 '%s' 不支持变形"
 
-#: source/blender/makesrna/intern/rna_object_api.c:516
+#: source/blender/makesrna/intern/rna_object_api.c:482
 msgid "Object '%s' has no evaluated mesh data"
 msgstr "物体 '%s' 无已解算网格数据"
 
-#: source/blender/makesrna/intern/rna_object_api.c:616
+#: source/blender/makesrna/intern/rna_object_api.c:582
 msgid "Object '%s' could not create internal data for finding nearest point"
 msgstr "物体 '%s' 无法创建用于寻找最近点的内部数据"
 
@@ -118886,7 +119024,7 @@ msgstr "未找到操作 '%s'!"
 msgid "Gizmo group '%s' not found!"
 msgstr "未找到Gizmo组 '%s'!"
 
-#: source/blender/modifiers/intern/MOD_bevel.c:190
+#: source/blender/modifiers/intern/MOD_bevel.c:192
 msgid "Enable 'Auto Smooth' option in mesh settings for hardening"
 msgstr "在网格设置中启用 '自动平滑' 选项以进行强化"
 
@@ -119700,60 +119838,60 @@ msgstr "粘贴名称"
 msgid "Missing 'window' in context"
 msgstr "上下文中缺少'window'"
 
-#: source/blender/windowmanager/intern/wm_files.c:2289
+#: source/blender/windowmanager/intern/wm_files.c:2297
 msgid "Trusted Source [Untrusted Path]"
 msgstr "可信来源[不受信任的路径]"
 
-#: source/blender/windowmanager/intern/wm_files.c:2833
-#: source/blender/windowmanager/intern/wm_files.c:2851
+#: source/blender/windowmanager/intern/wm_files.c:2841
+#: source/blender/windowmanager/intern/wm_files.c:2859
 msgid "Allow Execution"
 msgstr "允许执行"
 
-#: source/blender/windowmanager/intern/wm_files.c:2989
+#: source/blender/windowmanager/intern/wm_files.c:2997
 msgid "Discard Changes"
 msgstr "放弃修改"
 
-#: source/blender/windowmanager/intern/wm_files.c:688
+#: source/blender/windowmanager/intern/wm_files.c:692
 msgid "unable to open the file"
 msgstr "无法打开文件"
 
-#: source/blender/windowmanager/intern/wm_files.c:2800
+#: source/blender/windowmanager/intern/wm_files.c:2808
 msgid "For security reasons, automatic execution of Python scripts in this file was disabled:"
 msgstr ""
 
-#: source/blender/windowmanager/intern/wm_files.c:2806
+#: source/blender/windowmanager/intern/wm_files.c:2814
 msgid "This may lead to unexpected behavior"
 msgstr "这可能会导致意外的行为"
 
-#: source/blender/windowmanager/intern/wm_files.c:2816
+#: source/blender/windowmanager/intern/wm_files.c:2824
 msgid "Permanently allow execution of scripts"
 msgstr "永久允许执行脚本"
 
-#: source/blender/windowmanager/intern/wm_files.c:2843
+#: source/blender/windowmanager/intern/wm_files.c:2851
 msgid "Reload file with execution of Python scripts enabled"
 msgstr "可运行Python脚本开启后重新加载文件"
 
-#: source/blender/windowmanager/intern/wm_files.c:2861
+#: source/blender/windowmanager/intern/wm_files.c:2869
 msgid "Enable scripts"
 msgstr "启用脚本"
 
-#: source/blender/windowmanager/intern/wm_files.c:2884
+#: source/blender/windowmanager/intern/wm_files.c:2892
 msgid "Continue using file without Python scripts"
 msgstr "继续使用文件不开启Python脚本"
 
-#: source/blender/windowmanager/intern/wm_files.c:1335
+#: source/blender/windowmanager/intern/wm_files.c:1339
 msgid "Path is empty, cannot save"
 msgstr "路径为空，无法保存"
 
-#: source/blender/windowmanager/intern/wm_files.c:1340
+#: source/blender/windowmanager/intern/wm_files.c:1344
 msgid "Path too long, cannot save"
 msgstr "路径太长，无法保存"
 
-#: source/blender/windowmanager/intern/wm_files.c:1628
+#: source/blender/windowmanager/intern/wm_files.c:1632
 msgid "Unable to create user config path"
 msgstr "无法创建用户配置路径"
 
-#: source/blender/windowmanager/intern/wm_files.c:2163
+#: source/blender/windowmanager/intern/wm_files.c:2171
 msgid "Context window not set"
 msgstr "未设置上下文窗口"
 
@@ -119761,43 +119899,43 @@ msgstr "未设置上下文窗口"
 msgid "Engine '%s' not available for scene '%s' (an add-on may need to be installed or enabled)"
 msgstr ""
 
-#: source/blender/windowmanager/intern/wm_files.c:684
+#: source/blender/windowmanager/intern/wm_files.c:688
 msgid "Cannot read file '%s': %s"
 msgstr "无法读取文件 '%s': %s"
 
-#: source/blender/windowmanager/intern/wm_files.c:691
+#: source/blender/windowmanager/intern/wm_files.c:695
 msgid "File format is not supported in file '%s'"
 msgstr "在 '%s' 中不支持的文件格式"
 
-#: source/blender/windowmanager/intern/wm_files.c:694
+#: source/blender/windowmanager/intern/wm_files.c:698
 msgid "File path '%s' invalid"
 msgstr "文件路径 '%s' 无效"
 
-#: source/blender/windowmanager/intern/wm_files.c:697
+#: source/blender/windowmanager/intern/wm_files.c:701
 msgid "Unknown error loading '%s'"
 msgstr "未知的加载错误 '%s'"
 
-#: source/blender/windowmanager/intern/wm_files.c:895
+#: source/blender/windowmanager/intern/wm_files.c:899
 msgid "Application Template '%s' not found"
 msgstr "未找到应用模板 '%s'"
 
-#: source/blender/windowmanager/intern/wm_files.c:960
+#: source/blender/windowmanager/intern/wm_files.c:964
 msgid "Could not read '%s'"
 msgstr "无法读取 '%s'"
 
-#: source/blender/windowmanager/intern/wm_files.c:1346
+#: source/blender/windowmanager/intern/wm_files.c:1350
 msgid "Cannot save blend file, path '%s' is not writable"
 msgstr "无法保存blend文件，路径 '%s' 不可写入"
 
-#: source/blender/windowmanager/intern/wm_files.c:1357
+#: source/blender/windowmanager/intern/wm_files.c:1361
 msgid "Cannot overwrite used library '%.240s'"
 msgstr "无法覆写已使用的库 '%.240s'"
 
-#: source/blender/windowmanager/intern/wm_files.c:1909
+#: source/blender/windowmanager/intern/wm_files.c:1915
 msgid "Can't read alternative start-up file: '%s'"
 msgstr "无法读取备用启动文件: '%s'"
 
-#: source/blender/windowmanager/intern/wm_files.c:2677
+#: source/blender/windowmanager/intern/wm_files.c:2685
 msgid "Saved \"%s\""
 msgstr "已保存 \"%s\""
 
