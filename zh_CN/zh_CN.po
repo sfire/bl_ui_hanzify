@@ -31,7 +31,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Blender 2.80 (sub 74) (b'38d4483c6a51')\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-21 00:00:00\n"
+"POT-Creation-Date: 2019-07-24 00:00:00\n"
 "PO-Revision-Date: \n"
 "Last-Translator: DeathBlood\n"
 "Language-Team: \n"
@@ -1752,6 +1752,7 @@ msgstr "动作合并与分层"
 #. :src: bpy.types.Theme.text_editor
 #. :src: bpy.types.Theme.theme_area:'TEXT_EDITOR'
 #. :src: bpy.types.WorkSpaceTool.space_type:'TEXT_EDITOR'
+#. :src: Add-ons' categories
 msgid "Text Editor"
 msgstr "文本编辑器"
 
@@ -13255,6 +13256,7 @@ msgstr "在依赖关系图中已估算的对象"
 #. :src: bpy.types.SpaceProperties.context:'SCENE'
 #. :src: bpy.types.ThemeUserInterface.icon_scene
 #. :src: bpy.types.UnifiedPaintSettings.use_locked_size:'SCENE'
+#. :src: Add-ons' categories
 #: scripts/startup/bl_ui/properties_output.py:219
 #: scripts/startup/bl_ui/space_sequencer.py:442
 #: source/blender/editors/scene/scene_edit.c:63
@@ -28797,21 +28799,21 @@ msgstr "阴影缓冲区裁剪起始点"
 #. :src: bpy.types.SpotLight.shadow_buffer_clip_start
 #. :src: bpy.types.SunLight.shadow_buffer_clip_start
 msgid "Shadow map clip start, below which objects will not generate shadows"
-msgstr "阴影映射区段结束点, 越过此点的物体将不产生阴影"
+msgstr "阴影映射区裁剪起始点, 越过此点的物体将不产生阴影"
 
 #. :src: bpy.types.AreaLight.shadow_buffer_exp
 #. :src: bpy.types.PointLight.shadow_buffer_exp
 #. :src: bpy.types.SpotLight.shadow_buffer_exp
 #. :src: bpy.types.SunLight.shadow_buffer_exp
 msgid "Shadow Buffer Exponent"
-msgstr "阴影缓冲区段结束点"
+msgstr "阴影缓冲区指数"
 
 #. :src: bpy.types.AreaLight.shadow_buffer_exp
 #. :src: bpy.types.PointLight.shadow_buffer_exp
 #. :src: bpy.types.SpotLight.shadow_buffer_exp
 #. :src: bpy.types.SunLight.shadow_buffer_exp
 msgid "Bias for reducing light-bleed on exponential shadow maps"
-msgstr "在方差阴影映射(VSM)降低灯光出血的偏移量"
+msgstr "在指数阴影映射上降低灯光出血的偏移量"
 
 #. :src: bpy.types.AreaLight.shadow_buffer_samples
 #. :src: bpy.types.PointLight.shadow_buffer_samples
@@ -34233,7 +34235,7 @@ msgstr "最大离心率 (值越高, 则远处角/斜角处就越模糊, 但速�
 
 #. :src: bpy.types.ImageTexture.filter_lightprobes
 msgid "Filter Probes"
-msgstr "滤镜试样"
+msgstr "过渡探头"
 
 #. :src: bpy.types.ImageTexture.filter_lightprobes
 msgid "Maximum number of samples (higher gives less blur at distant/oblique angles, but is also slower)"
@@ -34260,7 +34262,7 @@ msgstr "叠加滤镜尺寸, 用于插值和多级纹理"
 #. :src: bpy.types.SpacePreferences.filter_text
 #: source/blender/nodes/composite/node_composite_tree.c:68
 msgid "Filter"
-msgstr "滤镜"
+msgstr "滤镜(过滤)"
 
 #. :src: bpy.types.ImageTexture.filter_type
 msgid "Texture filter to use for sampling image"
@@ -45065,7 +45067,7 @@ msgstr "平滑着色"
 #. :src: bpy.types.ScrewModifier.use_smooth_shade
 #. :src: bpy.types.SkinModifier.use_smooth_shade
 msgid "Output faces with smooth shading rather than flat shaded"
-msgstr "输出为光滑着色面,, 而非平展着色"
+msgstr "输出为平滑着色面,, 而非平展着色"
 
 #. :src: bpy.types.ScrewModifier
 msgid "Screw Modifier"
@@ -58736,7 +58738,7 @@ msgstr "将着色方式设为平直"
 #: scripts/startup/bl_ui/space_view3d.py:2258
 msgctxt "Operator"
 msgid "Shade Smooth"
-msgstr "光滑着色"
+msgstr "平滑着色"
 
 #. :src: bpy.types.CURVE_OT_shade_smooth
 msgid "Set shading to smooth"
@@ -59409,7 +59411,7 @@ msgstr "为输出的网格应用修改器"
 
 #. :src: bpy.types.EXPORT_MESH_OT_ply.use_normals
 msgid "Export Normals for smooth and hard shaded faces (hard shaded faces will be exported as individual faces)"
-msgstr "导出用于光滑着色面及锐利着色面的法线数据 (锐利着色面将以多个独立面的形式导出)"
+msgstr "导出用于平滑着色面及锐利着色面的法线数据 (锐利着色面将以多个独立面的形式导出)"
 
 #. :src: bpy.types.EXPORT_MESH_OT_ply.use_uv_coords
 msgid "Export the active UV layer"
@@ -68337,7 +68339,7 @@ msgstr "添加节点"
 #. :src: bpy.types.NODE_OT_add_node
 #. :src: bpy.types.NODE_OT_add_search
 msgid "Add a node to the active tree"
-msgstr "为激活树添加一个节点"
+msgstr "为活动节点添加一个节点"
 
 #. :src: bpy.types.NODE_OT_add_reroute
 msgctxt "Operator"
@@ -74719,6 +74721,7 @@ msgstr "渲染该场景的动画区间"
 #. :src: bpy.types.RenderSettings.use_sequencer
 #. :src: bpy.types.SceneSequence.scene_input:'SEQUENCER'
 #. :src: bpy.types.SpaceSequenceEditor.view_type:'SEQUENCER'
+#. :src: Add-ons' categories
 #: scripts/startup/bl_ui/properties_render.py:93
 msgid "Sequencer"
 msgstr "序列编辑器"
@@ -105029,7 +105032,7 @@ msgstr "框"
 
 #: scripts/startup/bl_ui/properties_data_modifier.py:994
 msgid "Material Index Offset:"
-msgstr "材料指数偏移:"
+msgstr "材质编号偏移:"
 
 #: scripts/startup/bl_ui/properties_data_modifier.py:1089
 #: scripts/startup/bl_ui/properties_output.py:125
@@ -111514,7 +111517,7 @@ msgstr "ID %s 的 lib 指针不匹配!"
 
 #: source/blender/blenloader/intern/blend_validate.c:140
 msgid "ID %s not found in library %s anymore!"
-msgstr "在库 ％s 中找不到 ID ％s 了！"
+msgstr "ID ％s 无法在库 ％s 中找到!"
 
 #: source/blender/blenloader/intern/blend_validate.c:184
 msgid "ID %s uses shapekey %s, but its 'from' pointer is invalid (%p), fixing..."
@@ -118076,7 +118079,7 @@ msgstr "无法打开文件: %s"
 
 #: source/blender/imbuf/intern/thumbs_font.c:35
 msgid "AaBbCc"
-msgstr "AaBbCc"
+msgstr "斑斓中国"
 
 #: source/blender/imbuf/intern/thumbs_font.c:37
 msgid "The quick"
@@ -118679,11 +118682,11 @@ msgstr "分配模式不良"
 msgid "Bad vertex index in list"
 msgstr "列表中存在不良的顶点编号"
 
-#. :src: source/blender/makesrna/intern/rna_object_api.c:101
+#: source/blender/makesrna/intern/rna_object_api.c:101
 msgid "Object '%s' can't be selected because it is not in View Layer '%s'!"
 msgstr ""
 
-#. :src: source/blender/makesrna/intern/rna_object_api.c:141
+#: source/blender/makesrna/intern/rna_object_api.c:141
 msgid "Object '%s' can't be hidden because it is not in View Layer '%s'!"
 msgstr ""
 

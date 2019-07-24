@@ -69,3 +69,5 @@ Blender 的UI是通过安装目录下的 `\datafiles\locale\zh_CN\LC_MESSAGES` �
 2. 词条缺失：https://developer.blender.org/T66844
 
 3. 已有词条无法正常显示中文：https://developer.blender.org/T66731
+
+4. 中文字体无法以预览中文字符: https://developer.blender.org/T67620
