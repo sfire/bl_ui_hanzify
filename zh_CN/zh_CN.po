@@ -29,9 +29,9 @@
 #   Asx <i@iAsx.org> | DeathBlood | NGE
 msgid ""
 msgstr ""
-"Project-Id-Version: Blender 2.80 (sub 74) (b'38d4483c6a51')\n"
+"Project-Id-Version: Blender 2.80 (sub 75) (b'8e1516b7bcca')\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-24 00:00:00\n"
+"POT-Creation-Date: 2019-07-29 00:00:00\n"
 "PO-Revision-Date: \n"
 "Last-Translator: DeathBlood\n"
 "Language-Team: \n"
@@ -1752,7 +1752,6 @@ msgstr "动作合并与分层"
 #. :src: bpy.types.Theme.text_editor
 #. :src: bpy.types.Theme.theme_area:'TEXT_EDITOR'
 #. :src: bpy.types.WorkSpaceTool.space_type:'TEXT_EDITOR'
-#. :src: Add-ons' categories
 msgid "Text Editor"
 msgstr "文本编辑器"
 
@@ -5340,11 +5339,11 @@ msgstr "骨头变形权重"
 #. :src: bpy.types.EditBone.head
 #. :src: bpy.types.ParticleSettings.line_length_head
 msgid "Head"
-msgstr "首端"
+msgstr "头部"
 
 #. :src: bpy.types.Bone.head
 msgid "Location of head end of the bone relative to its parent"
-msgstr "定位骨头的头底部"
+msgstr "骨骼的头部相对其父级的位置"
 
 #. :src: bpy.types.Bone.head_local
 msgid "Armature-Relative Head"
@@ -13256,7 +13255,6 @@ msgstr "在依赖关系图中已估算的对象"
 #. :src: bpy.types.SpaceProperties.context:'SCENE'
 #. :src: bpy.types.ThemeUserInterface.icon_scene
 #. :src: bpy.types.UnifiedPaintSettings.use_locked_size:'SCENE'
-#. :src: Add-ons' categories
 #: scripts/startup/bl_ui/properties_output.py:219
 #: scripts/startup/bl_ui/space_sequencer.py:442
 #: source/blender/editors/scene/scene_edit.c:63
@@ -15347,7 +15345,7 @@ msgstr "父系的编辑骨骼(在骨架中)"
 #. :src: bpy.types.VIEW3D_OT_view_orbit.angle
 #. :src: bpy.types.VIEW3D_OT_view_roll.angle
 msgid "Roll"
-msgstr "滚动"
+msgstr "扭转(滚动)"
 
 #. :src: bpy.types.EditBone.roll
 msgid "Bone rotation around head-tail axis"
@@ -17658,7 +17656,7 @@ msgstr "是否此路径当前可到达"
 #. :src: bpy.types.FileBrowserFSMenuEntry.use_save
 #. :src: bpy.types.TEXT_OT_resolve_conflict.resolution:'SAVE'
 #: source/blender/editors/space_image/image_buttons.c:858
-#: source/blender/windowmanager/intern/wm_files.c:3005
+#: source/blender/windowmanager/intern/wm_files.c:3006
 msgid "Save"
 msgstr "保存"
 
@@ -46454,7 +46452,7 @@ msgstr "使用骨骼头"
 
 #. :src: bpy.types.MotionPath.use_bone_head
 msgid "For PoseBone paths, use the bone head location when calculating this path"
-msgstr "对于姿态骨骼的路径, 当计算此路径时, 使用骨骼的首端位置"
+msgstr "对于姿态骨骼的路径, 当计算此路径时, 使用骨骼的头部位置"
 
 #. :src: bpy.types.MotionPath.use_custom_color
 msgid "Custom colors"
@@ -54570,11 +54568,11 @@ msgstr "显示所有编辑模式下隐藏的骨骼"
 #. :src: bpy.types.ARMATURE_OT_roll_clear
 msgctxt "Operator"
 msgid "Clear Roll"
-msgstr "清除滚动"
+msgstr "清除扭转"
 
 #. :src: bpy.types.ARMATURE_OT_roll_clear
 msgid "Clear roll for selected bones"
-msgstr "清除选定骨骼的滚动"
+msgstr "清除选定骨骼的扭转"
 
 #. :src: bpy.types.ARMATURE_OT_select_all
 #. :src: bpy.types.CLIP_OT_select_all
@@ -57992,7 +57990,7 @@ msgstr "蜡笔法向缩放"
 #. :src: bpy.types.SEQUENCER_OT_duplicate.mode:'BONE_ROLL'
 #. :src: bpy.types.TRANSFORM_OT_transform.mode:'BONE_ROLL'
 msgid "Bone_Roll"
-msgstr "骨骼滚动"
+msgstr "骨骼扭转"
 
 #. :src: bpy.types.CURVE_OT_extrude.mode:'TIME_TRANSLATE'
 #. :src: bpy.types.GRAPH_OT_duplicate.mode:'TIME_TRANSLATE'
@@ -61446,7 +61444,7 @@ msgid "Simple linear timing"
 msgstr "线性时序采样"
 
 #. :src: bpy.types.GPENCIL_OT_convert.timing_mode:'FULL'
-#: source/blender/blenkernel/intern/undo_system.c:342
+#: source/blender/blenkernel/intern/undo_system.c:349
 msgid "Original"
 msgstr "原始的"
 
@@ -74721,7 +74719,6 @@ msgstr "渲染该场景的动画区间"
 #. :src: bpy.types.RenderSettings.use_sequencer
 #. :src: bpy.types.SceneSequence.scene_input:'SEQUENCER'
 #. :src: bpy.types.SpaceSequenceEditor.view_type:'SEQUENCER'
-#. :src: Add-ons' categories
 #: scripts/startup/bl_ui/properties_render.py:93
 msgid "Sequencer"
 msgstr "序列编辑器"
@@ -80417,7 +80414,7 @@ msgstr "滚动视图"
 
 #. :src: bpy.types.VIEW3D_OT_view_roll
 msgid "Roll the view"
-msgstr "旋转视图"
+msgstr "滚动视图"
 
 #. :src: bpy.types.VIEW3D_OT_view_roll.type
 msgid "Roll Angle Source"
@@ -84846,7 +84843,7 @@ msgstr "推"
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'EDIT_ARMATURE', 'builtin.roll'
 msgctxt "Operator"
 msgid "Roll"
-msgstr "滚动"
+msgstr "扭转"
 
 #. :src: bpy.types.VIEW3D_PT_tools_active Tools: 'EDIT_ARMATURE', 'builtin.bone_size'
 msgctxt "Operator"
@@ -88248,11 +88245,11 @@ msgstr "默认使用变换Gizmo"
 
 #. :src: bpy.types.PreferencesView.show_large_cursors
 msgid "Large Cursors"
-msgstr "大号游标"
+msgstr "大号光标"
 
 #. :src: bpy.types.PreferencesView.show_large_cursors
 msgid "Use large mouse cursors when available"
-msgstr "为鼠标开启大游标显示"
+msgstr "为鼠标开启大光标显示(3D视图)"
 
 #. :src: bpy.types.PreferencesView.show_layout_ui
 msgid "Editor Corner Splitting"
@@ -105095,7 +105092,7 @@ msgstr "默认权重 B:"
 
 #: scripts/startup/bl_ui/properties_data_modifier.py:1301
 msgid "Mix Set:"
-msgstr "最小设置:"
+msgstr "混合设置:"
 
 #: scripts/startup/bl_ui/properties_data_modifier.py:1316
 msgid "Target Object:"
@@ -110964,7 +110961,7 @@ msgstr "无法打开文件夹 %s"
 
 #: source/blender/blenkernel/intern/bpath.c:314
 msgid "Could not find '%s' in '%s'"
-msgstr "无法在 '%s' 中找到 '%s'"
+msgstr "'%s' 无法在 '%s' 中找到"
 
 #: source/blender/blenkernel/intern/cloth.c:281
 msgid "Can't initialize cloth"
@@ -111057,46 +111054,46 @@ msgstr "OS Loop"
 msgid "PreviewLoopCol"
 msgstr "预览 LoopCol"
 
-#: source/blender/blenkernel/intern/data_transfer.c:1509
+#: source/blender/blenkernel/intern/data_transfer.c:1511
 msgid "Source and destination meshes do not have the same amount of vertices, 'Topology' mapping cannot be used in this case"
 msgstr "源网格与目标网格顶点数量不一致，此类情形无法使用 '拓扑' 映射"
 
-#: source/blender/blenkernel/intern/data_transfer.c:1516
-#: source/blender/blenkernel/intern/data_transfer.c:1685
-#: source/blender/blenkernel/intern/data_transfer.c:1776
+#: source/blender/blenkernel/intern/data_transfer.c:1518
+#: source/blender/blenkernel/intern/data_transfer.c:1687
+#: source/blender/blenkernel/intern/data_transfer.c:1778
 msgid "Source mesh doesn't have any edges, None of the 'Edge' mappings can be used in this case"
 msgstr "源网格不包含任何边，此类情形无法使用任何一种 '边' 映射"
 
-#: source/blender/blenkernel/intern/data_transfer.c:1523
-#: source/blender/blenkernel/intern/data_transfer.c:1599
+#: source/blender/blenkernel/intern/data_transfer.c:1525
+#: source/blender/blenkernel/intern/data_transfer.c:1601
 msgid "Source mesh doesn't have any faces, None of the 'Face' mappings can be used in this case"
 msgstr "源网格不包含任何面，此类情形无法使用任何一种 '面' 映射"
 
-#: source/blender/blenkernel/intern/data_transfer.c:1530
+#: source/blender/blenkernel/intern/data_transfer.c:1532
 msgid "Source or destination meshes do not have any vertices, cannot transfer vertex data"
 msgstr "源网格与目标网格均不包含顶点，无法传递顶点数据"
 
-#: source/blender/blenkernel/intern/data_transfer.c:1592
+#: source/blender/blenkernel/intern/data_transfer.c:1594
 msgid "Source and destination meshes do not have the same amount of edges, 'Topology' mapping cannot be used in this case"
 msgstr "源网格与目标网格边数不一致，此类情形无法使用 '拓扑' 映射"
 
-#: source/blender/blenkernel/intern/data_transfer.c:1606
+#: source/blender/blenkernel/intern/data_transfer.c:1608
 msgid "Source or destination meshes do not have any edges, cannot transfer edge data"
 msgstr "源网格与目标网格均不包含边，无法传递边数据"
 
-#: source/blender/blenkernel/intern/data_transfer.c:1678
+#: source/blender/blenkernel/intern/data_transfer.c:1680
 msgid "Source and destination meshes do not have the same amount of face corners, 'Topology' mapping cannot be used in this case"
 msgstr "源网格与目标网格面拐数量不一致，此类情形无法使用 '拓扑' 映射"
 
-#: source/blender/blenkernel/intern/data_transfer.c:1692
+#: source/blender/blenkernel/intern/data_transfer.c:1694
 msgid "Source or destination meshes do not have any faces, cannot transfer corner data"
 msgstr "源网格与目标网格均不包含面，无法传递拐角数据"
 
-#: source/blender/blenkernel/intern/data_transfer.c:1769
+#: source/blender/blenkernel/intern/data_transfer.c:1771
 msgid "Source and destination meshes do not have the same amount of faces, 'Topology' mapping cannot be used in this case"
 msgstr "源网格与目标网格面数不一致，此类情形无法使用 '拓扑' 映射"
 
-#: source/blender/blenkernel/intern/data_transfer.c:1783
+#: source/blender/blenkernel/intern/data_transfer.c:1785
 msgid "Source or destination meshes do not have any faces, cannot transfer face data"
 msgstr "源网格与目标网格均不包含面，无法传递面数据"
 
@@ -111434,7 +111431,7 @@ msgstr "重构时需要在两个关键帧帧之间设置至少8个共同轨迹"
 msgid "Blender is compiled without motion tracking library"
 msgstr "Blender 没有使用运动跟踪库来编译"
 
-#: source/blender/blenkernel/intern/undo_system.c:350
+#: source/blender/blenkernel/intern/undo_system.c:357
 msgid "Original Mode"
 msgstr "原始模式"
 
@@ -111517,7 +111514,7 @@ msgstr "ID %s 的 lib 指针不匹配!"
 
 #: source/blender/blenloader/intern/blend_validate.c:140
 msgid "ID %s not found in library %s anymore!"
-msgstr "ID ％s 无法在库 ％s 中找到!"
+msgstr ""
 
 #: source/blender/blenloader/intern/blend_validate.c:184
 msgid "ID %s uses shapekey %s, but its 'from' pointer is invalid (%p), fixing..."
@@ -111566,7 +111563,7 @@ msgstr "LIB: %s: '%s' 缺失自 '%s', 父级 '%s'"
 
 #: source/blender/blenloader/intern/readfile.c:11736
 msgid "Read packed library:  '%s', parent '%s'"
-msgstr "读取打包的库：'％s'，父级 '％s'"
+msgstr ""
 
 #: source/blender/blenloader/intern/readfile.c:11748
 msgid "Read library:  '%s', '%s', parent '%s'"
@@ -114025,7 +114022,7 @@ msgstr "无选中顶点"
 msgid "No vertex group among the selected vertices"
 msgstr "选中的顶点中无顶点组"
 
-#: source/blender/editors/mesh/editmesh_tools.c:7723
+#: source/blender/editors/mesh/editmesh_tools.c:7724
 msgid "%s: confirm, %s: cancel, %s: point to mouse (%s), %s: point to Pivot, %s: point to object origin, %s: reset normals, %s: set & point to 3D cursor, %s: select & point to mesh item, %s: invert normals (%s), %s: spherize (%s), %s: align (%s)"
 msgstr "%s: 确认, %s: 取消, %s: 指向鼠标 (%s), %s: 指向轴心点, %s: 指向物体原点, %s: 重置法线, %s: 设置指向 3D 游标, %s: 选择并指向网格项, %s: 反转法线 (%s), %s: 球面化 (%s), %s: 对齐 (%s)"
 
@@ -114081,19 +114078,19 @@ msgstr "无选中边"
 msgid "No faces filled"
 msgstr "无已填充面"
 
-#: source/blender/editors/mesh/editmesh_tools.c:5199
+#: source/blender/editors/mesh/editmesh_tools.c:5200
 msgid "No active vertex group"
 msgstr "无活动顶点组"
 
-#: source/blender/editors/mesh/editmesh_tools.c:6441
+#: source/blender/editors/mesh/editmesh_tools.c:6442
 msgid "View not found, cannot sort by view axis"
 msgstr "未找到视图, 无法根据视图坐标定序"
 
-#: source/blender/editors/mesh/editmesh_tools.c:7959
+#: source/blender/editors/mesh/editmesh_tools.c:7960
 msgid "Does not support Individual Origin as pivot"
 msgstr "不支持将单个原点作为轴心"
 
-#: source/blender/editors/mesh/editmesh_tools.c:8624
+#: source/blender/editors/mesh/editmesh_tools.c:8625
 msgid "Can only copy one custom normal, vertex normal or face normal"
 msgstr "只能拷贝一个自定义法线，顶点法线，或者面法线"
 
@@ -114109,11 +114106,11 @@ msgstr "不能旋转 %d 边"
 msgid "Removed %d vertices"
 msgstr "移除了 %d 个顶点"
 
-#: source/blender/editors/mesh/editmesh_tools.c:7355
+#: source/blender/editors/mesh/editmesh_tools.c:7356
 msgid "%d already symmetrical, %d pairs mirrored, %d failed"
 msgstr ""
 
-#: source/blender/editors/mesh/editmesh_tools.c:7363
+#: source/blender/editors/mesh/editmesh_tools.c:7364
 msgid "%d already symmetrical, %d pairs mirrored"
 msgstr ""
 
@@ -115890,7 +115887,7 @@ msgid "Open Directory"
 msgstr "打开目录"
 
 #: source/blender/editors/space_file/file_draw.c:295
-#: source/blender/windowmanager/intern/wm_files.c:2989
+#: source/blender/windowmanager/intern/wm_files.c:2990
 msgid "Cancel"
 msgstr "取消"
 
@@ -118083,15 +118080,15 @@ msgstr "斑斓中国"
 
 #: source/blender/imbuf/intern/thumbs_font.c:37
 msgid "The quick"
-msgstr "快速"
+msgstr "BlenderCN"
 
 #: source/blender/imbuf/intern/thumbs_font.c:38
 msgid "brown fox"
-msgstr "棕色狐狸"
+msgstr "简体字 - 繁體字"
 
 #: source/blender/imbuf/intern/thumbs_font.c:39
 msgid "jumps over"
-msgstr "跳过"
+msgstr "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 
 #: source/blender/imbuf/intern/thumbs_font.c:40
 msgid "the lazy dog"
@@ -119027,7 +119024,7 @@ msgstr "未找到操作 '%s'!"
 msgid "Gizmo group '%s' not found!"
 msgstr "未找到Gizmo组 '%s'!"
 
-#: source/blender/modifiers/intern/MOD_bevel.c:192
+#: source/blender/modifiers/intern/MOD_bevel.c:189
 msgid "Enable 'Auto Smooth' option in mesh settings for hardening"
 msgstr "在网格设置中启用 '自动平滑' 选项以进行强化"
 
@@ -119850,7 +119847,7 @@ msgstr "可信来源[不受信任的路径]"
 msgid "Allow Execution"
 msgstr "允许执行"
 
-#: source/blender/windowmanager/intern/wm_files.c:2997
+#: source/blender/windowmanager/intern/wm_files.c:2998
 msgid "Discard Changes"
 msgstr "放弃修改"
 
