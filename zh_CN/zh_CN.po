@@ -26516,7 +26516,7 @@ msgstr "字符格式编辑设置"
 
 #. :src: bpy.types.TextCurve.family
 msgid "Object Font"
-msgstr "物体字形"
+msgstr "物体字体"
 
 #. :src: bpy.types.TextCurve.family
 msgid "Use Objects as font characters (give font objects a common name followed by the character they represent, eg. 'family-a', 'family-b', etc, set this setting to 'family-', and turn on Vertex Duplication)"
@@ -26537,7 +26537,7 @@ msgstr "曲线变形式文本物体"
 #. :src: bpy.types.SpaceView3D.show_object_select_font
 #. :src: bpy.types.SpaceView3D.show_object_viewport_font
 msgid "Font"
-msgstr "字形"
+msgstr "字体"
 
 #. :src: bpy.types.TextCurve.font_bold
 msgid "Font Bold"
@@ -60964,7 +60964,7 @@ msgstr "更改字符"
 
 #. :src: bpy.types.FONT_OT_change_character
 msgid "Change font character code"
-msgstr "更改字形的字符编码"
+msgstr "更改字体的字符编码"
 
 #. :src: bpy.types.FONT_OT_change_character.delta
 #. :src: bpy.types.FONT_OT_change_spacing.delta
@@ -60990,7 +60990,7 @@ msgstr "更改字间"
 
 #. :src: bpy.types.FONT_OT_change_spacing
 msgid "Change font spacing"
-msgstr "更改字形间距"
+msgstr "更改字体间距"
 
 #. :src: bpy.types.FONT_OT_change_spacing.delta
 msgid "Amount to decrease or increase character spacing with"
@@ -88487,7 +88487,7 @@ msgstr "切换视图时的动画时间 (毫秒), 0为关闭"
 
 #. :src: bpy.types.PreferencesView.text_hinting
 msgid "Text Hinting"
-msgstr "文字提示"
+msgstr "文字微调"
 
 #. :src: bpy.types.PreferencesView.text_hinting
 msgid "Method for making user interface text render sharp"
@@ -108969,7 +108969,7 @@ msgstr "启动画面"
 
 #: scripts/startup/bl_ui/space_userpref.py:205
 msgid "Hinting"
-msgstr "提示"
+msgstr "微调"
 
 #: scripts/startup/bl_ui/space_userpref.py:238
 msgid "New Data"
