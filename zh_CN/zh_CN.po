@@ -25112,7 +25112,7 @@ msgstr "应用笔刷时的影响力度"
 
 #. :src: bpy.types.Brush.stroke_method
 msgid "Stroke Method"
-msgstr "笔画方式"
+msgstr "描边方法"
 
 #. :src: bpy.types.Brush.stroke_method:'DOTS'
 #. :src: bpy.types.MaterialGPencilStyle.mode:'DOTS'
@@ -47598,7 +47598,7 @@ msgstr "使用特殊解算器追踪一个固定的相机位置, 如三脚架"
 
 #. :src: bpy.types.MovieTrackingStabilization
 msgid "Movie tracking stabilization data"
-msgstr "运动追踪稳像数据"
+msgstr "影片追踪稳像数据"
 
 #. :src: bpy.types.MovieTrackingStabilization
 msgid "2D stabilization based on tracking markers"
@@ -94377,7 +94377,7 @@ msgstr "用于创建擦除过渡效果的的序列片段"
 
 #. :src: bpy.types.WipeSequence.angle
 msgid "Edge angle"
-msgstr "边线角度"
+msgstr "边夹角"
 
 #. :src: bpy.types.WipeSequence.blur_width
 msgid "Blur Width"
@@ -98419,7 +98419,7 @@ msgstr "叠加设置"
 #. :src: bpy.types.SpaceView3D.overlay
 #. :src: bpy.types.View3DOverlay
 msgid "Settings for display of overlays in the 3D viewport"
-msgstr "3D 视图覆盖层的显示设置"
+msgstr "3D 视图叠加层的显示设置"
 
 #. :src: bpy.types.SpaceView3D.region_3d
 msgid "3D Region"
@@ -100919,7 +100919,7 @@ msgstr "锐边"
 
 #. :src: bpy.types.ThemeView3D.extra_edge_angle
 msgid "Edge Angle Text"
-msgstr "面夹角提示文字"
+msgstr "边夹角提示文字"
 
 #. :src: bpy.types.ThemeView3D.extra_edge_len
 msgid "Edge Length Text"
@@ -101007,7 +101007,7 @@ msgstr "指示物体关键帧的颜色"
 
 #. :src: bpy.types.ThemeView3D.view_overlay
 msgid "View Overlay"
-msgstr "视图覆盖层"
+msgstr "视图叠加层"
 
 #. :src: bpy.types.ThemeView3D.wire_edit
 msgid "Color for wireframe when in edit mode, but edge selection is active"
@@ -102090,7 +102090,7 @@ msgstr "三围旋转"
 
 #. :src: bpy.types.View3DOverlay
 msgid "3D View Overlay Settings"
-msgstr "3D 视图覆盖设置"
+msgstr "3D 视图叠加设置"
 
 #. :src: bpy.types.View3DOverlay.backwire_opacity
 msgid "Backwire Opacity"
@@ -102186,7 +102186,7 @@ msgstr "显示3D游标"
 
 #. :src: bpy.types.View3DOverlay.show_cursor
 msgid "Display 3D Cursor Overlay"
-msgstr "显示3D 游标覆盖"
+msgstr "显示3D 游标叠加层"
 
 #. :src: bpy.types.View3DOverlay.show_curve_handles
 msgid "Draw Handles"
@@ -102248,7 +102248,7 @@ msgstr "高亮显示选中的连线"
 #: scripts/startup/bl_ui/properties_data_modifier.py:396
 #: scripts/startup/bl_ui/space_view3d.py:5642
 msgid "Edge Angle"
-msgstr "边角度"
+msgstr "边夹角"
 
 #. :src: bpy.types.View3DOverlay.show_extra_edge_angle
 msgid "Display selected edge angle, using global values when set in the transform panel"
@@ -102311,7 +102311,7 @@ msgstr "面朝向"
 
 #. :src: bpy.types.View3DOverlay.show_face_orientation
 msgid "Show the Face Orientation Overlay"
-msgstr "显示面朝向覆盖"
+msgstr "显示面朝向叠加层"
 
 #. :src: bpy.types.View3DOverlay.show_faces
 msgid "Draw Faces"
@@ -102355,7 +102355,7 @@ msgstr "显示视觉开发的球体和调色板"
 
 #. :src: bpy.types.View3DOverlay.show_motion_paths
 msgid "Show the Motion Paths Overlay"
-msgstr "覆盖显示运动路径"
+msgstr "显示运动路径叠加层"
 
 #. :src: bpy.types.View3DOverlay.show_object_origins
 msgid "Object Origins"
@@ -102383,7 +102383,7 @@ msgstr "显示隐藏的线框"
 
 #. :src: bpy.types.View3DOverlay.show_onion_skins
 msgid "Show the Onion Skinning Overlay"
-msgstr "覆盖显示洋葱皮"
+msgstr "显示洋葱皮叠加层"
 
 #. :src: bpy.types.View3DOverlay.show_ortho_grid
 msgid "Display Grid"
@@ -102403,11 +102403,11 @@ msgstr "在非线框模式下, 显示所选物体的轮廓线"
 
 #. :src: bpy.types.View3DOverlay.show_overlays
 msgid "Show Overlays"
-msgstr "显示覆盖"
+msgstr "显示叠加层"
 
 #. :src: bpy.types.View3DOverlay.show_overlays
 msgid "Display overlays like gizmos and outlines"
-msgstr "显示覆盖, 如 gizmos 和轮廓线"
+msgstr "显示叠加层, 如 gizmos 和轮廓线"
 
 #. :src: bpy.types.View3DOverlay.show_paint_wire
 msgid "Show Wire"
@@ -102550,7 +102550,7 @@ msgstr "顶点绘制不透明度"
 
 #. :src: bpy.types.View3DOverlay.vertex_paint_mode_opacity
 msgid "Opacity of the vertex paint mode overlay"
-msgstr "顶点绘制模式下覆盖层的不透明度"
+msgstr "顶点绘制模式下叠加层的不透明度"
 
 #. :src: bpy.types.View3DOverlay.weight_paint_mode_opacity
 msgid "Weight Paint Opacity"
@@ -102558,7 +102558,7 @@ msgstr "权重绘制不透明度"
 
 #. :src: bpy.types.View3DOverlay.weight_paint_mode_opacity
 msgid "Opacity of the weight paint mode overlay"
-msgstr "权重绘制模式下覆盖层的不透明度"
+msgstr "权重绘制模式下叠加层的不透明度"
 
 #. :src: bpy.types.View3DOverlay.wireframe_threshold
 msgid "Wireframe Threshold"
@@ -110628,7 +110628,7 @@ msgstr "显示Gizmo"
 
 #: scripts/startup/bl_ui/space_view3d.py:4707
 msgid "Toggle Overlays"
-msgstr "切换覆盖"
+msgstr "切换叠加层"
 
 #: scripts/startup/bl_ui/space_view3d.py:4842
 msgid "Local Camera"
@@ -110660,7 +110660,7 @@ msgstr "朝向"
 
 #: scripts/startup/bl_ui/space_view3d.py:5344
 msgid "Viewport Overlays"
-msgstr "视图覆盖"
+msgstr "视图叠加层"
 
 #: scripts/startup/bl_ui/space_view3d.py:5397
 msgid "Text Info"
@@ -110697,7 +110697,7 @@ msgstr "网格分析"
 
 #: scripts/startup/bl_ui/space_view3d.py:5646
 msgid "Face Angle"
-msgstr "面夹角"
+msgstr "面内角"
 
 #: scripts/startup/bl_ui/space_view3d.py:5700
 msgid "Edge Marks"
@@ -112176,7 +112176,7 @@ msgstr "重构时需要在两个关键帧帧之间设置至少8个共同轨迹"
 
 #: source/blender/blenkernel/intern/tracking_solver.c:352
 msgid "Blender is compiled without motion tracking library"
-msgstr "Blender 没有使用运动跟踪库来编译"
+msgstr "Blender 没有使用运动追踪库来编译"
 
 #: source/blender/blenkernel/intern/undo_system.c:357
 msgid "Original Mode"
@@ -112568,7 +112568,7 @@ msgstr "物体模式"
 
 #: source/blender/draw/modes/overlay_mode.c:532
 msgid "OverlayEngine"
-msgstr "覆盖引擎"
+msgstr "叠加层引擎"
 
 #: source/blender/draw/modes/paint_texture_mode.c:343
 msgid "PaintTextureMode"
