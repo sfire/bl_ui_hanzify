@@ -15844,7 +15844,7 @@ msgstr "影响函数曲线形状的修改器"
 #. :src: bpy.types.NlaStrip.mute
 #. :src: bpy.types.NlaTrack.mute
 msgid "Muted"
-msgstr "禁用"
+msgstr "屏蔽"
 
 #. :src: bpy.types.FCurve.mute
 #. :src: bpy.types.FModifier.mute
@@ -27929,7 +27929,7 @@ msgstr ""
 #. :src: bpy.types.MovieSequence.alpha_mode:'STRAIGHT'
 #. :src: bpy.types.SceneSequence.alpha_mode:'STRAIGHT'
 msgid "Straight"
-msgstr "直接"
+msgstr "直通型"
 
 #. :src: bpy.types.Image.alpha_mode:'STRAIGHT'
 #. :src: bpy.types.IMPORT_IMAGE_OT_to_plane.alpha_mode:'STRAIGHT'
@@ -27946,7 +27946,7 @@ msgstr ""
 #. :src: bpy.types.MovieSequence.alpha_mode:'PREMUL'
 #. :src: bpy.types.SceneSequence.alpha_mode:'PREMUL'
 msgid "Premultiplied"
-msgstr "预乘"
+msgstr "预乘型"
 
 #. :src: bpy.types.Image.alpha_mode:'PREMUL'
 #. :src: bpy.types.IMPORT_IMAGE_OT_to_plane.alpha_mode:'PREMUL'
@@ -27956,7 +27956,7 @@ msgstr ""
 #. :src: bpy.types.Image.alpha_mode:'CHANNEL_PACKED'
 #. :src: bpy.types.IMPORT_IMAGE_OT_to_plane.alpha_mode:'CHANNEL_PACKED'
 msgid "Channel Packed"
-msgstr "通道已打包"
+msgstr "通道打包"
 
 #. :src: bpy.types.Image.alpha_mode:'CHANNEL_PACKED'
 #. :src: bpy.types.IMPORT_IMAGE_OT_to_plane.alpha_mode:'CHANNEL_PACKED'
@@ -41041,7 +41041,7 @@ msgstr "特殊纹理"
 
 #. :src: bpy.types.TEXT_MT_edit_to3d
 msgid "Text To 3D Object"
-msgstr "将文本转换为 3D 物体"
+msgstr "将文本转换为三维物体"
 
 #. :src: bpy.types.TEXT_MT_templates
 #. :src: bpy.types.TOPBAR_MT_templates_more
@@ -48281,7 +48281,7 @@ msgstr "可选的自定义节点标签"
 #. :src: bpy.types.SequenceModifier.mute
 #. :src: bpy.types.ShapeKey.mute
 msgid "Mute"
-msgstr "禁用"
+msgstr "屏蔽"
 
 #. :src: bpy.types.Node.name
 msgid "Unique node identifier"
@@ -57347,7 +57347,7 @@ msgstr "设置追踪场景"
 
 #. :src: bpy.types.CLIP_OT_setup_tracking_scene
 msgid "Prepare scene for compositing 3D objects into this footage"
-msgstr "准备场景, 用于将 3D 物体合成到镜头中"
+msgstr "准备场景, 用于将三维物体合成到镜头中"
 
 #. :src: bpy.types.CLIP_OT_slide_marker
 msgctxt "Operator"
@@ -57611,7 +57611,7 @@ msgstr "允许使用初始鼠标位置"
 #. :src: bpy.types.IMAGE_OT_view_zoom_in
 msgctxt "Operator"
 msgid "View Zoom In"
-msgstr "缩小视图"
+msgstr "放大视图"
 
 #. :src: bpy.types.CLIP_OT_view_zoom_in
 #. :src: bpy.types.VIEW2D_OT_zoom_in
@@ -68707,7 +68707,7 @@ msgstr "切换静默"
 
 #. :src: bpy.types.NLA_OT_mute_toggle
 msgid "Mute or un-mute selected strips"
-msgstr "禁用或启用所选的片段"
+msgstr "屏蔽或启用所选的片段"
 
 #. :src: bpy.types.NLA_OT_select_all
 msgid "Select or deselect all NLA-Strips"
@@ -78257,7 +78257,7 @@ msgstr "开始搜索文本"
 #. :src: bpy.types.TEXT_OT_to_3d_object
 msgctxt "Operator"
 msgid "To 3D Object"
-msgstr "至 3D 物体"
+msgstr "至三维物体"
 
 #. :src: bpy.types.TEXT_OT_to_3d_object
 msgid "Create 3D text object from active text data-block"
@@ -80357,7 +80357,7 @@ msgstr "缩放 2D 视图"
 #: scripts/startup/bl_ui/space_view3d.py:1121
 msgctxt "Operator"
 msgid "Zoom In"
-msgstr "放大"
+msgstr "视图放大"
 
 #. :src: bpy.types.VIEW2D_OT_zoom_in.zoomfacx
 #. :src: bpy.types.VIEW2D_OT_zoom_out.zoomfacx
@@ -80374,7 +80374,7 @@ msgstr "Y 向缩放系数"
 #: scripts/startup/bl_ui/space_view3d.py:1122
 msgctxt "Operator"
 msgid "Zoom Out"
-msgstr "缩小"
+msgstr "视图缩小"
 
 #. :src: bpy.types.VIEW3D_OT_background_image_add
 msgctxt "Operator"
@@ -85032,7 +85032,7 @@ msgstr "特性权重"
 
 #. :src: bpy.types.TEXT_PT_find
 msgid "Find & Replace"
-msgstr "查找&替换"
+msgstr "查找与替换"
 
 #. :src: bpy.types.TIME_PT_playback
 #: scripts/startup/bl_ui/space_time.py:100
@@ -94721,7 +94721,7 @@ msgstr "对 MPEG 影片使用多帧预寻"
 
 #. :src: bpy.types.MovieSequence.stream_index
 msgid "Stream Index"
-msgstr "流目录"
+msgstr "流编号"
 
 #. :src: bpy.types.MovieSequence.stream_index
 msgid "For files with several movie streams, use the stream with the given index"
@@ -101873,7 +101873,7 @@ msgstr "控制中心点(仅适用物体、姿态和权重绘制模式)"
 
 #. :src: bpy.types.ToolSettings.use_uv_select_sync
 msgid "UV Sync Selection"
-msgstr "UV 同步选项"
+msgstr "UV 选区同步"
 
 # rblc
 #. :src: bpy.types.ToolSettings.use_uv_select_sync
@@ -108757,7 +108757,7 @@ msgstr "ID数据"
 
 #: scripts/startup/bl_ui/space_outliner.py:336
 msgid "Sync Selection"
-msgstr "同步选择"
+msgstr "选区同步"
 
 #: scripts/startup/bl_ui/space_outliner.py:340
 msgid "Search:"
@@ -108937,7 +108937,7 @@ msgstr "滑动片段内容"
 #: scripts/startup/bl_ui/space_sequencer.py:603
 msgctxt "Operator"
 msgid "Change Path/Files"
-msgstr "改变日期 / 文件"
+msgstr "改变路径 / 文件"
 
 #: scripts/startup/bl_ui/space_sequencer.py:604
 msgctxt "Operator"
@@ -108947,7 +108947,7 @@ msgstr "交换数据"
 #: scripts/startup/bl_ui/space_sequencer.py:904
 #: scripts/startup/bl_ui/space_sequencer.py:1015
 msgid "Position X"
-msgstr "X 位置"
+msgstr "位置 X"
 
 #: scripts/startup/bl_ui/space_sequencer.py:1105
 msgid "Alignment X"
@@ -109256,7 +109256,7 @@ msgstr "单词"
 #: scripts/startup/bl_ui/space_text.py:408
 msgctxt "Operator"
 msgid "Find & Replace..."
-msgstr "查找&替换..."
+msgstr "查找与替换..."
 
 #: scripts/startup/bl_ui/space_text.py:410
 msgctxt "Operator"
@@ -109269,7 +109269,7 @@ msgstr "跳转到..."
 #: scripts/startup/bl_ui/space_view3d.py:1084
 msgctxt "Operator"
 msgid "Top"
-msgstr "顶视图"
+msgstr "顶视图(行)"
 
 #: scripts/startup/bl_ui/space_text.py:202
 #: scripts/startup/bl_ui/space_text.py:330
@@ -109277,7 +109277,7 @@ msgstr "顶视图"
 #: scripts/startup/bl_ui/space_view3d.py:1085
 msgctxt "Operator"
 msgid "Bottom"
-msgstr "底视图"
+msgstr "底视图(行)"
 
 #: scripts/startup/bl_ui/space_text.py:206
 #: scripts/startup/bl_ui/space_text.py:334
@@ -109307,18 +109307,18 @@ msgstr "下一行"
 #: scripts/startup/bl_ui/space_text.py:344
 msgctxt "Operator"
 msgid "Previous Word"
-msgstr "上一单词"
+msgstr "前一个词"
 
 #: scripts/startup/bl_ui/space_text.py:217
 #: scripts/startup/bl_ui/space_text.py:345
 msgctxt "Operator"
 msgid "Next Word"
-msgstr "下一单词"
+msgstr "后一个词"
 
 #: scripts/startup/bl_ui/space_text.py:373
 msgctxt "Operator"
 msgid "One Object"
-msgstr "单一物体"
+msgstr "单个物体"
 
 #: scripts/startup/bl_ui/space_text.py:376
 msgctxt "Operator"
@@ -109855,11 +109855,11 @@ msgstr "安装..."
 
 #: scripts/startup/bl_ui/space_userpref.py:910
 msgid "Axis X"
-msgstr "X 轴"
+msgstr "轴 X"
 
 #: scripts/startup/bl_ui/space_userpref.py:962
 msgid "Shadow Offset X"
-msgstr "阴影偏移X"
+msgstr "阴影偏移 X"
 
 #: scripts/startup/bl_ui/space_userpref.py:978
 msgid "Panel Title"
@@ -110826,7 +110826,7 @@ msgstr "移动到层"
 #: scripts/startup/bl_ui/space_view3d.py:6321
 msgctxt "Operator"
 msgid "Close"
-msgstr "邻近"
+msgstr "闭合"
 
 #: scripts/startup/bl_ui/space_view3d.py:4520
 msgctxt "Operator"
@@ -110974,7 +110974,7 @@ msgstr "整理笔画"
 #: scripts/startup/bl_ui/space_view3d.py:6303
 msgctxt "Operator"
 msgid "Toggle Caps"
-msgstr "切换大小写"
+msgstr "切换封顶类型"
 
 #: scripts/startup/bl_ui/space_view3d.py:6359
 #: scripts/startup/bl_ui/space_view3d.py:6392
@@ -111711,7 +111711,7 @@ msgstr "能量"
 #: scripts/startup/bl_ui/space_view3d.py:2368
 msgctxt "Operator"
 msgid "Size X"
-msgstr "X 尺寸"
+msgstr "尺寸 X"
 
 #: scripts/startup/bl_ui/space_view3d.py:2394
 msgctxt "Operator"
